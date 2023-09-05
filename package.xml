@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Deposite__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Standard User Clone</members>
-        <name>Profile</name>
+        <members>HelloWorld</members>
+        <name>ApexClass</name>
     </types>
     <version>58.0</version>
 </Package>
