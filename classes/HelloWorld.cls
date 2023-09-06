@@ -1,6 +1,6 @@
 public class HelloWorld {
     public static String sayHello(String name) {
-        // This method will simply greet the user tyui123
+        // This method will simply greet the user klpo
         // with his name
         return 'Hello, ' + name + '!';
     }
