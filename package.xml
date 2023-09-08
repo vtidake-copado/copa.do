@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AccountUtils</members>
-        <name>ApexClass</name>
+        <members>TestLightningAuraDefinationBundle.auradoc</members>
+        <members>TestLightningAuraDefinationBundle.cmp</members>
+        <members>TestLightningAuraDefinationBundle.css</members>
+        <members>TestLightningAuraDefinationBundle.design</members>
+        <members>TestLightningAuraDefinationBundle.svg</members>
+        <members>TestLightningAuraDefinationBundleController.js</members>
+        <members>TestLightningAuraDefinationBundleHelper.js</members>
+        <members>TestLightningAuraDefinationBundleRenderer.js</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <version>58.0</version>
 </Package>
