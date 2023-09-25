@@ -1,6 +1,6 @@
 public class StringUtils {
     public static String reverseString(String input) {
-        String reversed = ''; //declare the variable
+        String reversed = '';
         for (Integer i = input.length() - 1; i >= 0; i--) {
             reversed += input.charAt(i);
         }
