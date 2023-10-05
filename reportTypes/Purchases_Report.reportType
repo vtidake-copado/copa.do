@@ -41,11 +41,6 @@
             <field>LastModifiedBy</field>
             <table>Purchase__c</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Date__c</field>
-            <table>Purchase__c</table>
-        </columns>
         <masterLabel>Purchases</masterLabel>
     </sections>
 </ReportType>
