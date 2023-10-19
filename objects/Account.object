@@ -238,6 +238,18 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Account_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>My_Global_Picklist</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Active__c</fullName>
         <externalId>false</externalId>
         <label>Active</label>
@@ -561,6 +573,34 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <recordTypes>
+        <fullName>Business_Record_Type</fullName>
+        <active>true</active>
+        <label>Business Record Type</label>
+        <picklistValues>
+            <picklist>Account_Picklist__c</picklist>
+            <values>
+                <fullName>Value1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
