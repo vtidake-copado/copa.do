@@ -25,6 +25,11 @@
         <default>false</default>
         <label>Value5</label>
     </customValue>
+    <customValue>
+        <fullName>Value7</fullName>
+        <default>false</default>
+        <label>Value7</label>
+    </customValue>
     <masterLabel>My Global Picklist</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
