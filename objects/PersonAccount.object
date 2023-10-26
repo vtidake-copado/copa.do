@@ -49,6 +49,10 @@
                 <fullName>Value5</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Value7</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Industry</picklist>
