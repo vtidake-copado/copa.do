@@ -13,5 +13,5 @@
         <members>PersonAccount.PersonAccount</members>
         <name>RecordType</name>
     </types>
-    <version>58.0</version>
+    <version>59.0</version>
 </Package>
