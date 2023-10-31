@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Picklist_2__c</members>
+        <members>Account.Account_Picklist__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>My_Global_Picklist_2</members>
+        <members>My_Global_Picklist</members>
         <name>GlobalValueSet</name>
     </types>
-    <version>58.0</version>
+    <types>
+        <members>Account.Business_Record_Type</members>
+        <members>PersonAccount.PersonAccount</members>
+        <name>RecordType</name>
+    </types>
+    <version>59.0</version>
 </Package>
