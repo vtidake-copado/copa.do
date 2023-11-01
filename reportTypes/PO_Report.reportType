@@ -46,11 +46,6 @@
             <field>Account__c</field>
             <table>Purchase_Order__c</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Signed__c</field>
-            <table>Purchase_Order__c</table>
-        </columns>
         <masterLabel>Purchase Orders</masterLabel>
     </sections>
 </ReportType>

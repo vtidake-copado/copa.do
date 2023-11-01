@@ -165,14 +165,6 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>Signed__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Signed</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
     <label>Purchase Order</label>
     <nameField>
         <label>Purchase Order Name</label>
