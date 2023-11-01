@@ -41,11 +41,6 @@
             <field>LastModifiedBy</field>
             <table>Purchase_Order__c</table>
         </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Account__c</field>
-            <table>Purchase_Order__c</table>
-        </columns>
         <masterLabel>Purchase Orders</masterLabel>
     </sections>
 </ReportType>
