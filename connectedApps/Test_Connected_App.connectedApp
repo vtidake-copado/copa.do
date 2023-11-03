@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://localhost:8443/examples/hello-world/index.jsp</canvasUrl>
+        <locations>Chatter</locations>
+        <locations>Aura</locations>
+        <locations>Publisher</locations>
+        <locations>ChatterFeed</locations>
+        <locations>ServiceDesk</locations>
+        <locations>OpenCTI</locations>
+        <locations>MobileNav</locations>
+        <locations>PageLayout</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>arturogueznez@gmail.com</contactEmail>
+    <description>New Description</description>
+    <label>Test Connected App</label>
+    <oauthConfig>
+        <callbackUrl>https://logoin.salesforce.com/service/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9HxRZv05HarS49juVPUSjY7XrahuqxIsW.DHUnaoUPDmKZxPgdV6MoJlk8UOYJ42NCz0JtX4oymhu_IzX</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

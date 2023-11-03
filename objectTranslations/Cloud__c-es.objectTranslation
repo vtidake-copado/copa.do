@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cloud</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Clouds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bottle2 --></label>
+        <name>Bottle2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bottle --></label>
+        <name>Bottle__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,47 @@
+{
+  "appPageId" : "cf3fe560-89f3-46c9-b79f-74a91998c7c7",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "77e772ad-2e44-46bf-b242-4e1a74c52d02",
+  "label" : "User Settings",
+  "regions" : [ {
+    "id" : "fec78a38-80ed-4690-b9f3-63d71a8cb8f8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "accountSectionTitle" : "Account",
+        "accountTabName" : "Account Details",
+        "connectedSourcesTabName" : "Connected Sources",
+        "emailNotificationsTitle" : "Email Notifications",
+        "emailSectionDescText" : "When email notifications are enabled, email me when someone:",
+        "hideChatterNotificationSettings" : false,
+        "hideConnectedSources" : false,
+        "hideEmailNotificationSettings" : false,
+        "hideProfileVisibilitySettings" : false,
+        "id" : "{!recordId}",
+        "locationTitle" : "Location",
+        "profileSectionDescText" : "Customize who is able to see what on your profile page",
+        "profileSectionToolTipText" : "Restricted: Visible to the employees of the company that created the site.\\nMembers: Visible to logged-in members.\\nPublic: Visible to anyone viewing pages that don't require login.",
+        "profileVisibilityTitle" : "Profile Visibility",
+        "settingsPageTitle" : "My Settings"
+      },
+      "componentName" : "forceCommunity:userSettingsCustomizable",
+      "id" : "006a000e-ec65-45c8-a696-8cb7c83fef19",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "087144b9-77e6-410d-ac5a-7e9e0e25c4fe",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "076bb0cd-15a3-489c-bf85-22cd0f6b89f7",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "usersettings"
+}

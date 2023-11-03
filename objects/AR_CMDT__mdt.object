@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AR_CMDT_Field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Description</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>AR CMDT Field</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>AR CMDT</label>
+    <pluralLabel>AR CMDT</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

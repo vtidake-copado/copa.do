@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote/Proposal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote/Proposals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Provisioning_Contact --></label>
+        <name>Provisioning_Contact__c</name>
+        <relationshipLabel><!-- Quote/Proposals --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- RecordType1 --></label>
+        <name>RecordType1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordType2 --></label>
+        <name>RecordType2</name>
+    </recordTypes>
+</CustomObjectTranslation>

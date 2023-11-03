@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Metadata_Type_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metadata Type Picklist</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PicklistVale1</fullName>
+                    <default>true</default>
+                    <label>PicklistVale1</label>
+                </value>
+                <value>
+                    <fullName>PicklistValue2</fullName>
+                    <default>false</default>
+                    <label>PicklistValue2</label>
+                </value>
+                <value>
+                    <fullName>PicklistValue3</fullName>
+                    <default>false</default>
+                    <label>PicklistValue3</label>
+                </value>
+                <value>
+                    <fullName>PicklistValue4</fullName>
+                    <default>false</default>
+                    <label>PicklistValue4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>email__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <label>Elisa Metadata Type</label>
+    <pluralLabel>Elisa Metadata Types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

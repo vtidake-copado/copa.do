@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <fields>
+        <fullName>Account_Big__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Big CSTM objects</relationshipLabel>
+        <relationshipName>Big_CSTM_objects</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Big__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Big CSTM objects</relationshipLabel>
+        <relationshipName>Big_CSTM_objects</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <indexes>
+        <fullName>Index1</fullName>
+        <fields>
+            <name>Number__c</name>
+            <sortDirection>ASC</sortDirection>
+        </fields>
+        <label>Index1</label>
+    </indexes>
+    <label>Big CSTM object</label>
+    <pluralLabel>Big CSTM objects</pluralLabel>
+</CustomObject>

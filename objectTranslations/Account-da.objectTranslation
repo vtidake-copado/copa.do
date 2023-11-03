@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Kontoen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En konto</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Konto</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Kontiene</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Kontoer</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>KontoerSSS</value>
+    </caseValues>
+    <fields>
+        <label><!-- ASCII Test --></label>
+        <name>ASCII_Test__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan 93</masterLabel>
+            <translation><!-- Afghanistan 93 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Café</masterLabel>
+            <translation><!-- Café --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Décor</masterLabel>
+            <translation><!-- Décor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AWS Test Field --></label>
+        <name>AWS_Test_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acc_Id --></label>
+        <name>Acc_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountLookup --></label>
+        <name>AccountLookup__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accoutn Field 1 --></label>
+        <name>Accoutn_Field_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activated On --></label>
+        <name>Activated_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auto Resolve Field --></label>
+        <name>Auto_Resolve_test__c</name>
+        <picklistValues>
+            <masterLabel>Auto1</masterLabel>
+            <translation><!-- Auto1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto2</masterLabel>
+            <translation><!-- Auto2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto3</masterLabel>
+            <translation><!-- Auto3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto4</masterLabel>
+            <translation><!-- Auto4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto5</masterLabel>
+            <translation><!-- Auto5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto6</masterLabel>
+            <translation><!-- Auto6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto7</masterLabel>
+            <translation><!-- Auto7 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BigMOD --></label>
+        <name>Big__c</name>
+    </fields>
+    <fields>
+        <label><!-- BugTest1 --></label>
+        <name>BugTest1__c</name>
+    </fields>
+    <fields>
+        <label><!-- BugTest2 --></label>
+        <name>BugTest2__c</name>
+    </fields>
+    <fields>
+        <label><!-- BugTest --></label>
+        <name>BugTest__c</name>
+    </fields>
+    <fields>
+        <label><!-- CVC Test 1 --></label>
+        <name>CVC_Test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CVC Test 2 --></label>
+        <name>CVC_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plus</masterLabel>
+            <translation><!-- Plus --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 2 --></label>
+        <name>Field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field 3 --></label>
+        <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- GitHub Test 1 --></label>
+        <name>GitHub_Test_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- GitHub Test 2 --></label>
+        <name>GitHub_Test_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install --></label>
+        <name>Install__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ivan TEst --></label>
+        <name>Ivan_TEst__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+        <picklistValues>
+            <masterLabel>Four</masterLabel>
+            <translation><!-- Four --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One</masterLabel>
+            <translation><!-- One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three</masterLabel>
+            <translation><!-- Three --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two</masterLabel>
+            <translation><!-- Two --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lets Override 3 --></label>
+        <name>Lets_Override_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nested Test RT --></label>
+        <name>Nested_Test_RT__c</name>
+        <picklistValues>
+            <masterLabel>Destructive 3</masterLabel>
+            <translation><!-- Destructive 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive1</masterLabel>
+            <translation><!-- Destructive1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destructive2</masterLabel>
+            <translation><!-- Destructive2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist field test PA fix --></label>
+        <name>Picklist_field_test_PA_fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iron</masterLabel>
+            <translation><!-- Iron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wood</masterLabel>
+            <translation><!-- Wood --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stop filter --></label>
+        <name>Stop_filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stop update --></label>
+        <name>Stop_update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stop validation --></label>
+        <name>Stop_validation__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubTrade Channel --></label>
+        <name>SubTrade_Channel__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation><!-- 001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>020</masterLabel>
+            <translation><!-- 020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>021 - Hotell</masterLabel>
+            <translation><!-- 021 - Hotell --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test ADD --></label>
+        <name>Test_ADD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Override 2 --></label>
+        <name>Test_Override_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Formula --></label>
+        <name>Text_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trim Level --></label>
+        <name>Trim_Level__c</name>
+        <picklistValues>
+            <masterLabel>Level1</masterLabel>
+            <translation><!-- Level1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level2</masterLabel>
+            <translation><!-- Level2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Level3</masterLabel>
+            <translation><!-- Level3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trimming Acc --></label>
+        <name>Trimming_Acc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Victor Acc Autonumber --></label>
+        <name>Victor_Acc_Autonumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2nd override test --></label>
+        <name>X2nd_override_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- article test --></label>
+        <name>article_test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override 1 --></label>
+        <name>override_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- retrieve only 1 --></label>
+        <name>retrieve_only_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- retrieve only 2 --></label>
+        <name>retrieve_only_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- search layout --></label>
+        <name>search_layout__c</name>
+    </fields>
+    <fields>
+        <label><!-- xyz Account Number --></label>
+        <name>xyz_Account_Number__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Auto Resolve RT --></label>
+        <name>Auto_Resolve_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Business Account --></label>
+        <name>Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DeleteRTacc --></label>
+        <name>DeleteRTacc</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RT Nested Test --></label>
+        <name>RT_Nested_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Description MOD --></description>
+        <label><!-- Record Type1 --></label>
+        <name>Record_Type1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type2 --></label>
+        <name>Record_Type2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Record Type3 --></label>
+        <name>Record_Type3</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This error will be never displayed. --></errorMessage>
+        <name>New_Validation_Acc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Always false no matter what --></errorMessage>
+        <name>Prevent_Edit_to_Relationship_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a name for the XXXXXXXXXXX account --></errorMessage>
+        <name>Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

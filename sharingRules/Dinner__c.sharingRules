@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>DinnerRuleAutoResolve</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DinnerRuleAutoResolve</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Dinner_Type__c</field>
+            <operation>equals</operation>
+            <value>Full</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>NEW_Sharing_Criteria</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NEW Sharing Criteria</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Dinner_Sharing_Rule_All_MOD</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Dinner Sharing Rule All MOD</label>
+        <sharedTo>
+            <role>CFO</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NEW2_Sharing_owner2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NEW2 Sharing owner2</label>
+        <sharedTo>
+            <group>API_Public_Group2</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>API_Public_Group2</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>NEW_Sharing_owner</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>NEW Sharing owner</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

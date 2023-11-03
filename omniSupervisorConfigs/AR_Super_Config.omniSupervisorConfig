@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniSupervisorConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isTimelineHidden>false</isTimelineHidden>
+    <masterLabel>AR Super Config</masterLabel>
+    <omniSupervisorConfigAction>
+        <actionName>ChangeQueues</actionName>
+        <actionTab>AllAgents</actionTab>
+        <displayOrder>0</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigGroup>
+        <group>API_Public_Group2</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigProfile>
+        <profile>admin - clone</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigQueue>
+        <queue>Leads_Queue</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigSkill>
+        <skill>Skills_AAA</skill>
+    </omniSupervisorConfigSkill>
+    <skillVisibility>AnySkill</skillVisibility>
+</OmniSupervisorConfig>

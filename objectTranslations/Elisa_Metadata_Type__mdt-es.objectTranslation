@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Elisa Metadata Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Elisa Metadata Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- Metadata Type Picklist --></label>
+        <name>Metadata_Type_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>PicklistVale1</masterLabel>
+            <translation><!-- PicklistVale1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PicklistValue2</masterLabel>
+            <translation><!-- PicklistValue2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PicklistValue3</masterLabel>
+            <translation><!-- PicklistValue3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PicklistValue4</masterLabel>
+            <translation><!-- PicklistValue4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>email__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

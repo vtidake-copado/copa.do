@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Best Case</masterLabel>
+        <translation>Czech Best 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Czech Closed 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commit</masterLabel>
+        <translation>Czech Commit 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Omitted</masterLabel>
+        <translation>Czech Ommitted 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pipeline</masterLabel>
+        <translation>Czech Pipeline 2</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

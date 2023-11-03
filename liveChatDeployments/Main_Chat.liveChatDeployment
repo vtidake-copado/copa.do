@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectionTimeoutDuration>50</connectionTimeoutDuration>
+    <connectionWarningDuration>40</connectionWarningDuration>
+    <displayQueuePosition>false</displayQueuePosition>
+    <enablePrechatApi>true</enablePrechatApi>
+    <enableTranscriptSave>false</enableTranscriptSave>
+    <label>Main Chat</label>
+    <windowTitle>Main Chat</windowTitle>
+</LiveChatDeployment>

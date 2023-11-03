@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFeedFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteria>
+        <feedItemType>CaseCommentPost</feedItemType>
+        <feedItemVisibility>AllUsers</feedItemVisibility>
+        <relatedSObjectType>CaseComment</relatedSObjectType>
+    </criteria>
+    <criteria>
+        <feedItemType>PollPost</feedItemType>
+        <feedItemVisibility>AllUsers</feedItemVisibility>
+    </criteria>
+    <description>Description feed filter</description>
+    <label>Test Case Filter</label>
+</CustomFeedFilter>

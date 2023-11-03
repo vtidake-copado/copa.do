@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bicycle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bicycle</value>
+    </caseValues>
+    <fields>
+        <label><!-- Electric --></label>
+        <name>Electric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintainance Cost --></label>
+        <name>Maintainance_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Date --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

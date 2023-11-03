@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SMA DefaultSettings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SMA_DefaultSettings</value>
+    </caseValues>
+    <fields>
+        <label><!-- InstallerCommunity Queue DACH --></label>
+        <name>InstallerCommunity_Queue_DACH__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

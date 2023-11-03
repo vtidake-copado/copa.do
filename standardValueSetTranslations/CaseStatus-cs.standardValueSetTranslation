@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Czech Closed</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalated</masterLabel>
+        <translation>Czech Escalated</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation>Czech New</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Working</masterLabel>
+        <translation>Czech Working</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

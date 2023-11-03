@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Validation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Validation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Validation Date --></label>
+        <name>Validation_Date__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

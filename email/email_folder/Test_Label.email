@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="test label" recipientType="Contact" >
+<messaging:plainTextEmailBody >
+Congratulations!
+<apex:variable var="EmailLabel" value="{!$Label.EmailLabel}"/>
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>
