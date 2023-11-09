@@ -1,0 +1,31 @@
+{
+    "Account": {
+        "AccountNumber": "12345",
+        "Phone": "(603) 801-2640",
+        "PolicyHolder": "Connor Consumer"
+    },
+    "AccountId": "0016A000003KM6zQAG",
+    "AnnualPremium": 2270,
+    "Carrier": {
+        "Id": "0016A000003KMUWQA4",
+        "Name": "SAMPLE CARRIER"
+    },
+    "CarrierId": "0016A000003KMUWQA4",
+    "ContactId": "0036A000002E3sdQAC",
+    "DaysToExpire": 319,
+    "ExpirationDate": "2018-05-15",
+    "InceptionDate": "2016-06-03",
+    "LastModifiedDate": "2017-06-15T14:22:25.000Z",
+    "Name": "SAMPLE Perm Life",
+    "PolicyFaceAmount": 1000000,
+    "PolicyHolder": "Connor Consumer",
+    "PolicyId": "02i6A00000053MGQAY",
+    "PrimaryProducerId": "0036A000002ECuAQAW",
+    "Product2Id": "01t6A000000FCajQAG",
+    "RecordTypeId": "0126A000000XrR2QAK",
+    "RootAssetId": "02i6A00000053MGQAY",
+    "Status": "Pending",
+    "Term": "Annual",
+    "TotalValue": 500001,
+    "Type": "Permanent Life"
+}

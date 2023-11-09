@@ -1,0 +1,49 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetResponseValues",
+    "OmniProcessId": {
+        "Name": "InsRecordHeaderDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InsRecordHeader/getDetails/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "backgroundImage": "https://maps.googleapis.com/maps/api/staticmap?center=%GetAccountDR:address%&size=400x300&key=%SetAPIKeys:googleMapsAPIKey%",
+            "fallbackIcon": "standard:account",
+            "fields": {
+                "Address": "%GetAccountDR:address%",
+                "Client Phone": "%GetAccountDR:phone%",
+                "Revenue": "%GetAccountDR:revenue%"
+            },
+            "recordImage": "=IF(%GetAccountDR:recordImage%, CONCAT('/sfc/servlet.shepherd/document/download/',%GetAccountDR:recordImage%),$Vlocity.NULL)",
+            "recordName": "%GetAccountDR:recordName%",
+            "status": {
+                "backgroundColor": "%SetStatus:backgroundColor%",
+                "fontColor": "%SetStatus:fontColor%",
+                "value": "%GetAccountDR:status%"
+            },
+            "weather": {
+                "description": "%WeatherApiRequest:weather:description%",
+                "icon": "https://www.weatherbit.io/static/img/icons/%WeatherApiRequest:weather:icon%.png",
+                "temperature": "%WeatherApiRequest:temp%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InsRecordHeader/getDetails/Procedure/SetResponseValues"
+}

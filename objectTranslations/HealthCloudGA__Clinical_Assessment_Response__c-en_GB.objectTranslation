@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Clinical Assessment Response</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Clinical Assessment Responses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abdominal Pain --></label>
+        <name>HealthCloudGA__AbdominalPain__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cardiovascular Disease --></label>
+        <name>HealthCloudGA__CardiovascularDisease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chills --></label>
+        <name>HealthCloudGA__Chills__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chronic Liver Disease --></label>
+        <name>HealthCloudGA__ChronicLiverDisease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chronic Lung Disease --></label>
+        <name>HealthCloudGA__ChronicLungDisease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chronic Renal Disease --></label>
+        <name>HealthCloudGA__ChronicRenalDisease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cough --></label>
+        <name>HealthCloudGA__Cough__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Smoker --></label>
+        <name>HealthCloudGA__CurrentSmoker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diabetes Mellitus --></label>
+        <name>HealthCloudGA__DiabetesMellitus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diarrhea --></label>
+        <name>HealthCloudGA__Diarrhoea__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fever Over Threshold --></label>
+        <name>HealthCloudGA__FeverOverThreshold__c</name>
+    </fields>
+    <fields>
+        <label><!-- Former Smoker --></label>
+        <name>HealthCloudGA__FormerSmoker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Headache --></label>
+        <name>HealthCloudGA__Headache__c</name>
+    </fields>
+    <fields>
+        <label><!-- Highest Recorded Temperature --></label>
+        <name>HealthCloudGA__HighestRecordedTemperature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hospitalization Status --></label>
+        <name>HealthCloudGA__HospitalizationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Admitted</masterLabel>
+            <translation>Admitted</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Admitted</masterLabel>
+            <translation>Not Admitted</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>Unknown</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Immunocompromised --></label>
+        <name>HealthCloudGA__Immunocompromised__c</name>
+    </fields>
+    <fields>
+        <label><!-- Muscle Aches --></label>
+        <name>HealthCloudGA__MuscleAches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nausea or Vomiting --></label>
+        <name>HealthCloudGA__NauseaOrVomiting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Neurological Disability Notes --></label>
+        <name>HealthCloudGA__NeurologicalDisablityNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Neurological Disability --></label>
+        <name>HealthCloudGA__NeurologicalDisablity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>HealthCloudGA__Occupation__c</name>
+        <picklistValues>
+            <masterLabel>Childcare worker</masterLabel>
+            <translation>Childcare worker</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinical laboratory technologist or technician</masterLabel>
+            <translation>Clinical laboratory technologist or technician</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combined food preparation or serving worker, including fast food</masterLabel>
+            <translation>Combined food preparation or serving worker, including fast food</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dentist</masterLabel>
+            <translation>Dentist</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency management director</masterLabel>
+            <translation>Emergency management director</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency medical technician or paramedic</masterLabel>
+            <translation>Emergency medical technician or paramedic</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health practitioner support technologist or technician</masterLabel>
+            <translation>Health practitioner support technologist or technician</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare support worker(including medical equipment preparer)</masterLabel>
+            <translation>Healthcare support worker(including medical equipment preparer)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Onset of Symptoms --></label>
+        <name>HealthCloudGA__OnsetOfSymptoms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Chronic Diseases Notes --></label>
+        <name>HealthCloudGA__OtherChronicDiseasesNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Chronic Diseases --></label>
+        <name>HealthCloudGA__OtherChronicDiseases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Symptoms --></label>
+        <name>HealthCloudGA__OtherSymptoms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parental consent provided --></label>
+        <name>HealthCloudGA__ParentalConsent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Clinical Assessment Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Care Physician --></label>
+        <name>HealthCloudGA__PrimaryCarePhysician__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider Facility Name --></label>
+        <name>HealthCloudGA__ProviderFacilityName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Runny Nose --></label>
+        <name>HealthCloudGA__RunnyNose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shortness of Breath --></label>
+        <name>HealthCloudGA__ShortnessOfBreath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sore Throat --></label>
+        <name>HealthCloudGA__SoreThroat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subjective Fever --></label>
+        <name>HealthCloudGA__SubjectiveFever__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing Facility Name --></label>
+        <name>HealthCloudGA__TestingFacilityName__c</name>
+    </fields>
+    <nameFieldLabel>Clinical Assessment Response Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

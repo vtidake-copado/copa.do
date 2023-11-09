@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HcPatientInfoFields --></label>
+        <name>HealthCloudGA__HcPatientInfoFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HcTeamMemberInfoFields --></label>
+        <name>HealthCloudGA__HcTeamMemberInfoFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <fields>
+        <label><!-- DocuSign Email --></label>
+        <name>vlocity_ins__DocuSignEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Named credential of Docusign send on behalf user --></help>
+        <label><!-- DocuSign Named Credential --></label>
+        <name>vlocity_ins__DocuSignNamedCredential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global Key --></label>
+        <name>vlocity_ins__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <help>オンにすると、ユーザーは OMplus プラットフォームへのエクスポートにマークされます。[Vlocity XOM 管理] タブでカタログ同期ジョブが完了すると、ユーザーは OMplus で有効になります。</help>
+        <label><!-- OM Plus Enabled --></label>
+        <name>vlocity_ins__OMplusSyncEnabled__c</name>
+    </fields>
+</CustomObjectTranslation>

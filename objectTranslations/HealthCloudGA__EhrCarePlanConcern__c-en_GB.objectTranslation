@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR Care Plan Concern</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EHR Care Plan Concerns</value>
+    </caseValues>
+    <fields>
+        <label><!-- Care Plan Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- EHR Care Plan Concerns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- EHR Care Plan Concerns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condition --></label>
+        <name>HealthCloudGA__Condition__c</name>
+        <relationshipLabel><!-- EHR Care Plan Concerns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identifies the system that created the record and owns update rights to it. Defaults to Health1 for manually created records.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <nameFieldLabel>EHR Care Plan Concern ID</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

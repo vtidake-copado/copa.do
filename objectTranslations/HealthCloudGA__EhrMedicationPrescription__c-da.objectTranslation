@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>EPJ – Medicinrecepten</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>EPJ – Medicinrecept</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>EPJ – Medicinrecept</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>EPJ – Medicinrecepterne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>EPJ – Medicinrecepter</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>EPJ – Medicinrecepter</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Written --></label>
+        <name>HealthCloudGA__DateWritten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Expected Supply Duration --></label>
+        <name>HealthCloudGA__DispenseExpectedSupplyDuration__c</name>
+    </fields>
+    <fields>
+        <help>System for kode, der identificerer denne medicin</help>
+        <label><!-- Dispense Medication Code System --></label>
+        <name>HealthCloudGA__DispenseMedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>Kode, der identificerer denne medicin</help>
+        <label><!-- Dispense Medication Code --></label>
+        <name>HealthCloudGA__DispenseMedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Medication Expiration --></label>
+        <name>HealthCloudGA__DispenseMedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>Sandt, hvis et varemærke</help>
+        <label><!-- Dispense Medication Is Brand --></label>
+        <name>HealthCloudGA__DispenseMedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>produkt | pakkekode</help>
+        <label><!-- Dispense Medication Kind Code --></label>
+        <name>HealthCloudGA__DispenseMedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>produkt | brugervenligt pakkenavn</help>
+        <label><!-- Dispense Medication Kind Label --></label>
+        <name>HealthCloudGA__DispenseMedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>produkt | pakkekodesystem</help>
+        <label><!-- Dispense Medication Kind System --></label>
+        <name>HealthCloudGA__DispenseMedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>Brugervenligt navn for denne medicin</help>
+        <label><!-- Dispense Medication Label --></label>
+        <name>HealthCloudGA__DispenseMedicationLabel__c</name>
+    </fields>
+    <fields>
+        <help>Partinummer for medicinbatch</help>
+        <label><!-- Dispense Medication Lot Number --></label>
+        <name>HealthCloudGA__DispenseMedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>Almindeligt/kommercielt navn</help>
+        <label><!-- Dispense Medication Name --></label>
+        <name>HealthCloudGA__DispenseMedicationName__c</name>
+    </fields>
+    <fields>
+        <help>pulver | tabletter | karton + kode</help>
+        <label><!-- Dispense Medication Product Form Code --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>pulver | tabletter | karton + brugervenligt navn</help>
+        <label><!-- Dispense Medication Product Form Label --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>pulver | tabletter | karton + system</help>
+        <label><!-- Dispense Medication Product Form System --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Number Of Repeat Allowed --></label>
+        <name>HealthCloudGA__DispenseNumberOfRepeatAllowed__c</name>
+    </fields>
+    <fields>
+        <help>Mængde af medicin pr. udleveringsmåleenhed</help>
+        <label><!-- Dispense Quantity Unit --></label>
+        <name>HealthCloudGA__DispenseQuantityUnit__c</name>
+    </fields>
+    <fields>
+        <help>Mængde af medicin, der skal gives pr. udlevering</help>
+        <label><!-- Dispense Quantity Value --></label>
+        <name>HealthCloudGA__DispenseQuantityValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period End --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period Start --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encounter --></label>
+        <name>HealthCloudGA__Encounter__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <help>Brugervenligt navn for medicinkode</help>
+        <label><!-- Medication Code Label --></label>
+        <name>HealthCloudGA__MedicationCodeLabel__c</name>
+    </fields>
+    <fields>
+        <help>System for kode, der identificerer denne medicin</help>
+        <label><!-- Medication Code System --></label>
+        <name>HealthCloudGA__MedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>Kode, der identificerer denne medicin</help>
+        <label><!-- Medication Code --></label>
+        <name>HealthCloudGA__MedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Expiration --></label>
+        <name>HealthCloudGA__MedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>Sandt, hvis et varemærke</help>
+        <label><!-- Medication Is Brand --></label>
+        <name>HealthCloudGA__MedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>produkt | pakkekode</help>
+        <label><!-- Medication Kind Code --></label>
+        <name>HealthCloudGA__MedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>produkt | brugervenligt pakkenavn</help>
+        <label><!-- Medication Kind Label --></label>
+        <name>HealthCloudGA__MedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>produkt | pakkekodesystem</help>
+        <label><!-- Medication Kind System --></label>
+        <name>HealthCloudGA__MedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>Partinummer for medicinbatch</help>
+        <label><!-- Medication Lot Number --></label>
+        <name>HealthCloudGA__MedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>Almindeligt/kommercielt navn</help>
+        <label><!-- Medication Name --></label>
+        <name>HealthCloudGA__MedicationName__c</name>
+    </fields>
+    <fields>
+        <help>pulver | tabletter | karton + kode</help>
+        <label><!-- Medication Product Form Code --></label>
+        <name>HealthCloudGA__MedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>pulver | tabletter | karton + brugervenligt navn</help>
+        <label><!-- Medication Product Form Label --></label>
+        <name>HealthCloudGA__MedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>pulver | tabletter | karton + system</help>
+        <label><!-- Medication Product Form System --></label>
+        <name>HealthCloudGA__MedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Name --></label>
+        <name>HealthCloudGA__PrescriberName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber --></label>
+        <name>HealthCloudGA__Prescriber__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Årsag eller indikation for udlevering af recepten</help>
+        <label><!-- Reason Code --></label>
+        <name>HealthCloudGA__ReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Condition --></label>
+        <name>HealthCloudGA__ReasonCondition__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Brugervenligt navn for årsagskode eller -indikation for udlevering af recepten</help>
+        <label><!-- Reason Label --></label>
+        <name>HealthCloudGA__ReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>Kodningssystem, der definerer årsagskode eller indikation for udlevering af recepten</help>
+        <label><!-- Reason System --></label>
+        <name>HealthCloudGA__ReasonSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identificerer det system, der oprettede registreringen og ejer opdateringsrettigheder til den. Er som standard Health1 for manuelt oprettede registreringer.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>Kode for: aktiv | på hold | fuldført | angivet-ved-en-fejl | stoppet | erstattet | kladde</help>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+    </fields>
+    <fields>
+        <help>Brugervenligt navn for status</help>
+        <label><!-- Status Label --></label>
+        <name>HealthCloudGA__StatusLabel__c</name>
+    </fields>
+    <fields>
+        <help>System for statuskode</help>
+        <label><!-- Status System --></label>
+        <name>HealthCloudGA__StatusSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substitute Restrict Reason Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonCode__c</name>
+    </fields>
+    <fields>
+        <help>Eventuelle begrænsninger for erstatning af medicin, generisk/formel + brugervenligt navn</help>
+        <label><!-- Substitute Restrict Reason Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>Eventuelle restriktioner på medicinerstatning? kodningssystem</help>
+        <label><!-- Substitute Restrict Reason System --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonSystem__c</name>
+    </fields>
+    <fields>
+        <help>generisk | formel + kode</help>
+        <label><!-- Substitute Restrict Type Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeCode__c</name>
+    </fields>
+    <fields>
+        <help>generisk | formel + brugervenligt kodenavn</help>
+        <label><!-- Substitute Restrict Type Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeLabel__c</name>
+    </fields>
+    <fields>
+        <help>generisk | formel + kodningssystem</help>
+        <label><!-- Substitute Restrict Type System --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeSystem__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>EPJ – Medicinrecept-id</nameFieldLabel>
+</CustomObjectTranslation>

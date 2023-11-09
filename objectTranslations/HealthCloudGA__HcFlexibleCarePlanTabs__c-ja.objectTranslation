@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- フレキシブルケアプランのタブ --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>HealthCloudGA__Component_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>HealthCloudGA__Namespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <help>ラベルに名前空間プレフィックスが含まれる場合は、Label_Namespace.Label_Name を使用します。それ以外の場合は、c.Label_Name を使用します。</help>
+        <label><!-- Tab Label --></label>
+        <name>HealthCloudGA__TabLabel__c</name>
+    </fields>
+</CustomObjectTranslation>

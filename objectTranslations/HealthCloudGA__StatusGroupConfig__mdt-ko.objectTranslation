@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 상태 그룹 구성 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Color Code --></label>
+        <name>HealthCloudGA__ColorCode__c</name>
+    </fields>
+</CustomObjectTranslation>

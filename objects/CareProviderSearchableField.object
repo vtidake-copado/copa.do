@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>CertificationType</fullName>
+        <inlineHelpText>Provider’s certification, from BoardCertification.CertificationType</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Condition</fullName>
+        <inlineHelpText>The Conditions represented by the Problem Definitions that the healthcare provider provides treatment for.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EducationType</fullName>
+        <inlineHelpText>Provider’s level of education, from PersonEducation.EducationLevel</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FacilityAddress</fullName>
+        <inlineHelpText>Address of the facility, from Account.ShippingAddress</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FacilityId</fullName>
+        <inlineHelpText>Facility a practitioner is associated with, from HealthcarePractitionerFacility</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FacilityName</fullName>
+        <inlineHelpText>Name of the facility, from Account.Name</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FacilityPhone</fullName>
+        <inlineHelpText>Facility&apos;s main contact telephone number, from Account.Phone</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GenderRestriction</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsAcceptingNewPatients</fullName>
+        <inlineHelpText>Indicates whether the practitioner or facility is accepting new patients, from HealthcareFacilityNetwork.PanelStatus</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsHandicapAccess</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LanguagesSpoken</fullName>
+        <inlineHelpText>Languages Spoken by the Provider</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LicenseJurisdictionCountry</fullName>
+        <inlineHelpText>The country where the license of the care provider is registered</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LicenseJurisdictionRegion</fullName>
+        <inlineHelpText>The region where the license of the care provider is registered</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LicenseJurisdictionState</fullName>
+        <inlineHelpText>The state where the license of the care provider is registered</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LicenseName</fullName>
+        <inlineHelpText>The name of the license given to the care provider</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LicenseStatus</fullName>
+        <inlineHelpText>Specifies the status of the license given to the care provider</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NationalProviderIdentifier</fullName>
+        <inlineHelpText>Provider’s unique NPI number, from HealthcareProviderNpi.Npi</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OperatingHoursId</fullName>
+        <inlineHelpText>The available hours for a practitioner at a facility. From HealthcarePractitionerFacility.OperatingHours for the practitioner; from Account.OperatingHours for the facility</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PhotoUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PlanType</fullName>
+        <inlineHelpText>Type of insurance plan accepted, from HealthcareFacilityNetwork.PayerNetwork.Name</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProviderGender</fullName>
+        <inlineHelpText>The gender of the care provider</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProviderId</fullName>
+        <inlineHelpText>Name of the practitioner or facility, from HealthcareProvider</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProviderName</fullName>
+        <inlineHelpText>Provider Name, from Account (for a facility) or Contact (for a practitioner).</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProviderType</fullName>
+        <inlineHelpText>Type of provider or facility, from HealthCareProvider.ProviderType</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Service</fullName>
+        <inlineHelpText>The Healthcare Service that the Healthcare Provider is offering</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ServiceCode</fullName>
+        <inlineHelpText>The Healthcare Service Codes related to the Healthcare Service that the Healthcare Provider is offering</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Specialty</fullName>
+        <inlineHelpText>Provider’s care specialty, from CareProviderFacilitySpecialty.Account or HealthCarePractitionerFacility.SpecialtyType for a practitioner</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SubSpecialty</fullName>
+        <inlineHelpText>Provider&apos;s subspecialty, from HealthcareProviderTaxonomy.careTaxonomy.TaxonomyType</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>All_CareProviderSearchableField</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Care Provider Searchable Field</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Provider</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Facility</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OperatingHours</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Provider</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Facility</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OperatingHours</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Provider</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Facility</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OperatingHours</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FacilityPhone</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Provider</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Facility</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OperatingHours</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

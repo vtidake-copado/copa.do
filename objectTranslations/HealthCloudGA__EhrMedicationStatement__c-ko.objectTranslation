@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR 약물 설명</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- EHR Medication Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Device --></label>
+        <name>HealthCloudGA__Device__c</name>
+        <relationshipLabel><!-- Medication Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <help>약물 코드의 식별 이름</help>
+        <label><!-- Medication Code Label --></label>
+        <name>HealthCloudGA__MedicationCodeLabel__c</name>
+    </fields>
+    <fields>
+        <help>이 약물을 식별하는 코드의 시스템</help>
+        <label><!-- Medication Code System --></label>
+        <name>HealthCloudGA__MedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>이 약물을 식별하는 코드</help>
+        <label><!-- Medication Code --></label>
+        <name>HealthCloudGA__MedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Expiration --></label>
+        <name>HealthCloudGA__MedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>상표명이 있는 경우 적용</help>
+        <label><!-- Medication Is Brand --></label>
+        <name>HealthCloudGA__MedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>제품 | 패키지 코드</help>
+        <label><!-- Medication Kind Code --></label>
+        <name>HealthCloudGA__MedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>제품 | 패키지 식별 이름</help>
+        <label><!-- Medication Kind Label --></label>
+        <name>HealthCloudGA__MedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>제품 | 패키지 코드 시스템</help>
+        <label><!-- Medication Kind System --></label>
+        <name>HealthCloudGA__MedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>약물 배치의 로트 번호</help>
+        <label><!-- Medication Lot Number --></label>
+        <name>HealthCloudGA__MedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>일반/상용 이름</help>
+        <label><!-- Medication Name --></label>
+        <name>HealthCloudGA__MedicationName__c</name>
+    </fields>
+    <fields>
+        <help>가루약 | 알약 | 상자 + 코드</help>
+        <label><!-- Medication Product Form Code --></label>
+        <name>HealthCloudGA__MedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>가루약 | 알약 | 상자 + 식별 이름</help>
+        <label><!-- Medication Product Form Label --></label>
+        <name>HealthCloudGA__MedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>가루약 | 알약 | 상자 + 시스템</help>
+        <label><!-- Medication Product Form System --></label>
+        <name>HealthCloudGA__MedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Medication Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason Not Given Code --></label>
+        <name>HealthCloudGA__ReasonNotGivenCode__c</name>
+    </fields>
+    <fields>
+        <help>처방전 작성의 이유 코드 또는 징후에 대한 식별 이름</help>
+        <label><!-- Reason Not Given Label --></label>
+        <name>HealthCloudGA__ReasonNotGivenLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Not Given System --></label>
+        <name>HealthCloudGA__ReasonNotGivenSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>레코드를 만든 시스템을 식별하고 해당 레코드에 대한 업데이트 권한을 보유합니다. 수동으로 생성된 레코드의 경우 기본적으로 건강 상태 1로 지정됩니다.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>설명 상태를 지정하는 코드입니다. 일반적으로 진행 중이거나 완료입니다.</help>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+        <picklistValues>
+            <masterLabel>completed</masterLabel>
+            <translation>완료됨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>entered-in-error</masterLabel>
+            <translation>잘못 입력됨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in-progress</masterLabel>
+            <translation>진행 중</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Was Not Given --></label>
+        <name>HealthCloudGA__WasNotGiven__c</name>
+    </fields>
+    <fields>
+        <label><!-- When Given --></label>
+        <name>HealthCloudGA__WhenGiven__c</name>
+    </fields>
+    <nameFieldLabel>EHR 약물 설명 ID</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Exécutant de procédure DME</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Exécutants de procédure DME</value>
+    </caseValues>
+    <fields>
+        <label><!-- Performer --></label>
+        <name>HealthCloudGA__EHRPractitioner__c</name>
+        <relationshipLabel><!-- EHR Procedure Performers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Procedure --></label>
+        <name>HealthCloudGA__EHRProcedure__c</name>
+        <relationshipLabel><!-- EHR Procedure Performers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Performer Role --></label>
+        <name>HealthCloudGA__PerformerRole__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom de l&apos;exécutant de la procédure DME</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

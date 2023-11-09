@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Programpatientoversigten</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Programpatientoversigt</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Programpatientoversigt</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Programpatientoversigterne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Programpatientoversigter</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Programpatientoversigter</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Program Patient Summary --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Patients alder beregnet i aldersgrupper: 0 - 34,35-44,45-54,55-59,60-64,65-69,70-74,75-79,80-84,85-89,90-94, 95 og ældre.</help>
+        <label><!-- Age Band --></label>
+        <name>HealthCloudGA__AgeBand__c</name>
+    </fields>
+    <fields>
+        <help>Patientalder.</help>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help>Liste over HCC-sygdomskategorier (Hierarchical Condition Category), der er anvendt til patienten.</help>
+        <label><!-- Conditions --></label>
+        <name>HealthCloudGA__Conditions__c</name>
+    </fields>
+    <fields>
+        <help>CMS-handicapstatus.</help>
+        <label><!-- Disability Status --></label>
+        <name>HealthCloudGA__DisabilityStatus__c</name>
+    </fields>
+    <fields>
+        <help>Dato, hvor risikoscoring blev beregnet.</help>
+        <label><!-- Effective Date --></label>
+        <name>HealthCloudGA__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help>Angiver Medicare-tilmeldingstypen for patienten.</help>
+        <label><!-- Enrollment Type --></label>
+        <name>HealthCloudGA__EnrollmentType__c</name>
+        <picklistValues>
+            <masterLabel>Dual</masterLabel>
+            <translation>Dobbelt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESRD</masterLabel>
+            <translation>ESRD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBDual</masterLabel>
+            <translation>FBDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonDual</masterLabel>
+            <translation>NonDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PBDual</masterLabel>
+            <translation>PBDual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Mand/kvinde</help>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>Afslå at angive</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>Kvinde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>Mand</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>De endelige HCC-koder, der er anvendelige for patienten efter anvendelse af tilsidesættende logik.</help>
+        <label><!-- HCC Codes --></label>
+        <name>HealthCloudGA__HCCCodes__c</name>
+    </fields>
+    <fields>
+        <help>Angiver, om patienten bor på en institution.</help>
+        <label><!-- Institution --></label>
+        <name>HealthCloudGA__Institution__c</name>
+    </fields>
+    <fields>
+        <help>Angiver, om patienten falder inden for retningslinjerne for lav indkomst.</help>
+        <label><!-- Low Income --></label>
+        <name>HealthCloudGA__LowIncome__c</name>
+    </fields>
+    <fields>
+        <help>Den måned, som tidsberegningen er gældende for.</help>
+        <label><!-- Month --></label>
+        <name>HealthCloudGA__Month__c</name>
+    </fields>
+    <fields>
+        <help>Angiver, om denne registrering indeholder den nyeste beregning for måleperioden.</help>
+        <label><!-- Most Recent --></label>
+        <name>HealthCloudGA__MostRecent__c</name>
+    </fields>
+    <fields>
+        <help>Angiver, om patienten er en ny Medicare-patient eller en, der allerede er tilmeldt.</help>
+        <label><!-- New Patient --></label>
+        <name>HealthCloudGA__NewPatient__c</name>
+    </fields>
+    <fields>
+        <help>Antal HCC-sygdomskategorier, der gælder for patienten.</help>
+        <label><!-- Number of Conditions --></label>
+        <name>HealthCloudGA__NumberOfConditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Patient Affiliation --></label>
+        <name>HealthCloudGA__ProgramPatientAffiliation__c</name>
+        <relationshipLabel><!-- Program Patient Summary --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>HCC-risikoscoring beregnet for patienten.</help>
+        <label><!-- Risk Score --></label>
+        <name>HealthCloudGA__RiskScore__c</name>
+    </fields>
+    <fields>
+        <help>Angiver den fase, patienten er i for Medicare CCM-programmet.</help>
+        <label><!-- Stage --></label>
+        <name>HealthCloudGA__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Afvist</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation>I gang</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Program</masterLabel>
+            <translation>I program</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation>Potentiale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Samlet tid brugt med patienten i måleperioden til kvalificerende aktiviteter.</help>
+        <label><!-- Time Spent --></label>
+        <name>HealthCloudGA__TimeSpent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique --></label>
+        <name>HealthCloudGA__Unique__c</name>
+    </fields>
+    <fields>
+        <help>Angiver det år, som risikoscoringen gælder for.</help>
+        <label><!-- Year --></label>
+        <name>HealthCloudGA__Year__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Chronic Care Management --></label>
+        <name>HealthCloudGA__ChronicCareManagement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Risk Scoring --></label>
+        <name>HealthCloudGA__RiskScoring</name>
+    </recordTypes>
+</CustomObjectTranslation>

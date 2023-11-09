@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom --></label>
+        <name>HealthCloudGA__Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Flow Name --></label>
+        <name>HealthCloudGA__JobFlowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Name --></label>
+        <name>HealthCloudGA__JobName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Order --></label>
+        <name>HealthCloudGA__JobOrder__c</name>
+    </fields>
+</CustomObjectTranslation>

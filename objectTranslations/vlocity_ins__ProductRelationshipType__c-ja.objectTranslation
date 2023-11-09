@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商品リレーション種別</value>
+    </caseValues>
+    <fields>
+        <label><!-- Activated Date --></label>
+        <name>vlocity_ins__ActivatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivated Date --></label>
+        <name>vlocity_ins__DeactivatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>vlocity_ins__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>vlocity_ins__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type Label --></label>
+        <name>vlocity_ins__RelationshipTypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type Scope --></label>
+        <name>vlocity_ins__RelationshipTypeScope__c</name>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation>履行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation>商談</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order</masterLabel>
+            <translation>注文</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>見積</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type Reverse Label --></label>
+        <name>vlocity_ins__ReverseRelationshipTypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track In --></label>
+        <name>vlocity_ins__TrackIn__c</name>
+        <picklistValues>
+            <masterLabel>Line Item Relationship</masterLabel>
+            <translation>品目リレーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>リレーション種別名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Deltageren i EPJ-behandlingsplan</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Deltager i EPJ-behandlingsplan</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Deltager i EPJ-behandlingsplan</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Deltagerne i EPJ-behandlingsplan</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Deltagere i EPJ-behandlingsplan</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Deltagere i EPJ-behandlingsplan</value>
+    </caseValues>
+    <fields>
+        <label><!-- Care Plan Activity --></label>
+        <name>HealthCloudGA__CarePlanActivity__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Practitioner Name 255 --></label>
+        <name>HealthCloudGA__PractitionerName255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner Name --></label>
+        <name>HealthCloudGA__PractitionerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner --></label>
+        <name>HealthCloudGA__Practitioner__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Person --></label>
+        <name>HealthCloudGA__RelatedPerson__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Role Code --></label>
+        <name>HealthCloudGA__RoleCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role Label --></label>
+        <name>HealthCloudGA__RoleLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role System --></label>
+        <name>HealthCloudGA__RoleSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identificerer det system, der oprettede registreringen og ejer opdateringsrettigheder til den. Er som standard Health1 for manuelt oprettede registreringer.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Id for deltager i behandlingsplan i EPJ</nameFieldLabel>
+</CustomObjectTranslation>

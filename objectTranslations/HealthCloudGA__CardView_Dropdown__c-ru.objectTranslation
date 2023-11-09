@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Раскрывающийся список представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Раскрывающийся список представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Раскрывающийся список представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Раскрывающийся список представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Раскрывающегося списка представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Раскрывающегося списка представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Раскрывающемуся списку представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Раскрывающемуся списку представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Раскрывающимся списком представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Раскрывающимся списком представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value><!-- Раскрывающемся списке представлений карт --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value><!-- Раскрывающемся списке представлений карт --></value>
+    </caseValues>
+    <fields>
+        <help>Если у вашей метки есть префикс пространства имен, то используйте Label_Namespace.Label_Name. В противном случае используйте c.Label_Name.</help>
+        <label><!-- Category Label --></label>
+        <name>HealthCloudGA__CategoryLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Name --></label>
+        <name>HealthCloudGA__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Subtab --></label>
+        <name>HealthCloudGA__DefaultSubtab__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Parameter --></label>
+        <name>HealthCloudGA__Param_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tab Type --></label>
+        <name>HealthCloudGA__Rec_Open_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcategory Name --></label>
+        <name>HealthCloudGA__Sub_Category__c</name>
+    </fields>
+    <fields>
+        <help>Если у вашей метки есть префикс пространства имен, то используйте Label_Namespace.Label_Name. В противном случае используйте c.Label_Name.</help>
+        <label><!-- Subcategory Label --></label>
+        <name>HealthCloudGA__SubcategoryLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subtab Sort Order --></label>
+        <name>HealthCloudGA__SubtabSortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Type --></label>
+        <name>HealthCloudGA__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>HealthCloudGA__Url__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

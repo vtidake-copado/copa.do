@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>計畫</value>
+    </caseValues>
+    <fields>
+        <help>整個組織的計畫結束日期。</help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>表示記錄是否啟用。</help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>表示特定計畫 (例如 Medicare CCM 計畫) 的單一病患其測量期間的核銷。</help>
+        <label><!-- Rate --></label>
+        <name>HealthCloudGA__Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>HealthCloudGA__ReportName__c</name>
+    </fields>
+    <fields>
+        <help>整個組織的計畫開始日期。</help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>測量期間每位病患的完成目標時間。</help>
+        <label><!-- Target --></label>
+        <name>HealthCloudGA__Target__c</name>
+    </fields>
+    <fields>
+        <help>測量期間。</help>
+        <label><!-- Time Span --></label>
+        <name>HealthCloudGA__TimeSpan__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>每年</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>每月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>每季</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>每週</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>測量期間中每位病患的完成時間測量單位 (與「目標」欄位相關聯)。</help>
+        <label><!-- Unit of Measure --></label>
+        <name>HealthCloudGA__UnitOfMeasure__c</name>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation>分鐘</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seconds</masterLabel>
+            <translation>秒</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>適合測量時間的使用者類型 (若適用)。</help>
+        <label><!-- User Role Field --></label>
+        <name>HealthCloudGA__UserRoleField__c</name>
+    </fields>
+    <nameFieldLabel>計畫名稱</nameFieldLabel>
+    <recordTypes>
+        <label><!-- CMS Risk Scoring --></label>
+        <name>HealthCloudGA__CMSRiskScoring</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Chronic Care Management --></label>
+        <name>HealthCloudGA__ChronicCareManagement</name>
+    </recordTypes>
+</CustomObjectTranslation>

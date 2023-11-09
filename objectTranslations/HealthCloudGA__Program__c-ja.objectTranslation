@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プログラム</value>
+    </caseValues>
+    <fields>
+        <help>組織全体に対してプログラムが終了する日付。</help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>レコードが有効かどうかを示します。</help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>特定のプログラム (Medicare CCM プログラムなど) の 1 人の患者に対するその測定期間の払い戻しを示します。</help>
+        <label><!-- Rate --></label>
+        <name>HealthCloudGA__Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>HealthCloudGA__ReportName__c</name>
+    </fields>
+    <fields>
+        <help>組織全体に対してプログラムが開始する日付。</help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>測定期間における患者あたりの完了目標時間。</help>
+        <label><!-- Target --></label>
+        <name>HealthCloudGA__Target__c</name>
+    </fields>
+    <fields>
+        <help>測定期間。</help>
+        <label><!-- Time Span --></label>
+        <name>HealthCloudGA__TimeSpan__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>毎年</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>毎月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>毎四半期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>毎週</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>測定期間における患者あたりの完了時間の測定単位 ([目標] 項目と共に使用)。</help>
+        <label><!-- Unit of Measure --></label>
+        <name>HealthCloudGA__UnitOfMeasure__c</name>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation>分</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seconds</masterLabel>
+            <translation>秒</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>時間の測定の対象となるユーザの種別 (該当する場合)。</help>
+        <label><!-- User Role Field --></label>
+        <name>HealthCloudGA__UserRoleField__c</name>
+    </fields>
+    <nameFieldLabel>プログラム名</nameFieldLabel>
+    <recordTypes>
+        <label><!-- CMS Risk Scoring --></label>
+        <name>HealthCloudGA__CMSRiskScoring</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Chronic Care Management --></label>
+        <name>HealthCloudGA__ChronicCareManagement</name>
+    </recordTypes>
+</CustomObjectTranslation>

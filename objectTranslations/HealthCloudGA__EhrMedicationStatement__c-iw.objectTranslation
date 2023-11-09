@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הצהרת התרופות ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>הצהרת תרופות ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>הצהרות התרופות ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>הצהרות תרופות ב-EHR</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- EHR Medication Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Device --></label>
+        <name>HealthCloudGA__Device__c</name>
+        <relationshipLabel><!-- Medication Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <help>שם ידידותי לקוד תרופה</help>
+        <label><!-- Medication Code Label --></label>
+        <name>HealthCloudGA__MedicationCodeLabel__c</name>
+    </fields>
+    <fields>
+        <help>מערכת הקוד שמשמש לזיהוי תרופה זו</help>
+        <label><!-- Medication Code System --></label>
+        <name>HealthCloudGA__MedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>קוד המזהה תרופה זו</help>
+        <label><!-- Medication Code --></label>
+        <name>HealthCloudGA__MedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Expiration --></label>
+        <name>HealthCloudGA__MedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>True אם מותג</help>
+        <label><!-- Medication Is Brand --></label>
+        <name>HealthCloudGA__MedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>מוצר | קוד אריזה</help>
+        <label><!-- Medication Kind Code --></label>
+        <name>HealthCloudGA__MedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>מוצר | שם אריזה ידידותי</help>
+        <label><!-- Medication Kind Label --></label>
+        <name>HealthCloudGA__MedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>מוצר | מערכת קוד אריזה</help>
+        <label><!-- Medication Kind System --></label>
+        <name>HealthCloudGA__MedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>מספר מנה של אצוות תרופה</help>
+        <label><!-- Medication Lot Number --></label>
+        <name>HealthCloudGA__MedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>שם נפוץ / מסחרי</help>
+        <label><!-- Medication Name --></label>
+        <name>HealthCloudGA__MedicationName__c</name>
+    </fields>
+    <fields>
+        <help>אבקה | טבליות | אריזה + קוד</help>
+        <label><!-- Medication Product Form Code --></label>
+        <name>HealthCloudGA__MedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>אבקה | טבליות | אריזה + שם ידידותי</help>
+        <label><!-- Medication Product Form Label --></label>
+        <name>HealthCloudGA__MedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>אבקה | טבליות | אריזה + מערכת</help>
+        <label><!-- Medication Product Form System --></label>
+        <name>HealthCloudGA__MedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Medication Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason Not Given Code --></label>
+        <name>HealthCloudGA__ReasonNotGivenCode__c</name>
+    </fields>
+    <fields>
+        <help>שם ידידותי לקוד הסיבה או המדד לכתיבת המרשם</help>
+        <label><!-- Reason Not Given Label --></label>
+        <name>HealthCloudGA__ReasonNotGivenLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Not Given System --></label>
+        <name>HealthCloudGA__ReasonNotGivenSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>מזהה את המערכת שבה נוצרה הרשומה ושבה נמצאות ההרשאות לעדכן אותה. מוגדר כברירת מחדל כ-Health1 עבור רשומות שנוצרו באופן ידני.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>קוד המציין את מצב ההצהרה. באופן כללי, המצב יהיה &apos;בביצוע&apos; או &apos;הושלם&apos;.</help>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+        <picklistValues>
+            <masterLabel>completed</masterLabel>
+            <translation>הושלם</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>entered-in-error</masterLabel>
+            <translation>הוזן בטעות</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in-progress</masterLabel>
+            <translation>בביצוע</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Was Not Given --></label>
+        <name>HealthCloudGA__WasNotGiven__c</name>
+    </fields>
+    <fields>
+        <label><!-- When Given --></label>
+        <name>HealthCloudGA__WhenGiven__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>מזהה הצהרת תרופות ב-EHR</nameFieldLabel>
+</CustomObjectTranslation>

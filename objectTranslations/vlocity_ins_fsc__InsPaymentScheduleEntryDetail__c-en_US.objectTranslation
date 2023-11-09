@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- GetPaymentScheduleDetailFields --></label>
+        <name>vlocity_ins_fsc__Ins_GetPaymentScheduleEntryDetails</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Entry Name --></label>
+        <name>vlocity_ins_fsc__EntryName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee Amount --></label>
+        <name>vlocity_ins_fsc__FeeAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Payment Schedule Entry --></label>
+        <name>vlocity_ins_fsc__InsPaymentScheduleEntry__c</name>
+        <relationshipLabel><!-- InsPolicy Payment Schedule Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Asset --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyAsset__c</name>
+        <relationshipLabel><!-- InsPolicy Payment Schedule Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Coverage --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyCoverage__c</name>
+        <relationshipLabel><!-- InsPolicy Payment Schedule Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyId__c</name>
+        <relationshipLabel><!-- InsPolicy Payment Schedule Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Participant --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyParticipant__c</name>
+        <relationshipLabel><!-- InsPolicy Payment Schedule Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Premium Amount --></label>
+        <name>vlocity_ins_fsc__PremiumAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>vlocity_ins_fsc__TaxAmount__c</name>
+    </fields>
+</CustomObjectTranslation>

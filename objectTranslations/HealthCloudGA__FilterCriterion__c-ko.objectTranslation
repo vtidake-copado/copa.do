@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>필터 기준</value>
+    </caseValues>
+    <fields>
+        <label><!-- Grouping --></label>
+        <name>HealthCloudGA__Grouping__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsWaveList --></label>
+        <name>HealthCloudGA__IsWaveList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>HealthCloudGA__ObjectName__c</name>
+    </fields>
+    <nameFieldLabel>필터 기준 이름</nameFieldLabel>
+    <recordTypes>
+        <label><!-- PatientList --></label>
+        <name>HealthCloudGA__PatientList</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Timeline --></label>
+        <name>HealthCloudGA__Timeline</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Another filter list already uses this name. Select a unique name. --></errorMessage>
+        <name>HealthCloudGA__No_Duplicates</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Registerkarten für flexible Versorgungspläne --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>HealthCloudGA__Component_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>HealthCloudGA__Namespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <help>Wenn Ihre Bezeichnung über ein Namespace-Präfix verfügt, verwenden Sie Label_Namespace.Label_Name und andernfalls c.Label_Name.</help>
+        <label><!-- Tab Label --></label>
+        <name>HealthCloudGA__TabLabel__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

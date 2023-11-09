@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>זהות הרופא ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>זהות רופא ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>זהויות הרופאים ב-EHR</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>זהויות רופאים ב-EHR</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>HealthCloudGA__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- EHR Practitioner --></label>
+        <name>HealthCloudGA__EhrPractitioner__c</name>
+        <relationshipLabel><!-- Practitioner Identities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization --></label>
+        <name>HealthCloudGA__Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period End Date --></label>
+        <name>HealthCloudGA__PeriodEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perioid Start Date --></label>
+        <name>HealthCloudGA__PeriodStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>מזהה את המערכת שבה נוצרה הרשומה ושבה נמצאות ההרשאות לעדכן אותה. מוגדר כברירת מחדל כ-Health1 עבור רשומות שנוצרו באופן ידני.</help>
+        <label><!-- SourceSystem --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- System --></label>
+        <name>HealthCloudGA__System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Code --></label>
+        <name>HealthCloudGA__TypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Label --></label>
+        <name>HealthCloudGA__TypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type System --></label>
+        <name>HealthCloudGA__TypeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use --></label>
+        <name>HealthCloudGA__Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>HealthCloudGA__Value__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם זהות רופא ב-EHR</nameFieldLabel>
+</CustomObjectTranslation>

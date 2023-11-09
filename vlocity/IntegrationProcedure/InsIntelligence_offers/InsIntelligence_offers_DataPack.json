@@ -1,0 +1,27 @@
+{
+    "CustomJavaScript": "InsIntelligence_offers_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "InsAccountIntelligenceRecords",
+    "OmniProcessElement": [
+        "InsIntelligence_offers_Element_ReadAccountDetails.json",
+        "InsIntelligence_offers_Element_IntelligenceAction.json",
+        "InsIntelligence_offers_Element_Response.json"
+    ],
+    "OmniProcessKey": "InsIntelligence_offers",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "InsIntelligence_offers_PropertySetConfig.json",
+    "SubType": "offers",
+    "Type": "InsIntelligence",
+    "UniqueName": "InsIntelligence_offers_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/InsIntelligence/offers/Procedure",
+    "WebComponentKey": "b7e0861f-0372-f99d-dbe4-595c342ebd2d"
+}

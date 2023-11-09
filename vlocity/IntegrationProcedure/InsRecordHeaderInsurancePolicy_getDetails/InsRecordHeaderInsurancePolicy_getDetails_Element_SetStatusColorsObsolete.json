@@ -1,0 +1,32 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetStatusColorsObsolete",
+    "OmniProcessId": {
+        "Name": "InsRecordHeaderDetailsInsPolicy",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InsRecordHeaderInsurancePolicy/getDetails/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "backgroundColor": "#ff0000",
+            "fontColor": "#fff"
+        },
+        "executionConditionalFormula": "GetAccountDR:status=\"Obsolete\"",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues3",
+        "responseJSONNode": "SetStatus",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InsRecordHeaderInsurancePolicy/getDetails/Procedure/SetStatusColorsObsolete"
+}

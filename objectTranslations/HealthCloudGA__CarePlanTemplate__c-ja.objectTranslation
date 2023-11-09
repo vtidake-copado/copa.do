@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ケアプランテンプレート</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Disease Management</masterLabel>
+            <translation>疾患管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrinology and Metabolism</masterLabel>
+            <translation>内分泌学および代謝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health</masterLabel>
+            <translation>在宅医療</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellness</masterLabel>
+            <translation>ウェルネス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cloned From --></label>
+        <name>HealthCloudGA__ClonedFrom__c</name>
+        <relationshipLabel><!-- Care Plan Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>HealthCloudGA__Description__c</name>
+    </fields>
+    <nameFieldLabel>ケアプランテンプレート名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prescrizione farmaci EHR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prescrizioni farmaci EHR</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Written --></label>
+        <name>HealthCloudGA__DateWritten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Expected Supply Duration --></label>
+        <name>HealthCloudGA__DispenseExpectedSupplyDuration__c</name>
+    </fields>
+    <fields>
+        <help>Sistema del codice che identifica il farmaco</help>
+        <label><!-- Dispense Medication Code System --></label>
+        <name>HealthCloudGA__DispenseMedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>Codice che identifica il farmaco</help>
+        <label><!-- Dispense Medication Code --></label>
+        <name>HealthCloudGA__DispenseMedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Medication Expiration --></label>
+        <name>HealthCloudGA__DispenseMedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>True se di marca</help>
+        <label><!-- Dispense Medication Is Brand --></label>
+        <name>HealthCloudGA__DispenseMedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>codice prodotto | confezione</help>
+        <label><!-- Dispense Medication Kind Code --></label>
+        <name>HealthCloudGA__DispenseMedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>nome semplificato prodotto | confezione</help>
+        <label><!-- Dispense Medication Kind Label --></label>
+        <name>HealthCloudGA__DispenseMedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>sistema codice prodotto | confezione</help>
+        <label><!-- Dispense Medication Kind System --></label>
+        <name>HealthCloudGA__DispenseMedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>Nome semplificato del farmaco</help>
+        <label><!-- Dispense Medication Label --></label>
+        <name>HealthCloudGA__DispenseMedicationLabel__c</name>
+    </fields>
+    <fields>
+        <help>Il numero del lotto del farmaco</help>
+        <label><!-- Dispense Medication Lot Number --></label>
+        <name>HealthCloudGA__DispenseMedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>Nome comune / commerciale</help>
+        <label><!-- Dispense Medication Name --></label>
+        <name>HealthCloudGA__DispenseMedicationName__c</name>
+    </fields>
+    <fields>
+        <help>polvere | compresse | confezione + codice</help>
+        <label><!-- Dispense Medication Product Form Code --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>polvere | compresse | confezione + nome semplificato</help>
+        <label><!-- Dispense Medication Product Form Label --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>polvere | compresse | confezione + sistema</help>
+        <label><!-- Dispense Medication Product Form System --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Number Of Repeat Allowed --></label>
+        <name>HealthCloudGA__DispenseNumberOfRepeatAllowed__c</name>
+    </fields>
+    <fields>
+        <help>Unità di misura della quantità di farmaco da dispensare per volta</help>
+        <label><!-- Dispense Quantity Unit --></label>
+        <name>HealthCloudGA__DispenseQuantityUnit__c</name>
+    </fields>
+    <fields>
+        <help>Quantità di farmaco da dispensare per volta</help>
+        <label><!-- Dispense Quantity Value --></label>
+        <name>HealthCloudGA__DispenseQuantityValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period End --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period Start --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encounter --></label>
+        <name>HealthCloudGA__Encounter__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <help>Nome semplificato codice del farmaco</help>
+        <label><!-- Medication Code Label --></label>
+        <name>HealthCloudGA__MedicationCodeLabel__c</name>
+    </fields>
+    <fields>
+        <help>Sistema del codice che identifica il farmaco</help>
+        <label><!-- Medication Code System --></label>
+        <name>HealthCloudGA__MedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>Codice che identifica il farmaco</help>
+        <label><!-- Medication Code --></label>
+        <name>HealthCloudGA__MedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Expiration --></label>
+        <name>HealthCloudGA__MedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>True se di marca</help>
+        <label><!-- Medication Is Brand --></label>
+        <name>HealthCloudGA__MedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>codice prodotto | confezione</help>
+        <label><!-- Medication Kind Code --></label>
+        <name>HealthCloudGA__MedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>nome semplificato prodotto | confezione</help>
+        <label><!-- Medication Kind Label --></label>
+        <name>HealthCloudGA__MedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>sistema codice prodotto | confezione</help>
+        <label><!-- Medication Kind System --></label>
+        <name>HealthCloudGA__MedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>Il numero del lotto del farmaco</help>
+        <label><!-- Medication Lot Number --></label>
+        <name>HealthCloudGA__MedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>Nome comune / commerciale</help>
+        <label><!-- Medication Name --></label>
+        <name>HealthCloudGA__MedicationName__c</name>
+    </fields>
+    <fields>
+        <help>polvere | compresse | confezione + codice</help>
+        <label><!-- Medication Product Form Code --></label>
+        <name>HealthCloudGA__MedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>polvere | compresse | confezione + nome semplificato</help>
+        <label><!-- Medication Product Form Label --></label>
+        <name>HealthCloudGA__MedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>polvere | compresse | confezione + sistema</help>
+        <label><!-- Medication Product Form System --></label>
+        <name>HealthCloudGA__MedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Name --></label>
+        <name>HealthCloudGA__PrescriberName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber --></label>
+        <name>HealthCloudGA__Prescriber__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Motivo o indicazione della prescrizione</help>
+        <label><!-- Reason Code --></label>
+        <name>HealthCloudGA__ReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Condition --></label>
+        <name>HealthCloudGA__ReasonCondition__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nome semplificato del codice motivo o indicazione della prescrizione</help>
+        <label><!-- Reason Label --></label>
+        <name>HealthCloudGA__ReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>Codice motivo del sistema o indicazione della prescrizione</help>
+        <label><!-- Reason System --></label>
+        <name>HealthCloudGA__ReasonSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Indica il sistema che ha creato il record e ha diritto di aggiornarlo. Per i record creati manualmente il valore predefinito è Health1.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>Codice per: attivo | in-attesa | completato | immesso-per-errore | arrestato | sostituito | bozza</help>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+    </fields>
+    <fields>
+        <help>Nome semplificato per stato</help>
+        <label><!-- Status Label --></label>
+        <name>HealthCloudGA__StatusLabel__c</name>
+    </fields>
+    <fields>
+        <help>Sistema per codice stato</help>
+        <label><!-- Status System --></label>
+        <name>HealthCloudGA__StatusSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substitute Restrict Reason Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonCode__c</name>
+    </fields>
+    <fields>
+        <help>Qualsiasi divieto di sostituzione per un farmaco, generico / prontuario + nome semplificato</help>
+        <label><!-- Substitute Restrict Reason Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>Sistema di codifica per qualsiasi divieto alla sostituzione di un farmaco</help>
+        <label><!-- Substitute Restrict Reason System --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonSystem__c</name>
+    </fields>
+    <fields>
+        <help>generico | prontuario + codice</help>
+        <label><!-- Substitute Restrict Type Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeCode__c</name>
+    </fields>
+    <fields>
+        <help>generico | prontuario + nome semplificato codice</help>
+        <label><!-- Substitute Restrict Type Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeLabel__c</name>
+    </fields>
+    <fields>
+        <help>generico | prontuario + sistema di codificazione</help>
+        <label><!-- Substitute Restrict Type System --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeSystem__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID prescrizione farmaci EHR</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity エンティティ検索条件引数</value>
+    </caseValues>
+    <fields>
+        <label><!-- Argument Sequence --></label>
+        <name>vlocity_ins__ArgumentSequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vlocity Context Dimension --></label>
+        <name>vlocity_ins__ContextDimensionId__c</name>
+        <relationshipLabel><!-- Where Used (Entity Filter Condition Arguments) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Domain Type --></label>
+        <name>vlocity_ins__DomainType__c</name>
+        <picklistValues>
+            <masterLabel>Context Dimension</masterLabel>
+            <translation>コンテキストディメンション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Lookup</masterLabel>
+            <translation>オブジェクト参照</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picklist</masterLabel>
+            <translation>選択リスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Type in</masterLabel>
+            <translation>入力</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vlocity Entity Filter Condition --></label>
+        <name>vlocity_ins__FilterConditionId__c</name>
+        <relationshipLabel><!-- Where Used (Entity Filter Condition Arguments) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vlocity Function Argument --></label>
+        <name>vlocity_ins__FunctionArgumentId__c</name>
+        <relationshipLabel><!-- Where Used (Entity Filter Condition Arguments) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>vlocity_ins__ObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vlocity Picklist Value --></label>
+        <name>vlocity_ins__PicklistValueId__c</name>
+        <relationshipLabel><!-- Where Used (Entity Filter Condition Arguments) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type In Value --></label>
+        <name>vlocity_ins__Value__c</name>
+    </fields>
+    <nameFieldLabel>引数名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Programa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Programas</value>
+    </caseValues>
+    <fields>
+        <help>Fecha en la que finaliza el programa para toda la organización.</help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Indica si un registro está activo o no.</help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Indica el reembolso del periodo de valoración de un único paciente para el programa específico (por ejemplo, el programa de Control de afecciones crónicas de Medicare).</help>
+        <label><!-- Rate --></label>
+        <name>HealthCloudGA__Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>HealthCloudGA__ReportName__c</name>
+    </fields>
+    <fields>
+        <help>Fecha en la que comienza el programa para toda la organización.</help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Objetivo de tiempo que hay que completar por paciente para el periodo de valoración.</help>
+        <label><!-- Target --></label>
+        <name>HealthCloudGA__Target__c</name>
+    </fields>
+    <fields>
+        <help>Periodo de valoración.</help>
+        <label><!-- Time Span --></label>
+        <name>HealthCloudGA__TimeSpan__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Anualmente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensualmente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestral</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanalmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Unidad de medida de tiempo que hay que completar por paciente en el periodo de valoración (va con el campo “Objetivo”).</help>
+        <label><!-- Unit of Measure --></label>
+        <name>HealthCloudGA__UnitOfMeasure__c</name>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation>Minutos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seconds</masterLabel>
+            <translation>Segundos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Tipos de usuarios que son aptos para la valoración de tiempo, si procede.</help>
+        <label><!-- User Role Field --></label>
+        <name>HealthCloudGA__UserRoleField__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de programa</nameFieldLabel>
+    <recordTypes>
+        <label><!-- CMS Risk Scoring --></label>
+        <name>HealthCloudGA__CMSRiskScoring</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Chronic Care Management --></label>
+        <name>HealthCloudGA__ChronicCareManagement</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Lookup to Account (Patient/ Individual). --></help>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date the patient’s enrollment ends for the program. --></help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether a record is active or not. --></help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies which program the patient is enrolled in. --></help>
+        <label><!-- Program --></label>
+        <name>HealthCloudGA__Program__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>HealthCloudGA__Provider__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recalculate --></label>
+        <name>HealthCloudGA__Recalculate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the patient’s enrollment begins for the program. --></help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Medicare CCM program status. --></help>
+        <label><!-- Status --></label>
+        <name>HealthCloudGA__Status__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Program</masterLabel>
+            <translation><!-- In Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation><!-- Potential --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

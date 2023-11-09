@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Afiliação do paciente do programa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Afiliações dos pacientes do programa</value>
+    </caseValues>
+    <fields>
+        <help>Pesquisa na conta (Paciente/Indivíduo).</help>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Data em que a inscrição do paciente termina para o programa.</help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Indica se um registro está ativo ou não.</help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Identifica em qual programa o paciente está inscrito.</help>
+        <label><!-- Program --></label>
+        <name>HealthCloudGA__Program__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>HealthCloudGA__Provider__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recalculate --></label>
+        <name>HealthCloudGA__Recalculate__c</name>
+    </fields>
+    <fields>
+        <help>Data em que a inscrição do paciente começa para o programa.</help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Status do programa Medicare CMM.</help>
+        <label><!-- Status --></label>
+        <name>HealthCloudGA__Status__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Recusado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation>Em processo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Program</masterLabel>
+            <translation>No programa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation>Potencial</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

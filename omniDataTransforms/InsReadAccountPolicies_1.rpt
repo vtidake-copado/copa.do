@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <description>port_ReadAccountPolicies_Card Used in Card Layout: np-customer-account-policies, np-account-policies</description>
+    <errorIgnored>false</errorIgnored>
+    <expectedOutputJson>{
+  &quot;AccountId&quot; : &quot;&quot;,
+  &quot;AmountAvailableForWithdrawal&quot; : &quot;&quot;,
+  &quot;AnnualPremium&quot; : &quot;&quot;,
+  &quot;ApplicationSubmitDate&quot; : &quot;&quot;,
+  &quot;AssetReferenceId&quot; : &quot;&quot;,
+  &quot;AttributeSelectedValues&quot; : &quot;&quot;,
+  &quot;AutomaticPaymentAmount&quot; : &quot;&quot;,
+  &quot;AutomaticRebalancing&quot; : &quot;&quot;,
+  &quot;BenefitPlanId&quot; : &quot;&quot;,
+  &quot;BillDeliveryMethod&quot; : &quot;&quot;,
+  &quot;BillingAccountId&quot; : &quot;&quot;,
+  &quot;BillingCity&quot; : &quot;&quot;,
+  &quot;BillingContactId&quot; : &quot;&quot;,
+  &quot;BillingCountry&quot; : &quot;&quot;,
+  &quot;BillingEmail&quot; : &quot;&quot;,
+  &quot;BillingFrequency&quot; : &quot;&quot;,
+  &quot;BillingMethod&quot; : &quot;&quot;,
+  &quot;BillingPostalCode&quot; : &quot;&quot;,
+  &quot;BillingState&quot; : &quot;&quot;,
+  &quot;BillingStreet&quot; : &quot;&quot;,
+  &quot;CarrierId&quot; : &quot;&quot;,
+  &quot;CashSurrenderValue&quot; : &quot;&quot;,
+  &quot;CashValue&quot; : &quot;&quot;,
+  &quot;ContactId&quot; : &quot;&quot;,
+  &quot;CostBasis&quot; : &quot;&quot;,
+  &quot;CreatedById&quot; : &quot;&quot;,
+  &quot;CreatedDate&quot; : &quot;&quot;,
+  &quot;DaysToExpire&quot; : &quot;&quot;,
+  &quot;DeathBenefit&quot; : &quot;&quot;,
+  &quot;Description&quot; : &quot;&quot;,
+  &quot;EffectiveDate&quot; : &quot;&quot;,
+  &quot;EffectiveTerm&quot; : &quot;&quot;,
+  &quot;EliminationPeriod&quot; : &quot;&quot;,
+  &quot;ExpirationDate&quot; : &quot;&quot;,
+  &quot;FaceAmount&quot; : &quot;&quot;,
+  &quot;GuaranteePeriod&quot; : &quot;&quot;,
+  &quot;GuaranteedDeathBenefit&quot; : &quot;&quot;,
+  &quot;Id&quot; : &quot;&quot;,
+  &quot;InCartQuantityMap&quot; : &quot;&quot;,
+  &quot;InceptionDate&quot; : &quot;&quot;,
+  &quot;InitialDeposit&quot; : &quot;&quot;,
+  &quot;InstallDate&quot; : &quot;&quot;,
+  &quot;IsAutomaticPaymentEnabled&quot; : &quot;&quot;,
+  &quot;IsCompetitorProduct&quot; : &quot;&quot;,
+  &quot;IsDeleted&quot; : &quot;&quot;,
+  &quot;JSONAttribute&quot; : &quot;&quot;,
+  &quot;Jurisdiction&quot; : &quot;&quot;,
+  &quot;LastModifiedById&quot; : &quot;&quot;,
+  &quot;LastModifiedDate&quot; : &quot;&quot;,
+  &quot;LastReferencedDate&quot; : &quot;&quot;,
+  &quot;LastViewedDate&quot; : &quot;&quot;,
+  &quot;LineofBusiness&quot; : &quot;&quot;,
+  &quot;Loan_Available&quot; : &quot;&quot;,
+  &quot;Loan_Balance&quot; : &quot;&quot;,
+  &quot;LocationId&quot; : &quot;&quot;,
+  &quot;MonthlyIncome&quot; : &quot;&quot;,
+  &quot;Name&quot; : &quot;&quot;,
+  &quot;OpenClaimCount&quot; : &quot;&quot;,
+  &quot;OwnerId&quot; : &quot;&quot;,
+  &quot;ParentId&quot; : &quot;&quot;,
+  &quot;ParentItemId&quot; : &quot;&quot;,
+  &quot;PaymentMethodId&quot; : &quot;&quot;,
+  &quot;PolicyAssetId&quot; : &quot;&quot;,
+  &quot;Policyholder&quot; : &quot;&quot;,
+  &quot;Price&quot; : &quot;&quot;,
+  &quot;PricingLogData&quot; : &quot;&quot;,
+  &quot;PrimaryProducerId&quot; : &quot;&quot;,
+  &quot;Product2Id&quot; : &quot;&quot;,
+  &quot;ProductHierarchyPath&quot; : &quot;&quot;,
+  &quot;ProvisioningStatus&quot; : &quot;&quot;,
+  &quot;PurchaseDate&quot; : &quot;&quot;,
+  &quot;QualifiedType&quot; : &quot;&quot;,
+  &quot;Quantity&quot; : &quot;&quot;,
+  &quot;RatePlan&quot; : &quot;&quot;,
+  &quot;RateState&quot; : &quot;&quot;,
+  &quot;RecordTypeId&quot; : &quot;&quot;,
+  &quot;RootAssetId&quot; : &quot;&quot;,
+  &quot;RootItemId&quot; : &quot;&quot;,
+  &quot;SerialNumber&quot; : &quot;&quot;,
+  &quot;SourceOfFunds&quot; : &quot;&quot;,
+  &quot;Status&quot; : &quot;&quot;,
+  &quot;SystemModstamp&quot; : &quot;&quot;,
+  &quot;Term&quot; : &quot;&quot;,
+  &quot;TotalPremiumForTerm&quot; : &quot;&quot;,
+  &quot;TotalValue&quot; : &quot;&quot;,
+  &quot;Type&quot; : &quot;&quot;,
+  &quot;UnitofFaceAmount&quot; : &quot;&quot;,
+  &quot;UsageEndDate&quot; : &quot;&quot;,
+  &quot;ValuePerUnit&quot; : &quot;&quot;
+}</expectedOutputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>InsReadAccountPolicies</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem30</globalKey>
+        <inputFieldName>Policies:vlocity_ins__EffectiveDate__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>EffectiveDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem16</globalKey>
+        <inputFieldName>Policies:vlocity_ins__AnnualPremium__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>AnnualPremium</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom7001</globalKey>
+        <inputFieldName>InsPolicies:EffectiveDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>EffectiveDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom5447</globalKey>
+        <inputFieldName>InsPolicies:ExpirationDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>ExpirationDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem31</globalKey>
+        <inputFieldName>Policies:vlocity_ins__EffectiveTerm__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>EffectiveTerm</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem34</globalKey>
+        <inputFieldName>Policies:vlocity_ins__FaceAmount__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>FaceAmount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem33</globalKey>
+        <inputFieldName>Policies:vlocity_ins__ExpirationDate__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>ExpirationDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom6573</globalKey>
+        <inputFieldName>Policies:vlocity_ins__TotalFeeForTerm__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>FeeAmount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom2027</globalKey>
+        <inputFieldName>InsPolicies:TermFeeAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>FeeAmount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem35</globalKey>
+        <inputFieldName>Policies:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Id</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom7029</globalKey>
+        <inputFieldName>InsPolicies:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Id</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom7520</globalKey>
+        <inputFieldName>InsPolicies:PolicyType</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem58</globalKey>
+        <inputFieldName>Policies:vlocity_ins__TotalValue__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalValue</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem59</globalKey>
+        <inputFieldName>Policies:vlocity_ins__Type__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>LIMIT</filterOperator>
+        <filterValue>3</filterValue>
+        <globalKey>InsReadAccountPoliciesCustom680</globalKey>
+        <inputObjectName>InsurancePolicy</inputObjectName>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>InsPolicies</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>LIMIT</filterOperator>
+        <filterValue>3</filterValue>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustom8459</globalKey>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Policies:Account</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Policies:AccountId</filterValue>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem6</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Policies:Account</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom3700</globalKey>
+        <inputFieldName>InsPolicies:TermPremiumAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>AnnualPremium</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Id</filterValue>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem0</globalKey>
+        <inputFieldName>AccountId</inputFieldName>
+        <inputObjectName>Asset</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Policies</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>1.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>InsPolicies:NameInsuredId</filterValue>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustom2076</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Policies:Account</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom7050</globalKey>
+        <inputFieldName>Policies:vlocity_ins__TotalAmountForTerm__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalAmountForTerm</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom9939</globalKey>
+        <inputFieldName>InsPolicies:GrossWrittenPremium</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalAmountForTerm</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem57</globalKey>
+        <inputFieldName>Policies:vlocity_ins__TotalPremiumForTerm__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPremiumForTerm</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom2693</globalKey>
+        <inputFieldName>InsPolicies:TermPremiumAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TotalPremiumForTerm</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom1120</globalKey>
+        <inputFieldName>InsPolicies:LastModifiedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>LastModifiedDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>LIMIT</filterOperator>
+        <filterValue>3</filterValue>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustom2889</globalKey>
+        <inputObjectName>Asset</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Policies</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom5212</globalKey>
+        <inputFieldName>InsPolicies:PolicyName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem38</globalKey>
+        <inputFieldName>Policies:LastModifiedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>LastModifiedDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem43</globalKey>
+        <inputFieldName>Policies:vlocity_ins__PolicyAssetId__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>PolicyAssetId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem41</globalKey>
+        <inputFieldName>Policies:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem44</globalKey>
+        <inputFieldName>Policies:SerialNumber</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>PolicyNumber</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom2746</globalKey>
+        <inputFieldName>InsPolicies:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>PolicyNumber</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom408</globalKey>
+        <inputFieldName>InsPolicies:Status</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Status</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem45</globalKey>
+        <inputFieldName>Policies:Account:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>PolicyholderName</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Id</filterValue>
+        <globalKey>InsReadAccountPoliciesCustom7879</globalKey>
+        <inputFieldName>NameInsuredId</inputFieldName>
+        <inputObjectName>InsurancePolicy</inputObjectName>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>InsPolicies</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem55</globalKey>
+        <inputFieldName>Policies:Status</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Status</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom2666</globalKey>
+        <inputFieldName>Policies:vlocity_ins__TotalTaxForTerm__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TaxAmount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom2572</globalKey>
+        <inputFieldName>InsPolicies:TermTaxAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>TaxAmount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaSequence>0.0</formulaSequence>
+        <globalKey>InsReadAccountPoliciesCustoma0O3h000001boPfEAIItem56</globalKey>
+        <inputFieldName>Policies:vlocity_ins__Term__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Term</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsReadAccountPoliciesCustom8199</globalKey>
+        <inputFieldName>InsPolicies:PolicyTerm</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsReadAccountPolicies</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Term</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;Id&quot; : &quot;0013i00000BjUoUAAV&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>InsReadAccountPolicies_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

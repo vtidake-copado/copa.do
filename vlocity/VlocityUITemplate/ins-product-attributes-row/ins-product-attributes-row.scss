@@ -1,0 +1,82 @@
+@import "ins-product-attributes-variables";
+
+.via-slds{
+    .vloc-attr-row {
+        position: relative;
+        &:hover{
+            .vloc-attr-data-cell{
+            background: $cards-gray;
+            }
+        }
+        &.selected{
+            .vloc-attr-data-cell{
+                background: $cards-gray;
+            }
+        }
+        .vloc-attr-cell {
+            .vloc-attr-title-cell {
+
+            }
+
+            .vloc-attr-data-cell{
+                min-height: 2.3rem;
+                border-bottom: 1px solid $cards-border-gray;
+                display: flex;
+                align-items: center;
+
+                .vloc-inherited-icon-fill {
+                    fill: #0070d2;
+                }
+
+                .vloc-overridden-info {
+                    color: #0070d2;
+
+                    .vloc-overridden-tooltip {
+                        position: absolute;
+                        white-space: initial;
+                        min-width: 12rem;
+                        visibility: hidden;
+                        left: 0.2rem;
+                    }
+
+                    .vloc-tooltip-nubbin-left {
+                        position: absolute;
+                        align-items: center;
+                        display: flex;
+                        white-space: initial;
+                        min-height: 3rem;
+                        visibility: hidden;
+                        bottom: -0.4rem;
+                        left: 3.2rem;
+                    }
+
+                    &:hover .vloc-tooltip-nubbin-left {
+                        visibility: initial;
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    &:hover .vloc-overridden-tooltip {
+                        display: inline;
+                        visibility: initial;
+                        bottom: 2.6rem;
+                    }
+                }
+            }
+        }
+        .vloc-attr-fly-out{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+    .draggable-items {
+        .vloc-attr-data-cell {
+            &:hover {
+                cursor: move;
+            }
+        }
+    }
+}

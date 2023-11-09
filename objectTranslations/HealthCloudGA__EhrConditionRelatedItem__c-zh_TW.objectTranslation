@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR 條件相關項目</value>
+    </caseValues>
+    <fields>
+        <label><!-- Code Label --></label>
+        <name>HealthCloudGA__CodeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code System --></label>
+        <name>HealthCloudGA__CodeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>HealthCloudGA__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition --></label>
+        <name>HealthCloudGA__Condition__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Statement --></label>
+        <name>HealthCloudGA__MedicationStatement__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>HealthCloudGA__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>識別已建立記錄並擁有該記錄更新權的系統。預設值為代表手動建立記錄的「健康 1」。</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Condition --></label>
+        <name>HealthCloudGA__TargetCondition__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items (Target Condition) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Detail --></label>
+        <name>HealthCloudGA__TargetDetail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Immunization --></label>
+        <name>HealthCloudGA__TargetImmunization__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>EHR 條件名稱</nameFieldLabel>
+</CustomObjectTranslation>

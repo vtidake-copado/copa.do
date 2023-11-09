@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins__AccountId__c</name>
+        <relationshipLabel><!-- Async Request Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Information --></label>
+        <name>vlocity_ins__AdditionalInformation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failed Job Count --></label>
+        <name>vlocity_ins__FailedJobCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Count --></label>
+        <name>vlocity_ins__JobCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending Job Count --></label>
+        <name>vlocity_ins__PendingJobCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_ins__Status__c</name>
+        <picklistValues>
+            <masterLabel>Aborted</masterLabel>
+            <translation><!-- Aborted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holding</masterLabel>
+            <translation><!-- Holding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preparing</masterLabel>
+            <translation><!-- Preparing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Successful Job Count --></label>
+        <name>vlocity_ins__SuccessfulJobCount__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>vlocity_ins__Default</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>עמודת הסינון</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>עמודת סינון</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>עמודות הסינון</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>עמודות סינון</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Api --></label>
+        <name>HealthCloudGA__FieldApi__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Label --></label>
+        <name>HealthCloudGA__FieldLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Criterion --></label>
+        <name>HealthCloudGA__FilterCriterion__c</name>
+        <relationshipLabel><!-- Filter Columns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>HealthCloudGA__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>HealthCloudGA__Order__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם עמודת סינון</nameFieldLabel>
+</CustomObjectTranslation>

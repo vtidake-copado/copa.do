@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- סוג רשומת הפניית הזדמנות --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- סוג רשומת הפניית ההזדמנות --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- סוגי רשומות הפניית הזדמנות --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- סוגי רשומות הפניית ההזדמנות --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type Name --></label>
+        <name>HealthCloudGA__OpportunityRecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Namespace --></label>
+        <name>HealthCloudGA__OpportunityReferralRecordTypeNamespace__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

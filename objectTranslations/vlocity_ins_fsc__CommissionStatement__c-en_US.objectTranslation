@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins_fsc__AccountId__c</name>
+        <relationshipLabel><!-- Commission Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>vlocity_ins_fsc__ContactId__c</name>
+        <relationshipLabel><!-- Commission Statements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>vlocity_ins_fsc__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>vlocity_ins_fsc__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Commission --></label>
+        <name>vlocity_ins_fsc__TotalCommissionAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Commissionable Premium --></label>
+        <name>vlocity_ins_fsc__TotalCommissionableAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins_fsc__Type__c</name>
+        <picklistValues>
+            <masterLabel>Advance</masterLabel>
+            <translation><!-- Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commission</masterLabel>
+            <translation><!-- Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentive comp</masterLabel>
+            <translation><!-- Incentive comp --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

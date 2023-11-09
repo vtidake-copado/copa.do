@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>症状とHCCコードの対応付け</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>HealthCloudGA__ConditionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- HCC Code --></label>
+        <name>HealthCloudGA__HCCCode__c</name>
+    </fields>
+    <fields>
+        <help>HCC コードが有効になった年。</help>
+        <label><!-- Valid From --></label>
+        <name>HealthCloudGA__ValidFrom__c</name>
+    </fields>
+    <fields>
+        <help>翌年からコードが無効になる年。</help>
+        <label><!-- Valid Through --></label>
+        <name>HealthCloudGA__ValidThrough__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year + Condition Code + HCC Code --></label>
+        <name>HealthCloudGA__YearConditionCodeHCCCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>HealthCloudGA__Year__c</name>
+    </fields>
+    <nameFieldLabel>対応付け ID</nameFieldLabel>
+</CustomObjectTranslation>

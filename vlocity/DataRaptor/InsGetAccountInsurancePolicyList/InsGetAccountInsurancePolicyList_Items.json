@@ -1,0 +1,254 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "recordId",
+        "GlobalKey": "60786e05-a4ca-20f8-a0b2-9d1bbe854d9e",
+        "InputFieldName": "NameInsuredId",
+        "InputObjectName": "InsurancePolicy",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Policy",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "5475b0dd-575a-46a4-8ded-9cd13b3a6496",
+        "InputFieldName": "Policy:EffectiveDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "EffectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f2d32e01-b419-d23b-fb79-0c1126df4879",
+        "InputFieldName": "Policy:ExpirationDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ExpirationDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "4d71ea74-5607-f73d-17cc-515a6cbee8bd",
+        "InputFieldName": "Policy:GrossWrittenPremium",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "GrossWrittenPremium",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "80ced19e-0687-4431-64c4-eb27a80ebf78",
+        "InputFieldName": "Policy:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Id",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "8097901f-03e7-e99c-48db-01ec2474f1f9",
+        "InputFieldName": "Policy:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "e4ae8ff6-df37-dbd6-fdaf-1a9e1ec92a21",
+        "InputFieldName": "Policy:PolicyName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PolicyNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "35a53d9d-cf84-c541-981d-c7f10e58c988",
+        "InputFieldName": "Policy:Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "8e2624d1-af41-cd8a-3bc3-149cda2a3b7a",
+        "InputFieldName": "Policy:PolicyTerm",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Term",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "f1b42b63-72dc-de8b-887b-6e8367695eeb",
+        "InputFieldName": "Policy:TermFeeAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalFeeForTerm",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "689b7fe9-4e68-8c13-aea6-6b694523b268",
+        "InputFieldName": "Policy:TermPremiumAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalPremiumForTerm",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "70fa0e69-5461-4113-a0f9-f4e254736297",
+        "InputFieldName": "Policy:TermTaxAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "TotalTaxForTerm",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "7d8bc04f-8e03-e401-df7d-ba025e642a7d",
+        "InputFieldName": "Policy:PolicyType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetAccountInsurancePolicyList",
+        "OmniDataTransformationId": {
+            "Name": "InsGetAccountInsurancePolicyList",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetAccountInsurancePolicyList",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

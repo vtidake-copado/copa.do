@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Virtuel enhedskanal i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Virtuel enhedskanal i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Virtuel enhedskanal i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Virtuelle enhedskanaler i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Virtuelle enhedskanaler i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Virtuelle enhedskanaler i EPJ</value>
+    </caseValues>
+    <fields>
+        <label><!-- Code Label --></label>
+        <name>HealthCloudGA__CodeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code System --></label>
+        <name>HealthCloudGA__CodeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>HealthCloudGA__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- EHR Virtual Device --></label>
+        <name>HealthCloudGA__EhrVirtualDevice__c</name>
+        <relationshipLabel><!-- Virtual Device Channels --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric --></label>
+        <name>HealthCloudGA__Metric__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>HealthCloudGA__Observation__c</name>
+        <relationshipLabel><!-- Virtual Device Channels --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identificerer det system, der oprettede registreringen og ejer opdateringsrettigheder til den. Er som standard Health1 for manuelt oprettede registreringer.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på virtuel enhedskanal i EPJ</nameFieldLabel>
+</CustomObjectTranslation>

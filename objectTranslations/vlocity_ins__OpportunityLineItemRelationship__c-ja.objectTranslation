@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商談商品リレーション</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>vlocity_ins__Action__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>削除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing</masterLabel>
+            <translation>既存</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>vlocity_ins__OpportunityId__c</name>
+        <relationshipLabel><!-- Opportunity Product Relationship --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Product --></label>
+        <name>vlocity_ins__OpportunityLineItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Relationship --></label>
+        <name>vlocity_ins__ProductRelationshipIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Asset Reference Id --></label>
+        <name>vlocity_ins__RelatedAssetReferenceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity Product --></label>
+        <name>vlocity_ins__RelatedOpportunityLineItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Type --></label>
+        <name>vlocity_ins__RelationshipType__c</name>
+        <picklistValues>
+            <masterLabel>Movement</masterLabel>
+            <translation>移動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reassignment</masterLabel>
+            <translation>再割り当て</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relies On</masterLabel>
+            <translation>依存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement</masterLabel>
+            <translation>置換</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>参照番号</nameFieldLabel>
+</CustomObjectTranslation>

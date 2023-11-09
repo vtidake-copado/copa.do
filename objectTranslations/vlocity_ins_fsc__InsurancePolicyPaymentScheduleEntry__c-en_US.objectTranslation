@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- GetPaymentScheduleFields --></label>
+        <name>vlocity_ins_fsc__GetPaymentScheduleFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- GetPaymentScheduleFields --></label>
+        <name>vlocity_ins_fsc__Ins_GetPaymentScheduleEntries</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Fee Amount --></label>
+        <name>vlocity_ins_fsc__FeeAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Transaction --></label>
+        <name>vlocity_ins_fsc__InsPolicyTransactionId__c</name>
+        <relationshipLabel><!-- Insurance Policy Payment Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyId__c</name>
+        <relationshipLabel><!-- Insurance Policy Payment Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Transaction Id --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyTransactionId__c</name>
+        <relationshipLabel><!-- Insurance Policy Payment Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Paid --></label>
+        <name>vlocity_ins_fsc__IsPaid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium Amount --></label>
+        <name>vlocity_ins_fsc__PremiumAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Date --></label>
+        <name>vlocity_ins_fsc__ScheduleDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>vlocity_ins_fsc__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>vlocity_ins_fsc__TotalAmount__c</name>
+    </fields>
+</CustomObjectTranslation>

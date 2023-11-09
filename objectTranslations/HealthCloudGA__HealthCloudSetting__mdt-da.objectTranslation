@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Health Cloud-indstilling --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Health Cloud-indstilling --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Health Cloud-indstillingen --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Health Cloud-indstillinger --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Health Cloud-indstillinger --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Health Cloud-indstillingerne --></value>
+    </caseValues>
+    <fields>
+        <help>Om denne konfigurationsregistrering skal bruges.</help>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>Navnet på denne konfigurationsindstilling. Se dokumentation for det præcise navn på specifikke indstillinger.</help>
+        <label><!-- Setting Name --></label>
+        <name>HealthCloudGA__SettingName__c</name>
+    </fields>
+    <fields>
+        <help>Værdien af denne konfigurationsindstilling. Se dokumentation for anbefalede værdier og formater.</help>
+        <label><!-- Setting Value --></label>
+        <name>HealthCloudGA__SettingValue__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

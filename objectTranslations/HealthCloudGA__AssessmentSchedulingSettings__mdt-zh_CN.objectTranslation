@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- AssessmentSchedulingSettings --></value>
+    </caseValues>
+    <fields>
+        <label><!-- CareProgramId --></label>
+        <name>HealthCloudGA__CareProgramId__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailTemplate --></label>
+        <name>HealthCloudGA__EmailTemplate__c</name>
+    </fields>
+    <fields>
+        <label><!-- InvitationExpirationDays --></label>
+        <name>HealthCloudGA__InvitationExpirationDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- PatientCondition --></label>
+        <name>HealthCloudGA__PatientCondition__c</name>
+    </fields>
+    <fields>
+        <label><!-- PatientSurveyDurationDays --></label>
+        <name>HealthCloudGA__PatientSurveyDurationDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- SurveyName --></label>
+        <name>HealthCloudGA__SurveyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskAssignmentUser --></label>
+        <name>HealthCloudGA__TaskAssignmentUser__c</name>
+    </fields>
+</CustomObjectTranslation>

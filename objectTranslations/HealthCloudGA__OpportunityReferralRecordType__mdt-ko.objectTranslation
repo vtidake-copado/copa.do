@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 기회 의뢰 레코드 유형 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type Name --></label>
+        <name>HealthCloudGA__OpportunityRecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Namespace --></label>
+        <name>HealthCloudGA__OpportunityReferralRecordTypeNamespace__c</name>
+    </fields>
+</CustomObjectTranslation>

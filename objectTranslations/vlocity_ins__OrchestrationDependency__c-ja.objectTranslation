@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オーケストレーション連動関係</value>
+    </caseValues>
+    <fields>
+        <label><!-- Depends On --></label>
+        <name>vlocity_ins__DependsOnItemId__c</name>
+        <relationshipLabel><!-- Orchestration Dependencies (Depends On) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Dependency Definition --></label>
+        <name>vlocity_ins__OrchestrationDependencyDefinitionId__c</name>
+        <relationshipLabel><!-- Orchestration Dependencies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Item --></label>
+        <name>vlocity_ins__OrchestrationItemId__c</name>
+        <relationshipLabel><!-- Orchestration Dependencies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>vlocity_ins__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan --></label>
+        <name>vlocity_ins__Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>vlocity_ins__State__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skipped</masterLabel>
+            <translation>スキップ済み</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>オーケストレーション連動関係名</nameFieldLabel>
+</CustomObjectTranslation>

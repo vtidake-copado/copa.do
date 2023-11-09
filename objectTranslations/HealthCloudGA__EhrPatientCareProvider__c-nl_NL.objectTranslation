@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zorgverlener volgens EPD (elektronisch patiëntendossier)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zorgverleners volgens EPD (elektronisch patiëntendossier)</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization 255 --></label>
+        <name>HealthCloudGA__Organization255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization --></label>
+        <name>HealthCloudGA__Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Patient Care Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Practitioner Name 255 --></label>
+        <name>HealthCloudGA__PractitionerName255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner Name --></label>
+        <name>HealthCloudGA__PractitionerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner --></label>
+        <name>HealthCloudGA__Practitioner__c</name>
+        <relationshipLabel><!-- Patient Care Providers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identificeert het systeem dat de record heeft gemaakt, en eigenaar is van de rechten op updates ervan. De standaardwaarde wordt Health1 voor handmatig gemaakte records.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID van zorgverlener voor patiënt volgens</nameFieldLabel>
+</CustomObjectTranslation>

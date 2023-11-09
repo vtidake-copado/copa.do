@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- הגדרת Health Cloud --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- ההגדרה של Health Cloud --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- הגדרות Health Cloud --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- ההגדרות של Health Cloud --></value>
+    </caseValues>
+    <fields>
+        <help>האם יש להשתמש ברשומת תצורה זו.</help>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>השם של הגדרת תצורה זו. עיין בתיעוד לקבלת השמות המדויקים של הגדרות ספציפיות.</help>
+        <label><!-- Setting Name --></label>
+        <name>HealthCloudGA__SettingName__c</name>
+    </fields>
+    <fields>
+        <help>הערך של הגדרת תצורה זו. עיין בתיעוד לקבלת התבניות והערכים המומלצים.</help>
+        <label><!-- Setting Value --></label>
+        <name>HealthCloudGA__SettingValue__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

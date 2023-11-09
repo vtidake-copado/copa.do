@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Health Cloud 設定 --></value>
+    </caseValues>
+    <fields>
+        <help>是否應使用此組態記錄。</help>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>此組態設定的名稱。請參閱說明文件以瞭解特定設定的確切名稱。</help>
+        <label><!-- Setting Name --></label>
+        <name>HealthCloudGA__SettingName__c</name>
+    </fields>
+    <fields>
+        <help>此組態設定的值。請參閱說明文件以瞭解建議的值與格式。</help>
+        <label><!-- Setting Value --></label>
+        <name>HealthCloudGA__SettingValue__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+{
+    "CustomJavaScript": "InsRecordHeaderInsurancePolicy_getDetails_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "InsRecordHeaderDetailsInsPolicy",
+    "OmniProcessElement": [
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_GetAccountDR.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_SetAPIKeys.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_WeatherApiRequest.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_SetStatus.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_SetStatusColorsActive.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_SetStatusColorsObsolete.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_SetResponseValues.json",
+        "InsRecordHeaderInsurancePolicy_getDetails_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "InsRecordHeaderInsurancePolicy_getDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "InsRecordHeaderInsurancePolicy_getDetails_PropertySetConfig.json",
+    "SubType": "getDetails",
+    "Type": "InsRecordHeaderInsurancePolicy",
+    "UniqueName": "InsRecordHeaderInsurancePolicy_getDetails_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/InsRecordHeaderInsurancePolicy/getDetails/Procedure",
+    "WebComponentKey": "d31e1a39-dfee-25c7-6bc9-75bcb2c0c900"
+}

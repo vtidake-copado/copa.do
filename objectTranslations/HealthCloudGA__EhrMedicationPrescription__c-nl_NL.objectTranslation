@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Recept voor medicatie volgens EPD (elektronisch patiëntendossier)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Recepten voor medicatie volgens EPD (elektronisch patiëntendossier)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Written --></label>
+        <name>HealthCloudGA__DateWritten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Expected Supply Duration --></label>
+        <name>HealthCloudGA__DispenseExpectedSupplyDuration__c</name>
+    </fields>
+    <fields>
+        <help>Systeem voor code die deze medicatie aangeeft</help>
+        <label><!-- Dispense Medication Code System --></label>
+        <name>HealthCloudGA__DispenseMedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>Code die deze medicatie aangeeft</help>
+        <label><!-- Dispense Medication Code --></label>
+        <name>HealthCloudGA__DispenseMedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Medication Expiration --></label>
+        <name>HealthCloudGA__DispenseMedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>True (waar) indien merkmedicatie</help>
+        <label><!-- Dispense Medication Is Brand --></label>
+        <name>HealthCloudGA__DispenseMedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>product | pakketcode</help>
+        <label><!-- Dispense Medication Kind Code --></label>
+        <name>HealthCloudGA__DispenseMedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>product | bijnaam van pakket</help>
+        <label><!-- Dispense Medication Kind Label --></label>
+        <name>HealthCloudGA__DispenseMedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>product | systeem voor pakketcode</help>
+        <label><!-- Dispense Medication Kind System --></label>
+        <name>HealthCloudGA__DispenseMedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>Bijnaam voor deze medicatie</help>
+        <label><!-- Dispense Medication Label --></label>
+        <name>HealthCloudGA__DispenseMedicationLabel__c</name>
+    </fields>
+    <fields>
+        <help>Partijnummer voor medicatiebatch</help>
+        <label><!-- Dispense Medication Lot Number --></label>
+        <name>HealthCloudGA__DispenseMedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>Gewone / commerciële naam</help>
+        <label><!-- Dispense Medication Name --></label>
+        <name>HealthCloudGA__DispenseMedicationName__c</name>
+    </fields>
+    <fields>
+        <help>poeder | tabletten | omdoos + code</help>
+        <label><!-- Dispense Medication Product Form Code --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>poeder | tabletten | omdoos + bijnaam</help>
+        <label><!-- Dispense Medication Product Form Label --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>poeder | tabletten | omdoos + systeem</help>
+        <label><!-- Dispense Medication Product Form System --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Number Of Repeat Allowed --></label>
+        <name>HealthCloudGA__DispenseNumberOfRepeatAllowed__c</name>
+    </fields>
+    <fields>
+        <help>Hoeveelheid medicatie die moet worden geleverd per meeteenheid voor verstrekking</help>
+        <label><!-- Dispense Quantity Unit --></label>
+        <name>HealthCloudGA__DispenseQuantityUnit__c</name>
+    </fields>
+    <fields>
+        <help>Hoeveelheid medicatie die moet worden geleverd per verstrekking</help>
+        <label><!-- Dispense Quantity Value --></label>
+        <name>HealthCloudGA__DispenseQuantityValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period End --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period Start --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encounter --></label>
+        <name>HealthCloudGA__Encounter__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <help>Bijnaam voor code voor medicatie</help>
+        <label><!-- Medication Code Label --></label>
+        <name>HealthCloudGA__MedicationCodeLabel__c</name>
+    </fields>
+    <fields>
+        <help>Systeem voor code die deze medicatie aangeeft</help>
+        <label><!-- Medication Code System --></label>
+        <name>HealthCloudGA__MedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>Code die deze medicatie aangeeft</help>
+        <label><!-- Medication Code --></label>
+        <name>HealthCloudGA__MedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Expiration --></label>
+        <name>HealthCloudGA__MedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>True (waar) indien merkmedicatie</help>
+        <label><!-- Medication Is Brand --></label>
+        <name>HealthCloudGA__MedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>product | pakketcode</help>
+        <label><!-- Medication Kind Code --></label>
+        <name>HealthCloudGA__MedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>product | bijnaam van pakket</help>
+        <label><!-- Medication Kind Label --></label>
+        <name>HealthCloudGA__MedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>product | systeem voor pakketcode</help>
+        <label><!-- Medication Kind System --></label>
+        <name>HealthCloudGA__MedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>Partijnummer voor medicatiebatch</help>
+        <label><!-- Medication Lot Number --></label>
+        <name>HealthCloudGA__MedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>Gewone / commerciële naam</help>
+        <label><!-- Medication Name --></label>
+        <name>HealthCloudGA__MedicationName__c</name>
+    </fields>
+    <fields>
+        <help>poeder | tabletten | omdoos + code</help>
+        <label><!-- Medication Product Form Code --></label>
+        <name>HealthCloudGA__MedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>poeder | tabletten | omdoos + bijnaam</help>
+        <label><!-- Medication Product Form Label --></label>
+        <name>HealthCloudGA__MedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>poeder | tabletten | omdoos + systeem</help>
+        <label><!-- Medication Product Form System --></label>
+        <name>HealthCloudGA__MedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Name --></label>
+        <name>HealthCloudGA__PrescriberName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber --></label>
+        <name>HealthCloudGA__Prescriber__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Reden of indicatie voor het uitschrijven van het recept</help>
+        <label><!-- Reason Code --></label>
+        <name>HealthCloudGA__ReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Condition --></label>
+        <name>HealthCloudGA__ReasonCondition__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Bijnaam voor code voor reden of indicatie voor uitschrijven van recept</help>
+        <label><!-- Reason Label --></label>
+        <name>HealthCloudGA__ReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>Code voor reden voor coderingssysteem of indicatie voor het uitschrijven van het recept</help>
+        <label><!-- Reason System --></label>
+        <name>HealthCloudGA__ReasonSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identificeert het systeem dat de record heeft gemaakt, en eigenaar is van de rechten op updates ervan. De standaardwaarde wordt Health1 voor handmatig gemaakte records.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>Code voor: active (actief) | on-hold (in wachtstend) | completed (voltooid) | entered-in-error (onjuist opgegeven) | stopped (gestopt) | superseded (vervangen) | draft (concept)</help>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+    </fields>
+    <fields>
+        <help>Bijnaam voor status</help>
+        <label><!-- Status Label --></label>
+        <name>HealthCloudGA__StatusLabel__c</name>
+    </fields>
+    <fields>
+        <help>Systeem voor code voor status</help>
+        <label><!-- Status System --></label>
+        <name>HealthCloudGA__StatusSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substitute Restrict Reason Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonCode__c</name>
+    </fields>
+    <fields>
+        <help>Alle beperkingen voor vervanging van medicatie, generiek / qua formule + bijnaam</help>
+        <label><!-- Substitute Restrict Reason Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>Zijn er beperkingen voor vervanging van medicatie? coderingssysteem</help>
+        <label><!-- Substitute Restrict Reason System --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonSystem__c</name>
+    </fields>
+    <fields>
+        <help>generiek | qua formule + code</help>
+        <label><!-- Substitute Restrict Type Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeCode__c</name>
+    </fields>
+    <fields>
+        <help>generiek | qua formule + bijnaam voor code</help>
+        <label><!-- Substitute Restrict Type Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeLabel__c</name>
+    </fields>
+    <fields>
+        <help>generiek | qua formule + coderingssysteem</help>
+        <label><!-- Substitute Restrict Type System --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeSystem__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>ID van recept voor medicatie volgens EPD</nameFieldLabel>
+</CustomObjectTranslation>

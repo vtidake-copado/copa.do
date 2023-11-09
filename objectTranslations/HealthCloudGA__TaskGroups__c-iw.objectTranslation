@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- קבוצת משימות --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- קבוצת המשימות --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- קבוצות משימות --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- קבוצות המשימות --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>אם התווית שלך כוללת קידומת מרחב שמות, השתמש ב-Label_Namespace.Label_Name. אחרת, השתמש ב-c.Label_Name.</help>
+        <label><!-- GroupBy Label --></label>
+        <name>HealthCloudGA__GroupByLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- GroupBy --></label>
+        <name>HealthCloudGA__GroupBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

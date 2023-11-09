@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Programm</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Programme</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Programm</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Programme</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Programms</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Programme</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Programm</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Programmen</value>
+    </caseValues>
+    <fields>
+        <help>Datum, an dem das Programm für das gesamte Unternehmen endet.</help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, ob ein Datensatz aktiv ist.</help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Gibt die Erstattung innerhalb des Bewertungszeitraums für einen einzelnen Patienten im spezifischen Programm an (Beispiel: Medicare CCM-Programm)</help>
+        <label><!-- Rate --></label>
+        <name>HealthCloudGA__Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>HealthCloudGA__ReportName__c</name>
+    </fields>
+    <fields>
+        <help>Datum, an dem das Programm für das gesamte Unternehmen beginnt.</help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Pro Patient während des Bewertungszeitraums zu erbringende Zielzeit.</help>
+        <label><!-- Target --></label>
+        <name>HealthCloudGA__Target__c</name>
+    </fields>
+    <fields>
+        <help>Bewertungszeitraum.</help>
+        <label><!-- Time Span --></label>
+        <name>HealthCloudGA__TimeSpan__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Jährlich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Monatlich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Quartalsweise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Wöchentlich</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Maßeinheit für die Zeit, die pro Patient während des Bewertungszeitraums zu erbringen ist (siehe Feld &quot;Ziel&quot;)</help>
+        <label><!-- Unit of Measure --></label>
+        <name>HealthCloudGA__UnitOfMeasure__c</name>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation>Minuten</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seconds</masterLabel>
+            <translation>Sekunden</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Arten von Benutzern, die ggf. für die Zeitmessung qualifiziert sind.</help>
+        <label><!-- User Role Field --></label>
+        <name>HealthCloudGA__UserRoleField__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name des Programms</nameFieldLabel>
+    <recordTypes>
+        <label><!-- CMS Risk Scoring --></label>
+        <name>HealthCloudGA__CMSRiskScoring</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Chronic Care Management --></label>
+        <name>HealthCloudGA__ChronicCareManagement</name>
+    </recordTypes>
+</CustomObjectTranslation>

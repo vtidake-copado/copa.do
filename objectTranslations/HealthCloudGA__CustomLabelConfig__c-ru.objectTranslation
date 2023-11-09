@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурация настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурация настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурацию настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурацию настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурации настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурации настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурации настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурации настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурацией настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурацией настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурации настраиваемой метки --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурации настраиваемой метки --></value>
+    </caseValues>
+    <fields>
+        <label><!-- New Label --></label>
+        <name>HealthCloudGA__NewLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Field Name --></label>
+        <name>HealthCloudGA__ObjectFieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>HealthCloudGA__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Record Type --></label>
+        <name>HealthCloudGA__ObjectRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Field --></label>
+        <name>HealthCloudGA__RelationshipName__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Name --></label>
+        <name>HealthCloudGA__ViewName__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetAPIKeys",
+    "OmniProcessId": {
+        "Name": "InsRecordHeaderDetailsInsPolicy",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InsRecordHeaderInsurancePolicy/getDetails/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "googleMapsAPIKey": "BFG_REPLACED_PASSWORD",
+            "openWeatherMap": "e4e213e28fc109204126b0b13968ef66",
+            "weatherAPIKey": "4b626696e973413796da03abf4897758"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues2",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InsRecordHeaderInsurancePolicy/getDetails/Procedure/SetAPIKeys"
+}

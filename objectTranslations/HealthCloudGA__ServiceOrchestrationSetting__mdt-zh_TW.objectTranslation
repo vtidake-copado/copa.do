@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 服務協調流程設定 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Id --></label>
+        <name>HealthCloudGA__ProcessId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>HealthCloudGA__Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step Class --></label>
+        <name>HealthCloudGA__StepClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>HealthCloudGA__Step__c</name>
+    </fields>
+</CustomObjectTranslation>

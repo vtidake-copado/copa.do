@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- New Individual Contact Fields --></label>
+        <name>HealthCloudGA__NewIndividualContactFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- GetContactDetailsField --></label>
+        <name>vlocity_ins__DuplicateMatchFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Household Member --></label>
+        <name>vlocity_ins__HouseholdMember</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InteractionFieldList --></label>
+        <name>vlocity_ins__InteractionFieldList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ListMember --></label>
+        <name>vlocity_ins__ListMember</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Producer List --></label>
+        <name>vlocity_ins__ProducerList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProviderNetworkSearch --></label>
+        <name>vlocity_ins__ProviderNetworkSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segment List Export --></label>
+        <name>vlocity_ins__SegmentListExport</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>HealthCloudGA__BirthDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__ConditionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Asymptomatic</masterLabel>
+            <translation>Tanpa Gejala</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asymptomatic - Declined to Participate</masterLabel>
+            <translation>Tanpa Gejala - Ditolak untuk Berpartisipasi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation>Sembuh</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluated - No Risk</masterLabel>
+            <translation>Dievaluasi - Tidak Ada Risiko</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic</masterLabel>
+            <translation>Dengan Gejala</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symptomatic - Declined to Participate</masterLabel>
+            <translation>Dengan Gejala - Ditolak untuk Berpartisipasi</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Hitungan rujukan yang dikirimkan dalam 6 bulan terakhir oleh dokter pemberi rujukan ini yang mempunyai status “Dikonversikan Tertutup”.</help>
+        <label><!-- Converted Referrals --></label>
+        <name>HealthCloudGA__ConvertedReferrals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Of Birth --></label>
+        <name>HealthCloudGA__CountryOfBirth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created from Lead --></label>
+        <name>HealthCloudGA__CreatedFromLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deceased Date --></label>
+        <name>HealthCloudGA__DeceasedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation><!-- Decline to Specify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Individual ID --></label>
+        <name>HealthCloudGA__IndividualId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Type --></label>
+        <name>HealthCloudGA__IndividualType__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Tidak</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ya</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Name --></label>
+        <name>HealthCloudGA__PreferredName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Language --></label>
+        <name>HealthCloudGA__PrimaryLanguage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer Score --></label>
+        <name>HealthCloudGA__ReferrerScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Language --></label>
+        <name>HealthCloudGA__SecondaryLanguage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>Mengidentifkasi sistem yang membuat catatan dan memiliki hak pembaruan sendiri. Default to Health 1 untuk catatan yang dibuat secara manual.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Group --></label>
+        <name>HealthCloudGA__StatusGroup__c</name>
+        <picklistValues>
+            <masterLabel>Monitored</masterLabel>
+            <translation>Dipantau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Monitored</masterLabel>
+            <translation>Tidak Dipantau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>Tes Positif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Intake</masterLabel>
+            <translation>Siap untuk dimasukkan</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative Test</masterLabel>
+            <translation>Tes Negatif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>Tes Positif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Results Awaited</masterLabel>
+            <translation>Hasil Tes yang Ditunggu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Scheduled</masterLabel>
+            <translation>Tes yang Dijadwalkan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Recommended</masterLabel>
+            <translation>Pengujian yang Direkomendasikan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation>Tidak Diketahui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Hitungan jumlah total rujukan yang dikirimkan dalam 6 bulan terakhir oleh dokter pemberi rujukan ini.</help>
+        <label><!-- Total Referrals --></label>
+        <name>HealthCloudGA__TotalReferrals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>vlocity_ins__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Commission --></label>
+        <name>vlocity_ins__AnnualCommission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Income --></label>
+        <name>vlocity_ins__AnnualIncome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Premium --></label>
+        <name>vlocity_ins__AnnualPremium__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAQHIdentifier --></label>
+        <name>vlocity_ins__CAQHIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Sentiment --></label>
+        <name>vlocity_ins__CustomerSentiment__c</name>
+        <picklistValues>
+            <masterLabel>Disgruntled</masterLabel>
+            <translation><!-- Disgruntled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dissatisfied</masterLabel>
+            <translation><!-- Dissatisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promoter</masterLabel>
+            <translation><!-- Promoter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satisfied</masterLabel>
+            <translation><!-- Satisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days Since Last Contact --></label>
+        <name>vlocity_ins__DaysSinceLastContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Driver&apos;s License Number --></label>
+        <name>vlocity_ins__DriversLicenseNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employment Status --></label>
+        <name>vlocity_ins__EmploymentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Employed Full-Time</masterLabel>
+            <translation><!-- Employed Full-Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employed Part-Time</masterLabel>
+            <translation><!-- Employed Part-Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation><!-- Retired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Employed</masterLabel>
+            <translation><!-- Self-Employed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student</masterLabel>
+            <translation><!-- Student --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployed</masterLabel>
+            <translation><!-- Unemployed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>vlocity_ins__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 24x7 Support --></label>
+        <name>vlocity_ins__Has24x7Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>vlocity_ins__Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>vlocity_ins__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>vlocity_ins__IsEmployee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>vlocity_ins__IsPartner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Person Account --></label>
+        <name>vlocity_ins__IsPersonAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages Spoken --></label>
+        <name>vlocity_ins__LanguagesSpoken__c</name>
+        <picklistValues>
+            <masterLabel>Cantonese</masterLabel>
+            <translation><!-- Cantonese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaiian</masterLabel>
+            <translation><!-- Hawaiian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ilocano</masterLabel>
+            <translation><!-- Ilocano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation><!-- Japanese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandarin</masterLabel>
+            <translation><!-- Mandarin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Language</masterLabel>
+            <translation><!-- Other Language --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoan</masterLabel>
+            <translation><!-- Samoan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign Language</masterLabel>
+            <translation><!-- Sign Language --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagalog</masterLabel>
+            <translation><!-- Tagalog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thai</masterLabel>
+            <translation><!-- Thai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tongan</masterLabel>
+            <translation><!-- Tongan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnamese</masterLabel>
+            <translation><!-- Vietnamese --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Contact by Record Owner --></label>
+        <name>vlocity_ins__LastContactbyRecordOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>vlocity_ins__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Name --></label>
+        <name>vlocity_ins__MiddleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- National Producer Number --></label>
+        <name>vlocity_ins__NPNNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Worth --></label>
+        <name>vlocity_ins__NetWorth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>vlocity_ins__Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Tier --></label>
+        <name>vlocity_ins__PartnerTier__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Party --></label>
+        <name>vlocity_ins__PartyId__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Premium Year --></label>
+        <name>vlocity_ins__PremiumYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Agency/Brokerage Party --></label>
+        <name>vlocity_ins__PrimaryAgencyBrokeragePartyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- PrimaryAgency/Brokerage Record Type --></label>
+        <name>vlocity_ins__PrimaryAgencyBrokerageRecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer --></label>
+        <name>vlocity_ins__PrimaryEmployerId__c</name>
+        <relationshipLabel><!-- Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Provider Account --></label>
+        <name>vlocity_ins__PrimaryLocationAccountId__c</name>
+        <relationshipLabel><!-- Contacts (Primary Provider Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Producer Number --></label>
+        <name>vlocity_ins__ProducerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider Identifier --></label>
+        <name>vlocity_ins__ProviderIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepts new patients --></label>
+        <name>vlocity_ins__ProviderIsAcceptingNewPatients__c</name>
+    </fields>
+    <fields>
+        <label><!-- Social Security Number --></label>
+        <name>vlocity_ins__SocialSecurityNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- State of Issuance --></label>
+        <name>vlocity_ins__StateOfIssuance__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_ins__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tax ID --></label>
+        <name>vlocity_ins__TaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tobacco Use --></label>
+        <name>vlocity_ins__TobaccoUse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins__Type__c</name>
+        <picklistValues>
+            <masterLabel>Associate Agent</masterLabel>
+            <translation><!-- Associate Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licensed Agent</masterLabel>
+            <translation><!-- Licensed Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managing Agent</masterLabel>
+            <translation><!-- Managing Agent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employee Number --></label>
+        <name>vlocity_ins__UserEmployeeNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserId --></label>
+        <name>vlocity_ins__UserId__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Web Site --></label>
+        <name>vlocity_ins__WebSite__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Represents a Business --></description>
+        <label><!-- Business --></label>
+        <name>HealthCloudGA__IndustriesBusiness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents an Individual --></description>
+        <label><!-- Individual --></label>
+        <name>HealthCloudGA__IndustriesIndividual</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Contact --></label>
+        <name>vlocity_ins__Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobilePhoneContact --></label>
+        <name>vlocity_ins__MobilePhoneContact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Producer --></label>
+        <name>vlocity_ins__Producer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider --></label>
+        <name>vlocity_ins__Provider</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The Individual record type can&apos;t be changed --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionFromIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The record type can&apos;t be changed to Individual. --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionToIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Social Security Number is 9-digit number --></errorMessage>
+        <name>vlocity_ins__EnforceSocialSecurityNumberlength</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AddRelation --></label>
+        <name>HealthCloudGA__AddRelation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateGroup --></label>
+        <name>vlocity_ins__CreateGroup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateHousehold --></label>
+        <name>vlocity_ins__CreateHousehold</name>
+    </webLinks>
+</CustomObjectTranslation>

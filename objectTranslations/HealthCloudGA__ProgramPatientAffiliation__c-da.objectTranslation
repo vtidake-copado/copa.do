@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Programpatienttilknytningen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Programpatienttilknytning</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Programpatienttilknytning</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Programpatienttilknytningerne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Programpatienttilknytninger</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Programpatienttilknytninger</value>
+    </caseValues>
+    <fields>
+        <help>Opslag til konto (patient/individ).</help>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Dato, hvor patientens tilmelding til programmet slutter.</help>
+        <label><!-- End Date --></label>
+        <name>HealthCloudGA__EndDate__c</name>
+    </fields>
+    <fields>
+        <help>Angiver, om en registrering er aktiv eller ej.</help>
+        <label><!-- Is Active --></label>
+        <name>HealthCloudGA__IsActive__c</name>
+    </fields>
+    <fields>
+        <help>Identificerer, hvilket program patienten er tilmeldt.</help>
+        <label><!-- Program --></label>
+        <name>HealthCloudGA__Program__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provider --></label>
+        <name>HealthCloudGA__Provider__c</name>
+        <relationshipLabel><!-- Program Patient Affiliation --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recalculate --></label>
+        <name>HealthCloudGA__Recalculate__c</name>
+    </fields>
+    <fields>
+        <help>Dato, hvor patientens tilmelding til programmet begynder.</help>
+        <label><!-- Start Date --></label>
+        <name>HealthCloudGA__StartDate__c</name>
+    </fields>
+    <fields>
+        <help>Medicare CCM-programstatus.</help>
+        <label><!-- Status --></label>
+        <name>HealthCloudGA__Status__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Afvist</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation>I gang</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Program</masterLabel>
+            <translation>I program</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation>Potentiale</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn</nameFieldLabel>
+</CustomObjectTranslation>

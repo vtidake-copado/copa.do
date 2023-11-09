@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>תבנית תוכנית הטיפול</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>תבנית תוכנית טיפול</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>תבניות תוכניות הטיפול</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>תבניות תוכנית טיפול</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Disease Management</masterLabel>
+            <translation>ניהול מחלה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endocrinology and Metabolism</masterLabel>
+            <translation>אנדוקרינולוגיה ומטבוליזם</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Health</masterLabel>
+            <translation>טיפול ביתי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellness</masterLabel>
+            <translation>אורח חיים</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cloned From --></label>
+        <name>HealthCloudGA__ClonedFrom__c</name>
+        <relationshipLabel><!-- Care Plan Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>HealthCloudGA__Description__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם תבנית תוכנית טיפול</nameFieldLabel>
+</CustomObjectTranslation>

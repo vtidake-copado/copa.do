@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ListMember --></label>
+        <name>vlocity_ins__ListMember</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age (DEPRECATED) --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anticipated Discharge Date --></label>
+        <name>HealthCloudGA__AnticipatedDischargeDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care Coordinator Contact --></label>
+        <name>HealthCloudGA__AssignCareCoordinatorContact__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Coordinator User --></label>
+        <name>HealthCloudGA__AssignCareCoordinatorUser__c</name>
+        <relationshipLabel><!-- Leads (Care Coordinator User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>HealthCloudGA__BirthDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Record Type Name --></label>
+        <name>HealthCloudGA__CarePlanRecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Record Type Namespace --></label>
+        <name>HealthCloudGA__CarePlanRecordTypeNamespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created from Lead --></label>
+        <name>HealthCloudGA__CreatedFromLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diagnosis --></label>
+        <name>HealthCloudGA__Diagnosis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discharge Date --></label>
+        <name>HealthCloudGA__DischargeDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact First Name --></label>
+        <name>HealthCloudGA__EmergencyContactFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Last Name --></label>
+        <name>HealthCloudGA__EmergencyContactLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Phone --></label>
+        <name>HealthCloudGA__EmergencyContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emergency Contact Relationship --></label>
+        <name>HealthCloudGA__EmergencyContactRelationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Face-to-Face Encounter Date --></label>
+        <name>HealthCloudGA__FaceToFaceEncounterDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>Mujer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>Hombre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Homebound --></label>
+        <name>HealthCloudGA__Homebound__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Group ID --></label>
+        <name>HealthCloudGA__InsuranceGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Member ID --></label>
+        <name>HealthCloudGA__InsuranceMemberId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Type --></label>
+        <name>HealthCloudGA__InsuranceType__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid</masterLabel>
+            <translation>Medicaid</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation>Medicare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-pay</masterLabel>
+            <translation>Autopago</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsMarkedForPatientConversion --></label>
+        <name>HealthCloudGA__IsMarkedForPatientConversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out Of Network --></label>
+        <name>HealthCloudGA__IsOutOfNetwork__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>HealthCloudGA__Language__c</name>
+        <picklistValues>
+            <masterLabel>Arabic</masterLabel>
+            <translation>Árabe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese</masterLabel>
+            <translation>Chino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Inglés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Francés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation>Alemán</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korean</masterLabel>
+            <translation>Coreano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Español</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagalog</masterLabel>
+            <translation>Tagalo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnamese</masterLabel>
+            <translation>Vietnamita</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Care Provider --></label>
+        <name>HealthCloudGA__PrimaryCareProvider__c</name>
+        <relationshipLabel><!-- Leads (Primary Care Provider) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Diagnosis Description --></label>
+        <name>HealthCloudGA__PrimaryDiagnosisDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Diagnosis --></label>
+        <name>HealthCloudGA__PrimaryDiagnosis__c</name>
+        <relationshipLabel><!-- Leads (PrimaryDiagnosis) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Insurance --></label>
+        <name>HealthCloudGA__PrimaryInsurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>HealthCloudGA__Priority__c</name>
+        <picklistValues>
+            <masterLabel>Emergent</masterLabel>
+            <translation>Emergente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routine</masterLabel>
+            <translation>Rutinario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation>Urgente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Disqualification --></label>
+        <name>HealthCloudGA__ReasonForDisqualification__c</name>
+        <picklistValues>
+            <masterLabel>Another agency is involved</masterLabel>
+            <translation>Otra agencia está involucrada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD declines to sign orders</masterLabel>
+            <translation>Director médico rechaza firmar pedidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient is outside coverage area</masterLabel>
+            <translation>El paciente está fuera del área de cobertura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient isn’t eligible for insurance</masterLabel>
+            <translation>El paciente no es apto para seguro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient refuses services</masterLabel>
+            <translation>Paciente rehúsa servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral was canceled</masterLabel>
+            <translation>Se canceló la referencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested services aren’t needed</masterLabel>
+            <translation>No se necesitan los servicios solicitados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested services can’t be provided</masterLabel>
+            <translation>No se pueden proporcionar los servicios solicitados</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Out of Network Referral --></label>
+        <name>HealthCloudGA__ReasonForOutOfNetworkReferral__c</name>
+        <picklistValues>
+            <masterLabel>Insurance Not Accepted</masterLabel>
+            <translation>Seguro no aceptado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Provider Availability</masterLabel>
+            <translation>Disponibilidad de proveedor limitada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patient Preference</masterLabel>
+            <translation>Preferencia de paciente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provider Preference</masterLabel>
+            <translation>Preferencia de proveedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Not Offered</masterLabel>
+            <translation>Servicio no ofrecido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Referral --></label>
+        <name>HealthCloudGA__ReasonforReferral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred To Organization --></label>
+        <name>HealthCloudGA__ReferredToOrganization__c</name>
+        <relationshipLabel><!-- Leads (Referred To Organization) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred To Practitioner --></label>
+        <name>HealthCloudGA__ReferredToPractitioner__c</name>
+        <relationshipLabel><!-- Leads (Referred To Practitioner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred To User --></label>
+        <name>HealthCloudGA__ReferredToUser__c</name>
+        <relationshipLabel><!-- Leads (Referred To User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referrer Admit Date --></label>
+        <name>HealthCloudGA__ReferrerAdmitDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring Contact Name --></label>
+        <name>HealthCloudGA__ReferringContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring Contact Phone --></label>
+        <name>HealthCloudGA__ReferringContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring NPI --></label>
+        <name>HealthCloudGA__ReferringNPI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring Organization --></label>
+        <name>HealthCloudGA__ReferringOrganization__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referring Practitioner Score --></label>
+        <name>HealthCloudGA__ReferringPractitionerScore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring Practitioner --></label>
+        <name>HealthCloudGA__ReferringPractitioner__c</name>
+        <relationshipLabel><!-- Leads (Referring Practitioner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referring User --></label>
+        <name>HealthCloudGA__ReferringUser__c</name>
+        <relationshipLabel><!-- Leads (Referring User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>HealthCloudGA__RelatedAccount__c</name>
+        <relationshipLabel><!-- Leads (Related Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SSN --></label>
+        <name>HealthCloudGA__SSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Diagnosis Description --></label>
+        <name>HealthCloudGA__SecondaryDiagnosisDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Diagnosis --></label>
+        <name>HealthCloudGA__SecondaryDiagnosis__c</name>
+        <relationshipLabel><!-- Leads (SecondaryDiagnosis) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Secondary Insurance ID --></label>
+        <name>HealthCloudGA__SecondaryInsuranceID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Insurance --></label>
+        <name>HealthCloudGA__SecondaryInsurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signing Provider --></label>
+        <name>HealthCloudGA__SigningProvider__c</name>
+        <relationshipLabel><!-- Leads (Signing Provider) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>Identifica el sistema que creó el registro y que es propietario de los derechos de actualización sobre él. Toma Health1 como valor predeterminado para registros creados manualmente.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialty --></label>
+        <name>HealthCloudGA__Specialty__c</name>
+        <picklistValues>
+            <masterLabel>Cardiology</masterLabel>
+            <translation>Cardiología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Home Health</masterLabel>
+            <translation>Salud en el hogar certificada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dermatology</masterLabel>
+            <translation>Dermatología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENT</masterLabel>
+            <translation>Otorrinolaringología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Practice</masterLabel>
+            <translation>Medicina familiar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GI</masterLabel>
+            <translation>Gastrointestinal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gynecology</masterLabel>
+            <translation>Ginecología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Medicine</masterLabel>
+            <translation>Medicina interna</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Health</masterLabel>
+            <translation>Salud mental</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurology</masterLabel>
+            <translation>Neurología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurosurgery</masterLabel>
+            <translation>Neurocirugía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oncology</masterLabel>
+            <translation>Oncología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orthopedics</masterLabel>
+            <translation>Ortopedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical therapy</masterLabel>
+            <translation>Terapia física</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgery</masterLabel>
+            <translation>Cirugía</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start/Resumption of Care Date --></label>
+        <name>HealthCloudGA__StartResumptionOfCareDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Group --></label>
+        <name>HealthCloudGA__StatusGroup__c</name>
+        <picklistValues>
+            <masterLabel>Monitored</masterLabel>
+            <translation>Monitoreado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Monitored</masterLabel>
+            <translation>No monitoreado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive Test</masterLabel>
+            <translation>Prueba positiva</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Intake</masterLabel>
+            <translation>Listo para admisión</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tertiary Diagnosis --></label>
+        <name>HealthCloudGA__TertiaryDiagnosis__c</name>
+        <relationshipLabel><!-- Leads (TertiaryDiagnosis) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type Of Service --></label>
+        <name>HealthCloudGA__TypeOfService__c</name>
+        <picklistValues>
+            <masterLabel>2nd Opinion</masterLabel>
+            <translation>2nda opinión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultation</masterLabel>
+            <translation>Consulta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up</masterLabel>
+            <translation>Seguimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Care</masterLabel>
+            <translation>Atención domiciliaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lab Services</masterLabel>
+            <translation>Servicios de laboratorio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurse/VNA</masterLabel>
+            <translation>Enfermero/a/A domicilio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Occupational Therapy</masterLabel>
+            <translation>Terapia ocupacional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (please specify in comments)</masterLabel>
+            <translation>Otro (especifique en comentarios)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Therapy</masterLabel>
+            <translation>Terapia física</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radiology Services</masterLabel>
+            <translation>Servicios de radiología</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speech Therapy</masterLabel>
+            <translation>Logopeda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surgery</masterLabel>
+            <translation>Cirugía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wound Care</masterLabel>
+            <translation>Atención de heridas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of Birth --></label>
+        <name>vlocity_ins__BirthDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>vlocity_ins__Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referred By --></label>
+        <name>vlocity_ins__ReferredByContactId__c</name>
+        <relationshipLabel><!-- Leads (Referred By) --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <description><!-- Patient record type --></description>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Patient Referral --></label>
+        <name>HealthCloudGA__PatientReferral</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_Leads --></label>
+        <name>HealthCloudGA__Convert_Leads</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

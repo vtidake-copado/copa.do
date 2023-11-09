@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Relateret element til sygdom i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Relateret element til sygdom i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Relateret element til sygdom i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Relaterede elementer til sygdom i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Relaterede elementer til sygdom i EPJ</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Relaterede elementer til sygdom i EPJ</value>
+    </caseValues>
+    <fields>
+        <label><!-- Code Label --></label>
+        <name>HealthCloudGA__CodeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code System --></label>
+        <name>HealthCloudGA__CodeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>HealthCloudGA__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition --></label>
+        <name>HealthCloudGA__Condition__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Statement --></label>
+        <name>HealthCloudGA__MedicationStatement__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>HealthCloudGA__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identificerer det system, der oprettede registreringen og ejer opdateringsrettigheder til den. Er som standard Health1 for manuelt oprettede registreringer.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Condition --></label>
+        <name>HealthCloudGA__TargetCondition__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items (Target Condition) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target Detail --></label>
+        <name>HealthCloudGA__TargetDetail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Immunization --></label>
+        <name>HealthCloudGA__TargetImmunization__c</name>
+        <relationshipLabel><!-- EHR Conditon Related Items --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Sygdom i EPJ (elektronisk patientjournal</nameFieldLabel>
+</CustomObjectTranslation>

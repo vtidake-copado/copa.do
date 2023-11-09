@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>履行要求品目</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>vlocity_ins__Action__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disconnect</masterLabel>
+            <translation>切断</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modify</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>この項目は、JSONAttribute V2 機能を有効にした場合に使用されます。JSON 形式でエンコードされたこの品目の属性値が含まれます。JSON の形式に関するドキュメントを参照してください。</help>
+        <label><!-- Attribute Selected Values --></label>
+        <name>vlocity_ins__AttributeSelectedValues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attributes Markup Data --></label>
+        <name>vlocity_ins__AttributesMarkupData__c</name>
+    </fields>
+    <fields>
+        <help>BillingAccountId</help>
+        <label><!-- BillingAccountId --></label>
+        <name>vlocity_ins__BillingAccountId__c</name>
+        <relationshipLabel><!-- Fulfillment Request Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expected Completion Date --></label>
+        <name>vlocity_ins__ExpectedCompletionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Fulfilment Request Line Version --></label>
+        <name>vlocity_ins__FirstVersionFRLineId__c</name>
+        <relationshipLabel><!-- Fulfilment Request Line revisions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>履行要求</help>
+        <label><!-- Fulfilment Request Id --></label>
+        <name>vlocity_ins__FulfilmentRequestID__c</name>
+        <relationshipLabel><!-- Fulfillment Request Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfilment Status --></label>
+        <name>vlocity_ins__FulfilmentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation>有効化済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation>置き換え済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>InventoryItemId</help>
+        <label><!-- InventoryItemId --></label>
+        <name>vlocity_ins__InventoryItemId__c</name>
+        <relationshipLabel><!-- Fulfillment Request Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Changes Allowed --></label>
+        <name>vlocity_ins__IsChangesAllowed__c</name>
+    </fields>
+    <fields>
+        <help>この項目は移行プロセスが適用されていること、または特定の履行要求行に関するものではないことを示します。</help>
+        <label><!-- Is Migrated --></label>
+        <name>vlocity_ins__IsMigrated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Orchestration Items In Final State --></label>
+        <name>vlocity_ins__IsOrchestrationItemsInFinalState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is PONR Reached --></label>
+        <name>vlocity_ins__IsPONRReached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Ready For Activation --></label>
+        <name>vlocity_ins__IsReadyForActivation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfilment Request Line Item Number --></label>
+        <name>vlocity_ins__ItemNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- JSONAttribute --></label>
+        <name>vlocity_ins__JSONAttribute__c</name>
+    </fields>
+    <fields>
+        <help>LineNumber</help>
+        <label><!-- LineNumber --></label>
+        <name>vlocity_ins__LineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Fulfilment Request Line Id --></label>
+        <name>vlocity_ins__MainOrderItemId__c</name>
+        <relationshipLabel><!-- Main Fulfilment Request Line Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Product2</help>
+        <label><!-- Product --></label>
+        <name>vlocity_ins__Product2Id__c</name>
+        <relationshipLabel><!-- Fulfillment Request Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Push Event Data --></label>
+        <name>vlocity_ins__PushEventData__c</name>
+    </fields>
+    <fields>
+        <help>ServiceAccountId</help>
+        <label><!-- ServiceAccountId --></label>
+        <name>vlocity_ins__ServiceAccountId__c</name>
+        <relationshipLabel><!-- Fulfillment Request Lines (ServiceAccountId) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Sub-Action</help>
+        <label><!-- Sub-Action --></label>
+        <name>vlocity_ins__SubAction__c</name>
+        <picklistValues>
+            <masterLabel>Move-Add</masterLabel>
+            <translation>移動-追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move-Disconnect</masterLabel>
+            <translation>移動-切断</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Superseded FRLine --></label>
+        <name>vlocity_ins__SupersededFRLineId__c</name>
+        <relationshipLabel><!-- Superseding FRLine --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplemental Action --></label>
+        <name>vlocity_ins__SupplementalAction__c</name>
+        <picklistValues>
+            <masterLabel>Amend</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create</masterLabel>
+            <translation>作成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Change</masterLabel>
+            <translation>変化なし</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>履行要求行名</nameFieldLabel>
+</CustomObjectTranslation>

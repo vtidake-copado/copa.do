@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Titulación de facultativo de HCE</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Titulaciones de facultativos de HCE</value>
+    </caseValues>
+    <fields>
+        <label><!-- Code Label --></label>
+        <name>HealthCloudGA__CodeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code System --></label>
+        <name>HealthCloudGA__CodeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>HealthCloudGA__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issuer 255 --></label>
+        <name>HealthCloudGA__Issuer255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issuer --></label>
+        <name>HealthCloudGA__Issuer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period End --></label>
+        <name>HealthCloudGA__PeriodEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period Start --></label>
+        <name>HealthCloudGA__PeriodStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner --></label>
+        <name>HealthCloudGA__Practitioner__c</name>
+        <relationshipLabel><!-- Practitioner Qualifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identifica el sistema que creó el registro y que es propietario de los derechos de actualización sobre él. Toma Health1 como valor predeterminado para registros creados manualmente.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Id. de Titulación de facultativo de HCE</nameFieldLabel>
+</CustomObjectTranslation>

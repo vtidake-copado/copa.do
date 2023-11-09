@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Toewijzing van aandoening aan HCC-code</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Toewijzingen van aandoening aan HCC-code</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>HealthCloudGA__ConditionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- HCC Code --></label>
+        <name>HealthCloudGA__HCCCode__c</name>
+    </fields>
+    <fields>
+        <help>Jaar waarin de HCC-code geldig wordt.</help>
+        <label><!-- Valid From --></label>
+        <name>HealthCloudGA__ValidFrom__c</name>
+    </fields>
+    <fields>
+        <help>Jaar waarna de code niet langer geldig is.</help>
+        <label><!-- Valid Through --></label>
+        <name>HealthCloudGA__ValidThrough__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year + Condition Code + HCC Code --></label>
+        <name>HealthCloudGA__YearConditionCodeHCCCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>HealthCloudGA__Year__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Toewijzings-ID</nameFieldLabel>
+</CustomObjectTranslation>

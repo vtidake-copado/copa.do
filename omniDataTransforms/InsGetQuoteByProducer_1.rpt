@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>InsGetQuoteByProducer</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom8439</globalKey>
+        <inputFieldName>Quote:Account.Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom4260</globalKey>
+        <inputFieldName>Quote:LastModifiedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Date(MM/dd/yyyy)</outputFieldFormat>
+        <outputFieldName>listValues:lastUpdated</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>producerId</filterValue>
+        <globalKey>InsGetQuoteByProducerCustom7892</globalKey>
+        <inputFieldName>vlocity_ins__ProducerId__c</inputFieldName>
+        <inputObjectName>Quote</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Quote</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom4402</globalKey>
+        <inputFieldName>Quote:vlocity_ins__PrimaryRootItemId__r.Product2.Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:product</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom1981</globalKey>
+        <inputFieldName>Quote:vlocity_ins__TotalAmount__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Currency</outputFieldFormat>
+        <outputFieldName>listValues:premium</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom7970</globalKey>
+        <inputFieldName>Quote:QuoteNumber</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:quoteNumber</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom6953</globalKey>
+        <inputFieldName>Quote:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:quoteName</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom8416</globalKey>
+        <inputFieldName>Quote:Status</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:status</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom9747</globalKey>
+        <inputFieldName>Quote:Id</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:recordId</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &apos;[
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Premium&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;premium&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;direction&quot;:/\/\/&quot;desc&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Newest&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;effectiveDate&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;direction&quot;:/\/\/&quot;desc&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Oldest&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;effectiveDate&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;direction&quot;:/\/\/&quot;asc&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/}
+/\/\//\/\//\/\//\/\/]&apos; DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(&apos;[
+        {
+            &quot;label&quot;: &quot;Premium&quot;,
+            &quot;fieldName&quot;: &quot;premium&quot;,
+            &quot;direction&quot;: &quot;desc&quot;
+        },
+        {
+            &quot;label&quot;: &quot;Newest&quot;,
+            &quot;fieldName&quot;: &quot;effectiveDate&quot;,
+            &quot;direction&quot;: &quot;desc&quot;
+        },
+        {
+            &quot;label&quot;: &quot;Oldest&quot;,
+            &quot;fieldName&quot;: &quot;effectiveDate&quot;,
+            &quot;direction&quot;: &quot;asc&quot;
+        }
+    ]&apos;)</formulaExpression>
+        <formulaResultPath>sortOptions</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>InsGetQuoteByProducerCustom3552</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>Quote</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom9071</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>object</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <transformValuesMappings>{
+  &quot;&quot; : &quot;&quot;
+}</transformValuesMappings>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &apos;[
+/\/\//\/\/{
+/\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;name&quot;,
+/\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Account/\/\/Name&quot;
+/\/\//\/\/},
+/\/\//\/\/{
+/\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;premium&quot;,
+/\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Premium&quot;
+/\/\//\/\/},
+/\/\//\/\/{
+/\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;lastUpdated&quot;,
+/\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Last/\/\/updated&quot;,
+/\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;date&quot;,
+/\/\//\/\//\/\//\/\/&quot;format&quot;:/\/\/&quot;MM/DD/YYYY&quot;
+/\/\//\/\/},
+/\/\//\/\/{
+/\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;status&quot;,
+/\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Status&quot;,
+/\/\//\/\//\/\//\/\/&quot;colorIcons&quot;:/\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Draft&quot;:/\/\/&quot;#969492&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Needs/\/\/Review&quot;:/\/\/&quot;#FAC835&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;In/\/\/Review&quot;:/\/\/&quot;#FAC835&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Approved&quot;:/\/\/&quot;#FAC835&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Rejected&quot;:/\/\/&quot;#969492&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Presented&quot;:/\/\/&quot;#FAC835&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Accepted&quot;:/\/\/&quot;#FAC835&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Denied&quot;:/\/\/&quot;#969492&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;Issued&quot;:/\/\/&quot;#88C651&quot;
+/\/\//\/\//\/\//\/\/}
+/\/\//\/\/}
+]&apos; DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(&apos;[
+  {
+    &quot;fieldName&quot;: &quot;name&quot;,
+    &quot;label&quot;: &quot;Account Name&quot;
+  },
+  {
+    &quot;fieldName&quot;: &quot;premium&quot;,
+    &quot;label&quot;: &quot;Premium&quot;
+  },
+  {
+    &quot;fieldName&quot;: &quot;lastUpdated&quot;,
+    &quot;label&quot;: &quot;Last updated&quot;,
+    &quot;type&quot;: &quot;date&quot;,
+    &quot;format&quot;: &quot;MM/DD/YYYY&quot;
+  },
+  {
+    &quot;fieldName&quot;: &quot;status&quot;,
+    &quot;label&quot;: &quot;Status&quot;,
+    &quot;colorIcons&quot;: {
+                &quot;Draft&quot;: &quot;#969492&quot;,
+                &quot;Needs Review&quot;: &quot;#FAC835&quot;,
+                &quot;In Review&quot;: &quot;#FAC835&quot;,
+                &quot;Approved&quot;: &quot;#FAC835&quot;,
+                &quot;Rejected&quot;: &quot;#969492&quot;,
+                &quot;Presented&quot;: &quot;#FAC835&quot;,
+                &quot;Accepted&quot;: &quot;#FAC835&quot;,
+                &quot;Denied&quot;: &quot;#969492&quot;,
+                &quot;Issued&quot;: &quot;#88C651&quot;
+    }
+  }
+]&apos;)</formulaExpression>
+        <formulaResultPath>listFields</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>InsGetQuoteByProducerCustom7251</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom3486</globalKey>
+        <inputFieldName>sortOptions</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>sortOptions</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom6064</globalKey>
+        <inputFieldName>detailFields</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>detailFields</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &apos;[
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;quoteNumber&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Quote/\/\/Number&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;product&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Product&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;effectiveDate&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Effective/\/\/Date&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;date&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;format&quot;:/\/\/&quot;MM/DD/YYYY&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;endDate&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;End/\/\/Date&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;date&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;format&quot;:/\/\/&quot;MM/DD/YYYY&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;quoteName&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;isRecordLink&quot;:/\/\/&quot;true&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;recordId&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/}
+/\/\//\/\//\/\//\/\/]&apos; DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(&apos;[
+        {
+            &quot;fieldName&quot;: &quot;quoteNumber&quot;,
+            &quot;label&quot;: &quot;Quote Number&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;product&quot;,
+            &quot;label&quot;: &quot;Product&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;effectiveDate&quot;,
+            &quot;label&quot;: &quot;Effective Date&quot;,
+            &quot;type&quot;: &quot;date&quot;,
+            &quot;format&quot;: &quot;MM/DD/YYYY&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;endDate&quot;,
+            &quot;label&quot;: &quot;End Date&quot;,
+            &quot;type&quot;: &quot;date&quot;,
+            &quot;format&quot;: &quot;MM/DD/YYYY&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;quoteName&quot;,
+            &quot;isRecordLink&quot;: &quot;true&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;recordId&quot;
+        }
+    ]&apos;)</formulaExpression>
+        <formulaResultPath>detailFields</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>InsGetQuoteByProducerCustom711</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom1670</globalKey>
+        <inputFieldName>listFields</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>listFields</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>status</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom6099</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>filterField</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom6379</globalKey>
+        <inputFieldName>Quote:vlocity_ins__EndDate__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Date(MM/dd/yyyy)</outputFieldFormat>
+        <outputFieldName>listValues:endDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetQuoteByProducerCustom5193</globalKey>
+        <inputFieldName>Quote:vlocity_ins__EffectiveDate__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetQuoteByProducer</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>Date(MM/dd/yyyy)</outputFieldFormat>
+        <outputFieldName>listValues:effectiveDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;producerId&quot; : &quot;0035w00003A7fx8AAB&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>InsGetQuoteByProducer_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

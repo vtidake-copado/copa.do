@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condición de filtro</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condiciones de filtros</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>HealthCloudGA__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Criterion --></label>
+        <name>HealthCloudGA__FilterCriterion__c</name>
+        <relationshipLabel><!-- Filter Conditions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>HealthCloudGA__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>HealthCloudGA__Operator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Row Number --></label>
+        <name>HealthCloudGA__RowNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SRow Number --></label>
+        <name>HealthCloudGA__SRowNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>HealthCloudGA__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>HealthCloudGA__Value__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de condición de filtro</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Связанное наблюдение в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Связанные наблюдения в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Связанное наблюдение в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Связанные наблюдения в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Связанного наблюдения в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Связанных наблюдений в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Связанному наблюдению в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Связанным наблюдениям в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Связанным наблюдением в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Связанными наблюдениями в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Связанном наблюденим в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Связанных наблюдениях в ЭМК</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>HealthCloudGA__Observation__c</name>
+        <relationshipLabel><!-- EHR Related Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Observation --></label>
+        <name>HealthCloudGA__RelatedObservation__c</name>
+        <relationshipLabel><!-- EHR Related Observations (Related Observation) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Обозначает систему, которая создала запись и владеет правами для ее обновления. По умолчанию это Health1 для записей, созданных вручную.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Code --></label>
+        <name>HealthCloudGA__TypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Label --></label>
+        <name>HealthCloudGA__TypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type System --></label>
+        <name>HealthCloudGA__TypeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>HealthCloudGA__Type__c</name>
+        <picklistValues>
+            <masterLabel>derived-from</masterLabel>
+            <translation>взят из</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>has-component</masterLabel>
+            <translation>имеет компонент</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>has-member</masterLabel>
+            <translation>имеет участника</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>interfered-by</masterLabel>
+            <translation>помеха от</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>qualified-by</masterLabel>
+            <translation>квалификация от</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>replaces</masterLabel>
+            <translation>заменяет</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sequel-to</masterLabel>
+            <translation>является продолжением</translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Имя связанного наблюдения ЭМК</nameFieldLabel>
+</CustomObjectTranslation>

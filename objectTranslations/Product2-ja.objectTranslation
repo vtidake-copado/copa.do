@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_ins__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- EligibleProductFields --></label>
+        <name>vlocity_ins__EligibleProductFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsAvailableInRating --></label>
+        <name>vlocity_ins__FieldsAvailableInRating</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsAvailableInRules --></label>
+        <name>vlocity_ins__FieldsAvailableInRules</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Formulary Search Product Details --></label>
+        <name>vlocity_ins__FormularySearchProductDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Get Product Spec --></label>
+        <name>vlocity_ins__GetProductSpec</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Insurance Plan Selection --></label>
+        <name>vlocity_ins__InsPlanSelection</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Product --></label>
+        <name>vlocity_ins__NewProduct</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Product Class --></label>
+        <name>vlocity_ins__NewProductClass</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Compare --></label>
+        <name>vlocity_ins__ProductCompareVersion</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductDetails --></label>
+        <name>vlocity_ins__ProductDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Structure --></label>
+        <name>vlocity_ins__ProductStructure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteDetail --></label>
+        <name>vlocity_ins__QuoteDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- VersionAwareCatalog FieldSet --></label>
+        <name>vlocity_ins__VersionAwareCatalogFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Approved By --></label>
+        <name>vlocity_ins__ApprovedBy__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approved On --></label>
+        <name>vlocity_ins__ApprovedOn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Default Values --></label>
+        <name>vlocity_ins__AttributeDefaultValues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Metadata --></label>
+        <name>vlocity_ins__AttributeMetadata__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Rules --></label>
+        <name>vlocity_ins__AttributeRules__c</name>
+    </fields>
+    <fields>
+        <help>履行の動作</help>
+        <label><!-- Fulfillment Behavior --></label>
+        <name>vlocity_ins__AttributesMarkupConfig__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability --></label>
+        <name>vlocity_ins__Availability__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>vlocity_ins__CarrierId__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>XOM の Change Detector によって使用される実装の名前</help>
+        <label><!-- ChangeDetectorImplementation --></label>
+        <name>vlocity_ins__ChangeDetectorImplementation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>vlocity_ins__ClassId__c</name>
+        <relationshipLabel><!-- Products (Class) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coverage Calculation Formula --></label>
+        <name>vlocity_ins__CoverageCalculationFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Raptor Bundle Name --></label>
+        <name>vlocity_ins__DRBundleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Image --></label>
+        <name>vlocity_ins__DefaultImageId__c</name>
+        <relationshipLabel><!-- Product Default Image --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>vlocity_ins__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Criteria Comments --></label>
+        <name>vlocity_ins__EligibilityCriteriaComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibility Criteria --></label>
+        <name>vlocity_ins__EligibilityCriteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>vlocity_ins__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- End of Life Date --></label>
+        <name>vlocity_ins__EndOfLifeDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Status --></label>
+        <name>vlocity_ins__EnrollmentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation><!-- Retired --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Formulary --></label>
+        <name>vlocity_ins__FormularyId__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfilment Start Date --></label>
+        <name>vlocity_ins__FulfilmentStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Group Key --></label>
+        <name>vlocity_ins__GlobalGroupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global Key --></label>
+        <name>vlocity_ins__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Attributes Process --></label>
+        <name>vlocity_ins__HasCustomAttributesProcess__c</name>
+    </fields>
+    <fields>
+        <help>マトリックスのヘッダーを JSON として保存します。</help>
+        <label><!-- Header Data --></label>
+        <name>vlocity_ins__HeaderData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Help Text --></label>
+        <name>vlocity_ins__HelpText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image &amp; Icon --></label>
+        <name>vlocity_ins__ImageId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instance Key Formula --></label>
+        <name>vlocity_ins__InstanceKeyFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configurable --></label>
+        <name>vlocity_ins__IsConfigurable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Dependent --></label>
+        <name>vlocity_ins__IsLocationDependent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Not Assetizable --></label>
+        <name>vlocity_ins__IsNotAssetizable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Orderable --></label>
+        <name>vlocity_ins__IsOrderable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended --></label>
+        <name>vlocity_ins__IsRecommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- JSONAttribute --></label>
+        <name>vlocity_ins__JSONAttribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Safety Interval Unit --></label>
+        <name>vlocity_ins__JeopardySafetyIntervalUnit__c</name>
+        <picklistValues>
+            <masterLabel>Business Days</masterLabel>
+            <translation>営業日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Hours</masterLabel>
+            <translation>営業時間</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calendar Days</masterLabel>
+            <translation>カレンダー日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calendar Hours</masterLabel>
+            <translation>カレンダー時間</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seconds</masterLabel>
+            <translation>秒</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Safety Interval --></label>
+        <name>vlocity_ins__JeopardySafetyInterval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Publish Date --></label>
+        <name>vlocity_ins__LastPublishDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Simulation Input --></label>
+        <name>vlocity_ins__LastSimulationInput__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lifecycle Status --></label>
+        <name>vlocity_ins__LifecycleStatus__c</name>
+        <picklistValues>
+            <masterLabel>Amendment Pending</masterLabel>
+            <translation>修正保留中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation>リリース済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Line of Business --></label>
+        <name>vlocity_ins__LineOfBusiness__c</name>
+        <picklistValues>
+            <masterLabel>Group AD&amp;D</masterLabel>
+            <translation><!-- Group AD&amp;D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Benefits</masterLabel>
+            <translation><!-- Group Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Life</masterLabel>
+            <translation><!-- Group Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Annuities</masterLabel>
+            <translation><!-- Individual Annuities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Health</masterLabel>
+            <translation><!-- Individual Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Life</masterLabel>
+            <translation><!-- Individual Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property &amp; Casualty</masterLabel>
+            <translation><!-- Property &amp; Casualty --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market Segment --></label>
+        <name>vlocity_ins__MarketSegment__c</name>
+        <picklistValues>
+            <masterLabel>ASO (Admin Services Only)</masterLabel>
+            <translation><!-- ASO (Admin Services Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Group</masterLabel>
+            <translation><!-- Large Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Sized Group</masterLabel>
+            <translation><!-- Mid Sized Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Group</masterLabel>
+            <translation><!-- Small Group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>vlocity_ins__ObjectTypeId__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object Type Name --></label>
+        <name>vlocity_ins__ObjectTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Class Code --></label>
+        <name>vlocity_ins__ParentClassCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Class --></label>
+        <name>vlocity_ins__ParentClassId__c</name>
+        <relationshipLabel><!-- Subclasses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Formula --></label>
+        <name>vlocity_ins__PricingFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Source Mapping --></label>
+        <name>vlocity_ins__PricingSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Strategy Type --></label>
+        <name>vlocity_ins__PricingStrategyType__c</name>
+        <picklistValues>
+            <masterLabel>Member Based</masterLabel>
+            <translation><!-- Member Based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary Based</masterLabel>
+            <translation><!-- Summary Based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Spec --></label>
+        <name>vlocity_ins__ProductSpecId__c</name>
+        <relationshipLabel><!-- Offers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Specification Type Name --></label>
+        <name>vlocity_ins__ProductSpecName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Template --></label>
+        <name>vlocity_ins__ProductTemplateId__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Template --></label>
+        <name>vlocity_ins__ProductTemplateProductId__c</name>
+        <relationshipLabel><!-- Products Based on Template --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provider Network --></label>
+        <name>vlocity_ins__ProviderNetworkId__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rate Band --></label>
+        <name>vlocity_ins__RateBandId__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If Rating Procedure Type is Calculation Procedure, fill in calculation procedure Name. If Rating Procedure Type is Integration Procedure, fill in integration procedure Type_Subtype. --></help>
+        <label><!-- Rating Procedure Name --></label>
+        <name>vlocity_ins__RatingCalcProcedureName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rating Procedure Type --></label>
+        <name>vlocity_ins__RatingProcedureType__c</name>
+        <picklistValues>
+            <masterLabel>Calculation Procedure</masterLabel>
+            <translation><!-- Calculation Procedure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expression Set</masterLabel>
+            <translation><!-- Expression Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration Procedure</masterLabel>
+            <translation><!-- Integration Procedure --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>vlocity_ins__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Replacement Product --></label>
+        <name>vlocity_ins__ReplacementProductId__c</name>
+        <relationshipLabel><!-- Products Replaced --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reserve Processing Mode --></label>
+        <name>vlocity_ins__ReserveProcessingMode__c</name>
+        <picklistValues>
+            <masterLabel>Coverage Reserve Mode</masterLabel>
+            <translation><!-- Coverage Reserve Mode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reserve Worksheet Mode</masterLabel>
+            <translation><!-- Reserve Worksheet Mode --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>vlocity_ins__Scope__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>取引先</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downstream Order Item</masterLabel>
+            <translation>ダウンストリーム注文品目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incremental</masterLabel>
+            <translation>増分</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order</masterLabel>
+            <translation>注文</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Item</masterLabel>
+            <translation>注文品目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relies On</masterLabel>
+            <translation>依存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top Order Item</masterLabel>
+            <translation>上位の注文品目</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Selling End Date --></label>
+        <name>vlocity_ins__SellingEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selling Start Date --></label>
+        <name>vlocity_ins__SellingStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specification Sub Type --></label>
+        <name>vlocity_ins__SpecificationSubType__c</name>
+        <picklistValues>
+            <masterLabel>Bundle</masterLabel>
+            <translation>バンドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation>シンプル</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Specification Type --></label>
+        <name>vlocity_ins__SpecificationType__c</name>
+        <picklistValues>
+            <masterLabel>Offer</masterLabel>
+            <translation>オファー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>商品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource</masterLabel>
+            <translation>リソース</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Standard Premium --></label>
+        <name>vlocity_ins__StandardPremium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_ins__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>承認保留中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Type --></label>
+        <name>vlocity_ins__SubType__c</name>
+        <picklistValues>
+            <masterLabel>EPO</masterLabel>
+            <translation><!-- EPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSA</masterLabel>
+            <translation><!-- FSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HDHP</masterLabel>
+            <translation><!-- HDHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMO</masterLabel>
+            <translation><!-- HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRA</masterLabel>
+            <translation><!-- HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSA</masterLabel>
+            <translation><!-- HSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity</masterLabel>
+            <translation><!-- Indemnity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCA</masterLabel>
+            <translation><!-- PCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS</masterLabel>
+            <translation><!-- POS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPO</masterLabel>
+            <translation><!-- PPO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>vlocity_ins__Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>vlocity_ins__Tier__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catastrophic</masterLabel>
+            <translation><!-- Catastrophic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time To Live --></label>
+        <name>vlocity_ins__TimeToLive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Coverage Calculation Formula --></label>
+        <name>vlocity_ins__TotalCoverageCalculationFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Insured Formula --></label>
+        <name>vlocity_ins__TotalInsuredFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Track As Agreement --></label>
+        <name>vlocity_ins__TrackAsAgreement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins__Type__c</name>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical</masterLabel>
+            <translation><!-- Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Savings Account</masterLabel>
+            <translation><!-- Medical Savings Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Version End Date --></label>
+        <name>vlocity_ins__VersionEndDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Label --></label>
+        <name>vlocity_ins__VersionLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Start Date --></label>
+        <name>vlocity_ins__VersionStartDateTime__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Claim Injury Spec --></label>
+        <name>vlocity_ins__ClaimInjurySpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Claim Product --></label>
+        <name>vlocity_ins__ClaimProduct</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Claim Property Spec --></label>
+        <name>vlocity_ins__ClaimPropertySpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Class --></label>
+        <name>vlocity_ins__Class</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Coverage Spec --></label>
+        <name>vlocity_ins__CoverageSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Insured Item Spec --></label>
+        <name>vlocity_ins__InsuredItemSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Insured Party Spec --></label>
+        <name>vlocity_ins__InsuredPartySpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product --></label>
+        <name>vlocity_ins__Product</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Template --></label>
+        <name>vlocity_ins__ProductTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Program --></label>
+        <name>vlocity_ins__Program</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Rating Fact Spec --></label>
+        <name>vlocity_ins__RatingFactSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Term Spec --></label>
+        <name>vlocity_ins__TermSpec</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- End Date should be greater than or equal to Start Date. --></errorMessage>
+        <name>vlocity_ins__EffectiveDate_Greater_EndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End of Life Date should be greater than or equal to Fulfilment Start Date. --></errorMessage>
+        <name>vlocity_ins__Fulfilment_Greater_EndOfLife</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End of Life Date should be greater than or equal to Selling End Date. --></errorMessage>
+        <name>vlocity_ins__SellingEnd_Greater_EndOfLife</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selling End Date should be greater than or equal to Fulfilment Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingEnd_Greater_Fulfilment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End of Life Date should be greater than or equal to Selling Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingStart_Greater_EndOfLife</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fulfilment Start Date should be greater than or equal to Selling Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingStart_Greater_Fulfilment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selling End Date should be greater than or equal to Selling Start Date. --></errorMessage>
+        <name>vlocity_ins__SellingStart_Greater_SellingEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Version End Date should be greater than or equal to Version Start Date. --></errorMessage>
+        <name>vlocity_ins__VersionStartDate_Greater_VersionEndDate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeepClone --></label>
+        <name>vlocity_ins__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_ins__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateReport --></label>
+        <name>vlocity_ins__GenerateReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewVersion --></label>
+        <name>vlocity_ins__NewVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PublishToCache --></label>
+        <name>vlocity_ins__PublishToCache</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- XOMSynchronizeCatalog --></label>
+        <name>vlocity_ins__XOMSynchronizeCatalog</name>
+    </webLinks>
+</CustomObjectTranslation>

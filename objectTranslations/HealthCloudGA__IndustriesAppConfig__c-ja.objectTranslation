@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Industries アプリケーション設定 --></value>
+    </caseValues>
+    <fields>
+        <help>デフォルトでは、取引先名は {firstname} {lastname} という形式で表示されます。順序を変更するには、{lastname} {firstname} と入力します。</help>
+        <label><!-- Account Name Format --></label>
+        <name>HealthCloudGA__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>HealthCloudGA__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>HealthCloudGA__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>HealthCloudGA__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>HealthCloudGA__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>HealthCloudGA__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>HealthCloudGA__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>HealthCloudGA__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>例: v32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>HealthCloudGA__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help>権限のない操作が実行されたときに詳細なエラーメッセージが表示されます。</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>HealthCloudGA__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>個人オブジェクトモデルでレコードが作成されると取引先項目と取引先責任者項目を同期します。</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>HealthCloudGA__SyncIndividualSystemFields__c</name>
+    </fields>
+</CustomObjectTranslation>

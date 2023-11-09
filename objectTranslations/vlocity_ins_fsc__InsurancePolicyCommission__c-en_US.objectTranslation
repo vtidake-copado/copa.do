@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins_fsc__AccountId__c</name>
+        <relationshipLabel><!-- Insurance Policy Commission --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Commission Amount --></label>
+        <name>vlocity_ins_fsc__CommissionAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commissionable Amount --></label>
+        <name>vlocity_ins_fsc__CommissionableAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>vlocity_ins_fsc__ContactId__c</name>
+        <relationshipLabel><!-- Insurance Policy Commission --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Asset --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyAssetId__c</name>
+        <relationshipLabel><!-- Insurance Policy Commission --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Coverage --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyCoverageId__c</name>
+        <relationshipLabel><!-- Insurance Policy Commission --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyId__c</name>
+        <relationshipLabel><!-- Insurance Policy Commission --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Transaction --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyTransactionId__c</name>
+        <relationshipLabel><!-- Insurance Policy Commission --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Date --></label>
+        <name>vlocity_ins_fsc__PaymentDatetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_ins_fsc__Status__c</name>
+        <picklistValues>
+            <masterLabel>Disputed</masterLabel>
+            <translation><!-- Disputed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed</masterLabel>
+            <translation><!-- Reversed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins_fsc__Type__c</name>
+        <picklistValues>
+            <masterLabel>Advance</masterLabel>
+            <translation><!-- Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus</masterLabel>
+            <translation><!-- Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chargeback</masterLabel>
+            <translation><!-- Chargeback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commission</masterLabel>
+            <translation><!-- Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingent Commission</masterLabel>
+            <translation><!-- Contingent Commission --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

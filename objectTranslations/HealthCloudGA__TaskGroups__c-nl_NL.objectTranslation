@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Taakgroepen --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Taakgroepen --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>Als uw label een naamruimteprefix heeft, gebruiikt u Label_Namespace.Label_Name. Gebruik anders c.Label_Name.</help>
+        <label><!-- GroupBy Label --></label>
+        <name>HealthCloudGA__GroupByLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- GroupBy --></label>
+        <name>HealthCloudGA__GroupBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

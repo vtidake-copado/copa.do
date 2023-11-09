@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 카드 보기 드롭다운 --></value>
+    </caseValues>
+    <fields>
+        <help>레이블에 네임스페이스 접두사가 있는 경우 Label_Namespace.Label_Name을 사용하고, 그렇지 않은 경우 c.Label_Name을 사용합니다.</help>
+        <label><!-- Category Label --></label>
+        <name>HealthCloudGA__CategoryLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Name --></label>
+        <name>HealthCloudGA__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Subtab --></label>
+        <name>HealthCloudGA__DefaultSubtab__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Parameter --></label>
+        <name>HealthCloudGA__Param_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tab Type --></label>
+        <name>HealthCloudGA__Rec_Open_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcategory Name --></label>
+        <name>HealthCloudGA__Sub_Category__c</name>
+    </fields>
+    <fields>
+        <help>레이블에 네임스페이스 접두사가 있는 경우 Label_Namespace.Label_Name을 사용하고, 그렇지 않은 경우 c.Label_Name을 사용합니다.</help>
+        <label><!-- Subcategory Label --></label>
+        <name>HealthCloudGA__SubcategoryLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subtab Sort Order --></label>
+        <name>HealthCloudGA__SubtabSortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Type --></label>
+        <name>HealthCloudGA__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>HealthCloudGA__Url__c</name>
+    </fields>
+</CustomObjectTranslation>

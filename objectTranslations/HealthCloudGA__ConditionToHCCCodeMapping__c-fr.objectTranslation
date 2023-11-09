@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mappage de condition avec un code HCC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mappages de condition avec un code HCC</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Code --></label>
+        <name>HealthCloudGA__ConditionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- HCC Code --></label>
+        <name>HealthCloudGA__HCCCode__c</name>
+    </fields>
+    <fields>
+        <help>Année à laquelle le code HCC devient valide.</help>
+        <label><!-- Valid From --></label>
+        <name>HealthCloudGA__ValidFrom__c</name>
+    </fields>
+    <fields>
+        <help>Année après laquelle ce code n&apos;est plus valide.</help>
+        <label><!-- Valid Through --></label>
+        <name>HealthCloudGA__ValidThrough__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year + Condition Code + HCC Code --></label>
+        <name>HealthCloudGA__YearConditionCodeHCCCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>HealthCloudGA__Year__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>ID de mappage</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

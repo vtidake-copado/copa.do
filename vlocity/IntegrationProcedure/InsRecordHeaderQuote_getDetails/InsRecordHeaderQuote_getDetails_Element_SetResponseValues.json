@@ -1,0 +1,45 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetResponseValues",
+    "OmniProcessId": {
+        "Name": "InsRecordHeaderDetailsQuote",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/InsRecordHeaderQuote/getDetails/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "backgroundImage": "https://maps.googleapis.com/maps/api/staticmap?center=%GetAccountDR:address%&size=400x300&key=%SetAPIKeys:googleMapsAPIKey%",
+            "fallbackIcon": "standard:quotes",
+            "fields": {
+                "Account Name": "%GetAccountDR:Account%",
+                "Expiration Date": "%GetAccountDR:ExpirationDate%",
+                "Opportunity Name": "%GetAccountDR:Opportunity%",
+                "Premium": "%GetAccountDR:Premium%",
+                "Quote Number": "%GetAccountDR:QuoteNumber%"
+            },
+            "recordName": "%GetAccountDR:recordName%",
+            "status": {
+                "backgroundColor": "%SetStatus:backgroundColor%",
+                "fontColor": "%SetStatus:fontColor%",
+                "value": "%GetAccountDR:status%"
+            }
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/InsRecordHeaderQuote/getDetails/Procedure/SetResponseValues"
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>计划患者摘要</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Program Patient Summary --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>患者年龄按年龄段划分为：0-34、35-44、45-54、55-59、60-64、65-69、70-74、75-79、80-84、85-89、90-94、95 及以上。</help>
+        <label><!-- Age Band --></label>
+        <name>HealthCloudGA__AgeBand__c</name>
+    </fields>
+    <fields>
+        <help>患者年龄。</help>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help>适用于患者的 HCC 疾病类别的列表。</help>
+        <label><!-- Conditions --></label>
+        <name>HealthCloudGA__Conditions__c</name>
+    </fields>
+    <fields>
+        <help>CMS 残疾状况。</help>
+        <label><!-- Disability Status --></label>
+        <name>HealthCloudGA__DisabilityStatus__c</name>
+    </fields>
+    <fields>
+        <help>计算风险分数的日期。</help>
+        <label><!-- Effective Date --></label>
+        <name>HealthCloudGA__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help>表示患者的医疗保险注册类型。</help>
+        <label><!-- Enrollment Type --></label>
+        <name>HealthCloudGA__EnrollmentType__c</name>
+        <picklistValues>
+            <masterLabel>Dual</masterLabel>
+            <translation>Dual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESRD</masterLabel>
+            <translation>ESRD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBDual</masterLabel>
+            <translation>FBDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonDual</masterLabel>
+            <translation>NonDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PBDual</masterLabel>
+            <translation>PBDual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>男/女</help>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Specify</masterLabel>
+            <translation>拒绝指定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>女</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>男</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>在应用逻辑后适用于患者的最终 HCC 代码。</help>
+        <label><!-- HCC Codes --></label>
+        <name>HealthCloudGA__HCCCodes__c</name>
+    </fields>
+    <fields>
+        <help>表示患者是否在机构中。</help>
+        <label><!-- Institution --></label>
+        <name>HealthCloudGA__Institution__c</name>
+    </fields>
+    <fields>
+        <help>表示患者是否属于低收入范围。</help>
+        <label><!-- Low Income --></label>
+        <name>HealthCloudGA__LowIncome__c</name>
+    </fields>
+    <fields>
+        <help>适用时间计算的月份。</help>
+        <label><!-- Month --></label>
+        <name>HealthCloudGA__Month__c</name>
+    </fields>
+    <fields>
+        <help>表示此记录是否包含评测期的最新计算。</help>
+        <label><!-- Most Recent --></label>
+        <name>HealthCloudGA__MostRecent__c</name>
+    </fields>
+    <fields>
+        <help>表示患者是新加入医疗保险的患者，或长期注册的患者。</help>
+        <label><!-- New Patient --></label>
+        <name>HealthCloudGA__NewPatient__c</name>
+    </fields>
+    <fields>
+        <help>适用于患者的 HCC 疾病类别的数量。</help>
+        <label><!-- Number of Conditions --></label>
+        <name>HealthCloudGA__NumberOfConditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Patient Affiliation --></label>
+        <name>HealthCloudGA__ProgramPatientAffiliation__c</name>
+        <relationshipLabel><!-- Program Patient Summary --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>为患者计算的 HCC 风险分数。</help>
+        <label><!-- Risk Score --></label>
+        <name>HealthCloudGA__RiskScore__c</name>
+    </fields>
+    <fields>
+        <help>表示患者处于医疗保险 CCM 计划中的阶段。</help>
+        <label><!-- Stage --></label>
+        <name>HealthCloudGA__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>已拒绝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Program</masterLabel>
+            <translation>加入计划</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation>潜力</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>在合格活动的评测期内与患者相处的总时间。</help>
+        <label><!-- Time Spent --></label>
+        <name>HealthCloudGA__TimeSpent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique --></label>
+        <name>HealthCloudGA__Unique__c</name>
+    </fields>
+    <fields>
+        <help>表示风险分数适用的年份。</help>
+        <label><!-- Year --></label>
+        <name>HealthCloudGA__Year__c</name>
+    </fields>
+    <nameFieldLabel>名称</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Chronic Care Management --></label>
+        <name>HealthCloudGA__ChronicCareManagement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Risk Scoring --></label>
+        <name>HealthCloudGA__RiskScoring</name>
+    </recordTypes>
+</CustomObjectTranslation>

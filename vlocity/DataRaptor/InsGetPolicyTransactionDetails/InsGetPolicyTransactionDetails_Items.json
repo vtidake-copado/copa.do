@@ -1,0 +1,852 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "accountId",
+        "GlobalKey": "InsGetPolicyTransactionDetails5967486471566137",
+        "InputFieldName": "Id",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Account",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Account:Id",
+        "GlobalKey": "InsGetPolicyTransactionDetails018892507846215434",
+        "InputFieldName": "%vlocity_namespace%__AccountId__c",
+        "InputObjectName": "%vlocity_namespace%__BillingAccount__c",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "BillingAccount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "BillingAccount:Id",
+        "GlobalKey": "InsGetPolicyTransactionDetails5509107192530496",
+        "InputFieldName": "%vlocity_namespace%__BillingAccountId__c",
+        "InputObjectName": "Asset",
+        "InputObjectQuerySequence": 3,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Policy",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Policy:Id",
+        "GlobalKey": "InsGetPolicyTransactionDetails6819677535885023",
+        "InputFieldName": "%vlocity_namespace%__AssetId__c",
+        "InputObjectName": "%vlocity_namespace%__AssetTransaction__c",
+        "InputObjectQuerySequence": 4,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Transaction",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "ORDER BY",
+        "FilterValue": "%vlocity_namespace%__PostDate__c DESC",
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom8302",
+        "InputObjectName": "%vlocity_namespace%__AssetTransaction__c",
+        "InputObjectQuerySequence": 4,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Transaction",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Account:Id",
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom5605",
+        "InputFieldName": "NameInsuredId",
+        "InputObjectName": "InsurancePolicy",
+        "InputObjectQuerySequence": 5,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsPolicy",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "InsPolicy:Id",
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom1977",
+        "InputFieldName": "InsurancePolicyId",
+        "InputObjectName": "InsurancePolicyTransaction",
+        "InputObjectQuerySequence": 6,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsPolicyTransaction",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "ORDER BY",
+        "FilterValue": "TransactionPostedDate DESC",
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom585",
+        "InputObjectName": "InsurancePolicyTransaction",
+        "InputObjectQuerySequence": 6,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "InsPolicyTransaction",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DESERIALIZE('[\n        {\n            \"fieldName\": \"postDate\",\n            \"label\": \"Post Date\",\n            \"type\": \"date\"\n        },\n        {\n            \"fieldName\": \"amount\",\n            \"label\": \"Amount\",\n            \"type\": \"currency\"\n        },\n        {\n            \"fieldName\": \"description\",\n            \"label\": \"Description\"\n        },\n        {\n            \"fieldName\": \"type\",\n            \"label\": \"Type\"\n        }\n    ]')",
+        "FormulaResultPath": "listFieldsMobile",
+        "FormulaSequence": 2,
+        "GlobalKey": "InsGetPolicyTransactionDetails06772220831057085",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DESERIALIZE('[\n        {\n            \"fieldName\": \"postDate\",\n            \"label\": \"Post Date\",\n            \"type\": \"date\"\n        },\n        {\n            \"fieldName\": \"description\",\n            \"label\": \"Description\"\n        },\n        {\n            \"fieldName\": \"type\",\n            \"label\": \"Type\"\n        },\n        {\n            \"fieldName\": \"amount\",\n            \"label\": \"Amount\",\n            \"type\": \"currency\"\n        }\n    ]')",
+        "FormulaResultPath": "listFields",
+        "FormulaSequence": 1,
+        "GlobalKey": "InsGetPolicyTransactionDetails3319728024458002",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DESERIALIZE('[\n        {\n            \"fieldName\": \"type2\",\n            \"label\": \"Type\"\n        },\n        {\n            \"fieldName\": \"amount2\",\n            \"label\": \"Amount\",\n            \"type\": \"currency\"\n        },\n        {\n            \"fieldName\": \"changesSinceLastMonth\",\n            \"label\": \"Changes Since Last Month\"\n        },\n        {\n            \"fieldName\": \"policyType\",\n            \"label\": \"Policy Type\"\n        },\n        {\n            \"fieldName\": \"name\"\n        },\n        {\n            \"fieldName\": \"childRecord\",\n            \"label\": \"Associated Transactions\"\n        },\n        {\n            \"fieldName\": \"detailDescription\"\n        }\n    ]')",
+        "FormulaResultPath": "detailFields",
+        "FormulaSequence": 3,
+        "GlobalKey": "InsGetPolicyTransactionDetails20977981922582045",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%InsPolicyTransaction:TransactionPostedDate%, CONCAT(FORMATDATETIME(%InsPolicyTransaction:TransactionPostedDate%, \"yyyy-MM-dd\"),\" - \",%InsPolicyTransaction:Name%), $Vlocity.NULL)",
+        "FormulaResultPath": "InsPolicyTransaction:detailName",
+        "FormulaSequence": 5,
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom7152",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "IF(%Transaction:%vlocity_namespace%__PostDate__c%, CONCAT(%Transaction:%vlocity_namespace%__PostDate__c%,\" - \",%Transaction:Name%), $Vlocity.NULL)",
+        "FormulaResultPath": "Transaction:detailName",
+        "FormulaSequence": 4,
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom99",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails3331240944175968",
+        "InputFieldName": "detailFields",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "detailFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails06823077312878456",
+        "InputFieldName": "listFields",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "listFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails21700459147850193",
+        "InputFieldName": "listFieldsMobile",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "listFieldsMobile",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom5962",
+        "InputFieldName": "InsPolicyTransaction:TransactionAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails44868131286875856",
+        "InputFieldName": "Transaction:%vlocity_namespace%__Amount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom1777",
+        "InputFieldName": "InsPolicyTransaction:TransactionAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:amount2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails24109548747381448",
+        "InputFieldName": "Transaction:%vlocity_namespace%__Amount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:amount2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom687",
+        "InputFieldName": "InsPolicyTransaction:ParentTransaction.TransactionAmount",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails8393883427961506",
+        "InputFieldName": "Transaction:%vlocity_namespace%__TransactionId__r.%vlocity_namespace%__Amount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:amount",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom1614",
+        "InputFieldName": "InsPolicyTransaction:ParentTransaction.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails6960165570085877",
+        "InputFieldName": "Transaction:%vlocity_namespace%__TransactionId__r.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom4311",
+        "InputFieldName": "InsPolicyTransaction:ParentTransaction.TransactionPostedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:postDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails4146362762614615",
+        "InputFieldName": "Transaction:%vlocity_namespace%__TransactionId__r.%vlocity_namespace%__PostDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:postDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom5066",
+        "InputFieldName": "InsPolicyTransaction:ParentTransaction.Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails3456799074525323",
+        "InputFieldName": "Transaction:%vlocity_namespace%__TransactionId__r.%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:childRecord:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom2033",
+        "InputFieldName": "InsPolicyTransaction:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails10500116752550692",
+        "InputFieldName": "Transaction:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:description",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails29580208334450453",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:detailDescription",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom8949",
+        "InputFieldName": "InsPolicyTransaction:detailName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "listValues:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails66701498654099",
+        "InputFieldName": "Transaction:detailName",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "String",
+        "OutputFieldName": "listValues:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom7187",
+        "InputFieldName": "InsPolicy:PolicyType",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:policyType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails47165368994301815",
+        "InputFieldName": "Policy:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:policyType",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom9426",
+        "InputFieldName": "InsPolicyTransaction:TransactionPostedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:postDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails8407867996842928",
+        "InputFieldName": "Transaction:%vlocity_namespace%__PostDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:postDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom8554",
+        "InputFieldName": "InsPolicyTransaction:Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails4593873568907103",
+        "InputFieldName": "Transaction:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:type",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetailsCustom8928",
+        "InputFieldName": "InsPolicyTransaction:Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:type2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetPolicyTransactionDetails6862417917900161",
+        "InputFieldName": "Transaction:%vlocity_namespace%__Type__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:type2",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "%vlocity_namespace%__AssetTransaction__c",
+        "GlobalKey": "InsGetPolicyTransactionDetails43586578940224974",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetPolicyTransactionDetails",
+        "OmniDataTransformationId": {
+            "Name": "InsGetPolicyTransactionDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetPolicyTransactionDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "object",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

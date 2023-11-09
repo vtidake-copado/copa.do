@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <expectedInputJson>{
+  &quot;ContextId&quot; : null,
+  &quot;timeStamp&quot; : null,
+  &quot;userId&quot; : null,
+  &quot;userName&quot; : null,
+  &quot;userProfile&quot; : null,
+  &quot;userTimeZone&quot; : null,
+  &quot;vlcPersistentComponent&quot; : { },
+  &quot;vlcTimeTracking&quot; : {
+    &quot;getBillingAc&quot; : null,
+    &quot;getBillingAcc&quot; : null,
+    &quot;getBillingAccoun&quot; : null,
+    &quot;getPolicies&quot; : null,
+    &quot;getTransactions&quot; : null
+  }
+}</expectedInputJson>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>InsGetPolicyTransactionDetails</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails4593873568907103</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__Type__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom8554</globalKey>
+        <inputFieldName>InsPolicyTransaction:Type</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom8928</globalKey>
+        <inputFieldName>InsPolicyTransaction:Type</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:type2</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Policy:Id</filterValue>
+        <globalKey>InsGetPolicyTransactionDetails6819677535885023</globalKey>
+        <inputFieldName>vlocity_ins__AssetId__c</inputFieldName>
+        <inputObjectName>vlocity_ins__AssetTransaction__c</inputObjectName>
+        <inputObjectQuerySequence>4.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Transaction</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails6862417917900161</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__Type__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:type2</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>accountId</filterValue>
+        <globalKey>InsGetPolicyTransactionDetails5967486471566137</globalKey>
+        <inputFieldName>Id</inputFieldName>
+        <inputObjectName>Account</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Account</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>ORDER BY</filterOperator>
+        <filterValue>vlocity_ins__PostDate__c DESC</filterValue>
+        <globalKey>InsGetPolicyTransactionDetailsCustom8302</globalKey>
+        <inputObjectName>vlocity_ins__AssetTransaction__c</inputObjectName>
+        <inputObjectQuerySequence>4.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Transaction</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <defaultValue>vlocity_ins__AssetTransaction__c</defaultValue>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails43586578940224974</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>object</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>InsPolicy:Id</filterValue>
+        <globalKey>InsGetPolicyTransactionDetailsCustom1977</globalKey>
+        <inputFieldName>InsurancePolicyId</inputFieldName>
+        <inputObjectName>InsurancePolicyTransaction</inputObjectName>
+        <inputObjectQuerySequence>6.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>InsPolicyTransaction</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &apos;[
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;type2&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Type&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;amount2&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Amount&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;currency&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;changesSinceLastMonth&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Changes/\/\/Since/\/\/Last/\/\/Month&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;policyType&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Policy/\/\/Type&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;name&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;childRecord&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Associated/\/\/Transactions&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;detailDescription&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/}
+/\/\//\/\//\/\//\/\/]&apos; DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(&apos;[
+        {
+            &quot;fieldName&quot;: &quot;type2&quot;,
+            &quot;label&quot;: &quot;Type&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;amount2&quot;,
+            &quot;label&quot;: &quot;Amount&quot;,
+            &quot;type&quot;: &quot;currency&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;changesSinceLastMonth&quot;,
+            &quot;label&quot;: &quot;Changes Since Last Month&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;policyType&quot;,
+            &quot;label&quot;: &quot;Policy Type&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;name&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;childRecord&quot;,
+            &quot;label&quot;: &quot;Associated Transactions&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;detailDescription&quot;
+        }
+    ]&apos;)</formulaExpression>
+        <formulaResultPath>detailFields</formulaResultPath>
+        <formulaSequence>3.0</formulaSequence>
+        <globalKey>InsGetPolicyTransactionDetails20977981922582045</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &apos;[
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;postDate&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Post/\/\/Date&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;date&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;amount&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Amount&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;currency&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;description&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Description&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;type&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Type&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/}
+/\/\//\/\//\/\//\/\/]&apos; DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(&apos;[
+        {
+            &quot;fieldName&quot;: &quot;postDate&quot;,
+            &quot;label&quot;: &quot;Post Date&quot;,
+            &quot;type&quot;: &quot;date&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;amount&quot;,
+            &quot;label&quot;: &quot;Amount&quot;,
+            &quot;type&quot;: &quot;currency&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;description&quot;,
+            &quot;label&quot;: &quot;Description&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;type&quot;,
+            &quot;label&quot;: &quot;Type&quot;
+        }
+    ]&apos;)</formulaExpression>
+        <formulaResultPath>listFieldsMobile</formulaResultPath>
+        <formulaSequence>2.0</formulaSequence>
+        <globalKey>InsGetPolicyTransactionDetails06772220831057085</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Account:Id</filterValue>
+        <globalKey>InsGetPolicyTransactionDetailsCustom5605</globalKey>
+        <inputFieldName>NameInsuredId</inputFieldName>
+        <inputObjectName>InsurancePolicy</inputObjectName>
+        <inputObjectQuerySequence>5.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>InsPolicy</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails66701498654099</globalKey>
+        <inputFieldName>Transaction:detailName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>String</outputFieldFormat>
+        <outputFieldName>listValues:name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom8949</globalKey>
+        <inputFieldName>InsPolicyTransaction:detailName</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>String</outputFieldFormat>
+        <outputFieldName>listValues:name</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails47165368994301815</globalKey>
+        <inputFieldName>Policy:vlocity_ins__Type__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:policyType</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom7187</globalKey>
+        <inputFieldName>InsPolicy:PolicyType</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:policyType</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails8407867996842928</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__PostDate__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:postDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom9426</globalKey>
+        <inputFieldName>InsPolicyTransaction:TransactionPostedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:postDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails3456799074525323</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__TransactionId__r.vlocity_ins__Type__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom5066</globalKey>
+        <inputFieldName>InsPolicyTransaction:ParentTransaction.Type</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:type</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>BillingAccount:Id</filterValue>
+        <globalKey>InsGetPolicyTransactionDetails5509107192530496</globalKey>
+        <inputFieldName>vlocity_ins__BillingAccountId__c</inputFieldName>
+        <inputObjectName>Asset</inputObjectName>
+        <inputObjectQuerySequence>3.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Policy</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom2033</globalKey>
+        <inputFieldName>InsPolicyTransaction:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:description</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails29580208334450453</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:detailDescription</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails10500116752550692</globalKey>
+        <inputFieldName>Transaction:Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:description</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| &apos;[
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;postDate&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Post/\/\/Date&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;date&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;description&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Description&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;type&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Type&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/},
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/{
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;fieldName&quot;:/\/\/&quot;amount&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;label&quot;:/\/\/&quot;Amount&quot;,
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/&quot;type&quot;:/\/\/&quot;currency&quot;
+/\/\//\/\//\/\//\/\//\/\//\/\//\/\//\/\/}
+/\/\//\/\//\/\//\/\/]&apos; DESERIALIZE</formulaConverted>
+        <formulaExpression>DESERIALIZE(&apos;[
+        {
+            &quot;fieldName&quot;: &quot;postDate&quot;,
+            &quot;label&quot;: &quot;Post Date&quot;,
+            &quot;type&quot;: &quot;date&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;description&quot;,
+            &quot;label&quot;: &quot;Description&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;type&quot;,
+            &quot;label&quot;: &quot;Type&quot;
+        },
+        {
+            &quot;fieldName&quot;: &quot;amount&quot;,
+            &quot;label&quot;: &quot;Amount&quot;,
+            &quot;type&quot;: &quot;currency&quot;
+        }
+    ]&apos;)</formulaExpression>
+        <formulaResultPath>listFields</formulaResultPath>
+        <formulaSequence>1.0</formulaSequence>
+        <globalKey>InsGetPolicyTransactionDetails3319728024458002</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:InsPolicyTransaction:TransactionPostedDate | | var:InsPolicyTransaction:TransactionPostedDate &quot;yyyy-MM-dd&quot; FORMATDATETIME &quot;/\/\/-/\/\/&quot; var:InsPolicyTransaction:Name CONCAT $Vlocity.NULL IF</formulaConverted>
+        <formulaExpression>IF(%InsPolicyTransaction:TransactionPostedDate%, CONCAT(FORMATDATETIME(%InsPolicyTransaction:TransactionPostedDate%, &quot;yyyy-MM-dd&quot;),&quot; - &quot;,%InsPolicyTransaction:Name%), $Vlocity.NULL)</formulaExpression>
+        <formulaResultPath>InsPolicyTransaction:detailName</formulaResultPath>
+        <formulaSequence>5.0</formulaSequence>
+        <globalKey>InsGetPolicyTransactionDetailsCustom7152</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>ORDER BY</filterOperator>
+        <filterValue>TransactionPostedDate DESC</filterValue>
+        <globalKey>InsGetPolicyTransactionDetailsCustom585</globalKey>
+        <inputObjectName>InsurancePolicyTransaction</inputObjectName>
+        <inputObjectQuerySequence>6.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>InsPolicyTransaction</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <formulaConverted>| var:Transaction:vlocity_ins__PostDate__c | var:Transaction:vlocity_ins__PostDate__c &quot;/\/\/-/\/\/&quot; var:Transaction:Name CONCAT $Vlocity.NULL IF</formulaConverted>
+        <formulaExpression>IF(%Transaction:vlocity_ins__PostDate__c%, CONCAT(%Transaction:vlocity_ins__PostDate__c%,&quot; - &quot;,%Transaction:Name%), $Vlocity.NULL)</formulaExpression>
+        <formulaResultPath>Transaction:detailName</formulaResultPath>
+        <formulaSequence>4.0</formulaSequence>
+        <globalKey>InsGetPolicyTransactionDetailsCustom99</globalKey>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Formula</outputFieldName>
+        <outputObjectName>Formula</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails06823077312878456</globalKey>
+        <inputFieldName>listFields</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>listFields</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails3331240944175968</globalKey>
+        <inputFieldName>detailFields</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>detailFields</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom5962</globalKey>
+        <inputFieldName>InsPolicyTransaction:TransactionAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:amount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails21700459147850193</globalKey>
+        <inputFieldName>listFieldsMobile</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldFormat>List&lt;Map&gt;</outputFieldFormat>
+        <outputFieldName>listFieldsMobile</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom1777</globalKey>
+        <inputFieldName>InsPolicyTransaction:TransactionAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:amount2</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails44868131286875856</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__Amount__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:amount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails24109548747381448</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__Amount__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:amount2</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>Account:Id</filterValue>
+        <globalKey>InsGetPolicyTransactionDetails018892507846215434</globalKey>
+        <inputFieldName>vlocity_ins__AccountId__c</inputFieldName>
+        <inputObjectName>vlocity_ins__BillingAccount__c</inputObjectName>
+        <inputObjectQuerySequence>2.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>BillingAccount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails8393883427961506</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__TransactionId__r.vlocity_ins__Amount__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:amount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom687</globalKey>
+        <inputFieldName>InsPolicyTransaction:ParentTransaction.TransactionAmount</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:amount</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails6960165570085877</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__TransactionId__r.Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:description</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom1614</globalKey>
+        <inputFieldName>InsPolicyTransaction:ParentTransaction.Name</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:description</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetails4146362762614615</globalKey>
+        <inputFieldName>Transaction:vlocity_ins__TransactionId__r.vlocity_ins__PostDate__c</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:postDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>InsGetPolicyTransactionDetailsCustom4311</globalKey>
+        <inputFieldName>InsPolicyTransaction:ParentTransaction.TransactionPostedDate</inputFieldName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>InsGetPolicyTransactionDetails</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>listValues:childRecord:postDate</outputFieldName>
+        <outputObjectName>json</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;accountId&quot; : &quot;001R0000006pVCzIAM&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>-1.0</synchronousProcessThreshold>
+    <type>Extract</type>
+    <uniqueName>InsGetPolicyTransactionDetails_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

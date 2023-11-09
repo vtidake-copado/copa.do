@@ -1,0 +1,61 @@
+{
+    "GlobalKey__c": "ins-insurance-policy-actions-card/Vlocity/1/1586478266886",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Modify Policy",
+                        "eventName": "policy_action",
+                        "extraParams": {
+                            "recordId": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "PubSub Action",
+                        "isCustomAction": true,
+                        "message": "modifyPolicy",
+                        "type": "PubSub",
+                        "vlocityIcon": "utility:edit"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "actionGridState",
+                "Id": "0Rb6F000000PHD7SAO",
+                "MasterLabel": "actionGridState",
+                "NamespacePrefix": "%vlocity_namespace%",
+                "name": "actionGridState"
+            },
+            "name": "Active",
+            "sObjectType": "InsurancePolicy",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "InsurancePolicy Actions"
+}

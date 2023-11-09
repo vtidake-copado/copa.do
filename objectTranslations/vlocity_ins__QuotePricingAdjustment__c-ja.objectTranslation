@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>見積価格設定</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CustomerCommunityFLSCheckFields --></label>
+        <name>vlocity_ins__CustomerCommunityFLSCheckFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IssuePoicyFromQuoteFields --></label>
+        <name>vlocity_ins__IssuePolicyFromQuoteFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Action --></label>
+        <name>vlocity_ins__Action__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disconnect</masterLabel>
+            <translation>切断</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Added By --></label>
+        <name>vlocity_ins__AddedByUserId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>vlocity_ins__AdjustmentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Value --></label>
+        <name>vlocity_ins__AdjustmentValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>vlocity_ins__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applies To --></label>
+        <name>vlocity_ins__AppliesTo__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>取引先</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset</masterLabel>
+            <translation>納入商品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation>契約</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple Assets</masterLabel>
+            <translation>複数の納入商品</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins__BillingAccountId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>vlocity_ins__ContractId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated End Date --></label>
+        <name>vlocity_ins__EstimatedEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Start Date --></label>
+        <name>vlocity_ins__EstimatedStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfilment Status --></label>
+        <name>vlocity_ins__FulfilmentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation>有効化済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>キャンセル済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PONR</masterLabel>
+            <translation>PONR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation>置き換え済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Override Definition --></label>
+        <name>vlocity_ins__OverrideDefinitionId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax/Fee Id --></label>
+        <name>vlocity_ins__PriceListEntryId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax/Fee Name --></label>
+        <name>vlocity_ins__PriceListEntryName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Element Global Key --></label>
+        <name>vlocity_ins__PricingElementGlobalKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Element Version --></label>
+        <name>vlocity_ins__PricingElementVersionId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Variable Code --></label>
+        <name>vlocity_ins__PricingVariableCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Variable --></label>
+        <name>vlocity_ins__PricingVariableId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Promotion --></label>
+        <name>vlocity_ins__PromotionId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Applied Promotion --></label>
+        <name>vlocity_ins__QuoteAppliedPromotionId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote --></label>
+        <name>vlocity_ins__QuoteId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Item --></label>
+        <name>vlocity_ins__QuoteItemId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Date --></label>
+        <name>vlocity_ins__RequestDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sequence --></label>
+        <name>vlocity_ins__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>vlocity_ins__Source__c</name>
+        <picklistValues>
+            <masterLabel>ABP</masterLabel>
+            <translation>ABP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation>エージェント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Base</masterLabel>
+            <translation>基本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer</masterLabel>
+            <translation>オファー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policy Action</masterLabel>
+            <translation>ポリシーアクション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion</masterLabel>
+            <translation>プロモーション</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Action --></label>
+        <name>vlocity_ins__SubAction__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move</masterLabel>
+            <translation>移動</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time Plan --></label>
+        <name>vlocity_ins__TimePlanId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Time Policy --></label>
+        <name>vlocity_ins__TimePolicyId__c</name>
+        <relationshipLabel><!-- Quote Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>参照番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Adjustment Type field must be equal to the Type field on the Price List Entry. --></errorMessage>
+        <name>vlocity_ins__AdjustmentTypeValidation</name>
+    </validationRules>
+</CustomObjectTranslation>

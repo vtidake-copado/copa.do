@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Versorgungsplan-Datensatztyp --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Versorgungsplan-Datensatztypen --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Versorgungsplan-Datensatztyp --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Versorgungsplan-Datensatztypen --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Versorgungsplan-Datensatztyps --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Versorgungsplan-Datensatztypen --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Versorgungsplan-Datensatztyp --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Versorgungsplan-Datensatztypen --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Record Type Name --></label>
+        <name>HealthCloudGA__CaseRecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Namespace --></label>
+        <name>HealthCloudGA__CaseRecordTypeNamespace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default --></label>
+        <name>HealthCloudGA__Default__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

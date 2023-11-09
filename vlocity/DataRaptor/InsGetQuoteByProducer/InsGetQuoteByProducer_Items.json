@@ -1,0 +1,382 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "producerId",
+        "GlobalKey": "InsGetQuoteByProducerCustom7892",
+        "InputFieldName": "%vlocity_namespace%__ProducerId__c",
+        "InputObjectName": "Quote",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Quote",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DESERIALIZE('[\n        {\n            \"fieldName\": \"quoteNumber\",\n            \"label\": \"Quote Number\"\n        },\n        {\n            \"fieldName\": \"product\",\n            \"label\": \"Product\"\n        },\n        {\n            \"fieldName\": \"effectiveDate\",\n            \"label\": \"Effective Date\",\n            \"type\": \"date\",\n            \"format\": \"MM/DD/YYYY\"\n        },\n        {\n            \"fieldName\": \"endDate\",\n            \"label\": \"End Date\",\n            \"type\": \"date\",\n            \"format\": \"MM/DD/YYYY\"\n        },\n        {\n            \"fieldName\": \"quoteName\",\n            \"isRecordLink\": \"true\"\n        },\n        {\n            \"fieldName\": \"recordId\"\n        }\n    ]')",
+        "FormulaResultPath": "detailFields",
+        "FormulaSequence": 2,
+        "GlobalKey": "InsGetQuoteByProducerCustom711",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DESERIALIZE('[\n        {\n            \"label\": \"Premium\",\n            \"fieldName\": \"premium\",\n            \"direction\": \"desc\"\n        },\n        {\n            \"label\": \"Newest\",\n            \"fieldName\": \"effectiveDate\",\n            \"direction\": \"desc\"\n        },\n        {\n            \"label\": \"Oldest\",\n            \"fieldName\": \"effectiveDate\",\n            \"direction\": \"asc\"\n        }\n    ]')",
+        "FormulaResultPath": "sortOptions",
+        "FormulaSequence": 3,
+        "GlobalKey": "InsGetQuoteByProducerCustom3552",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "DESERIALIZE('[\n  {\n    \"fieldName\": \"name\",\n    \"label\": \"Account Name\"\n  },\n  {\n    \"fieldName\": \"premium\",\n    \"label\": \"Premium\"\n  },\n  {\n    \"fieldName\": \"lastUpdated\",\n    \"label\": \"Last updated\",\n    \"type\": \"date\",\n    \"format\": \"MM/DD/YYYY\"\n  },\n  {\n    \"fieldName\": \"status\",\n    \"label\": \"Status\",\n    \"colorIcons\": {\n                \"Draft\": \"#969492\",\n                \"Needs Review\": \"#FAC835\",\n                \"In Review\": \"#FAC835\",\n                \"Approved\": \"#FAC835\",\n                \"Rejected\": \"#969492\",\n                \"Presented\": \"#FAC835\",\n                \"Accepted\": \"#FAC835\",\n                \"Denied\": \"#969492\",\n                \"Issued\": \"#88C651\"\n    }\n  }\n]')",
+        "FormulaResultPath": "listFields",
+        "FormulaSequence": 1,
+        "GlobalKey": "InsGetQuoteByProducerCustom7251",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom6064",
+        "InputFieldName": "detailFields",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "detailFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "status",
+        "GlobalKey": "InsGetQuoteByProducerCustom6099",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "filterField",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom1670",
+        "InputFieldName": "listFields",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "listFields",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom5193",
+        "InputFieldName": "Quote:%vlocity_namespace%__EffectiveDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM/dd/yyyy)",
+        "OutputFieldName": "listValues:effectiveDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom6379",
+        "InputFieldName": "Quote:%vlocity_namespace%__EndDate__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM/dd/yyyy)",
+        "OutputFieldName": "listValues:endDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom4260",
+        "InputFieldName": "Quote:LastModifiedDate",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Date(MM/dd/yyyy)",
+        "OutputFieldName": "listValues:lastUpdated",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom8439",
+        "InputFieldName": "Quote:Account.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:name",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom1981",
+        "InputFieldName": "Quote:%vlocity_namespace%__TotalAmount__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "Currency",
+        "OutputFieldName": "listValues:premium",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom4402",
+        "InputFieldName": "Quote:%vlocity_namespace%__PrimaryRootItemId__r.Product2.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:product",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom6953",
+        "InputFieldName": "Quote:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:quoteName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom7970",
+        "InputFieldName": "Quote:QuoteNumber",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:quoteNumber",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom9747",
+        "InputFieldName": "Quote:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:recordId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom8416",
+        "InputFieldName": "Quote:Status",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "listValues:status",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "DefaultValue": "Quote",
+        "GlobalKey": "InsGetQuoteByProducerCustom9071",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "object",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{\"\":\"\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "InsGetQuoteByProducerCustom3486",
+        "InputFieldName": "sortOptions",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "InsGetQuoteByProducer",
+        "OmniDataTransformationId": {
+            "Name": "InsGetQuoteByProducer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/InsGetQuoteByProducer",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "sortOptions",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

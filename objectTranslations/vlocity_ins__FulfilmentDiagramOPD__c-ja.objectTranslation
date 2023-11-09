@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>履行ダイアグラム OPD</value>
+    </caseValues>
+    <fields>
+        <help>詳細履行ダイアグラム OPD に関連付けられた親履行ダイアグラム。</help>
+        <label><!-- Fulfilment Diagram --></label>
+        <name>vlocity_ins__FulfilmentDiagram__c</name>
+        <relationshipLabel><!-- Fulfilment Diagram OPDs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>親履行ダイアグラム OPD に関連付けられた詳細オーケストレーションプラン定義。</help>
+        <label><!-- Orchestration Plan Definition --></label>
+        <name>vlocity_ins__OrchestrationPlanDefinition__c</name>
+        <relationshipLabel><!-- Fulfilment Diagram OPDs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>オーケストレーションプラン定義のスイムレーン表示順。たとえば、3 と指定した場合、オーケストレーションプラン定義は 3 番目のスイムレーンに表示されます。最小は 1 で最大は 99 です。</help>
+        <label><!-- Swimlane Order --></label>
+        <name>vlocity_ins__SwimlaneOrder__c</name>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

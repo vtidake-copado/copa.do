@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Health Cloud-instelling --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Health Cloud-instellingen --></value>
+    </caseValues>
+    <fields>
+        <help>Of deze configuratierecord moet worden gebruikt.</help>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>De naam van deze configuratie-instelling. Raadpleeg de documentatie voor de precieze naam van specifieke instellingen.</help>
+        <label><!-- Setting Name --></label>
+        <name>HealthCloudGA__SettingName__c</name>
+    </fields>
+    <fields>
+        <help>De waarde van deze configuratie-instelling. Raadpleeg de documentatie voor aanbevolen waarden en notaties/indelingen.</help>
+        <label><!-- Setting Value --></label>
+        <name>HealthCloudGA__SettingValue__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

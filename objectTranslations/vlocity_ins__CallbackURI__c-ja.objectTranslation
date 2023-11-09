@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CallbackURI</value>
+    </caseValues>
+    <fields>
+        <help>名前空間</help>
+        <label><!-- Namespace --></label>
+        <name>vlocity_ins__Namespace__c</name>
+    </fields>
+    <fields>
+        <help>相対パス</help>
+        <label><!-- Path --></label>
+        <name>vlocity_ins__Path__c</name>
+    </fields>
+    <nameFieldLabel>CallbackURI 名</nameFieldLabel>
+</CustomObjectTranslation>

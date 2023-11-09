@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>見積グループ</value>
+    </caseValues>
+    <fields>
+        <label><!-- Async Job --></label>
+        <name>vlocity_ins__AsyncJobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Operation --></label>
+        <name>vlocity_ins__AsyncOperation__c</name>
+        <picklistValues>
+            <masterLabel>Apply To Group</masterLabel>
+            <translation>グループに適用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Replace</masterLabel>
+            <translation>一括置換</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checkout</masterLabel>
+            <translation>Checkout</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>価格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price And Validate</masterLabel>
+            <translation>価格と検証</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validate</masterLabel>
+            <translation>検証</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>vlocity_ins__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Member Count --></label>
+        <name>vlocity_ins__ExpectedMemberCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Cart --></label>
+        <name>vlocity_ins__GroupCartId__c</name>
+        <relationshipLabel><!-- Quote Cart Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Has Unapplied Group Items --></label>
+        <name>vlocity_ins__HasUnappliedGroupItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Unapplied Members --></label>
+        <name>vlocity_ins__HasUnappliedMembers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locked By User --></label>
+        <name>vlocity_ins__LockedBy__c</name>
+        <relationshipLabel><!-- Quote Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Locked For --></label>
+        <name>vlocity_ins__LockedFor__c</name>
+        <picklistValues>
+            <masterLabel>Async Operation</masterLabel>
+            <translation>非同期操作</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Edit</masterLabel>
+            <translation>手動による編集</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Member Count --></label>
+        <name>vlocity_ins__MemberCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Type --></label>
+        <name>vlocity_ins__MemberType__c</name>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation>ロケーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premises</masterLabel>
+            <translation>施設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Account</masterLabel>
+            <translation>サービス取引先</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Point</masterLabel>
+            <translation>サービスポイント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscriber</masterLabel>
+            <translation>登録者</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Multi Service Message Data --></label>
+        <name>vlocity_ins__MultiServiceMessageData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group One Time Cost Total --></label>
+        <name>vlocity_ins__OneTimeCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- One Time Margin Total --></label>
+        <name>vlocity_ins__OneTimeMarginTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group One Time Total --></label>
+        <name>vlocity_ins__OneTimeTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Group --></label>
+        <name>vlocity_ins__OpportunityGroupId__c</name>
+        <relationshipLabel><!-- Quote Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Group Margin Total --></label>
+        <name>vlocity_ins__QuoteGroupMarginTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote --></label>
+        <name>vlocity_ins__QuoteId__c</name>
+        <relationshipLabel><!-- Quote Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group Recurring Cost Total --></label>
+        <name>vlocity_ins__RecurringCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring Margin Total --></label>
+        <name>vlocity_ins__RecurringMarginTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Recurring Total --></label>
+        <name>vlocity_ins__RecurringTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Assets Common Configuration --></label>
+        <name>vlocity_ins__SelectedAssetsCommonConfiguration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Usage Cost Total --></label>
+        <name>vlocity_ins__UsageCostTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Margin Total --></label>
+        <name>vlocity_ins__UsageMarginTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Usage Price Total --></label>
+        <name>vlocity_ins__UsagePriceTotal__c</name>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

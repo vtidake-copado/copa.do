@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Аллергическая непереносимость в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Аллергические непереносимости в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Аллергическую непереносимость в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Аллергические непереносимости в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Аллергической непереносимости в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Аллергических непереносимостей в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Аллергической непереносимости в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Аллергическим непереносимостям в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Аллергической непереносимостью в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Аллергическими непереносимостями в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Аллергической непереносимости в ЭМК</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Аллергических непереносимостях в ЭМК</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- EHR Allergy Intolerances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Criticality Code --></label>
+        <name>HealthCloudGA__CriticalityCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criticality Label --></label>
+        <name>HealthCloudGA__CriticalityLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criticality System --></label>
+        <name>HealthCloudGA__CriticalitySystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <help>Возврат «истина», если значение в поле метки статуса НЕ равно «Решено», в противном случае возврат «ложь».</help>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- EHR Allergy Intolerances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reaction 255 --></label>
+        <name>HealthCloudGA__Reaction255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reaction --></label>
+        <name>HealthCloudGA__Reaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recorded Date --></label>
+        <name>HealthCloudGA__RecordedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recorder Name 255 --></label>
+        <name>HealthCloudGA__RecorderName255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recorder Name --></label>
+        <name>HealthCloudGA__RecorderName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recorder --></label>
+        <name>HealthCloudGA__Recorder__c</name>
+        <relationshipLabel><!-- Allergy Intolerances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity Test1 --></label>
+        <name>HealthCloudGA__SensitivityTest1__c</name>
+        <relationshipLabel><!-- EHR Allergy Intolerances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity Test2 --></label>
+        <name>HealthCloudGA__SensitivityTest2__c</name>
+        <relationshipLabel><!-- EHR Allergy Intolerances (Sensitivity Test2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity Test3 --></label>
+        <name>HealthCloudGA__SensitivityTest3__c</name>
+        <relationshipLabel><!-- EHR Allergy Intolerances (Sensitivity Test3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity Type Code --></label>
+        <name>HealthCloudGA__SensitivityTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity Type Label --></label>
+        <name>HealthCloudGA__SensitivityTypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity Type System --></label>
+        <name>HealthCloudGA__SensitivityTypeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Обозначает систему, которая создала запись и владеет правами для ее обновления. По умолчанию это Health1 для записей, созданных вручную.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Label --></label>
+        <name>HealthCloudGA__StatusLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status System --></label>
+        <name>HealthCloudGA__StatusSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substance 255 --></label>
+        <name>HealthCloudGA__Substance255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substance Code System --></label>
+        <name>HealthCloudGA__SubstanceCodeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substance Code --></label>
+        <name>HealthCloudGA__SubstanceCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substance --></label>
+        <name>HealthCloudGA__SubstanceLong__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Код аллергической непереносимости в ЭМК</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+{
+    "AuthorName": "Vlocity",
+    "ClonedFromOmniUiCardKey": "insPolicyTransactionsCard/Vlocity/1/1605284746460",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 2,
+                    "name": "User.userAccountId",
+                    "val": "0015w000028sDSKAA2"
+                }
+            ],
+            "orderBy": {
+                "isReverse": false,
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "InsGetPolicyTransactionDetails",
+                "inputMap": {
+                    "accountId": "{User.userAccountId}"
+                },
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "insPolicyBillingTransactions_nds",
+    "Namespace": "",
+    "OmniUiCardKey": "insPolicyBillingTransactions_nds/Vlocity/1/1605520064324",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "insPolicyBillingTransactions_nds.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "insPolicyBillingTransactions_nds_Vlocity_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/insPolicyBillingTransactions_nds"
+}

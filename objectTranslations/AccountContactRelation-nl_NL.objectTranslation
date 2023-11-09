@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Primary Group --></label>
+        <name>HealthCloudGA__PrimaryGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>HealthCloudGA__Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollups --></label>
+        <name>HealthCloudGA__Rollups__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Alle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events</masterLabel>
+            <translation>Events</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tasks</masterLabel>
+            <translation>Taken</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Primary Relationship --></label>
+        <name>vlocity_ins__IsPrimaryRelationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Hours --></label>
+        <name>vlocity_ins__OperatingHoursId__c</name>
+    </fields>
+</CustomObjectTranslation>

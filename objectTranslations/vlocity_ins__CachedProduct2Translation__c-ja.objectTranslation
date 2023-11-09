@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>キャッシュ済み商品翻訳</value>
+    </caseValues>
+    <fields>
+        <label><!-- Locale Code --></label>
+        <name>vlocity_ins__LocaleCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Translated Product Description --></label>
+        <name>vlocity_ins__Product2Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Translated Product --></label>
+        <name>vlocity_ins__Product2Id__c</name>
+        <relationshipLabel><!-- Cached Product Translations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Translated Product Name --></label>
+        <name>vlocity_ins__Product2Name__c</name>
+    </fields>
+    <nameFieldLabel>キャッシュ済み商品翻訳名</nameFieldLabel>
+</CustomObjectTranslation>

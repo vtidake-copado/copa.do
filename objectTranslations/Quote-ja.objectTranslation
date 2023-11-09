@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- CustomerCommunityFLSCheckFields --></label>
+        <name>vlocity_ins__CustomerCommunityFLSCheckFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FieldsAvailableInRules --></label>
+        <name>vlocity_ins__FieldsAvailableInRules</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IssuePolicyFromQuoteFields --></label>
+        <name>vlocity_ins__IssuePolicyFromQuoteFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- IssueQuoteModalFields --></label>
+        <name>vlocity_ins__IssueQuoteModalFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteCompareDetails --></label>
+        <name>vlocity_ins__QuoteCompareDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteCompareHeader --></label>
+        <name>vlocity_ins__QuoteCompareHeader</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- QuoteDetail --></label>
+        <name>vlocity_ins__QuoteDetail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CommissionsCalculation --></label>
+        <name>vlocity_ins_fsc__CommissionsCalculation</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Agency/Brokerage --></label>
+        <name>vlocity_ins__AgencyBrokerageId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Calculated Price Data --></label>
+        <name>vlocity_ins__CalculatedPriceJSON__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Amount --></label>
+        <name>vlocity_ins__CommissionAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Remaining --></label>
+        <name>vlocity_ins__DaysRemaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>vlocity_ins__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>vlocity_ins__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frame Contract --></label>
+        <name>vlocity_ins__FrameContractId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Census --></label>
+        <name>vlocity_ins__GroupCensusId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Require Contract --></label>
+        <name>vlocity_ins__IsContractRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jurisdiction --></label>
+        <name>vlocity_ins__JurisdictionId__c</name>
+        <relationshipLabel><!-- Quote Jurisdiction --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Market Segment --></label>
+        <name>vlocity_ins__MarketSegment__c</name>
+        <picklistValues>
+            <masterLabel>ASO (Admin Services Only)</masterLabel>
+            <translation><!-- ASO (Admin Services Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Group</masterLabel>
+            <translation><!-- Large Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Sized Group</masterLabel>
+            <translation><!-- Mid Sized Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Group</masterLabel>
+            <translation><!-- Small Group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Monthly Premium --></label>
+        <name>vlocity_ins__MonthlyPremium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Account Id --></label>
+        <name>vlocity_ins__OpportunityAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Fee for Term --></label>
+        <name>vlocity_ins__OriginalFeeForTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Premium for Term --></label>
+        <name>vlocity_ins__OriginalPremiumForTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Tax for Term --></label>
+        <name>vlocity_ins__OriginalTaxForTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Quote --></label>
+        <name>vlocity_ins__ParentQuoteId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price List --></label>
+        <name>vlocity_ins__PriceListId__c</name>
+        <relationshipLabel><!-- Quotes Using This Price List --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Quoted Product --></label>
+        <name>vlocity_ins__PrimaryProductId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Root Item --></label>
+        <name>vlocity_ins__PrimaryRootItemId__c</name>
+        <relationshipLabel><!-- Parent Quote for Primary Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Producer --></label>
+        <name>vlocity_ins__ProducerId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Group --></label>
+        <name>vlocity_ins__QuoteGroupId__c</name>
+        <relationshipLabel><!-- Group Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rating Type --></label>
+        <name>vlocity_ins__RatingType__c</name>
+        <picklistValues>
+            <masterLabel>Age</masterLabel>
+            <translation><!-- Age --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Composite</masterLabel>
+            <translation><!-- Composite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>vlocity_ins__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Source Contract --></label>
+        <name>vlocity_ins__RenewalSourceContractId__c</name>
+        <relationshipLabel><!-- Renewal Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Price --></label>
+        <name>vlocity_ins__RootItemTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Asset --></label>
+        <name>vlocity_ins__SourceAssetId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System Identifier --></label>
+        <name>vlocity_ins__SourceSystemIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>vlocity_ins__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Premium --></label>
+        <name>vlocity_ins__StandardPremium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>vlocity_ins__Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terms of Eligibility --></label>
+        <name>vlocity_ins__TermsofEligibility__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Adjustment Amount --></label>
+        <name>vlocity_ins__TotalAdjustmentAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount for Term Difference --></label>
+        <name>vlocity_ins__TotalAmountTermDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>vlocity_ins__TotalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Fee Amount --></label>
+        <name>vlocity_ins__TotalFeeAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Fee for Term --></label>
+        <name>vlocity_ins__TotalFeeForTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Fee for Term Difference --></label>
+        <name>vlocity_ins__TotalFeeTermDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Premium for Term Difference --></label>
+        <name>vlocity_ins__TotalPremiumTermDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Premium for Term --></label>
+        <name>vlocity_ins__TotalPremiumforTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sum Insured --></label>
+        <name>vlocity_ins__TotalSumInsured__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tax Amount --></label>
+        <name>vlocity_ins__TotalTaxAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tax for Term --></label>
+        <name>vlocity_ins__TotalTaxForTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tax for Term Difference --></label>
+        <name>vlocity_ins__TotalTaxTermDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins__Type__c</name>
+        <picklistValues>
+            <masterLabel>Endorsement</masterLabel>
+            <translation><!-- Endorsement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Underwriter --></label>
+        <name>vlocity_ins__UnderwriterId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Group Census --></label>
+        <name>vlocity_ins_fsc__GroupCensusStdId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Producer --></label>
+        <name>vlocity_ins_fsc__PrimaryProducerId__c</name>
+        <relationshipLabel><!-- Primary Producer for Quote --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Production Code --></label>
+        <name>vlocity_ins_fsc__ProductionCodeId__c</name>
+        <relationshipLabel><!-- Production Code for Quote --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Insurance Policy --></label>
+        <name>vlocity_ins_fsc__SourceInsurancePolicyId__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source Premium Frequency --></label>
+        <name>vlocity_ins_fsc__SourcePremiumFrequency__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- A group cart holds the configured offers designed to be applied to all of the members of the associated group. --></description>
+        <label><!-- Group Cart --></label>
+        <name>vlocity_ins__GroupCart</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Large Group Quote --></label>
+        <name>vlocity_ins__LargeGroupQuote</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quote --></label>
+        <name>vlocity_ins__Quote</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Small Group Quote --></label>
+        <name>vlocity_ins__SmallGroupQuote</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- CreatingContractAloha --></label>
+        <name>vlocity_ins__CreatingContractAloha</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocumentPDF --></label>
+        <name>vlocity_ins__GenerateDocumentPDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ProductSelection --></label>
+        <name>vlocity_ins__ProductSelection</name>
+    </webLinks>
+</CustomObjectTranslation>

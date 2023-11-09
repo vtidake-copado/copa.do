@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Health Cloud 設定 --></value>
+    </caseValues>
+    <fields>
+        <help>この設定レコードを使用する必要があるかどうか。</help>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>この設定の名前。特定の設定の正確な名前については、ドキュメントを参照してください。</help>
+        <label><!-- Setting Name --></label>
+        <name>HealthCloudGA__SettingName__c</name>
+    </fields>
+    <fields>
+        <help>この設定の値。推奨値と形式については、ドキュメントを参照してください。</help>
+        <label><!-- Setting Value --></label>
+        <name>HealthCloudGA__SettingValue__c</name>
+    </fields>
+</CustomObjectTranslation>

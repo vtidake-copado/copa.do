@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Additional Information --></label>
+        <name>vlocity_ins__AdditionalInformation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Async Bulk Request --></label>
+        <name>vlocity_ins__AsyncJobRequestId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Async Bulk Request Status --></label>
+        <name>vlocity_ins__AsyncJobRequestStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Name --></label>
+        <name>vlocity_ins__InsuranceEventName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>vlocity_ins__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Name --></label>
+        <name>vlocity_ins__NotificationAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notification Name --></label>
+        <name>vlocity_ins__NotificationTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Object --></label>
+        <name>vlocity_ins__ObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>vlocity_ins__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recipient --></label>
+        <name>vlocity_ins__UserId__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR 相關觀察</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>HealthCloudGA__Observation__c</name>
+        <relationshipLabel><!-- EHR Related Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Observation --></label>
+        <name>HealthCloudGA__RelatedObservation__c</name>
+        <relationshipLabel><!-- EHR Related Observations (Related Observation) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>識別已建立記錄並擁有該記錄更新權的系統。預設值為代表手動建立記錄的「健康 1」。</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Code --></label>
+        <name>HealthCloudGA__TypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Label --></label>
+        <name>HealthCloudGA__TypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type System --></label>
+        <name>HealthCloudGA__TypeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>HealthCloudGA__Type__c</name>
+        <picklistValues>
+            <masterLabel>derived-from</masterLabel>
+            <translation>衍生自</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>has-component</masterLabel>
+            <translation>具有組件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>has-member</masterLabel>
+            <translation>具有成員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>interfered-by</masterLabel>
+            <translation>干擾者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>qualified-by</masterLabel>
+            <translation>認定者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>replaces</masterLabel>
+            <translation>取代</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sequel-to</masterLabel>
+            <translation>後續</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>EHR 相關觀察名稱</nameFieldLabel>
+</CustomObjectTranslation>

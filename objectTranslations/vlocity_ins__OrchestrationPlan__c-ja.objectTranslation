@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オーケストレーションプラン</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins__AccountId__c</name>
+        <relationshipLabel><!-- The account linked to the Work Plan --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Days Completed --></label>
+        <name>vlocity_ins__CompletedWorkDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>vlocity_ins__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Being Watched --></label>
+        <name>vlocity_ins__IsBeingWatched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Orchestration Item Update --></label>
+        <name>vlocity_ins__LastOrchestrationItemUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins__OrderAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>vlocity_ins__OrderId__c</name>
+        <relationshipLabel><!-- Orchestration Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Work Days Completed (%) --></label>
+        <name>vlocity_ins__PercentageComplete__c</name>
+    </fields>
+    <fields>
+        <help>準備完了/実行中/致命的な失敗状態のオーケストレーション品目の最早期日。</help>
+        <label><!-- Plan Scheduling Due Date --></label>
+        <name>vlocity_ins__PlanSchedulingDueDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>vlocity_ins__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>vlocity_ins__State__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freezing</masterLabel>
+            <translation>フリーズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frozen</masterLabel>
+            <translation>凍結</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>処理中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Work Days Total --></label>
+        <name>vlocity_ins__TotalWorkDays__c</name>
+    </fields>
+    <nameFieldLabel>オーケストレーションプラン名</nameFieldLabel>
+    <webLinks>
+        <label><!-- ViewOrder --></label>
+        <name>vlocity_ins__ViewOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewOrderDecomposition --></label>
+        <name>vlocity_ins__ViewOrderDecomposition</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Date --></label>
+        <name>vlocity_ins_fsc__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Transaction --></label>
+        <name>vlocity_ins_fsc__InsPolicyTransactionId__c</name>
+        <relationshipLabel><!-- Insurance Policy Revenue Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyId__c</name>
+        <relationshipLabel><!-- Insurance Policy Revenue Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Transaction Id --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyTransactionId__c</name>
+        <relationshipLabel><!-- Insurance Policy Revenue Schedule --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue Earned in Period --></label>
+        <name>vlocity_ins_fsc__PeriodEarnedRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Earned Revenue --></label>
+        <name>vlocity_ins_fsc__TotalEarnedRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Unearned Revenue --></label>
+        <name>vlocity_ins_fsc__TotalUnearnedRevenue__c</name>
+    </fields>
+</CustomObjectTranslation>

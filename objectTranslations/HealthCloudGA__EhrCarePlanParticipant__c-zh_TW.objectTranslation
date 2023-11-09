@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR 照護計畫參與者</value>
+    </caseValues>
+    <fields>
+        <label><!-- Care Plan Activity --></label>
+        <name>HealthCloudGA__CarePlanActivity__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Practitioner Name 255 --></label>
+        <name>HealthCloudGA__PractitionerName255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner Name --></label>
+        <name>HealthCloudGA__PractitionerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Practitioner --></label>
+        <name>HealthCloudGA__Practitioner__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Person --></label>
+        <name>HealthCloudGA__RelatedPerson__c</name>
+        <relationshipLabel><!-- Care Plan Participants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Role Code --></label>
+        <name>HealthCloudGA__RoleCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role Label --></label>
+        <name>HealthCloudGA__RoleLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role System --></label>
+        <name>HealthCloudGA__RoleSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>識別已建立記錄並擁有該記錄更新權的系統。預設值為代表手動建立記錄的「健康 1」。</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <nameFieldLabel>EHR 照護計畫參與者識別碼</nameFieldLabel>
+</CustomObjectTranslation>

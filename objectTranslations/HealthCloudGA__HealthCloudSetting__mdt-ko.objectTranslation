@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Health Cloud 설정 --></value>
+    </caseValues>
+    <fields>
+        <help>이 구성 레코드를 사용해야 하는지 여부입니다.</help>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>이 구성 설정의 이름입니다. 특정 설정에 대한 정확한 이름은 문서를 참조하십시오.</help>
+        <label><!-- Setting Name --></label>
+        <name>HealthCloudGA__SettingName__c</name>
+    </fields>
+    <fields>
+        <help>이 구성 설정의 값입니다. 권장되는 값과 형식을 보려면 문서를 참조하십시오.</help>
+        <label><!-- Setting Value --></label>
+        <name>HealthCloudGA__SettingValue__c</name>
+    </fields>
+</CustomObjectTranslation>

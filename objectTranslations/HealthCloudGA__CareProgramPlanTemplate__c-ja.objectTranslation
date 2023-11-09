@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ケアプログラムプランテンプレート</value>
+    </caseValues>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Care Program Plan Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Program --></label>
+        <name>HealthCloudGA__CareProgram__c</name>
+        <relationshipLabel><!-- Care Program Plan Templates --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>ID</nameFieldLabel>
+</CustomObjectTranslation>

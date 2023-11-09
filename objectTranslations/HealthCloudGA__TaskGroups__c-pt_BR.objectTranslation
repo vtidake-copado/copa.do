@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Grupo de tarefa --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Grupos de tarefa --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+    </fields>
+    <fields>
+        <help>Se seu rótulo tiver um prefixo de namespace, use Label_Namespace.Label_Name. Caso contrário, use c.Label_Name.</help>
+        <label><!-- GroupBy Label --></label>
+        <name>HealthCloudGA__GroupByLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- GroupBy --></label>
+        <name>HealthCloudGA__GroupBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

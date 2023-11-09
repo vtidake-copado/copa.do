@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Критерий фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Критерии фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Критерий фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Критерии фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Критерия фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Критериев фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Критерию фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Критериям фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Критерием фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Критериями фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Критерии фильтра</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Критериях фильтра</value>
+    </caseValues>
+    <fields>
+        <label><!-- Grouping --></label>
+        <name>HealthCloudGA__Grouping__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsWaveList --></label>
+        <name>HealthCloudGA__IsWaveList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>HealthCloudGA__ObjectName__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Имя параметра фильтра</nameFieldLabel>
+    <recordTypes>
+        <label><!-- PatientList --></label>
+        <name>HealthCloudGA__PatientList</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Timeline --></label>
+        <name>HealthCloudGA__Timeline</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Another filter list already uses this name. Select a unique name. --></errorMessage>
+        <name>HealthCloudGA__No_Duplicates</name>
+    </validationRules>
+</CustomObjectTranslation>

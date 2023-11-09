@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity コンテキストルールセット</value>
+    </caseValues>
+    <fields>
+        <label><!-- Effective From --></label>
+        <name>vlocity_ins__EffectiveFromDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Until --></label>
+        <name>vlocity_ins__EffectiveUntilDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expression --></label>
+        <name>vlocity_ins__Expression__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fallback Rule --></label>
+        <name>vlocity_ins__FallbackRule__c</name>
+        <relationshipLabel><!-- Vlocity Context Rulesets (Fallback Rule) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Global Key --></label>
+        <name>vlocity_ins__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- HeaderRule --></label>
+        <name>vlocity_ins__HeaderRule__c</name>
+        <relationshipLabel><!-- Vlocity Context Rulesets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>vlocity_ins__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>vlocity_ins__ObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>vlocity_ins__ObjectType__c</name>
+        <picklistValues>
+            <masterLabel>Availability</masterLabel>
+            <translation>使用可能状況</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eligibility</masterLabel>
+            <translation>対象資格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation>セキュリティ</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

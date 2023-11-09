@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Id --></label>
+        <name>vlocity_ins__AccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>vlocity_ins__DueDate__c</name>
+    </fields>
+    <fields>
+        <help>Order Management への最初の送信の日付</help>
+        <label><!-- First Submitted Date --></label>
+        <name>vlocity_ins__FirstSubmitAttemptTs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Order Id --></label>
+        <name>vlocity_ins__FirstVersionOrderIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Force Supplementals --></label>
+        <name>vlocity_ins__ForceSupplementals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frame Contract --></label>
+        <name>vlocity_ins__FrameContractId__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Status --></label>
+        <name>vlocity_ins__FulfilmentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation>有効化済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>キャンセル済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>キューに登録済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation>置き換え済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active Order Version --></label>
+        <name>vlocity_ins__IsActiveOrderVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changes Accepted --></label>
+        <name>vlocity_ins__IsChangesAccepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changes Allowed --></label>
+        <name>vlocity_ins__IsChangesAllowed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require Contract --></label>
+        <name>vlocity_ins__IsContractRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Safety Interval Unit --></label>
+        <name>vlocity_ins__JeopardySafetyIntervalUnit__c</name>
+        <picklistValues>
+            <masterLabel>Business Days</masterLabel>
+            <translation>営業日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Hours</masterLabel>
+            <translation>営業時間</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calendar Days</masterLabel>
+            <translation>カレンダー日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calendar Hours</masterLabel>
+            <translation>カレンダー時間</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seconds</masterLabel>
+            <translation>秒</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Safety Interval --></label>
+        <name>vlocity_ins__JeopardySafetyInterval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Status --></label>
+        <name>vlocity_ins__JeopardyStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Catalog Delta Object Index --></label>
+        <name>vlocity_ins__MaxCatalogueDeltaObjectIndex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Method --></label>
+        <name>vlocity_ins__OrchestrationMethod__c</name>
+        <picklistValues>
+            <masterLabel>Order Management</masterLabel>
+            <translation>注文管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Management Plus</masterLabel>
+            <translation>Order Management Plus</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Plan Reference Id --></label>
+        <name>vlocity_ins__OrchestrationPlanReferenceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Status --></label>
+        <name>vlocity_ins__OrderStatus__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation>有効化済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amend Requested</masterLabel>
+            <translation>変更要求済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Available In Pool</masterLabel>
+            <translation>プールで使用可能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Requested</masterLabel>
+            <translation>キャンセル要求済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>キャンセル済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discarded</masterLabel>
+            <translation>破棄済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frozen</masterLabel>
+            <translation>凍結</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>キューに登録済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready To Submit</masterLabel>
+            <translation>送信準備完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>送信済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation>置き換え済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Originating Contract --></label>
+        <name>vlocity_ins__OriginatingContractId__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price List --></label>
+        <name>vlocity_ins__PriceListId__c</name>
+        <relationshipLabel><!-- Orders Using This Price List --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Processing Log --></label>
+        <name>vlocity_ins__ProcessingLog__c</name>
+    </fields>
+    <fields>
+        <help>注文送信がキューに登録されたときのタイムスタンプ</help>
+        <label><!-- Queued Timestamp --></label>
+        <name>vlocity_ins__QueuedTs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Completion Date --></label>
+        <name>vlocity_ins__RequestedCompletionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Start Date --></label>
+        <name>vlocity_ins__RequestedStartDate__c</name>
+    </fields>
+    <fields>
+        <help>Order Management への正常な送信の日時</help>
+        <label><!-- Submitted to OM Time --></label>
+        <name>vlocity_ins__SubmittedToOmDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Superseded Order --></label>
+        <name>vlocity_ins__SupersededOrderId__c</name>
+        <relationshipLabel><!-- Superseding Order --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplemental Action --></label>
+        <name>vlocity_ins__SupplementalAction__c</name>
+        <picklistValues>
+            <masterLabel>Amend</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow On</masterLabel>
+            <translation>フォロー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Status --></label>
+        <name>vlocity_ins__ThorJeopardyStatus__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>緑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation>赤</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation>黄</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>最終検証実行日</help>
+        <label><!-- Validation Date --></label>
+        <name>vlocity_ins__ValidationDate__c</name>
+    </fields>
+    <fields>
+        <help>最終検証実行状況</help>
+        <label><!-- Validation Status --></label>
+        <name>vlocity_ins__ValidationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not yet run</masterLabel>
+            <translation>未実行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed</masterLabel>
+            <translation>合格</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Plan --></label>
+        <name>vlocity_ins__orchestrationPlanId__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields>
+    <webLinks>
+        <label><!-- CreatingContractAloha --></label>
+        <name>vlocity_ins__CreatingContractAloha</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DecomposeOrder --></label>
+        <name>vlocity_ins__DecomposeOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GenerateDocumentPDF --></label>
+        <name>vlocity_ins__GenerateDocumentPDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewDecomposedOrder --></label>
+        <name>vlocity_ins__ViewDecomposedOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewOrchestrationPlan --></label>
+        <name>vlocity_ins__ViewOrchestrationPlan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- XOMOnSubmitOrder --></label>
+        <name>vlocity_ins__XOMOnSubmitOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- XOMSubmitOrder --></label>
+        <name>vlocity_ins__XOMSubmitOrder</name>
+    </webLinks>
+</CustomObjectTranslation>

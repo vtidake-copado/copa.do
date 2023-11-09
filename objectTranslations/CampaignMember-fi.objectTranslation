@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- ListMember --></label>
+        <name>vlocity_ins__ListMember</name>
+    </fieldSets>
+    <fields>
+        <help>Yksittäinen tili, joka edustaa potilasta Lightning Platformissa</help>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Campaign Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__isVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Type --></label>
+        <name>vlocity_ins__ActionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Name --></label>
+        <name>vlocity_ins__CampaignName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign OmniScript URL --></label>
+        <name>vlocity_ins__CampaignOmniScriptURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Status --></label>
+        <name>vlocity_ins__CampaignStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins__CampaignType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template --></label>
+        <name>vlocity_ins__EmailTemplate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Call Date --></label>
+        <name>vlocity_ins__LastCallDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>vlocity_ins__StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Call Date --></label>
+        <name>vlocity_ins__TargetCallDate__c</name>
+    </fields>
+</CustomObjectTranslation>

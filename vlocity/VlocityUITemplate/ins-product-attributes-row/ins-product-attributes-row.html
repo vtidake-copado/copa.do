@@ -1,0 +1,46 @@
+<div class="vloc-attr-row slds-row" data-card="card-{{cardIndex}}" ng-class="{selected: (importedScope.row.Id ===  $root.config.attr.Id)}"  ng-click="$root.config.show = true; importedScope.setAttr(importedScope.row, cardIndex)" ng-init="importedScope.setRowData(records, cardIndex);">
+   <div class="slds-col slds-grid slds-wrap slds-grid_align-spread">
+      <div class="slds-small-show vloc-attr-cell slds-size_1-of-{{ $root.rowFields.length}}" ng-repeat="field in $root.rowFields" ng-show="key != 'attributes'">
+         <div class="vloc-attr-data-cell slds-truncate">
+            <span class="vloc-attr-index slds-m-right_small" ng-if="$index < 1"> {{importedScope.getIndex(cardIndex)}} </span>
+            <span class="slds-truncate" ng-if="field.name !== $root.nsPrefix + 'Value__c' && field.name !== $root.nsPrefix + 'ValueDataType__c' && field.type !== 'boolean'">
+                <span ng-if="$index === 0 && ($root.classId === records[$root.nsPrefix + 'ObjectId__c'] || $root.classOverride[importedScope.row.Id])" class="vloc-overridden-info">
+                    <div ng-class="{'vloc-overridden-tooltip slds-nubbin_bottom-left': cardIndex !== '0','slds-nubbin_left-bottom vloc-tooltip-nubbin-left': cardIndex === '0', 'vloc-class-overridden': $root.classOverride[importedScope.row.Id], 'vloc-class-inherited': !$root.classOverride[importedScope.row.Id]}"
+                        class="slds-popover slds-popover_tooltip" role="tooltip" id="help">
+                        <div class="slds-popover__body" ng-if="$root.classOverride[importedScope.row.Id]">{{ ::$root.vlocity.getCustomLabel('InsParentClassAttributeOverride')}}</div>
+                        <div class="slds-popover__body" ng-if="!$root.classOverride[importedScope.row.Id]">{{ ::$root.vlocity.getCustomLabel('InsInheritedAttribute')}}</div>
+                    </div>
+                    <slds-button-svg-icon class="vloc-ins-class-icon" ng-if="$index === 0 && ($root.classId === records[$root.nsPrefix + 'ObjectId__c'] || $root.classOverride[importedScope.row.Id])"
+                        sprite="'utility'" icon="'layers'" no-hint="true" ng-class="{'slds-icon-text-light': !$root.classOverride[importedScope.row.Id], 'vloc-inherited-icon-fill': $root.classOverride[importedScope.row.Id]}"
+                        extra-classes="'slds-button__icon_small slds-m-right_xx-small'">
+                    </slds-button-svg-icon>
+                </span>
+                {{importedScope.row | getter: field | picker: field.type}}
+            </span>
+            <span ng-if="field.name === $root.nsPrefix + 'ValueDataType__c'">{{importedScope.row | getter: field | picker: field.type | getTranslatedDataType }}</span>
+            <span></span>
+            <span ng-if="field.name === $root.nsPrefix + 'Value__c'">
+                <span ng-if="importedScope.row.valueType !== 'percent' && importedScope.row.valueType !== 'datetime' && importedScope.row.valueType !== 'date'">
+                    <span ng-if="importedScope.row.valueType === 'currency'">{{importedScope.row[$root.nsPrefix + 'Value__c'] | formatCurrency}}</span>
+                    <span ng-if="importedScope.row.valueType !== 'currency'">{{importedScope.row | getter: field | picker: importedScope.row.valueType}}</span>
+                </span>
+                <span ng-if="importedScope.row.valueType === 'date'">
+                    {{importedScope.row[$root.nsPrefix + 'Value__c'] | date : 'MM/dd/yyyy' }}
+                </span>
+                <span ng-if="importedScope.row.valueType === 'datetime'">
+                    {{importedScope.row[$root.nsPrefix + 'Value__c'] | date : 'MM/dd/yyyy h:mma' }}
+                </span>
+                <span ng-if="importedScope.row.valueType === 'percent'"> {{importedScope.row[$root.nsPrefix + 'Value__c']}}<span ng-if="importedScope.row[$root.nsPrefix + 'Value__c']">%</span></span>
+            </span>
+            <div class="slds-form-element__control slds-text-align_left slds-text-align_center" ng-if="field.type === 'boolean'">
+               <span class="slds-checkbox">
+                   <input type="checkbox" name="attrs-{{$index}}" id="attrs-{{$index}}" ng-model="importedScope.row[$root.nsPrefix + 'IsRatingAttribute__c']" ng-disabled="true"/>
+                   <label class="slds-checkbox__label slds-m-around_none" for="attrs-{{$index}}">
+                       <span class="slds-checkbox_faux vloc-check"></span>
+                   </label>
+               </span>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

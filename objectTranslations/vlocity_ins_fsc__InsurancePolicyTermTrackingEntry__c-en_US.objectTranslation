@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Calculated Initial Amount --></label>
+        <name>vlocity_ins_fsc__CalculatedInitialAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated Initial Value --></label>
+        <name>vlocity_ins_fsc__CalculatedInitialValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Coverage --></label>
+        <name>vlocity_ins_fsc__ClaimCoverageId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Claim Coverage Payment Detail --></label>
+        <name>vlocity_ins_fsc__ClaimCoveragePaymentDetailId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Claim --></label>
+        <name>vlocity_ins_fsc__ClaimId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Claim Item --></label>
+        <name>vlocity_ins_fsc__ClaimItemId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Initial Amount --></label>
+        <name>vlocity_ins_fsc__InitialAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Value --></label>
+        <name>vlocity_ins_fsc__InitialValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Participant --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyParticipantId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Policy Term --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyTermId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insured Policy Asset --></label>
+        <name>vlocity_ins_fsc__InsuredPolicyAssetId__c</name>
+        <relationshipLabel><!-- Policy Terms Tracking Entry --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Posted Amount --></label>
+        <name>vlocity_ins_fsc__PostedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Posted Value --></label>
+        <name>vlocity_ins_fsc__PostedValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remaining Amount --></label>
+        <name>vlocity_ins_fsc__RemainingAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remaining Value --></label>
+        <name>vlocity_ins_fsc__RemainingValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numerical Order --></label>
+        <name>vlocity_ins_fsc__Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Used Amount --></label>
+        <name>vlocity_ins_fsc__TotalUsedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Used Value --></label>
+        <name>vlocity_ins_fsc__TotalUsedValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Date --></label>
+        <name>vlocity_ins_fsc__UsageDate__c</name>
+    </fields>
+</CustomObjectTranslation>

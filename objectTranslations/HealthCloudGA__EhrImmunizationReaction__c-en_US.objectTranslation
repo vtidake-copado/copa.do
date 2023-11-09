@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- EHR Immunization Reactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>HealthCloudGA__Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- EHR Observation --></label>
+        <name>HealthCloudGA__EhrObservation__c</name>
+        <relationshipLabel><!-- EHR Immunization Reactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Immunization --></label>
+        <name>HealthCloudGA__Immunization__c</name>
+        <relationshipLabel><!-- Immunization Reactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reaction 255 --></label>
+        <name>HealthCloudGA__Reaction255__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reaction Start Date --></label>
+        <name>HealthCloudGA__ReactionStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reaction --></label>
+        <name>HealthCloudGA__Reaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Self Reported --></label>
+        <name>HealthCloudGA__SelfReported__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the system that created the record and owns update rights to it. Defaults to Health1 for manually created records. --></help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+</CustomObjectTranslation>

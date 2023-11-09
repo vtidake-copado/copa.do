@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>היעד</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>יעד</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>היעדים</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>יעדים</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- HcGoalCreateEdit --></label>
+        <name>HealthCloudGA__HcGoalCreateEdit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HcGoalList --></label>
+        <name>HealthCloudGA__HcGoalList</name>
+    </fieldSets>
+    <fields>
+        <help>תאריך היעד של היעד</help>
+        <label><!-- Due Date --></label>
+        <name>HealthCloudGA__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <help>הבעיה שיעד זה צריך לפתור</help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- Goals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+        <picklistValues>
+            <masterLabel>Cognition Improvement</masterLabel>
+            <translation>שיפור קונגניטיבי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muscle Strength Improvement</masterLabel>
+            <translation>שיפור בכוח שרירים</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weight Management</masterLabel>
+            <translation>ניהול משקל</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>HealthCloudGA__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>HealthCloudGA__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>גבוהה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>נמוכה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>בינונית</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>התקדמות אל השגת היעד</help>
+        <label><!-- % Progress --></label>
+        <name>HealthCloudGA__Progress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>שם</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The value for Progress can&apos;t be more than 100%. --></errorMessage>
+        <name>HealthCloudGA__goalPercentCompletion</name>
+    </validationRules>
+</CustomObjectTranslation>

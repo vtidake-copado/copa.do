@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>価格設定コンポーネント</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_ins__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contract Line Items --></label>
+        <name>vlocity_ins__ContractLineItems</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Pricing Component --></label>
+        <name>vlocity_ins__NewPricingComponent</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Pricing --></label>
+        <name>vlocity_ins__ProductPricing</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Add-on Text --></label>
+        <name>vlocity_ins__AddOnText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Method Type --></label>
+        <name>vlocity_ins__AdjustmentMethod__c</name>
+        <picklistValues>
+            <masterLabel>Absolute</masterLabel>
+            <translation>絶対</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent</masterLabel>
+            <translation>パーセント</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>vlocity_ins__AdjustmentType__c</name>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation>割引</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Markup</masterLabel>
+            <translation>値上げ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Alteration Value --></label>
+        <name>vlocity_ins__AlterationValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>vlocity_ins__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculation Matrix --></label>
+        <name>vlocity_ins__CalculationMatrix__c</name>
+        <relationshipLabel><!-- Pricing Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Calculation Type --></label>
+        <name>vlocity_ins__CalculationType__c</name>
+        <picklistValues>
+            <masterLabel>Attribute Based</masterLabel>
+            <translation>属性ベース</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation>シンプル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier Based</masterLabel>
+            <translation>階層ベース</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Charge Type --></label>
+        <name>vlocity_ins__ChargeTiming__c</name>
+        <picklistValues>
+            <masterLabel>One-time</masterLabel>
+            <translation>1 回</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation>定期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage</masterLabel>
+            <translation>利用状況</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>vlocity_ins__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>vlocity_ins__ContextAccountId__c</name>
+        <relationshipLabel><!-- Pricing Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>vlocity_ins__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>vlocity_ins__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>vlocity_ins__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency Value --></label>
+        <name>vlocity_ins__FrequencyValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Global Key --></label>
+        <name>vlocity_ins__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>vlocity_ins__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Sub-Type --></label>
+        <name>vlocity_ins__PriceSubType__c</name>
+        <picklistValues>
+            <masterLabel>Fee</masterLabel>
+            <translation>手数料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation>メンテナンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Penalty</masterLabel>
+            <translation>ペナルティ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Installation / Installation</masterLabel>
+            <translation>専門的なインストール / インストール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registration</masterLabel>
+            <translation>登録</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation>セキュリティ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pricing Code --></label>
+        <name>vlocity_ins__PricingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>vlocity_ins__RecurringFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>毎日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>毎月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>毎週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation>毎年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Type --></label>
+        <name>vlocity_ins__SubType__c</name>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation>コスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>価格</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Usage Amount --></label>
+        <name>vlocity_ins__UsageAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage Unit of Measure --></label>
+        <name>vlocity_ins__UsageUnitOfMeasure__c</name>
+    </fields>
+    <nameFieldLabel>価格設定コンポーネント名</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Alteration --></label>
+        <name>vlocity_ins__Alteration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Charge Spec --></label>
+        <name>vlocity_ins__ChargeSpec</name>
+    </recordTypes>
+</CustomObjectTranslation>

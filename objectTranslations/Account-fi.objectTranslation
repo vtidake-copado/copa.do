@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- New External Member​ --></label>
+        <name>HealthCloudGA__QuickAddIndividual</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- InteractionFieldList --></label>
+        <name>vlocity_ins__InteractionFieldList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProviderGroupNetworkSearch --></label>
+        <name>vlocity_ins__ProviderGroupNetworkSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segment List Export --></label>
+        <name>vlocity_ins__SegmentListExport</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Active --></label>
+        <name>HealthCloudGA__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Tämän potilaan hoitosuunnitelma</help>
+        <label><!-- Care Plan --></label>
+        <name>HealthCloudGA__CarePlan__c</name>
+        <relationshipLabel><!-- PatientAccounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disabled --></label>
+        <name>HealthCloudGA__Disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enrollment Type --></label>
+        <name>HealthCloudGA__EnrollmentType__c</name>
+        <picklistValues>
+            <masterLabel>Dual</masterLabel>
+            <translation>Dual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESRD</masterLabel>
+            <translation>ESRD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBDual</masterLabel>
+            <translation>FBDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonDual</masterLabel>
+            <translation>NonDual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PBDual</masterLabel>
+            <translation>PBDual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Individual ID --></label>
+        <name>HealthCloudGA__IndividualId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Type --></label>
+        <name>HealthCloudGA__IndividualType__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation>Ryhmä</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Yksityishenkilö</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Osoittaa, onko potilas laitoksessa.</help>
+        <label><!-- Institution --></label>
+        <name>HealthCloudGA__Institution__c</name>
+    </fields>
+    <fields>
+        <help>Osoittaa, kuuluuko potilas matalan tulotason kategoriaan.</help>
+        <label><!-- Low Income --></label>
+        <name>HealthCloudGA__LowIncome__c</name>
+    </fields>
+    <fields>
+        <help>Osoittaa, soveltuuko potilas Medicaid-vakuutusjärjestelmään.</help>
+        <label><!-- Medicaid Eligibility Status --></label>
+        <name>HealthCloudGA__MedicaidEligibilityStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical Record Number --></label>
+        <name>HealthCloudGA__MedicalRecordNumber__c</name>
+    </fields>
+    <fields>
+        <help>Uusi jäsen tai jatkettu viime vuodelta.</help>
+        <label><!-- Medicare Enrollee --></label>
+        <name>HealthCloudGA__MedicareEnrollee__c</name>
+        <picklistValues>
+            <masterLabel>Continued</masterLabel>
+            <translation>Jatkettu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Enrollee</masterLabel>
+            <translation>Uusi jäsen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OREC --></label>
+        <name>HealthCloudGA__OREC__c</name>
+        <picklistValues>
+            <masterLabel>Age</masterLabel>
+            <translation>Ikä</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>Ei käytössä</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payer Type --></label>
+        <name>HealthCloudGA__PayerType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>HealthCloudGA__PrimaryContact__c</name>
+        <relationshipLabel><!-- Accounts (Primary Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <help>Osoittaa järjestelmän, joka loi tietueen ja omistaa sen päivitysoikeudet. Oletusarvoisesti Health1 manuaalisesti luoduille tietueille.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaxId --></label>
+        <name>HealthCloudGA__TaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>vlocity_ins__Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agency / Brokerage No. --></label>
+        <name>vlocity_ins__AgencyBrokerageNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated Address --></label>
+        <name>vlocity_ins__CalculatedAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim System Status --></label>
+        <name>vlocity_ins__ClaimSystemStatus__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated</masterLabel>
+            <translation><!-- Terminated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>vlocity_ins__CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Founded --></label>
+        <name>vlocity_ins__DateFounded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of First Insurance --></label>
+        <name>vlocity_ins__DateOfFirstInsurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Directory Listed --></label>
+        <name>vlocity_ins__DirectoryListed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Foreign Exchange --></label>
+        <name>vlocity_ins__Disclosure1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gaming or Gambling --></label>
+        <name>vlocity_ins__Disclosure2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Money Lending/Pawning --></label>
+        <name>vlocity_ins__Disclosure3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>vlocity_ins__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Autopay --></label>
+        <name>vlocity_ins__EnableAutopay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use CMS MA Contract Amendment --></label>
+        <name>vlocity_ins__HasCarrierContract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>vlocity_ins__IsPartner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Person Account --></label>
+        <name>vlocity_ins__IsPersonAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Root Resolved --></label>
+        <name>vlocity_ins__IsRootResolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Segment --></label>
+        <name>vlocity_ins__MarketSegment__c</name>
+        <picklistValues>
+            <masterLabel>ASO (Admin Services Only)</masterLabel>
+            <translation><!-- ASO (Admin Services Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Group</masterLabel>
+            <translation><!-- Large Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare</masterLabel>
+            <translation><!-- Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Sized Group</masterLabel>
+            <translation><!-- Mid Sized Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Group</masterLabel>
+            <translation><!-- Small Group --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- National Producer Number --></label>
+        <name>vlocity_ins__NPNNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Worth --></label>
+        <name>vlocity_ins__NetWorth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependents --></label>
+        <name>vlocity_ins__NumberOfDependents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eligibles --></label>
+        <name>vlocity_ins__NumberOfEligibles__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Medicare Certified Beds --></label>
+        <name>vlocity_ins__NumberOfMedicareBeds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Members --></label>
+        <name>vlocity_ins__NumberOfMembers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscribers --></label>
+        <name>vlocity_ins__NumberOfSubscribers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>vlocity_ins__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. Producers --></label>
+        <name>vlocity_ins__NumberofProducers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Hours --></label>
+        <name>vlocity_ins__OperatingHoursId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner Tier --></label>
+        <name>vlocity_ins__PartnerTier__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Party --></label>
+        <name>vlocity_ins__PartyId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Person Contact Id --></label>
+        <name>vlocity_ins__PersonContactId__c</name>
+        <relationshipLabel><!-- Person Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Premium Year --></label>
+        <name>vlocity_ins__PremiumYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Producer --></label>
+        <name>vlocity_ins__PrimaryBroker__c</name>
+        <relationshipLabel><!-- Accounts (Primary Broker) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>vlocity_ins__PrimaryContactId__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Provider Identifier --></label>
+        <name>vlocity_ins__ProviderIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepts new patients --></label>
+        <name>vlocity_ins__ProviderIsAcceptingNewPatients__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rating Type --></label>
+        <name>vlocity_ins__RatingType__c</name>
+        <picklistValues>
+            <masterLabel>Age</masterLabel>
+            <translation><!-- Age --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Composite</masterLabel>
+            <translation><!-- Composite --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referred By --></label>
+        <name>vlocity_ins__ReferredByContactId__c</name>
+        <relationshipLabel><!-- Accounts (Referred By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relationship Start Date --></label>
+        <name>vlocity_ins__RelationshipStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>vlocity_ins__SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>vlocity_ins__SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>vlocity_ins__SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SSA/County Code --></label>
+        <name>vlocity_ins__SSACountyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_ins__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- No. Employees --></label>
+        <name>vlocity_ins__SumOfEmployees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Time Equivalent (FTE) --></label>
+        <name>vlocity_ins__SumOfFTE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax ID --></label>
+        <name>vlocity_ins__TaxID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Reason --></label>
+        <name>vlocity_ins__TerminationReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Requested By --></label>
+        <name>vlocity_ins__TerminationRequestedBy__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Represents a business or an organization --></description>
+        <label><!-- Business --></label>
+        <name>HealthCloudGA__IndustriesBusiness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a Household --></description>
+        <label><!-- Household --></label>
+        <name>HealthCloudGA__IndustriesHousehold</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents an Individual --></description>
+        <label><!-- Individual --></label>
+        <name>HealthCloudGA__IndustriesIndividual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a Payer --></description>
+        <label><!-- Payer --></label>
+        <name>HealthCloudGA__IndustriesPayer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Agency/Brokerage --></label>
+        <name>vlocity_ins__AgencyBrokerage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Business Account --></label>
+        <name>vlocity_ins__Business_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Carrier --></label>
+        <name>vlocity_ins__Carrier</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Group --></label>
+        <name>vlocity_ins__Group</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Group Division --></label>
+        <name>vlocity_ins__GroupDivision</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobilePhoneAccount --></label>
+        <name>vlocity_ins__MobilePhoneAccount</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pharmacy --></label>
+        <name>vlocity_ins__Pharmacy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider --></label>
+        <name>vlocity_ins__Provider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Provider Location --></label>
+        <name>vlocity_ins__ProviderLocation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Account --></label>
+        <name>vlocity_ins__StandardAccount</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The Individual record type can&apos;t be changed --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionFromIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The record type can&apos;t be changed to Individual. --></errorMessage>
+        <name>HealthCloudGA__NotAllowingConversionToIndividual</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CalculateAttributes --></label>
+        <name>vlocity_ins__CalculateAttributes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateGroup --></label>
+        <name>vlocity_ins__CreateGroup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateHousehold --></label>
+        <name>vlocity_ins__CreateHousehold</name>
+    </webLinks>
+</CustomObjectTranslation>

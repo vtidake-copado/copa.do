@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- HcCarePlanTaskFields --></label>
+        <name>HealthCloudGA__HcCarePlanTaskFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HC Task List --></label>
+        <name>HealthCloudGA__HcTaskList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- StoryFieldSet --></label>
+        <name>vlocity_ins__StoryFieldSet</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age --></label>
+        <name>HealthCloudGA__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Goal this task is meant to address --></help>
+        <label><!-- Goal --></label>
+        <name>HealthCloudGA__CarePlanGoal__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Problem this task is mean to address --></help>
+        <label><!-- Problem --></label>
+        <name>HealthCloudGA__CarePlanProblem__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Care Plan Template --></label>
+        <name>HealthCloudGA__CarePlanTemplate__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>HealthCloudGA__Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Status --></label>
+        <name>HealthCloudGA__Conditions_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Tracing Status --></label>
+        <name>HealthCloudGA__Contract_Tracing_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>HealthCloudGA__Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monitored at Home --></label>
+        <name>HealthCloudGA__Monitored_at_Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>HealthCloudGA__SortOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- TaskType --></label>
+        <name>HealthCloudGA__TaskType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing Status --></label>
+        <name>HealthCloudGA__Testing_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>vlocity_ins__CompletedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used by Activity Templates to set the Due Date for an Activity. It should be blank for all manually-created Activities. --></help>
+        <label><!-- Due in (days) --></label>
+        <name>vlocity_ins__DueInDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Status --></label>
+        <name>vlocity_ins__EventStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up To --></label>
+        <name>vlocity_ins__FollowUpTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provider Site Visit Reason --></label>
+        <name>vlocity_ins__ProviderSiteVisitReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verification Timestamp --></label>
+        <name>vlocity_ins__VerificationTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified Agent Name --></label>
+        <name>vlocity_ins__VerifiedAgentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verified --></label>
+        <name>vlocity_ins__Verified__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Task related to healthcare plan --></description>
+        <label><!-- Care Plan Task --></label>
+        <name>HealthCloudGA__CarePlanTask</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Mobile Phone Task --></description>
+        <label><!-- MobilePhoneTask --></label>
+        <name>vlocity_ins__MobilePhoneTask</name>
+    </recordTypes>
+</CustomObjectTranslation>

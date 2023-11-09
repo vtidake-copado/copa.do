@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Observation associée DME</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Observations associées DME</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation --></label>
+        <name>HealthCloudGA__Observation__c</name>
+        <relationshipLabel><!-- EHR Related Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Observation --></label>
+        <name>HealthCloudGA__RelatedObservation__c</name>
+        <relationshipLabel><!-- EHR Related Observations (Related Observation) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>Identifie le système qui a créé l&apos;enregistrement et qui détient les droits de mise à jour. Applique par défaut Health1 pour les enregistrements créés manuellement.</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Code --></label>
+        <name>HealthCloudGA__TypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type Label --></label>
+        <name>HealthCloudGA__TypeLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type System --></label>
+        <name>HealthCloudGA__TypeSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>HealthCloudGA__Type__c</name>
+        <picklistValues>
+            <masterLabel>derived-from</masterLabel>
+            <translation>dérivé de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>has-component</masterLabel>
+            <translation>avec un composant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>has-member</masterLabel>
+            <translation>avec un membre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>interfered-by</masterLabel>
+            <translation>intervention de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>qualified-by</masterLabel>
+            <translation>qualifié par</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>replaces</masterLabel>
+            <translation>remplace</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sequel-to</masterLabel>
+            <translation>suite de</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom observation associée DME</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

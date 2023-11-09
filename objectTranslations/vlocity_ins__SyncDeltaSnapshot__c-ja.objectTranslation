@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>同期差分スナップショット</value>
+    </caseValues>
+    <fields>
+        <label><!-- End Delta Idx --></label>
+        <name>vlocity_ins__EndDeltaIdx__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Delta Idx --></label>
+        <name>vlocity_ins__StartDeltaIdx__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>vlocity_ins__Status__c</name>
+        <picklistValues>
+            <masterLabel>Archived</masterLabel>
+            <translation>アーカイブ済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>クローズ済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>対応中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unmerged Sync Deltas --></label>
+        <name>vlocity_ins__UnmergedSyncDeltas__c</name>
+    </fields>
+    <nameFieldLabel>同期差分スナップショット名</nameFieldLabel>
+</CustomObjectTranslation>

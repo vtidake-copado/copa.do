@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EHR 藥物處方</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>HealthCloudGA__Account__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Written --></label>
+        <name>HealthCloudGA__DateWritten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Expected Supply Duration --></label>
+        <name>HealthCloudGA__DispenseExpectedSupplyDuration__c</name>
+    </fields>
+    <fields>
+        <help>識別此藥物的代碼系統</help>
+        <label><!-- Dispense Medication Code System --></label>
+        <name>HealthCloudGA__DispenseMedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>識別此藥物的代碼</help>
+        <label><!-- Dispense Medication Code --></label>
+        <name>HealthCloudGA__DispenseMedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Medication Expiration --></label>
+        <name>HealthCloudGA__DispenseMedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>如果屬於品牌則為 True</help>
+        <label><!-- Dispense Medication Is Brand --></label>
+        <name>HealthCloudGA__DispenseMedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>產品 | 包裝代碼</help>
+        <label><!-- Dispense Medication Kind Code --></label>
+        <name>HealthCloudGA__DispenseMedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>產品 | 易用的包裝名稱</help>
+        <label><!-- Dispense Medication Kind Label --></label>
+        <name>HealthCloudGA__DispenseMedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>產品 | 包裝代碼系統</help>
+        <label><!-- Dispense Medication Kind System --></label>
+        <name>HealthCloudGA__DispenseMedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>此藥物的易用名稱</help>
+        <label><!-- Dispense Medication Label --></label>
+        <name>HealthCloudGA__DispenseMedicationLabel__c</name>
+    </fields>
+    <fields>
+        <help>藥物批次的批號</help>
+        <label><!-- Dispense Medication Lot Number --></label>
+        <name>HealthCloudGA__DispenseMedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>一般名稱/商品名稱</help>
+        <label><!-- Dispense Medication Name --></label>
+        <name>HealthCloudGA__DispenseMedicationName__c</name>
+    </fields>
+    <fields>
+        <help>粉狀 | 錠狀 | 盒裝 + 代碼</help>
+        <label><!-- Dispense Medication Product Form Code --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>粉狀 | 錠狀 | 盒裝 + 易用名稱</help>
+        <label><!-- Dispense Medication Product Form Label --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>粉狀 | 錠狀 | 盒裝 + 系統</help>
+        <label><!-- Dispense Medication Product Form System --></label>
+        <name>HealthCloudGA__DispenseMedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Number Of Repeat Allowed --></label>
+        <name>HealthCloudGA__DispenseNumberOfRepeatAllowed__c</name>
+    </fields>
+    <fields>
+        <help>每次配藥單位的提供藥物數量</help>
+        <label><!-- Dispense Quantity Unit --></label>
+        <name>HealthCloudGA__DispenseQuantityUnit__c</name>
+    </fields>
+    <fields>
+        <help>每次配藥的提供藥物數量</help>
+        <label><!-- Dispense Quantity Value --></label>
+        <name>HealthCloudGA__DispenseQuantityValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period End --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispense Validity Period Start --></label>
+        <name>HealthCloudGA__DispenseValidityPeriodStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Encounter --></label>
+        <name>HealthCloudGA__Encounter__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- IsRestricted --></label>
+        <name>HealthCloudGA__IsRestricted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsVisibleOnPatientCard --></label>
+        <name>HealthCloudGA__IsVisibleOnPatientCard__c</name>
+    </fields>
+    <fields>
+        <help>藥物代碼易用名稱</help>
+        <label><!-- Medication Code Label --></label>
+        <name>HealthCloudGA__MedicationCodeLabel__c</name>
+    </fields>
+    <fields>
+        <help>識別此藥物的代碼系統</help>
+        <label><!-- Medication Code System --></label>
+        <name>HealthCloudGA__MedicationCodeSystem__c</name>
+    </fields>
+    <fields>
+        <help>識別此藥物的代碼</help>
+        <label><!-- Medication Code --></label>
+        <name>HealthCloudGA__MedicationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medication Expiration --></label>
+        <name>HealthCloudGA__MedicationExpiration__c</name>
+    </fields>
+    <fields>
+        <help>如果屬於品牌則為 True</help>
+        <label><!-- Medication Is Brand --></label>
+        <name>HealthCloudGA__MedicationIsBrand__c</name>
+    </fields>
+    <fields>
+        <help>產品 | 包裝代碼</help>
+        <label><!-- Medication Kind Code --></label>
+        <name>HealthCloudGA__MedicationKindCode__c</name>
+    </fields>
+    <fields>
+        <help>產品 | 易用的包裝名稱</help>
+        <label><!-- Medication Kind Label --></label>
+        <name>HealthCloudGA__MedicationKindLabel__c</name>
+    </fields>
+    <fields>
+        <help>產品 | 包裝代碼系統</help>
+        <label><!-- Medication Kind System --></label>
+        <name>HealthCloudGA__MedicationKindSystem__c</name>
+    </fields>
+    <fields>
+        <help>藥物批次的批號</help>
+        <label><!-- Medication Lot Number --></label>
+        <name>HealthCloudGA__MedicationLotNumber__c</name>
+    </fields>
+    <fields>
+        <help>一般名稱/商品名稱</help>
+        <label><!-- Medication Name --></label>
+        <name>HealthCloudGA__MedicationName__c</name>
+    </fields>
+    <fields>
+        <help>粉狀 | 錠狀 | 盒裝 + 代碼</help>
+        <label><!-- Medication Product Form Code --></label>
+        <name>HealthCloudGA__MedicationProductFormCode__c</name>
+    </fields>
+    <fields>
+        <help>粉狀 | 錠狀 | 盒裝 + 易用名稱</help>
+        <label><!-- Medication Product Form Label --></label>
+        <name>HealthCloudGA__MedicationProductFormLabel__c</name>
+    </fields>
+    <fields>
+        <help>粉狀 | 錠狀 | 盒裝 + 系統</help>
+        <label><!-- Medication Product Form System --></label>
+        <name>HealthCloudGA__MedicationProductFormSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient --></label>
+        <name>HealthCloudGA__Patient__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Prescriber Name --></label>
+        <name>HealthCloudGA__PrescriberName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prescriber --></label>
+        <name>HealthCloudGA__Prescriber__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>開立處方的原因或指示</help>
+        <label><!-- Reason Code --></label>
+        <name>HealthCloudGA__ReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Condition --></label>
+        <name>HealthCloudGA__ReasonCondition__c</name>
+        <relationshipLabel><!-- Medication Prescriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>開立處方的原因代碼或指示的易用名稱</help>
+        <label><!-- Reason Label --></label>
+        <name>HealthCloudGA__ReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>開立處方的原因代碼或指示的編碼系統</help>
+        <label><!-- Reason System --></label>
+        <name>HealthCloudGA__ReasonSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>HealthCloudGA__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System Modified --></label>
+        <name>HealthCloudGA__SourceSystemModified__c</name>
+    </fields>
+    <fields>
+        <help>識別已建立記錄並擁有該記錄更新權的系統。預設值為代表手動建立記錄的「健康 1」。</help>
+        <label><!-- Source System --></label>
+        <name>HealthCloudGA__SourceSystem__c</name>
+    </fields>
+    <fields>
+        <help>啟用代碼 | 保留 | 已完成 | 輸入錯誤 | 已停止 | 已取代 | 草稿</help>
+        <label><!-- Status Code --></label>
+        <name>HealthCloudGA__StatusCode__c</name>
+    </fields>
+    <fields>
+        <help>狀態的好記名稱</help>
+        <label><!-- Status Label --></label>
+        <name>HealthCloudGA__StatusLabel__c</name>
+    </fields>
+    <fields>
+        <help>狀態代碼系統</help>
+        <label><!-- Status System --></label>
+        <name>HealthCloudGA__StatusSystem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substitute Restrict Reason Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonCode__c</name>
+    </fields>
+    <fields>
+        <help>藥物替代品、學名/藥物名冊 + 易用名稱的任何限制</help>
+        <label><!-- Substitute Restrict Reason Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonLabel__c</name>
+    </fields>
+    <fields>
+        <help>藥物替代品編碼系統的任何限制</help>
+        <label><!-- Substitute Restrict Reason System --></label>
+        <name>HealthCloudGA__SubstituteRestrictReasonSystem__c</name>
+    </fields>
+    <fields>
+        <help>學名 | 藥物名冊 + 代碼</help>
+        <label><!-- Substitute Restrict Type Code --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeCode__c</name>
+    </fields>
+    <fields>
+        <help>學名 | 藥物名冊 + 代碼易用名稱</help>
+        <label><!-- Substitute Restrict Type Label --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeLabel__c</name>
+    </fields>
+    <fields>
+        <help>學名 | 藥物名冊 + 編碼系統</help>
+        <label><!-- Substitute Restrict Type System --></label>
+        <name>HealthCloudGA__SubstituteRestrictTypeSystem__c</name>
+    </fields>
+    <nameFieldLabel>EHR 藥物處方識別碼</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- IssueQuoteFromPolicyFields --></label>
+        <name>vlocity_ins_fsc__IssueQuoteFromPolicyFields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>vlocity_ins_fsc__AdjustmentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>vlocity_ins_fsc__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applicable Item Type --></label>
+        <name>vlocity_ins_fsc__ApplicableItemType__c</name>
+        <picklistValues>
+            <masterLabel>Insurance Policy Asset</masterLabel>
+            <translation><!-- Insurance Policy Asset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Policy Coverage</masterLabel>
+            <translation><!-- Insurance Policy Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Policy Participant</masterLabel>
+            <translation><!-- Insurance Policy Participant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Asset --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyAssetId__c</name>
+        <relationshipLabel><!-- Insurance Policy Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Coverage --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyCoverageId__c</name>
+        <relationshipLabel><!-- Insurance Policy Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyId__c</name>
+        <relationshipLabel><!-- Insurance Policy Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Participant --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyParticipantId__c</name>
+        <relationshipLabel><!-- Insurance Policy Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy Transaction --></label>
+        <name>vlocity_ins_fsc__InsurancePolicyTransactionId__c</name>
+        <relationshipLabel><!-- Insurance Policy Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refundable --></label>
+        <name>vlocity_ins_fsc__IsTaxAndFeeRefundable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax/Fee Id --></label>
+        <name>vlocity_ins_fsc__PriceListEntryId__c</name>
+        <relationshipLabel><!-- Insurance Policy Pricing Adjustments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax/Fee Name --></label>
+        <name>vlocity_ins_fsc__PriceListEntryName__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Adjustment Type field must be equal to the Type field on the Product Tax and Fee. --></errorMessage>
+        <name>vlocity_ins_fsc__AdjustmentTypeValidation</name>
+    </validationRules>
+</CustomObjectTranslation>

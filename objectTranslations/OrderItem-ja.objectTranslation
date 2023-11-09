@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action --></label>
+        <name>vlocity_ins__Action__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disconnect</masterLabel>
+            <translation>切断</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing</masterLabel>
+            <translation>既存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resume</masterLabel>
+            <translation>再開</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspend</masterLabel>
+            <translation>サスペンド</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activation Name --></label>
+        <name>vlocity_ins__ActivationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>vlocity_ins__AssetId__c</name>
+        <relationshipLabel><!-- Order Product --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset Reference Id --></label>
+        <name>vlocity_ins__AssetReferenceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Metadata Changes --></label>
+        <name>vlocity_ins__AttributeMetadataChanges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Selected Values --></label>
+        <name>vlocity_ins__AttributeSelectedValues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Account --></label>
+        <name>vlocity_ins__BillingAccountId__c</name>
+        <relationshipLabel><!-- Order Products (Billing Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reference Time --></label>
+        <name>vlocity_ins__CatalogItemReferenceDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connect Date --></label>
+        <name>vlocity_ins__ConnectDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disconnect Date --></label>
+        <name>vlocity_ins__DisconnectDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Completion Date --></label>
+        <name>vlocity_ins__ExpectedCompletionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Order Product Version --></label>
+        <name>vlocity_ins__FirstVersionOrderItemId__c</name>
+        <relationshipLabel><!-- Order Product Revisions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Status --></label>
+        <name>vlocity_ins__FulfilmentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation>有効化済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>キャンセル済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PONR</masterLabel>
+            <translation>PONR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation>置き換え済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- InCartQuantityMap --></label>
+        <name>vlocity_ins__InCartQuantityMap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changes Accepted --></label>
+        <name>vlocity_ins__IsChangesAccepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Changes Allowed --></label>
+        <name>vlocity_ins__IsChangesAllowed__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsEditable --></label>
+        <name>vlocity_ins__IsEditable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Orchestration Items In Final State --></label>
+        <name>vlocity_ins__IsOrchestrationItemsInFinalState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is PONR Reached --></label>
+        <name>vlocity_ins__IsPONRReached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Product Track Agreement --></label>
+        <name>vlocity_ins__IsProductTrackAgreement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Ready For Activation --></label>
+        <name>vlocity_ins__IsReadyForActivation__c</name>
+    </fields>
+    <fields>
+        <label><!-- JSONAttribute --></label>
+        <name>vlocity_ins__JSONAttribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- LineNumber --></label>
+        <name>vlocity_ins__LineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Order Item Id --></label>
+        <name>vlocity_ins__MainOrderItemId__c</name>
+        <relationshipLabel><!-- Main Order Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ParentItemId --></label>
+        <name>vlocity_ins__ParentItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premises --></label>
+        <name>vlocity_ins__PremisesId__c</name>
+        <relationshipLabel><!-- Order Line Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing Log --></label>
+        <name>vlocity_ins__PricingLogData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>vlocity_ins__Product2Id__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>商品のバージョングループキー</help>
+        <label><!-- Product Group Key --></label>
+        <name>vlocity_ins__ProductGroupKey__c</name>
+    </fields>
+    <fields>
+        <help>商品階層パス内の各商品 ID をそのバージョングループキーに置き換えることによって収集された結果の文字列を保存します。</help>
+        <label><!-- Product Hierarchy Group Key Path --></label>
+        <name>vlocity_ins__ProductHierarchyGroupKeyPath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Hierarchy Path --></label>
+        <name>vlocity_ins__ProductHierarchyPath__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provisioning Status --></label>
+        <name>vlocity_ins__ProvisioningStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Push Event Data --></label>
+        <name>vlocity_ins__PushEventData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Band --></label>
+        <name>vlocity_ins__RateBandId__c</name>
+        <relationshipLabel><!-- Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RelationshipType --></label>
+        <name>vlocity_ins__RelationshipType__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation>子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realization</masterLabel>
+            <translation>実現</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Change --></label>
+        <name>vlocity_ins__RequestedChange__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>削除</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Completion Date --></label>
+        <name>vlocity_ins__RequestedCompletionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- RootItemId --></label>
+        <name>vlocity_ins__RootItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Number --></label>
+        <name>vlocity_ins__SerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Account --></label>
+        <name>vlocity_ins__ServiceAccountId__c</name>
+        <relationshipLabel><!-- Order Products (Service Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Action --></label>
+        <name>vlocity_ins__SubAction__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move</masterLabel>
+            <translation>移動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reassign</masterLabel>
+            <translation>再割り当て</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace</masterLabel>
+            <translation>置換</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subscription --></label>
+        <name>vlocity_ins__SubscriptionId__c</name>
+        <relationshipLabel><!-- Order Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Superseded Order Product --></label>
+        <name>vlocity_ins__SupersededOrderItemId__c</name>
+        <relationshipLabel><!-- Superseding Order Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplemental Action --></label>
+        <name>vlocity_ins__SupplementalAction__c</name>
+        <picklistValues>
+            <masterLabel>Amend</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create</masterLabel>
+            <translation>作成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Change</masterLabel>
+            <translation>変化なし</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jeopardy Status --></label>
+        <name>vlocity_ins__ThorJeopardyStatus__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>緑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation>赤</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation>黄</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

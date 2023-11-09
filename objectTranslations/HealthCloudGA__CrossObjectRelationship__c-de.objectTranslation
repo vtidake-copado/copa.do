@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Objektübergreifende Beziehung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Objektübergreifende Beziehungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Objektübergreifende Beziehung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Objektübergreifende Beziehungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Objektübergreifender Beziehung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Objektübergreifender Beziehungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Objektübergreifender Beziehung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Objektübergreifenden Beziehungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- From Object --></label>
+        <name>HealthCloudGA__FromObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>HealthCloudGA__Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reverse Relationship --></label>
+        <name>HealthCloudGA__ReverseRelationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Object --></label>
+        <name>HealthCloudGA__ToObject__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der objektübergreifenden Beziehung</nameFieldLabel>
+</CustomObjectTranslation>

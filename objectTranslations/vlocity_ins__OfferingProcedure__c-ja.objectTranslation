@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity 提供手順</value>
+    </caseValues>
+    <fields>
+        <label><!-- Type --></label>
+        <name>vlocity_ins__Type__c</name>
+        <picklistValues>
+            <masterLabel>Exclusion</masterLabel>
+            <translation>除外</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inclusion</masterLabel>
+            <translation>包含</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>提供手順名</nameFieldLabel>
+</CustomObjectTranslation>

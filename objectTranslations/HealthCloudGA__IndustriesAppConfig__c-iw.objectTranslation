@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- תצורת יישום לתעשיות --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- תצורת היישום לתעשיות --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- תצורות יישום לתעשיות --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- תצורות היישום לתעשיות --></value>
+    </caseValues>
+    <fields>
+        <help>כברירת מחדל, שמות חשבונות מוצגים כך: {firstname} {lastname}. לשינוי הסדר, הזן: {lastname} {firstname}</help>
+        <label><!-- Account Name Format --></label>
+        <name>HealthCloudGA__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>HealthCloudGA__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>HealthCloudGA__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>HealthCloudGA__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>HealthCloudGA__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>HealthCloudGA__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>HealthCloudGA__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>HealthCloudGA__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>לדוגמה: v32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>HealthCloudGA__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help>הצג הודעת שגיאה מפורטת כשמישהו מבצע פעולה ללא הרשאה.</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>HealthCloudGA__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>סנכרן את שדות החשבון ואיש הקשר כשרשומות נוצרות במודל האובייקט הנפרד.</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>HealthCloudGA__SyncIndividualSystemFields__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

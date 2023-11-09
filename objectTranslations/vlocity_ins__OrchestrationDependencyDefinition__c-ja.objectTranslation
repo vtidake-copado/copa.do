@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オーケストレーション連動関係定義</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dependency Item Definition --></label>
+        <name>vlocity_ins__DependencyItemDefinitionId__c</name>
+        <relationshipLabel><!-- Related Orchestration Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dependency Plan Definition --></label>
+        <name>vlocity_ins__DependencyPlanDefinitionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependency Type --></label>
+        <name>vlocity_ins__DependencyType__c</name>
+        <picklistValues>
+            <masterLabel>Depends On</masterLabel>
+            <translation>次に連動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Should Be Processed Before</masterLabel>
+            <translation>次の前に処理する必要がある</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Global Key --></label>
+        <name>vlocity_ins__GlobalKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Item Definition --></label>
+        <name>vlocity_ins__OrchestrationItemDefinitionId__c</name>
+        <relationshipLabel><!-- Orchestration Dependency Definitions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Orchestration Plan Definition --></label>
+        <name>vlocity_ins__OrchestrationPlanDefinition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>vlocity_ins__Scope__c</name>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation>グローバル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main Order Item</masterLabel>
+            <translation>メインの注文品目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order</masterLabel>
+            <translation>注文</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Item</masterLabel>
+            <translation>注文品目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Bundle</masterLabel>
+            <translation>販売バンドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swimlane</masterLabel>
+            <translation>スイムレーン</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>連動関係定義名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Orchestration Item Definition and Dependency Item Definition cannot have same value. --></errorMessage>
+        <name>vlocity_ins__CircularDependencyValidation</name>
+    </validationRules>
+</CustomObjectTranslation>
