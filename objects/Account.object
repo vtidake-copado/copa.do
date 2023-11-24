@@ -17,6 +17,14 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Activation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Activation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Picklist_2__c</fullName>
         <externalId>false</externalId>
         <label>Picklist 2</label>
