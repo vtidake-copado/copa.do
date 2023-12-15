@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Battle Station</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Battle Stations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Speed --></label>
+        <name>Speed__c</name>
+        <picklistValues>
+            <masterLabel>10000</masterLabel>
+            <translation><!-- 10000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20000</masterLabel>
+            <translation><!-- 20000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30000</masterLabel>
+            <translation><!-- 30000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40000</masterLabel>
+            <translation><!-- 40000 --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>test [ 123 - (a/b/c) ]</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>クト日本語オブジェ</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ブジェクト日本語オ</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
