@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>Fr Translation 2</label>
+        <name>My_Lable_2</name>
+    </customLabels>
+</Translations>
