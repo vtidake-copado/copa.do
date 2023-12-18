@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>RollbackSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>RollbackSharingRule</description>
+        <label>RollbackSharingRule</label>
+        <sharedTo>
+            <role>CEO</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>City</field>
+            <operation>notEqual</operation>
+            <value>aaa</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

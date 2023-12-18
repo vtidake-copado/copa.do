@@ -1,0 +1,8 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		Example Description
+        this is a piece of text for a test run
+        // this is a piece of text for a test run againnnn
+	</aura:example>
+</aura:documentation>

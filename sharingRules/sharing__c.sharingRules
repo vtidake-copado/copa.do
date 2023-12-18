@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>sharingCYC</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>sharingCYC</label>
+        <sharedTo>
+            <role>DirectorChannelSales</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>now</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>sharingROYC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>sharingROYC</label>
+        <sharedTo>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <role>ChannelSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
