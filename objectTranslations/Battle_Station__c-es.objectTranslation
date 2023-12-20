@@ -9,56 +9,56 @@
         <value>Battle Stations</value>
     </caseValues>
     <fields>
-        <label><!-- Speed --></label>
+        <label></label>
         <name>Speed__c</name>
         <picklistValues>
             <masterLabel>10000</masterLabel>
-            <translation><!-- 10000 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>20000</masterLabel>
-            <translation><!-- 20000 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>30000</masterLabel>
-            <translation><!-- 30000 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>40000</masterLabel>
-            <translation><!-- 40000 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <gender>Feminine</gender>
     <layouts>
         <layout>test [ 123 - (a/b/c) ]</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label><!-- Fields --></label>
+            <label></label>
             <section>Fields</section>
         </sections>
     </layouts>
     <layouts>
         <layout>クト日本語オブジェ</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label><!-- Fields --></label>
+            <label></label>
             <section>Fields</section>
         </sections>
     </layouts>
     <layouts>
         <layout>ブジェクト日本語オ</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label><!-- Fields --></label>
+            <label></label>
             <section>Fields</section>
         </sections>
     </layouts>
