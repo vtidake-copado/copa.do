@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Edit</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>Northern California</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <ruleAssociations>
+        <inherited>false</inherited>
+        <ruleName>Northern_California_Zip_Code</ruleName>
+    </ruleAssociations>
+    <territory2Type>Named_Accounts</territory2Type>
+</Territory2>
