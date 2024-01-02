@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Current_Fiscal_Year.Northern_California</members>
-        <members>Current_Fiscal_Year.Southern_California</members>
-        <name>Territory2</name>
-    </types>
-    <types>
-        <members>Current_Fiscal_Year</members>
-        <name>Territory2Model</name>
-    </types>
-    <types>
-        <members>Current_Fiscal_Year.Northern_California_Zip_Code</members>
-        <name>Territory2Rule</name>
-    </types>
-    <types>
-        <members>Named_Accounts</members>
-        <name>Territory2Type</name>
+        <members>Service_Case</members>
+        <members>Service_Chat</members>
+        <name>Queue</name>
     </types>
     <version>59.0</version>
 </Package>
