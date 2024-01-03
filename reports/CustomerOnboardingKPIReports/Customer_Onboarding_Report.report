@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>DUE_DATE</field>
-    </columns>
-    <columns>
-        <field>USERS.NAME</field>
-    </columns>
-    <columns>
         <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
@@ -20,6 +14,12 @@
     </columns>
     <columns>
         <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
     </columns>
     <format>Tabular</format>
     <name>Customer_Onboarding_Report</name>
