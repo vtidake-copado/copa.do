@@ -21,6 +21,9 @@
     <columns>
         <field>LAST_UPDATE</field>
     </columns>
+    <columns>
+        <field>INDUSTRY</field>
+    </columns>
     <format>Tabular</format>
     <name>My Account Report</name>
     <params>
