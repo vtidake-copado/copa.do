@@ -4,10 +4,7 @@
         <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
-        <field>DUE_DATE</field>
-    </columns>
-    <columns>
-        <field>USERS.NAME</field>
+        <field>SITE</field>
     </columns>
     <columns>
         <field>ADDRESS1_STATE</field>
@@ -20,6 +17,12 @@
     </columns>
     <columns>
         <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
     </columns>
     <format>Tabular</format>
     <name>Customer_Onboarding_Report</name>
