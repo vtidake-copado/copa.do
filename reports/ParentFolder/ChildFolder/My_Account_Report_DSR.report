@@ -30,6 +30,9 @@
     <columns>
         <field>CREATED_ALIAS</field>
     </columns>
+    <columns>
+        <field>ALIAS</field>
+    </columns>
     <format>Tabular</format>
     <name>My Account Report</name>
     <params>
