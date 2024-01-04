@@ -27,6 +27,9 @@
     <columns>
         <field>CREATED</field>
     </columns>
+    <columns>
+        <field>CREATED_ALIAS</field>
+    </columns>
     <format>Tabular</format>
     <name>My Account Report</name>
     <params>
