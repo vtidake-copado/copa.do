@@ -25,7 +25,7 @@
         <field>LAST_UPDATE</field>
     </columns>
     <columns>
-        <field>SITE</field>
+        <field>CREATED</field>
     </columns>
     <format>Tabular</format>
     <name>My Account Report</name>
