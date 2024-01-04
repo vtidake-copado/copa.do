@@ -25,13 +25,13 @@
         <field>LAST_UPDATE</field>
     </columns>
     <columns>
-        <field>TYPE</field>
+        <field>TYPE1</field>
     </columns>
     <columns>
-        <field>RATING</field>
+        <field>RATING1</field>
     </columns>
     <columns>
-        <field>SITE</field>
+        <field>SITE1</field>
     </columns>
     <columns>
         <field>CREATED</field>
