@@ -7,19 +7,19 @@
         <field>USERS.NAME</field>
     </columns>
     <columns>
-        <field>ACCOUNT.NAME1</field>
+        <field>LAST_UPDATE</field>
     </columns>
     <columns>
-        <field>ADDRESS1_STATE1</field>
+        <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
-        <field>TYPE1</field>
+        <field>ADDRESS1_STATE</field>
     </columns>
     <columns>
         <field>RATING</field>
     </columns>
     <columns>
-        <field>LAST_UPDATE</field>
+        <field>TYPE</field>
     </columns>
     <format>Tabular</format>
     <name>New Accounts Report</name>
@@ -32,6 +32,8 @@
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
+    <sortColumn>LAST_UPDATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
