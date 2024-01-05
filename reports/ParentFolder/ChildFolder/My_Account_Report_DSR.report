@@ -10,7 +10,7 @@
         <field>USERS.NAME</field>
     </columns>
     <columns>
-        <field>ACCOUNT.NAME</field>
+        <field>ACCOUNT.NAME1</field>
     </columns>
     <columns>
         <field>ADDRESS1_STATE</field>
