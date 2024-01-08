@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ParentFolder/ChildFolder/ChildLevel1</members>
-        <members>ParentFolder/ChildFolder/ChildLevel1/New_Accounts_Report_XxU</members>
-        <name>Report</name>
+        <members>Colors</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>PersonAccount.PersonAccount</members>
+        <name>RecordType</name>
     </types>
     <version>59.0</version>
 </Package>
