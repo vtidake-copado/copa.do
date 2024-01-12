@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Extrn_Credential_Test</members>
-        <name>ExternalCredential</name>
-    </types>
-    <types>
-        <members>External_Config_Permission_Set</members>
-        <name>PermissionSet</name>
+        <members>Minimum Access - Salesforce</members>
+        <name>Profile</name>
     </types>
     <version>59.0</version>
 </Package>
