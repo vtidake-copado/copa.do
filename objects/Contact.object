@@ -501,7 +501,7 @@
                 <sorted>true</sorted>
                 <value>
                     <fullName>East</fullName>
-                    <default>true</default>
+                    <default>false</default>
                     <label>East</label>
                 </value>
                 <value>
