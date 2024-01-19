@@ -199,10 +199,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>North</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>West</fullName>
                 <default>false</default>
             </values>

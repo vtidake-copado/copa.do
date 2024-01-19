@@ -422,14 +422,9 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>East</fullName>
-                    <default>false</default>
-                    <label>East</label>
-                </value>
-                <value>
-                    <fullName>West</fullName>
-                    <default>false</default>
-                    <label>West</label>
+                    <fullName>South</fullName>
+                    <default>true</default>
+                    <label>South</label>
                 </value>
                 <value>
                     <fullName>North</fullName>
@@ -437,9 +432,14 @@
                     <label>North</label>
                 </value>
                 <value>
-                    <fullName>South</fullName>
+                    <fullName>West</fullName>
                     <default>false</default>
-                    <label>South</label>
+                    <label>West</label>
+                </value>
+                <value>
+                    <fullName>East</fullName>
+                    <default>false</default>
+                    <label>East</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
