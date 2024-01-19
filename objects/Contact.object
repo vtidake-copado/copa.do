@@ -511,7 +511,7 @@
                 </value>
                 <value>
                     <fullName>South</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>South</label>
                 </value>
                 <value>
