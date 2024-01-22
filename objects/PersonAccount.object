@@ -159,6 +159,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>MyList_1__c</picklist>
+            <values>
+                <fullName>Item1</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Ownership</picklist>
             <values>
                 <fullName>Other</fullName>
