@@ -193,6 +193,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Region_2__c</picklist>
+            <values>
+                <fullName>West</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Region__c</picklist>
             <values>
                 <fullName>East</fullName>
