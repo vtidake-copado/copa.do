@@ -25,6 +25,35 @@
         <type>Date</type>
     </fields>
     <fields>
+        <fullName>MyList_1__c</fullName>
+        <externalId>false</externalId>
+        <label>MyList_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Item1</fullName>
+                    <default>true</default>
+                    <label>Item1</label>
+                </value>
+                <value>
+                    <fullName>Item2</fullName>
+                    <default>false</default>
+                    <label>Item2</label>
+                </value>
+                <value>
+                    <fullName>Item3</fullName>
+                    <default>false</default>
+                    <label>Item3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Picklist_2__c</fullName>
         <externalId>false</externalId>
         <label>Picklist 2</label>
