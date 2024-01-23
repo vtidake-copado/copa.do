@@ -10,6 +10,10 @@
                 <fullName>Account-1</fullName>
                 <default>true</default>
             </values>
+            <values>
+                <fullName>Account-2</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
@@ -31,6 +35,17 @@
             </values>
             <values>
                 <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ContactPickList_1__pc</picklist>
+            <values>
+                <fullName>Contact-1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Contact-2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
