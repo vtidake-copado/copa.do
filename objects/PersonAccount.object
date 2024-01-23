@@ -5,6 +5,13 @@
         <active>true</active>
         <label>Person Account</label>
         <picklistValues>
+            <picklist>AccountPickList_1__c</picklist>
+            <values>
+                <fullName>Account-1</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
