@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Schnellsendungs-Journey</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Schnellsendungs-Journeys</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Schnellsendungs-Journey</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Schnellsendungs-Journeys</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Schnellsendungs-Journey</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Schnellsendungs-Journeys</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Schnellsendungs-Journey</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Schnellsendungs-Journeys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>mcdm_15__Description__c</name>
+    </fields>
+    <fields>
+        <help>Das Enddatum einschließlich Uhrzeit der Schnellversand-Journey</help>
+        <label><!-- End Date --></label>
+        <name>mcdm_15__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Journey Id --></label>
+        <name>mcdm_15__ExternalJourneyId__c</name>
+    </fields>
+    <fields>
+        <help>Zeigt an, ob eine Schnellversand-Journey aktiv ist.</help>
+        <label><!-- Active --></label>
+        <name>mcdm_15__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Name --></label>
+        <name>mcdm_15__JourneyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit --></label>
+        <name>mcdm_15__LinkedBusinessUnit__c</name>
+        <relationshipLabel><!-- Quick Send Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message Type --></label>
+        <name>mcdm_15__MessageType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personalization DataExtension Id --></label>
+        <name>mcdm_15__PersonalizationDeId__c</name>
+    </fields>
+    <fields>
+        <help>Das Startdatum einschließlich Uhrzeit der Schnellversand-Journey</help>
+        <label><!-- Start Date --></label>
+        <name>mcdm_15__StartDate__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID der Schnellversandnachricht</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The quick send message end date should not be before the start date. --></errorMessage>
+        <name>mcdm_15__mcdm_date_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

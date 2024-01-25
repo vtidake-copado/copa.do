@@ -1,0 +1,17 @@
+{
+    "Id": "REC0",
+    "Subtype": "Overdraft fee",
+    "TransactionAmount": "13.13",
+    "TransactionAmountCurrency": "USD",
+    "TransactionCode": "Charge",
+    "TransactionDescription": "Parking violation",
+    "TransactionId": "16",
+    "TransactionPostedDate": "2022-08-05T16:41:41.090Z",
+    "TransactionType": "Fee",
+    "_flex": {
+        "uniqueKey": "REC0"
+    },
+    "originalIndex": "0",
+    "selectrow": true,
+    "uniqueKey": "REC0"
+}

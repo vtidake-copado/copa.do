@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- キャンペーンメンバー並び替えフィールド --></value>
+    </caseValues>
+    <fields>
+        <help>Distributed Marketing ユーザ承認待ちのキャンペーンメンバーの全リストは、このフィールドで並べ替えられます。これをキャンペーンメンバーオブジェクトの項目に関連付けます。</help>
+        <label><!-- Sort Field Name --></label>
+        <name>mcdm_15__SortFieldName__c</name>
+    </fields>
+</CustomObjectTranslation>

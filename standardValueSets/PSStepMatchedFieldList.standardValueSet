@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>First Name</fullName>
+        <default>false</default>
+        <label>First Name</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Last Name</fullName>
+        <default>false</default>
+        <label>Last Name</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Address</fullName>
+        <default>false</default>
+        <label>Address</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ID</fullName>
+        <default>false</default>
+        <label>ID</label>
+    </standardValue>
+</StandardValueSet>

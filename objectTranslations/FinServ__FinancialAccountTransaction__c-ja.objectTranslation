@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>金融口座取引</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allocated Escrow Payment --></label>
+        <name>FinServ__AllocatedEscrowPayment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Fee Amount --></label>
+        <name>FinServ__AllocatedFeeAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Interest Amount --></label>
+        <name>FinServ__AllocatedInterestAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Principal Amount --></label>
+        <name>FinServ__AllocatedPrincipalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>FinServ__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Statement --></label>
+        <name>FinServ__BillingStatements__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Account ID --></label>
+        <name>FinServ__CardAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim --></label>
+        <name>FinServ__Claim__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FinServ__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispute Reason --></label>
+        <name>FinServ__DisputeReason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate Transactions</masterLabel>
+            <translation>取引の重複</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspected Fraud</masterLabel>
+            <translation>不正の疑い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction not recognized</masterLabel>
+            <translation>取引が認識されない</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escrow Balance --></label>
+        <name>FinServ__EscrowBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>FinServ__InsurancePolicy__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disputed --></label>
+        <name>FinServ__IsDisputed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merchant Category Code (MCCode) --></label>
+        <name>FinServ__MerchantCategoryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Date --></label>
+        <name>FinServ__PostDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Principal Balance --></label>
+        <name>FinServ__PrincipalBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running Balance --></label>
+        <name>FinServ__RunningBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Transaction Type --></label>
+        <name>FinServ__SourceTransactionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Date --></label>
+        <name>FinServ__TransactionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>FinServ__TransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Status --></label>
+        <name>FinServ__TransactionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>待機中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation>記帳済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Sub-type --></label>
+        <name>FinServ__TransactionSubtype__c</name>
+        <picklistValues>
+            <masterLabel>ATM Deposit</masterLabel>
+            <translation>ATM 預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATM Withdrawal</masterLabel>
+            <translation>ATM 引き出し</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Payment</masterLabel>
+            <translation>請求書支払</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Deposit</masterLabel>
+            <translation>現金預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Cash Advance</masterLabel>
+            <translation>クレジットカードの現金前貸し</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Payment</masterLabel>
+            <translation>クレジットカード支払</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFT</masterLabel>
+            <translation>EFT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee</masterLabel>
+            <translation>手数料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Cash Deposit</masterLabel>
+            <translation>外貨現金預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Earned</masterLabel>
+            <translation>受取利息</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Funds Transfer</masterLabel>
+            <translation>内部資金移動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Payment</masterLabel>
+            <translation>ローン支払</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Charge</masterLabel>
+            <translation>加盟店手数料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Credit</masterLabel>
+            <translation>その他貸方</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Debit</masterLabel>
+            <translation>その他借方</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Payment</masterLabel>
+            <translation>住宅ローン支払</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Us Check Deposit</masterLabel>
+            <translation>当行払い小切手預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS withdrawal</masterLabel>
+            <translation>POS 引き出し</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversal</masterLabel>
+            <translation>返金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Check Deposit</masterLabel>
+            <translation>他所払い小切手預金</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>FinServ__TransactionType__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>貸方</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>借方</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Waiver Reason --></label>
+        <name>FinServ__WaiverReason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate fees charged</masterLabel>
+            <translation>料金請求の重複</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees Discovery</masterLabel>
+            <translation>料金の発見</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain customer relationship</masterLabel>
+            <translation>顧客関係の維持</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification not received</masterLabel>
+            <translation>通知が受理されない</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others.</masterLabel>
+            <translation>その他。</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>取引名</nameFieldLabel>
+</CustomObjectTranslation>

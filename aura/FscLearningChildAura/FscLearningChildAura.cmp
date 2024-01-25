@@ -1,0 +1,54 @@
+<aura:component>
+    <aura:attribute name="heading" type="String" default="" />
+    <aura:attribute name="cloud_detail" type="String" default="" />
+    <aura:attribute name="url" type="String" default="" />
+    <aura:attribute name="link_in_new_tab" type="Boolean" default="false"/>
+    <aura:attribute name="secondary_text_present" type="Boolean" default="false" />
+    <aura:attribute name="secondary_text" type="String" default="" />
+    <aura:attribute name="inside_link_present" type="Boolean" default="false" />
+    <aura:attribute name="inside_link" type="String" default="" />
+    <aura:attribute name="inside_link_before_text" type="String" default="" />
+    <aura:attribute name="inside_link_text" type="String" default="" />
+    <aura:attribute name="inside_link_after_text" type="String" default="" />
+    <aura:attribute name="no_record" type="Boolean" default="false"/>
+	<div class="c-description">
+        <lightning:layoutItem flexibility="auto">
+            <div class="custom-box">
+                <p>
+                    <lightning:icon iconName="utility:send" alternativeText="{!v.heading}" size="x-small" title="x-small size"/>
+                    <aura:if isTrue="{!v.link_in_new_tab}">
+                    	<lightning:formattedUrl class="c-heading" value="{!v.url}" label="{!v.heading}" target="_blank" />
+                    <aura:set attribute="else">
+                    	<a class="c-heading" href="{!v.url}">{!v.heading}</a>
+                    </aura:set>
+                   	</aura:if>
+                    
+                    <aura:if isTrue="{!v.no_record}">
+                        <div class="slds-text-body_small c-no-record">
+                            (No record present for this entity, link will not work)
+                        </div>
+                	</aura:if> 
+                    
+                </p>
+                <div class="slds-text-body_regular c-feature-desc">
+                	<ui:outputText value="{!v.cloud_detail}"/>
+				</div>
+                
+                <aura:if isTrue="{!v.secondary_text_present}">
+                    <div class="slds-text-body_regular c-feature-desc-second">
+                        {!v.secondary_text}
+                    </div>
+                </aura:if> 
+                
+                <aura:if isTrue="{!v.inside_link_present}">
+                    <div class="slds-text-body_regular c-feature-desc-second">
+                        {!v.inside_link_before_text}
+                    	<lightning:formattedUrl value="{!v.inside_link}" label="{!v.inside_link_text}" target="_blank" />
+                        {!v.inside_link_after_text}
+                    </div>
+                </aura:if> 
+                
+            </div>
+        </lightning:layoutItem>
+    </div>
+</aura:component>

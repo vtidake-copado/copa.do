@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre de la page d’approbation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres de la page d’approbation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- Campaign --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Column Fields --></label>
+        <name>mcdm_15__ColumnFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>mcdm_15__Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>mcdm_15__User__c</name>
+        <relationshipLabel><!-- User --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom des paramètres de la page d&apos;approbat</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

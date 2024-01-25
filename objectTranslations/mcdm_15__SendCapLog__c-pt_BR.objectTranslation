@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro do limite de envio do MCDM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros do limite de envio do MCDM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Send Count --></label>
+        <name>mcdm_15__SendCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Type --></label>
+        <name>mcdm_15__SendType__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome de registro do limite de envio MCDM</nameFieldLabel>
+</CustomObjectTranslation>

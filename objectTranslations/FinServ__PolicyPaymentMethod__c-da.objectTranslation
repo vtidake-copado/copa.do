@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Policebetalingsmetoden</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Policebetalingsmetode</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Policebetalingsmetode</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Policebetalingsmetoderne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Policebetalingsmetoder</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Policebetalingsmetoder</value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>FinServ__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Policy Payment Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>FinServ__InsurancePolicy__c</name>
+        <relationshipLabel><!-- Policy Payment Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FinServ__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Account --></label>
+        <name>FinServ__IsPrimaryAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Percentage --></label>
+        <name>FinServ__PaymentPercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>FinServ__StartDate__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn</nameFieldLabel>
+</CustomObjectTranslation>

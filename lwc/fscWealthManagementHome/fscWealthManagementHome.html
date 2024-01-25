@@ -1,0 +1,379 @@
+<template>
+    <lightning-card footer="" title="">
+        <h1 class="slds-text-heading_medium">{app_welcome_text}</h1>
+        <div class="c-footer" >
+            <a href="/lightning/app/c__FSC_Learning_Experience/page/home">Return to Learning Home</a>
+        </div>
+        <div class="c-container">
+            <lightning-layout>
+                <lightning-layout-item flexibility="auto" padding="around-small">
+                    <p class="c-description">{app_description}</p>
+
+                    <template if:false={no_record_household_account}>
+                        <c-feature-child
+                            heading="Householding" 
+                            image="standard:household" 
+                            app-text="Groups (Householding) gives you the flexibility to organize your customers in ways that are meaningful to you." 
+                            url="lightning/app/FinServ__FSC_Lightning/r/Account/{householdAccountId}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="Account"
+                            object-id={householdAccountId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_household_account}>
+                        <c-feature-child
+                            heading="Householding" 
+                            image="standard:household" 
+                            app-text="Groups (Householding) gives you the flexibility to organize your customers in ways that are meaningful to you." 
+                            url=""
+                            no-record={no_record_household_account}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Actionable Relationship Center" 
+                            image="standard:relationship" 
+                            app-text="With the new improved Actionable Relationship Center (ARC), you can build graphs with standard and custom objects to show relevant customer relationship data to your users with the Actionable Relationship Center. Customize node names, show fields, and object and record actions so that your users can easily view, edit, delete, and create records during customer interactions. " 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="On the Rachael Adman Person Account, click the Relationships Related list to see ARC in action."></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Actionable Relationship Center" 
+                            image="standard:relationship" 
+                            app-text="With the new improved Actionable Relationship Center (ARC), you can build graphs with standard and custom objects to show relevant customer relationship data to your users with the Actionable Relationship Center. Customize node names, show fields, and object and record actions so that your users can easily view, edit, delete, and create records during customer interactions. " 
+                            url="" 
+                            no-record={no_record_account}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Discovery Framework" 
+                            image="action:question_post_action" 
+                            app-text="With the Discovery Framework, your users can create digital forms to collect and validate data and avoid time-consuming and error-prone manual methods. " 
+                            url={omniscriptAcc}
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__webPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="See a sample of this with a New Account Opening for on the Person Account Record."
+                            inside-link-colour-present={pass_true}
+                            inside-link-colour="https://salesforce.quip.com/IA6XAlAeApFQ"
+                            inside-link-colour-before-text="&lt;strong&gt; Note:  You must complete the Discovery Framework | Post-Deployment Steps before accessing feature. &lt;/strong&gt;"
+                            inside-link-colour-text="(link)"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Discovery Framework" 
+                            image="action:question_post_action" 
+                            app-text="With the Discovery Framework, your users can create digital forms to collect and validate data and avoid time-consuming and error-prone manual methods. " 
+                            url="" 
+                            no-record={no_record_account}
+                            inside-link-colour-present={pass_true}
+                            inside-link-colour="https://salesforce.quip.com/IA6XAlAeApFQ"
+                            inside-link-colour-before-text="&lt;strong&gt; Note:  You must complete the Discovery Framework | Post-Deployment Steps before accessing feature. &lt;/strong&gt;"
+                            inside-link-colour-text="(link)"></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_actionable_list}>
+                        <c-feature-child
+                            heading="Actionable Segmentation" 
+                            image="standard:filter_criteria" 
+                            app-text=" " 
+                            url="/lightning/app/FinServ__FinancialServicesCloudRetailBanking/r/ActionableList/{actionableListId}/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="ActionableList"
+                            object-id={actionableListId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="See a sample of this with a New Account Opening for on the Person Account Record."
+                            inside-link-colour-present={pass_true}
+                            inside-link-colour="https://salesforce.quip.com/D2RbADkhXa7r"
+                            inside-link-colour-before-text="&lt;strong&gt; Note:  You must complete the Actionable Segmentation |  Post-Deployment Steps before accessing feature. &lt;/strong&gt;"
+                            inside-link-colour-text="(link)"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_actionable_list}>
+                        <c-feature-child
+                            heading="Actionable Segmentation" 
+                            image="standard:filter_criteria" 
+                            app-text=" " 
+                            url="" 
+                            no-record={no_record_actionable_list}
+                            inside-link-colour-present={pass_true}
+                            inside-link-colour="https://salesforce.quip.com/vRVBAND8V0RM"
+                            inside-link-colour-before-text="&lt;strong&gt; Note:  You must complete the Actionable Segmentation |  Post-Deployment Steps before accessing feature. &lt;/strong&gt;"
+                            inside-link-colour-text="(link)"></c-feature-child>
+                    </template>
+
+                    <c-feature-child
+                        heading="Record Association Builder" 
+                        image="standard:asset_relationship" 
+                        app-text="Define your own criteria for automatically linking new or changed records with the branches that work with them. Record linking happens behind the scenes when precondition formulas defined by association criteria are met. Association records provide a wealth of data about work attribution, productivity, or your custom performance indicators. Record Association Builder directly supports a number of objects including accounts, leads, opportunities, and more. It also supports custom objects, different owner ID fields, and custom Apex class logic to create association records." 
+                        url="/lightning/setup/FscAssociationEngineSettings/home"
+                        link-in-new-tab={pass_true}
+                        link-reference="standard__webPage"></c-feature-child>
+
+                    <c-feature-child
+                        heading="Branch Management" 
+                        image="custom:custom16" 
+                        app-text="Track branch performance and productivity with Branch Management. The Branch Management data model, console app, and Record Association Builder let branch managers and administrators track the work output of branches, employees, and customer segments in Financial Services Cloud. Branch Management works seamlessly with existing Financial Services Cloud features, and prepares an organization for relationship marketing at the branch level." 
+                        url="/lightning/app/standard__BranchManagementConsole/page/home"
+                        app="standard__BranchManagementConsole"
+                        page="home"
+                        link-in-new-tab={pass_true}
+                        link-reference="standard__namedPage"></c-feature-child>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Interest Tags" 
+                            image="custom:custom30" 
+                            app-text="Let your users add custom Interest Tags to client records to capture client needs, interests, and prospecting opportunities. Having clients' interests in mind during client interactions helps deepen relationships. Organize interest tags into tag categories, which group similar interest tags so that you can easily create reports and dashboards showing common themes and interests across clients." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Interest Tags" 
+                            image="custom:custom30" 
+                            app-text="Let your users add custom Interest Tags to client records to capture client needs, interests, and prospecting opportunities. Having clients' interests in mind during client interactions helps deepen relationships. Organize interest tags into tag categories, which group similar interest tags so that you can easily create reports and dashboards showing common themes and interests across clients." 
+                            url="" 
+                            no-record={no_record_account}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_household_account}>
+                        <c-feature-child
+                            heading="Interaction Summaries" 
+                            image="standard:sales_channel" 
+                            app-text="Let your users add custom Interest Tags to client records to capture client needs, interests, and prospecting opportunities. Having clients' interests in mind during client interactions helps deepen relationships. Organize interest tags into tag categories, which group similar interest tags so that you can easily create reports and dashboards showing common themes and interests across clients." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{householdAccountId}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="Account"
+                            object-id={householdAccountId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="To view an Interaction Summary - click on the Interaction Summary related item on the Adams Household record."></c-feature-child>
+                    </template>
+                    <template if:true={no_record_household_account}>
+                        <c-feature-child
+                            heading="Interaction Summaries" 
+                            image="standard:sales_channel" 
+                            app-text="Let your users add custom Interest Tags to client records to capture client needs, interests, and prospecting opportunities. Having clients' interests in mind during client interactions helps deepen relationships. Organize interest tags into tag categories, which group similar interest tags so that you can easily create reports and dashboards showing common themes and interests across clients." 
+                            url=""
+                            no-record={no_record_household_account}></c-feature-child>
+                    </template>
+
+                    <c-feature-child
+                        heading="Compliant Data Sharing" 
+                        image="standard:asset_relationship" 
+                        app-text="The Compliant Data Sharing feature lets administrators and compliance managers configure advanced data sharing rules, so that they can improve compliance with regulations and company policies. They can control and monitor what data gets shared with whom, without writing complex code. Click this link to see the options in Setup. "
+                        url="/lightning/setup/FscDealSettings/home"
+                        link-in-new-tab={pass_true}
+                        inside-link-present={pass_true}
+                        inside-link="https://www.youtube.com/watch?v=W4Ww0mhsRa4"
+                        inside-link-before-text="Click this link to see the options in Setup. Watch this video on "
+                        inside-link-text="Compliant Data Sharing"
+                        inside-link-after-text=" for more information."
+                        link-reference="standard__webPage"></c-feature-child>
+
+                    <template if:false={no_record_action_plan}>
+                        <c-feature-child
+                            heading="Action Plans" 
+                            image="standard:asset_action_source" 
+                            app-text="Capture repeatable tasks in templates and then automate the task sequences with an action plan. Enhance collaboration and productivity by automatically assigning task owners and deadlines for specific client engagement, such as account openings, loan approvals, and claims processing. Create reports and dashboards to monitor progress and ensure compliance." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/ActionPlan/{actionPlanId}/view" 
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="ActionPlan"
+                            object-id={actionPlanId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_action_plan}>
+                        <c-feature-child
+                            heading="Action Plans" 
+                            image="standard:asset_action_source" 
+                            app-text="Capture repeatable tasks in templates and then automate the task sequences with an action plan. Enhance collaboration and productivity by automatically assigning task owners and deadlines for specific client engagement, such as account openings, loan approvals, and claims processing. Create reports and dashboards to monitor progress and ensure compliance." 
+                            url="" 
+                            no-record={no_record_action_plan}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_household_account}>
+                        <c-feature-child
+                            heading="Record Alerts" 
+                            image="custom:custom53" 
+                            app-text="Alert your agents to changes in client records that require action. Using Record Alerts, agents can scan records for notifications that show information from your core banking system or from alerts that are stored in Salesforce." 
+                            url="lightning/app/FinServ__FSC_Lightning/r/Account/{householdAccountId}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="Account"
+                            object-id={householdAccountId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="You will notice an alert for missing consents on top of the Person Account Record for Rachael."></c-feature-child>
+                    </template>
+                    <template if:true={no_record_household_account}>
+                        <c-feature-child
+                            heading="Record Alerts" 
+                            image="custom:custom53" 
+                            app-text="Alert your agents to changes in client records that require action. Using Record Alerts, agents can scan records for notifications that show information from your core banking system or from alerts that are stored in Salesforce." 
+                            url=""
+                            no-record={no_record_household_account}
+                            secondary-text-present={pass_true}
+                            secondary-text="You will notice an alert for missing consents on top of the Person Account Record for Rachael."></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_financial_deal}>
+                        <c-feature-child
+                            heading="Deal Management" 
+                            image="custom:custom16" 
+                            app-text="Track more details about the bids and assets that are part of a financial deal. See at a glance who's involved in a deal with the new Financial Deal Parties component." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/FinancialDeal/{financialDealId}}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="FinancialDeal"
+                            object-id={financialDealId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_financial_deal}>
+                        <c-feature-child
+                            heading="Deal Management" 
+                            image="custom:custom16" 
+                            app-text="Track more details about the bids and assets that are part of a financial deal. See at a glance who's involved in a deal with the new Financial Deal Parties component." 
+                            url=""
+                            no-record={no_record_financial_deal}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Document Tracking and Approvals" 
+                            image="standard:file" 
+                            app-text="Create a document checklist item for each file required from a customer. A customer or user then uploads a relevant file for the document checklist item, and the files are tracked through an approval process. Customers upload new versions of rejected documents and track the progress of their uploaded documentation from submission to approval." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/related/DocumentChecklistItemAccount/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            related-entity="DocumentChecklistItemAccount"
+                            link-reference="standard__recordRelationshipPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Document Tracking and Approvals" 
+                            image="standard:file" 
+                            app-text="Create a document checklist item for each file required from a customer. A customer or user then uploads a relevant file for the document checklist item, and the files are tracked through an approval process. Customers upload new versions of rejected documents and track the progress of their uploaded documentation from submission to approval." 
+                            url="" 
+                            no-record={no_record_account}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Events and Milestones" 
+                            image="standard:events" 
+                            app-text="With the Events or Business Milestones component, get an at-a-glance view of your customers’ life events or business milestones. Use the details to identify upcoming opportunities and devise timely personalized offers and engagement. The Events or Business Milestones component shows life events for a person account or contact record and business milestones for an account record." 
+                            url="lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/related/PersonPersonLifeEvents/view"
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            related-entity="PersonPersonLifeEvents"
+                            link-reference="standard__recordRelationshipPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Events and Milestones" 
+                            image="standard:events" 
+                            app-text="With the Events or Business Milestones component, get an at-a-glance view of your customers’ life events or business milestones. Use the details to identify upcoming opportunities and devise timely personalized offers and engagement. The Events or Business Milestones component shows life events for a person account or contact record and business milestones for an account record." 
+                            url="" 
+                            no-record={no_record_account}></c-feature-child>
+                    </template>
+
+                    <c-feature-child
+                        heading="Intelligent Need based referrals and Scoring" 
+                        image="standard:lead" 
+                        app-text="Intelligent Need-Based Referrals and Scoring is a referral management workflow that helps source referrals internally and externally across lines of business. Users create and automatically route referrals based on a customer’s expressed interest, from savings accounts to home loans. Build processes to create automatic email notifications that keep users up-to-date. The dashboards and reports make it a snap to identify and reward top referrers." 
+                        url="/lightning/app/FinServ__FSC_Lightning/o/Lead/list?filterName=Recent"
+                        link-in-new-tab={pass_true}
+                        inside-link-present={pass_true}
+                        inside-link="https://trailhead.salesforce.com/content/learn/modules/intelligent-referrals-and-scoring-with-financial-services-cloud"
+                        inside-link-before-text="Check out the "
+                        inside-link-text="Intelligent Referrals and Scoring with Financial Services Cloud Trailhead"
+                        inside-link-after-text=" to learn more."
+                        link-reference="standard__webPage"></c-feature-child>
+
+                    <c-feature-child
+                        heading="KYC Data Model" 
+                        image="standard:customers" 
+                        app-text="By using the Know Your Customer (KYC) data model, your users can perform identity verification, risk assessment, and screening checks of parties with ease. Parties can be accounts, contacts, or leads." 
+                        url="https://help.salesforce.com/s/articleView?id=sf.fsc_know_your_customer_overview.htm&type=5"
+                        link-in-new-tab={pass_true}
+                        link-reference="standard__webPage"
+                        no-navigation-mixin={pass_true}
+                        secondary-text-present={pass_true}
+                        secondary-text="Check out the new data model."></c-feature-child>
+
+                    <template if:false={no_record_household_account}>
+                        <c-feature-child
+                            heading="Rollups" 
+                            image="standard:opportunity_contact_role" 
+                            app-text="Financial Services Cloud supports client and group level record rollups and rollup by lookup (RBL) rules." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{householdAccountId}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="Account"
+                            object-id={householdAccountId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="Click the Finanicals related list on the Adams Household to see a rolled up Financial Summary."></c-feature-child>
+                    </template>
+                    <template if:true={no_record_household_account}>
+                        <c-feature-child
+                            heading="Rollups" 
+                            image="standard:opportunity_contact_role" 
+                            app-text="Financial Services Cloud supports client and group level record rollups and rollup by lookup (RBL) rules." 
+                            url=""
+                            no-record={no_record_household_account}></c-feature-child>
+                    </template>
+
+                    <c-feature-child
+                        heading="Lobby Management" 
+                        image="standard:waits" 
+                        app-text="Lobby Management enables the front desk lobby to greet customers and prospects, based on the services they might have walked in for - adds them to the service resources wailist queues.  Examples for service resource can be Personal bankng or Mortgage specialists at a bank. "
+                        url="/lightning/n/standard-WaitlistManagement"
+                        app="FinServ__FSC_Lightning"
+                        page="standard-WaitlistManagement"
+                        link-in-new-tab={pass_true}
+                        link-reference="standard__navItemPage"
+                        secondary-text-present={pass_true}
+                        secondary-text='Select "Market St." service Territory after you navigate to the link.  Check-in an existing customer or prospect to an existing Waitlist.'></c-feature-child>
+
+                    <c-feature-child
+                        heading="My Appointments" 
+                        image="utility:service_appointment" 
+                        app-text='Service Resource can check the waitlist they are enrolled to by clicking on the utility tool - "My Appointments" '
+                        app="FinServ__FSC_Lightning"
+                        object-name="ServiceAppointment"
+                        object-id={serviceAppointmentId}
+                        link-in-new-tab={pass_true}
+                        link-reference="standard__recordPage"
+                        secondary-text-present={pass_true}
+                        secondary-text='For better experience - login as either Advisor (Ryan) or a Mortgage Officer (Sue Berry).'></c-feature-child>
+
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

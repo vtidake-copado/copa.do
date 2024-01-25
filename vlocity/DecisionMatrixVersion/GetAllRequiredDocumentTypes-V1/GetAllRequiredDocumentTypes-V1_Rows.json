@@ -1,0 +1,21 @@
+[
+    {
+        "CalculationMatrixVersionId": {
+            "CalculationMatrix.Name": "GetAllRequiredDocumentTypes",
+            "VersionNumber": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/GetAllRequiredDocumentTypes",
+            "VlocityRecordSObjectType": "CalculationMatrixVersion"
+        },
+        "InputData": {
+            "ProcessName": "FINS_Address_Update"
+        },
+        "IsVersionEnabled": true,
+        "Name": "04bcdf23209f26d5005bad88840806dd",
+        "OutputData": {
+            "DocumentTypes": "Drivers License, Military ID"
+        },
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixRow"
+    }
+]

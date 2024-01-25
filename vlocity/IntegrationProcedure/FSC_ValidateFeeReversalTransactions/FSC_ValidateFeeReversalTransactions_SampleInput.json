@@ -1,0 +1,20 @@
+{
+    "SelectedTransactions": [
+        {
+            "TransactionAmount": 35,
+            "TransactionCode": "Code1",
+            "TransactionDescription": "Low balance Fee for The Month of March",
+            "TransactionId": "1234",
+            "TransactionPostedDate": "2022-03-02",
+            "TransactionType": "Non Sufficient Fund Fee"
+        },
+        {
+            "TransactionAmount": 35,
+            "TransactionCode": "Code1",
+            "TransactionDescription": "Low balance Fee for The Month of September",
+            "TransactionId": "1570",
+            "TransactionPostedDate": "2022-09-02",
+            "TransactionType": "Non Sufficient Fund Fee"
+        }
+    ]
+}

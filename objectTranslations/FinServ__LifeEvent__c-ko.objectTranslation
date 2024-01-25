@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>라이프 이벤트</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Life Event Required --></label>
+        <name>LifeEventRequired</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Client --></label>
+        <name>FinServ__Client__c</name>
+        <relationshipLabel><!-- Life Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discussion Note --></label>
+        <name>FinServ__DiscussionNote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Date --></label>
+        <name>FinServ__EventDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FinServ__EventType__c</name>
+        <picklistValues>
+            <masterLabel>College</masterLabel>
+            <translation>대학</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Baby</masterLabel>
+            <translation>아기 출생</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation>신규 비즈니스</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Home</masterLabel>
+            <translation>새로운 집</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Job</masterLabel>
+            <translation>새로운 직업</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation>은퇴</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Financial Goal --></label>
+        <name>FinServ__FinancialGoal__c</name>
+        <relationshipLabel><!-- Life Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Goal Type --></label>
+        <name>FinServ__GoalType__c</name>
+        <picklistValues>
+            <masterLabel>Saving for College</masterLabel>
+            <translation>대학 등록금 저축</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saving for Retirement</masterLabel>
+            <translation>은퇴 자금 저축</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <nameFieldLabel>라이프 이벤트 이름</nameFieldLabel>
+</CustomObjectTranslation>

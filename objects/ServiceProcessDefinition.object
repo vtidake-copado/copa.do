@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>ApexClassId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DeveloperName</fullName>
+    </fields>
+    <fields>
+        <fullName>Language</fullName>
+    </fields>
+    <fields>
+        <fullName>MasterLabel</fullName>
+    </fields>
+    <fields>
+        <fullName>ModuleNamespace</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessName</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>UsageType</fullName>
+    </fields>
+    <fields>
+        <fullName>Version</fullName>
+    </fields>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- תצורת יישום הון --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- תצורת יישום ההון --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- תצורות יישום הון --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- תצורות יישום ההון --></value>
+    </caseValues>
+    <fields>
+        <help>כשמעדכנים את השדה &apos;תפקיד קשור&apos; ברשומת קשר מסוג &apos;חשבון-חשבון&apos;, מתעדכן השדה &apos;תפקיד קשור&apos; ברשומת הקשר מסוג &apos;חשבון-חשבון&apos; הקשורה.</help>
+        <label><!-- Update Related Role on associated record --></label>
+        <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+    </fields>
+    <fields>
+        <help>הפעל את רשימת ההפניות העסקיות שבוצעו ואת רכיב סיכום ההפניות שבוצעו.</help>
+        <label><!-- Enable Business Referrals Made --></label>
+        <name>FinServ__EnableBusinessReferralsMade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Group Record Rollups --></label>
+        <name>FinServ__EnableGroupRecordRollups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Rollup Summary --></label>
+        <name>FinServ__EnableRollupSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Record Rollup Timestamp --></label>
+        <name>FinServ__GroupRecordRollupTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Update Frequency --></label>
+        <name>FinServ__InteractionUpdateFrequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Referrer Score --></label>
+        <name>FinServ__ReferrerScoreCalcEnabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected Referral Status --></label>
+        <name>FinServ__RejectedReferralStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollup Summary Timestamp --></label>
+        <name>FinServ__RollupSummaryTimestamp__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

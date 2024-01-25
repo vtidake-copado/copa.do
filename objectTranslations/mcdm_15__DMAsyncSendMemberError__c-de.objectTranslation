@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Protokoll zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Protokolle zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Protokoll zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Protokolle zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Protokolls zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Protokolle zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Protokoll zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Protokollen zu Mitgliedsfehlern beim asynchronen DM-Versand</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign Member Id --></label>
+        <name>mcdm_15__Campaign_Member_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DM Auto Send --></label>
+        <name>mcdm_15__DM_Auto_Send__c</name>
+        <relationshipLabel><!-- DM Send Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DM Error --></label>
+        <name>mcdm_15__DM_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Journey Approval State --></label>
+        <name>mcdm_15__JourneyApprovalState__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Genehmigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Fehler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Wird bearbeitet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Bereit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name des Mitgliedsfehlers beim asynchron</nameFieldLabel>
+</CustomObjectTranslation>

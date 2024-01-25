@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 산업 응용 프로그램 구성 --></value>
+    </caseValues>
+    <fields>
+        <help>기본적으로 계정 이름은 다음과 같이 표시됩니다: {firstname} {lastname}. 순서를 변경하려면
+ 다음과 같이 입력하십시오: {lastname} {firstname}</help>
+        <label><!-- Account Name Format --></label>
+        <name>FinServ__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>FinServ__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>FinServ__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>FinServ__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>FinServ__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>FinServ__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>FinServ__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>FinServ__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>예: v32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>FinServ__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help>최소한 계정-연락처 관계 레코드의 계정 및 연락처에 대한 읽기 액세스 권한이 있는 사용자만 관계 구성 요소의 레코드를 확인할 수 있습니다.</help>
+        <label><!-- Restrict ACR Record Visibility --></label>
+        <name>FinServ__RestrictACRRecordVisibility__c</name>
+    </fields>
+    <fields>
+        <help>누군가 권한이 없는 작업을 수행할 때 자세한 오류 메시지를 표시합니다.</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>FinServ__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>개별 개체 모델에서 레코드가 만들어질 때 계정 및 연락처 필드를 동기화합니다.</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>FinServ__SyncIndividualSystemFields__c</name>
+    </fields>
+</CustomObjectTranslation>

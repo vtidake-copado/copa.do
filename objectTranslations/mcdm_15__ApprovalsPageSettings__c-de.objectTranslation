@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Genehmigungsseiteneinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Genehmigungsseiteneinstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Genehmigungsseiteneinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Genehmigungsseiteneinstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Genehmigungsseiteneinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Genehmigungsseiteneinstellungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Genehmigungsseiteneinstellung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Genehmigungsseiteneinstellungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- Campaign --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Column Fields --></label>
+        <name>mcdm_15__ColumnFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>mcdm_15__Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>mcdm_15__User__c</name>
+        <relationshipLabel><!-- User --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Genehmigungsseiteneinstellungen – Name</nameFieldLabel>
+</CustomObjectTranslation>

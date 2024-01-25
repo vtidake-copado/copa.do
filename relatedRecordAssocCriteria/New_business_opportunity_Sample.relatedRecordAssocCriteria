@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedRecordAssocCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <associationType>BranchManagement</associationType>
+    <description>Track opportunities of type new business</description>
+    <eventType>Create</eventType>
+    <masterLabel>New business opportunity Sample</masterLabel>
+    <preCondition>ISPICKVAL([Opportunity].Type , &quot;New Business&quot;)</preCondition>
+    <referenceObject>Opportunity</referenceObject>
+    <status>Active</status>
+</RelatedRecordAssocCriteria>

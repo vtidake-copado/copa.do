@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>Assign_Premium_Due_Date</name>
+        <label>Assign Premium Due Date</label>
+        <locationX>489</locationX>
+        <locationY>50</locationY>
+        <assignmentItems>
+            <assignToReference>PremiumFrequency</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PolicyRecord.PremiumFrequency</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>PremiumDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>PolicyRecord.PaymentDueDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Premium_Payment_Date</targetReference>
+        </connector>
+    </assignments>
+    <dynamicChoiceSets>
+        <name>Current_Premium_Frequency</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>PremiumFrequency</picklistField>
+        <picklistObject>InsurancePolicy</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>PolicyRecords</name>
+        <dataType>String</dataType>
+        <displayField>PolicyName</displayField>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>NameInsuredId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>InsurancePolicy</object>
+        <outputAssignments>
+            <assignToReference>PolicyRecord.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>PolicyRecord.PaymentDueDate</assignToReference>
+            <field>PaymentDueDate</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>PolicyRecord.PremiumFrequency</assignToReference>
+            <field>PremiumFrequency</field>
+        </outputAssignments>
+        <valueField>PolicyName</valueField>
+    </dynamicChoiceSets>
+    <interviewLabel>Update Premium Payment Date and Frequency {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Update Premium Payment Date and Frequency</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Contact_Id</name>
+        <label>Get Contact Id</label>
+        <locationX>178</locationX>
+        <locationY>50</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Select_Policy</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_Screen</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputAssignments>
+            <assignToReference>ContactId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <screens>
+        <name>Confirmation_Screen</name>
+        <label>Confirmation Screen</label>
+        <locationX>1123</locationX>
+        <locationY>50</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Summary</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Summary&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ConfirmationText</name>
+            <fieldText>Case Number: {!CaseNumber}
+{!CaseDescription}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Screen</name>
+        <label>Error Screen</label>
+        <locationX>180</locationX>
+        <locationY>255</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>ErrorMessage</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(194, 57, 52);&quot;&gt;An unexpected error occurred. Your Salesforce admin can help with that. {!$Flow.FaultMessage}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Select_Policy</name>
+        <label>Select Policy</label>
+        <locationX>306</locationX>
+        <locationY>50</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Assign_Premium_Due_Date</targetReference>
+        </connector>
+        <fields>
+            <name>Policy_Name</name>
+            <choiceReferences>PolicyRecords</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Policy Name</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Update_Premium_Payment_Date</name>
+        <label>Update Premium Payment Date</label>
+        <locationX>633</locationX>
+        <locationY>50</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Create_Service_Request</targetReference>
+        </connector>
+        <fields>
+            <name>Current_Premium_Payment_Date</name>
+            <fieldText>&lt;p&gt;Current Premium Payment Date: {!PolicyRecord.PaymentDueDate}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>CurrentPremiumFrequency</name>
+            <fieldText>&lt;p&gt;Current Premium Payment Frequency: {!PolicyRecord.PremiumFrequency}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>New_Premium_Payment_Date</name>
+            <dataType>Date</dataType>
+            <fieldText>New Premium Payment Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>New_Premium_Payment_Frequency</name>
+            <choiceReferences>Current_Premium_Frequency</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>New Premium Payment Frequency</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Get_Contact_Id</startElementReference>
+    <status>Active</status>
+    <subflows>
+        <name>Create_Case_Gateway_Request</name>
+        <label>Create Case Gateway Request</label>
+        <locationX>939</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Confirmation_Screen</targetReference>
+        </connector>
+        <flowName>FinServFlowsExt__Subflow_Create_a_Case_Gateway_Request</flowName>
+        <inputAssignments>
+            <name>CaseId</name>
+            <value>
+                <elementReference>CaseId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Payload</name>
+            <value>
+                <elementReference>Payload</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Create_Service_Request</name>
+        <label>Create Service Request</label>
+        <locationX>777</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Create_Case_Gateway_Request</targetReference>
+        </connector>
+        <flowName>FinServFlowsExt__Subflow_Create_a_Service_Request</flowName>
+        <inputAssignments>
+            <name>CaseDescription</name>
+            <value>
+                <elementReference>CaseDescription</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CaseStatus</name>
+            <value>
+                <elementReference>CaseStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CaseSubject</name>
+            <value>
+                <stringValue>Update Premium Payment Date and Frequency  </stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>ContactId</name>
+            <value>
+                <elementReference>ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>CaseId</assignToReference>
+            <name>CaseId</name>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>CaseNumber</assignToReference>
+            <name>CaseNumber</name>
+        </outputAssignments>
+    </subflows>
+    <textTemplates>
+        <name>CaseDescription</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>Service Flow Name: Update Premium Payment Date and Frequency
+Policy Name: {!Policy_Name}
+New Premium Payment Date: {!New_Premium_Payment_Date}
+New Premium Payment Frequency: {!New_Premium_Payment_Frequency}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Payload</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>{
+  &quot;FlowName&quot;: &quot;Update Premium Date and Frequency&quot;,
+  &quot;ServiceRequestNumber&quot;: &quot;{!CaseNumber}&quot;,
+  &quot;ServiceRequestId&quot;: &quot;{!CaseId}&quot;,
+  &quot;AccountId&quot;: &quot;{!recordId}&quot;,
+  &quot;PolicyId&quot;: &quot;{!PolicyRecord.Id}&quot;,
+  &quot;PremiumDueDate&quot;: &quot;{!New_Premium_Payment_Date}&quot;,
+  &quot;PremiumFrequency&quot;: &quot;{!New_Premium_Payment_Frequency}&quot;
+}</text>
+    </textTemplates>
+    <variables>
+        <name>CaseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>CaseNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>CaseStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>New</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContactId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>PolicyId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>PolicyList</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>InsurancePolicy</objectType>
+    </variables>
+    <variables>
+        <name>PolicyRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>InsurancePolicy</objectType>
+    </variables>
+    <variables>
+        <name>PremiumDate</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>PremiumFrequency</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

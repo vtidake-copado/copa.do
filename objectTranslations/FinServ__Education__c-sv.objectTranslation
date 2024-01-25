@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Utbildningen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En utbildning</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Utbildning</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Utbildningarna</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Utbildningar</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Utbildningar</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>FinServ__Contact__c</name>
+        <relationshipLabel><!-- Education --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Education Level --></label>
+        <name>FinServ__EducationLevel__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Comment</masterLabel>
+            <translation>Avböjer kommentar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Graduate</masterLabel>
+            <translation>Examen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High School</masterLabel>
+            <translation>Gymnasium</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Graduate</masterLabel>
+            <translation>Doktorandstudier</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Graduation Date --></label>
+        <name>FinServ__GraduationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Institution --></label>
+        <name>FinServ__Institution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på institution</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The year of graduation can&apos;t be in the future. --></errorMessage>
+        <name>FinServ__YearOfGradCannotBeInFuture</name>
+    </validationRules>
+</CustomObjectTranslation>

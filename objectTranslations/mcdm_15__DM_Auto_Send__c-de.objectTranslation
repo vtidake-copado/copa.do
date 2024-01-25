@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Automatischer DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Automatische DM-Versendungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Automatischen DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Automatische DM-Versendungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Automatischen DM-Versands</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Automatischer DM-Versendungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Automatischem DM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Automatischen DM-Versendungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- DM Auto Send --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Custom Plugin Data --></label>
+        <name>mcdm_15__CustomPluginData__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique ID for the DM sending action. Use this ID in reports to group DM sends by a sending action. --></help>
+        <label><!-- DM Action ID --></label>
+        <name>mcdm_15__DM_Action_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>mcdm_15__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Journey Id --></label>
+        <name>mcdm_15__External_Journey_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Friendly Error --></label>
+        <name>mcdm_15__Friendly_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Greeting --></label>
+        <name>mcdm_15__Greeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Errors --></label>
+        <name>mcdm_15__Has_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit Id --></label>
+        <name>mcdm_15__Linked_Business_Unit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Custom Field for Contact --></label>
+        <name>mcdm_15__Mobile_Custom_Field_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Custom Field for Lead --></label>
+        <name>mcdm_15__Mobile_Custom_Field_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Job Id --></label>
+        <name>mcdm_15__Queueable_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send From --></label>
+        <name>mcdm_15__Send_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Time --></label>
+        <name>mcdm_15__Send_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Members Processed --></label>
+        <name>mcdm_15__Total_Members_Processed__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Name des automatischen DM-Versands</nameFieldLabel>
+</CustomObjectTranslation>

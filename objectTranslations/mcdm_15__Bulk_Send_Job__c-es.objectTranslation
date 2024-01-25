@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trabajo de envío masivo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trabajos de envío masivo</value>
+    </caseValues>
+    <fields>
+        <label><!-- Batch Job Id --></label>
+        <name>mcdm_15__Batch_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Member Error --></label>
+        <name>mcdm_15__Campaign_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Member States Updated --></label>
+        <name>mcdm_15__Campaign_Member_States_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- Bulk Send Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Chunk Error Count --></label>
+        <name>mcdm_15__Chunk_Error_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Chunks Completed --></label>
+        <name>mcdm_15__Chunks_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Chunks Processing --></label>
+        <name>mcdm_15__Chunks_Processing__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Chunks To Retry --></label>
+        <name>mcdm_15__Chunks_Retry__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Chunks Sending --></label>
+        <name>mcdm_15__Chunks_Sending__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Chunks Waiting --></label>
+        <name>mcdm_15__Chunks_Waiting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Plugin Data --></label>
+        <name>mcdm_15__CustomPluginData__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique ID for the DM sending action. Use this ID in reports to group DM sends by a sending action. --></help>
+        <label><!-- DM Action ID --></label>
+        <name>mcdm_15__DM_Action_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>mcdm_15__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Journey Id --></label>
+        <name>mcdm_15__External_Journey_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Greeting --></label>
+        <name>mcdm_15__Greeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Errors --></label>
+        <name>mcdm_15__Has_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Sendable --></label>
+        <name>mcdm_15__Is_Sendable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit Id --></label>
+        <name>mcdm_15__Linked_Business_Unit_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Custom Field for Contact --></label>
+        <name>mcdm_15__Mobile_Custom_Field_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Custom Field for Lead --></label>
+        <name>mcdm_15__Mobile_Custom_Field_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Send Message --></label>
+        <name>mcdm_15__Quick_Send_Journey__c</name>
+        <relationshipLabel><!-- Bulk Send Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Fecha y hora a las que se ha programado el envío</help>
+        <label><!-- Send Time --></label>
+        <name>mcdm_15__SendTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send From --></label>
+        <name>mcdm_15__Send_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Chunks --></label>
+        <name>mcdm_15__Total_Chunks__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Total Members --></label>
+        <name>mcdm_15__Total_Members__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de trabajo de envío masivo</nameFieldLabel>
+</CustomObjectTranslation>

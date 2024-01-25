@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The Id of the user designated as the CRM API user during the MC Connector setup. --></help>
+        <label><!-- CRM API User Id --></label>
+        <name>sfdomc__CRM_API_User_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

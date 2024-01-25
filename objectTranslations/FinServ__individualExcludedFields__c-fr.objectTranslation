@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Champ individuel exclu --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Champs individuels exclus --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Excluded Fields --></label>
+        <name>FinServ__ExcludedFields__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Geplanter MCDM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Geplante MCDM-Versendungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Geplanten MCDM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Geplante MCDM-Versendungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Geplanten MCDM-Versands</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Geplanter MCDM-Versendungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Geplantem MCDM-Versand</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Geplanten MCDM-Versendungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bulk Send Job --></label>
+        <name>mcdm_15__Bulk_Send_Job__c</name>
+        <relationshipLabel><!-- MCDM Scheduled Bulk Send --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- Scheduled Send --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>mcdm_15__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Journey Id --></label>
+        <name>mcdm_15__External_Journey_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Errors --></label>
+        <name>mcdm_15__HasError__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Errors --></label>
+        <name>mcdm_15__Has_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Type --></label>
+        <name>mcdm_15__MessageType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Job Id --></label>
+        <name>mcdm_15__Queueable_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Send Message --></label>
+        <name>mcdm_15__Quick_Send_Journey__c</name>
+        <relationshipLabel><!-- Scheduled Send --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- P13n Json --></label>
+        <name>mcdm_15__ResultJson__c</name>
+    </fields>
+    <fields>
+        <help>Das geplante Sendedatum einschließlich Uhrzeit</help>
+        <label><!-- Send Time --></label>
+        <name>mcdm_15__SendTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Geplanter MCDM-Versand</nameFieldLabel>
+</CustomObjectTranslation>

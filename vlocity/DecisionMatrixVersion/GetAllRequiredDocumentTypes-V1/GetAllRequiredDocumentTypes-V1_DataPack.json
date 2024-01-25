@@ -1,0 +1,27 @@
+{
+    "ApiName": "GetAllRequiredDocumentTypes_V1",
+    "CalculationMatrix.Name": "GetAllRequiredDocumentTypes",
+    "CalculationMatrixId": {
+        "Name": "GetAllRequiredDocumentTypes",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "CalculationMatrix/GetAllRequiredDocumentTypes",
+        "VlocityRecordSObjectType": "CalculationMatrix"
+    },
+    "CalculationMatrixRow": "GetAllRequiredDocumentTypes-V1_Rows.json",
+    "DecisionMatrixDefinitionVerId": "9QOWy00000004DJOAY",
+    "DscnModelNoteExportStatus": "",
+    "EndDateTime": "",
+    "GroupKey": "",
+    "GroupKeyValue": "",
+    "MatrixType": "Standard",
+    "Name": "GetAllRequiredDocumentTypes V1",
+    "Namespace": "",
+    "Rank": 1,
+    "StartDateTime": "2023-06-20T21:17:06.000Z",
+    "SubGroupKey": "",
+    "SubGroupKeyValue": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrixVersion",
+    "VlocityRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/GetAllRequiredDocumentTypes"
+}

@@ -1,0 +1,6 @@
+<!-- Visualforce page which is referenced by the "Run Rules" custom list view button for RollupByLookupConfig__c -->
+<apex:page standardController="FinServ__RollupByLookupConfig__c" extensions="FinServ.RunRollupRulesControllerExtension" action="{!runRollupRules}" recordSetVar="rules">
+    <apex:form >
+        <apex:pageMessages id="showmsg"></apex:pageMessages>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,60 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "InvokeCreateConnectAPI",
+    "OmniProcessId": {
+        "Name": "CreateCase",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FSCAddressUpdate/CreateCase/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "AddressLine1": "=%AddressLine1%",
+            "AddressLine2": "=%AddressLine2%",
+            "City": "=%City%",
+            "CountryCode": "=%CountryCode%",
+            "FinancialAccounts": "=%FinancialAccounts%",
+            "PostalCode": "=%PostalCode%",
+            "State": "=%State%",
+            "accountId": "=%accountId%",
+            "caseSubject": "Address Update Service Request",
+            "customerLevelAddresses": "=%customerLevelAddresses%",
+            "defaultAccountStatus": "Review",
+            "documentInfo": "=%documentInfo%",
+            "effectiveDate": "=%effectiveDate%",
+            "svcCatalogItemDefApiName": "=%svcCatalogItemDefApiName%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": false,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction3",
+        "remoteClass": "fscserviceprocess.AddressUpdateHelperFunctions",
+        "remoteMethod": "callCreateCaseApi",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FSCAddressUpdate/CreateCase/Procedure/InvokeCreateConnectAPI"
+}

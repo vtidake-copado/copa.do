@@ -1,0 +1,29 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "value": {
+            }
+        }
+    },
+    "Description": "Clone of FSCDisplayAccountLevelAddresses",
+    "IsTrackingEnabled": false,
+    "Name": "FINSDisplayAccountLevelAddresses",
+    "Namespace": "",
+    "OmniUiCardKey": "FINSDisplayAccountLevelAddresses/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FINSDisplayAccountLevelAddresses.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "FINSDisplayAccountLevelAddresses_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FINSDisplayAccountLevelAddresses"
+}

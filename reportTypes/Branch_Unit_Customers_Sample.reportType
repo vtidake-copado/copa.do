@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>BranchUnitCustomer</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Branch Unit Customers (Sample)</description>
+    <label>Branch Unit Customers (Sample)</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>BranchUnit</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>AssociationLevel</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastInteractionDate</field>
+            <table>BranchUnitCustomer</table>
+        </columns>
+        <masterLabel>Branch Unit Customers</masterLabel>
+    </sections>
+</ReportType>

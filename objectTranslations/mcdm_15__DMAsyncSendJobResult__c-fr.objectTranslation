@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Statut de la tâche d&apos;envoi asynchrone DM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statut des tâches d&apos;envoi asynchrone DM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Job Id --></label>
+        <name>mcdm_15__Job_Id__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Statut de tâche d’envoi asynchrone Distr</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

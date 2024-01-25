@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Mandantenspezifische DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Mandantenspezifische DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Mandantenspezifische DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Mandantenspezifische DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Mandantenspezifischer DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Mandantenspezifischer DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Mandantenspezifischer DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Mandantenspezifischer DM-Endpunktunterstützung --></value>
+    </caseValues>
+    <fields>
+        <help>Aktivieren Sie diese Einstellung, um für Distributed Marketing mandantenspezifische Endpunkte zu verwenden.</help>
+        <label><!-- Enable DM Tenant-Specific Endpoints --></label>
+        <name>mcdm_15__EnableDMTenantSpecificEndpoints__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Suporte de endpoint específico de locatário de DM --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Suporte de endpoints específicos de locatário de DM --></value>
+    </caseValues>
+    <fields>
+        <help>Habilite essa configuração para utilizar Pontos de extremidade específicos do locatário com o Distributed Marketing.</help>
+        <label><!-- Enable DM Tenant-Specific Endpoints --></label>
+        <name>mcdm_15__EnableDMTenantSpecificEndpoints__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

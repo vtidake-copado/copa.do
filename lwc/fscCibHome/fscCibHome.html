@@ -1,0 +1,175 @@
+<template>
+    <lightning-card footer="" title="">
+        <h1 class="slds-text-heading_medium">{app_welcome_text}</h1>
+        <div class="c-footer" >
+            <a href="/lightning/app/c__FSC_Learning_Experience/page/home">Return to Learning Home</a>
+        </div>
+        <div class="c-container">
+            <lightning-layout>
+                <lightning-layout-item flexibility="auto" padding="around-small">
+                    <div class="slds-clearfix">
+                        <span>
+                            <template if:true={load_data}>
+                                <lightning-button class="slds-float_right" label="Load Sample Data" onclick={loadDataFromCsv}></lightning-button>
+                            </template>
+                        </span>
+                        <p class="c-description">{app_description}</p>
+                    </div>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Actionable Relationship Center" 
+                            image="standard:relationship" 
+                            app-text="Actionable Relationship Center (ARC) lets you visualize your customers relationships in new ways. Use ARC to see both Financial Services Cloud relationships and related list relationships in one view. " 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="On the Rachael Adman Person Account, click the Relationships Related list to see ARC in action."></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Actionable Relationship Center" 
+                            image="standard:relationship" 
+                            app-text="Actionable Relationship Center (ARC) lets you visualize your customers relationships in new ways. Use ARC to see both Financial Services Cloud relationships and related list relationships in one view. " 
+                            url="" 
+                            no-record={no_record_account}
+                            secondary-text-present={pass_true}
+                            secondary-text="On the Rachael Adman Person Account, click the Relationships Related list to see ARC in action."></c-feature-child>
+                    </template>
+
+                    <c-feature-child
+                        heading="Compliant Data Sharing" 
+                        image="standard:asset_relationship" 
+                        app-text="The Compliant Data Sharing feature lets administrators and compliance managers configure advanced data sharing rules, so that they can improve compliance with regulations and company policies. They can control and monitor what data gets shared with whom, without writing complex code. Click this link to see the options in Setup. "
+                        url="/lightning/setup/FscDealSettings/home"
+                        link-in-new-tab={pass_true}
+                        inside-link-present={pass_true}
+                        inside-link="https://www.youtube.com/watch?v=W4Ww0mhsRa4"
+                        inside-link-before-text="Click this link to see the options in Setup. Watch this video on "
+                        inside-link-text="Compliant Data Sharing"
+                        inside-link-after-text=" for more information."
+                        link-reference="standard__webPage"></c-feature-child>
+
+                    <template if:false={no_record_household_account}>
+                        <c-feature-child
+                            heading="Interaction Summaries" 
+                            image="standard:sales_channel" 
+                            app-text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{householdAccountId}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="Account"
+                            object-id={householdAccountId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_household_account}>
+                        <c-feature-child
+                            heading="Interaction Summaries" 
+                            image="standard:sales_channel" 
+                            app-text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                            url=""
+                            no-record={no_record_household_account}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_financial_deal}>
+                        <c-feature-child
+                            heading="Finanical Deal Management" 
+                            image="custom:custom16" 
+                            app-text="Track more details about the bids and assets that are part of a financial deal. See at a glance who's involved in a deal with the new Financial Deal Parties component." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/FinancialDeal/{financialDealId}}/view"
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="FinancialDeal"
+                            object-id={financialDealId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_financial_deal}>
+                        <c-feature-child
+                            heading="Finanical Deal Management" 
+                            image="custom:custom16" 
+                            app-text="Track more details about the bids and assets that are part of a financial deal. See at a glance who's involved in a deal with the new Financial Deal Parties component." 
+                            url=""
+                            no-record={no_record_financial_deal}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Client Interactions" 
+                            image="standard:sales_channel" 
+                            app-text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Client Interactions" 
+                            image="standard:sales_channel" 
+                            app-text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                            url="" 
+                            no-record={no_record_account}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_action_plan}>
+                        <c-feature-child
+                            heading="Action Plans" 
+                            image="standard:asset_action_source" 
+                            app-text="Capture repeatable tasks in templates and then automate the task sequences with an action plan. Enhance collaboration and productivity by automatically assigning task owners and deadlines for specific client engagement, such as account openings, loan approvals, and claims processing. Create reports and dashboards to monitor progress and ensure compliance." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/ActionPlan/{actionPlanId}/view" 
+                            link-in-new-tab={pass_true}
+                            app="FinServ__FSC_Lightning"
+                            object-name="ActionPlan"
+                            object-id={actionPlanId}
+                            link-reference="standard__recordPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_action_plan}>
+                        <c-feature-child
+                            heading="Action Plans" 
+                            image="standard:asset_action_source" 
+                            app-text="Capture repeatable tasks in templates and then automate the task sequences with an action plan. Enhance collaboration and productivity by automatically assigning task owners and deadlines for specific client engagement, such as account openings, loan approvals, and claims processing. Create reports and dashboards to monitor progress and ensure compliance." 
+                            url="" 
+                            no-record={no_record_action_plan}></c-feature-child>
+                    </template>
+
+                    <template if:false={no_record_account}>
+                        <c-feature-child
+                            heading="Document Tracking and Approvals" 
+                            image="standard:file" 
+                            app-text="Create a document checklist item for each file required from a customer.  A customer or user then uploads a relevant file for the document checklist item, and the files are tracked through an approval process. Customers upload new versions of rejected documents and track the progress of their uploaded documentation from submission to approval." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/Account/{accountId}/related/DocumentChecklistItemAccount/view" 
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            related-entity="DocumentChecklistItemAccount"
+                            link-reference="standard__recordRelationshipPage"></c-feature-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-feature-child
+                            heading="Document Tracking and Approvals" 
+                            image="standard:file" 
+                            app-text="Create a document checklist item for each file required from a customer.  A customer or user then uploads a relevant file for the document checklist item, and the files are tracked through an approval process. Customers upload new versions of rejected documents and track the progress of their uploaded documentation from submission to approval." 
+                            url="" 
+                            no-record={no_record_account}></c-feature-child>
+                    </template>
+
+                    <c-feature-child
+                        heading="Tableau CRM for Financial Services" 
+                        image="standard:channel_programs" 
+                        app-text="Tableau CRM for Financial Services gives financial advisors and personal bankers a comprehensive customer intelligence solution based on the Tableau CRM platform. It includes Einstein Discovery, which lets you create automated artificial intelligence models on any dataset without writing code." 
+                        url="/analytics/home"
+                        link-in-new-tab={pass_true}
+                        link-reference="standard__webPage"></c-feature-child>
+                    
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

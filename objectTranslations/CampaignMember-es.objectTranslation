@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Activity --></label>
+        <name>et4ae5__Activity__c</name>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubscribed</masterLabel>
+            <translation>Con suscripción cancelada</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DM Auto Send --></label>
+        <name>mcdm_15__DM_Auto_Send__c</name>
+        <relationshipLabel><!-- Campaign Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>mcdm_15__DM_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Journey Approval State --></label>
+        <name>mcdm_15__JourneyApprovalState__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Error</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Procesando</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Listo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,64 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="getRecordIdForAura">
+    <aura:attribute name="welcome_text" type="String" default="Welcome to the Financial Services Cloud Learning Org" />
+    <aura:attribute name="description" type="String" default="Here's a collection of resources to help you get started. Explore among the latest features below, available in Financial Services Cloud" />
+    <aura:attribute name="Account" type="Account[]" />
+    <aura:attribute name="ResidentialLoanApplication" type="ResidentialLoanApplication[]" />
+    <aura:handler name="init" action="{!c.init}" value="{!this}"/>
+    <aura:attribute name="no_record_account" type="Boolean" default="false"/>
+    <aura:attribute name="no_record_loan_application" type="Boolean" default="false"/>
+	<lightning:card footer="" title="">
+        <h1 slot="title" class="slds-text-heading_medium">{!v.welcome_text}</h1>
+        <div class="c-container">
+            <lightning:layout>
+                <lightning:layoutItem flexibility="auto" padding="around-small">
+                    <p class="c-description">{!v.description}</p>
+                    <c:FscLearningChildAura heading="Retail Banking"
+                                           cloud_detail="Get a 360-degree view of customers with Retail Banking, a Financial Services Cloud Lightning app. Bankers can also easily manage high-volume transactions on one screen with the Retail Banking Console. The information bankers need is supported with new objects, fields, and record types for loans, deposits, and more." 
+                                           url="/lightning/app/FinServ__FinancialServicesCloudRetailBanking/page/home"/>
+                    <c:FscLearningChildAura heading="Corporate and Investment Banking"
+                                           cloud_detail="For investment banking and advisory teams " 
+                                           url="/lightning/app/c__FSC_Learning_Experience/n/CIB_Learning_Home"/>
+                    
+                    <aura:if isTrue="{!v.no_record_loan_application}">
+                        <c:FscLearningChildAura heading="Mortgage"
+                                           cloud_detail="Mortgage for Financial Services Cloud includes a new data model for mortgage applications, new standard flow templates, and new flow screen components. " 
+                                           url=""
+                                           no_record="{!v.no_record_loan_application}"
+                                           secondary_text_present="true"
+                                           secondary_text="Reveiw all the Rachel Adams Residential Loan Application Sample record to see all the mortage related features." />
+                        <aura:set attribute="else">
+                			<aura:iteration items="{!v.ResidentialLoanApplication}" var="rla"> 
+                            	<c:FscLearningChildAura heading="Mortgage"
+                                           cloud_detail="Mortgage for Financial Services Cloud includes a new data model for mortgage applications, new standard flow templates, and new flow screen components. " 
+                                           url="{!'/lightning/app/FinServ__FSC_Lightning/r/ResidentialLoanApplication/' + rla.Id + '/view'}"
+                                           link_in_new_tab="true"
+                                           secondary_text_present="true"
+                                           secondary_text="Reveiw all the Rachel Adams Residential Loan Application Sample record to see all the mortage related features." />
+                            </aura:iteration>
+                		</aura:set>
+                    </aura:if>
+                    
+                    <c:FscLearningChildAura heading="Wealth Management" 
+                                           cloud_detail="Give your financial advisors a holistic view of customers with Wealth Management, a Financial Services Cloud Lightning app. Empower your advisors to deliver the personalized, proactive service that clients expect. Accelerate user productivity with technology that helps them engage with clients like never before, and build deeper, lasting, more profitable relationships." 
+                                           url="/lightning/app/FinServ__FSC_Lightning/page/home"/>
+                    
+                    <aura:if isTrue="{!v.no_record_account}">
+                        <c:FscLearningChildAura heading="Insurance"
+                        			cloud_detail="Insurance for Financial Services Cloud includes a new data model for insurance, new Lightning components, and a tailored Lightning console app: Insurance Agent Console. Insurance Agent Console helps agents and service reps track their performance and stay focused on their goals. With the new distributor performance dashboard, reports, and performance metrics, sales managers can view a consolidated performance summary for all their distributors or monitor their individual performances. Use the Insurance Agent Portal template to create a portal that gives independent insurance agents access to the insurance features and components and lets them manage and grow their books of business." 
+                                    url= ""
+                                    no_record="{!v.no_record_account}" />
+                        <aura:set attribute="else">
+                			<aura:iteration items="{!v.Account}" var="a"> 
+                    			<c:FscLearningChildAura heading="Insurance"
+                                           cloud_detail="Insurance for Financial Services Cloud includes a new data model for insurance, new Lightning components, and a tailored Lightning console app: Insurance Agent Console. Insurance Agent Console helps agents and service reps track their performance and stay focused on their goals. With the new distributor performance dashboard, reports, and performance metrics, sales managers can view a consolidated performance summary for all their distributors or monitor their individual performances. Use the Insurance Agent Portal template to create a portal that gives independent insurance agents access to the insurance features and components and lets them manage and grow their books of business." 
+                                           url="{!'/lightning/app/FinServ__InsuranceConsoleFinancialServicesCloud/r/Account/' + a.Id + '/view'}"
+                                           link_in_new_tab="true" />
+                    		</aura:iteration>
+                		</aura:set>
+                    </aura:if>
+                    
+                </lightning:layoutItem>
+            </lightning:layout>
+        </div>
+    </lightning:card>
+</aura:component>

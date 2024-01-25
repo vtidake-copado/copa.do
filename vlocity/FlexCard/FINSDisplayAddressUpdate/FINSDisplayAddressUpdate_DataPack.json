@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 5,
+                    "name": "Parent.caseRecordId",
+                    "val": "500RO000002LMJnYAO"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "caseId": "{Parent.caseRecordId}"
+                },
+                "ipMethod": "FSCAddressUpdate_FetchAttributes",
+                "jsonMap": "{\"Parent.caseRecordId\":\"{Parent.caseRecordId}\"}",
+                "resultVar": "[\"attributes\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Clone of FSCDisplayAddressUpdate",
+    "IsTrackingEnabled": false,
+    "Name": "FINSDisplayAddressUpdate",
+    "Namespace": "",
+    "OmniUiCardKey": "FINSDisplayAddressUpdate/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FINSDisplayAddressUpdate.json",
+    "SampleDataSourceResponse": "{\"attributes\":{\"AddressLine1\":\"221B\",\"AddressLine2\":\"Baker Street\",\"City\":\"Chandigarh\",\"State\":\"Chandigarh\",\"Country Code\":\"India\",\"PostalCode\":\"1234456\",\"EffectiveDate\":\"01/01/2023\",\"CustomerLevelFAs\":[{\"type\":\"Mailing Address\"},{\"type\":\"Billing Address\"}],\"AccountLevelFAs\":[{\"AccountName\":\"Credit Card\",\"ConvertedFinancialAccountNumber\":\"5678\"},{\"AccountName\":\"Savings Bank\"}]}}",
+    "StylingConfiguration": "",
+    "UniqueName": "FINSDisplayAddressUpdate_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FINSDisplayAddressUpdate"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Favorito do usuário MCDM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Favoritos do usuário MCDM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Quick Send Message --></label>
+        <name>mcdm_15__Quick_Send_Journey__c</name>
+        <relationshipLabel><!-- Favorite Quick Send Message --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>ID favorito do usuário MCDM</nameFieldLabel>
+</CustomObjectTranslation>

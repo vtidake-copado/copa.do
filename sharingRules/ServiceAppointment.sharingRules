@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Read_Write_Service_Appointments_to_Branch_Officers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Read Write Service Appointments to Branch Officers</label>
+        <sharedTo>
+            <group>Branch_Officers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Write_Service_Appointments_to_Greeter</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Read Write Service Appointments to Greeter</label>
+        <sharedTo>
+            <group>Greeter_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

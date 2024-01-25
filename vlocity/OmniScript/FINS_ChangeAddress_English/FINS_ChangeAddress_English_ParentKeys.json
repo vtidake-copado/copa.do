@@ -1,0 +1,5 @@
+[
+    "DataRaptor/FSCAddressUpdateAccountDetails",
+    "IntegrationProcedure/FSCAddressUpdate_CreateCase",
+    "IntegrationProcedure/FSCAddressUpdate_GetDocumentTypes"
+]

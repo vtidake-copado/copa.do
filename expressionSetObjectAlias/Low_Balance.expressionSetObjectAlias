@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressionSetObjectAlias xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataType>sObject</dataType>
+    <mappings>
+        <fieldAlias>Balance</fieldAlias>
+        <sourceFieldName>FinServ__Balance__c</sourceFieldName>
+    </mappings>
+    <objectApiName>FinServ__FinancialAccount__c</objectApiName>
+    <usageType>RecordAlert</usageType>
+</ExpressionSetObjectAlias>

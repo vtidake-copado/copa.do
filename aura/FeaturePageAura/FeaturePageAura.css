@@ -1,0 +1,30 @@
+.THIS {
+}
+.THIS .c-container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
+.THIS .custom-box {
+    text-align: left;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #d8dde6;
+    font-size: 18px;
+}
+.THIS.c-description {
+    padding: 5px 0px 10px;;
+    font-size: 18px;
+}
+.THIS .c-heading {
+    padding: 5px 10px 10px;
+}
+.THIS .c-feature-desc {
+    padding: 15px 0px 5px ;
+}
+.THIS .c-feature-desc-second {
+    padding: 1px 0px 5px ;
+}
+.THIS .c-no-record {
+    padding: 0px 40px 0px ;
+    color: grey ;
+}

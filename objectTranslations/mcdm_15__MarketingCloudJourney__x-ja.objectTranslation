@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MC ジャーニー --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Definition ID --></label>
+        <name>mcdm_15__DefinitionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>mcdm_15__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Mode --></label>
+        <name>mcdm_15__ExecutionMode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key --></label>
+        <name>mcdm_15__Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit --></label>
+        <name>mcdm_15__LinkedBusinessUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>mcdm_15__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>mcdm_15__Version__c</name>
+    </fields>
+</CustomObjectTranslation>

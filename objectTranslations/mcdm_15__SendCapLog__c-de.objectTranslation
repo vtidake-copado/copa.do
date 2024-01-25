@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>MCDM-Versandbegrenzungsprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>MCDM-Versandbegrenzungsprotokolle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>MCDM-Versandbegrenzungsprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>MCDM-Versandbegrenzungsprotokolle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>MCDM-Versandbegrenzungsprotokolls</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>MCDM-Versandbegrenzungsprotokolle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>MCDM-Versandbegrenzungsprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>MCDM-Versandbegrenzungsprotokollen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Send Count --></label>
+        <name>mcdm_15__SendCount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Type --></label>
+        <name>mcdm_15__SendType__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>MCDM-Versandbegrenzungsprotokoll-Name</nameFieldLabel>
+</CustomObjectTranslation>

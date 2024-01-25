@@ -1,0 +1,11 @@
+<apex:page standardController="Lead"
+    recordSetVar="leads"
+    showHeader="false"
+    sidebar="false"
+    standardStylesheets="true"
+    lightningStylesheets="true"
+    extensions="mcdm_15.vfQuickSendController"
+    action="{!redirectToLightning}"
+>
+<apex:pageMessages ></apex:pageMessages>
+</apex:page>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Estado de lista de selección Empezar a trabajar de MC para NGO</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Estados de lista de selección Empezar a trabajar de MC para NGO</value>
+    </caseValues>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>sfdomc__Item_Id__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número de estado de lista de selección</nameFieldLabel>
+</CustomObjectTranslation>

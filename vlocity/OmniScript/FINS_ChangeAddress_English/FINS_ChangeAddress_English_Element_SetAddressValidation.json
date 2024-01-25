@@ -1,0 +1,34 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetAddressValidation",
+    "OmniProcessId": {
+        "Name": "Change Address",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FINS/ChangeAddress/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "CustomerAddressPresent": "=IF(%Addresses:PersonAccount:ShippingAddress%=null&&%Addresses:PersonAccount:BillingAddress%=null,'NotPresent','Present')",
+            "FinPresent": "=IF(%Addresses:Accounts%=null,'NotPresent','Present')"
+        },
+        "label": "SetAddressValidation",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FINS/ChangeAddress/English/SetAddressValidation"
+}

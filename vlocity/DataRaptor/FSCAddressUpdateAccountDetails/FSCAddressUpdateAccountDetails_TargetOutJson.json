@@ -1,0 +1,20 @@
+{
+    "AccountName": "AccountName",
+    "ActionIdddd": "ActionId",
+    "BillingCity": "BillingCity",
+    "BillingCountry": "BillingCountry",
+    "BillingPostalCode": "BillingPostalCode",
+    "BillingState": "BillingState",
+    "BillingStreet": "BillingStreet",
+    "CommunicationAddress": "CommunicationAddress",
+    "DocumentTypeId": "DocumentTypeId",
+    "Name": "Name",
+    "PermanentAddress": "PermanentAddress",
+    "ShippingCity": "ShippingCity",
+    "ShippingCountry": "ShippingCountry",
+    "ShippingPostalCode": "ShippingPostalCode",
+    "ShippingState": "Shippingtate",
+    "ShippingStreet": "ShippingStreet",
+    "Value": "Value",
+    "VersionIddd": "VersionIddd"
+}

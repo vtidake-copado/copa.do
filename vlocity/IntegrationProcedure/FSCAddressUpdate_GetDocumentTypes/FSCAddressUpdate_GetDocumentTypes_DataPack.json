@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "FSCAddressUpdate_GetDocumentTypes_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "GetAllDocumentTypes",
+    "OmniProcessElement": [
+        "FSCAddressUpdate_GetDocumentTypes_Element_GetAllDocumentTypes.json",
+        "FSCAddressUpdate_GetDocumentTypes_Element_SetValuesMap.json",
+        "FSCAddressUpdate_GetDocumentTypes_Element_ConvertToList.json",
+        "FSCAddressUpdate_GetDocumentTypes_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "FSCAddressUpdate_GetDocumentTypes",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "fscserviceprocess__FSCAddressUpdate_GetDocumentTypes_Procedure_1",
+    "PropertySetConfig": "FSCAddressUpdate_GetDocumentTypes_PropertySetConfig.json",
+    "SubType": "GetDocumentTypes",
+    "Type": "FSCAddressUpdate",
+    "UniqueName": "FSCAddressUpdate_GetDocumentTypes_Procedure_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/FSCAddressUpdate/GetDocumentTypes/Procedure",
+    "WebComponentKey": "ad4aa0b4-85df-312b-673e-e535f07eeca6"
+}

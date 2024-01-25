@@ -1,0 +1,25 @@
+{
+    "SelectedFeeType": "Insufficient fund fee",
+    "Transactions": [
+        {
+            "Subtype": "Insufficient fund fee",
+            "TransactionAmount": "USD 10.13",
+            "TransactionAmountCurrency": "USD",
+            "TransactionCode": "MSC",
+            "TransactionDescription": "Penalty",
+            "TransactionId": "3",
+            "TransactionPostedDate": "2022-08-01T16:41:41.090Z",
+            "TransactionType": "Fee"
+        },
+        {
+            "Subtype": "Overdraft fee",
+            "TransactionAmount": "USD 13.13",
+            "TransactionAmountCurrency": "USD",
+            "TransactionCode": "Charge",
+            "TransactionDescription": "Parking violation",
+            "TransactionId": "16",
+            "TransactionPostedDate": "2022-08-05T16:41:41.090Z",
+            "TransactionType": "Fee"
+        }
+    ]
+}

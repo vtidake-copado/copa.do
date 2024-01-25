@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>金融控股</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Financial Holding --></label>
+        <name>WM_Client_FinancialHolding</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Financial Holding --></label>
+        <name>WM_Household_FinancialHolding</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Asset Category Name --></label>
+        <name>FinServ__AssetCategoryName__c</name>
+        <picklistValues>
+            <masterLabel>Large Blend</masterLabel>
+            <translation>大型均衡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Growth</masterLabel>
+            <translation>大型成長</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Value</masterLabel>
+            <translation>大型價值</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Cap Blend</masterLabel>
+            <translation>中型均衡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Cap Growth</masterLabel>
+            <translation>中型成長</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Cap Value</masterLabel>
+            <translation>中型價值</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Blend</masterLabel>
+            <translation>小型均衡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Growth</masterLabel>
+            <translation>小型成長</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Value</masterLabel>
+            <translation>小型價值</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Category --></label>
+        <name>FinServ__AssetCategory__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation>配置</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alternative</masterLabel>
+            <translation>另類</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commodities</masterLabel>
+            <translation>商品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Equity</masterLabel>
+            <translation>國際股權</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Bond</masterLabel>
+            <translation>市政債券</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sector Equity</masterLabel>
+            <translation>產業股權</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Bond</masterLabel>
+            <translation>應稅債券</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Equity</masterLabel>
+            <translation>美國股權</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Class --></label>
+        <name>FinServ__AssetClass__c</name>
+        <picklistValues>
+            <masterLabel>Alternative Investments</masterLabel>
+            <translation>另類投資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Equivalents</masterLabel>
+            <translation>約當現金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equities</masterLabel>
+            <translation>股權</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Income</masterLabel>
+            <translation>固定收入</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Financial Holdings --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>購買後的值變更。</help>
+        <label><!-- Gain/Loss --></label>
+        <name>FinServ__GainLoss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Household --></label>
+        <name>FinServ__Household__c</name>
+        <relationshipLabel><!-- Household Financial Holdings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Updated --></label>
+        <name>FinServ__LastUpdated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Value --></label>
+        <name>FinServ__MarketValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent Change --></label>
+        <name>FinServ__PercentChange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>FinServ__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Owner --></label>
+        <name>FinServ__PrimaryOwner__c</name>
+        <relationshipLabel><!-- Client Financial Holdings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Purchase Price --></label>
+        <name>FinServ__PurchasePrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Symbol --></label>
+        <name>FinServ__Securities__c</name>
+        <relationshipLabel><!-- Securities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Shares --></label>
+        <name>FinServ__Shares__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Symbol --></label>
+        <name>FinServ__Symbol__c</name>
+    </fields>
+    <nameFieldLabel>金融控股名稱</nameFieldLabel>
+</CustomObjectTranslation>

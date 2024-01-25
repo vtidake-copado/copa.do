@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Carte de champ de personnalisation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cartes de champ de personnalisation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Destination Name --></label>
+        <name>mcdm_15__DestinationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include In Send Payload --></label>
+        <name>mcdm_15__IncludeInSendPayload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>mcdm_15__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Name --></label>
+        <name>mcdm_15__SourceName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>mcdm_15__Type__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Carte de champ de personnalisation</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,31 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetAccountsEmpty",
+    "OmniProcessId": {
+        "Name": "FSCGetFeeReversalFinancialAccounts",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FSC/GetFeeReversalFinancialAccounts/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "IsAccountsEmpty": true
+        },
+        "executionConditionalFormula": "ISBLANK(%FSCFeeReversalGetFinancialAccounts:Id%)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues3",
+        "responseJSONNode": "FSCFeeReversalTransformFinancialAccounts",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FSC/GetFeeReversalFinancialAccounts/Procedure/SetAccountsEmpty"
+}

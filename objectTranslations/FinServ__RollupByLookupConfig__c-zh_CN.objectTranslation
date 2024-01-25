@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>按查找汇总配置</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FinServ__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field To Roll Up From --></label>
+        <name>FinServ__FromField__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Object --></label>
+        <name>FinServ__FromObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Record Type --></label>
+        <name>FinServ__FromRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Field --></label>
+        <name>FinServ__LookupField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>FinServ__Namespace__c</name>
+        <picklistValues>
+            <masterLabel>Industries</masterLabel>
+            <translation>行业</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Type --></label>
+        <name>FinServ__ProcessType__c</name>
+        <picklistValues>
+            <masterLabel>Async</masterLabel>
+            <translation>异步</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch</masterLabel>
+            <translation>批处理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realtime</masterLabel>
+            <translation>实时</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rollup Operation --></label>
+        <name>FinServ__RollupOperation__c</name>
+        <picklistValues>
+            <masterLabel>Avg</masterLabel>
+            <translation>平均值</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Count</masterLabel>
+            <translation>计数</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Max</masterLabel>
+            <translation>最大值</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Min</masterLabel>
+            <translation>最小值</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sum</masterLabel>
+            <translation>总和</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field To Roll Up To --></label>
+        <name>FinServ__ToField__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Object --></label>
+        <name>FinServ__ToObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fields Triggering Update --></label>
+        <name>FinServ__UpdateOnChange__c</name>
+    </fields>
+    <fields>
+        <help>Where 子句的一个示例表达式是：(1 OR 2) AND 3.
+这里的数字对应于在子对象 RollUpByLookupFilterCriteria 中定义的筛选标准。</help>
+        <label><!-- Where Clause --></label>
+        <name>FinServ__WhereClause__c</name>
+    </fields>
+    <nameFieldLabel>按查找汇总配置名称</nameFieldLabel>
+    <webLinks>
+        <label><!-- Run_Rules --></label>
+        <name>FinServ__Run_Rules</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedRecordAssocCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <associationType>BranchManagement</associationType>
+    <description>Track leads with manager title</description>
+    <eventType>Update</eventType>
+    <masterLabel>Track high profile leads Sample</masterLabel>
+    <preCondition>[Lead].Title = &quot;Manager&quot;</preCondition>
+    <referenceObject>Lead</referenceObject>
+    <status>Active</status>
+</RelatedRecordAssocCriteria>

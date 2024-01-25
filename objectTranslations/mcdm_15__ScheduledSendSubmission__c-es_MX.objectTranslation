@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Emisión de envíos programado de MCDM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Emisiones de envíos programados de MCDM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Error --></label>
+        <name>mcdm_15__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Send --></label>
+        <name>mcdm_15__ScheduledSend__c</name>
+        <relationshipLabel><!-- MCDM Scheduled Send --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Personalization --></label>
+        <name>mcdm_15__SubmissionP13n__c</name>
+        <relationshipLabel><!-- ScheduledSendSubmissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submission Send Settings --></label>
+        <name>mcdm_15__SubmissionSendSettings__c</name>
+        <relationshipLabel><!-- ScheduledSendSubmissions --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de la emisión de envío programado</nameFieldLabel>
+</CustomObjectTranslation>

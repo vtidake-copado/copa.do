@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value><!-- Fältuppsättning för gruppbyggare --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value><!-- Fältuppsättning för gruppbyggare --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value><!-- Fältuppsättningen för gruppbyggare --></value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value><!-- Fältuppsättningar för gruppbyggare --></value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value><!-- Fältuppsättningar för gruppbyggare --></value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value><!-- Fältuppsättningarna för gruppbyggare --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Set Description --></label>
+        <name>FinServ__Description__c</name>
+    </fields>
+    <fields>
+        <help>namespace__FieldSetName. Om detta fält är tomt, då används standardfältuppsättningen.</help>
+        <label><!-- Field Set Name --></label>
+        <name>FinServ__FieldSetName__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

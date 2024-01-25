@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Paramètre du connecteur M4Ngo MC --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Paramètres du connecteur M4Ngo MC --></value>
+    </caseValues>
+    <fields>
+        <help>L’identifiant de l’utilisateur désigné comme utilisateur de l’API CRM lors de la configuration du connecteur MC.</help>
+        <label><!-- CRM API User Id --></label>
+        <name>sfdomc__CRM_API_User_Id__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

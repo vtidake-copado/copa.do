@@ -1,0 +1,44 @@
+{
+    "DesignerCustomizationType": "Discovery Framework",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Declaration",
+    "OmniProcessId": {
+        "Name": "Open Account",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FSC_Sample/Account_Opening_Sample/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step2",
+        "OmniProcessId": {
+            "Name": "Open Account",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/FSC_Sample/Account_Opening_Sample/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/FSC_Sample/Account_Opening_Sample/English/Step2",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step2",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "I hereby declare that the information furnished above is true and correct to the best of my knowledge.",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "The customer declares and certifies that the information in this account opening form is true and correct. Any pre-filled sections of this form must be reviewed prior to signing and submitting, to ensure the information accurately conveys the new account details.",
+        "readOnly": false,
+        "required": false,
+        "show": null,
+        "text": "",
+        "textKey": ""
+    },
+    "Type": "Disclosure",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FSC_Sample/Account_Opening_Sample/English/Declaration"
+}

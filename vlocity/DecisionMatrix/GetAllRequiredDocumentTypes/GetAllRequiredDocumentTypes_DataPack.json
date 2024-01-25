@@ -1,0 +1,15 @@
+{
+    "CalculationMatrixColumn": "GetAllRequiredDocumentTypes_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "GetAllRequiredDocumentTypes",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "GetAllRequiredDocumentTypes",
+    "UsageType": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/GetAllRequiredDocumentTypes"
+}

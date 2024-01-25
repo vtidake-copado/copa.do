@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Paramètre de personnalisation par défaut</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Paramètres de personnalisation par défaut</value>
+    </caseValues>
+    <fields>
+        <label><!-- Greeting --></label>
+        <name>mcdm_15__Greeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hierarchy ID --></label>
+        <name>mcdm_15__HierarchyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hierarchy Type --></label>
+        <name>mcdm_15__HierarchyType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object ID --></label>
+        <name>mcdm_15__ObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>mcdm_15__ObjectType__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Name --></label>
+        <name>mcdm_15__SendFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature --></label>
+        <name>mcdm_15__Signature__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Paramètres de personnalisation par défau</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

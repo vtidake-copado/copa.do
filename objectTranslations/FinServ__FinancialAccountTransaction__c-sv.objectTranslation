@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Finanskontotransaktionen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En finanskontotransaktion</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Finanskontotransaktion</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Finanskontotransaktionerna</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Finanskontotransaktioner</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Finanskontotransaktioner</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allocated Escrow Payment --></label>
+        <name>FinServ__AllocatedEscrowPayment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Fee Amount --></label>
+        <name>FinServ__AllocatedFeeAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Interest Amount --></label>
+        <name>FinServ__AllocatedInterestAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Principal Amount --></label>
+        <name>FinServ__AllocatedPrincipalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>FinServ__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Statement --></label>
+        <name>FinServ__BillingStatements__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Account ID --></label>
+        <name>FinServ__CardAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim --></label>
+        <name>FinServ__Claim__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FinServ__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispute Reason --></label>
+        <name>FinServ__DisputeReason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate Transactions</masterLabel>
+            <translation>Dubbla transaktioner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>Övrigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspected Fraud</masterLabel>
+            <translation>Misstänkt bedrägeri</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction not recognized</masterLabel>
+            <translation>Transaktion känns ej igen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escrow Balance --></label>
+        <name>FinServ__EscrowBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>FinServ__InsurancePolicy__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disputed --></label>
+        <name>FinServ__IsDisputed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merchant Category Code (MCCode) --></label>
+        <name>FinServ__MerchantCategoryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Date --></label>
+        <name>FinServ__PostDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Principal Balance --></label>
+        <name>FinServ__PrincipalBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running Balance --></label>
+        <name>FinServ__RunningBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Transaction Type --></label>
+        <name>FinServ__SourceTransactionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Date --></label>
+        <name>FinServ__TransactionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>FinServ__TransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Status --></label>
+        <name>FinServ__TransactionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Väntande</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation>Publicerat</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Sub-type --></label>
+        <name>FinServ__TransactionSubtype__c</name>
+        <picklistValues>
+            <masterLabel>ATM Deposit</masterLabel>
+            <translation>Bankomatinsättning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATM Withdrawal</masterLabel>
+            <translation>Bankomatuttag</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Payment</masterLabel>
+            <translation>Räkningsbetalning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Deposit</masterLabel>
+            <translation>Kontantinsättning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Cash Advance</masterLabel>
+            <translation>Kontantförskott på kreditkort</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Payment</masterLabel>
+            <translation>Kreditkortsbetalning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFT</masterLabel>
+            <translation>Elektronisk överföring</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee</masterLabel>
+            <translation>Avgift</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Cash Deposit</masterLabel>
+            <translation>Utländsk kontantinsättning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Earned</masterLabel>
+            <translation>Intjänad ränta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Funds Transfer</masterLabel>
+            <translation>Intern resursöverföring</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Payment</masterLabel>
+            <translation>Lånebetalning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Charge</masterLabel>
+            <translation>Handelsavgift</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Credit</masterLabel>
+            <translation>Övrig kredit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Debit</masterLabel>
+            <translation>Övrig debit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Payment</masterLabel>
+            <translation>Inteckningsbetalning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Us Check Deposit</masterLabel>
+            <translation>Deponering av check från utfärdare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS withdrawal</masterLabel>
+            <translation>POS-uttag</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversal</masterLabel>
+            <translation>Återföring</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Check Deposit</masterLabel>
+            <translation>Deponering av check i transaktion</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>FinServ__TransactionType__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Kredit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>Debit</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Waiver Reason --></label>
+        <name>FinServ__WaiverReason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate fees charged</masterLabel>
+            <translation>Dubbla avgifter debiterade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees Discovery</masterLabel>
+            <translation>Upptäckt av avgifter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain customer relationship</masterLabel>
+            <translation>Upprätthåll kundrelation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification not received</masterLabel>
+            <translation>Meddelande ej mottaget</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others.</masterLabel>
+            <translation>Övriga.</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Transaktionsnamn</nameFieldLabel>
+</CustomObjectTranslation>

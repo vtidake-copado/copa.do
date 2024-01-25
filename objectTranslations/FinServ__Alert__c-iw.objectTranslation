@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>ההתראה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>התראה</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>ההתראות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>התראות</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>FinServ__Account__c</name>
+        <relationshipLabel><!-- Alerts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FinServ__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim --></label>
+        <name>FinServ__Claim__c</name>
+        <relationshipLabel><!-- Alerts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Alerts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>FinServ__Insurance_Policy__c</name>
+        <relationshipLabel><!-- Alerts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message Description --></label>
+        <name>FinServ__MessageDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>FinServ__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>FinServ__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>גבוהה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>נמוכה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>בינונית</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>FinServ__Severity__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>שגיאה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info</masterLabel>
+            <translation>פרטים</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>אזהרה</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source System Id --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם התראה</nameFieldLabel>
+</CustomObjectTranslation>

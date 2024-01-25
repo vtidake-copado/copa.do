@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trayectoria de envío rápido</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trayectorias de envío rápido</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>mcdm_15__Description__c</name>
+    </fields>
+    <fields>
+        <help>Fecha y hora finales de la trayectoria de envío rápido</help>
+        <label><!-- End Date --></label>
+        <name>mcdm_15__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Journey Id --></label>
+        <name>mcdm_15__ExternalJourneyId__c</name>
+    </fields>
+    <fields>
+        <help>Indica que una trayectoria de envío rápido está activa.</help>
+        <label><!-- Active --></label>
+        <name>mcdm_15__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Name --></label>
+        <name>mcdm_15__JourneyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit --></label>
+        <name>mcdm_15__LinkedBusinessUnit__c</name>
+        <relationshipLabel><!-- Quick Send Messages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Message Type --></label>
+        <name>mcdm_15__MessageType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personalization DataExtension Id --></label>
+        <name>mcdm_15__PersonalizationDeId__c</name>
+    </fields>
+    <fields>
+        <help>Fecha y hora de inicio de la trayectoria de envío rápido</help>
+        <label><!-- Start Date --></label>
+        <name>mcdm_15__StartDate__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Id. de mensaje de envío rápido</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The quick send message end date should not be before the start date. --></errorMessage>
+        <name>mcdm_15__mcdm_date_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

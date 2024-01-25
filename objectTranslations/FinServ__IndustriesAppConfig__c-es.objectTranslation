@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuración de la aplicación Industries --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Configuraciones de la aplicación Industries --></value>
+    </caseValues>
+    <fields>
+        <help>Los nombres de cuentas se muestran de forma predeterminada: {firstname} {lastname}. Para cambiar el orden, introduzca: {lastname} {firstname}</help>
+        <label><!-- Account Name Format --></label>
+        <name>FinServ__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>FinServ__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>FinServ__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>FinServ__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>FinServ__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>FinServ__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>FinServ__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>FinServ__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>Por ejemplo: v32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>FinServ__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help>Solo los usuarios con al menos acceso de lectura a la cuenta y contacto en un registro de relación de cuenta-contacto pueden ver el registro en componentes de relación.</help>
+        <label><!-- Restrict ACR Record Visibility --></label>
+        <name>FinServ__RestrictACRRecordVisibility__c</name>
+    </fields>
+    <fields>
+        <help>Muestra un mensaje de error detallado cuando alguien realiza una acción sin tener permiso.</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>FinServ__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>Sincroniza los campos Cuenta y Contacto cuando se crean los registros en el modelo de objeto individual.</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>FinServ__SyncIndividualSystemFields__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

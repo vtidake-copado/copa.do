@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordAlertTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Low Balance on Checking Account</masterLabel>
+    <subject>You have a low balance on your checking acocunt</subject>
+</RecordAlertTemplate>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Sortierfeld für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Sortierfeld für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Sortierfeld für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Sortierfeld für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Sortierfelds für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Sortierfelds für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Sortierfeld für Kampagnenmitglieder --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Sortierfeld für Kampagnenmitglieder --></value>
+    </caseValues>
+    <fields>
+        <help>Alle Listen der Kampagnenmitglieder mit ausstehender Distributed Marketing-Benutzergenehmigung werden nach diesem Feld sortiert. Ordnen Sie es einem Feld im Kampagnenmitgliedsobjekt zu.</help>
+        <label><!-- Sort Field Name --></label>
+        <name>mcdm_15__SortFieldName__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+<apex:page standardController="Contact"
+    recordSetVar="contacts"
+    showHeader="false"
+    sidebar="false"
+    standardStylesheets="true"
+    lightningStylesheets="true"
+    extensions="mcdm_15.vfQuickSendController"
+    action="{!redirectToBulkSendLightning}"
+>
+<apex:pageMessages ></apex:pageMessages>
+</apex:page>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Deploy pre-configured Marketing Cloud assets to an authorized Marketing Cloud account.</description>
+    <label>Deploy Assets</label>
+    <lwcComponent>sfdomc__deployAssetsPage</lwcComponent>
+    <motif>Custom57: Building Block</motif>
+</CustomTab>

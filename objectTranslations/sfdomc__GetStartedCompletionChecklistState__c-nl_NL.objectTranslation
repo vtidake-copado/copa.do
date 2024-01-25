@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Status van Aan de slag-checklist van MC voor NGO</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statussen van Aan de slag-checklist van MC voor NGO</value>
+    </caseValues>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>sfdomc__Item_Id__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Statusnummer checklist</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedRecordAssocCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <associationType>BranchManagement</associationType>
+    <description>Track cases that are escalated</description>
+    <eventType>Update</eventType>
+    <masterLabel>Track high priority cases Sample</masterLabel>
+    <preCondition>ISPICKVAL([Case].Priority, &quot;High&quot;)</preCondition>
+    <referenceObject>Case</referenceObject>
+    <status>Active</status>
+</RelatedRecordAssocCriteria>

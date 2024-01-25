@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Read_All_Service_Territories_To_Branch</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Read All Service Territories To Branch</label>
+        <sharedTo>
+            <group>Branch_Officers</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_All_Service_Territories_To_Greeter</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Read All Service Territories To Greeter</label>
+        <sharedTo>
+            <group>Greeter_Group</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

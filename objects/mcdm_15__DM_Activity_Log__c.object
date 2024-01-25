@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This Distributed Marketing object contains relevant metadata for sends through DM for selected sending flows. A single record will be created for every email and member on any injection into a marketing cloud journey. This object can be reported on and visualizations in the form of dashboards and reports can be created. Metadata included will give information around send type, recipient information, sender information, and activity (email, SMS) information. See individual field descriptions or Distributed Marketing Help and Training for more information.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>mcdm_15__Activity_Send_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of activity for this send, either Email or SMS.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies email or SMS activity for this send.</inlineHelpText>
+        <label>Activity Send Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>mcdm_15__DM_Send_Types</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the user that approved the DM Send for this activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the user who approved the DM send related to this activity.</inlineHelpText>
+        <label>Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>DM_Activity_Log_Approver</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Bulk_Send_Job_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the bulk send job, saved in the event the Bulk Send Job lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies bulk send job if the lookup is deleted.</inlineHelpText>
+        <label>Bulk Send Job ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Bulk_Send_Job__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Bulk Send Job if this activity was triggered by a bulk send job.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the bulk send job that triggered this activity.</inlineHelpText>
+        <label>Bulk Send Job</label>
+        <referenceTo>mcdm_15__Bulk_Send_Job__c</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Campaign_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the campaign, saved in the event the campaign lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies campaign if the lookup is deleted.</inlineHelpText>
+        <label>Campaign ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Campaign_Linked_Journey_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Campaign Linked Journey ID, saved in the event the Campaign Linked Journey ID lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the campaign linked journey if the lookup is deleted.</inlineHelpText>
+        <label>Campaign Linked Journey ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Campaign_Member_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the campaign member if this was sent via a Campaign sending flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the campaign member if the send used a campaign sending flow.</inlineHelpText>
+        <label>Campaign Member ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Campaign if this activity was related to a campaign sending flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies if the activity is related to a campaign sending flow.</inlineHelpText>
+        <label>Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Case_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Case record saved in the event the Case lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the case record used in the send.</inlineHelpText>
+        <label>Case ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Case object if this activity was related to a quick send from Case.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The case object associated with this activity if it was related to a quick send activity.</inlineHelpText>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Log</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Action_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique ID that is the same for an entire DM sending action. Can be used in reports to group DM sends by a sending action.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Unique ID for the DM sending action. Use this ID in reports to group DM sends by a sending action.</inlineHelpText>
+        <label>DM Action ID</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Auto_Send_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the DM Auto Send, saved in the event the DM Auto Send lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the DM auto send related to this activity.</inlineHelpText>
+        <label>DM Auto Send ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Auto_Send__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the DM Auto Send if this activity was related to a DM Auto Send.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies if the activity is related to a DM auto send.</inlineHelpText>
+        <label>DM Auto Send</label>
+        <referenceTo>mcdm_15__DM_Auto_Send__c</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Error__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores DM specific error messages that have occured during or after injection.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>DM-specific error messages that occurred during or after injection.</inlineHelpText>
+        <label>DM Error</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Scheduled_Send_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the DM Scheduled Send, saved in the event the DM Scheduled Send, lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the DM Scheduled Send associated with the activity.</inlineHelpText>
+        <label>DM Scheduled Send ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Scheduled_Send__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the DM Scheduled Send if this activity was related to a scheduled sending flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies if the activity is related to a scheduled DM sending flow.</inlineHelpText>
+        <label>DM Scheduled Send</label>
+        <referenceTo>mcdm_15__ScheduledSend__c</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Send_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of Distributed Marketing send.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifiess the DM send type from available combinations</inlineHelpText>
+        <label>MCDM Send Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>mcdm_15__DM_Send_Type_Combinations</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Submission_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the DM Submission record saved in the event the DM submission lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the DM submission record related to the activity.</inlineHelpText>
+        <label>DM Submission ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Submission__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the DM Submission object if this activity was related to an approvals sending flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the DM submission object related to the approvals sending flow activity.</inlineHelpText>
+        <label>DM Submission</label>
+        <referenceTo>mcdm_15__Submission__c</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Log</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__DM_Tracking_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique ID for this DM injection that is stored in the DM Entry Source DE, can be used to tie back Marketing Cloud data to the DM Activity Logs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Unique ID for the DM injection stored for the DM entry source. Use this ID to relate Marketing Cloud data to DM activity logs.</inlineHelpText>
+        <label>DM Tracking ID</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Email_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Marketing Cloud email activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Marketing Cloud email activity.</inlineHelpText>
+        <label>Email ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Email_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Marketing Cloud email activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Marketing Cloud email activity.</inlineHelpText>
+        <label>Email Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Email_Pre_Header__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email pre header is stored here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The email pre header related to this activity.</inlineHelpText>
+        <label>Email Pre Header</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Email_Subject_Line__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email main subject line is stored here.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The email subject line related to this activity.</inlineHelpText>
+        <label>Email Subject Line</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Has_Injection_Error__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity had errors while injecting onto a journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates an error related to the activity injection.</inlineHelpText>
+        <label>Has Injection Error</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Has_P13n_Field_Mappings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity has DM P13n Field Mappings applied to it via Extending the Entry Source DE.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates DM P13n field mappings applied to the activity via the Extending the Entry Source data extension.</inlineHelpText>
+        <label>Has P13n Field Mappings</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Has_Personalizations__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity has DM personalizations applied to it.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that DM personalizations are applied to this activity.</inlineHelpText>
+        <label>Has Personalizations</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__IER_Linking_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Will be used in the future to link engagement data with IER records in the Marketing Cloud connect package.</description>
+        <externalId>false</externalId>
+        <formula>mcdm_15__DM_Tracking_ID__c + mcdm_15__Email_ID__c + mcdm_15__SMS_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identifies link between engagement data and IER records in the Marketing Cloud Connect package.</inlineHelpText>
+        <label>IER Linking ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Initial_Sender__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the user that initiated the DM Send for this activity (may not match with Send From User).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the user who initiated the DM send related to this activity. This value may not match the Send From User value.</inlineHelpText>
+        <label>Initial Sender</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>DM_Activity_Log</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Injected_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the contact that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the contact injected into the journey.</inlineHelpText>
+        <label>Injected Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Injected_Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the lead that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the lead injected into the journey.</inlineHelpText>
+        <label>Injected Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through an Approvals flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the activity was sent through an Approvals flow.</inlineHelpText>
+        <label>Is Approval</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Auto_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through an Auto Send flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a Auto Send flow.</inlineHelpText>
+        <label>Is Auto Send</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Bulk_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through a Bulk Send flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a Bulk Send flow.</inlineHelpText>
+        <label>Is Bulk Send</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Campaign_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through a Campaign sending flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a Campaign sending flow.</inlineHelpText>
+        <label>Is Campaign Send</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent to a contact.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent to a contact.</inlineHelpText>
+        <label>Is Contact</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent to a lead.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent to a lead.</inlineHelpText>
+        <label>Is Lead</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_List_View_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through a List View Mass Action flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a List View Mass Action flow.</inlineHelpText>
+        <label>Is List View Send</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Person_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This quick send was sent from a person account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent to a person account.</inlineHelpText>
+        <label>Is Person Account Entry</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Quick_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through a Quick Send flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a Quick Send flow.</inlineHelpText>
+        <label>Is Quick Send</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Scheduled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was scheduled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a scheduled flow.</inlineHelpText>
+        <label>Is Scheduled</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Is_Segmented_Send__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This activity was sent through a Segmented Send flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates that the activity was sent through a Segmented Send flow.</inlineHelpText>
+        <label>Is Segmented Send</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Journey_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Marketing Cloud Journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Marketing Cloud journey.</inlineHelpText>
+        <label>Journey ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Journey_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Marketing Cloud journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Marketing Cloud journey.</inlineHelpText>
+        <label>Journey Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Linked_Journey__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Linked Journey if this activity was related to a campaign linked journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies if the activity is related to a campaign linked journey.</inlineHelpText>
+        <label>Campaign Linked Journey</label>
+        <referenceTo>mcdm_15__MarketingCloudLinkedJourney__c</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__MC_Journey_Version__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Version number of the Marketing Cloud Journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the version of the Marketing Cloud journey.</inlineHelpText>
+        <label>MC Journey Version</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__MC_Triggered_Send_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Marketing Cloud triggered send ID associated to this activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Marketing Cloud triggered send associated with this activity.</inlineHelpText>
+        <label>MC Triggered Send ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Member_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email of the member that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email address for the member injected into the journey.</inlineHelpText>
+        <label>Member Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Member_First_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>First name of the member that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>First name of the member injected into the journey.</inlineHelpText>
+        <label>Member First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Member_Last_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Last name of the member that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last name of the member injected into the journey.</inlineHelpText>
+        <label>Member Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Member_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the member that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the member injected into the journey.</inlineHelpText>
+        <label>Member Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Member_Phone_Field_Used__c</fullName>
+        <deprecated>false</deprecated>
+        <description>API Name of the phone number field used in this activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>API Name of the phone number field used in this activity.</inlineHelpText>
+        <label>Member Phone Field Used</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Member_Phone__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Phone number of the member that was injected onto the journey.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Phone number of the member injected into the journey.</inlineHelpText>
+        <label>Member Phone</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Opportunity_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Opportunity record saved in the event the Opportunity lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Opportunity record associated with this activity.</inlineHelpText>
+        <label>Opportunity ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Opportunity object if this activity was related to a quick send from Opportunity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the Opportunity object related to the quick send activity.</inlineHelpText>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Log</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Quick_Send_Message_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Quick Send Message record saved in the event the Quick Send Message lookup is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Quick Send Message record associated with this activity.</inlineHelpText>
+        <label>Quick Send Message ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Quick_Send_Message__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the Quick Send Message object if this activity was related to a quick send flow.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the Quick Send Message object related to the quick send activity.</inlineHelpText>
+        <label>Quick Send Message</label>
+        <referenceTo>mcdm_15__QuickSendJourney__c</referenceTo>
+        <relationshipLabel>DM Activity Log</relationshipLabel>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__SMS_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of the Marketing Cloud SMS activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Marketing Cloud SMS activity.</inlineHelpText>
+        <label>SMS ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__SMS_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Marketing Cloud SMS activity.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Marketing Cloud SMS activity.</inlineHelpText>
+        <label>SMS Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Send_From_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Email of the Send From User (Running User or Record Owner).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email Address for the Send From User.</inlineHelpText>
+        <label>Send From Email</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Send_From_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the Send From User (Running User or Record Owner).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Send From User.</inlineHelpText>
+        <label>Send From Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Send_From_Setting__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies the Send From Setting used for this activity (Running User or Record Owner).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Send From Setting used for this activity.</inlineHelpText>
+        <label>Send From Setting</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>mcdm_15__DM_Send_From_Settings</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>mcdm_15__Send_From_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to the user determined by the DM Send From User settings, this can be the Running User or the Record Owner.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies the Send From User for this activity.</inlineHelpText>
+        <label>Send From User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>DM_Activity_Logs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>DM Activity Log</label>
+    <listViews>
+        <fullName>mcdm_15__All_DM_Activity_Logs</fullName>
+        <columns>NAME</columns>
+        <columns>mcdm_15__DM_Tracking_ID__c</columns>
+        <columns>mcdm_15__Initial_Sender__c</columns>
+        <columns>mcdm_15__Injected_Contact__c</columns>
+        <columns>mcdm_15__Injected_Lead__c</columns>
+        <columns>mcdm_15__Journey_Name__c</columns>
+        <columns>mcdm_15__SMS_Name__c</columns>
+        <columns>mcdm_15__Email_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>DMAL-{0000000000}</displayFormat>
+        <label>DM Activity Log Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>DM Activity Log</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>mcdm_15__DM_Tracking_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>mcdm_15__Initial_Sender__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>mcdm_15__Injected_Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>mcdm_15__Injected_Lead__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>mcdm_15__Journey_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>mcdm_15__SMS_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>mcdm_15__Email_Name__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

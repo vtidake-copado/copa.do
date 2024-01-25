@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Wealth アプリケーションの設定 --></value>
+    </caseValues>
+    <fields>
+        <help>取引先間リレーションレコードの [関連ロール] 項目を更新する場合、関連する取引先間リレーションレコードの [関連ロール] 項目が更新されます。</help>
+        <label><!-- Update Related Role on associated record --></label>
+        <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+    </fields>
+    <fields>
+        <help>作成された企業紹介のリストおよび作成された紹介の概要コンポーネントを有効化</help>
+        <label><!-- Enable Business Referrals Made --></label>
+        <name>FinServ__EnableBusinessReferralsMade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Group Record Rollups --></label>
+        <name>FinServ__EnableGroupRecordRollups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Rollup Summary --></label>
+        <name>FinServ__EnableRollupSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Record Rollup Timestamp --></label>
+        <name>FinServ__GroupRecordRollupTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Update Frequency --></label>
+        <name>FinServ__InteractionUpdateFrequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Referrer Score --></label>
+        <name>FinServ__ReferrerScoreCalcEnabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected Referral Status --></label>
+        <name>FinServ__RejectedReferralStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollup Summary Timestamp --></label>
+        <name>FinServ__RollupSummaryTimestamp__c</name>
+    </fields>
+</CustomObjectTranslation>

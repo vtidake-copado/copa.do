@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <dynamicChoiceSets>
+        <name>PolicyList</name>
+        <dataType>String</dataType>
+        <displayField>PolicyName</displayField>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>NameInsuredId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>InsurancePolicy</object>
+        <outputAssignments>
+            <assignToReference>PolicyId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>PolicyName</assignToReference>
+            <field>PolicyName</field>
+        </outputAssignments>
+        <valueField>PolicyName</valueField>
+    </dynamicChoiceSets>
+    <interviewLabel>Initiate Loan Against Policy {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Initiate Loan Against Policy</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Contact_Id</name>
+        <label>Get Contact Id</label>
+        <locationX>180</locationX>
+        <locationY>57</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Request_Policy_Loan</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_Screen</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputAssignments>
+            <assignToReference>ContactId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <screens>
+        <name>Case_Confirmation</name>
+        <label>Case Confirmation</label>
+        <locationX>883</locationX>
+        <locationY>56</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Summary</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Summary&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ConfirmationText</name>
+            <fieldText>&lt;p&gt;Case Number: {!CaseNumber}&lt;/p&gt;&lt;p&gt;{!CaseDescription}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Enter_Loan_Details</name>
+        <label>Enter Loan Details</label>
+        <locationX>503</locationX>
+        <locationY>49</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Create_Service_Request</targetReference>
+        </connector>
+        <fields>
+            <name>Loan_Amount</name>
+            <dataType>Currency</dataType>
+            <fieldText>Loan Amount</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Loan_Term_in_Months</name>
+            <dataType>String</dataType>
+            <fieldText>Loan Term in Months</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <validationRule>
+                <errorMessage>&lt;p&gt;&lt;span style=&quot;color: rgb(194, 57, 52);&quot;&gt;Enter a number.&lt;/span&gt;&lt;/p&gt;</errorMessage>
+                <formulaExpression>(ISNUMBER({!Loan_Term_in_Months}))</formulaExpression>
+            </validationRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Screen</name>
+        <label>Error Screen</label>
+        <locationX>188</locationX>
+        <locationY>224</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>ErrorMessage</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(194, 57, 52);&quot;&gt;An unexpected error occurred. Your Salesforce admin can help with that. {!$Flow.FaultMessage}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Request_Policy_Loan</name>
+        <label>Request Policy Loan</label>
+        <locationX>370</locationX>
+        <locationY>50</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Enter_Loan_Details</targetReference>
+        </connector>
+        <fields>
+            <name>Policy_Name</name>
+            <choiceReferences>PolicyList</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Policy Name</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Get_Contact_Id</startElementReference>
+    <status>Active</status>
+    <subflows>
+        <name>Create_Case_Gateway_Record</name>
+        <label>Create Case Gateway Record</label>
+        <locationX>809</locationX>
+        <locationY>168</locationY>
+        <connector>
+            <targetReference>Case_Confirmation</targetReference>
+        </connector>
+        <flowName>FinServFlowsExt__Subflow_Create_a_Case_Gateway_Request</flowName>
+        <inputAssignments>
+            <name>CaseId</name>
+            <value>
+                <elementReference>CaseId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Payload</name>
+            <value>
+                <elementReference>Payload</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Create_Service_Request</name>
+        <label>Create Service Request</label>
+        <locationX>680</locationX>
+        <locationY>56</locationY>
+        <connector>
+            <targetReference>Create_Case_Gateway_Record</targetReference>
+        </connector>
+        <flowName>FinServFlowsExt__Subflow_Create_a_Service_Request</flowName>
+        <inputAssignments>
+            <name>CaseDescription</name>
+            <value>
+                <elementReference>CaseDescription</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CaseStatus</name>
+            <value>
+                <elementReference>CaseStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CaseSubject</name>
+            <value>
+                <stringValue>Initiate Loan Against Policy</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>ContactId</name>
+            <value>
+                <elementReference>ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>CaseId</assignToReference>
+            <name>CaseId</name>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>CaseNumber</assignToReference>
+            <name>CaseNumber</name>
+        </outputAssignments>
+    </subflows>
+    <textTemplates>
+        <name>CaseDescription</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>Service Flow Name: Initiate Loan Against Policy
+Policy Name: {!PolicyName}
+Loan Amount: {!Loan_Amount}
+Loan Term: {!Loan_Term_in_Months} months</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Payload</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>{
+  &quot;FlowName&quot;: &quot;Initiate Loan Against Policy&quot;,
+  &quot;ServiceRequestNumber&quot;: &quot;{!CaseNumber}&quot;,
+  &quot;ServiceRequestId&quot;: &quot;{!CaseId}&quot;,
+  &quot;AccountId&quot;: &quot;{!recordId}&quot;,
+  &quot;PolicyId&quot;: &quot;{!PolicyId}&quot;,
+  &quot;LoanAmount&quot;: &quot;{!Loan_Amount}&quot;,
+  &quot;LoanTenure&quot;: &quot;{!Loan_Term_in_Months}&quot;
+}</text>
+    </textTemplates>
+    <variables>
+        <name>CaseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>CaseNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>CaseStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>New</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContactId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>PolicyId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>PolicyName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Supporto degli endpoint tenant-specifici per DM --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Supporto degli endpoint tenant-specifici per DM --></value>
+    </caseValues>
+    <fields>
+        <help>Abilitare questa impostazione per utilizzare endpoint specifici del tenant con Distributed Marketing.</help>
+        <label><!-- Enable DM Tenant-Specific Endpoints --></label>
+        <name>mcdm_15__EnableDMTenantSpecificEndpoints__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

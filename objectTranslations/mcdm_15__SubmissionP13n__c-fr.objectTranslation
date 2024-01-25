@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>P13n de soumission MCDM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>P13ns de soumission MCDM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bulk Send Job --></label>
+        <name>mcdm_15__Bulk_Send_Job__c</name>
+        <relationshipLabel><!-- MCDM Submission P13ns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DM Auto Send --></label>
+        <name>mcdm_15__DM_Auto_Send__c</name>
+        <relationshipLabel><!-- MCDM Submission P13ns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Journey Activity --></label>
+        <name>mcdm_15__JourneyActivityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- P13n Json --></label>
+        <name>mcdm_15__P13nJson__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de P13n de soumission MCDM</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

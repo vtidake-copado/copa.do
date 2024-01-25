@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Campo de classificação de membros da campanha --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Campos de classificação de membros da campanha --></value>
+    </caseValues>
+    <fields>
+        <help>Todas as listas de membros de campanha com aprovação de usuário do Distributed Marketing pendente serão classificadas por este campo. Associe-o a um campo no objeto do membro da campanha.</help>
+        <label><!-- Sort Field Name --></label>
+        <name>mcdm_15__SortFieldName__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

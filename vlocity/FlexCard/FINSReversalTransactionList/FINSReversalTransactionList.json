@@ -1,0 +1,156 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": "",
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n        {\n          \"frtr_transaction_amount_currency\": null,\n          \"frt_transaction_amount\": 50,\n          \"frt_reversal_amount\": 50,\n          \"frt_transaction_amount_currency\": \"USD\",\n          \"frt_override_amount\": 40,\n          \"frtr_transaction_amount\": -1,\n          \"frt_fee_type\": \"Cheque book charge\",\n          \"frt_transaction_posted_date\": \"2022-11-11T12:53:14.000Z\",\n          \"frt_transaction_code\": \"54\",\n          \"frt_override_amount_currency\": \"USD\",\n          \"frtr_error_reason\": null,\n          \"frtr_transaction_description\": \"Overdraft fee\",\n          \"frt_override_percentage\": 80,\n          \"frt_transaction_id\": \"12\",\n          \"frt_reversal_percentage\": 100,\n          \"frt_reversal_amount_currency\": \"USD\",\n          \"frtr_transaction_posted_date\": null,\n          \"frtr_transaction_id\": null\n        }\n      ]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "isRepeatable": false,
+    "lwc": {
+        "DeveloperName": "cfFINSReversalTransactionList_1_Salesforce",
+        "Id": "0RbRM0000004aVs0AI",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfFINSReversalTransactionList_1_Salesforce",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "slds-col ",
+                            "element": "flexDatatable",
+                            "elementLabel": "Datatable-0",
+                            "name": "Datatable",
+                            "property": {
+                                "card": "{card}",
+                                "cellLevelEdit": true,
+                                "columns": [
+                                    {
+                                        "fieldName": "frt_reversal_transaction_description",
+                                        "label": "Transaction Description",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "fieldName": "frt_reversal_transaction_id",
+                                        "label": "Transaction Id",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "fieldName": "frt_reversal_transaction_posted_date",
+                                        "format": "M/D/YYYY, H:MM A",
+                                        "label": "Transaction Posted Date",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "datetime"
+                                    },
+                                    {
+                                        "fieldName": "frt_override_amount",
+                                        "label": "Override Amount",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "currency"
+                                    },
+                                    {
+                                        "fieldName": "override_percentage_formatted",
+                                        "label": "Override Percentage",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "fieldName": "frt_reversal_transaction_amount",
+                                        "label": "Reversal Amount",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "currency"
+                                    }
+                                ],
+                                "groupOrder": "asc",
+                                "issearchavailable": false,
+                                "issortavailable": true,
+                                "pagelimit": 3,
+                                "record": "{record}",
+                                "records": "{records}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "slds-card slds-p-around_x-small slds-m-bottom_x-small",
+                "container": {
+                    "class": "slds-card"
+                },
+                "margin": [
+                    {
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "FINSReversalTransactionList"
+}

@@ -1,0 +1,29 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+            },
+            "value": {
+            }
+        }
+    },
+    "Description": "Clone of FSCDisplayCustomerAddresses",
+    "IsTrackingEnabled": false,
+    "Name": "FINSDisplayCustomerAddresses",
+    "Namespace": "",
+    "OmniUiCardKey": "FINSDisplayCustomerAddresses/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FINSDisplayCustomerAddresses.json",
+    "SampleDataSourceResponse": "",
+    "StylingConfiguration": "",
+    "UniqueName": "FINSDisplayCustomerAddresses_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FINSDisplayCustomerAddresses"
+}

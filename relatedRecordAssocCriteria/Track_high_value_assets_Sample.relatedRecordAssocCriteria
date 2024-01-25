@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedRecordAssocCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <associationType>BranchManagement</associationType>
+    <description>Track high value assets Sample</description>
+    <eventType>Create</eventType>
+    <masterLabel>Track high value assets Sample</masterLabel>
+    <preCondition>[FinServ__AssetsAndLiabilities__c].FinServ__Amount__c &gt;200000</preCondition>
+    <referenceObject>FinServ__AssetsAndLiabilities__c</referenceObject>
+    <selectedOwnerField>[FinServ__AssetsAndLiabilities__c].OwnerId</selectedOwnerField>
+    <status>Draft</status>
+</RelatedRecordAssocCriteria>

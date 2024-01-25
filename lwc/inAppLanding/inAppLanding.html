@@ -1,0 +1,112 @@
+<template>
+    <lightning-card footer="" title="">
+        <h1 class="slds-text-heading_medium">{welcome_text}</h1>
+        <div class="c-container">
+            <lightning-layout>
+                <lightning-layout-item flexibility="auto" padding="around-small">
+                    <p class="c-description">{description}</p>
+
+                    <c-in-app-landing-child
+                        heading="Retail Banking Learning Experience" 
+                        cloud-detail="By using Financial Services Cloud for Retail Banking, bankers, loan officers, tellers, and operations associates get a 360-degree view of their customers including customer profile, interests, life goals, and events, as well as financial accounts. Explore a trial org and learn about what’s included, what setup is recommended, and how to get ready for your implementation." 
+                        app="FinServ__FinancialServicesCloudRetailBanking"
+                        page="home"
+                        link-in-new-tab={pass_false}
+                        url="/lightning/app/FinServ__FinancialServicesCloudRetailBanking/page/home"
+                        link-reference="standard__namedPage"
+                        secondary-text-present={pass_true}
+                        secondary-text="Bankers can also onboard customers, track interactions, and get cross-departmental alerts for critical customer issues. Contact Center Agents can verify callers, view complete customer context, and conduct service transactions using a Unified Service Agent Console, eliminating the need to switch between multiple applications."></c-in-app-landing-child>
+
+                    <c-in-app-landing-child
+                        heading="Wealth Management Learning Experience" 
+                        cloud-detail="Give your financial advisors a holistic view of customers with Wealth Management, a Financial Services Cloud Lightning app. Empower your advisors to deliver the personalized, proactive service that clients expect. Accelerate user productivity with technology that helps them engage with clients like never before, and build deeper, lasting, more profitable relationships." 
+                        app="FinServ__FSC_Lightning"
+                        page="home"
+                        link-in-new-tab={pass_false}
+                        url="/lightning/app/FinServ__FSC_Lightning/page/home"
+                        link-reference="standard__namedPage"></c-in-app-landing-child>
+                    
+                    <template if:false={no_record_account}>
+                        <c-in-app-landing-child
+                            heading="Service Process Studio Learning Experience" 
+                            cloud-detail="Service Process Studio helps you design customer service processes quickly and efficiently. Service agents can launch these service processes and get started with the customer service operations.   Also click the Address Update or Fee Reversal from the Action Launcher." 
+                            app="FinServ__BankingConsoleFinancialServicesCloud"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="Use Service Process Studio to create a service process definition to configure and organize multiple actions or tasks required to design the request intake and fulfill the request. A service process definition consists of data attributes, request form, business logic, fulfillment flow, and integration definition details."
+                            tertiary-text-present={pass_true}
+                            tertiary-text="To see it in Action, click to see the Rachael Adams Person Account.  Hit the refresh icon next to the Checking Account and Saving Account Financial Account."
+                            inside-link-present={pass_true}
+                            inside-link="https://salesforce.quip.com/vRVBAND8V0RM"
+                            inside-link-before-text="&lt;strong&gt; ***IMPORTANT*** &nbsp; Some additional setup is needed to use this feature. &lt;/strong&gt;"
+                            inside-link-text="Please review the steip in Service Process Studio |  Post-Deployment Steps" ></c-in-app-landing-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-in-app-landing-child
+                            heading="Service Process Studio" 
+                            cloud-detail="Service Process Studio helps you design customer service processes quickly and efficiently. Service agents can launch these service processes and get started with the customer service operations.   Also click the Address Update or Fee Reversal from the Action Launcher." 
+                            url=""
+                            no-record={no_record_account}
+                            secondary-text-present={pass_true}
+                            secondary-text="Use Service Process Studio to create a service process definition to configure and organize multiple actions or tasks required to design the request intake and fulfill the request. A service process definition consists of data attributes, request form, business logic, fulfillment flow, and integration definition details." ></c-in-app-landing-child>
+                    </template>
+
+                    <c-in-app-landing-child
+                        heading="B2B Banking Learning Experience"
+                        cloud-detail="For investment banking and advisory teams." 
+                        app="c__FSC_Learning_Experience"
+                        page="CIB_Learning_Home"
+                        link-in-new-tab={pass_false}
+                        url="/lightning/app/c__FSC_Learning_Experience/n/CIB_Learning_Home"
+                        link-reference="standard__navItemPage"></c-in-app-landing-child>
+                    
+                    <template if:false={no_record_loan_application}>
+                        <c-in-app-landing-child
+                            heading="Lending Learning Experience"
+                            cloud-detail="Mortgage for Financial Services Cloud includes a new data model for mortgage applications, new standard flow templates, and new flow screen components." 
+                            url="/lightning/app/FinServ__FSC_Lightning/r/ResidentialLoanApplication/{loanApplicationId}/view"
+                            app="FinServ__FSC_Lightning"
+                            link-in-new-tab={pass_true}
+                            object-name="ResidentialLoanApplication"
+                            object-id={loanApplicationId}
+                            link-reference="standard__recordPage"
+                            secondary-text-present={pass_true}
+                            secondary-text="Reveiw all the Rachel Adams Residential Loan Application Sample record to see all the mortage related features."></c-in-app-landing-child>
+                    </template>
+                    <template if:true={no_record_loan_application}>
+                        <c-in-app-landing-child
+                            heading="Lending Learning Experience"
+                            cloud-detail="Mortgage for Financial Services Cloud includes a new data model for mortgage applications, new standard flow templates, and new flow screen components." 
+                            url=""
+                            no-record={no_record_loan_application}
+                            secondary-text-present={pass_true}
+                            secondary-text="Review all the Rachel Adams Residential Loan Application Sample record to see all the mortgage related features."></c-in-app-landing-child>
+                    </template>
+                    
+                    <template if:false={no_record_account}>
+                        <c-in-app-landing-child
+                            heading="FSC Insurance Learning Experience"
+                            cloud-detail="Insurance for Financial Services Cloud includes a new data model for insurance, new Lightning components, and a tailored Lightning console app: Insurance Agent Console. Insurance Agent Console helps agents and service reps track their performance and stay focused on their goals. With the new distributor performance dashboard, reports, and performance metrics, sales managers can view a consolidated performance summary for all their distributors or monitor their individual performances. Use the Insurance Agent Portal template to create a portal that gives independent insurance agents access to the insurance features and components and lets them manage and grow their books of business." 
+                            url="/lightning/app/FinServ__InsuranceConsoleFinancialServicesCloud/r/Account/{accountId}/view'}"
+                            app="FinServ__InsuranceConsoleFinancialServicesCloud"
+                            link-in-new-tab={pass_true}
+                            object-name="Account"
+                            object-id={accountId}
+                            link-reference="standard__recordPage"></c-in-app-landing-child>
+                    </template>
+                    <template if:true={no_record_account}>
+                        <c-in-app-landing-child
+                            heading="FSC Insurance Learning Experience"
+                            cloud-detail="Insurance for Financial Services Cloud includes a new data model for insurance, new Lightning components, and a tailored Lightning console app: Insurance Agent Console. Insurance Agent Console helps agents and service reps track their performance and stay focused on their goals. With the new distributor performance dashboard, reports, and performance metrics, sales managers can view a consolidated performance summary for all their distributors or monitor their individual performances. Use the Insurance Agent Portal template to create a portal that gives independent insurance agents access to the insurance features and components and lets them manage and grow their books of business." 
+                            url=""
+                            no-record={no_record_account}></c-in-app-landing-child>
+                    </template>
+                    
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

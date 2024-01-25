@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Personalisierungs-Feldzuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Personalisierungs-Feldzuordnungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Personalisierungs-Feldzuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Personalisierungs-Feldzuordnungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Personalisierungs-Feldzuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Personalisierungs-Feldzuordnungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Personalisierungs-Feldzuordnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Personalisierungs-Feldzuordnungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Destination Name --></label>
+        <name>mcdm_15__DestinationName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include In Send Payload --></label>
+        <name>mcdm_15__IncludeInSendPayload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>mcdm_15__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Name --></label>
+        <name>mcdm_15__SourceName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>mcdm_15__Type__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Personalisierungsfeldzuordnung</nameFieldLabel>
+</CustomObjectTranslation>

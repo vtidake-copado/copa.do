@@ -1,0 +1,51 @@
+[
+    {
+        "FilterGroup": 0,
+        "FormulaExpression": "FILTER(LIST(FinancialAccounts),'RecordTypeName==\"Checking Account\" OR RecordTypeName==\"Savings Account\" OR RecordTypeName==\"Credit Card\"')",
+        "FormulaResultPath": "FAs",
+        "FormulaSequence": 1,
+        "GlobalKey": "FSCFeeReversalFilterFinancialAccountsCustom0jIDo000000CqQrMAKItem1",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalFilterFinancialAccounts",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalFilterFinancialAccounts",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalFilterFinancialAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "FSCFeeReversalFilterFinancialAccountsCustom0jIDo000000CqQrMAKItem0",
+        "InputFieldName": "FinancialAccounts",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalFilterFinancialAccounts",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalFilterFinancialAccounts",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalFilterFinancialAccounts",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "FAs",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

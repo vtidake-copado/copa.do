@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Apex Class Name --></label>
+        <name>mcdm_15__ApexClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>mcdm_15__Component_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this so plugin shows in bulk send flow --></help>
+        <label><!-- Is this a Bulk Send plugin? --></label>
+        <name>mcdm_15__IsBulkSendPlugin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tab Label --></label>
+        <name>mcdm_15__TabLabel__c</name>
+    </fields>
+</CustomObjectTranslation>

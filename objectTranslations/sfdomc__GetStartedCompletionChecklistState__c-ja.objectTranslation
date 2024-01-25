@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC for NGO の使用開始チェックリスト状態</value>
+    </caseValues>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>sfdomc__Item_Id__c</name>
+    </fields>
+    <nameFieldLabel>チェックリスト状態番号</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+{
+    "Description": "",
+    "MigrationStatus": "Migrated",
+    "Name": "GetAllDocumentTypes",
+    "Namespace": "",
+    "UniqueName": "GetAllDocumentTypes",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedure",
+    "VlocityRecordSourceKey": "CalculationProcedure/GetAllDocumentTypes"
+}

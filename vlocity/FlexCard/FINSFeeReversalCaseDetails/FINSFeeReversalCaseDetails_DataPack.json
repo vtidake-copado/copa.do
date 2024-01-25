@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "Parent.caseRecordId",
+                    "val": "500RM000003pjzBYAQ"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "IntegrationProcedures",
+            "value": {
+                "dsDelay": "",
+                "inputMap": {
+                    "caseId": "{Parent.caseRecordId}"
+                },
+                "ipMethod": "FSC_FeeReversalGetAttributes",
+                "jsonMap": "{\"Parent.caseRecordId\":\"{Parent.caseRecordId}\"}",
+                "resultVar": "[\"GetFeeReversalAttributes\"]",
+                "vlocityAsync": false
+            }
+        }
+    },
+    "Description": "Clone of FSCFeeReversalCaseDetails",
+    "IsTrackingEnabled": false,
+    "Name": "FINSFeeReversalCaseDetails",
+    "Namespace": "",
+    "OmniUiCardKey": "FINSFeeReversalCaseDetails/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FINSFeeReversalCaseDetails.json",
+    "SampleDataSourceResponse": "{\"ReturnResponseStatus\":true,\"SetFAInfo\":{\"Name\":\"Adv Plus Banking\",\"FinancialAccountNumber\":\"10003509\"},\"options\":{\"vlcFilesMap\":null,\"forceQueueable\":false,\"mockHttpResponse\":null,\"ParentInteractionToken\":null,\"useFuture\":false,\"isTestProcedure\":false,\"useQueueable\":false,\"disableMetadataCache\":false,\"resetCache\":false,\"vlcIPData\":null,\"OmniAnalyticsTrackingDebug\":false,\"ignoreCache\":false,\"isDebug\":false,\"queueableChainable\":false,\"useContinuation\":false,\"chainable\":false,\"shouldCommit\":false,\"vlcTestSuiteUniqueKey\":null,\"vlcTestUniqueKey\":null,\"vlcCacheKey\":null,\"useHttpCalloutMock\":false,\"continuationStepResult\":null,\"useQueueableApexRemoting\":false},\"GetFeeReversalAttributesStatus\":true,\"caseId\":\"500RM000003pjzBYAQ\",\"response\":{\"attributes\":null},\"SetFAInfoStatus\":true,\"FSCFeeReversalTransformFinancialAccountsStatus\":true,\"GetFeeReversalAttributes\":{\"error\":\"OK\",\"errorCode\":\"INVOKE-200\",\"FAInfo\":{\"Name\":\"Adv Plus Banking\",\"AccountNumberLast4\":\"3509\",\"FinancialAccountNumber\":\"10003509\"},\"caseRequestAttr\":{\"FinancialAccountId\":\"a0URM0000004OCM2A2\",\"Transactions\":[{\"frtr_transaction_amount_currency\":null,\"frt_transaction_amount\":50,\"frt_reversal_amount\":50,\"frt_transaction_amount_currency\":\"USD\",\"frt_override_amount\":40,\"frtr_transaction_amount\":-1,\"frt_fee_type\":\"Cheque book charge\",\"frt_transaction_posted_date\":\"2022-11-11T12:53:14.000Z\",\"frt_transaction_code\":\"54\",\"frt_override_amount_currency\":\"USD\",\"frtr_error_reason\":null,\"frtr_transaction_description\":null,\"frt_override_percentage\":80,\"frt_transaction_id\":\"12\",\"frt_reversal_percentage\":100,\"frt_reversal_amount_currency\":\"USD\",\"frtr_transaction_posted_date\":null,\"frtr_transaction_id\":null}]}}}",
+    "StylingConfiguration": "",
+    "UniqueName": "FINSFeeReversalCaseDetails_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FINSFeeReversalCaseDetails"
+}

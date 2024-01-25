@@ -1,0 +1,151 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="getRecordIdForAura">
+    <aura:attribute name="app_welcome_text" type="String" default="Welcome to Corporate and Investment Banking" />
+    <aura:attribute name="app_description" type="String" default="What category of capabilities are you interested in?" />
+    <aura:attribute name="Account" type="Account[]" />
+    <aura:attribute name="InteractionSummary" type="InteractionSummary[]" />
+    <aura:attribute name="ActionPlan" type="ActionPlan[]" />
+    <aura:attribute name="HouseholdAccount" type="Account[]" />
+    <aura:attribute name="FinancialDeal" type="FinancialDeal[]" />
+    <aura:handler name="init" action="{!c.init}" value="{!this}"/>
+    <aura:attribute name="no_record_account" type="Boolean" default="false"/>
+    <aura:attribute name="no_record_household_account" type="Boolean" default="false"/>
+    <aura:attribute name="no_record_financial_deal" type="Boolean" default="false"/>
+    <aura:attribute name="no_record_action_plan" type="Boolean" default="false"/>
+    <aura:attribute name="no_record_interaction_summary" type="Boolean" default="false"/>
+	<lightning:card footer="" title="">
+        <h1 slot="title" class="slds-text-heading_medium">{!v.app_welcome_text}</h1>
+        <div class="c-footer" >
+            <a href="/lightning/app/c__FSC_Learning_Experience/page/home">Go to Landing Page</a>
+        </div>
+        <div class="c-container">
+            <lightning:layout>
+                <lightning:layoutItem flexibility="auto" padding="around-small">
+                    <p class="c-description"><b>{!v.app_description}</b></p>
+                    
+                    	<aura:if isTrue="{!v.no_record_account}">
+                            <c:FeaturePageAura heading="Actionable Relationship Center" 
+                                           image="standard:relationship" 
+                                           app_text="Actionable Relationship Center (ARC) lets you visualize your customers relationships in new ways. Use ARC to see both Financial Services Cloud relationships and related list relationships in one view. " 
+                                           url="" 
+                                           no_record="{!v.no_record_account}"
+                                           secondary_text_present="true"
+                                           secondary_text="On the Rachael Adman Person Account, click the Relationships Related list to see ARC in action." />
+                            <aura:set attribute="else">
+                                <aura:iteration items="{!v.Account}" var="a">                        
+                                	<c:FeaturePageAura heading="Actionable Relationship Center" 
+                                           image="standard:relationship" 
+                                           app_text="Actionable Relationship Center (ARC) lets you visualize your customers relationships in new ways. Use ARC to see both Financial Services Cloud relationships and related list relationships in one view. " 
+                                           url="{!'/lightning/app/FinServ__FSC_Lightning/r/Account/' + a.Id + '/view'}" 
+                                           link_in_new_tab="true"
+                                           secondary_text_present="true"
+                                           secondary_text="On the Rachael Adman Person Account, click the Relationships Related list to see ARC in action." />
+                            	</aura:iteration>
+                            </aura:set>
+                    	</aura:if>
+                    
+                      	<c:FeaturePageAura heading="Compliant Data Sharing" 
+                                           image="standard:asset_relationship" 
+                                           app_text="The Compliant Data Sharing feature lets administrators and compliance managers configure advanced data sharing rules, so that they can improve compliance with regulations and company policies. They can control and monitor what data gets shared with whom, without writing complex code. Click this link to see the options in Setup. "
+                                           url="/lightning/setup/FscDealSettings/home"
+                                           link_in_new_tab="true"
+                                           inside_link_present="true"
+                                           inside_link="https://www.youtube.com/watch?v=W4Ww0mhsRa4"
+                                           inside_link_before_text="Click this link to see the options in Setup. Watch this video on "
+                                           inside_link_text="Compliant Data Sharing"
+                                           inside_link_after_text=" for more information." />
+                    
+						<aura:if isTrue="{!v.no_record_household_account}">
+                            <c:FeaturePageAura heading="Interaction Summaries" 
+                                           image="standard:sales_channel" 
+                                           app_text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                                           url="" 
+                                           no_record="{!v.no_record_household_account}"/>
+                            <aura:set attribute="else">
+                                <aura:iteration items="{!v.HouseholdAccount}" var="ha">  
+                        			<c:FeaturePageAura heading="Interaction Summaries" 
+                                           image="standard:sales_channel" 
+                                           app_text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                                           url="{!'/lightning/app/FinServ__FSC_Lightning/r/Account/' + ha.Id + '/view'}"
+                                           link_in_new_tab="true"/>
+                        		</aura:iteration>
+                            </aura:set>
+                    	</aura:if>
+                    
+                    	<aura:if isTrue="{!v.no_record_financial_deal}">
+                            <c:FeaturePageAura heading="Finanical Deal Management" 
+                                               image="custom:custom16" 
+                                               app_text="Track more details about the bids and assets that are part of a financial deal. See at a glance who's involved in a deal with the new Financial Deal Parties component." 
+                                               url=""
+                                               no_record="{!v.no_record_financial_deal}" />
+                            <aura:set attribute="else">
+                                <aura:iteration items="{!v.FinancialDeal}" var="fd">  
+                            		<c:FeaturePageAura heading="Finanical Deal Management" 
+                                               image="custom:custom16" 
+                                               app_text="Track more details about the bids and assets that are part of a financial deal. See at a glance who's involved in a deal with the new Financial Deal Parties component." 
+                                               url="{!'/lightning/app/FinServ__FSC_Lightning/r/FinancialDeal/' + fd.Id + '/view'}"
+                                               link_in_new_tab="true"/>
+                        		</aura:iteration>
+                            </aura:set>
+                    	</aura:if>
+                    
+                    	<aura:if isTrue="{!v.no_record_account}">
+                            <c:FeaturePageAura heading="Client Interactions" 
+                                           image="standard:sales_channel" 
+                                           app_text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                                           url="" 
+                                           no_record="{!v.no_record_account}" />
+                            <aura:set attribute="else">
+                                <aura:iteration items="{!v.Account}" var="a">                        
+                        			<c:FeaturePageAura heading="Client Interactions" 
+                                           image="standard:sales_channel" 
+                                           app_text="Help bankers and financial advisors build and deepen customer relationships with the interaction summaries data model and Lightning components. Your users can manage every aspect of client and partner interactions and take advantage of structured note-taking and compliant, role-based data sharing options. When you add the Interaction Summaries component to the home or account page, they can create interaction summaries linked with interactions. And by adding the Interaction Attendees component to the interaction summary or interaction page, they can easily view and add attendees." 
+                                           url="{!'/lightning/app/FinServ__FSC_Lightning/r/Account/' + a.Id + '/view'}" 
+                                           link_in_new_tab="true"/>
+                        		</aura:iteration>
+                            </aura:set>
+                    	</aura:if>
+                    	
+                    	<aura:if isTrue="{!v.no_record_action_plan}">
+                            <c:FeaturePageAura heading="Action Plans" 
+                                           image="standard:asset_action_source" 
+                                           app_text="Capture repeatable tasks in templates and then automate the task sequences with an action plan. Enhance collaboration and productivity by automatically assigning task owners and deadlines for specific client engagement, such as account openings, loan approvals, and claims processing. Create reports and dashboards to monitor progress and ensure compliance." 
+                                           url="" 
+                                           no_record="{!v.no_record_action_plan}" />
+                            <aura:set attribute="else">
+                                <aura:iteration items="{!v.ActionPlan}" var="ap">                        
+                        			<c:FeaturePageAura heading="Action Plans" 
+                                           image="standard:asset_action_source" 
+                                           app_text="Capture repeatable tasks in templates and then automate the task sequences with an action plan. Enhance collaboration and productivity by automatically assigning task owners and deadlines for specific client engagement, such as account openings, loan approvals, and claims processing. Create reports and dashboards to monitor progress and ensure compliance." 
+                                           url="{!'/lightning/app/FinServ__FSC_Lightning/r/ActionPlan/' + ap.Id + '/view'}" 
+                                           link_in_new_tab="true"/>
+                        		</aura:iteration>
+                            </aura:set>
+                    	</aura:if>
+                    	
+                        <aura:if isTrue="{!v.no_record_account}">
+                            <c:FeaturePageAura heading="Document Tracking and Approvals" 
+                                           image="standard:file" 
+                                           app_text="Create a document checklist item for each file required from a customer.  A customer or user then uploads a relevant file for the document checklist item, and the files are tracked through an approval process. Customers upload new versions of rejected documents and track the progress of their uploaded documentation from submission to approval." 
+                                           url="" 
+                                           no_record="{!v.no_record_account}" />
+                            <aura:set attribute="else">
+                                <aura:iteration items="{!v.Account}" var="a">                        
+                        			<c:FeaturePageAura heading="Document Tracking and Approvals" 
+                                           image="standard:file" 
+                                           app_text="Create a document checklist item for each file required from a customer.  A customer or user then uploads a relevant file for the document checklist item, and the files are tracked through an approval process. Customers upload new versions of rejected documents and track the progress of their uploaded documentation from submission to approval." 
+                                           url="{!'/lightning/app/FinServ__FSC_Lightning/r/Account/' + a.Id + '/related/DocumentChecklistItemAccount/view'}" 
+                                           link_in_new_tab="true"/>
+                        		</aura:iteration>
+                            </aura:set>
+                    	</aura:if>
+                        
+                      	<c:FeaturePageAura heading="Tableau CRM for Financial Services" 
+                                           image="standard:channel_programs" 
+                                           app_text="Tableau CRM for Financial Services gives financial advisors and personal bankers a comprehensive customer intelligence solution based on the Tableau CRM platform. It includes Einstein Discovery, which lets you create automated artificial intelligence models on any dataset without writing code." 
+                                           url="/analytics/home/recent"
+                                           link_in_new_tab="true"/>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </div>
+    </lightning:card>
+</aura:component>

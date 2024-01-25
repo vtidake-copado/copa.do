@@ -1,0 +1,19 @@
+{
+    "AccountId": "001RM000005Uqd1YAC",
+    "FeeReversalTransactions": {
+        "IsOlderThan90Days": false,
+        "Reason": "-",
+        "Status": "Reversible",
+        "TransactionAmount": 13,
+        "TransactionAmountCurrency": "USD",
+        "TransactionCode": "FEE",
+        "TransactionDescription": "No funds",
+        "TransactionId": "6",
+        "TransactionPostedDate": "2022-10-05T16:41:41.090Z",
+        "TransactionType": "Fee",
+        "expanded": true
+    },
+    "FinancialAccountId": "a0URM0000004OCM2A2",
+    "SourceSystemId": "test123",
+    "svcCatalogItemDefApiName": "FeeReversal"
+}

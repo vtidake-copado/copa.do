@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DM アクティビティログ</value>
+    </caseValues>
+    <fields>
+        <help>この送信のメールまたは SMS アクティビティを示します。</help>
+        <label><!-- Activity Send Type --></label>
+        <name>mcdm_15__Activity_Send_Type__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連する DM 送信を承認したユーザを示します。</help>
+        <label><!-- Approver --></label>
+        <name>mcdm_15__Approver__c</name>
+        <relationshipLabel><!-- DM Activity Log (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>検索が削除されている場合は一括送信ジョブを示します。</help>
+        <label><!-- Bulk Send Job ID --></label>
+        <name>mcdm_15__Bulk_Send_Job_ID__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティをトリガした一括送信ジョブを示します。</help>
+        <label><!-- Bulk Send Job --></label>
+        <name>mcdm_15__Bulk_Send_Job__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>検索が削除されている場合はキャンペーンを示します。</help>
+        <label><!-- Campaign ID --></label>
+        <name>mcdm_15__Campaign_ID__c</name>
+    </fields>
+    <fields>
+        <help>検索が削除されている場合はキャンペーンリンクジャーニーを示します。</help>
+        <label><!-- Campaign Linked Journey ID --></label>
+        <name>mcdm_15__Campaign_Linked_Journey_ID__c</name>
+    </fields>
+    <fields>
+        <help>送信でキャンペーン送信フローが使用された場合はキャンペーンメンバーを示します。</help>
+        <label><!-- Campaign Member ID --></label>
+        <name>mcdm_15__Campaign_Member_ID__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがキャンペーン送信フローに関連するかどうかを示します。</help>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>送信で使用されたケースレコードを示します。</help>
+        <label><!-- Case ID --></label>
+        <name>mcdm_15__Case_ID__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティがクイック送信アクティビティに関連していた場合、このアクティビティに関連付けられたケースオブジェクト。</help>
+        <label><!-- Case --></label>
+        <name>mcdm_15__Case__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>DM 送信アクションの一意の ID。レポートでこの ID を使用して DM 送信を送信アクション別にグループ化します。</help>
+        <label><!-- DM Action ID --></label>
+        <name>mcdm_15__DM_Action_ID__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連する DM 自動送信を示します。</help>
+        <label><!-- DM Auto Send ID --></label>
+        <name>mcdm_15__DM_Auto_Send_ID__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティが DM 自動送信に関連するかどうかを示します。</help>
+        <label><!-- DM Auto Send --></label>
+        <name>mcdm_15__DM_Auto_Send__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>挿入中または挿入後に発生した DM 固有のエラーメッセージ。</help>
+        <label><!-- DM Error --></label>
+        <name>mcdm_15__DM_Error__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティに関連付けられた DM スケジュール済み送信を示します。</help>
+        <label><!-- DM Scheduled Send ID --></label>
+        <name>mcdm_15__DM_Scheduled_Send_ID__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティが DM スケジュール済み送信フローに関連するかどうかを示します。</help>
+        <label><!-- DM Scheduled Send --></label>
+        <name>mcdm_15__DM_Scheduled_Send__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>使用可能な組み合わせからの DM 送信種別を示します</help>
+        <label><!-- MCDM Send Type --></label>
+        <name>mcdm_15__DM_Send_Type__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティに関連する DM 申請レコードを示します。</help>
+        <label><!-- DM Submission ID --></label>
+        <name>mcdm_15__DM_Submission_ID__c</name>
+    </fields>
+    <fields>
+        <help>承認送信フローアクティビティに関連する DM 申請オブジェクトを示します。</help>
+        <label><!-- DM Submission --></label>
+        <name>mcdm_15__DM_Submission__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>DM エントリソース用に保存された DM 挿入の一意の ID。この ID を使用して Marketing Cloud データを DM アクティビティログに関連付けます。</help>
+        <label><!-- DM Tracking ID --></label>
+        <name>mcdm_15__DM_Tracking_ID__c</name>
+    </fields>
+    <fields>
+        <help>Marketing Cloud メールアクティビティを示します。</help>
+        <label><!-- Email ID --></label>
+        <name>mcdm_15__Email_ID__c</name>
+    </fields>
+    <fields>
+        <help>Marketing Cloud メールアクティビティの名前。</help>
+        <label><!-- Email Name --></label>
+        <name>mcdm_15__Email_Name__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連するメールのプリヘッダー。</help>
+        <label><!-- Email Pre Header --></label>
+        <name>mcdm_15__Email_Pre_Header__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連するメールの件名行。</help>
+        <label><!-- Email Subject Line --></label>
+        <name>mcdm_15__Email_Subject_Line__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティ挿入に関連するエラーを示します。</help>
+        <label><!-- Has Injection Error --></label>
+        <name>mcdm_15__Has_Injection_Error__c</name>
+    </fields>
+    <fields>
+        <help>DM P13n フィールドマッピングが「エントリソースの拡張」データエクステンションを介してアクティビティに適用されたことを示します。</help>
+        <label><!-- Has P13n Field Mappings --></label>
+        <name>mcdm_15__Has_P13n_Field_Mappings__c</name>
+    </fields>
+    <fields>
+        <help>DM パーソナライズがこのアクティビティに適用されていることを示します。</help>
+        <label><!-- Has Personalizations --></label>
+        <name>mcdm_15__Has_Personalizations__c</name>
+    </fields>
+    <fields>
+        <help>Marketing Cloud Connect パッケージ内のエンゲージメントデータと IER レコード間のリンクを示します。</help>
+        <label><!-- IER Linking ID --></label>
+        <name>mcdm_15__IER_Linking_ID__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連する DM 送信を開始したユーザを示します。この値は [送信元ユーザ] 値と異なる場合があります。</help>
+        <label><!-- Initial Sender --></label>
+        <name>mcdm_15__Initial_Sender__c</name>
+        <relationshipLabel><!-- DM Activity Log (Initial Sender) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入された取引先責任者を示します。</help>
+        <label><!-- Injected Contact --></label>
+        <name>mcdm_15__Injected_Contact__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入されたリードを示します。</help>
+        <label><!-- Injected Lead --></label>
+        <name>mcdm_15__Injected_Lead__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>アクティビティが承認フローを通じて送信されたことを示します。</help>
+        <label><!-- Is Approval --></label>
+        <name>mcdm_15__Is_Approval__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティが自動送信フローを通じて送信されたことを示します。</help>
+        <label><!-- Is Auto Send --></label>
+        <name>mcdm_15__Is_Auto_Send__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティが一括送信フローを通じて送信されたことを示します。</help>
+        <label><!-- Is Bulk Send --></label>
+        <name>mcdm_15__Is_Bulk_Send__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがキャンペーン送信フローを通じて送信されたことを示します。</help>
+        <label><!-- Is Campaign Send --></label>
+        <name>mcdm_15__Is_Campaign_Send__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティが取引先責任者に送信されたことを示します。</help>
+        <label><!-- Is Contact --></label>
+        <name>mcdm_15__Is_Contact__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがリードに送信されたことを示します。</help>
+        <label><!-- Is Lead --></label>
+        <name>mcdm_15__Is_Lead__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがリストビュー一括アクションフローを通じて送信されたことを示します。</help>
+        <label><!-- Is List View Send --></label>
+        <name>mcdm_15__Is_List_View_Send__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティが個人取引先に送信されたことを示します。</help>
+        <label><!-- Is Person Account Entry --></label>
+        <name>mcdm_15__Is_Person_Account__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがクイック送信フローを通じて送信されたことを示します。</help>
+        <label><!-- Is Quick Send --></label>
+        <name>mcdm_15__Is_Quick_Send__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがスケジュール済みフローを通じて送信されたことを示します。</help>
+        <label><!-- Is Scheduled --></label>
+        <name>mcdm_15__Is_Scheduled__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがセグメント化送信フローを通じて送信されたことを示します。</help>
+        <label><!-- Is Segmented Send --></label>
+        <name>mcdm_15__Is_Segmented_Send__c</name>
+    </fields>
+    <fields>
+        <help>Marketing Cloud ジャーニーを示します。</help>
+        <label><!-- Journey ID --></label>
+        <name>mcdm_15__Journey_ID__c</name>
+    </fields>
+    <fields>
+        <help>Marketing Cloud ジャーニーの名前。</help>
+        <label><!-- Journey Name --></label>
+        <name>mcdm_15__Journey_Name__c</name>
+    </fields>
+    <fields>
+        <help>アクティビティがキャンペーンリンクジャーニーに関連するかどうかを示します。</help>
+        <label><!-- Campaign Linked Journey --></label>
+        <name>mcdm_15__Linked_Journey__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marketing Cloud ジャーニーのバージョンを示します。</help>
+        <label><!-- MC Journey Version --></label>
+        <name>mcdm_15__MC_Journey_Version__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連付けられた Marketing Cloud トリガによる送信を示します。</help>
+        <label><!-- MC Triggered Send ID --></label>
+        <name>mcdm_15__MC_Triggered_Send_ID__c</name>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入されたメンバーのメールアドレス。</help>
+        <label><!-- Member Email --></label>
+        <name>mcdm_15__Member_Email__c</name>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入されたメンバーの名。</help>
+        <label><!-- Member First Name --></label>
+        <name>mcdm_15__Member_First_Name__c</name>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入されたメンバーの姓。</help>
+        <label><!-- Member Last Name --></label>
+        <name>mcdm_15__Member_Last_Name__c</name>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入されたメンバーの名前。</help>
+        <label><!-- Member Name --></label>
+        <name>mcdm_15__Member_Name__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティで使用された電話番号フィールドの API 参照名。</help>
+        <label><!-- Member Phone Field Used --></label>
+        <name>mcdm_15__Member_Phone_Field_Used__c</name>
+    </fields>
+    <fields>
+        <help>ジャーニーに挿入されたメンバーの電話番号。</help>
+        <label><!-- Member Phone --></label>
+        <name>mcdm_15__Member_Phone__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連付けられた商談レコードを示します。</help>
+        <label><!-- Opportunity ID --></label>
+        <name>mcdm_15__Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <help>クイック送信アクティビティに関連する商談オブジェクトを示します。</help>
+        <label><!-- Opportunity --></label>
+        <name>mcdm_15__Opportunity__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>このアクティビティに関連付けられたクイック送信メッセージレコードを示します。</help>
+        <label><!-- Quick Send Message ID --></label>
+        <name>mcdm_15__Quick_Send_Message_ID__c</name>
+    </fields>
+    <fields>
+        <help>クイック送信アクティビティに関連するクイック送信メッセージオブジェクトを示します。</help>
+        <label><!-- Quick Send Message --></label>
+        <name>mcdm_15__Quick_Send_Message__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marketing Cloud SMS アクティビティを示します。</help>
+        <label><!-- SMS ID --></label>
+        <name>mcdm_15__SMS_ID__c</name>
+    </fields>
+    <fields>
+        <help>Marketing Cloud SMS アクティビティの名前。</help>
+        <label><!-- SMS Name --></label>
+        <name>mcdm_15__SMS_Name__c</name>
+    </fields>
+    <fields>
+        <help>送信元ユーザのメールアドレス。</help>
+        <label><!-- Send From Email --></label>
+        <name>mcdm_15__Send_From_Email__c</name>
+    </fields>
+    <fields>
+        <help>送信元ユーザの名前。</help>
+        <label><!-- Send From Name --></label>
+        <name>mcdm_15__Send_From_Name__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティに使用された送信元設定を示します。</help>
+        <label><!-- Send From Setting --></label>
+        <name>mcdm_15__Send_From_Setting__c</name>
+    </fields>
+    <fields>
+        <help>このアクティビティの送信元ユーザを示します。</help>
+        <label><!-- Send From User --></label>
+        <name>mcdm_15__Send_From_User__c</name>
+        <relationshipLabel><!-- DM Activity Log (Send From User) --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>DM アクティビティログ名</nameFieldLabel>
+</CustomObjectTranslation>

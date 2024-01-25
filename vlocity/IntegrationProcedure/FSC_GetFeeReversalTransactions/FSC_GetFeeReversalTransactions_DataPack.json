@@ -1,0 +1,29 @@
+{
+    "CustomJavaScript": "FSC_GetFeeReversalTransactions_SampleInput.json",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": true,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "FSCGetFeeReversalTransactions",
+    "OmniProcessElement": [
+        "FSC_GetFeeReversalTransactions_Element_FSCFeeReversalGetStartDate.json",
+        "FSC_GetFeeReversalTransactions_Element_RemoteActionGetFAT.json",
+        "FSC_GetFeeReversalTransactions_Element_FSCFeeReversalGetFeeTypes.json",
+        "FSC_GetFeeReversalTransactions_Element_ReturnDataJson.json"
+    ],
+    "OmniProcessKey": "FSC_GetFeeReversalTransactions",
+    "OmniProcessType": "Integration Procedure",
+    "OverrideKey": "fscserviceprocess__FSC_GetFeeReversalTransactions_Procedure_1",
+    "PropertySetConfig": "FSC_GetFeeReversalTransactions_PropertySetConfig.json",
+    "SubType": "GetFeeReversalTransactions",
+    "Type": "FSC",
+    "UniqueName": "FSC_GetFeeReversalTransactions_Procedure_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/FSC/GetFeeReversalTransactions/Procedure",
+    "WebComponentKey": "8f575008-5cf8-5fa7-b3cc-8dc433186cba"
+}

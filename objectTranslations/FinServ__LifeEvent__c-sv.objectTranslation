@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Livshändelsen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En livshändelse</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Livshändelse</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Livshändelserna</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Livshändelser</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Livshändelser</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Life Event Required --></label>
+        <name>LifeEventRequired</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Client --></label>
+        <name>FinServ__Client__c</name>
+        <relationshipLabel><!-- Life Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Discussion Note --></label>
+        <name>FinServ__DiscussionNote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Date --></label>
+        <name>FinServ__EventDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>FinServ__EventType__c</name>
+        <picklistValues>
+            <masterLabel>College</masterLabel>
+            <translation>Universitet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Baby</masterLabel>
+            <translation>Nytt barn</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation>Ny verksamhet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Home</masterLabel>
+            <translation>Nytt hem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Job</masterLabel>
+            <translation>Nytt jobb</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement</masterLabel>
+            <translation>Pension</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Financial Goal --></label>
+        <name>FinServ__FinancialGoal__c</name>
+        <relationshipLabel><!-- Life Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Goal Type --></label>
+        <name>FinServ__GoalType__c</name>
+        <picklistValues>
+            <masterLabel>Saving for College</masterLabel>
+            <translation>Spara till utbildning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saving for Retirement</masterLabel>
+            <translation>Spara till pension</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på livshändelse</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Unità operativa Marketing Cloud</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Unità operative Marketing Cloud</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>mcdm_15__AccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth Provider Name --></label>
+        <name>mcdm_15__AuthProviderName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auth Settings ID --></label>
+        <name>mcdm_15__AuthSettingsId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit Name --></label>
+        <name>mcdm_15__BusinessUnitName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connection Status --></label>
+        <name>mcdm_15__Connection_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Name --></label>
+        <name>mcdm_15__DisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enabled --></label>
+        <name>mcdm_15__Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized? --></label>
+        <name>mcdm_15__IsAuthorized__c</name>
+    </fields>
+    <fields>
+        <label><!-- MID --></label>
+        <name>mcdm_15__Mid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credential API Name --></label>
+        <name>mcdm_15__NamedCredentialApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credential ID --></label>
+        <name>mcdm_15__NamedCredentialId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stub Auth Settings ID --></label>
+        <name>mcdm_15__StubAuthSettingsId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suffix Number --></label>
+        <name>mcdm_15__SuffixNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- TSE Migration Legacy Id --></label>
+        <name>mcdm_15__TSEMigrationLegacyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- - --></label>
+        <name>mcdm_15__TSEMigrationStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>mcdm_15__Username__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome unità operativa collegata</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

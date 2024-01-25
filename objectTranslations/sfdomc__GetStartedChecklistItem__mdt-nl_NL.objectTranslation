@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Item van Aan de slag-checklist --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Items van Aan de slag-checklist --></value>
+    </caseValues>
+    <fields>
+        <help>Aanvullende gedetailleerde stappen</help>
+        <label><!-- Additional Steps --></label>
+        <name>sfdomc__Additional_Steps__c</name>
+    </fields>
+    <fields>
+        <help>De API-naam van het beschrijvingslabel voor dit item op de pagina Aan de slag. Moet overeenkomen met een geïmporteerd label in de LWC van gsLabelMapper.</help>
+        <label><!-- Description Label Name --></label>
+        <name>sfdomc__Description_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed Steps --></label>
+        <name>sfdomc__Detailed_Steps__c</name>
+    </fields>
+    <fields>
+        <help>De API-naam van het label dat extra informatie verschaft over een sectie-item, bijvoorbeeld duur van video, PDF, enzovoort. Wordt in de rechterbovenhoek weergegeven.</help>
+        <label><!-- Extra Info Label Name --></label>
+        <name>sfdomc__Extra_Info_Label__c</name>
+    </fields>
+    <fields>
+        <help>De sectie waarin dit item staat op de pagina Aan de slag.</help>
+        <label><!-- GS Checklist Section --></label>
+        <name>sfdomc__GS_Checklist_Section__c</name>
+        <relationshipLabel><!-- GS Checklist Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Geeft aan dat het item een koppeling bevat om weer te geven.</help>
+        <label><!-- Has Link --></label>
+        <name>sfdomc__Has_Link__c</name>
+    </fields>
+    <fields>
+        <help>De bestandsnaam van de afbeelding in de statische resource CumulusResources (in de map gsAssets/step) die moet worden weergegeven.</help>
+        <label><!-- Image --></label>
+        <name>sfdomc__Image__c</name>
+    </fields>
+    <fields>
+        <help>De API-naam van het label voor een koppeling op de pagina Aan de slag. Moet overeenkomen met een geïmporteerd label in de LWC van gsLabelMapper.</help>
+        <label><!-- Link Label Name --></label>
+        <name>sfdomc__Link_Label__c</name>
+    </fields>
+    <fields>
+        <help>De doel-URL voor een koppeling op de pagina Aan de slag.</help>
+        <label><!-- Link URL --></label>
+        <name>sfdomc__Link_URL__c</name>
+    </fields>
+    <fields>
+        <help>De positie van dit sectie-item op de pagina Aan de slag.</help>
+        <label><!-- Position --></label>
+        <name>sfdomc__Position__c</name>
+    </fields>
+    <fields>
+        <help>De API-naam van het label voor de primaire knop in een sectie-item op de pagina Aan de slag. Moet overeenkomen met een geïmporteerd label in de LWC van gsLabelMapper.</help>
+        <label><!-- Primary Button Label Name --></label>
+        <name>sfdomc__Primary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help>Het soort actie dat aan de primaire knop is gekoppeld. Geeft aan of de knop is uitgeschakeld, een nieuw Salesforce-tabblad opent of een externe pagina opent.</help>
+        <label><!-- Primary Button Type --></label>
+        <name>sfdomc__Primary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>Uitgeschakeld</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation>Externe pagina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation>Nieuw tabblad SFDC</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Actie van de primaire knop.
+Voor een externe-paginaknop is dit de externe URL.
+Voor &apos;Nieuw tabblad SFDC&apos; is de notatie &quot;{pageReference}:{objectOrPageApiName}:{action}&quot;. Zie de Lightning NavigationMixin-documentatie voor voorbeelden en specificaties.</help>
+        <label><!-- Primary Button Value --></label>
+        <name>sfdomc__Primary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help>De API-naam van het label voor de secundaire knop in een sectie-item op de pagina Aan de slag. Moet overeenkomen met een geïmporteerd label in de LWC van gsLabelMapper.</help>
+        <label><!-- Secondary Button Label Name --></label>
+        <name>sfdomc__Secondary_Button_Label__c</name>
+    </fields>
+    <fields>
+        <help>Het soort actie dat aan de secundaire knop is gekoppeld. Geeft aan of de knop is uitgeschakeld, een nieuw Salesforce-tabblad opent of een externe pagina opent.</help>
+        <label><!-- Secondary Button Type --></label>
+        <name>sfdomc__Secondary_Button_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation>Uitgeschakeld</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Page</masterLabel>
+            <translation>Externe pagina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC New Tab</masterLabel>
+            <translation>Nieuw tabblad SFDC</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Actie van de secundaire knop.
+Voor een externe-paginaknop is dit de externe URL.
+Voor &apos;Nieuw tabblad SFDC&apos; is de notatie &quot;{pageReference}:{objectOrPageApiName}:{action}&quot;. Zie de Lightning NavigationMixin-documentatie voor voorbeelden en specificaties.</help>
+        <label><!-- Secondary Button Value --></label>
+        <name>sfdomc__Secondary_Button_Value__c</name>
+    </fields>
+    <fields>
+        <help>De API-naam van de titellabel voor een sectie-item op de pagina Aan de slag. Moet overeenkomen met een geïmporteerd label in de LWC van gsLabelMapper.</help>
+        <label><!-- Title Label Name --></label>
+        <name>sfdomc__Title_Label__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

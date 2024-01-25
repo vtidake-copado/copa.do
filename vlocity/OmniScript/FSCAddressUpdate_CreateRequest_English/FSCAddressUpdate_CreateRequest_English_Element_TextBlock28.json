@@ -1,0 +1,40 @@
+{
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TextBlock28",
+    "OmniProcessId": {
+        "Name": "Change Address",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FSCAddressUpdate/CreateRequest/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "UploadDocuments",
+        "OmniProcessId": {
+            "Name": "Change Address",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/FSCAddressUpdate/CreateRequest/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/FSCAddressUpdate/CreateRequest/English/UploadDocuments",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "UploadDocuments",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock2",
+        "lwcComponentOverride": "",
+        "sanitize": false,
+        "show": null,
+        "text": "<p><span style=\"color: #000000;\"><strong>&nbsp; List of valid document types</strong></span></p>\n<ul>\n<li><span style=\"color: #000000;\">Valid Driver's License.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></li>\n<li dir=\"ltr\"><span style=\"color: #000000;\">Property Tax Reciept.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></li>\n<li><span style=\"color: #000000;\">Posted Mail with name of applicant.</span></li>\n<li><span style=\"color: #000000;\">Utility bill.</span></li>\n<li><span style=\"color: #000000;\">Insurance Card.</span></li>\n<li><span style=\"color: #000000;\">Voter Registration Card.</span></li>\n<li><span style=\"color: #000000;\">College Enrollment Papers.</span></li>\n</ul>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FSCAddressUpdate/CreateRequest/English/TextBlock28"
+}

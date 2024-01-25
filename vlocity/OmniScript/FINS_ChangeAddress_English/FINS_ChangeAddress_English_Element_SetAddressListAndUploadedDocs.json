@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetAddressListAndUploadedDocs",
+    "OmniProcessId": {
+        "Name": "Change Address",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FINS/ChangeAddress/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "accountAddressList": "=%CustomLWC2:OutputData:selectedaccounts%",
+            "customerAddressList": "=%CustomLWC1:OutputData:selectedaccounts%",
+            "uploadedDocuments": "%UploadDocuments:DocumentsClone%",
+            "uploadedFileNames": "%completeDocumentInfo%"
+        },
+        "label": "SetAddressListAndUploadedDocs",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FINS/ChangeAddress/English/SetAddressListAndUploadedDocs"
+}

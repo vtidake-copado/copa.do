@@ -1,0 +1,23 @@
+{
+    "Account": {
+        "BillingAddress": "Text",
+        "BillingCity": "Text",
+        "BillingCountry": "Text",
+        "BillingPostalCode": "Text",
+        "BillingState": "Text",
+        "BillingStreet": "Text",
+        "Id": "Text"
+    },
+    "EmployerContacts": [
+        {
+            "Id": "",
+            "name": "",
+            "phoneNumber": ""
+        },
+        {
+            "Id": "",
+            "name": "",
+            "phoneNumber": ""
+        }
+    ]
+}

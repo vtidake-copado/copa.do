@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used for Discovery against Marketing Cloud by Distributed Marketing (PROD)</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://mcc3xjm5sg596gk5gtpww8ft0631.auth.marketingcloudapis.com</url>
+</RemoteSiteSetting>

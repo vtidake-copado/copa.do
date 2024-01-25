@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Champ de tri des membres de campagne --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Champ de tri des membres de campagne --></value>
+    </caseValues>
+    <fields>
+        <help>Toutes les listes de membres de campagne en attente d&apos;approbation de l&apos;utilisateur de Distributed Marketing sont triées par ce champ. Associez-le à un champ de l&apos;objet membre campagne.</help>
+        <label><!-- Sort Field Name --></label>
+        <name>mcdm_15__SortFieldName__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Custom",
+            "value": {
+                "body": "[\n        {\n          \"frtr_transaction_amount_currency\": null,\n          \"frt_transaction_amount\": 50,\n          \"frt_reversal_amount\": 50,\n          \"frt_transaction_amount_currency\": \"USD\",\n          \"frt_override_amount\": 40,\n          \"frtr_transaction_amount\": -1,\n          \"frt_fee_type\": \"Cheque book charge\",\n          \"frt_transaction_posted_date\": \"2022-11-11T12:53:14.000Z\",\n          \"frt_transaction_code\": \"54\",\n          \"frt_override_amount_currency\": \"USD\",\n          \"frtr_error_reason\": null,\n          \"frtr_transaction_description\": \"Overdraft fee\",\n          \"frt_override_percentage\": 80,\n          \"frt_transaction_id\": \"12\",\n          \"frt_reversal_percentage\": 100,\n          \"frt_reversal_amount_currency\": \"USD\",\n          \"frtr_transaction_posted_date\": null,\n          \"frtr_transaction_id\": null\n        }\n      ]",
+                "dsDelay": "",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Clone of FSCReversalTransactionList",
+    "IsTrackingEnabled": false,
+    "Name": "FINSReversalTransactionList",
+    "Namespace": "",
+    "OmniUiCardKey": "FINSReversalTransactionList/Salesforce/1.0",
+    "OmniUiCardType": "Child",
+    "OverrideKey": "",
+    "PropertySetConfig": "FINSReversalTransactionList.json",
+    "SampleDataSourceResponse": "[{\"frtr_transaction_amount_currency\":null,\"frt_transaction_amount\":50,\"frt_reversal_amount\":50,\"frt_transaction_amount_currency\":\"USD\",\"frt_override_amount\":40,\"frtr_transaction_amount\":-1,\"frt_fee_type\":\"Cheque book charge\",\"frt_transaction_posted_date\":\"2022-11-11T12:53:14.000Z\",\"frt_transaction_code\":\"54\",\"frt_override_amount_currency\":\"USD\",\"frtr_error_reason\":null,\"frtr_transaction_description\":\"Overdraft fee\",\"frt_override_percentage\":80,\"frt_transaction_id\":\"12\",\"frt_reversal_percentage\":100,\"frt_reversal_amount_currency\":\"USD\",\"frtr_transaction_posted_date\":null,\"frtr_transaction_id\":null}]",
+    "StylingConfiguration": "",
+    "UniqueName": "FINSReversalTransactionList_Salesforce_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FINSReversalTransactionList"
+}

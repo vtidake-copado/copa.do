@@ -1,0 +1,2 @@
+<apex:page standardController="Contact" extensions="FinServ.WMContactControllerExtension" showHeader="true" sidebar="true" action="{!urlRedirect}">
+</apex:page>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC for NGO Get Started Checklist State</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MC for NGO Get Started Checklist States</value>
+    </caseValues>
+    <fields>
+        <label><!-- Item Id --></label>
+        <name>sfdomc__Item_Id__c</name>
+    </fields>
+    <nameFieldLabel>Checklist State Number</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

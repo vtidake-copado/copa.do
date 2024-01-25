@@ -1,0 +1,77 @@
+[
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "FSCGetSvcCatalogDefinitionNameCustom0jIDo000000CqRfMAKItem2",
+        "InputFieldName": "catalogRequest:catalogItemDef:DeveloperName",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCGetSvcCatalogDefinitionName",
+        "OmniDataTransformationId": {
+            "Name": "FSCGetSvcCatalogDefinitionName",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCGetSvcCatalogDefinitionName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "serviceCatalogDefName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "caseId",
+        "GlobalKey": "FSCGetSvcCatalogDefinitionNameCustom0jIDo000000CqRfMAKItem1",
+        "InputFieldName": "CaseId",
+        "InputObjectName": "SvcCatalogRequest",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCGetSvcCatalogDefinitionName",
+        "OmniDataTransformationId": {
+            "Name": "FSCGetSvcCatalogDefinitionName",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCGetSvcCatalogDefinitionName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "catalogRequest",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "catalogRequest:SvcCatalogItemDefinitionId",
+        "GlobalKey": "FSCGetSvcCatalogDefinitionNameCustom0jIDo000000CqRfMAKItem0",
+        "InputFieldName": "Id",
+        "InputObjectName": "SvcCatalogItemDef",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCGetSvcCatalogDefinitionName",
+        "OmniDataTransformationId": {
+            "Name": "FSCGetSvcCatalogDefinitionName",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCGetSvcCatalogDefinitionName",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "catalogRequest:catalogItemDef",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

@@ -1,0 +1,45 @@
+{
+    "AuthorName": "Salesforce",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+                {
+                    "id": 1,
+                    "name": "recordId",
+                    "val": "500Do000004frPWIAY"
+                }
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "DataRaptor",
+            "value": {
+                "bundle": "FSCGetSvcCatalogDefinitionName",
+                "bundleType": "",
+                "dsDelay": "",
+                "inputMap": {
+                    "caseId": "{recordId}"
+                },
+                "jsonMap": "{\"recordId\":\"{recordId}\"}",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "Clone of the FSCCaseDetailsServiceCatalogRequest",
+    "IsTrackingEnabled": false,
+    "Name": "FINSCaseDetailsServiceCatalogRequest",
+    "Namespace": "",
+    "OmniUiCardKey": "FINSCaseDetailsServiceCatalogRequest/Salesforce/2.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "FINSCaseDetailsServiceCatalogRequest.json",
+    "SampleDataSourceResponse": "[]",
+    "StylingConfiguration": "",
+    "UniqueName": "FINSCaseDetailsServiceCatalogRequest_Salesforce_2",
+    "VersionNumber": 2,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FINSCaseDetailsServiceCatalogRequest"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Journey-Genehmigungs-Plugin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Journey-Genehmigungs-Plugins</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Journey-Genehmigungs-Plugin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Journey-Genehmigungs-Plugins</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Journey-Genehmigungs-Plugins</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Journey-Genehmigungs-Plugins</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Journey-Genehmigungs-Plugin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Journey-Genehmigungs-Plugins</value>
+    </caseValues>
+    <fields>
+        <label><!-- Apex Class Name --></label>
+        <name>mcdm_15__ApexClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Name --></label>
+        <name>mcdm_15__Component_Name__c</name>
+    </fields>
+    <fields>
+        <help>Aktivieren Sie diese Option, damit das Plugin im Massenversand-Flow angezeigt wird.</help>
+        <label><!-- Is this a Bulk Send plugin? --></label>
+        <name>mcdm_15__IsBulkSendPlugin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tab Label --></label>
+        <name>mcdm_15__TabLabel__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Journey-Genehmigungs-Plugin</nameFieldLabel>
+</CustomObjectTranslation>

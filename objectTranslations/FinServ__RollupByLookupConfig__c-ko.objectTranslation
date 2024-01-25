@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RBL(Rollup by Lookup) 구성</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FinServ__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field To Roll Up From --></label>
+        <name>FinServ__FromField__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Object --></label>
+        <name>FinServ__FromObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Record Type --></label>
+        <name>FinServ__FromRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Field --></label>
+        <name>FinServ__LookupField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Namespace --></label>
+        <name>FinServ__Namespace__c</name>
+        <picklistValues>
+            <masterLabel>Industries</masterLabel>
+            <translation>업종</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Type --></label>
+        <name>FinServ__ProcessType__c</name>
+        <picklistValues>
+            <masterLabel>Async</masterLabel>
+            <translation>비동기</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch</masterLabel>
+            <translation>일괄 처리</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realtime</masterLabel>
+            <translation>Realtime</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rollup Operation --></label>
+        <name>FinServ__RollupOperation__c</name>
+        <picklistValues>
+            <masterLabel>Avg</masterLabel>
+            <translation>평균</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Count</masterLabel>
+            <translation>카운트</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Max</masterLabel>
+            <translation>최대</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Min</masterLabel>
+            <translation>최소</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sum</masterLabel>
+            <translation>합계</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field To Roll Up To --></label>
+        <name>FinServ__ToField__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Object --></label>
+        <name>FinServ__ToObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fields Triggering Update --></label>
+        <name>FinServ__UpdateOnChange__c</name>
+    </fields>
+    <fields>
+        <help>Where 절의 샘플 식은 (1 OR 2) AND 3입니다.
+여기서 숫자는 하위 개체 RollUpByLookupFilterCriteria에 정의된 필터 기준과 일치합니다.</help>
+        <label><!-- Where Clause --></label>
+        <name>FinServ__WhereClause__c</name>
+    </fields>
+    <nameFieldLabel>RBL(Rollup by Lookup) 구성 이름</nameFieldLabel>
+    <webLinks>
+        <label><!-- Run_Rules --></label>
+        <name>FinServ__Run_Rules</name>
+    </webLinks>
+</CustomObjectTranslation>

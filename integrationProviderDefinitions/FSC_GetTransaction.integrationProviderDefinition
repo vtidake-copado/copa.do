@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationProviderDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <developerName>FSC_GetTransaction</developerName>
+    <fileBasedApexClass>fscserviceprocess.TransactionServiceIntegrationProvider</fileBasedApexClass>
+    <integrationProviderAttributes>
+        <dataType>String</dataType>
+        <developerName>Get_Transactions_Named_Credential</developerName>
+        <label>Get Transactions Named Credential</label>
+        <required>true</required>
+        <stringValue>FSC_fsc_integrations_V1_0_0</stringValue>
+        <trueOrFalseValue>false</trueOrFalseValue>
+    </integrationProviderAttributes>
+    <providerLabel>FSC Get Transaction</providerLabel>
+    <type>Apex</type>
+</IntegrationProviderDef>

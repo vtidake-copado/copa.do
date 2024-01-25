@@ -1,0 +1,25 @@
+{
+    "Description": "Test to create a new Omniscript",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Order Checkbook",
+    "OmniProcessElement": [
+        "Checking_Service_English_Element_Check-Book-Request-Details.json",
+        "Checking_Service_English_Element_Text1.json",
+        "Checking_Service_English_Element_Step2.json",
+        "Checking_Service_English_Element_Step3.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Checking_Service_English_PropertySetConfig.json",
+    "SubType": "Service",
+    "Type": "Checking",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Checking/Service/English",
+    "WebComponentKey": "6cb692fd-c4cf-4e37-486a-9a9a505ae007"
+}

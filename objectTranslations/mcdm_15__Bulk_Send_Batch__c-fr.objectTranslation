@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lot d&apos;envoi en masse</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lots d&apos;envoi en masse</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bulk Send Job --></label>
+        <name>mcdm_15__Bulk_Send_Job__c</name>
+        <relationshipLabel><!-- Bulk Send Batches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CSV Index --></label>
+        <name>mcdm_15__CSV_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- # CSV Rows Processed --></label>
+        <name>mcdm_15__CSV_Row_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Chunk_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Annulé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Terminé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Planifié</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sending</masterLabel>
+            <translation>Envoi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current CSV Processing --></label>
+        <name>mcdm_15__Current_CSV_Processing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>mcdm_15__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Friendly Error --></label>
+        <name>mcdm_15__Friendly_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Errors --></label>
+        <name>mcdm_15__Has_Errors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has To Retry --></label>
+        <name>mcdm_15__Has_To_Retry__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Members --></label>
+        <name>mcdm_15__Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Job Id --></label>
+        <name>mcdm_15__Queueable_Job_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Retries --></label>
+        <name>mcdm_15__Retries_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- # CSVs --></label>
+        <name>mcdm_15__Total_CSVs__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du lot d’envoi en masse</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

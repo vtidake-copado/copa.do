@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Campo di ordinamento dei membri campagna --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Campo di ordinamento dei membri campagna --></value>
+    </caseValues>
+    <fields>
+        <help>Tutti gli elenchi di membri campagna in attesa dell&apos;approvazione utente di Distributed Marketing saranno ordinati in base a questo campo. Associarlo a un campo sull&apos;oggetto membro campagna.</help>
+        <label><!-- Sort Field Name --></label>
+        <name>mcdm_15__SortFieldName__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

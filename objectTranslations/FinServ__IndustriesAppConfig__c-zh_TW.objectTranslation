@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 產業應用程式組態 --></value>
+    </caseValues>
+    <fields>
+        <help>依預設會顯示帳戶名稱：{firstname} {lastname}。若要變更順序，請輸入：{lastname} {firstname}</help>
+        <label><!-- Account Name Format --></label>
+        <name>FinServ__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>FinServ__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>FinServ__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>FinServ__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>FinServ__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>FinServ__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>FinServ__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>FinServ__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>例如：v32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>FinServ__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help>僅有對帳號至少具有讀取存取權的使用者，和位於帳戶-連絡人關係記錄中的連絡人，可以查看關係元件中的記錄。</help>
+        <label><!-- Restrict ACR Record Visibility --></label>
+        <name>FinServ__RestrictACRRecordVisibility__c</name>
+    </fields>
+    <fields>
+        <help>顯示當不具有權限的人執行動作時的詳細錯誤訊息。</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>FinServ__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>在個別物件模型中建立記錄時同步化「帳戶」和「連絡人」欄位。</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>FinServ__SyncIndividualSystemFields__c</name>
+    </fields>
+</CustomObjectTranslation>

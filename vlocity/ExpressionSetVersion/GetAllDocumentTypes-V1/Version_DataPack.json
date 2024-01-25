@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "GetAllDocumentTypes V1",
+    "CalculationProcedure.Name": "GetAllDocumentTypes",
+    "CalculationProcedureId": {
+        "Name": "GetAllDocumentTypes",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "CalculationProcedure/GetAllDocumentTypes",
+        "VlocityRecordSObjectType": "CalculationProcedure"
+    },
+    "Constants": "",
+    "Description": "",
+    "EndDateTime": "",
+    "IsLoopingEnabled": false,
+    "LastSimulatedVariablesInput": "",
+    "LoopEnd": "",
+    "LoopIncrement": "",
+    "LoopStart": "",
+    "Name": "GetAllDocumentTypes V1",
+    "Namespace": "",
+    "Rank": 1,
+    "StartDateTime": "2023-06-20T21:19:53.000Z",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationProcedureVersion",
+    "VlocityRecordSourceKey": "CalculationProcedureVersion/1/CalculationProcedure/GetAllDocumentTypes"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Configure record rollups in Financial Services Cloud.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FinServ__Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates whether to apply the settings to this object&apos;s records.</description>
+        <externalId>false</externalId>
+        <label>Settings Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FinServ__Object_Api_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>API name of the object that you want to configure record rollups for.</description>
+        <externalId>false</externalId>
+        <label>Object Api Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>FinServ__Record_Rollup_Batch_Size__c</fullName>
+        <defaultValue>200</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Maximum number of records in each batch. Default size is 200 records. Maximum size is 2000 records.</description>
+        <externalId>false</externalId>
+        <label>Batch Size</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FinServ__Record_Rollup_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Limit the number of records in the batch job to those modified between rollup start and end dates for improved performance. If you don’t specify an end date, all records modified after the rollup start date are processed.</description>
+        <externalId>false</externalId>
+        <label>Rollup End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FinServ__Record_Rollup_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Limit the number of records in the batch job to those modified between rollup start and end dates for improved performance. If you don’t specify a start date, all records modified before the rollup end date are processed.</description>
+        <externalId>false</externalId>
+        <label>Rollup Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FinServ__Skip_Record_Rollup_Triggers__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Skip all triggers, workflow rules, and validations when rolling up records. Record Rollup Optimization (Beta) must be enabled.</description>
+        <externalId>false</externalId>
+        <label>Skip Triggers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FinServ__Skip_Update_If_Household_Unchanged__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Skip updates to records where the Household field hasn&apos;t changed. Record Rollup Optimization (Beta) must be enabled.</description>
+        <externalId>false</externalId>
+        <label>Skip Unchanged Household Updates</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FinServ__Update_Records_Silently__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Use silent updates when updating records with household id. Silent update does not update Last Modified By and Last Modified Date fields in the record.</description>
+        <externalId>false</externalId>
+        <label>Update Records Silently</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Record Rollup Configuration</label>
+    <visibility>Public</visibility>
+</CustomObject>

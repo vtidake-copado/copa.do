@@ -1,0 +1,2 @@
+<apex:page standardController="Account" extensions="FinServ.WMAccountControllerExtension" showHeader="true" sidebar="true" action="{!urlRedirect}"> 
+</apex:page>

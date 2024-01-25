@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <processLabel>Fee Reversal</processLabel>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The financial account ID.</description>
+        <developerName>financial_account_id</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Financial Account Id</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The core banking system ID.</description>
+        <developerName>source_system_id</developerName>
+        <groupApiName>section_4</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Source System Id</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>A description of the reason for requesting the fee reversal.</description>
+        <developerName>reversal_reason</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Reason</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>ListOfMaps</dataType>
+        <description>A list of fee reversal transactions.</description>
+        <developerName>fee_reversal_transactions</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Fee Reversal Transactions</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Map</dataType>
+        <description>The summary of the fee reversal.</description>
+        <developerName>reversal_summary</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Summary</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The ID of the original transaction.</description>
+        <developerName>frt_transaction_id</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Transaction Id</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Datetime</dataType>
+        <description>The posted date and time of the original transaction.</description>
+        <developerName>frt_transaction_posted_date</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Transaction Posted Date</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The description of the original transaction.</description>
+        <developerName>frt_transaction_description</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Transaction Description</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The currency of the original transaction amount.</description>
+        <developerName>frt_transaction_amount_currency</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Transaction Amount Currency</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Number</dataType>
+        <description>The original transaction amount that was charged to the customer.</description>
+        <developerName>frt_transaction_amount</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Transaction Amount</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The fee type of the transaction.</description>
+        <developerName>frt_fee_type</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Fee Type</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The code of the transaction.</description>
+        <developerName>frt_transaction_code</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Transaction Code</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The currency of the amount that is eligible to be reversed.</description>
+        <developerName>frt_reversal_amount_currency</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Amount Currency</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Number</dataType>
+        <description>The amount that is eligible to be reversed.</description>
+        <developerName>frt_reversal_amount</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Amount</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Number</dataType>
+        <description>The percentage of the original amount that is eligible to be reversed.</description>
+        <developerName>frt_reversal_percentage</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Percentage</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The currency code of the overridden reversal amount.</description>
+        <developerName>frt_override_amount_currency</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Override Amount Currency</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Number</dataType>
+        <description>The overridden reversal amount.</description>
+        <developerName>frt_override_amount</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Override Amount</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Number</dataType>
+        <description>The percentage of the original amount that is overridden.</description>
+        <developerName>frt_override_percentage</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Override Percentage</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The ID of the reversed transaction.</description>
+        <developerName>frt_reversal_transaction_id</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Transaction Id</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Datetime</dataType>
+        <description>The posted date and time of the reversed transaction.</description>
+        <developerName>frt_reversal_transaction_posted_date</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Transaction Posted Date</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>A description of the reversed transaction.</description>
+        <developerName>frt_reversal_transaction_description</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Transaction Description</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Number</dataType>
+        <description>The reversal amount that was posted to the customer.</description>
+        <developerName>frt_reversal_transaction_amount</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Transaction Amount</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The currency of the reversed transaction.</description>
+        <developerName>frt_reversal_transaction_amount_currency</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Transaction Amount Currency</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>A description of the reversed transaction failure.</description>
+        <developerName>frt_reversal_error_reason</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Reversal Error Reason</label>
+        <parentAttribute>fee_reversal_transactions</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The status of the fee reversal.</description>
+        <developerName>fee_reversal_status</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Fee Reversal Status</label>
+        <parentAttribute>reversal_summary</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessDependencies>
+        <dependencyReference>fee_reversal_integration_definition</dependencyReference>
+        <type>IntegrationProviderDef</type>
+    </serviceProcessDependencies>
+    <serviceProcessDependencies>
+        <dependencyReference>fsc_fee_reversal_flow</dependencyReference>
+        <type>FlowDefinition</type>
+    </serviceProcessDependencies>
+    <serviceProcessItemGroups>
+        <apiName>section_1</apiName>
+        <groupName>Service Request Details</groupName>
+        <sortOrder>1</sortOrder>
+    </serviceProcessItemGroups>
+    <serviceProcessItemGroups>
+        <apiName>section_4</apiName>
+        <groupName>System Information</groupName>
+        <sortOrder>4</sortOrder>
+    </serviceProcessItemGroups>
+    <shortDescription>Request the reversal of fees charged on a financial account.</shortDescription>
+    <usageType>Industry</usageType>
+</ServiceProcess>

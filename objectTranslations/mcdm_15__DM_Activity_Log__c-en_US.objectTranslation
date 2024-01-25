@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Identifies email or SMS activity for this send. --></help>
+        <label><!-- Activity Send Type --></label>
+        <name>mcdm_15__Activity_Send_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the user who approved the DM send related to this activity. --></help>
+        <label><!-- Approver --></label>
+        <name>mcdm_15__Approver__c</name>
+        <relationshipLabel><!-- DM Activity Log (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies bulk send job if the lookup is deleted. --></help>
+        <label><!-- Bulk Send Job ID --></label>
+        <name>mcdm_15__Bulk_Send_Job_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the bulk send job that triggered this activity. --></help>
+        <label><!-- Bulk Send Job --></label>
+        <name>mcdm_15__Bulk_Send_Job__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies campaign if the lookup is deleted. --></help>
+        <label><!-- Campaign ID --></label>
+        <name>mcdm_15__Campaign_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the campaign linked journey if the lookup is deleted. --></help>
+        <label><!-- Campaign Linked Journey ID --></label>
+        <name>mcdm_15__Campaign_Linked_Journey_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the campaign member if the send used a campaign sending flow. --></help>
+        <label><!-- Campaign Member ID --></label>
+        <name>mcdm_15__Campaign_Member_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies if the activity is related to a campaign sending flow. --></help>
+        <label><!-- Campaign --></label>
+        <name>mcdm_15__Campaign__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the case record used in the send. --></help>
+        <label><!-- Case ID --></label>
+        <name>mcdm_15__Case_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The case object associated with this activity if it was related to a quick send activity. --></help>
+        <label><!-- Case --></label>
+        <name>mcdm_15__Case__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unique ID for the DM sending action. Use this ID in reports to group DM sends by a sending action. --></help>
+        <label><!-- DM Action ID --></label>
+        <name>mcdm_15__DM_Action_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the DM auto send related to this activity. --></help>
+        <label><!-- DM Auto Send ID --></label>
+        <name>mcdm_15__DM_Auto_Send_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies if the activity is related to a DM auto send. --></help>
+        <label><!-- DM Auto Send --></label>
+        <name>mcdm_15__DM_Auto_Send__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- DM-specific error messages that occurred during or after injection. --></help>
+        <label><!-- DM Error --></label>
+        <name>mcdm_15__DM_Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the DM Scheduled Send associated with the activity. --></help>
+        <label><!-- DM Scheduled Send ID --></label>
+        <name>mcdm_15__DM_Scheduled_Send_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies if the activity is related to a scheduled DM sending flow. --></help>
+        <label><!-- DM Scheduled Send --></label>
+        <name>mcdm_15__DM_Scheduled_Send__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifiess the DM send type from available combinations --></help>
+        <label><!-- MCDM Send Type --></label>
+        <name>mcdm_15__DM_Send_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the DM submission record related to the activity. --></help>
+        <label><!-- DM Submission ID --></label>
+        <name>mcdm_15__DM_Submission_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the DM submission object related to the approvals sending flow activity. --></help>
+        <label><!-- DM Submission --></label>
+        <name>mcdm_15__DM_Submission__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unique ID for the DM injection stored for the DM entry source. Use this ID to relate Marketing Cloud data to DM activity logs. --></help>
+        <label><!-- DM Tracking ID --></label>
+        <name>mcdm_15__DM_Tracking_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Marketing Cloud email activity. --></help>
+        <label><!-- Email ID --></label>
+        <name>mcdm_15__Email_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Marketing Cloud email activity. --></help>
+        <label><!-- Email Name --></label>
+        <name>mcdm_15__Email_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The email pre header related to this activity. --></help>
+        <label><!-- Email Pre Header --></label>
+        <name>mcdm_15__Email_Pre_Header__c</name>
+    </fields>
+    <fields>
+        <help><!-- The email subject line related to this activity. --></help>
+        <label><!-- Email Subject Line --></label>
+        <name>mcdm_15__Email_Subject_Line__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates an error related to the activity injection. --></help>
+        <label><!-- Has Injection Error --></label>
+        <name>mcdm_15__Has_Injection_Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates DM P13n field mappings applied to the activity via the Extending the Entry Source data extension. --></help>
+        <label><!-- Has P13n Field Mappings --></label>
+        <name>mcdm_15__Has_P13n_Field_Mappings__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that DM personalizations are applied to this activity. --></help>
+        <label><!-- Has Personalizations --></label>
+        <name>mcdm_15__Has_Personalizations__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies link between engagement data and IER records in the Marketing Cloud Connect package. --></help>
+        <label><!-- IER Linking ID --></label>
+        <name>mcdm_15__IER_Linking_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the user who initiated the DM send related to this activity. This value may not match the Send From User value. --></help>
+        <label><!-- Initial Sender --></label>
+        <name>mcdm_15__Initial_Sender__c</name>
+        <relationshipLabel><!-- DM Activity Log (Initial Sender) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the contact injected into the journey. --></help>
+        <label><!-- Injected Contact --></label>
+        <name>mcdm_15__Injected_Contact__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the lead injected into the journey. --></help>
+        <label><!-- Injected Lead --></label>
+        <name>mcdm_15__Injected_Lead__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates the activity was sent through an Approvals flow. --></help>
+        <label><!-- Is Approval --></label>
+        <name>mcdm_15__Is_Approval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a Auto Send flow. --></help>
+        <label><!-- Is Auto Send --></label>
+        <name>mcdm_15__Is_Auto_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a Bulk Send flow. --></help>
+        <label><!-- Is Bulk Send --></label>
+        <name>mcdm_15__Is_Bulk_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a Campaign sending flow. --></help>
+        <label><!-- Is Campaign Send --></label>
+        <name>mcdm_15__Is_Campaign_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent to a contact. --></help>
+        <label><!-- Is Contact --></label>
+        <name>mcdm_15__Is_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent to a lead. --></help>
+        <label><!-- Is Lead --></label>
+        <name>mcdm_15__Is_Lead__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a List View Mass Action flow. --></help>
+        <label><!-- Is List View Send --></label>
+        <name>mcdm_15__Is_List_View_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent to a person account. --></help>
+        <label><!-- Is Person Account Entry --></label>
+        <name>mcdm_15__Is_Person_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a Quick Send flow. --></help>
+        <label><!-- Is Quick Send --></label>
+        <name>mcdm_15__Is_Quick_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a scheduled flow. --></help>
+        <label><!-- Is Scheduled --></label>
+        <name>mcdm_15__Is_Scheduled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the activity was sent through a Segmented Send flow. --></help>
+        <label><!-- Is Segmented Send --></label>
+        <name>mcdm_15__Is_Segmented_Send__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Marketing Cloud journey. --></help>
+        <label><!-- Journey ID --></label>
+        <name>mcdm_15__Journey_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Marketing Cloud journey. --></help>
+        <label><!-- Journey Name --></label>
+        <name>mcdm_15__Journey_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies if the activity is related to a campaign linked journey. --></help>
+        <label><!-- Campaign Linked Journey --></label>
+        <name>mcdm_15__Linked_Journey__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the version of the Marketing Cloud journey. --></help>
+        <label><!-- MC Journey Version --></label>
+        <name>mcdm_15__MC_Journey_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Marketing Cloud triggered send associated with this activity. --></help>
+        <label><!-- MC Triggered Send ID --></label>
+        <name>mcdm_15__MC_Triggered_Send_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email address for the member injected into the journey. --></help>
+        <label><!-- Member Email --></label>
+        <name>mcdm_15__Member_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- First name of the member injected into the journey. --></help>
+        <label><!-- Member First Name --></label>
+        <name>mcdm_15__Member_First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last name of the member injected into the journey. --></help>
+        <label><!-- Member Last Name --></label>
+        <name>mcdm_15__Member_Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the member injected into the journey. --></help>
+        <label><!-- Member Name --></label>
+        <name>mcdm_15__Member_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- API Name of the phone number field used in this activity. --></help>
+        <label><!-- Member Phone Field Used --></label>
+        <name>mcdm_15__Member_Phone_Field_Used__c</name>
+    </fields>
+    <fields>
+        <help><!-- Phone number of the member injected into the journey. --></help>
+        <label><!-- Member Phone --></label>
+        <name>mcdm_15__Member_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Opportunity record associated with this activity. --></help>
+        <label><!-- Opportunity ID --></label>
+        <name>mcdm_15__Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the Opportunity object related to the quick send activity. --></help>
+        <label><!-- Opportunity --></label>
+        <name>mcdm_15__Opportunity__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Quick Send Message record associated with this activity. --></help>
+        <label><!-- Quick Send Message ID --></label>
+        <name>mcdm_15__Quick_Send_Message_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the Quick Send Message object related to the quick send activity. --></help>
+        <label><!-- Quick Send Message --></label>
+        <name>mcdm_15__Quick_Send_Message__c</name>
+        <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Marketing Cloud SMS activity. --></help>
+        <label><!-- SMS ID --></label>
+        <name>mcdm_15__SMS_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Marketing Cloud SMS activity. --></help>
+        <label><!-- SMS Name --></label>
+        <name>mcdm_15__SMS_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email Address for the Send From User. --></help>
+        <label><!-- Send From Email --></label>
+        <name>mcdm_15__Send_From_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Send From User. --></help>
+        <label><!-- Send From Name --></label>
+        <name>mcdm_15__Send_From_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Send From Setting used for this activity. --></help>
+        <label><!-- Send From Setting --></label>
+        <name>mcdm_15__Send_From_Setting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies the Send From User for this activity. --></help>
+        <label><!-- Send From User --></label>
+        <name>mcdm_15__Send_From_User__c</name>
+        <relationshipLabel><!-- DM Activity Log (Send From User) --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

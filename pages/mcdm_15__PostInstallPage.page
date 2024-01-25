@@ -1,0 +1,992 @@
+<apex:page controller="mcdm_15.PostInstallPageController">
+    <style type="text/css">
+        :root { font-size: 12px; }
+
+        body,
+        .wizard-steps .step-container {
+            font-size: 1rem;
+        }
+
+        h1, h2 {
+            font-size: 1.25rem;
+        }
+
+        h1 {
+            margin-bottom: 1em;
+            display: block;
+        }
+
+        .internal { display: {!IF(showCredentials, 'block', 'none')}; }
+
+        .two-col {
+            margin: 0.5em 0;
+            display: block;
+        }
+
+        .two-col > span {
+            display: inline-block;
+            width: 180px;
+        }
+
+        li { margin-bottom: 1em; }
+
+        .wizard-steps > li {
+            display: none;
+            font-size: 1.25rem;
+         }
+
+        .wizard-steps .step-completed,
+        .wizard-steps .step-completed label,
+        .wizard-steps .step-completed input,
+        .wizard-steps .step-completed .btn {
+            color: #999;
+        }
+
+        .wizard-steps .step-completed,
+        .wizard-steps .step-completed li,
+        .wizard-steps .step-in-progress,
+        .wizard-steps .step-in-progress li {
+            display: list-item;
+        }
+
+        @keyframes markAsComplete {
+            from { background-color: #b1e8b1; }
+            to { background-color: transparent; }
+        }
+
+        .wizard-steps > .last-step-completed { animation: 500ms markAsComplete ease-in; }
+
+        .wizard-steps > .step-completed .step-container::after {
+            content: '✔︎';
+            color: green;
+            font-size: 1.25rem;
+        }
+
+        .hidden {
+            display:none !important;
+        }
+
+        ul.remote-sites-settings-list {
+            margin-top: 15px;
+        }
+
+        .dm-display-inline {
+            display: inline-block;
+        }
+    </style>
+
+    <body>
+        <apex:form id="postInstallForm">
+            <apex:actionFunction name="incrementStep" action="{!incrementStep}"/>
+            <apex:inputHidden value="{!showCredentials}" id="showCredentials" html-class="showCredentials"/>
+
+            <h1 class="{!IF(isLegacyAuth, '', 'hidden')}">{!$Label.mcdm_15__postInstallConfigAuthProviderSalesforceEnv}</h1>
+            <h1 class="{!IF(NOT(isLegacyAuth), '', 'hidden')}">{!$Label.mcdm_15__postInstallInstructionsHeader}</h1>
+
+            <p>{!$Label.mcdm_15__postInstallInstructions}</p>
+
+            <apex:pageMessages escape="false"/>
+
+            <ol class="wizard-steps">
+                <li class="{!IF(step == 1, 'last-step-completed step-completed', IF(step > 1, 'step-completed', IF(step <= 0, 'step-in-progress', '')))}">
+                    <div class="step-container">
+                        <h2>{!$Label.mcdm_15__buDisplayNameEntryHeader}</h2>
+
+                        <label class="two-col">
+                            <span>{!$Label.mcdm_15__postInstallBuDisplayNameLabel}</span>
+                            <apex:inputText value="{!linkedBusinessUnitDisplayName}" id="linkedBusinessUnitDisplayName" size="25"/>
+                        </label>
+
+                        <apex:commandButton action="{!saveLinkedBuRecord}" value="{!$Label.mcdm_15__createLinkedBusinessUnitButton}" disabled="{!step >= 1}"/>
+                    </div>
+                </li>
+                <li class="{!IF(step == 2, 'last-step-completed step-completed', IF(step > 2, 'step-completed', IF(step == 1, 'step-in-progress', '')))}">
+                    <div class="step-container">
+                        <h1 class="{!IF(NOT(isLegacyAuth), '', 'hidden')}">{!$Label.mcdm_15__postInstallSelectEnvHeaderTse}</h1>
+                        <h1 class="{!IF(isLegacyAuth, '', 'hidden')}">{!$Label.mcdm_15__postInstallSelectEnvHeaderLegacy}</h1>
+
+                        <apex:outputPanel >
+                            <div class="internal">
+                                <apex:outputLabel value="{!$Label.mcdm_15__postInstallMarketingCloudEnv}" for="environment"/>
+                                <apex:selectRadio id="environment" value="{!environment}" disabled="{!step >= 2}" title="{!$Label.mcdm_15__postInstallMarketingCloudEnv}">
+                                    <apex:selectOptions value="{!environmentItems}"/>
+                                </apex:selectRadio>
+                            </div>
+
+                            <apex:outputLabel value="{!$Label.mcdm_15__postInstallConfigAuthProviderSalesforceEnv}" for="sfdcEnvironmentRadio"/>
+                            <apex:selectRadio id="sfdcEnvironmentRadio" value="{!orgType}" disabled="{!step >= 2}" title="{!$Label.mcdm_15__postInstallConfigAuthProviderSalesforceEnv}">
+                                <apex:selectOptions value="{!orgTypes}"/>
+                            </apex:selectRadio>
+                        </apex:outputPanel>
+
+                        <div class="{!IF(NOT(isLegacyAuth), '', 'hidden')}">
+                            <label class="two-col">
+                                <span>{!$Label.mcdm_15__postInstallMarketingCloudUsername}</span>
+                                <apex:inputText value="{!username}" id="username" size="25" disabled="{!step >= 2}"/>
+                            </label>
+                        </div>
+
+                        <div class="{!IF(NOT(isLegacyAuth), 'dm-display-inline', 'hidden')}">
+                            <apex:commandButton action="{!getTseUrls}" value="{!$Label.mcdm_15__postInstallProceed}" disabled="{!step >= 2}"/>
+                        </div>
+                        <div class="{!IF(isLegacyAuth, 'dm-display-inline', 'hidden')}">
+                            <apex:commandButton onclick="return incrementStep();" value="{!$Label.mcdm_15__postInstallRemoteSiteSettingButton}" disabled="{!step >= 2}"/>
+                        </div>
+                    </div>
+                </li>
+                <li class="{!IF(step == 3, 'last-step-completed step-completed', IF(step > 3, 'step-completed', IF(step == 2, 'step-in-progress', '')))}">
+                    <div class="step-container">
+                        <h2>{!$Label.mcdm_15__postInstallStoreAuthSettingsHeader}</h2>
+                        <p>{!$Label.mcdm_15__postInstallStoreAuthSettingsInstructions}</p>
+                        <apex:commandButton action="{!createAuthProviderSettings}" value="{!$Label.mcdm_15__postInstallStoreAuthSettingButton}" disabled="{!step >= 3}"/>
+                    </div>
+                </li>
+                <li class="{!IF(step == 4, 'last-step-completed step-completed', IF(step > 4, 'step-completed', IF(step == 3, 'step-in-progress', '')))}">
+                    <div class="step-container">
+                        <h2>{!IF(isLegacyAuth, $Label.mcdm_15__postInstallConfigAuthProviderHeader, $Label.mcdm_15__postInstallConfigAuthProviderRemoteSiteSettingsHeader)}</h2>
+                        <p>{!$Label.mcdm_15__postInstallConfigAuthProviderInstructions}</p>
+                        <p class="{!IF(isLegacyAuth, 'hidden', '')}">{!$Label.mcdm_15__postInstallRemoteSiteSettingInstructions}</p>
+                        <ul class="{!IF(isLegacyAuth, 'hidden', 'remote-sites-settings-list')}">
+                            <li>{!authRemoteSiteSettingInformationLabel} ({!authUrl})</li>
+                            <li>{!apiRemoteSiteSettingInformationLabel} ({!endpointUrl})</li>
+                        </ul>
+                        <apex:commandButton action="{!executeConfiguration}" value="{!$Label.mcdm_15__postInstallConfigureAuthProviderButton}" disabled="{!step >= 4}"/>
+                    </div>
+                </li>
+                <li class="{!IF(step == 5, 'last-step-completed step-completed', IF(step > 5, 'step-completed', IF(step == 4, 'step-in-progress', '')))}">
+                    <div class="step-container">
+                        <h2>{!$Label.mcdm_15__logIntoMarketingCloudHeader}</h2>
+                        <p class="{!IF(NOT(isLegacyAuth), '', 'hidden')}">{!$Label.mcdm_15__logIntoMarketingCloudInstructionsTse}</p>
+                        <p class="{!IF(isLegacyAuth, '', 'hidden')}">{!$Label.mcdm_15__logIntoMarketingCloudInstructionsLegacy}</p>
+                        <b><apex:outputLink value="{!mcLoginUrl}" target="_blank">{!$Label.mcdm_15__logIntoMarketingCloudButton}</apex:outputLink></b>
+                    </div>
+                </li>
+                <li class="{!IF(step == 5, 'last-step-completed step-completed', IF(step > 5, 'step-completed', IF(step == 4, 'step-in-progress', '')))}">
+                    <div class="step-container">
+                        <h2>{!$Label.mcdm_15__postInstallAdditionalStepsHeader}</h2>
+                        <p><apex:outputText escape="false" value="{!additionalSteps}"/></p>
+                    </div>
+                </li>
+            </ol>
+        </apex:form>
+
+        <!--
+            https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/labels_value_provider_platform.htm
+
+            "Custom labels referenced in a Lightning component are not automatically added when
+            you create a package containing the Lightning component. To include a custom label
+            in a package, another member of the package, such as a Visualforce page, must
+            reference the custom label."
+        -->
+        <div style="display:none">{!$Label.mcdm_15__unknownError}
+    {!$Label.mcdm_15__unknownApprovalsError}
+    {!$Label.mcdm_15__unknown}
+    {!$Label.mcdm_15__activityMessages}
+    {!$Label.mcdm_15__cancel}
+    {!$Label.mcdm_15__error}
+    {!$Label.mcdm_15__apply}
+    {!$Label.mcdm_15__errorFetchingContent}
+    {!$Label.mcdm_15__askAdminConnectCampaign}
+    {!$Label.mcdm_15__noJourneyMessages}
+    {!$Label.mcdm_15__connectCampaignInstructions}
+    {!$Label.mcdm_15__name}
+    {!$Label.mcdm_15__fullName}
+    {!$Label.mcdm_15__firstName}
+    {!$Label.mcdm_15__createdDate}
+    {!$Label.mcdm_15__details}
+    {!$Label.mcdm_15__relatedLists}
+    {!$Label.mcdm_15__feed}
+    {!$Label.mcdm_15__save}
+    {!$Label.mcdm_15__saveAndRefresh}
+    {!$Label.mcdm_15__submitMembers}
+    {!$Label.mcdm_15__message}
+    {!$Label.mcdm_15__activityEmailSubject}
+    {!$Label.mcdm_15__back}
+    {!$Label.mcdm_15__mcReservedFieldError}
+    {!$Label.mcdm_15__mcTimeout}
+    {!$Label.mcdm_15__pendingApprovals}
+    {!$Label.mcdm_15__noPendingMembersHeading}
+    {!$Label.mcdm_15__noPendingMembersBody}
+    {!$Label.mcdm_15__personalizationIntro}
+    {!$Label.mcdm_15__personalizationClosing}
+    {!$Label.mcdm_15__personalizationIntroPlaceholder}
+    {!$Label.mcdm_15__personalizationClosingPlaceholder}
+    {!$Label.mcdm_15__pendingMembersCounts}
+    {!$Label.mcdm_15__pendingApprovalsHeader}
+    {!$Label.mcdm_15__completeConnection}
+    {!$Label.mcdm_15__pageUnauthorized}
+    {!$Label.mcdm_15__loading}
+    {!$Label.mcdm_15__configureDistributedMarketing}
+    {!$Label.mcdm_15__distributedMarketingAdminHeader}
+    {!$Label.mcdm_15__searchForMCJourney}
+    {!$Label.mcdm_15__searchForMCBu}
+    {!$Label.mcdm_15__failedToCreateCampaignJourneyLink}
+    {!$Label.mcdm_15__connectCampaignPermissionDeniedHeading}
+    {!$Label.mcdm_15__connectCampaignPermissionDenied}
+    {!$Label.mcdm_15__connectCampaignAlreadyConnected}
+    {!$Label.mcdm_15__connectCampaignHasMembers}
+    {!$Label.mcdm_15__connectCampaignIsParent}
+    {!$Label.mcdm_15__connectCampaignIsChild}
+    {!$Label.mcdm_15__connectCampaignIntroHeader}
+    {!$Label.mcdm_15__connectCampaignReconnectInstructions}
+    {!$Label.mcdm_15__more}
+    {!$Label.mcdm_15__emailPreviewError}
+    {!$Label.mcdm_15__smsPreviewError}
+    {!$Label.mcdm_15__emailPreview}
+    {!$Label.mcdm_15__assetCalloutError}
+    {!$Label.mcdm_15__duplicateImageBlockError}
+    {!$Label.mcdm_15__duplicateFreeTextBlockError}
+    {!$Label.mcdm_15__duplicateRichTextBlockError}
+    {!$Label.mcdm_15__duplicateMessageSettingsBlockError}
+    {!$Label.mcdm_15__selectCampaignMember}
+    {!$Label.mcdm_15__selectMcMessage}
+    {!$Label.mcdm_15__defaultGreetingHeading}
+    {!$Label.mcdm_15__defaultGreetingSubHeading}
+    {!$Label.mcdm_15__defaultSendSettingAccountDefault}
+    {!$Label.mcdm_15__defaultSendSettingOrgDefault}
+    {!$Label.mcdm_15__applyChanges}
+    {!$Label.mcdm_15__sendFrom}
+    {!$Label.mcdm_15__sendTo}
+    {!$Label.mcdm_15__sendFromOptionMe}
+    {!$Label.mcdm_15__sendFromOptionRecordOwner}
+    {!$Label.mcdm_15__sendFromAndEmailLabel}
+    {!$Label.mcdm_15__sendFromAndEmailInstruction}
+    {!$Label.mcdm_15__campaignPersonalizationDefaults}
+    {!$Label.mcdm_15__approve}
+    {!$Label.mcdm_15__ready}
+    {!$Label.mcdm_15__reject}
+    {!$Label.mcdm_15__undo}
+    {!$Label.mcdm_15__nApproved}
+    {!$Label.mcdm_15__nRejected}
+    {!$Label.mcdm_15__approvalFailures}
+    {!$Label.mcdm_15__approvalSuccesses}
+    {!$Label.mcdm_15__connectCampaign}
+    {!$Label.mcdm_15__greeting}
+    {!$Label.mcdm_15__preview}
+    {!$Label.mcdm_15__viewPreview}
+    {!$Label.mcdm_15__approval}
+    {!$Label.mcdm_15__edit}
+    {!$Label.mcdm_15__journeyFieldMissing}
+    {!$Label.mcdm_15__journeyFieldsMissing}
+    {!$Label.mcdm_15__journeySubscriberkeyMissingOrDataExtensionDeleted}
+    {!$Label.mcdm_15__journeyFieldNotSet}
+    {!$Label.mcdm_15__journeyApprovalUnknownError}
+    {!$Label.mcdm_15__journeyCampaignMemberRemoved}
+    {!$Label.mcdm_15__journeyApprovalDataExtensionDuplicateKey}
+    {!$Label.mcdm_15__journeyNonNullableValues}
+    {!$Label.mcdm_15__journeyNonNullableValue}
+    {!$Label.mcdm_15__journeyEntryError}
+    {!$Label.mcdm_15__processApprovalsCompleteErrorMessage}
+    {!$Label.mcdm_15__processApprovalsPartialSuccessMessage}
+    {!$Label.mcdm_15__processApprovalsSuccessMessage}
+    {!$Label.mcdm_15__processOneApprovalSuccessMessage}
+    {!$Label.mcdm_15__processOneRejectionSuccessMessage}
+    {!$Label.mcdm_15__recordOwnerIncompleteOrMissing}
+    {!$Label.mcdm_15__customDefaultGreetingNotFound}
+    {!$Label.mcdm_15__cannotShowMoreRecords}
+    {!$Label.mcdm_15__to}
+    {!$Label.mcdm_15__helpAlternativeText}
+    {!$Label.mcdm_15__administratorSettingsGreetingHeader}
+    {!$Label.mcdm_15__administratorSettingsGreetingSubHeader}
+    {!$Label.mcdm_15__greetingMappingLabelTextInput}
+    {!$Label.mcdm_15__deleteGreetingMapping}
+    {!$Label.mcdm_15__greetingMappingLocked}
+    {!$Label.mcdm_15__objectFieldLookup}
+    {!$Label.mcdm_15__objectFieldLookupPlaceholder}
+    {!$Label.mcdm_15__defaultOption}
+    {!$Label.mcdm_15__setDefaultOption}
+    {!$Label.mcdm_15__addAdditionalGreetingMapping}
+    {!$Label.mcdm_15__pleaseCompleteAllFields}
+    {!$Label.mcdm_15__tooManyApprovals}
+    {!$Label.mcdm_15__tooManySubmissions}
+    {!$Label.mcdm_15__breadcrumbs}
+    {!$Label.mcdm_15__greetingOptionSelectLabel}
+    {!$Label.mcdm_15__sendFromOptionSelectLabel}
+    {!$Label.mcdm_15__pluginSettingsTitle}
+    {!$Label.mcdm_15__pluginSettingsDescription}
+    {!$Label.mcdm_15__pluginHelpURL}
+    {!$Label.mcdm_15__pluginSettingsTabLabel}
+    {!$Label.mcdm_15__duplicateGreetingLabelsDetected}
+    {!$Label.mcdm_15__errorAccessingObjectField}
+    {!$Label.mcdm_15__lockedGreetingOptionTooltip}
+    {!$Label.mcdm_15__journeyLookup}
+    {!$Label.mcdm_15__campaignMemberApproval}
+    {!$Label.mcdm_15__viewPendingMembers}
+    {!$Label.mcdm_15__manageJourneyOption}
+    {!$Label.mcdm_15__manageJourneyOptionTitle}
+    {!$Label.mcdm_15__administrationOption}
+    {!$Label.mcdm_15__administrationOptionTitle}
+    {!$Label.mcdm_15__settingsOption}
+    {!$Label.mcdm_15__settingsOptionTitle}
+    {!$Label.mcdm_15__personalizationDefaultsOption}
+    {!$Label.mcdm_15__personalizationDefaultsOptionTitle}
+    {!$Label.mcdm_15__globalSettingsTitle}
+    {!$Label.mcdm_15__globalSettingsAltText}
+    {!$Label.mcdm_15__globalSettingsLoadingError}
+    {!$Label.mcdm_15__staticPreviewDescription}
+    {!$Label.mcdm_15__approvedSummary}
+    {!$Label.mcdm_15__submittedSummary}
+    {!$Label.mcdm_15__rejectedSummary}
+    {!$Label.mcdm_15__failedSummary}
+    {!$Label.mcdm_15__administrationPageTitle}
+    {!$Label.mcdm_15__personalizeMessages}
+    {!$Label.mcdm_15__resetToPending}
+    {!$Label.mcdm_15__status}
+    {!$Label.mcdm_15__personalization}
+    {!$Label.mcdm_15__selectedMember}
+    {!$Label.mcdm_15__selectedMembers}
+    {!$Label.mcdm_15__readyApprovalStatus}
+    {!$Label.mcdm_15__errorApprovalStatus}
+    {!$Label.mcdm_15__pendingApprovalStatus}
+    {!$Label.mcdm_15__rejectedApprovalStatus}
+    {!$Label.mcdm_15__memberDetailsTitle}
+    {!$Label.mcdm_15__personalizeMessagesTitle}
+    {!$Label.mcdm_15__sendSettingsTitle}
+    {!$Label.mcdm_15__modifying}
+    {!$Label.mcdm_15__nMembers}
+    {!$Label.mcdm_15__nMember}
+    {!$Label.mcdm_15__personalizationOptions}
+    {!$Label.mcdm_15__insufficientPrivilegesTitle}
+    {!$Label.mcdm_15__insufficientPrivilegesMessage}
+    {!$Label.mcdm_15__xOfTotal}
+    {!$Label.mcdm_15__nextMessage}
+    {!$Label.mcdm_15__previousMessage}
+    {!$Label.mcdm_15__differentP13nValues}
+    {!$Label.mcdm_15__differentImageBlockP13nValues}
+    {!$Label.mcdm_15__modified}
+    {!$Label.mcdm_15__personalizationDeNotFound}
+    {!$Label.mcdm_15__clearText}
+    {!$Label.mcdm_15__externalComponents}
+    {!$Label.mcdm_15__authedUserDataLabel}
+    {!$Label.mcdm_15__saveAndClose}
+    {!$Label.mcdm_15__dataExtensionCreationFailed}
+    {!$Label.mcdm_15__categoryCreationFailed}
+    {!$Label.mcdm_15__noRootCategory}
+    {!$Label.mcdm_15__p13nDataExtensionDescription}
+    {!$Label.mcdm_15__sendFromNamePlaceholder}
+    {!$Label.mcdm_15__sendFromEmailPlaceholder}
+    {!$Label.mcdm_15__firstNamePlaceholder}
+    {!$Label.mcdm_15__lastNamePlaceholder}
+    {!$Label.mcdm_15__introPlaceholder}
+    {!$Label.mcdm_15__closingPlaceholder}
+    {!$Label.mcdm_15__sfUserIdPlaceholder}
+    {!$Label.mcdm_15__sfCampaignIdPlaceholder}
+    {!$Label.mcdm_15__sfCampaignMemberIdPlaceholder}
+    {!$Label.mcdm_15__greetingPlaceholder}
+    {!$Label.mcdm_15__deColumnNotLargeEnoughError}
+    {!$Label.mcdm_15__p13nTooLargeError}
+    {!$Label.mcdm_15__customPermissionNotValid}
+    {!$Label.mcdm_15__defaultOptions}
+    {!$Label.mcdm_15__authenticationError}
+    {!$Label.mcdm_15__defaultGreetingDeleted}
+    {!$Label.mcdm_15__campaignMemberDeleted}
+    {!$Label.mcdm_15__campaignHasNoMessages}
+    {!$Label.mcdm_15__cannotAccessJourney}
+    {!$Label.mcdm_15__campaignMessagesNoPermissions}
+    {!$Label.mcdm_15__campaignMessagesGenericError}
+    {!$Label.mcdm_15__insufficientObjectAccess}
+    {!$Label.mcdm_15__quickSendSettingsTitle}
+    {!$Label.mcdm_15__quickSendSettingsDescription}
+    {!$Label.mcdm_15__availableQuickSendJourneys}
+    {!$Label.mcdm_15__enabledQuickSendJourneys}
+    {!$Label.mcdm_15__addButtonTitle}
+    {!$Label.mcdm_15__removeButtonTitle}
+    {!$Label.mcdm_15__addQuickSendButtonDesc}
+    {!$Label.mcdm_15__removeQuickSendButtonDesc}
+    {!$Label.mcdm_15__tooManyQuickSendJourneys}
+    {!$Label.mcdm_15__tooManyNewQuickSendJourneys}
+    {!$Label.mcdm_15__quickSendComponentTitle}
+    {!$Label.mcdm_15__quickSendPermissionDenied}
+    {!$Label.mcdm_15__quickSendSuccessMessage}
+    {!$Label.mcdm_15__quickSendSuccessMessageForApproval}
+    {!$Label.mcdm_15__quickSendMessageLookupPlaceholder}
+    {!$Label.mcdm_15__noQuickSendMessagesForBu}
+    {!$Label.mcdm_15__quickSendTemplateLookupLabel}
+    {!$Label.mcdm_15__journeyNoLongerValid}
+    {!$Label.mcdm_15__journeyNotFound}
+    {!$Label.mcdm_15__postInstallBuDisplayNameLabel}
+    {!$Label.mcdm_15__postInstallInstructionsHeader}
+    {!$Label.mcdm_15__postInstallInstructions}
+    {!$Label.mcdm_15__postInstallRemoteSiteSettingHeader}
+    {!$Label.mcdm_15__postInstallRemoteSiteSettingInstructions}
+    {!$Label.mcdm_15__postInstallRemoteSiteSettingSelf}
+    {!$Label.mcdm_15__postInstallRemoteSiteSettingMCAuth}
+    {!$Label.mcdm_15__postInstallRemoteSiteSettingMCAPI}
+    {!$Label.mcdm_15__postInstallRemoteSiteSettingButton}
+    {!$Label.mcdm_15__postInstallSelectEnvHeaderTse}
+    {!$Label.mcdm_15__postInstallSelectEnvHeaderLegacy}
+    {!$Label.mcdm_15__postInstallConfigAuthProviderSalesforceEnv}
+    {!$Label.mcdm_15__postInstallClientIdSecretInstructions}
+    {!$Label.mcdm_15__postInstallClientId}
+    {!$Label.mcdm_15__postInstallClientSecret}
+    {!$Label.mcdm_15__postInstallMarketingCloudEnv}
+    {!$Label.mcdm_15__postInstallStoreAuthSettingButton}
+    {!$Label.mcdm_15__postInstallConfigureAuthProviderButton}
+    {!$Label.mcdm_15__postInstallAdditionalStepsHeader}
+    {!$Label.mcdm_15__postInstallLightningInstructions}
+    {!$Label.mcdm_15__postInstallNamedCredInstructions}
+    {!$Label.mcdm_15__postInstallMissingUsernameError}
+    {!$Label.mcdm_15__postInstallProceed}
+    {!$Label.mcdm_15__postInstallMarketingCloudUsername}
+    {!$Label.mcdm_15__postInstallRssMyOrg}
+    {!$Label.mcdm_15__postInstallRssMarketingCloudAuth}
+    {!$Label.mcdm_15__postInstallRssMarketingCloudApi}
+    {!$Label.mcdm_15__postInstallStoreAuthSettingsHeader}
+    {!$Label.mcdm_15__postInstallStoreAuthSettingsInstructions}
+    {!$Label.mcdm_15__postInstallConfigAuthProviderRemoteSiteSettingsHeader}
+    {!$Label.mcdm_15__postInstallConfigAuthProviderHeader}
+    {!$Label.mcdm_15__postInstallConfigAuthProviderInstructions}
+    {!$Label.mcdm_15__postInstallFinishHeader}
+    {!$Label.mcdm_15__quickSendTitle}
+    {!$Label.mcdm_15__send}
+    {!$Label.mcdm_15__submitForApproval}
+    {!$Label.mcdm_15__submit}
+    {!$Label.mcdm_15__clearError}
+    {!$Label.mcdm_15__composeQuickSendMessage}
+    {!$Label.mcdm_15__unsupportedObjectTypeMessage}
+    {!$Label.mcdm_15__unsupportedBusinessAccount}
+    {!$Label.mcdm_15__personAccountsRequired}
+    {!$Label.mcdm_15__invalidJourneysEnabledMessage}
+    {!$Label.mcdm_15__journeyUnvailableForQuickSend}
+    {!$Label.mcdm_15__memberSearchPlaceholder}
+    {!$Label.mcdm_15__noSearchResultsTitle}
+    {!$Label.mcdm_15__noSearchResultsMessage}
+    {!$Label.mcdm_15__queryLimitExceeded}
+    {!$Label.mcdm_15__lightningAppBuilder}
+    {!$Label.mcdm_15__uniqueDisplayNameError}
+    {!$Label.mcdm_15__buDisplayNameEntryHeader}
+    {!$Label.mcdm_15__createLinkedBusinessUnitButton}
+    {!$Label.mcdm_15__logIntoMarketingCloudHeader}
+    {!$Label.mcdm_15__logIntoMarketingCloudInstructionsTse}
+    {!$Label.mcdm_15__logIntoMarketingCloudInstructionsLegacy}
+    {!$Label.mcdm_15__logIntoMarketingCloudButton}
+    {!$Label.mcdm_15__linkedBuDeletedError}
+    {!$Label.mcdm_15__namedCredentialDeletedError}
+    {!$Label.mcdm_15__customSettingLimitReached}
+    {!$Label.mcdm_15__verifyConnectionButton}
+    {!$Label.mcdm_15__noBusinessUnitMessageHeader}
+    {!$Label.mcdm_15__connectionCheckLongMessage}
+    {!$Label.mcdm_15__addBusinessUnitButton}
+    {!$Label.mcdm_15__businessUnit}
+    {!$Label.mcdm_15__businessUnitsLastVerifiedMessage}
+    {!$Label.mcdm_15__completeLogInMessage}
+    {!$Label.mcdm_15__connectedFormulaMessage}
+    {!$Label.mcdm_15__restDiscoveryServiceException}
+    {!$Label.mcdm_15__blockBuDeletionMessage}
+    {!$Label.mcdm_15__linkedBuIdFilterRequired}
+    {!$Label.mcdm_15__unsupportedFilterOperation}
+    {!$Label.mcdm_15__cannotSearchColumn}
+    {!$Label.mcdm_15__cannotFilterColumn}
+    {!$Label.mcdm_15__linkedBusinessUnitNotFound}
+    {!$Label.mcdm_15__namedCredentialNotFound}
+    {!$Label.mcdm_15__cantConnectToMarketingCloud}
+    {!$Label.mcdm_15__businessUnitLabel}
+    {!$Label.mcdm_15__noQuickSendJourneys}
+    {!$Label.mcdm_15__setUpQuickSend}
+    {!$Label.mcdm_15__noQuickSendMessages}
+    {!$Label.mcdm_15__selectBusinessUnit}
+    {!$Label.mcdm_15__columns}
+    {!$Label.mcdm_15__columnModalTitle}
+    {!$Label.mcdm_15__addModifyApprovalColumnsInstructions}
+    {!$Label.mcdm_15__columnListBoxSourceLabel}
+    {!$Label.mcdm_15__columnListBoxSelectedLabel}
+    {!$Label.mcdm_15__maxLinkedBusReached}
+    {!$Label.mcdm_15__insufficientAdminPerms}
+    {!$Label.mcdm_15__learnMore}
+    {!$Label.mcdm_15__fieldTitle}
+    {!$Label.mcdm_15__valuePlaceholder}
+    {!$Label.mcdm_15__addFilterButtonTitle}
+    {!$Label.mcdm_15__removeAllButtonTitle}
+    {!$Label.mcdm_15__filterTitle}
+    {!$Label.mcdm_15__containsTitle}
+    {!$Label.mcdm_15__showFilterPanel}
+    {!$Label.mcdm_15__hideFilterPanel}
+    {!$Label.mcdm_15__errorSavingSettings}
+    {!$Label.mcdm_15__pendingMemberAdminSettingsTitle}
+    {!$Label.mcdm_15__pendingMemberAdminSettingsTitleTooltip}
+    {!$Label.mcdm_15__imageBlockTitle}
+    {!$Label.mcdm_15__imageSelectionTitle}
+    {!$Label.mcdm_15__imageSelectionHelpText}
+    {!$Label.mcdm_15__noAccessBuOrDMGeneral}
+    {!$Label.mcdm_15__lockedChestWithKeyAltText}
+    {!$Label.mcdm_15__openChestAltText}
+    {!$Label.mcdm_15__noAccessBuOrDMQuickSendAdmin}
+    {!$Label.mcdm_15__noAccessStandardSetup}
+    {!$Label.mcdm_15__legacySettingsHeader}
+    {!$Label.mcdm_15__legacySettingsDescription}
+    {!$Label.mcdm_15__legacyToggleLabel}
+    {!$Label.mcdm_15__settingEnabled}
+    {!$Label.mcdm_15__settingDisabled}
+    {!$Label.mcdm_15__modifyingRecordLabel}
+    {!$Label.mcdm_15__personalizationDefaultsLabel}
+    {!$Label.mcdm_15__contentEdit}
+    {!$Label.mcdm_15__noContentEdit}
+    {!$Label.mcdm_15__contentEditLegacyOnly}
+    {!$Label.mcdm_15__noContentEditAlt}
+    {!$Label.mcdm_15__contentEditAlt}
+    {!$Label.mcdm_15__editableCTA}
+    {!$Label.mcdm_15__errorCTA}
+    {!$Label.mcdm_15__hyperlinkTitle}
+    {!$Label.mcdm_15__channel}
+    {!$Label.mcdm_15__sms}
+    {!$Label.mcdm_15__email}
+    {!$Label.mcdm_15__showMore}
+    {!$Label.mcdm_15__showLess}
+    {!$Label.mcdm_15__p13nRestrictedTextError}
+    {!$Label.mcdm_15__approvalsHeader}
+    {!$Label.mcdm_15__approvalsDescription}
+    {!$Label.mcdm_15__approvalsRecipientsPlaceholder}
+    {!$Label.mcdm_15__errorMessageApprovalsRecipients}
+    {!$Label.mcdm_15__enterValidTargetAudienceField}
+    {!$Label.mcdm_15__restrictedWordsHelpText}
+    {!$Label.mcdm_15__restrictedWordsHeader}
+    {!$Label.mcdm_15__restrictedWordsToggle}
+    {!$Label.mcdm_15__restrictedWordsTextLabel}
+    {!$Label.mcdm_15__restrictedWordsPlaceholder}
+    {!$Label.mcdm_15__regexRestrictedWordsTextLabel}
+    {!$Label.mcdm_15__regexRestrictedWordsPlaceholder}
+    {!$Label.mcdm_15__domainSettingsHeader}
+    {!$Label.mcdm_15__domainSettingsTextBoxLabel}
+    {!$Label.mcdm_15__domainSettingsPlaceholder}
+    {!$Label.mcdm_15__domainSettingsHelpText}
+    {!$Label.mcdm_15__domainSettingsAddTextBox}
+    {!$Label.mcdm_15__domainSettingsMaxTextBox}
+    {!$Label.mcdm_15__domainSettingsTextBoxError}
+    {!$Label.mcdm_15__domainSettingsModalSaveError}
+    {!$Label.mcdm_15__deleteDomain}
+    {!$Label.mcdm_15__p13nImageUrlNotAllowedError}
+    {!$Label.mcdm_15__p13nUrlNotAllowedError}
+    {!$Label.mcdm_15__advancedOptions}
+    {!$Label.mcdm_15__advancedOptionsHelpText}
+    {!$Label.mcdm_15__noApprovalProcessFound}
+    {!$Label.mcdm_15__approvedSubmissionSendErrorSubject}
+    {!$Label.mcdm_15__manualApprovalSectionHeader}
+    {!$Label.mcdm_15__manualApprovalSectionHelpText}
+    {!$Label.mcdm_15__manualApprovalSectionWarningText}
+    {!$Label.mcdm_15__manualApprovalOptionsLabel}
+    {!$Label.mcdm_15__manualApprovalAlwaysOption}
+    {!$Label.mcdm_15__manualApprovalNeverOption}
+    {!$Label.mcdm_15__manualApprovalNumberOfRecipientsOption}
+    {!$Label.mcdm_15__manualApprovalModifiedOption}
+    {!$Label.mcdm_15__manualApprovalSettingNoProcessDefined}
+    {!$Label.mcdm_15__noRecordAccessOrDeleted}
+    {!$Label.mcdm_15__submissionLimitsHit}
+    {!$Label.mcdm_15__personalizationModalSectionHeader}
+    {!$Label.mcdm_15__personalizationModalOptionsLabel}
+    {!$Label.mcdm_15__personalizationModalSectionHelpText}
+    {!$Label.mcdm_15__subscriberKeyOptionHeader}
+    {!$Label.mcdm_15__subscriberKeyOptionDesc}
+    {!$Label.mcdm_15__subscriberKeyOptionToggle}
+    {!$Label.mcdm_15__noQuickSendRecordsError}
+    {!$Label.mcdm_15__tooManyQuickSendRecordsError}
+    {!$Label.mcdm_15__quickSendCmpUrlTooLongError}
+    {!$Label.mcdm_15__massQuickSendError}
+    {!$Label.mcdm_15__massQuickSendErrorTemplate}
+    {!$Label.mcdm_15__massQuickSendResultsReportLabel}
+    {!$Label.mcdm_15__massQuickSendResultsFileTitle}
+    {!$Label.mcdm_15__massQuickSendResultsFileHeader}
+    {!$Label.mcdm_15__succeeded}
+    {!$Label.mcdm_15__failed}
+    {!$Label.mcdm_15__chooseHowToAddImage}
+    {!$Label.mcdm_15__imageLibrary}
+    {!$Label.mcdm_15__imageLocal}
+    {!$Label.mcdm_15__imageUrl}
+    {!$Label.mcdm_15__chooseImage}
+    {!$Label.mcdm_15__chooseUrl}
+    {!$Label.mcdm_15__chooseUrlHelpText}
+    {!$Label.mcdm_15__invalidImageUrl}
+    {!$Label.mcdm_15__imageUrlTooLong}
+    {!$Label.mcdm_15__linkUrlTooLong}
+    {!$Label.mcdm_15__unknownApprovalSetting}
+    {!$Label.mcdm_15__mcDefaultP13nsNotRetrieved}
+    {!$Label.mcdm_15__audienceHeader}
+    {!$Label.mcdm_15__audienceSelectPlaceholder}
+    {!$Label.mcdm_15__audienceSelectLabel}
+    {!$Label.mcdm_15__caseQuickSendNoContactError}
+    {!$Label.mcdm_15__quickSendMessageSentPost}
+    {!$Label.mcdm_15__sendableRecordLabel}
+    {!$Label.mcdm_15__numberOfMembersPlural}
+    {!$Label.mcdm_15__numberOfMembers}
+    {!$Label.mcdm_15__availableToPreview}
+    {!$Label.mcdm_15__previewing}
+    {!$Label.mcdm_15__toField}
+    {!$Label.mcdm_15__fromField}
+    {!$Label.mcdm_15__previewTabMemberHeader}
+    {!$Label.mcdm_15__listViewName}
+    {!$Label.mcdm_15__modifyingDefaults}
+    {!$Label.mcdm_15__sendSettingsInfo}
+    {!$Label.mcdm_15__toFromToggle}
+    {!$Label.mcdm_15__defaultModeSectionHeader}
+    {!$Label.mcdm_15__emailHeaderSection}
+    {!$Label.mcdm_15__emailHeaderSectionHelpText}
+    {!$Label.mcdm_15__adminNavigationAdministrationSection}
+    {!$Label.mcdm_15__adminNavigationConfigurationSection}
+    {!$Label.mcdm_15__adminNavigationBusinessUnitsItem}
+    {!$Label.mcdm_15__adminNavigationQuickSendItem}
+    {!$Label.mcdm_15__adminNavigationCriticalUpdatesItem}
+    {!$Label.mcdm_15__adminNavigationPersonalizationModalItem}
+    {!$Label.mcdm_15__adminNavigationComplianceAndApprovalsItem}
+    {!$Label.mcdm_15__adminNavigationCampaignSendItem}
+    {!$Label.mcdm_15__adminChangeConfirmationModalHeader}
+    {!$Label.mcdm_15__adminChangeConfirmationModalMessage}
+    {!$Label.mcdm_15__discard}
+    {!$Label.mcdm_15__sendToToggle}
+    {!$Label.mcdm_15__sendFromToggle}
+    {!$Label.mcdm_15__sendFromDisabledWarning}
+    {!$Label.mcdm_15__sendFromHelpText}
+    {!$Label.mcdm_15__runningUser}
+    {!$Label.mcdm_15__accountOwner}
+    {!$Label.mcdm_15__enableOptionSendFromError}
+    {!$Label.mcdm_15__noDefaultSendfromError}
+    {!$Label.mcdm_15__sendFromPicklistTitle}
+    {!$Label.mcdm_15__senderProfileHelpUrl}
+    {!$Label.mcdm_15__availableToPreviewBulk}
+    {!$Label.mcdm_15__csvUnknownDataType}
+    {!$Label.mcdm_15__csvUnknownError}
+    {!$Label.mcdm_15__noRecordAccessOrDeletedCsv}
+    {!$Label.mcdm_15__csvWriteErrorFromSendResults}
+    {!$Label.mcdm_15__csvRowErrorsExist}
+    {!$Label.mcdm_15__unknownQuickSendError}
+    {!$Label.mcdm_15__bulkSendErrorPrepare}
+    {!$Label.mcdm_15__bulkSendErrorCustomPluginProcess}
+    {!$Label.mcdm_15__noAccessBuOrDMAudience}
+    {!$Label.mcdm_15__noAccessDmGeneral}
+    {!$Label.mcdm_15__noAccessBulkSendFF}
+    {!$Label.mcdm_15__noAccessBulkSendCustomPerm}
+    {!$Label.mcdm_15__startBulkSend}
+    {!$Label.mcdm_15__bulkSendEntryHeader}
+    {!$Label.mcdm_15__bulkSendTitle}
+    {!$Label.mcdm_15__bulkAudienceViewTitle}
+    {!$Label.mcdm_15__bulkAudienceNameHeader}
+    {!$Label.mcdm_15__bulkAudienceTypeHeader}
+    {!$Label.mcdm_15__bulkAudienceStatusHeader}
+    {!$Label.mcdm_15__bulkAudienceEmailHeader}
+    {!$Label.mcdm_15__bulkAudienceErrorHeader}
+    {!$Label.mcdm_15__prepareBulkSend}
+    {!$Label.mcdm_15__bulkSendListView}
+    {!$Label.mcdm_15__getListViewError}
+    {!$Label.mcdm_15__listViewQueryNotSetError}
+    {!$Label.mcdm_15__listViewRecordsNotRetrieved}
+    {!$Label.mcdm_15__errorGettingSoqlCount}
+    {!$Label.mcdm_15__errorGettingBulkSendCap}
+    {!$Label.mcdm_15__errorBulkSendCapOverLimit}
+    {!$Label.mcdm_15__errorBulkSendCapUnknown}
+    {!$Label.mcdm_15__errorPreparingBulkSend}
+    {!$Label.mcdm_15__errorStartingBulkSend}
+    {!$Label.mcdm_15__successStartingBulkSend}
+    {!$Label.mcdm_15__errorGettingSendableStatus}
+    {!$Label.mcdm_15__errorFetchingCsvContent}
+    {!$Label.mcdm_15__bulkSendJobMaxRecordsError}
+    {!$Label.mcdm_15__bulkSendJobMaxBatches}
+    {!$Label.mcdm_15__csvRowNotStartedStatus}
+    {!$Label.mcdm_15__csvRowSuccessStatus}
+    {!$Label.mcdm_15__csvRowErrorStatus}
+    {!$Label.mcdm_15__leadObjectName}
+    {!$Label.mcdm_15__contactObjectName}
+    {!$Label.mcdm_15__csvJobStatusNotStarted}
+    {!$Label.mcdm_15__csvJobStatusCompleted}
+    {!$Label.mcdm_15__csvJobStatusWaiting}
+    {!$Label.mcdm_15__csvJobStatusSending}
+    {!$Label.mcdm_15__csvJobStatusProcessing}
+    {!$Label.mcdm_15__bulkSendJobOverBatchLimitError}
+    {!$Label.mcdm_15__bulkSendBatchQueueError}
+    {!$Label.mcdm_15__errorBulkJobNotSendable}
+    {!$Label.mcdm_15__errorNotSendableState}
+    {!$Label.mcdm_15__errorSettingSendableStatus}
+    {!$Label.mcdm_15__calloutFailedListView}
+    {!$Label.mcdm_15__tseMigrationTitle}
+    {!$Label.mcdm_15__tseMigrationReadyForUpdateListTitle}
+    {!$Label.mcdm_15__tseMigrationReadyForUpdateTooltip}
+    {!$Label.mcdm_15__tseMigrationUpdateButton}
+    {!$Label.mcdm_15__tseMigrationReadyForUpdateNotFound}
+    {!$Label.mcdm_15__tseMigrationReadyForMigrateListTitle}
+    {!$Label.mcdm_15__tseMigrationReadyForMigrateTooltip}
+    {!$Label.mcdm_15__tseMigrationMidsNotMatched}
+    {!$Label.mcdm_15__tseMigrationMigrateButton}
+    {!$Label.mcdm_15__tseMigrationReadyForMigrateNotFound}
+    {!$Label.mcdm_15__tseMigrationEmailDisplayFrom}
+    {!$Label.mcdm_15__tseMigrationQueueableEmailSubject}
+    {!$Label.mcdm_15__tseMigrationQueueableEmailText}
+    {!$Label.mcdm_15__tseMigrationBatchableEmailSubject}
+    {!$Label.mcdm_15__tseMigrationBatchableEmailText}
+    {!$Label.mcdm_15__tseMigrationErrorCreatingBusinessUnit}
+    {!$Label.mcdm_15__noAccessApiEnabled}
+    {!$Label.mcdm_15__sendCapSectionHeader}
+    {!$Label.mcdm_15__sendCapSectionHelpText}
+    {!$Label.mcdm_15__sendCapDurationLabel}
+    {!$Label.mcdm_15__messageCapNumberLabel}
+    {!$Label.mcdm_15__messageCapNumberPlaceholder}
+    {!$Label.mcdm_15__errorMessageCapNumber}
+    {!$Label.mcdm_15__sendCapDailyDurationOption}
+    {!$Label.mcdm_15__sendCapWeeklyDurationOption}
+    {!$Label.mcdm_15__sendCapMonthlyDurationOption}
+    {!$Label.mcdm_15__sendCapToggle}
+    {!$Label.mcdm_15__messageCapDurationPlaceholder}
+    {!$Label.mcdm_15__enterValidSendCapNumber}
+    {!$Label.mcdm_15__enterValidSendCapDuration}
+    {!$Label.mcdm_15__sendsRemainingLabel}
+    {!$Label.mcdm_15__notEnoughRemainingSendsError}
+    {!$Label.mcdm_15__remainingSendsTooLowMessage}
+    {!$Label.mcdm_15__opportunityAudienceSelectPlaceholder}
+    {!$Label.mcdm_15__smsSubscriberOptInCalloutError}
+    {!$Label.mcdm_15__smsSubscriberBlankPhoneNumbersError}
+    {!$Label.mcdm_15__smsSubscriberNotOptInModal}
+    {!$Label.mcdm_15__messageType}
+    {!$Label.mcdm_15__mobilePhonePlaceholder}
+    {!$Label.mcdm_15__smsValuePlaceholder}
+    {!$Label.mcdm_15__personalizationSMSValueTitle}
+    {!$Label.mcdm_15__personalizationSMSValueHelpText}
+    {!$Label.mcdm_15__charactersRemaining}
+    {!$Label.mcdm_15__objectNotSupportedError}
+    {!$Label.mcdm_15__fetchingObjectTypeError}
+    {!$Label.mcdm_15__quickSendDefaults}
+    {!$Label.mcdm_15__quickSendDefaultsButton}
+    {!$Label.mcdm_15__quickSendPersonalizationDefaults}
+    {!$Label.mcdm_15__quickSendCmpText}
+    {!$Label.mcdm_15__noContentEditSMS}
+    {!$Label.mcdm_15__scheduleSend}
+    {!$Label.mcdm_15__campaignSendBatchCapSectionHeader}
+    {!$Label.mcdm_15__campaignSendBatchCapSectionHelpText}
+    {!$Label.mcdm_15__batchSubmissionCapLabel}
+    {!$Label.mcdm_15__batchSubmissionCapPlaceholder}
+    {!$Label.mcdm_15__enterValidBatchSubmissionCap}
+    {!$Label.mcdm_15__pageNavigationLabel}
+    {!$Label.mcdm_15__viewAllLink}
+    {!$Label.mcdm_15__pagePrevious}
+    {!$Label.mcdm_15__pageNext}
+    {!$Label.mcdm_15__noAccessContentMarketplace}
+    {!$Label.mcdm_15__errorGettingContentMarketplaceSoqlCount}
+    {!$Label.mcdm_15__noContentContentMarketplace}
+    {!$Label.mcdm_15__ContentMarketplaceListViewTooltip}
+    {!$Label.mcdm_15__ContentMarketplaceTitleTooltip}
+    {!$Label.mcdm_15__ContentMarketplaceBodyTooltip}
+    {!$Label.mcdm_15__ContentMarketplaceImageFlagTooltip}
+    {!$Label.mcdm_15__imageUploadMarketplaceTitle}
+    {!$Label.mcdm_15__imageUploadFileUploadLabel}
+    {!$Label.mcdm_15__imageUploadCurrentImageLabel}
+    {!$Label.mcdm_15__imageUploadDefaultImageLabel}
+    {!$Label.mcdm_15__imageUploadCurrentImageTooltip}
+    {!$Label.mcdm_15__errorGettingCurrentImage}
+    {!$Label.mcdm_15__noAccessContentMarketplaceImageInvalidObject}
+    {!$Label.mcdm_15__errorSavingCurrentImage}
+    {!$Label.mcdm_15__unknownQuickSendErrorSchedule}
+    {!$Label.mcdm_15__cancelSend}
+    {!$Label.mcdm_15__quickSendScheduledSuccessMessage}
+    {!$Label.mcdm_15__errorGettingScheduleSendTime}
+    {!$Label.mcdm_15__errorSchedulingBulkSend}
+    {!$Label.mcdm_15__successSchedulingBulkSend}
+    {!$Label.mcdm_15__noAccessScheduledSendFF}
+    {!$Label.mcdm_15__inValidScheduleSendDateTime}
+    {!$Label.mcdm_15__bulkScheduleSendEntryHeader}
+    {!$Label.mcdm_15__ScheduleSendsViewTitle}
+    {!$Label.mcdm_15__invalidCancelScheduleSend}
+    {!$Label.mcdm_15__cancelSendScheduledSuccessMessage}
+    {!$Label.mcdm_15__cancelledScheduleSendStatus}
+    {!$Label.mcdm_15__sentScheduleSendStatus}
+    {!$Label.mcdm_15__scheduledSendStatus}
+    {!$Label.mcdm_15__viewBulkCampaign}
+    {!$Label.mcdm_15__waitingSummary}
+    {!$Label.mcdm_15__errorFetchingRecordsBulk}
+    {!$Label.mcdm_15__campaignBulkSendError}
+    {!$Label.mcdm_15__remSendsLowCampaignBulk}
+    {!$Label.mcdm_15__scheduledqueueLimitsHit}
+    {!$Label.mcdm_15__sendSchedulingLabel}
+    {!$Label.mcdm_15__sendSchedulingToggleLabel}
+    {!$Label.mcdm_15__sendSchedulingCampaignToggleLabel}
+    {!$Label.mcdm_15__sendSchedulingSettingHelpText}
+    {!$Label.mcdm_15__sendSchedulingSettingWarningText}
+    {!$Label.mcdm_15__singleSendAudienceTab}
+    {!$Label.mcdm_15__bulkSendAudienceTab}
+    {!$Label.mcdm_15__listviewPlaceholderAudience}
+    {!$Label.mcdm_15__listViewLabelAudience}
+    {!$Label.mcdm_15__currentAudienceSizeLabel}
+    {!$Label.mcdm_15__requiresApprovalState}
+    {!$Label.mcdm_15__noApprovalError}
+    {!$Label.mcdm_15__rejectedApprovalError}
+    {!$Label.mcdm_15__bulkCampaignMemberDepthHit}
+    {!$Label.mcdm_15__hyperlinkInputLabel}
+    {!$Label.mcdm_15__hyperlinkInputHelpText}
+    {!$Label.mcdm_15__sfQuickSendIdPlaceholder}
+    {!$Label.mcdm_15__connectCampaignWarningText}
+    {!$Label.mcdm_15__AccountObjectName}
+    {!$Label.mcdm_15__errorPersonAccountListView}
+    {!$Label.mcdm_15__phoneFieldLabel}
+    {!$Label.mcdm_15__restrictedWordsAdminError}
+    {!$Label.mcdm_15__restrictedWordsAdminErrorLine}
+    {!$Label.mcdm_15__invalidTokenError}
+    {!$Label.mcdm_15__retireContentLabel}
+    {!$Label.mcdm_15__contentActivationLabel}
+    {!$Label.mcdm_15__contentActivationQuickSendToggleLabel}
+    {!$Label.mcdm_15__contentActivationCampaignToggleLabel}
+    {!$Label.mcdm_15__contentActivationSettingHelpText}
+    {!$Label.mcdm_15__contentActivationActiveFlagToggleLabel}
+    {!$Label.mcdm_15__contentActivationDateRangeToggleLabel}
+    {!$Label.mcdm_15__inactiveCampaignError}
+    {!$Label.mcdm_15__inactiveQuickSendError}
+    {!$Label.mcdm_15__restrictQuickSendSettingHelpText}
+    {!$Label.mcdm_15__restrictCampaignSettingHelpText}
+    {!$Label.mcdm_15__restrictedSendingModalHeader}
+    {!$Label.mcdm_15__restrictedSendingConfirmationMessage}
+    {!$Label.mcdm_15__close}
+    {!$Label.mcdm_15__scheduledSendError}
+    {!$Label.mcdm_15__previewDuplicateFieldError}
+    {!$Label.mcdm_15__autoSendOption}
+    {!$Label.mcdm_15__campaignAutoSend}
+    {!$Label.mcdm_15__byPassSendCapWarning}
+    {!$Label.mcdm_15__overMaxAutoSendError}
+    {!$Label.mcdm_15__autoSendErrorTitle}
+    {!$Label.mcdm_15__dmAutoSendFFNotEnabled}
+    {!$Label.mcdm_15__noDMPermissions}
+    {!$Label.mcdm_15__autoSendLimitsHit}
+    {!$Label.mcdm_15__autoSendUnexpectedQueueError}
+    {!$Label.mcdm_15__autoSendProcessCampaignMemberError}
+    {!$Label.mcdm_15__dmAutoSendNoCampaignMembers}
+    {!$Label.mcdm_15__autoSendInactiveCampaign}
+    {!$Label.mcdm_15__dmAutoSendNoCustomPermission}
+    {!$Label.mcdm_15__autoSendSuccessTitle}
+    {!$Label.mcdm_15__autoSendSuccessMessage}
+    {!$Label.mcdm_15__autoSendCampaignRetrieveError}
+    {!$Label.mcdm_15__autoSendErrorPrepare}
+    {!$Label.mcdm_15__dmAutoSendMemberError}
+    {!$Label.mcdm_15__autoSendMaxDepthError}
+    {!$Label.mcdm_15__autoSendErrorProcessing}
+    {!$Label.mcdm_15__autoSendQueueError}
+    {!$Label.mcdm_15__imageTooLarge}
+    {!$Label.mcdm_15__uploadButtonLabel}
+    {!$Label.mcdm_15__publishStatusText}
+    {!$Label.mcdm_15__uploadStatusText}
+    {!$Label.mcdm_15__uploadImageModalTitle}
+    {!$Label.mcdm_15__copyUrlToClipboard}
+    {!$Label.mcdm_15__copyImageUrlInfo}
+    {!$Label.mcdm_15__bulkSendBatchErrorTitle}
+    {!$Label.mcdm_15__bulkSendBatchErrorMessage}
+    {!$Label.mcdm_15__bulkSendCPIdmlErrorMessage}
+    {!$Label.mcdm_15__progressModalTitle}
+    {!$Label.mcdm_15__progressModalDescription}
+    {!$Label.mcdm_15__progressModalDescriptionComplete}
+    {!$Label.mcdm_15__progressPercentageComplete}
+    {!$Label.mcdm_15__sendableRecordWithAccountLabel}
+    {!$Label.mcdm_15__restJourneyCallOutError}
+    {!$Label.mcdm_15__journeyApprovalCallOutError}
+    {!$Label.mcdm_15__SMSMaxLengthSectionHeader}
+    {!$Label.mcdm_15__SMSMaxLengthSectionHelpText}
+    {!$Label.mcdm_15__SMSMaxLengthLabel}
+    {!$Label.mcdm_15__SMSMaxLengthPlaceholder}
+    {!$Label.mcdm_15__enterValidSMSMaxLength}
+    {!$Label.mcdm_15__noAccessSMSMaxLengthFF}
+    {!$Label.mcdm_15__contentTopicsSection}
+    {!$Label.mcdm_15__contentTopicsHelpText}
+    {!$Label.mcdm_15__contentTopicsEnabledToggleLabel}
+    {!$Label.mcdm_15__ContentModalSearchForMessagePlaceholder}
+    {!$Label.mcdm_15__ContentModalAllTopics}
+    {!$Label.mcdm_15__ContentModalErrorFetchingTopics}
+    {!$Label.mcdm_15__ContentModalErrorSearchAllMessages}
+    {!$Label.mcdm_15__ContentModalErrorSearchingMessages}
+    {!$Label.mcdm_15__ContentModalSearchForTopicPlaceholder}
+    {!$Label.mcdm_15__AddTopic}
+    {!$Label.mcdm_15__AddNewtopicError}
+    {!$Label.mcdm_15__AddNewTopic}
+    {!$Label.mcdm_15__AddNewTopicInputLabel}
+    {!$Label.mcdm_15__ContentTableSearchPlaceholder}
+    {!$Label.mcdm_15__ContentTableSearchLabel}
+    {!$Label.mcdm_15__TopicsListHeading}
+    {!$Label.mcdm_15__TopicNamePlaceHolder}
+    {!$Label.mcdm_15__AssignTopicToContentLimitError}
+    {!$Label.mcdm_15__TopicNotEnabledForObject}
+    {!$Label.mcdm_15__DataExtensionMissingFieldError}
+    {!$Label.mcdm_15__JourneyDataExtensionMissingFieldError}
+    {!$Label.mcdm_15__BrowseAllLabel}
+    {!$Label.mcdm_15__QuickSendPickerModalTitle}
+    {!$Label.mcdm_15__QuickSendPickerModalSelectLabel}
+    {!$Label.mcdm_15__PhoneFieldSettingTitle}
+    {!$Label.mcdm_15__ContactPhoneFieldSettingTitle}
+    {!$Label.mcdm_15__LeadPhoneFieldSettingTitle}
+    {!$Label.mcdm_15__PhoneFieldSettingTitleInfo}
+    {!$Label.mcdm_15__sendOptionsSection}
+    {!$Label.mcdm_15__defaultPhoneFieldToggle}
+    {!$Label.mcdm_15__defaultPhoneFieldEnableWarning}
+    {!$Label.mcdm_15__errorSavingFavorite}
+    {!$Label.mcdm_15__errorDeletingFavorite}
+    {!$Label.mcdm_15__errorRetrievingFavorite}
+    {!$Label.mcdm_15__errorRetrievingContentTopicBadges}
+    {!$Label.mcdm_15__sortBy}
+    {!$Label.mcdm_15__sortDateCreatedAscending}
+    {!$Label.mcdm_15__sortDateCreatedDescending}
+    {!$Label.mcdm_15__sortTitleAscending}
+    {!$Label.mcdm_15__sortTitleDescending}
+    {!$Label.mcdm_15__filterFavoritesOnly}
+    {!$Label.mcdm_15__filterAll}
+    {!$Label.mcdm_15__starredHeader}
+    {!$Label.mcdm_15__topicFiltersDisabledMessage}
+    {!$Label.mcdm_15__errorRetrievingTopicList}
+    {!$Label.mcdm_15__flexQueueBulkSendError}
+    {!$Label.mcdm_15__bulkSendBeingSubmitted}
+    {!$Label.mcdm_15__bulkSendSystemBusy}
+    {!$Label.mcdm_15__bulkJobStatusRetry}
+    {!$Label.mcdm_15__bulkSendContentInactive}
+    {!$Label.mcdm_15__bulkSendErrorSendingRetry}
+    {!$Label.mcdm_15__uploadOriginalImageCheckboxLabel}
+    {!$Label.mcdm_15__uploadOriginalImageCheckboxFieldHelp}
+    {!$Label.mcdm_15__segmentedSendWarning}
+    {!$Label.mcdm_15__segmentedSendSettingHelpText}
+    {!$Label.mcdm_15__segmentedSendSettingButton}
+    {!$Label.mcdm_15__segmentedSendSettingHeader}
+    {!$Label.mcdm_15__licenseUsageTitle}
+    {!$Label.mcdm_15__noAccessLicenseUsage}
+    {!$Label.mcdm_15__errorFetchingLicenseUsage}
+    {!$Label.mcdm_15__adminNavigationReportingSection}
+    {!$Label.mcdm_15__reportingSectionHeading}
+    {!$Label.mcdm_15__reportingQuickSendLabel}
+    {!$Label.mcdm_15__reportingBulkQuickSendLabel}
+    {!$Label.mcdm_15__reportingBulkCampaignSendLabel}
+    {!$Label.mcdm_15__reportingSegmentedSendLabel}
+    {!$Label.mcdm_15__reportingAutoSendLabel}
+    {!$Label.mcdm_15__reportingRecordStorageBoxTitle}
+    {!$Label.mcdm_15__reportingRecordStorageBoxBody}
+    {!$Label.mcdm_15__reportingRecordStorageBoxCleanUpButton}
+    {!$Label.mcdm_15__reportingRecordStorageDMLegend}
+    {!$Label.mcdm_15__reportingQuickRecordStorageDMLegend}
+    {!$Label.mcdm_15__reportingSegmentedRecordStorageDMLegend}
+    {!$Label.mcdm_15__reportingCampaignBulkRecordStorageDMLegend}
+    {!$Label.mcdm_15__reportingAutoRecordStorageDMLegend}
+    {!$Label.mcdm_15__reportingQuickBulkRecordStorageDMLegend}
+    {!$Label.mcdm_15__reportingRecordStorageOrgLegend}
+    {!$Label.mcdm_15__reportingRecordStorageRecordLabel}
+    {!$Label.mcdm_15__ClearFiltersLabel}
+    {!$Label.mcdm_15__segmentedSendConcurrencyException}
+    {!$Label.mcdm_15__quickSendDefaultsClearButton}
+    {!$Label.mcdm_15__quickSendUserDefaultClearMessage}
+    {!$Label.mcdm_15__quickSendGlobalDefaultClearMessage}
+    {!$Label.mcdm_15__quickSendUserConfig}
+    {!$Label.mcdm_15__quickSendGlobalConfig}
+    {!$Label.mcdm_15__quickSendGlobalCmpText}
+    {!$Label.mcdm_15__quickSendGlobalDefaults}
+    {!$Label.mcdm_15__quickSendGlobalWarning}
+    {!$Label.mcdm_15__messageSettingBlockFreeTextValueLabel}
+    {!$Label.mcdm_15__messageSettingFreeTextLabel}
+    {!$Label.mcdm_15__messageSettingFreeTextPlaceholder}
+    {!$Label.mcdm_15__activityLogFailure}
+    {!$Label.mcdm_15__activityLogFailureQuick}
+    {!$Label.mcdm_15__activityLogMaxActivities}</div>
+
+        <script>
+            function setupKonamiHandler() {
+                var kkeys = [];
+                var konami = '38,38,40,40,37,39,37,39,66,65';
+                var konamiListener = function(e) {
+                    kkeys.push(e.keyCode);
+
+                    if (kkeys.toString().indexOf(konami) > -1) {
+                        window.removeEventListener('keydown', konamiListener);
+                        document.getElementsByClassName('internal')[0].style.display = 'block';
+                        document.getElementById('{!$Component.postInstallForm.showCredentials}').value = true;
+                    }
+                };
+
+                window.addEventListener('keydown', konamiListener);
+            }
+
+            setupKonamiHandler();
+        </script>
+    </body>
+</apex:page>

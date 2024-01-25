@@ -1,0 +1,50 @@
+{
+    "AddressLine1": "hbhjv",
+    "AddressLine2": "hvj",
+    "City": "hjvjhv",
+    "CountryCode": "Afghanistan",
+    "FinancialAccounts": [
+        {
+            "AccountName": "Savings Account",
+            "Address1": "Roop Nagar",
+            "Address2": "Prem Gali",
+            "City": "Kholi No. 420",
+            "ConvertedFinancialAccountNumber": "5678",
+            "Country": "India",
+            "FinancialAccountNumber": "12345678",
+            "PostalCode": "44331",
+            "State": "Chandigarh"
+        },
+        {
+            "AccountName": "Fixed Deposit",
+            "Address1": "roop nagar",
+            "Address2": "prem gali",
+            "City": "kholi no. 420",
+            "ConvertedFinancialAccountNumber": "0000",
+            "Country": "India",
+            "FinancialAccountNumber": "0000",
+            "PostalCode": "443211",
+            "State": "Chandigarh"
+        }
+    ],
+    "PostalCode": "7y7y7",
+    "State": "jvjv",
+    "accountId": "001xx000003GYtzAAG",
+    "accountStatus": "Review",
+    "caseSubject": "Address Update Service Request",
+    "customerLevelAddresses": [
+        {
+            "Address": "221B,Rishikesh,Uttarakhand,4342,India",
+            "type": "Shipping"
+        },
+        {
+            "Address": "11A,Chandigarh,Punjab,4545,India",
+            "type": "Billing"
+        }
+    ],
+    "documentInfo": "",
+    "effectiveDate": "2022-11-22",
+    "elementName": "CallConnectApi",
+    "omniScriptId": "0jNxx000000004rEAA",
+    "svcCatalogItemDefApiName": "AddressUpdate"
+}

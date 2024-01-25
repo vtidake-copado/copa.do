@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурация приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурация приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурацию приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурацию приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурации приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурации приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурации приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурации приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурацией приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурацией приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value><!-- Конфигурации приложения Industries --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value><!-- Конфигурации приложения Industries --></value>
+    </caseValues>
+    <fields>
+        <help>По умолчанию имена организаций отображаются следующим образом: {firstname} {lastname}. Чтобы изменить порядок отображения, введите: {lastname} {firstname}.</help>
+        <label><!-- Account Name Format --></label>
+        <name>FinServ__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>FinServ__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>FinServ__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>FinServ__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>FinServ__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>FinServ__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>FinServ__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>FinServ__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>Например: 32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>FinServ__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only users with at least read access to the account and contact in an account-contact relationship record can see the record in relationship components. --></help>
+        <label><!-- Restrict ACR Record Visibility --></label>
+        <name>FinServ__RestrictACRRecordVisibility__c</name>
+    </fields>
+    <fields>
+        <help>Отображение подробного сообщения об ошибке при выполнении действия без соответствующего полномочия.</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>FinServ__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>Синхронизация полей организаций и контактов при создании записей в объектной модели отдельного лица.</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>FinServ__SyncIndividualSystemFields__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

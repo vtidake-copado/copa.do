@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>收入</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>FinServ__Account__c</name>
+        <relationshipLabel><!-- Revenues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>FinServ__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>FinServ__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Revenues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Type --></label>
+        <name>FinServ__SubType__c</name>
+        <picklistValues>
+            <masterLabel>Advisory</masterLabel>
+            <translation>諮詢</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custodian</masterLabel>
+            <translation>監管人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment</masterLabel>
+            <translation>投資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation>計畫</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction</masterLabel>
+            <translation>交易</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FinServ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Commission</masterLabel>
+            <translation>佣金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees</masterLabel>
+            <translation>費用</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>收入交易</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Enter either the Client or the Financial Account for this Revenue source. --></errorMessage>
+        <name>FinServ__AccountOrFinancialAccountRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

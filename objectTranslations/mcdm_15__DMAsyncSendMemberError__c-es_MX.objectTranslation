@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro de errores del miembro del envío asíncrono de DM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros de errores del miembro del envío asíncrono de DM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign Member Id --></label>
+        <name>mcdm_15__Campaign_Member_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DM Auto Send --></label>
+        <name>mcdm_15__DM_Auto_Send__c</name>
+        <relationshipLabel><!-- DM Send Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DM Error --></label>
+        <name>mcdm_15__DM_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Journey Approval State --></label>
+        <name>mcdm_15__JourneyApprovalState__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Error</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Procesando</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Listo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre del error de miembro del envío as</nameFieldLabel>
+</CustomObjectTranslation>

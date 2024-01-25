@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuraciones de envío MCDM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de envíos MCDM</value>
+    </caseValues>
+    <fields>
+        <label><!-- Custom Data --></label>
+        <name>mcdm_15__CustomDataJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entry Object Id --></label>
+        <name>mcdm_15__EntryObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Journey Id --></label>
+        <name>mcdm_15__ExternalJourneyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Greeting --></label>
+        <name>mcdm_15__Greeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit Id --></label>
+        <name>mcdm_15__LinkedBusinessUnitId__c</name>
+        <relationshipLabel><!-- SubmissionSendSettings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mobile Custom Field --></label>
+        <name>mcdm_15__MobileCustomField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Id --></label>
+        <name>mcdm_15__RelatedRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Record Type --></label>
+        <name>mcdm_15__RelatedRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send From --></label>
+        <name>mcdm_15__SendFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sendable Record Id --></label>
+        <name>mcdm_15__SendableRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sendable Record Type --></label>
+        <name>mcdm_15__SendableRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Value --></label>
+        <name>mcdm_15__SmsValue__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de configuración de envío de emis</nameFieldLabel>
+</CustomObjectTranslation>

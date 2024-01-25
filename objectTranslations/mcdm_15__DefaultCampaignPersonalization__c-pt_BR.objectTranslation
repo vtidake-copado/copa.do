@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Personalização de campanha padrão</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Personalizações de campanha padrão</value>
+    </caseValues>
+    <fields>
+        <label><!-- Block ID --></label>
+        <name>mcdm_15__blockId__c</name>
+    </fields>
+    <fields>
+        <label><!-- campaignId --></label>
+        <name>mcdm_15__campaignId__c</name>
+    </fields>
+    <fields>
+        <help>Indica que a personalização padrão é uma configuração global.</help>
+        <label><!-- Is Global Setting --></label>
+        <name>mcdm_15__isGlobalSetting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup ID --></label>
+        <name>mcdm_15__lookupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Type --></label>
+        <name>mcdm_15__lookupType__c</name>
+    </fields>
+    <fields>
+        <label><!-- value --></label>
+        <name>mcdm_15__value__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome de personalização da campanha padrã</nameFieldLabel>
+</CustomObjectTranslation>

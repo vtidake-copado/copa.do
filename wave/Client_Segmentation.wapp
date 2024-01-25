@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/14.png</assetIcon>
+    <folder>Client_Segmentation</folder>
+    <masterLabel>Client Segmentation</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>ar-mumm@force.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__ClientSegmentationApp</templateOrigin>
+    <templateVersion>1.1</templateVersion>
+</WaveApplication>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Document</fullName>
+        <default>false</default>
+        <label>Document</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facial Biometric</fullName>
+        <default>false</default>
+        <label>Facial Biometric</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Biometric</fullName>
+        <default>false</default>
+        <label>Other Biometric</label>
+    </standardValue>
+</StandardValueSet>

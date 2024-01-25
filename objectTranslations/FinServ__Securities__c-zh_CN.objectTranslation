@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>证券</value>
+    </caseValues>
+    <fields>
+        <label><!-- Asset Category Name --></label>
+        <name>FinServ__AssetCategoryName__c</name>
+        <picklistValues>
+            <masterLabel>Large Blend</masterLabel>
+            <translation>大盘混合型</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Growth</masterLabel>
+            <translation>大幅增长</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Value</masterLabel>
+            <translation>大盘价值型</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Cap Blend</masterLabel>
+            <translation>中盘混合型</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Cap Growth</masterLabel>
+            <translation>中盘增长</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Cap Value</masterLabel>
+            <translation>中盘价值型</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Blend</masterLabel>
+            <translation>小盘混合型</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Growth</masterLabel>
+            <translation>小幅增长</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Value</masterLabel>
+            <translation>小盘价值型</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Category --></label>
+        <name>FinServ__AssetCategory__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation>分配</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alternative</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commodities</masterLabel>
+            <translation>日用品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Equity</masterLabel>
+            <translation>国际股票</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Bond</masterLabel>
+            <translation>地方债券</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sector Equity</masterLabel>
+            <translation>行业股票</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Bond</masterLabel>
+            <translation>应税债券</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Equity</masterLabel>
+            <translation>美国股票</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Class --></label>
+        <name>FinServ__AssetClass__c</name>
+        <picklistValues>
+            <masterLabel>Alternative Investments</masterLabel>
+            <translation>其他投资</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Equivalents</masterLabel>
+            <translation>现金等价物</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equities</masterLabel>
+            <translation>股票</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Income</masterLabel>
+            <translation>固定收入</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CUSIP --></label>
+        <name>FinServ__CUSIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exchange --></label>
+        <name>FinServ__Exchange__c</name>
+        <picklistValues>
+            <masterLabel>NASDAQ</masterLabel>
+            <translation>NASDAQ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYSE</masterLabel>
+            <translation>NYSE</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Updated --></label>
+        <name>FinServ__LastUpdated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>FinServ__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Securities Name --></label>
+        <name>FinServ__SecuritiesName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security ID --></label>
+        <name>FinServ__SecurityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <nameFieldLabel>符号</nameFieldLabel>
+</CustomObjectTranslation>

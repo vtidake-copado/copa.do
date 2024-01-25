@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>שיטת תשלום הפוליסה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>שיטת תשלום פוליסה</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>שיטות תשלום הפוליסה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>שיטות תשלום פוליסה</value>
+    </caseValues>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>FinServ__EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Policy Payment Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>FinServ__InsurancePolicy__c</name>
+        <relationshipLabel><!-- Policy Payment Methods --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FinServ__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Account --></label>
+        <name>FinServ__IsPrimaryAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Percentage --></label>
+        <name>FinServ__PaymentPercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>FinServ__StartDate__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+[
+    {
+        "ApiName": "DocumentTypes",
+        "CalculationMatrixId": {
+            "Name": "GetAllRequiredDocumentTypes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/GetAllRequiredDocumentTypes",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Output",
+        "DataType": "Text",
+        "DisplaySequence": 2,
+        "IsWildcardColumn": false,
+        "Name": "DocumentTypes",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated-1111551107",
+        "WildcardColumnValue": ""
+    },
+    {
+        "ApiName": "ProcessName",
+        "CalculationMatrixId": {
+            "Name": "GetAllRequiredDocumentTypes",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "CalculationMatrix/GetAllRequiredDocumentTypes",
+            "VlocityRecordSObjectType": "CalculationMatrix"
+        },
+        "ColumnType": "Input",
+        "DataType": "Text",
+        "DisplaySequence": 1,
+        "IsWildcardColumn": false,
+        "Name": "ProcessName",
+        "Namespace": "",
+        "RangeValues": "",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "CalculationMatrixColumn",
+        "VlocityRecordSourceKey": "CalculationMatrixColumn/Generated-609729555",
+        "WildcardColumnValue": ""
+    }
+]

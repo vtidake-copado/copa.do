@@ -1,0 +1,75 @@
+[
+    {
+        "FilterGroup": 0,
+        "FormulaExpression": "ADDMONTH($Vlocity.TODAY, -36)",
+        "FormulaResultPath": "sDate",
+        "FormulaSequence": 1,
+        "GlobalKey": "FSCFeeReversalGetStartDateCustom0jIDo000000CqQxMAKItem1",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalGetStartDate",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalGetStartDate",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalGetStartDate",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FormulaExpression": "FORMATDATETIME(sDate,\"yyyy-MM-dd\",\"GMT\")",
+        "FormulaResultPath": "startDate",
+        "FormulaSequence": 2,
+        "GlobalKey": "FSCFeeReversalGetStartDateCustom0jIDo000000CqQxMAKItem2",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalGetStartDate",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalGetStartDate",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalGetStartDate",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "FSCFeeReversalGetStartDateCustom0jIDo000000CqQxMAKItem0",
+        "InputFieldName": "startDate",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalGetStartDate",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalGetStartDate",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalGetStartDate",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "startDate",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

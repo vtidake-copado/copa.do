@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionLauncherItemDef xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identifier>_1uu0e0q6f3y151fhswtljagmaq</identifier>
+    <itemActionType>Omniscript</itemActionType>
+    <itemCategory>dbBased</itemCategory>
+    <itemLanguage>English</itemLanguage>
+    <masterLabel>FSC_Sample/Account_Opening_Sample/English</masterLabel>
+    <subType>Account_Opening_Sample</subType>
+    <type>FSC_Sample</type>
+</ActionLauncherItemDef>

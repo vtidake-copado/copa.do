@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>49.0</apiVersion>
+    <dynamicChoiceSets>
+        <name>CommunicationPreferenceList</name>
+        <dataType>Multipicklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>FinServ__CommunicationPreferences__c</picklistField>
+        <picklistObject>Contact</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>Update Communication Preferences {!$Flow.CurrentDateTime}</interviewLabel>
+    <isTemplate>true</isTemplate>
+    <label>Update Communication Preferences</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Look_Up_Client_Preferences</name>
+        <label>Look Up Client Preferences</label>
+        <locationX>180</locationX>
+        <locationY>50</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Select_Communication_Preferences</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_Screen</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputAssignments>
+            <assignToReference>ContactRecord.DoNotCall</assignToReference>
+            <field>DoNotCall</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>ContactRecord.FinServ__MarketingOptOut__c</assignToReference>
+            <field>FinServ__MarketingOptOut__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>ContactRecord.HasOptedOutOfEmail</assignToReference>
+            <field>HasOptedOutOfEmail</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>ContactRecord.HasOptedOutOfFax</assignToReference>
+            <field>HasOptedOutOfFax</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>ContactRecord.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Communication_Preferences</name>
+        <label>Update Communication Preferences</label>
+        <locationX>555</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Create_Service_Request</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Error_Screen</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>DoNotCall</field>
+            <value>
+                <elementReference>Phone</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FinServ__MarketingOptOut__c</field>
+            <value>
+                <elementReference>Marketing</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>HasOptedOutOfEmail</field>
+            <value>
+                <elementReference>Email</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>HasOptedOutOfFax</field>
+            <value>
+                <elementReference>Fax</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <screens>
+        <name>Confirmation_Screen</name>
+        <label>Confirmation Screen</label>
+        <locationX>878</locationX>
+        <locationY>43</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Summary</name>
+            <fieldText>&lt;p&gt;&lt;b&gt;Summary&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ServiceRequestID</name>
+            <fieldText>Case Number: {!CaseNumber}
+{!CaseDescription}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Error_Screen</name>
+        <label>Error Screen</label>
+        <locationX>357</locationX>
+        <locationY>299</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>ErrorMessage</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(194, 57, 52);&quot;&gt;An unexpected error occurred. Your Salesforce admin can help with that. {!$Flow.FaultMessage}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Select_Communication_Preferences</name>
+        <label>Select Communication Preferences</label>
+        <locationX>372</locationX>
+        <locationY>50</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_Communication_Preferences</targetReference>
+        </connector>
+        <fields>
+            <name>CommunicationPrefs</name>
+            <fieldText>&lt;p&gt;Select the communication options you want to stop using.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Email</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <elementReference>ContactRecord.HasOptedOutOfEmail</elementReference>
+            </defaultValue>
+            <fieldText>Email</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Phone</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <elementReference>ContactRecord.DoNotCall</elementReference>
+            </defaultValue>
+            <fieldText>Phone</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Marketing</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <elementReference>ContactRecord.FinServ__MarketingOptOut__c</elementReference>
+            </defaultValue>
+            <fieldText>Marketing</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Fax</name>
+            <dataType>Boolean</dataType>
+            <defaultValue>
+                <elementReference>ContactRecord.HasOptedOutOfFax</elementReference>
+            </defaultValue>
+            <fieldText>Fax</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Look_Up_Client_Preferences</startElementReference>
+    <status>Active</status>
+    <subflows>
+        <name>Create_Case_Gateway_Record</name>
+        <label>Create Case Gateway Record</label>
+        <locationX>789</locationX>
+        <locationY>163</locationY>
+        <connector>
+            <targetReference>Confirmation_Screen</targetReference>
+        </connector>
+        <flowName>FinServFlowsExt__Subflow_Create_a_Case_Gateway_Request</flowName>
+        <inputAssignments>
+            <name>CaseId</name>
+            <value>
+                <elementReference>CaseID</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>Payload</name>
+            <value>
+                <elementReference>Payload</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Create_Service_Request</name>
+        <label>Create Service Request</label>
+        <locationX>708</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Create_Case_Gateway_Record</targetReference>
+        </connector>
+        <flowName>FinServFlowsExt__Subflow_Create_a_Service_Request</flowName>
+        <inputAssignments>
+            <name>CaseDescription</name>
+            <value>
+                <elementReference>CaseDescription</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CaseStatus</name>
+            <value>
+                <elementReference>CaseStatus</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>CaseSubject</name>
+            <value>
+                <stringValue>Update Communication Preferences</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>ContactId</name>
+            <value>
+                <elementReference>ContactId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>CaseID</assignToReference>
+            <name>CaseId</name>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>CaseNumber</assignToReference>
+            <name>CaseNumber</name>
+        </outputAssignments>
+    </subflows>
+    <textTemplates>
+        <description>Create a Service Request for changing communication preferences.</description>
+        <name>CaseDescription</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>Service Flow Name: Update Communication Preferences
+Don&apos;t send email: {!Email}
+Don&apos;t call: {!Phone}
+Don&apos;t fax: {!Fax}
+Opt out of marketing: {!Marketing}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Payload</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>{
+  &quot;FlowName&quot;: &quot;Update Communication Preferences&quot;,
+  &quot;ServiceRequestNumber&quot;: &quot;{!CaseNumber}&quot;,
+  &quot;ServiceRequestId&quot;: &quot;{!CaseID}&quot;,
+  &quot;AccountId&quot;: &quot;{!recordId}&quot;,
+  &quot;OptOutOfEmail&quot;: &quot;{!Email}&quot;,
+  &quot;OptOutOfPhoneCalls&quot;: &quot;{!Phone}&quot;,
+  &quot;OptOutofMarketing&quot;: &quot;{!Marketing}&quot;,
+  &quot;OptOutofFax&quot;: &quot;{!Fax}&quot;
+}</text>
+    </textTemplates>
+    <variables>
+        <name>CaseID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>CaseNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>CaseStatus</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>New</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ContactId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>ContactRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>001B000000oLgsRIAS</stringValue>
+        </value>
+    </variables>
+</Flow>

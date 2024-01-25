@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>עסקת החשבון הפיננסי</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>עסקת חשבון פיננסי</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>עסקאות החשבון הפיננסי</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>עסקאות חשבון פיננסי</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allocated Escrow Payment --></label>
+        <name>FinServ__AllocatedEscrowPayment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Fee Amount --></label>
+        <name>FinServ__AllocatedFeeAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Interest Amount --></label>
+        <name>FinServ__AllocatedInterestAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Principal Amount --></label>
+        <name>FinServ__AllocatedPrincipalAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>FinServ__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Statement --></label>
+        <name>FinServ__BillingStatements__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Card Account ID --></label>
+        <name>FinServ__CardAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim --></label>
+        <name>FinServ__Claim__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FinServ__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dispute Reason --></label>
+        <name>FinServ__DisputeReason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate Transactions</masterLabel>
+            <translation>עסקאות כפולות</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>אחרים</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspected Fraud</masterLabel>
+            <translation>חשד להונאה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction not recognized</masterLabel>
+            <translation>עסקה לא מזוהה</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Escrow Balance --></label>
+        <name>FinServ__EscrowBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Account --></label>
+        <name>FinServ__FinancialAccount__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Insurance Policy --></label>
+        <name>FinServ__InsurancePolicy__c</name>
+        <relationshipLabel><!-- Financial Account Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disputed --></label>
+        <name>FinServ__IsDisputed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merchant Category Code (MCCode) --></label>
+        <name>FinServ__MerchantCategoryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Date --></label>
+        <name>FinServ__PostDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Principal Balance --></label>
+        <name>FinServ__PrincipalBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running Balance --></label>
+        <name>FinServ__RunningBalance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System ID --></label>
+        <name>FinServ__SourceSystemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Transaction Type --></label>
+        <name>FinServ__SourceTransactionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Date --></label>
+        <name>FinServ__TransactionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>FinServ__TransactionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Status --></label>
+        <name>FinServ__TransactionStatus__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>בהמתנה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation>פורסם</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Sub-type --></label>
+        <name>FinServ__TransactionSubtype__c</name>
+        <picklistValues>
+            <masterLabel>ATM Deposit</masterLabel>
+            <translation>הפקדה בכספומט</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATM Withdrawal</masterLabel>
+            <translation>משיכה מכספומט</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bill Payment</masterLabel>
+            <translation>תשלום חשבון</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Deposit</masterLabel>
+            <translation>הפקדת מזומן</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Cash Advance</masterLabel>
+            <translation>מקדמת מזומן בכרטיס אשראי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Payment</masterLabel>
+            <translation>תשלום כרטיס אשראי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFT</masterLabel>
+            <translation>EFT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fee</masterLabel>
+            <translation>עמלה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Cash Deposit</masterLabel>
+            <translation>הפקדת מטבע זר</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Earned</masterLabel>
+            <translation>ריבית שנצברה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Funds Transfer</masterLabel>
+            <translation>העברת כספים פנימית</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Payment</masterLabel>
+            <translation>תשלום הלוואה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merchant Charge</masterLabel>
+            <translation>חיוב סוחר</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Credit</masterLabel>
+            <translation>אשראי, שונות</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Debit</masterLabel>
+            <translation>חיוב, שונות</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Payment</masterLabel>
+            <translation>תשלום משכנתה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Us Check Deposit</masterLabel>
+            <translation>הפקדת המחאה עצמית</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POS withdrawal</masterLabel>
+            <translation>משיכה בנקודת מכירה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversal</masterLabel>
+            <translation>היפוך</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Check Deposit</masterLabel>
+            <translation>הפקדת המחאה במעבר</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>FinServ__TransactionType__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>אשראי</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>חיוב</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Waiver Reason --></label>
+        <name>FinServ__WaiverReason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate fees charged</masterLabel>
+            <translation>חויבו עמלות כפולות</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees Discovery</masterLabel>
+            <translation>גילוי עמלות</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain customer relationship</masterLabel>
+            <translation>שימור קשר עם הלקוח</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification not received</masterLabel>
+            <translation>לא התקבלה הודעה</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others.</masterLabel>
+            <translation>אחרים.</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>שם עסקה</nameFieldLabel>
+</CustomObjectTranslation>

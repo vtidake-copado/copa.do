@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Impostazione membri del gruppo --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Impostazioni membri del gruppo --></value>
+    </caseValues>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>FinServ__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edit Button Custom Name --></label>
+        <name>FinServ__EditButtonCustomName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edit Component Name --></label>
+        <name>FinServ__EditComponentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Record Actions --></label>
+        <name>FinServ__HideRecordActions__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Button Custom Name --></label>
+        <name>FinServ__NewButtonCustomName__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Component Name --></label>
+        <name>FinServ__NewComponentName__c</name>
+    </fields>
+    
+    
+</CustomObjectTranslation>

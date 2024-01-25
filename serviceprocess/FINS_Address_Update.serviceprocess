@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <processLabel>Address Update</processLabel>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The street address line 1 for the address.</description>
+        <developerName>address_line_1</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Address Line 1</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The street address line 2 for the address.</description>
+        <developerName>address_line_2</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>false</isRequired>
+        <label>Address Line 2</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The city for the address.</description>
+        <developerName>city</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>City</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The state for the address.</description>
+        <developerName>state</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>State</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The postal code for the address.</description>
+        <developerName>postal_code</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Postal Code</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The country for the address.</description>
+        <developerName>country</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Country</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Date</dataType>
+        <description>The date from which the address is in effect.</description>
+        <developerName>effective_date</developerName>
+        <groupApiName>section_1</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Effective Date</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>ListOfMaps</dataType>
+        <description>The address of the account.</description>
+        <developerName>accounts</developerName>
+        <groupApiName>section_2</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Accounts</label>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The account ID.</description>
+        <developerName>account_id</developerName>
+        <groupApiName>section_2</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Account Id</label>
+        <parentAttribute>accounts</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The type of the account.</description>
+        <developerName>account_type</developerName>
+        <groupApiName>section_2</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Account Type</label>
+        <parentAttribute>accounts</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The status of the account.</description>
+        <developerName>account_status</developerName>
+        <groupApiName>section_2</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Account Status</label>
+        <parentAttribute>accounts</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessAttributes>
+        <attributeType>Extended</attributeType>
+        <dataType>Text</dataType>
+        <description>The address type of the account.</description>
+        <developerName>account_address_type</developerName>
+        <groupApiName>section_2</groupApiName>
+        <isAttrValueDerivAtRuntime>false</isAttrValueDerivAtRuntime>
+        <isRequired>true</isRequired>
+        <label>Account Address Type</label>
+        <parentAttribute>accounts</parentAttribute>
+    </serviceProcessAttributes>
+    <serviceProcessDependencies>
+        <dependencyReference>fsc_address_update_flow</dependencyReference>
+        <type>FlowDefinition</type>
+    </serviceProcessDependencies>
+    <serviceProcessDependencies>
+        <dependencyReference>fsc_address_update_integration_provider_definition</dependencyReference>
+        <type>IntegrationProviderDef</type>
+    </serviceProcessDependencies>
+    <serviceProcessItemGroups>
+        <apiName>section_1</apiName>
+        <groupName>Case Information</groupName>
+        <sortOrder>1</sortOrder>
+    </serviceProcessItemGroups>
+    <serviceProcessItemGroups>
+        <apiName>section_2</apiName>
+        <groupName>Address Changed On...</groupName>
+        <sortOrder>2</sortOrder>
+    </serviceProcessItemGroups>
+    <shortDescription>Update the client’s address in Salesforce and in the core banking system.</shortDescription>
+    <usageType>Industry</usageType>
+</ServiceProcess>

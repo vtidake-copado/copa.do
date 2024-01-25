@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Scheduled Send --></label>
+        <name>mcdm_15__ScheduledSend__c</name>
+        <relationshipLabel><!-- MCDM Scheduled Send --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>mcdm_15__Status__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send</masterLabel>
+            <translation><!-- Send --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submission Personalization --></label>
+        <name>mcdm_15__SubmissionP13n__c</name>
+        <relationshipLabel><!-- Submissions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submission Send Settings --></label>
+        <name>mcdm_15__SubmissionSendSettings__c</name>
+        <relationshipLabel><!-- Submissions --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

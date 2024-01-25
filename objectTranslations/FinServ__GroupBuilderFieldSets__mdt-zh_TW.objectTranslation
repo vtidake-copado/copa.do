@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 群組建立器欄位集 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Set Description --></label>
+        <name>FinServ__Description__c</name>
+    </fields>
+    <fields>
+        <help>namespace__FieldSetName。如果此欄位為空白，則會使用預設欄位集。</help>
+        <label><!-- Field Set Name --></label>
+        <name>FinServ__FieldSetName__c</name>
+    </fields>
+</CustomObjectTranslation>

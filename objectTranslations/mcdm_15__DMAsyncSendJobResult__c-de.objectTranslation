@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Status des asynchronen DM-Versandauftrags</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Status der asynchronen DM-Versandaufträge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Status des asynchronen DM-Versandauftrags</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Status der asynchronen DM-Versandaufträge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Status des asynchronen DM-Versandauftrags</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Status der asynchronen DM-Versandaufträge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Status des asynchronen DM-Versandauftrags</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Status der asynchronen DM-Versandaufträge</value>
+    </caseValues>
+    <fields>
+        <label><!-- Job Id --></label>
+        <name>mcdm_15__Job_Id__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Status des asynchronen Distributed Marke</nameFieldLabel>
+</CustomObjectTranslation>

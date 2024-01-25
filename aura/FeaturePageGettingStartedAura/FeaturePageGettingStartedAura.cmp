@@ -1,0 +1,27 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+	<aura:attribute name="app_welcome_text" type="String" default="Getting Started with Wealth Management" />
+    <aura:attribute name="url" type="String"/>
+    <aura:attribute name="pageReference" type="Object"/>
+    <aura:handler name="init" value="{!this }" action="{!c.init }"/>
+    <lightning:navigation aura:id="navService"/>
+	<lightning:card footer="" title="">
+        <h1 slot="title" class="slds-text-heading_medium">
+            <lightning:icon class="c-heading" iconName="utility:salesforce1" alternativeText="Salesforce" title="Salesforce"/>
+            {!v.app_welcome_text}
+        </h1>
+        <div class="c-container">
+            <div class="custom-box">
+                <lightning:layoutItem flexibility="auto" padding="around-medium">
+                    <p><b>Set up your Custom Domain name</b></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut ullamcorper libero. Aenean eleifend aliquam nisl, quis laoreet leo porttitor nec</p>
+                </lightning:layoutItem>
+            </div>
+            <div class="custom-box">
+                <lightning:layoutItem flexibility="auto" padding="around-small">
+                    <p><b>Set up your Financial Cloud Community</b></p>
+                    <p>Details about setup</p>
+                </lightning:layoutItem>
+            </div>
+        </div>
+    </lightning:card>
+</aura:component>

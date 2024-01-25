@@ -1,0 +1,121 @@
+{
+    "FinancialAccounts": [
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "Id": "a7k4S000000XhwvQAC",
+            "Name": "529-MORRIS-eTrade Education Plan",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "1234467",
+            "Id": "a7k4S000000XhwaQAC",
+            "Name": "Stratus Checking",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "0723789981",
+            "Id": "a7k4S000000XhwbQAC",
+            "Name": "Everyday Checking Account",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "83787823",
+            "Id": "a7k4S000000XhwcQAC",
+            "Name": "30 yr Fixed Mortgage",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "738239889",
+            "Id": "a7k4S000000XhwdQAC",
+            "Name": "Business Savings Account",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "7383288923",
+            "Id": "a7k4S000000XhweQAC",
+            "Name": "High Yield Savings Account",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "0797123456",
+            "Id": "a7k4S000000XhwfQAC",
+            "Name": "Julie Morris Credit Card",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "575875769",
+            "Id": "a7k4S000000XhwjQAC",
+            "Name": "Classic Savings Account",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "M12319494",
+            "Id": "a7k4S000000XhwpQAC",
+            "Name": "Morris Family Mortgage",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "FinancialAccountNumber": "07971239899",
+            "Id": "a7k4S000000XhwuQAC",
+            "Name": "Julie Morris Debit Card",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "Id": "a7k4S000000XhwxQAC",
+            "Name": "ROTH IRA-MORRIS",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        },
+        {
+            "AccountId": "0014S00000BP9rJQAT",
+            "AccountName": "Julie Morris",
+            "Id": "a7k4S000000XhwyQAC",
+            "Name": "401k-MORRIS Corporate-eTrade",
+            "PrimaryOwner": "0014S00000BP9rJQAT",
+            "RecordTypeName": "Bank Account",
+            "SourceSystemId": ""
+        }
+    ]
+}

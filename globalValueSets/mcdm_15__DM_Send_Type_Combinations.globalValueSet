@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>QUICKSEND</fullName>
+        <default>false</default>
+        <label>Quick Send</label>
+    </customValue>
+    <customValue>
+        <fullName>QUICKSEND_APPROVAL</fullName>
+        <default>false</default>
+        <label>Quick Send Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>QUICKSEND_SCHEDULED</fullName>
+        <default>false</default>
+        <label>Quick Send Scheduled</label>
+    </customValue>
+    <customValue>
+        <fullName>QUICKSEND_BULK</fullName>
+        <default>false</default>
+        <label>Quick Send Bulk</label>
+    </customValue>
+    <customValue>
+        <fullName>QUICKSEND_BULK_SCHEDULED</fullName>
+        <default>false</default>
+        <label>Quick Send Bulk Scheduled</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPAIGN_SEND</fullName>
+        <default>false</default>
+        <label>Campaign Send</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPAIGN_SEND_SCHEDULED</fullName>
+        <default>false</default>
+        <label>Campaign Send Scheduled</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPAIGN_SEND_APPROVAL</fullName>
+        <default>false</default>
+        <label>Campaign Send Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPAIGN_SEND_BULK</fullName>
+        <default>false</default>
+        <label>Campaign Send Bulk</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPAIGN_SEND_BULK_SCHEDULED</fullName>
+        <default>false</default>
+        <label>Campaign Send Bulk Scheduled</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPAIGN_SEND_AUTO_SEND</fullName>
+        <default>false</default>
+        <label>Campaign Auto Send</label>
+    </customValue>
+    <description>Picklist for valid send type combinations in Distributed Marketing supported by DM Activity Logging</description>
+    <masterLabel>DM Send Type Combinations</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

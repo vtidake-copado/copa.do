@@ -1,0 +1,51 @@
+[
+    {
+        "FilterGroup": 0,
+        "FormulaExpression": "FILTER(LIST(Transactions),'Subtype==\"'+ SelectedFeeType +'\"')",
+        "FormulaResultPath": "fTransactions",
+        "FormulaSequence": 1,
+        "GlobalKey": "FSCFeeReversalFilterTransactionsCustom0jIDo000000CqQwMAKItem1",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalFilterTransactions",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalFilterTransactions",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalFilterTransactions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "GlobalKey": "FSCFeeReversalFilterTransactionsCustom0jIDo000000CqQwMAKItem0",
+        "InputFieldName": "fTransactions",
+        "InputObjectQuerySequence": 0,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "LinkedObjectSequence": 0,
+        "Name": "FSCFeeReversalFilterTransactions",
+        "OmniDataTransformationId": {
+            "Name": "FSCFeeReversalFilterTransactions",
+            "VersionNumber": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/FSCFeeReversalFilterTransactions",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldFormat": "List<Map>",
+        "OutputFieldName": "FilteredTransactions",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

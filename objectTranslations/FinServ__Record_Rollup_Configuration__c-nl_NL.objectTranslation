@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Configuratie van totalisering van record --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Configuraties van totalisering van record --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Settings Active --></label>
+        <name>FinServ__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Api Name --></label>
+        <name>FinServ__Object_Api_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Size --></label>
+        <name>FinServ__Record_Rollup_Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollup End Date --></label>
+        <name>FinServ__Record_Rollup_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollup Start Date --></label>
+        <name>FinServ__Record_Rollup_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip Triggers --></label>
+        <name>FinServ__Skip_Record_Rollup_Triggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip Unchanged Household Updates --></label>
+        <name>FinServ__Skip_Update_If_Household_Unchanged__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Records Silently --></label>
+        <name>FinServ__Update_Records_Silently__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>runningUser</fullName>
+        <default>false</default>
+        <label>Running User</label>
+    </customValue>
+    <customValue>
+        <fullName>recordOwner</fullName>
+        <default>false</default>
+        <label>Record Owner</label>
+    </customValue>
+    <description>Picklist for send from settings used in Distributed Marketing</description>
+    <masterLabel>DM Send From Settings</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

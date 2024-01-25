@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 行业应用程序配置 --></value>
+    </caseValues>
+    <fields>
+        <help>默认情况下，显示客户名称：{firstname} {lastname}。要更改顺序，请输入：{lastname} {firstname}</help>
+        <label><!-- Account Name Format --></label>
+        <name>FinServ__AccountNameFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Name --></label>
+        <name>FinServ__AppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Inverse (Salesforce only) --></label>
+        <name>FinServ__AutoCreateInverseRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual Account Creation from Contact --></label>
+        <name>FinServ__AutocreateIndividualAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Individual Type --></label>
+        <name>FinServ__DefaultIndividualType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Packages --></label>
+        <name>FinServ__DependentPackageNS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Conversion Batch Size --></label>
+        <name>FinServ__LeadConversionBatchSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Relationship Groups --></label>
+        <name>FinServ__MultipleRelationshipGroups__c</name>
+    </fields>
+    <fields>
+        <help>例如：v32.0</help>
+        <label><!-- Page Layout Api Version --></label>
+        <name>FinServ__PageLayoutApiVersion__c</name>
+    </fields>
+    <fields>
+        <help>只有对客户-联系人关系记录中的客户和联系人至少具有读取权限的用户才能在关系组件中查看该记录。</help>
+        <label><!-- Restrict ACR Record Visibility --></label>
+        <name>FinServ__RestrictACRRecordVisibility__c</name>
+    </fields>
+    <fields>
+        <help>当某人未经许可执行某项操作时，显示详细的错误消息。</help>
+        <label><!-- Show Detailed Error Messages --></label>
+        <name>FinServ__ShowDetailedError__c</name>
+    </fields>
+    <fields>
+        <help>在个人对象模型中创建记录时同步客户和联系人字段。</help>
+        <label><!-- Sync Individual System Fields --></label>
+        <name>FinServ__SyncIndividualSystemFields__c</name>
+    </fields>
+</CustomObjectTranslation>

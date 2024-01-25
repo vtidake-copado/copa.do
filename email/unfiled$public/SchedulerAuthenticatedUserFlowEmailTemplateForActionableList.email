@@ -1,0 +1,10 @@
+<html><style>.link { background-color: #f3f3f3; padding: .25rem;border-radius: 0.25rem;border: 1px solid #e5e5e5;}</style><body>
+            <p>Hello</p>
+            <p>We would like to connect with you to discuss {!AppointmentInvitation.AppointmentTopic}. You can use this link to schedule an appointment as per your convenience. </p>
+            <div class="link"><a href={!AppointmentInvitation.InvitationUrl}>{!AppointmentInvitation.InvitationUrl}</a></div>
+            <br>
+            Thanking you,
+            <br>
+            {!User.Name}
+            </body>
+        </html>

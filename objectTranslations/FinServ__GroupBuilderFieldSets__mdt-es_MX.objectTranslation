@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Conjunto de campos de Generador de grupos --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Conjuntos de campos de Generador de grupos --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Field Set Description --></label>
+        <name>FinServ__Description__c</name>
+    </fields>
+    <fields>
+        <help>namespace__FieldSetName. Si este campo está en blanco, se utiliza el campo predeterminado.</help>
+        <label><!-- Field Set Name --></label>
+        <name>FinServ__FieldSetName__c</name>
+    </fields>
+    
+</CustomObjectTranslation>

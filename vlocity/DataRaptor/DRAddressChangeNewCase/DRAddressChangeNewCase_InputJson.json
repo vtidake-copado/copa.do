@@ -1,0 +1,146 @@
+{
+    "AccountList": [
+        {
+            "Id": "0015e00000HXKotAAH",
+            "Name": "Doug Richert Body Shop",
+            "RecordTypeId": "0125e000001qMeJAAU"
+        },
+        {
+            "Id": "0015e00000KxQ0QAAV",
+            "Name": "Will Baker",
+            "RecordTypeId": "0125e000001qMcyAAE"
+        },
+        {
+            "Id": "0015e00000HBlHVAA1",
+            "Name": "Universal Containers",
+            "RecordTypeId": "0125e000001qMcxAAE"
+        },
+        {
+            "Id": "0015e00000HBlHWAA1",
+            "Name": "Global Insurance",
+            "RecordTypeId": "0125e000001qMcxAAE"
+        },
+        {
+            "Id": "0015e00000HBlHXAA1",
+            "Name": "Opportunity Resources Inc",
+            "RecordTypeId": "0125e000001qMcxAAE"
+        }
+    ],
+    "ContextId": "0015e00000HBlH1AAL",
+    "Id": "%contextid%",
+    "Policies": [
+        {
+            "AddressCity": "New York",
+            "AddressPostalCode": "10023",
+            "AddressState": "NY",
+            "AddressStreet": "100 Amsterdam Ave, New York, NY 10023, USA",
+            "PolicyId": "0YT5e0000005jTIGAY",
+            "PolicyName": "Acc79856",
+            "PolicyType": "Specialty"
+        },
+        {
+            "AddressCity": "Coffeyville",
+            "AddressPostalCode": "67337",
+            "AddressState": "KS",
+            "AddressStreet": "3541 US-166, Coffeyville, KS 67337, USA",
+            "PolicyId": "0YT5e0000005bK7GAI",
+            "PolicyName": "PN-HOME-440957",
+            "PolicyType": "Home"
+        },
+        {
+            "AddressCity": "New York",
+            "AddressPostalCode": "10023",
+            "AddressState": "NY",
+            "AddressStreet": "100 Amsterdam Ave, New York, NY 10023, USA",
+            "PolicyId": "0YT5e0000005babGAA",
+            "PolicyName": "Homeowners (HO3) - 2021-7-27-7-5-0",
+            "PolicyType": "Property"
+        },
+        {
+            "AddressCity": "Teaneck",
+            "AddressPostalCode": "07666",
+            "AddressState": "NJ",
+            "AddressStreet": "24 Lindbergh Blvd, Teaneck, NJ 07666, USA",
+            "PolicyId": "0YT5e0000005badGAA",
+            "PolicyName": "Rachel Adams - Multi Auto (Eff. 2021-08-01) 628154544",
+            "PolicyType": "Auto"
+        },
+        {
+            "AddressCity": "New York",
+            "AddressPostalCode": "10023",
+            "AddressState": "NY",
+            "AddressStreet": "100 Amsterdam Ave, New York, NY 10023, USA",
+            "PolicyId": "0YT5e0000005baOGAQ",
+            "PolicyName": "WL75130",
+            "PolicyType": "Life"
+        },
+        {
+            "AddressCity": "Torrington",
+            "AddressPostalCode": "06790",
+            "AddressState": "CT",
+            "AddressStreet": "24 Lindbergh St, Torrington, CT 06790, USA",
+            "PolicyId": "0YT5e0000005baAGAQ",
+            "PolicyName": "PN-ZEUM5I",
+            "PolicyType": "Auto"
+        },
+        {
+            "AddressCity": "New York",
+            "AddressPostalCode": "10023",
+            "AddressState": "NY",
+            "AddressStreet": "100 Amsterdam Ave, New York, NY 10023, USA",
+            "PolicyId": "0YT5e0000005baVGAQ",
+            "PolicyName": "PN-GZ5120A",
+            "PolicyType": "Auto"
+        }
+    ],
+    "SelectAddresses": {
+        "IsHomeSelected": "False",
+        "IsHomeSelectedMessage": false,
+        "IsPolicyAddressSelected": 0,
+        "RecordsDisplayed": [
+            {
+                "selectedDataNode": {
+                    "AddressCity": "New York",
+                    "AddressPostalCode": "10023",
+                    "AddressState": "NY",
+                    "AddressStreet": "100 Amsterdam Ave, New York, NY 10023, USA",
+                    "PolicyId": "0YT5e0000005jTIGAY",
+                    "PolicyName": "Acc79856",
+                    "PolicyType": "Specialty"
+                }
+            }
+        ]
+    },
+    "Your_ColumnNames": [
+        {
+            "fieldName": "PolicyName",
+            "label": "Policy Number"
+        },
+        {
+            "fieldName": "PolicyType",
+            "label": "Policy Type"
+        },
+        {
+            "fieldName": "AddressStreet",
+            "label": "Street"
+        },
+        {
+            "fieldName": "AddressCity",
+            "label": "City"
+        },
+        {
+            "fieldName": "AddressState",
+            "label": "State"
+        },
+        {
+            "fieldName": "AddressPostalCode",
+            "label": "Zip"
+        }
+    ],
+    "timeStamp": "2021-09-09T19:53:54.123Z",
+    "userCurrencyCode": "USD",
+    "userId": "0055e000006WasxAAC",
+    "userName": "corey.carpenter@sfiseorg3.demo",
+    "userProfile": "*FINS - Internal - Admin",
+    "userTimeZone": "-240"
+}

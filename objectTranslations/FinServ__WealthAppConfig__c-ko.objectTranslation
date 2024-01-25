@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 재무 응용 프로그램 구성 --></value>
+    </caseValues>
+    <fields>
+        <help>계정-계정 관계 레코드에서 관련 역할 필드를 업데이트하면 관련 계정-계정 관계 레코드의 관련 역할 필드가 업데이트됩니다.</help>
+        <label><!-- Update Related Role on associated record --></label>
+        <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+    </fields>
+    <fields>
+        <help>수행된 비즈니스 의뢰 목록 및 수행된 의뢰 요약 구성 요소를 활성화합니다.</help>
+        <label><!-- Enable Business Referrals Made --></label>
+        <name>FinServ__EnableBusinessReferralsMade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Group Record Rollups --></label>
+        <name>FinServ__EnableGroupRecordRollups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Rollup Summary --></label>
+        <name>FinServ__EnableRollupSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Record Rollup Timestamp --></label>
+        <name>FinServ__GroupRecordRollupTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Update Frequency --></label>
+        <name>FinServ__InteractionUpdateFrequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Referrer Score --></label>
+        <name>FinServ__ReferrerScoreCalcEnabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected Referral Status --></label>
+        <name>FinServ__RejectedReferralStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollup Summary Timestamp --></label>
+        <name>FinServ__RollupSummaryTimestamp__c</name>
+    </fields>
+</CustomObjectTranslation>

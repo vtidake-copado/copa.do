@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>FSC with Interest Tags</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>FSC with Interest Tags</label>
+    <license>FinancialServicesCloudExtensionPsl</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssociationEngineUserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>BranchManagementUserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DocumentAutomationUserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FSCAlertFrameworkUserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FSCDealMgmtCompUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FSCDealMgmtPlatformUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FinancialServices2UserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InteractionSummaryCompUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InteractionSummaryUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>InterestTaggingUserAccess</name>
+    </userPermissions>
+</PermissionSet>

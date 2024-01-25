@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>This setting allows customers to use Marketing Cloud Tenant-Specific Endpoints, and must be enabled for all customers using dedicated European Data Centers.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>mcdm_15__EnableDMTenantSpecificEndpoints__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable this setting (check checkbox) to allow Distributed Marketing to use Marketing Cloud Tenant-Specific Endpoints. Disable this setting (uncheck checkbox) to use legacy authentication. This must be enabled for all customers using dedicated European Data Centers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable this setting to use Tenant-Specific Endpoints with Distributed Marketing.</inlineHelpText>
+        <label>Enable DM Tenant-Specific Endpoints</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>DM Tenant-Specific Endpoint Support</label>
+    <visibility>Public</visibility>
+</CustomObject>

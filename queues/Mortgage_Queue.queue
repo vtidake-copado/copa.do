@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>anthony2francis@yahoo.com</email>
+    <name>Mortgage Queue</name>
+    <queueMembers>
+        <users>
+            <user>ar-mumm@force.com</user>
+            <user>integration@00dwy000000nxchma0.com</user>
+            <user>insightssecurity@00dwy000000nxchma0.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

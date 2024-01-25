@@ -1,0 +1,12 @@
+[
+    {
+        "AccountId": "001RM000005Uqd1YAC",
+        "AccountName": "Julia Green",
+        "FinancialAccountNumber": "10003509",
+        "Id": "a0URM0000004OCM2A2",
+        "Name": "Adv Plus Banking",
+        "PrimaryOwner": "001RM000005Uqd1YAC",
+        "RecordTypeName": "Checking Account",
+        "SourceSystemId": "123"
+    }
+]

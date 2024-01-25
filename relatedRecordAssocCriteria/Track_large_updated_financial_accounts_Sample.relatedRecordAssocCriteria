@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelatedRecordAssocCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <associationType>BranchManagement</associationType>
+    <description>Track updated financial accounts &gt; $1M (Sample)</description>
+    <eventType>Update</eventType>
+    <masterLabel>Track large updated financial accounts Sample</masterLabel>
+    <preCondition>[FinServ__FinancialAccount__c].FinServ__Balance__c &gt; 1000000</preCondition>
+    <referenceObject>FinServ__FinancialAccount__c</referenceObject>
+    <selectedOwnerField>[FinServ__FinancialAccount__c].OwnerId</selectedOwnerField>
+    <status>Active</status>
+</RelatedRecordAssocCriteria>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Journey collegato</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Journey collegati</value>
+    </caseValues>
+    <fields>
+        <label><!-- Immediate Approval --></label>
+        <name>mcdm_15__ImmediateApproval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Journey ID --></label>
+        <name>mcdm_15__JourneyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Journey Name --></label>
+        <name>mcdm_15__JourneyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Linked Business Unit --></label>
+        <name>mcdm_15__LinkedBusinessUnit__c</name>
+        <relationshipLabel><!-- Linked Journeys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object ID --></label>
+        <name>mcdm_15__ObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personalization DataExtension Id --></label>
+        <name>mcdm_15__PersonalizationDeId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome journey collegato</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

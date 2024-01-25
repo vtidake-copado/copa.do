@@ -1,0 +1,32 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "SetFAInfo",
+    "OmniProcessId": {
+        "Name": "FSCFeeReversalGetAttributes",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FSC/FeeReversalGetAttributes/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "FinancialAccountNumber": "=QUERY(\"SELECT FinServ__financialaccountnumber__c FROM FinServ__FinancialAccount__c WHERE Id = '{0}'\",%GetFeeReversalAttributes:caseRequestAttr:FinancialAccountId%)",
+            "Name": "=QUERY(\"SELECT name FROM FinServ__FinancialAccount__c WHERE Id = '{0}'\",%GetFeeReversalAttributes:caseRequestAttr:FinancialAccountId%)"
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FSC/FeeReversalGetAttributes/Procedure/SetFAInfo"
+}

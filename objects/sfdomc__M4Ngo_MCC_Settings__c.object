@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Settings generated as part of the MC connector setup process in the Marketing for Nonprofits app.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>sfdomc__CRM_API_User_Id__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Id of the user designated as the CRM API user during the MC Connector setup.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Id of the user designated as the CRM API user during the MC Connector setup.</inlineHelpText>
+        <label>CRM API User Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>M4Ngo MC Connector Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

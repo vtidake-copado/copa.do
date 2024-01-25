@@ -1,0 +1,49 @@
+{
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "RemoteActionGetFAT",
+    "OmniProcessId": {
+        "Name": "FSCGetFeeReversalTransactions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FSC/GetFeeReversalTransactions/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "IntegrationDefinition": "FSC_GetTransaction",
+            "params": "{\"recordId\":\"%recordId%\",\"sourceSystemId\":\"%sourceSystemId%\",\"startDate\":\"%FSCFeeReversalGetStartDate:startDate%\",\"limit\":\"%limit%\",\"sortBy\":\"TransactionPostedDate\"}",
+            "requestGuid": "abc123"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "industriesintegrationfwk.IntegrationHandler",
+        "remoteMethod": "getContinuation",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FSC/GetFeeReversalTransactions/Procedure/RemoteActionGetFAT"
+}
