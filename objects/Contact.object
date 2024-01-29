@@ -365,12 +365,12 @@
                 </value>
                 <value>
                     <fullName>Contact-2</fullName>
-                    <default>true</default>
+                    <default>false</default>
                     <label>Contact-2</label>
                 </value>
                 <value>
                     <fullName>Contact-3</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>Contact-3</label>
                 </value>
             </valueSetDefinition>
