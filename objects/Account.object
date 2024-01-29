@@ -241,7 +241,7 @@
                 <sorted>true</sorted>
                 <value>
                     <fullName>Account-1</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>Account-1</label>
                 </value>
                 <value>
@@ -251,7 +251,7 @@
                 </value>
                 <value>
                     <fullName>Account-3</fullName>
-                    <default>true</default>
+                    <default>false</default>
                     <label>Account-3</label>
                 </value>
             </valueSetDefinition>

@@ -360,7 +360,7 @@
                 <sorted>true</sorted>
                 <value>
                     <fullName>Contact-1</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>Contact-1</label>
                 </value>
                 <value>
@@ -370,7 +370,7 @@
                 </value>
                 <value>
                     <fullName>Contact-3</fullName>
-                    <default>true</default>
+                    <default>false</default>
                     <label>Contact-3</label>
                 </value>
             </valueSetDefinition>
