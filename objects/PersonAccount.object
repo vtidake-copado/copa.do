@@ -7,11 +7,7 @@
         <picklistValues>
             <picklist>AccountPickList_1__c</picklist>
             <values>
-                <fullName>Account-1</fullName>
-                <default>true</default>
-            </values>
-            <values>
-                <fullName>Account-2</fullName>
+                <fullName>Account-3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -41,12 +37,8 @@
         <picklistValues>
             <picklist>ContactPickList_1__pc</picklist>
             <values>
-                <fullName>Contact-1</fullName>
+                <fullName>Contact-3</fullName>
                 <default>true</default>
-            </values>
-            <values>
-                <fullName>Contact-2</fullName>
-                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
