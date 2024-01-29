@@ -37,6 +37,10 @@
         <picklistValues>
             <picklist>ContactPickList_1__pc</picklist>
             <values>
+                <fullName>Contact-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Contact-3</fullName>
                 <default>true</default>
             </values>
