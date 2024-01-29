@@ -233,6 +233,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>AccountPickList_1__c</fullName>
+        <externalId>false</externalId>
+        <label>AccountPickList_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Account-1</fullName>
+                    <default>false</default>
+                    <label>Account-1</label>
+                </value>
+                <value>
+                    <fullName>Account-2</fullName>
+                    <default>false</default>
+                    <label>Account-2</label>
+                </value>
+                <value>
+                    <fullName>Account-3</fullName>
+                    <default>true</default>
+                    <label>Account-3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AccountSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
