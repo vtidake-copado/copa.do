@@ -348,6 +348,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ContactPickList_1__c</fullName>
+        <externalId>false</externalId>
+        <label>ContactPickList_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contact-2</fullName>
+                    <default>true</default>
+                    <label>Contact-2</label>
+                </value>
+                <value>
+                    <fullName>Contact-3</fullName>
+                    <default>false</default>
+                    <label>Contact-3</label>
+                </value>
+                <value>
+                    <fullName>Contact-1</fullName>
+                    <default>false</default>
+                    <label>Contact-1</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
