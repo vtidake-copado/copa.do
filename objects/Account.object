@@ -238,21 +238,21 @@
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>true</sorted>
-                <value>
-                    <fullName>Account-1</fullName>
-                    <default>true</default>
-                    <label>Account-1</label>
-                </value>
+                <sorted>false</sorted>
                 <value>
                     <fullName>Account-2</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>Account-2</label>
                 </value>
                 <value>
                     <fullName>Account-3</fullName>
                     <default>false</default>
                     <label>Account-3</label>
+                </value>
+                <value>
+                    <fullName>Account-1</fullName>
+                    <default>false</default>
+                    <label>Account-1</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
