@@ -357,21 +357,21 @@
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
-                <sorted>true</sorted>
-                <value>
-                    <fullName>Contact-1</fullName>
-                    <default>true</default>
-                    <label>Contact-1</label>
-                </value>
+                <sorted>false</sorted>
                 <value>
                     <fullName>Contact-2</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>Contact-2</label>
                 </value>
                 <value>
                     <fullName>Contact-3</fullName>
                     <default>false</default>
                     <label>Contact-3</label>
+                </value>
+                <value>
+                    <fullName>Contact-1</fullName>
+                    <default>false</default>
+                    <label>Contact-1</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
