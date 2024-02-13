@@ -112,9 +112,9 @@
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.AccountNumber</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -5273,6 +5273,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShareFilesWithNetworks</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
