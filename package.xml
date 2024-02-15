@@ -7,8 +7,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Purchase__c</members>
-        <name>CustomObject</name>
+        <members>Purchase__c-es</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <version>59.0</version>
 </Package>
