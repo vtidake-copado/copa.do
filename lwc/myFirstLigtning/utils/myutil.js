@@ -1,3 +1,3 @@
-import { LightningElement } from 'lwc';
+import { MyFirstLigtning } from '../myFirstLigtning';
 
 export default class myUtil extends LightningElement {}
