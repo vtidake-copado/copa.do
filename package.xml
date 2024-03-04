@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>RefreshToken__c.Token__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>RefreshToken__c</members>
-        <name>CustomObject</name>
+        <members>myFirstLwc</members>
+        <members>mySecondLwc</members>
+        <name>LightningComponentBundle</name>
     </types>
     <version>60.0</version>
 </Package>
