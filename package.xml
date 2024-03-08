@@ -4,9 +4,5 @@
         <members>My_Territory_Model</members>
         <name>Territory2Model</name>
     </types>
-    <types>
-        <members>My_Territory_Model.My_Rule</members>
-        <name>Territory2Rule</name>
-    </types>
     <version>60.0</version>
 </Package>
