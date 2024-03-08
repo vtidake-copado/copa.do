@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>My_Territory_Model</members>
-        <name>Territory2Model</name>
+        <members>My_Territory_Model.My_Rule</members>
+        <name>Territory2Rule</name>
     </types>
     <version>60.0</version>
 </Package>
