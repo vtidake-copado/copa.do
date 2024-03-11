@@ -406,6 +406,35 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>ContactPickList_3__c</fullName>
+        <externalId>false</externalId>
+        <label>ContactPickList_3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MyValue-1</fullName>
+                    <default>false</default>
+                    <label>MyValue-1</label>
+                </value>
+                <value>
+                    <fullName>MyValue-2</fullName>
+                    <default>false</default>
+                    <label>MyValue-2</label>
+                </value>
+                <value>
+                    <fullName>MyValue-3</fullName>
+                    <default>false</default>
+                    <label>MyValue-3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
