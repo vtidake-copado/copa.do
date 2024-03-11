@@ -42,6 +42,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>ContactPickList_2__pc</picklist>
+            <values>
+                <fullName>Value-1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Industry</picklist>
             <values>
                 <fullName>Agriculture</fullName>
