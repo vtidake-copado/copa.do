@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact.ContactPickList_3__c</members>
-        <name>CustomField</name>
+        <members>Extrn_Credential_Test_1</members>
+        <name>ExternalCredential</name>
     </types>
     <types>
-        <members>PersonAccount.PersonAccount</members>
-        <name>RecordType</name>
+        <members>Extrn_Credential_Test_Pemission_Set</members>
+        <name>PermissionSet</name>
     </types>
     <version>60.0</version>
 </Package>
