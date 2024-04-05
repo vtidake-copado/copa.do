@@ -1,7 +1,9 @@
 @
 isTest
 private class TestCamera {
-    @isTest static void testClickPhoto() {
+    @
+    isTest
+    Static void clickPhotoTest() {
         // Call the clickPhoto method
         String result = Camera.clickPhoto();
         
