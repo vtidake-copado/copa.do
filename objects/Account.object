@@ -384,6 +384,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>Manager</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>MyList_1__c</fullName>
         <externalId>false</externalId>
         <label>MyList_1</label>
