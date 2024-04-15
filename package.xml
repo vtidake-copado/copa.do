@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Manager__c</members>
-        <name>CustomField</name>
+        <members>Report_Permission</members>
+        <members>Sales_Permissions</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Copdo_Permissions_Set_Group</members>
+        <name>PermissionSetGroup</name>
     </types>
     <version>60.0</version>
 </Package>
