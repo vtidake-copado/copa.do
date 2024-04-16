@@ -24,27 +24,21 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <screens>
-        <name>My_Screen_1</name>
-        <label>My Screen 1</label>
-        <locationX>176</locationX>
-        <locationY>242</locationY>
-        <allowBack>true</allowBack>
-        <allowFinish>true</allowFinish>
-        <allowPause>true</allowPause>
-        <showFooter>true</showFooter>
-        <showHeader>true</showHeader>
-    </screens>
-    <screens>
-        <name>My_Screen_2</name>
-        <label>My Screen 2</label>
+        <name>Login</name>
+        <label>Login</label>
         <locationX>176</locationX>
         <locationY>134</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
-        <connector>
-            <targetReference>My_Screen_1</targetReference>
-        </connector>
+        <fields>
+            <name>Title</name>
+            <dataType>String</dataType>
+            <fieldText>Title</fieldText>
+            <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+        </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -52,8 +46,8 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>My_Screen_2</targetReference>
+            <targetReference>Login</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
