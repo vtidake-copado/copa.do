@@ -36,6 +36,11 @@
             <fieldText>&lt;p&gt;{!RegisterForm}&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
+        <fields>
+            <name>RegisterNow</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!RegisterNow}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -46,5 +51,5 @@
             <targetReference>Register</targetReference>
         </connector>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
 </Flow>

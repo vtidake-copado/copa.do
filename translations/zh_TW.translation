@@ -7,6 +7,10 @@
                     <fieldText>&lt;p&gt;Register&lt;/p&gt;</fieldText>
                     <name>RegisterForm</name>
                 </fields>
+                <fields>
+                    <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;RegisterNow&lt;/span&gt;&lt;/p&gt;</fieldText>
+                    <name>RegisterNow</name>
+                </fields>
                 <name>Register</name>
             </screens>
         </flows>
