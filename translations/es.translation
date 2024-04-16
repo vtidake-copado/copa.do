@@ -4,7 +4,11 @@
         <flows>
             <screens>
                 <fields>
-                    <fieldText>título</fieldText>
+                    <fieldText>nombre de pila</fieldText>
+                    <name>First_Name</name>
+                </fields>
+                <fields>
+                    <fieldText>títulos</fieldText>
                     <name>Title</name>
                 </fields>
                 <name>Login</name>
