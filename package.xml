@@ -2,11 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>MyReports</members>
-        <members>MyReports/Leads_Report_2_cuQ</members>
-        <name>Report</name>
-    </types>
-    <types>
-        <members>MyReports</members>
         <members>MyReports/Leads_Report_1_Zhf</members>
         <name>Report</name>
     </types>
