@@ -5,7 +5,6 @@
         <members>Root1/Root1Level1</members>
         <members>Root1/Root1Level1/Root1Level1Report1_DPF</members>
         <members>Root1/Root1Level1/Root1Level1Report2_7ZB</members>
-        <members>Root1/Root1Level2</members>
         <name>Report</name>
     </types>
     <types>
