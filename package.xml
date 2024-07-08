@@ -3,13 +3,13 @@
     <types>
         <members>Root1</members>
         <members>Root1/Root1Level1</members>
-        <members>Root1/Root1Level1/Root1Level1Report1_DPF</members>
-        <members>Root1/Root1Level1/Root1Level1Report2_7ZB</members>
-        <name>Report</name>
+        <members>Root1/Root1Level1/Root1Level1Template1_1720430227584</members>
+        <members>Root1/Root1Level1/Root1Level1Template2_1720430244379</members>
+        <name>EmailTemplate</name>
     </types>
     <types>
         <members>Root2</members>
-        <name>Report</name>
+        <name>EmailTemplate</name>
     </types>
     <version>61.0</version>
 </Package>
