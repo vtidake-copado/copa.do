@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Root1</members>
-        <members>Root1/Root1Level1</members>
-        <members>Root1/Root1Level1/Root1Level1Template1_1720430227584</members>
-        <members>Root1/Root1Level1/Root1Level1Template2_1720430244379</members>
-        <name>EmailTemplate</name>
-    </types>
-    <types>
-        <members>Root2</members>
-        <name>EmailTemplate</name>
+        <members>BOT_ApexClass1</members>
+        <members>BOT_ApexClass1Test</members>
+        <members>BOT_ApexClass2</members>
+        <members>BOT_ApexClass2Test</members>
+        <name>ApexClass</name>
     </types>
     <version>61.0</version>
 </Package>
