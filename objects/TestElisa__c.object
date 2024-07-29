@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ENG__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>ENG</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>FIN__c</fullName>
+        <description>This is the FIN description</description>
+        <encryptionScheme>None</encryptionScheme>
+        <inlineHelpText>This is the Help for FIN</inlineHelpText>
+        <label>FIN</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>TestElisa</label>
+    <visibility>Public</visibility>
+</CustomObject>

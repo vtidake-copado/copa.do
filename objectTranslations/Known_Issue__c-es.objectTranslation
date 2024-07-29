@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Known Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Known Issues</value>
+    </caseValues>
+    <fields>
+        <label><!-- Affected version --></label>
+        <name>Affected_version__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA --></label>
+        <name>ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Front-Back --></label>
+        <name>Front_Back__c</name>
+        <picklistValues>
+            <masterLabel>Application</masterLabel>
+            <translation><!-- Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend All</masterLabel>
+            <translation><!-- Backend All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend CopaGCP</masterLabel>
+            <translation><!-- Backend CopaGCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend Heroku EU</masterLabel>
+            <translation><!-- Backend Heroku EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backend Heroku US</masterLabel>
+            <translation><!-- Backend Heroku US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HigherLower --></label>
+        <name>HigherLower__c</name>
+        <picklistValues>
+            <masterLabel>and higher</masterLabel>
+            <translation><!-- and higher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>and lower</masterLabel>
+            <translation><!-- and lower --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal ETA --></label>
+        <name>Internal_ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major --></label>
+        <name>Major__c</name>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>49</masterLabel>
+            <translation><!-- 49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>56</masterLabel>
+            <translation><!-- 56 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>57</masterLabel>
+            <translation><!-- 57 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>58</masterLabel>
+            <translation><!-- 58 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>59</masterLabel>
+            <translation><!-- 59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v13</masterLabel>
+            <translation><!-- v13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v14</masterLabel>
+            <translation><!-- v14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v15</masterLabel>
+            <translation><!-- v15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v16</masterLabel>
+            <translation><!-- v16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v17</masterLabel>
+            <translation><!-- v17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v18</masterLabel>
+            <translation><!-- v18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v50</masterLabel>
+            <translation><!-- v50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v51</masterLabel>
+            <translation><!-- v51 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v52</masterLabel>
+            <translation><!-- v52 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v53</masterLabel>
+            <translation><!-- v53 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v54</masterLabel>
+            <translation><!-- v54 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Minor --></label>
+        <name>Minor__c</name>
+        <picklistValues>
+            <masterLabel>.10</masterLabel>
+            <translation><!-- .10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.11</masterLabel>
+            <translation><!-- .11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.12</masterLabel>
+            <translation><!-- .12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.13</masterLabel>
+            <translation><!-- .13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Patch --></label>
+        <name>Patch__c</name>
+        <picklistValues>
+            <masterLabel>.10</masterLabel>
+            <translation><!-- .10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.11</masterLabel>
+            <translation><!-- .11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.12</masterLabel>
+            <translation><!-- .12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>.13</masterLabel>
+            <translation><!-- .13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Resolution</masterLabel>
+            <translation><!-- No Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Steps to reproduce --></label>
+        <name>Steps_to_reproduce__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workaround --></label>
+        <name>Workaround__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

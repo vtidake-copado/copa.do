@@ -1,0 +1,7 @@
+{
+  "type" : "sfdc_cms__site",
+  "title" : "ardigital",
+  "contentBody" : {
+    "authenticationType" : "AUTHENTICATED"
+  }
+}

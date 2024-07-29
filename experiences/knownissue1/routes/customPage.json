@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "c7a820e6-4171-40ef-876b-3e82f43345ea",
+  "appPageId" : "064ffeed-fb45-4542-805a-ee8067a0271c",
+  "configurationTags" : [ ],
+  "devName" : "CustomPage__c",
+  "id" : "6c5585e4-3842-4705-b872-0a85f4be035b",
+  "label" : "CustomPage",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-custompage",
+  "type" : "route",
+  "urlPrefix" : "custompage"
+}

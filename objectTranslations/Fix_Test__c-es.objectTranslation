@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fix Test</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fix Test</value>
+    </caseValues>
+    <fields>
+        <label><!-- Fix Number --></label>
+        <name>Fix_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fix Text --></label>
+        <name>Fix_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fix --></label>
+        <name>Fix__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

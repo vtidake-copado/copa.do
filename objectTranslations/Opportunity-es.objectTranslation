@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OportunidadMOD</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OportunidadesMOD</value>
+    </caseValues>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>modificado</label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- OppText --></label>
+        <name>OppText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- RT test 1 --></label>
+        <name>RT_test_1__c</name>
+        <picklistValues>
+            <masterLabel>Test1</masterLabel>
+            <translation><!-- Test1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test2</masterLabel>
+            <translation><!-- Test2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase10 --></label>
+        <name>Rebase10__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase1 --></label>
+        <name>Rebase1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase2 --></label>
+        <name>Rebase2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase3 --></label>
+        <name>Rebase3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase4 --></label>
+        <name>Rebase4__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase5 --></label>
+        <name>Rebase5__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase6 --></label>
+        <name>Rebase6__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase7 --></label>
+        <name>Rebase7__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase8 --></label>
+        <name>Rebase8__c</name>
+    </fields>
+    <fields>
+        <help><!-- Help Text --></help>
+        <label><!-- Rebase9 --></label>
+        <name>Rebase9__c</name>
+    </fields>
+    <fields>
+        <label>Prueba Comit A</label>
+        <name>Test_Commit_A__c</name>
+    </fields>
+    <fields>
+        <label>Prueba Modificado Comit B</label>
+        <name>Test_Commit_B__c</name>
+    </fields>
+    <fields>
+        <label>Prueba Comit  C</label>
+        <name>Test_Commit_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Picklist --></label>
+        <name>Time_Picklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- User 1 --></label>
+        <name>User_1__c</name>
+        <relationshipLabel><!-- Opportunities (User 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User 2 --></label>
+        <name>User_2__c</name>
+        <relationshipLabel><!-- Opportunities (User 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User 3 --></label>
+        <name>User_3__c</name>
+        <relationshipLabel><!-- Opportunities (User 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- xyz SGUID Opp --></label>
+        <name>xyz_SGUID_Opp__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Opp RT 1 --></label>
+        <name>Opp_RT_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Opp RT 2 --></label>
+        <name>Opp_RT_2</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Description is not equal to TestCharacter Custom Label --></errorMessage>
+        <name>TestCharacters</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+</CustomObjectTranslation>

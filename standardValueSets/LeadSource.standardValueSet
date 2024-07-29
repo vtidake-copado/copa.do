@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Phone Inquiry</fullName>
+        <default>false</default>
+        <label>Phone Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Referral</fullName>
+        <default>false</default>
+        <label>Partner Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased List</fullName>
+        <default>false</default>
+        <label>Purchased List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Test CI</fullName>
+        <default>false</default>
+        <label>Test CI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>One more CI test</fullName>
+        <default>false</default>
+        <label>One more CI test</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RT test with CI</fullName>
+        <default>false</default>
+        <label>RT test with CI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>value in lead</fullName>
+        <default>false</default>
+        <label>value in lead</label>
+    </standardValue>
+</StandardValueSet>

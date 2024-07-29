@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Event Date --></label>
+        <name>LCRM_Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event By --></label>
+        <name>LCRM_Event_Raised_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>LCRM_Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge</masterLabel>
+            <translation><!-- Merge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UnMerge</masterLabel>
+            <translation><!-- UnMerge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source Account ID 1 --></label>
+        <name>LCRM_GLI_Account_ID_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Account ID 2 --></label>
+        <name>LCRM_GLI_Account_ID_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Contact ID 1 --></label>
+        <name>LCRM_GLI_Contact_ID_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Contact ID 2 --></label>
+        <name>LCRM_GLI_Contact_ID_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination ID --></label>
+        <name>Merged_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>Object_Name__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OrderLineItemsESP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OrderLineItemsESP</value>
+    </caseValues>
+    <fieldSets>
+        <label>OLI set de campo</label>
+        <name>OLI_field_set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AssetLineItemId --></label>
+        <name>AssetLineItemId__c</name>
+        <relationshipLabel><!-- OrderLineItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Propuesta Id</label>
+        <name>ProposalId__c</name>
+        <relationshipLabel><!-- OrderLineItems --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>OrderLineItems Nombre</nameFieldLabel>
+    <recordTypes>
+        <label>tipo de registro</label>
+        <name>RecordType1</name>
+    </recordTypes>
+    <sharingReasons>
+        <label>motivo para compartir</label>
+        <name>Sharing_reason</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage>this is false MOD</errorMessage>
+        <name>OLI_validation_rule</name>
+    </validationRules>
+    <webLinks>
+        <label>enlace</label>
+        <name>link</name>
+    </webLinks>
+</CustomObjectTranslation>

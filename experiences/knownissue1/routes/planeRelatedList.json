@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "691db242-25ae-457c-b538-6b08c07f74f8",
+  "appPageId" : "064ffeed-fb45-4542-805a-ee8067a0271c",
+  "configurationTags" : [ ],
+  "devName" : "Plane_Related_List__c",
+  "id" : "4aab05cb-a4cc-4f07-a541-4745738231b8",
+  "label" : "Plane Related List",
+  "objectApiName" : "Planes__c",
+  "routeType" : "relatedlist-a0d",
+  "type" : "route",
+  "urlPrefix" : "planes"
+}

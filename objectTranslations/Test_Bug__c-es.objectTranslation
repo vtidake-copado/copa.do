@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Bug</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>test Bugs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Field on Test Bug --></label>
+        <name>Field_on_Test_Bug__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

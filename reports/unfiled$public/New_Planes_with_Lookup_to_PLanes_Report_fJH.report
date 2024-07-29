@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Planes__c$Name</field>
+    </columns>
+    <columns>
+        <field>Planes__c.PlanesList__r$Name</field>
+    </columns>
+    <columns>
+        <field>Planes__c.PlanesList__r.PlanesList__r$Name</field>
+    </columns>
+    <columns>
+        <field>Planes__c.PlanesList__r.PlanesList__r.PlanesList__r$Name</field>
+    </columns>
+    <columns>
+        <field>Planes__c$Type__c</field>
+    </columns>
+    <columns>
+        <field>Planes__c.PlanesList__r$Type__c</field>
+    </columns>
+    <columns>
+        <field>Planes__c.PlanesList__r.PlanesList__r$Type__c</field>
+    </columns>
+    <columns>
+        <field>Planes__c.PlanesList__r.PlanesList__r.PlanesList__r$Type__c</field>
+    </columns>
+    <columns>
+        <field>Planes__c$Lookuptoplane__c.Type__c</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Tabular</format>
+    <name>New Planes with Lookup to PLanes Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Planes_with_Lookup_to_PLanes__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Planes__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NewActivity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NewActivities</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Currency</value>
+        </caseValues>
+        <name>activity_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Custom Info</value>
+        </caseValues>
+        <name>activity_custom_info</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity History</value>
+        </caseValues>
+        <name>activity_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity History Data</value>
+        </caseValues>
+        <name>activity_history_data</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity ID</value>
+        </caseValues>
+        <name>activity_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Information</value>
+        </caseValues>
+        <name>activity_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>NewActivity Reports</value>
+        </caseValues>
+        <name>activity_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>NewActivity Type</value>
+        </caseValues>
+        <name>activity_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Assinged to Who</value>
+        </caseValues>
+        <name>assigned_to_activity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- AAATask --></label>
+        <name>AAATask__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity Custom field 2 --></label>
+        <name>Activity_Custom_field_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Custom field 3 --></label>
+        <name>Activity_Custom_field_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Custom field 4 --></label>
+        <name>Activity_Custom_field_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Custom field 5 --></label>
+        <name>Activity_Custom_field_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Field --></label>
+        <name>Activity_Field__c</name>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value3</masterLabel>
+            <translation><!-- Value3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Activity ZZZ --></label>
+        <name>Activity_ZZZ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>Field_Name__c</name>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value3</masterLabel>
+            <translation><!-- Value3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Time --></label>
+        <name>Next_Time__c</name>
+        <picklistValues>
+            <masterLabel>Friday</masterLabel>
+            <translation><!-- Friday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juernes</masterLabel>
+            <translation><!-- Juernes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Momomonday</masterLabel>
+            <translation><!-- Momomonday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monday</masterLabel>
+            <translation><!-- Monday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saturday</masterLabel>
+            <translation><!-- Saturday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuSuSunday</masterLabel>
+            <translation><!-- SuSuSunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunday</masterLabel>
+            <translation><!-- Sunday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thursday</masterLabel>
+            <translation><!-- Thursday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TuTuTuesday</masterLabel>
+            <translation><!-- TuTuTuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuesday</masterLabel>
+            <translation><!-- Tuesday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wednesday</masterLabel>
+            <translation><!-- Wednesday --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time --></label>
+        <name>Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- add metadata 1 --></label>
+        <name>add_metadata_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- add metadata 2 --></label>
+        <name>add_metadata_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- check formula --></label>
+        <name>check_formula__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
