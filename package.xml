@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Root1</members>
-        <members>Root1/Root1Level1</members>
-        <members>Root1/Root1Level1/Root1Level1Template1_1720430227584</members>
-        <members>Root1/Root1Level1/Root1Level1Template2_1720430244379</members>
-        <name>EmailTemplate</name>
+        <members>VoiceCall.CallResolution</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Root2</members>
-        <name>EmailTemplate</name>
+        <members>CallResolution</members>
+        <name>StandardValueSet</name>
     </types>
     <version>61.0</version>
 </Package>
