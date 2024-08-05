@@ -14,4 +14,11 @@
         <shortDescription>My Lable 2</shortDescription>
         <value>value 2</value>
     </labels>
+    <labels>
+        <fullName>Salutation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salutation</shortDescription>
+        <value>Saluto</value>
+    </labels>
 </CustomLabels>
