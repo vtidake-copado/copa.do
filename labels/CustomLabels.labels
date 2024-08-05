@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>City</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
         <fullName>My_Lable</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -19,6 +26,6 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Salutation</shortDescription>
-        <value>Saluto</value>
+        <value>Salutation</value>
     </labels>
 </CustomLabels>
