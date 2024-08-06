@@ -8,6 +8,13 @@
         <value>City</value>
     </labels>
     <labels>
+        <fullName>Country</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
         <fullName>My_Lable</fullName>
         <language>en_US</language>
         <protected>true</protected>
