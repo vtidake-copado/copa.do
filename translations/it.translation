@@ -5,6 +5,10 @@
         <name>City</name>
     </customLabels>
     <customLabels>
+        <label>Country</label>
+        <name>Country</name>
+    </customLabels>
+    <customLabels>
         <label>Saluto</label>
         <name>Salutation</name>
     </customLabels>
