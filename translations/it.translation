@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <customLabels>
-        <label>Città</label>
+        <label>Country</label>
+        <name>Country</name>
     </customLabels>
     <customLabels>
         <label>Saluto</label>
         <name>Salutation</name>
+    </customLabels>
+    <customLabels>
+        <label>Città</label>
+        <name xsi:nil="true" />
     </customLabels>
 </Translations>
