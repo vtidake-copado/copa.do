@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BotTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>9e8e0898-886d-4747-9e78-b03c7973b344</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Check_status</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Check status</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>2e33010a-e09b-4cac-8daa-b24dc1dafe1c</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Cancel</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Cancel</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Hi, I&apos;m Copa Bot Template, a digital assistant.</message>
+                <messageIdentifier>92d38b7d-3137-4e4b-ac79-2a391f8e471f</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>70d1661b-e44b-4bab-9ae2-46d45f38a79e</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>Main_Menu</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>f4e188d8-7346-43e9-b5f0-278b8c26afef</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Welcome</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Welcome</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <label>Check status</label>
+                    <targetBotDialog>Check_status</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <label>Cancel</label>
+                    <targetBotDialog>Cancel</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>cd64dd6d-bb17-4a39-96c8-e3cfc770ea72</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Main_Menu</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Main Menu</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <conversationSystemMessage>
+                <type>Transfer</type>
+            </conversationSystemMessage>
+            <stepIdentifier>7abe50c8-63fa-4a32-b565-30540489feb7</stepIdentifier>
+            <type>SystemMessage</type>
+        </botSteps>
+        <developerName>Transfer_To_Agent</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Transfer To Agent</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Thanks for taking the time to chat. To close the conversation, select End Chat.</message>
+                <messageIdentifier>2cac5c03-331d-45d3-bfa6-f29847f3c93e</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>ca4dee33-188d-4af4-a41c-b1f4d3d2a6fb</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>426f5eeb-991d-4fce-987a-4948303b8621</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>End_Chat</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>End Chat</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Sorry, I didn&apos;t understand that.</message>
+                <messageIdentifier>b81d3e70-e79d-429e-95c4-57b4448f5553</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>49a9957e-abb0-42e2-87c2-8860cf200ef7</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>ec848a28-b325-4583-9f88-977ddf1589a6</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Confused</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Confused</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Unfortunately, there are no agents available at the moment</message>
+                <messageIdentifier>387c64ff-58ec-4385-a1fd-93e79b46da35</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>3ecd854b-f41c-4ba3-994f-a81f89cc57d5</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>40c23b99-6a46-4d45-85ce-70452ab04338</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>No_Agent_Available</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>No Agent</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Unfortunately, a system error occurred. I&apos;ll connect you to an agent who can help.</message>
+                <messageIdentifier>4e4ae1be-cd2f-4ed9-abc4-d6f6efd9d332</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>4e9d061b-9f6f-4bff-b153-2b8d4b6a7c0e</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <conversationSystemMessage>
+                <type>Transfer</type>
+            </conversationSystemMessage>
+            <stepIdentifier>e9b23255-4498-4a93-9196-c4aa7199467a</stepIdentifier>
+            <type>SystemMessage</type>
+        </botSteps>
+        <developerName>Error_Handling</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Error Handler</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <contextVariables>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
+    <conversationLanguages>en_US</conversationLanguages>
+    <conversationSystemDialogs>
+        <dialog>Error_Handling</dialog>
+        <type>ErrorHandling</type>
+    </conversationSystemDialogs>
+    <conversationSystemDialogs>
+        <dialog>No_Agent_Available</dialog>
+        <type>TransferFailed</type>
+    </conversationSystemDialogs>
+    <entryDialog>Welcome</entryDialog>
+    <mainMenuDialog>Main_Menu</mainMenuDialog>
+    <masterLabel>Copa Bot Template</masterLabel>
+    <mlDomain>
+        <label>Copa Bot Template</label>
+        <name>Copa_Bot_Template</name>
+    </mlDomain>
+    <richContentEnabled>false</richContentEnabled>
+    <type>Bot</type>
+</BotTemplate>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Experience_Profile_Manager</members>
-        <members>External_Config_Permission_Set</members>
-        <members>Service_Delivery_SD_Manager</members>
-        <name>PermissionSet</name>
+        <members>Copa_Bot</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>Copa_Bot_Template</members>
+        <name>BotTemplate</name>
     </types>
     <version>61.0</version>
 </Package>
