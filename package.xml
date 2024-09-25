@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Copa_Bot</members>
-        <name>Bot</name>
+        <members>User.Activated_Deactivated_By__c</members>
+        <members>User.Activation_Deactivation_Date__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Copa_Bot_Template</members>
-        <name>BotTemplate</name>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
     <version>61.0</version>
 </Package>
