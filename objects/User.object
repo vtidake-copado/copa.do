@@ -201,20 +201,18 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Activated_Deactivated_By__c</fullName>
-        <defaultValue>&quot;Admin&quot;</defaultValue>
         <externalId>false</externalId>
-        <label>Activated Deactivated By</label>
+        <label>Activated/Deactivated By</label>
         <length>32</length>
-        <required>true</required>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>Activation_Deactivation_Date__c</fullName>
-        <defaultValue>Today()</defaultValue>
-        <label>Activation Deactivation Date</label>
-        <required>true</required>
+        <label>Activation/Deactivation Date</label>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
