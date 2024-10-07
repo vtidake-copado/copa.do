@@ -6552,7 +6552,6 @@
         <fullName>cmcSf__Apex_Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>Test levels in order from least to most restrictive</description>
-        <externalId>false</externalId>
         <label>Apex Test Level</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -6566,7 +6565,6 @@
     <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Acceptance Criteria Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -6596,7 +6594,6 @@
     <fields>
         <fullName>copado__Acceptance_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Acceptance Criteria</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -6621,7 +6618,6 @@
         <fullName>copado__Apex_Code_Coverage__c</fullName>
         <deprecated>false</deprecated>
         <description>Coverage of the Apex Classes added or committed within the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Coverage of the Apex Classes added or committed within the User Story.</inlineHelpText>
         <label>Apex Code Coverage</label>
         <precision>3</precision>
@@ -6635,7 +6631,6 @@
         <fullName>copado__Apex_Tests_Passed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Apex Tests Passed</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6687,7 +6682,6 @@
         <fullName>copado__Business_Analyst__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Business Analyst</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Stories</relationshipLabel>
@@ -6701,7 +6695,6 @@
         <fullName>copado__Cancellation_Reason__c</fullName>
         <deprecated>false</deprecated>
         <description>Describes why the User Story was cancelled, so that this information is available.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Describes why the User Story was cancelled, so that this information is available.</inlineHelpText>
         <label>Cancellation Reason</label>
         <required>false</required>
@@ -6727,7 +6720,6 @@
     <fields>
         <fullName>copado__Close_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Close Date</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -6737,7 +6729,6 @@
     <fields>
         <fullName>copado__Compliance_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Criteria</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -6749,7 +6740,6 @@
         <fullName>copado__Compliance_Status__c</fullName>
         <deprecated>false</deprecated>
         <description>Current status of the User Story Compliance scan.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Current status of the User Story Compliance scan.</inlineHelpText>
         <label>Compliance Status</label>
         <required>false</required>
@@ -6796,7 +6786,6 @@
         <fullName>copado__Compliance__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6806,7 +6795,6 @@
         <fullName>copado__Data_Privacy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Data Privacy</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6816,7 +6804,6 @@
         <fullName>copado__Developer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Developer</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Stories (Developer)</relationshipLabel>
@@ -6830,7 +6817,6 @@
         <fullName>copado__Documentation_Complete__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Documentation Complete</label>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6854,7 +6840,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Current environment of the User Story. This value is added automatically by Copado based on the selected Credential.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Current environment of the User Story. This value is added automatically by Copado based on the selected Credential.</inlineHelpText>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
@@ -6870,7 +6855,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Epic containing the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Epic containing the User Story.</inlineHelpText>
         <label>Epic</label>
         <referenceTo>copado__Epic__c</referenceTo>
@@ -6886,7 +6870,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If checked, this user story will not be included in the count of user stories ahead and behind.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, this user story will not be included in the count of user stories ahead and behind.</inlineHelpText>
         <label>Exclude From CBM</label>
         <trackHistory>false</trackHistory>
@@ -6911,7 +6894,6 @@
     <fields>
         <fullName>copado__Functional_Specifications__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Functional Specifications</label>
         <length>30000</length>
         <trackHistory>false</trackHistory>
@@ -6923,7 +6905,6 @@
         <fullName>copado__Git_Merge_Status__c</fullName>
         <deprecated>false</deprecated>
         <description>The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one.</inlineHelpText>
         <label>Git Merge Status</label>
         <required>false</required>
@@ -6963,7 +6944,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story.</inlineHelpText>
         <label>Has Apex Code</label>
         <trackHistory>false</trackHistory>
@@ -6974,7 +6954,6 @@
         <fullName>copado__Is_Bundle__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Bundle</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -6984,7 +6963,6 @@
         <fullName>copado__Last_Compliance_Scan_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Latest Compliance Scan execution date.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Latest Compliance Scan execution date.</inlineHelpText>
         <label>Last Compliance Scan Date</label>
         <required>false</required>
@@ -6995,7 +6973,6 @@
     <fields>
         <fullName>copado__Last_Promotion_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Promotion Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -7033,7 +7010,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Most recent validation Deployment for the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Most recent validation Deployment for the User Story.</inlineHelpText>
         <label>Last Validation Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
@@ -7049,7 +7025,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Promotion containing the most recent validation Deployment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Promotion containing the most recent validation Deployment.</inlineHelpText>
         <label>Last Validation Promotion</label>
         <referenceTo>copado__Promotion__c</referenceTo>
@@ -7063,7 +7038,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
     <fields>
         <fullName>copado__Latest_Commit_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Latest Commit Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -7074,7 +7048,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <fullName>copado__Legal__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Legal</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7085,7 +7058,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If any of the Quality Gates are Manual Steps (Pull Request, Manual Test, or Manual Approval), the story should be marked as &apos;Manual Step Required&apos;.</description>
-        <externalId>false</externalId>
         <label>Manual Step Required</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7095,7 +7067,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <fullName>copado__Manual_Tests_Passed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Manual Tests Passed</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7105,7 +7076,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <fullName>copado__Metadata_Types_in_Selection__c</fullName>
         <deprecated>false</deprecated>
         <description>Metadata types of the components listed in the User Story Selections. This value is updated automatically by Copado.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Metadata types of the components listed in the User Story Selections. This value is updated automatically by Copado.</inlineHelpText>
         <label>Metadata Types in Selection</label>
         <required>false</required>
@@ -7529,7 +7499,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <defaultValue>0.75</defaultValue>
         <deprecated>false</deprecated>
         <description>Minimum Apex Code Coverage required. If this value is lower than the value set in the User Story&apos;s Environment, the Environment&apos;s value will be automatically applied.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Minimum Apex Code Coverage required. If this value is lower than the value set in the User Story&apos;s Environment, the Environment&apos;s value will be automatically applied.</inlineHelpText>
         <label>Minimum Apex Code Coverage</label>
         <precision>3</precision>
@@ -7557,7 +7526,6 @@ IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quo
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Credential used to add or commit metadata and to promote and deploy the User Story to the next Environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Credential used to add or commit metadata and to promote and deploy the User Story to the next Environment.</inlineHelpText>
         <label>Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
@@ -7648,7 +7616,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__Progress__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Progress</label>
         <precision>3</precision>
         <required>false</required>
@@ -7662,7 +7629,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Project where the User Story belongs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Project where the User Story belongs.</inlineHelpText>
         <label>Project</label>
         <referenceTo>copado__Project__c</referenceTo>
@@ -7678,7 +7644,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Branch Management and Promotion pages.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Promotion and Branch Management pages.</inlineHelpText>
         <label>Ready to Promote</label>
         <trackHistory>false</trackHistory>
@@ -7689,7 +7654,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Promote_and_Deploy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When this checkbox is checked, a promotion and deployment of this User Story will be started.</inlineHelpText>
         <label>Promote and Deploy</label>
         <trackHistory>false</trackHistory>
@@ -7700,7 +7664,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Promote_as_Single_Step__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Promote as Single Step</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7710,7 +7673,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Promotion_Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>Test Level to apply in the deployment of the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Test Level to apply in the deployment of the User Story.</inlineHelpText>
         <label>Promotion Test Level</label>
         <required>false</required>
@@ -7748,7 +7710,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Pull_Requests_Approved__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pull Requests Approved</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -7779,7 +7740,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Product version or release where this User Story will be released.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Product version or release where this User Story will be released.</inlineHelpText>
         <label>Release</label>
         <referenceTo>copado__Release__c</referenceTo>
@@ -7795,7 +7755,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Sprint where the User Story is planned.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sprint where the User Story is planned.</inlineHelpText>
         <label>Sprint</label>
         <referenceTo>copado__Sprint__c</referenceTo>
@@ -7810,7 +7769,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
         <description>Current status of the implementation of the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Current status of the implementation of the User Story.</inlineHelpText>
         <label>Status</label>
         <required>false</required>
@@ -7878,7 +7836,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</inlineHelpText>
         <label>Stop Indexing Metadata</label>
         <trackHistory>false</trackHistory>
@@ -7916,7 +7873,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Team which will tackle the User Story.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Team which will tackle the User Story.</inlineHelpText>
         <label>Team</label>
         <referenceTo>copado__Team__c</referenceTo>
@@ -7930,7 +7886,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__Technical_Specifications__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Technical Specifications</label>
         <length>30000</length>
         <trackHistory>false</trackHistory>
@@ -7942,7 +7897,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Test_Script_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Script Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Stories (Test Script Owner)</relationshipLabel>
@@ -7957,7 +7911,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&apos;t be completed within one sprint.</description>
-        <externalId>false</externalId>
         <inlineHelpText>A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&apos;t be completed within</inlineHelpText>
         <label>Theme</label>
         <referenceTo>copado__Theme__c</referenceTo>
@@ -8018,7 +7971,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__US_Feature__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Feature</label>
         <referenceTo>copado__Application_Feature__c</referenceTo>
         <relationshipLabel>User Stories</relationshipLabel>
@@ -8046,7 +7998,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Validate_Only__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This will create a validation deployment.  When checked, Git metadata and regular metadata will be merged to create 1 validation deployment.</inlineHelpText>
         <label>Validate Only</label>
         <trackHistory>false</trackHistory>
@@ -8101,7 +8052,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__userStory_Role__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>As a...</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -8111,7 +8061,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__userStory_need__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Want to...</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -8121,7 +8070,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <fields>
         <fullName>copado__userStory_reason__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>So that...</label>
         <required>false</required>
         <trackHistory>false</trackHistory>

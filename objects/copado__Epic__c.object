@@ -167,7 +167,6 @@
         <fullName>copado__Application__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Application</label>
         <referenceTo>copado__Application__c</referenceTo>
         <relationshipLabel>Epics</relationshipLabel>
@@ -190,7 +189,6 @@
     <fields>
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -200,7 +198,6 @@
     <fields>
         <fullName>copado__Epic_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Epic Details</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -222,7 +219,6 @@
         <fullName>copado__Release__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>copado__Release__c</referenceTo>
         <relationshipLabel>Epics</relationshipLabel>
@@ -234,7 +230,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -273,7 +268,6 @@
     <fields>
         <fullName>copado__Technical_Assumptions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Technical Assumptions</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

@@ -159,7 +159,6 @@
         <fullName>copado__Deployment_Flow__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If working with Copado Change Management, the Project must be linked to a Pipeline.</inlineHelpText>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
@@ -173,7 +172,6 @@
     <fields>
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -184,7 +182,6 @@
     <fields>
         <fullName>copado__End_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -194,7 +191,6 @@
     <fields>
         <fullName>copado__Exclude_Tabs_from_Promotion_Page__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Exclude Tabs from Promotion Page</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -227,7 +223,6 @@
         <fullName>copado__Index_Metadata__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When this field is checked, Copado will index the metadata selected against the user stories into the User Story Metadata custom object. Indexed metadata can be used for reporting and compliance, and it&apos;s also used by Copado overlap awareness feature.</inlineHelpText>
         <label>Index Metadata</label>
         <trackHistory>false</trackHistory>
@@ -237,7 +232,6 @@
     <fields>
         <fullName>copado__Start_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -247,7 +241,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>

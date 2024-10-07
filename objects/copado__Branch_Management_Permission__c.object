@@ -159,7 +159,6 @@
         <fullName>copado__Allow_Deployments__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Allow Deployments</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -167,7 +166,6 @@
     <fields>
         <fullName>copado__Environment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipName>Branch_Management_Permissisions</relationshipName>
@@ -181,7 +179,6 @@
         <fullName>copado__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Branch_Management_Permissisions</relationshipName>

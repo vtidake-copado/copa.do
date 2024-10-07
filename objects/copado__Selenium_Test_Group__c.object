@@ -207,7 +207,6 @@
     <fields>
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -217,7 +216,6 @@
         <fullName>copado__Environment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>Selenium Test Groups</relationshipLabel>
@@ -242,7 +240,6 @@
         <fullName>copado__Manage_Test_Runs_manually__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When this option is unchecked, Copado will automatically create/update/remove Test Runs for each Suite/ Credential.
 
 Check it to manage the Test Runs in this group manually, then go to a Test Run list view, and use the &quot;Add to Test Group&quot; option.</inlineHelpText>
@@ -254,7 +251,6 @@ Check it to manage the Test Runs in this group manually, then go to a Test Run l
         <fullName>copado__Run_Sequentially__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, tests runs will be executed in sequence, one after another, instead of doing it in parallel</inlineHelpText>
         <label>Run Sequentially</label>
         <trackTrending>false</trackTrending>
@@ -264,7 +260,6 @@ Check it to manage the Test Runs in this group manually, then go to a Test Run l
         <fullName>copado__Selenium_Settings__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All tests runs belonging to this Test Group will use these Selenium Settings.</inlineHelpText>
         <label>Selenium Settings</label>
         <referenceTo>copado__Selenium_Settings__c</referenceTo>
@@ -277,7 +272,6 @@ Check it to manage the Test Runs in this group manually, then go to a Test Run l
     <fields>
         <fullName>copado__Status_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -315,7 +309,6 @@ TEXT(copado__Status__c)
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -350,7 +343,6 @@ TEXT(copado__Status__c)
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
         <description>If “Regression Test” or “User Story Test” is selected, then all Credentials associated to that Test Group must be linked to the same environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If “Regression Test” or “User Story Test” is selected, then all Credentials associated to that Test Group must be linked to the same environment.</inlineHelpText>
         <label>Type</label>
         <required>false</required>

@@ -160,7 +160,6 @@
         <fullName>copado__Back_Promotion_Behavior__c</fullName>
         <deprecated>false</deprecated>
         <description>How should user stories be moved back from higher environments (prod/test) to lower environments (test/dev)</description>
-        <externalId>false</externalId>
         <inlineHelpText>How should user stories be moved back from higher environments (prod/test) to lower environments (test/dev)</inlineHelpText>
         <label>Back-Promotion Execution</label>
         <required>true</required>
@@ -197,7 +196,6 @@
     <fields>
         <fullName>copado__Back_Promotion_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Only user stories that meet this criteria will be eligible to be automatically back promoted.</inlineHelpText>
         <label>Back-Promotion Criteria</label>
         <required>false</required>
@@ -237,7 +235,6 @@
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
         <description>A summary of this connection behavior</description>
-        <externalId>false</externalId>
         <inlineHelpText>A summary of this connection behavior</inlineHelpText>
         <label>Description</label>
         <required>false</required>
@@ -249,7 +246,6 @@
         <fullName>copado__DisableEnvironmentBranch__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Environment Branch</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -259,7 +255,6 @@
         <fullName>copado__Execute_back_promotions_in_parallel__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Execute back-promotions in parallel</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -269,7 +264,6 @@
         <fullName>copado__Execute_promotions_in_parallel__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Execute promotions in parallel</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -311,7 +305,6 @@
         <fullName>copado__Promotion_Behavior__c</fullName>
         <deprecated>false</deprecated>
         <description>How should user stories be deployed from lower (dev/test) environments to higher environments (test/prod)</description>
-        <externalId>false</externalId>
         <inlineHelpText>How should user stories be deployed from lower (dev/test) environments to higher environments (test/prod)</inlineHelpText>
         <label>Promotion Execution</label>
         <required>true</required>
@@ -326,7 +319,6 @@
     <fields>
         <fullName>copado__Promotion_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Only user stories that meet this criteria will be eligible to be automatically promoted.</inlineHelpText>
         <label>Promotion Criteria</label>
         <required>false</required>
@@ -412,7 +404,6 @@ TEXT(copado__Promotion_Behavior__c) == &apos;Scheduled&apos;, HYPERLINK(&quot;/a
         <fullName>copado__Story_Status_After_Deployment__c</fullName>
         <deprecated>false</deprecated>
         <description>Automatically change the status of user stories after deploying them to the target environment</description>
-        <externalId>false</externalId>
         <inlineHelpText>What status should user stories be set to after they are successfully deployed?</inlineHelpText>
         <label>User Story Status After Promotion</label>
         <required>false</required>

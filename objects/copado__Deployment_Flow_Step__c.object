@@ -158,7 +158,6 @@
         <fullName>copado__Automatically_Merge_and_Deploy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Automatically Merge and Deploy</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -210,7 +209,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This field manages override of Connection Behavior on Pipeline Connection basis</description>
-        <externalId>false</externalId>
         <label>Connection Behavior Override</label>
         <referenceTo>copado__Connection_Behavior__c</referenceTo>
         <relationshipLabel>Pipeline Connections</relationshipLabel>
@@ -236,7 +234,6 @@
     <fields>
         <fullName>copado__Deployment_Flow__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>Pipeline Connections</relationshipLabel>
@@ -266,7 +263,6 @@
         <fullName>copado__Destination_Environment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Destination Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipName>Deployment_Flow_Steps1</relationshipName>
@@ -278,7 +274,6 @@
     <fields>
         <fullName>copado__Enable_as_Scratch_Org_Destination__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Enable as Scratch Org Target</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -310,7 +305,6 @@
         <fullName>copado__Last_Merge_Base__c</fullName>
         <deprecated>false</deprecated>
         <description>Last date and time when the source and target branch were in Sync (no commits ahead or behind).</description>
-        <externalId>false</externalId>
         <inlineHelpText>Last date and time when the source and target branch were in Sync (no commits ahead or behind).</inlineHelpText>
         <label>Last Merge Base</label>
         <required>false</required>
@@ -322,7 +316,6 @@
         <fullName>copado__Last_Merge_CBM_Sync__c</fullName>
         <deprecated>false</deprecated>
         <description>Last date and time when the CBM Sync button was clicked to merge and deploy changes to the destination environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Last date and time when the CBM Sync button was clicked to merge and deploy changes to the destination environment.</inlineHelpText>
         <label>Last Merge CBM Sync</label>
         <required>false</required>
@@ -334,7 +327,6 @@
         <fullName>copado__Last_Pull_CBM_Sync__c</fullName>
         <deprecated>false</deprecated>
         <description>Last date and time when the CBM Sync button was clicked to merge and deploy changes to the source environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Last date and time when the CBM Sync button was clicked to merge and deploy changes to the source environment.</inlineHelpText>
         <label>Last Pull CBM Sync</label>
         <required>false</required>
@@ -346,7 +338,6 @@
         <fullName>copado__Merge_Auto_Resolved_Files__c</fullName>
         <deprecated>false</deprecated>
         <description>List of conflicted files auto resolved by Copado when merging the source branch into the destination branch.</description>
-        <externalId>false</externalId>
         <inlineHelpText>List of conflicted files auto resolved by Copado when merging the source branch into the destination branch.</inlineHelpText>
         <label>Merge Auto Resolved Files</label>
         <length>32768</length>
@@ -371,7 +362,6 @@
         <fullName>copado__Pull_Auto_Resolved_Files__c</fullName>
         <deprecated>false</deprecated>
         <description>List of conflicted files auto resolved by Copado when merging the destination branch into the source branch.</description>
-        <externalId>false</externalId>
         <inlineHelpText>List of conflicted files auto resolved by Copado when merging the destination branch into the source branch.</inlineHelpText>
         <label>Pull Auto Resolved Files</label>
         <length>32768</length>
@@ -384,7 +374,6 @@
         <fullName>copado__Source_Environment__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipName>Deployment_Flow_Steps</relationshipName>
@@ -397,7 +386,6 @@
         <fullName>copado__Stage_Connection__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Stage Connection where the source environment belongs to.</inlineHelpText>
         <label>Stage Connection</label>
         <lookupFilter>
@@ -421,7 +409,6 @@
     <fields>
         <fullName>copado__Sync_Merge_State__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sync Merge State</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -466,7 +453,6 @@
     <fields>
         <fullName>copado__Sync_Pull_State__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sync Pull State</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -511,7 +497,6 @@
     <fields>
         <fullName>copado__Test_Level__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Recommended Test Level: &quot;Run Local Tests&quot;</inlineHelpText>
         <label>Test Level</label>
         <required>false</required>

@@ -273,7 +273,6 @@
         <fullName>copado__Active__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -294,7 +293,6 @@
         <fullName>copado__Check_Only__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Check Only</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -303,7 +301,6 @@
         <fullName>copado__Destination_Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Destination Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
         <relationshipLabel>Continuous Integrations</relationshipLabel>
@@ -315,7 +312,6 @@
     <fields>
         <fullName>copado__Files_to_be_deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>For supported metadata items only.</inlineHelpText>
         <label>Files to be deployed</label>
         <required>false</required>
@@ -341,7 +337,6 @@
         <fullName>copado__Git_Repository__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Git Repository</label>
         <referenceTo>copado__Git_Repository__c</referenceTo>
         <relationshipLabel>Continuous Integrations</relationshipLabel>
@@ -366,7 +361,6 @@
         <fullName>copado__Post_Failed_Deployment_Jobs__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Post Failed Deployment Jobs</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Continuous Integrations (Post Failed Deployment Jobs)</relationshipLabel>
@@ -379,7 +373,6 @@
         <fullName>copado__Post_Success_Deployment_Jobs__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Post Success Deployment Jobs</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Continuous Integrations (Post Success Deployment Jobs)</relationshipLabel>
@@ -392,7 +385,6 @@
         <fullName>copado__Pre_Deployment_Jobs__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pre Deployment Jobs</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Continuous Integrations</relationshipLabel>
@@ -404,7 +396,6 @@
     <fields>
         <fullName>copado__Pre_Deployment_Options__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pre Deployment Options</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -429,7 +420,6 @@
         <fullName>copado__Run_All_Tests__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If this checkbox is checked, all apex tests will be run as part of the build.</inlineHelpText>
         <label>Run All Tests</label>
         <trackTrending>false</trackTrending>
@@ -438,7 +428,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

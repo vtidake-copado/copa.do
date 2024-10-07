@@ -577,7 +577,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -598,7 +597,6 @@
         <fullName>copado__User_Story_Bundle__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story Bundle</label>
         <referenceTo>copado__User_Story_Bundle__c</referenceTo>
         <relationshipName>Bundles_UserStories</relationshipName>
@@ -611,7 +609,6 @@
         <fullName>copado__User_Story__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipName>Artifacts_UserStories</relationshipName>

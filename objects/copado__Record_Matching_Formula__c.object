@@ -166,7 +166,6 @@
         <fullName>copado__Configuration_Source_Org__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The Credential from where Copado retrieves the list of objects and fields available to build the formula.</inlineHelpText>
         <label>Configuration Schema Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
@@ -216,7 +215,6 @@
         <fullName>copado__Field_Labels__c</fullName>
         <deprecated>false</deprecated>
         <description>This field stores labels of fields stored in the Field1, Field2, Field3</description>
-        <externalId>false</externalId>
         <label>Field Labels</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -227,7 +225,6 @@
         <fullName>copado__Hash_Formula__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Hashing the Formula will replace the original value with a unique, fixed-size set of random characters. It will ensure the value will not exceed the External Id field character limit but it will not be readable.</inlineHelpText>
         <label>Hash External Id Value</label>
         <trackTrending>false</trackTrending>

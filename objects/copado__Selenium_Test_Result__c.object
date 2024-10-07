@@ -181,7 +181,6 @@
     <fields>
         <fullName>copado__Message__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Message</label>
         <length>16384</length>
         <trackTrending>false</trackTrending>
@@ -203,7 +202,6 @@
     <fields>
         <fullName>copado__Result_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Result URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -212,7 +210,6 @@
     <fields>
         <fullName>copado__Selenium_Test_Run__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Run</label>
         <referenceTo>copado__Selenium_Test_Run__c</referenceTo>
         <relationshipLabel>Selenium Test Results</relationshipLabel>
@@ -226,7 +223,6 @@
     <fields>
         <fullName>copado__Selenium_Test_Suite__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Suite</label>
         <referenceTo>copado__Selenium_Test_Suite__c</referenceTo>
         <relationshipLabel>Selenium Test Results</relationshipLabel>
@@ -240,7 +236,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

@@ -158,7 +158,6 @@
     <fields>
         <fullName>copado__Compliance_Rule__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Rule</label>
         <referenceTo>copado__Compliance_Rule__c</referenceTo>
         <relationshipLabel>Compliance Findings</relationshipLabel>
@@ -172,7 +171,6 @@
     <fields>
         <fullName>copado__Compliance_Scan_Result__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Scan Result</label>
         <referenceTo>copado__Compliance_Scan_Result__c</referenceTo>
         <relationshipLabel>Compliance Findings</relationshipLabel>
@@ -187,7 +185,6 @@
         <fullName>copado__Rule_Error_Message__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is populated with error message from its Compliance Rule Error Message</description>
-        <externalId>false</externalId>
         <label>Rule Error Message</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

@@ -172,7 +172,6 @@
         <fullName>cmcSf__IsOrgDependent__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Org Dependent</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -182,7 +181,6 @@
         <fullName>copado__Artifact_Repository__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This is Repository where the Artifact can be stored, in the master branch</inlineHelpText>
         <label>Package Repository</label>
         <referenceTo>copado__Git_Repository__c</referenceTo>
@@ -197,7 +195,6 @@
         <fullName>copado__Artifact_Version__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Latest Package Version</label>
         <lookupFilter>
             <active>true</active>
@@ -218,7 +215,6 @@
     <fields>
         <fullName>copado__DataJSON__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Data JSON</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>
@@ -257,7 +253,6 @@
     <fields>
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The description of the package</inlineHelpText>
         <label>Description</label>
         <length>131072</length>
@@ -282,7 +277,6 @@
         <fullName>copado__No_Namespace__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Enables the package creation with no namespace; available only for unlocked packages.</inlineHelpText>
         <label>No Namespace</label>
         <trackHistory>false</trackHistory>
@@ -293,7 +287,6 @@
         <fullName>copado__Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The credential where the metadata of the Artifact is going to be retrieved from, for unlocked packages and 2GP.
 The credential where the unmanaged package is created from.</inlineHelpText>
         <label>Source Credential</label>
@@ -334,7 +327,6 @@ The credential where the unmanaged package is created from.</inlineHelpText>
     <fields>
         <fullName>copado__Package_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>For detailed information : https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_plan_pkg_types.htm</inlineHelpText>
         <label>Package Type</label>
         <required>false</required>
@@ -366,7 +358,6 @@ The credential where the unmanaged package is created from.</inlineHelpText>
         <fullName>copado__Pipeline__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>Packages</relationshipLabel>
@@ -393,7 +384,6 @@ The credential where the unmanaged package is created from.</inlineHelpText>
     <fields>
         <fullName>copado__Source_Api_Version__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The API version that the source of your package is compatible with. This field is important if you’re using a metadata type that has changed in a recent salesforce release.</inlineHelpText>
         <label>Source Api Version</label>
         <required>false</required>
@@ -636,7 +626,6 @@ The credential where the unmanaged package is created from.</inlineHelpText>
         <fullName>copado__Target_Dev_Hub_Org__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Copado org credential for the dev hub which will be used to create and store the package and its versions</inlineHelpText>
         <label>Target Dev Hub Org</label>
         <lookupFilter>

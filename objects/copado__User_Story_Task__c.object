@@ -164,7 +164,6 @@
     <fields>
         <fullName>copado__Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comments</label>
         <length>32000</length>
         <trackHistory>true</trackHistory>
@@ -188,7 +187,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -241,7 +239,6 @@
     <fields>
         <fullName>copado__User_Story__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>User Story Tasks</relationshipLabel>

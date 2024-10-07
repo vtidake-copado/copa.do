@@ -4,7 +4,6 @@
     <fields>
         <fullName>copado__Extension__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <label>Extension</label>
         <referenceTo>copado__ExtensionPackageConfiguration__mdt</referenceTo>

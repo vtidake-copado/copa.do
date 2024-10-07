@@ -192,7 +192,6 @@
     <fields>
         <fullName>copado__Snapshot_Commit__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Snapshot Commit</label>
         <referenceTo>copado__Git_Org_Commit__c</referenceTo>
         <relationshipLabel>User Story Commits</relationshipLabel>
@@ -218,7 +217,6 @@
     <fields>
         <fullName>copado__User_Story__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>User Story Commits</relationshipLabel>

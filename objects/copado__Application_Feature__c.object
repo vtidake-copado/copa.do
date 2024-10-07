@@ -169,7 +169,6 @@
         <fullName>copado__Application__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Application</label>
         <referenceTo>copado__Application__c</referenceTo>
         <relationshipLabel>Features</relationshipLabel>
@@ -183,7 +182,6 @@
         <fullName>copado__Architect__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Architect</label>
         <referenceTo>User</referenceTo>
         <relationshipName>FeatureArchitects</relationshipName>
@@ -208,7 +206,6 @@
     <fields>
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>
@@ -220,7 +217,6 @@
         <fullName>copado__Epic__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Epic</label>
         <referenceTo>copado__Epic__c</referenceTo>
         <relationshipLabel>Features</relationshipLabel>
@@ -233,7 +229,6 @@
     <fields>
         <fullName>copado__Estimated_Value__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Estimated Value</label>
         <precision>18</precision>
         <required>false</required>
@@ -245,7 +240,6 @@
     <fields>
         <fullName>copado__Priority__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -286,7 +280,6 @@
         <fullName>copado__Product_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>FeatureOwners</relationshipName>
@@ -298,7 +291,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -353,7 +345,6 @@
     <fields>
         <fullName>copado__Technical_Assumptions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Technical Assumptions or Design Considerations for Feature</inlineHelpText>
         <label>Technical Assumptions</label>
         <length>32768</length>
@@ -378,7 +369,6 @@
     <fields>
         <fullName>copado__Value_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Business Value of Feature</inlineHelpText>
         <label>Value Type</label>
         <required>false</required>

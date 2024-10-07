@@ -170,7 +170,6 @@
         <fullName>copado__Hide_Value__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select this Checkbox to hide the value in the Test Group related list.</inlineHelpText>
         <label>Hide Value</label>
         <trackTrending>false</trackTrending>
@@ -179,7 +178,6 @@
     <fields>
         <fullName>copado__Selenium_Test_Group__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Group</label>
         <referenceTo>copado__Selenium_Test_Group__c</referenceTo>
         <relationshipLabel>Selenium Group Variables</relationshipLabel>

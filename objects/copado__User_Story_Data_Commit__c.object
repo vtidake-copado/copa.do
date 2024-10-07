@@ -158,7 +158,6 @@
         <fullName>copado__Commit_Date__c</fullName>
         <defaultValue>NOW()</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Commit Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -179,7 +178,6 @@
         <fullName>copado__Data_Set__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Data Set</label>
         <referenceTo>copado__Data_Set__c</referenceTo>
         <relationshipLabel>User Story Data Commits</relationshipLabel>
@@ -192,7 +190,6 @@
         <fullName>copado__Execution_Job__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Execution Job</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>User Story Data Commits</relationshipLabel>
@@ -215,7 +212,6 @@
     <fields>
         <fullName>copado__User_Story__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>User Story Data Commits</relationshipLabel>

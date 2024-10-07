@@ -182,7 +182,6 @@
     <fields>
         <fullName>copado__Locator__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Selenium locator that identifies the element on the page.</inlineHelpText>
         <label>Locator</label>
         <length>32768</length>
@@ -193,7 +192,6 @@
     <fields>
         <fullName>copado__Page__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Used to give context for the locator. It can be any text.
 Copado Recorder will automatically set the page title when recording.</inlineHelpText>
         <label>Page</label>

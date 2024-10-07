@@ -16,7 +16,6 @@
     <fields>
         <fullName>copado__Filter_Condition__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Filter Condition</label>
         <required>true</required>
         <trackTrending>false</trackTrending>

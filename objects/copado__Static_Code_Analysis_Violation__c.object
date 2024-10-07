@@ -182,7 +182,6 @@
         <fullName>copado__Info_URL__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to the PMD documentation about the rule violated.</description>
-        <externalId>false</externalId>
         <label>Info URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -229,7 +228,6 @@
     <fields>
         <fullName>copado__Resolution__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Resolution</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -295,7 +293,6 @@
         <fullName>copado__Severity__c</fullName>
         <deprecated>false</deprecated>
         <description>CodeScan Severity</description>
-        <externalId>false</externalId>
         <label>Severity</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -334,7 +331,6 @@
     <fields>
         <fullName>copado__Static_Code_Analysis_Result__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Static Code Analysis Result</label>
         <referenceTo>copado__Static_Code_Analysis_Result__c</referenceTo>
         <relationshipLabel>Static Code Analysis Violations</relationshipLabel>
@@ -348,7 +344,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -387,7 +382,6 @@
     <fields>
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

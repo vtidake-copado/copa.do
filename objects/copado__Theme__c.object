@@ -166,7 +166,6 @@
         <fullName>copado__Active__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -174,7 +173,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -209,7 +207,6 @@
     <fields>
         <fullName>copado__Theme_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Theme Details</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

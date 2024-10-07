@@ -158,7 +158,6 @@
         <fullName>copado__Member__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Member</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Team_Members</relationshipName>
@@ -170,7 +169,6 @@
     <fields>
         <fullName>copado__Role__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Role</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -351,7 +349,6 @@
     <fields>
         <fullName>copado__Team__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>copado__Team__c</referenceTo>
         <relationshipLabel>Team Members</relationshipLabel>

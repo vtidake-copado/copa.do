@@ -177,7 +177,6 @@
     <fields>
         <fullName>copado__Environment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipName>Environmental_Variables</relationshipName>
@@ -192,7 +191,6 @@
         <fullName>copado__Scope__c</fullName>
         <deprecated>false</deprecated>
         <description>Use this field to define a Scope for this Environment Variable. For more information, please check our documentation about Environment Variables Scope.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Use this field to define a Scope for this Environment Variable. For more information, please check our documentation about Environment Variables Scope.</inlineHelpText>
         <label>Scope</label>
         <length>131072</length>

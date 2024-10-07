@@ -179,7 +179,6 @@
     <fields>
         <fullName>copado__Actual_Result__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Actual Result</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -226,7 +225,6 @@
         <fullName>copado__Script_Step__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Script Step</label>
         <referenceTo>copado__Test_Script_Step__c</referenceTo>
         <relationshipLabel>Test Run Steps</relationshipLabel>
@@ -238,7 +236,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -267,7 +264,6 @@
     <fields>
         <fullName>copado__Test_Run__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Run</label>
         <referenceTo>copado__Test_Run__c</referenceTo>
         <relationshipLabel>Test Run Steps</relationshipLabel>

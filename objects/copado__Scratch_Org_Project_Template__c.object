@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Api_Version__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Api Version</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -303,7 +302,6 @@
         <fullName>copado__Developer_Hub_Org__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Developer Hub Credential</label>
         <lookupFilter>
             <active>true</active>
@@ -338,7 +336,6 @@
     <fields>
         <fullName>copado__Project_JSON__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Project JSON</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -350,7 +347,6 @@
         <fullName>copado__SFDC_Login_Url__c</fullName>
         <defaultValue>&apos;https://login.salesforce.com&apos;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SFDC Login Url</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -360,7 +356,6 @@
     <fields>
         <fullName>copado__Source_Metadata_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Metadata Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -412,7 +407,6 @@
         <fullName>copado__Source_Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
         <relationshipLabel>Scratch Org Project Templates (Source Credential)</relationshipLabel>

@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Continuous_Integration__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Continuous Integration</label>
         <referenceTo>copado__Continuous_Integration__c</referenceTo>
         <relationshipLabel>Build Tasks</relationshipLabel>
@@ -172,7 +171,6 @@
         <fullName>copado__Deployment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Build Tasks</relationshipLabel>
@@ -198,7 +196,6 @@
         <fullName>copado__Start_Time__c</fullName>
         <defaultValue>now()</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Time</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -207,7 +204,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -241,7 +237,6 @@
     <fields>
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

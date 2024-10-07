@@ -180,7 +180,6 @@
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
         <description>A description of the job template.</description>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -193,7 +192,6 @@
         <defaultValue>&apos;Custom&apos;</defaultValue>
         <deprecated>false</deprecated>
         <description>Type of Job Template</description>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -234,7 +232,6 @@
         <fullName>copado__VolumeOptions__c</fullName>
         <deprecated>false</deprecated>
         <description>A JSON containing transaction and volume options.</description>
-        <externalId>false</externalId>
         <inlineHelpText>A JSON containing transaction and volume options</inlineHelpText>
         <label>VolumeOptions</label>
         <length>32768</length>

@@ -158,7 +158,6 @@
     <fields>
         <fullName>copado__Environment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>Installed Package Versions</relationshipLabel>
@@ -172,7 +171,6 @@
     <fields>
         <fullName>copado__Package_Version__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Package Version</label>
         <referenceTo>copado__Artifact_Version__c</referenceTo>
         <relationshipLabel>Installed Package Versions</relationshipLabel>
@@ -186,7 +184,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Apex_code_after_test__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Optional Apex code to execute after running this test suite. You can use variable {!NS} to be replaced with the Namespace for the running Environment.</inlineHelpText>
         <label>Apex code after test</label>
         <length>32768</length>
@@ -168,7 +167,6 @@
     <fields>
         <fullName>copado__Apex_code_before_test__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Optional Apex code to execute before running this test suite.  It can be used to clean up or create data. You can use variable {!NS} to be replaced with the Namespace for the running Environment.</inlineHelpText>
         <label>Apex code before test</label>
         <length>32768</length>
@@ -179,7 +177,6 @@
     <fields>
         <fullName>copado__Notes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Notes</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -189,7 +186,6 @@
         <fullName>copado__Test_Script__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This lookup relates to the Copado Change Management test scripts that are related to User Stories.</inlineHelpText>
         <label>Test Script</label>
         <referenceTo>copado__Test_Script__c</referenceTo>

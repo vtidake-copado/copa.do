@@ -55,6 +55,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Fruits__pc</picklist>
+            <values>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Industry</picklist>
             <values>
                 <fullName>Agriculture</fullName>
@@ -201,6 +208,13 @@
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PC_1_Picklist_test__pc</picklist>
+            <values>
+                <fullName>Value 1</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

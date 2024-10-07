@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Dependent_Artifact__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The artifact record which cannot be installed or managed without the depending artifact</inlineHelpText>
         <label>Dependent Package</label>
         <referenceTo>copado__Artifact__c</referenceTo>
@@ -174,7 +173,6 @@
         <fullName>copado__Depending_Artifact_Version__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The minumum or exact version of depending artifact. This particular version will be used during version creation and installation operations.</inlineHelpText>
         <label>Depending Package Version</label>
         <lookupFilter>
@@ -199,7 +197,6 @@
         <fullName>copado__Depending_Artifact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The depending package artifact which contains required dependencies for the dependent package&apos;s metadata</inlineHelpText>
         <label>Depending Package</label>
         <referenceTo>copado__Artifact__c</referenceTo>
@@ -214,7 +211,6 @@
         <fullName>copado__Depends_on_the_latest_version__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, the latest version of the depending artifact will be used for version creation and installation operations</inlineHelpText>
         <label>Depends on the latest version</label>
         <trackHistory>false</trackHistory>

@@ -71,7 +71,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Disables Auto-Resolve from Online Conflict Resolution</description>
-        <externalId>false</externalId>
         <inlineHelpText>Disables Auto-Resolve from Online Conflict Resolution</inlineHelpText>
         <label>Disable Auto-Resolve</label>
         <trackTrending>false</trackTrending>
@@ -81,7 +80,6 @@
         <fullName>copado__Disable_Re_Create_Feature_Branch_in_US__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Re-Create Feature Branch in US</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -91,7 +89,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Default is false to maintain compatibility. Only if the user changes it to true the API Key will be masked or replaced by a placeholder.</description>
-        <externalId>false</externalId>
         <label>Mask API Key</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

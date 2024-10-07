@@ -619,7 +619,6 @@
         <fullName>copado__Active__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Only Active Templates are available when searching for them, for example in deployment steps</inlineHelpText>
         <label>Active</label>
         <trackHistory>false</trackHistory>
@@ -644,7 +643,6 @@
         <fullName>copado__Attach_Deployment_File__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Attach Deployment File</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -654,7 +652,6 @@
         <fullName>copado__Build_Task__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Build Task</label>
         <referenceTo>copado__Build_Task__c</referenceTo>
         <relationshipLabel>Deployments</relationshipLabel>
@@ -667,7 +664,6 @@
     <fields>
         <fullName>copado__Completed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(copado__Deployment_Jobs_Count__c&gt;0,
 copado__Count_Completed__c /  copado__Deployment_Jobs_Count__c,
 0
@@ -696,7 +692,6 @@ copado__Count_Completed__c /  copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Count_Completed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label># Completed</label>
         <summarizedField>copado__Step__c.copado__Count_Completed__c</summarizedField>
         <summaryForeignKey>copado__Step__c.copado__Deployment__c</summaryForeignKey>
@@ -708,7 +703,6 @@ copado__Count_Completed__c /  copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When this need to be deployed</inlineHelpText>
         <label>Date</label>
         <required>false</required>
@@ -719,7 +713,6 @@ copado__Count_Completed__c /  copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(copado__Deployment_Jobs_Count__c &gt; 0,
 copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
 0
@@ -738,7 +731,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This field is updated when the Deployment Completed email has been sent to prevent subsequent notifications until this marker has been reset.</description>
-        <externalId>false</externalId>
         <label>Deployment Completed email sent</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -747,7 +739,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Deployment_Jobs_Count__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment Jobs Count</label>
         <summarizedField>copado__Step__c.copado__Org_Count__c</summarizedField>
         <summaryForeignKey>copado__Step__c.copado__Deployment__c</summaryForeignKey>
@@ -795,7 +786,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Deployment_command_sent__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment command sent</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -818,7 +808,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <fullName>copado__Do_Not_Update_Promotion__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Do Not Update Promotion</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -827,7 +816,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Execution_Context__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Execution Context</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -884,7 +872,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <fullName>copado__From_Org__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Credential</label>
         <lookupFilter>
             <active>false</active>
@@ -918,7 +905,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Last_Compliance_Scan_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Compliance Scan Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -941,7 +927,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <fullName>copado__Parent_Deployment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Parent Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Deployments (Parent Deployment)</relationshipLabel>
@@ -956,7 +941,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This field is used to decide if there is a pending manual item on deployment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This field is auto populated when a manual task is pending on deployment.</inlineHelpText>
         <label>Paused</label>
         <trackHistory>false</trackHistory>
@@ -980,7 +964,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <fullName>copado__Promotion__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Promotion</label>
         <referenceTo>copado__Promotion__c</referenceTo>
         <relationshipLabel>Deployments</relationshipLabel>
@@ -995,7 +978,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Identifies the original deployment that was rolled back for reporting purposes</description>
-        <externalId>false</externalId>
         <inlineHelpText>Identifies the original deployment that was rolled back for reporting purposes</inlineHelpText>
         <label>Rolled back Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
@@ -1009,7 +991,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__SUM_Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SUM Deployed</label>
         <summarizedField>copado__Step__c.copado__SUM_Deployed__c</summarizedField>
         <summaryForeignKey>copado__Step__c.copado__Deployment__c</summaryForeignKey>
@@ -1021,7 +1002,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Schedule__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Schedule</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -1047,7 +1027,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <fullName>copado__Send_Deployment_Complete_email__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When the deployment completes an email will be sent to the owner of the deployment informing them of the status. Uncheck this checkbox to not receive such an email.</inlineHelpText>
         <label>Send Deployment Complete email</label>
         <trackHistory>false</trackHistory>
@@ -1083,7 +1062,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -1134,7 +1112,6 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <fullName>copado__Template__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The automation template that defined the steps of this deployment.</inlineHelpText>
         <label>Template</label>
         <referenceTo>copado__Deployment__c</referenceTo>

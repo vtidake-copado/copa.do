@@ -136,6 +136,7 @@
             <title>Últimos 30 días</title>
         </components>
     </middleSection>
+    <owner>arturodxtest@copado.com</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>

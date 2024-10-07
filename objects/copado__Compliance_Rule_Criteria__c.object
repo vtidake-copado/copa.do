@@ -158,7 +158,6 @@
     <fields>
         <fullName>copado__Compliance_Rule__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Rule</label>
         <referenceTo>copado__Compliance_Rule__c</referenceTo>
         <relationshipLabel>Compliance Rule Criteria</relationshipLabel>
@@ -173,7 +172,6 @@
     <fields>
         <fullName>copado__Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Criteria</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>

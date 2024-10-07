@@ -158,7 +158,6 @@
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
         <description>A description of the metadata items that are contained in this group</description>
-        <externalId>false</externalId>
         <inlineHelpText>A description of the metadata items that are contained in this group</inlineHelpText>
         <label>Description</label>
         <required>false</required>

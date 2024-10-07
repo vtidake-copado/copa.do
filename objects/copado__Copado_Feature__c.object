@@ -159,7 +159,6 @@
         <businessStatus>Hidden</businessStatus>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Application</label>
         <referenceTo>copado__Application__c</referenceTo>
         <relationshipLabel>Features</relationshipLabel>
@@ -173,7 +172,6 @@
         <businessStatus>Hidden</businessStatus>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Architect</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Features1</relationshipName>
@@ -198,7 +196,6 @@
         <fullName>copado__Description__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -210,7 +207,6 @@
         <businessStatus>Hidden</businessStatus>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Epic</label>
         <referenceTo>copado__Epic__c</referenceTo>
         <relationshipLabel>Features</relationshipLabel>
@@ -223,7 +219,6 @@
         <fullName>copado__Estimated_Value__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Estimated Value</label>
         <precision>18</precision>
         <required>false</required>
@@ -259,7 +254,6 @@
         <businessStatus>Hidden</businessStatus>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Features</relationshipName>
@@ -271,7 +265,6 @@
         <fullName>copado__Status__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -322,7 +315,6 @@
         <fullName>copado__Technical_Assumptions__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Technical Assumptions</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -346,7 +338,6 @@
         <fullName>copado__Value_Type__c</fullName>
         <businessStatus>Hidden</businessStatus>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Value Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

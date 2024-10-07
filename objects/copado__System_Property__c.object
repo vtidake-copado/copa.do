@@ -183,7 +183,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Lookup field to the environment which is linked to the system property.</description>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>System Properties</relationshipLabel>
@@ -197,7 +196,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Select this checbox to hide the sensitive information.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If this field is selected, the value won&apos;t be accessible to any user, and it will be securely saved. The value will remain hidden unless the field is unchecked</inlineHelpText>
         <label>Hide Value</label>
         <trackTrending>false</trackTrending>
@@ -221,7 +219,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Lookup field to the pipeline linked to the system property.</description>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>System Properties</relationshipLabel>
@@ -249,7 +246,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Lookup field to the user linked to the system property.</description>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>System_Properties</relationshipName>
@@ -261,7 +257,6 @@
         <fullName>copado__Value__c</fullName>
         <deprecated>false</deprecated>
         <description>This is the value of the system property.</description>
-        <externalId>false</externalId>
         <label>Value</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>

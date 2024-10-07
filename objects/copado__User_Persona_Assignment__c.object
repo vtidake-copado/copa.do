@@ -158,7 +158,6 @@
         <fullName>copado__Apply_Schedule__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Do not edit manually. This field is used to control the permission scheduler</inlineHelpText>
         <label>Apply Schedule</label>
         <trackHistory>true</trackHistory>
@@ -181,7 +180,6 @@
     <fields>
         <fullName>copado__End_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>End Time</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -205,7 +203,6 @@
         <fullName>copado__Persona__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Persona</label>
         <referenceTo>copado__Persona__c</referenceTo>
         <relationshipLabel>User Persona Assignments</relationshipLabel>
@@ -231,7 +228,6 @@
     <fields>
         <fullName>copado__Start_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Time</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -241,7 +237,6 @@
     <fields>
         <fullName>copado__Status_Message__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status Message</label>
         <length>1000</length>
         <trackHistory>true</trackHistory>
@@ -252,7 +247,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -292,7 +286,6 @@
     <fields>
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -318,7 +311,6 @@
         <fullName>copado__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>User Persona Assignments</relationshipLabel>

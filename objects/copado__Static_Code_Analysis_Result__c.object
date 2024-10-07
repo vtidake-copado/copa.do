@@ -159,7 +159,6 @@
         <fullName>copado__Blocker__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Blocker violations</description>
-        <externalId>false</externalId>
         <label>Blocker</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
@@ -181,7 +180,6 @@
         <fullName>copado__Bugs__c</fullName>
         <deprecated>false</deprecated>
         <description>CodeScan Bugs in violations</description>
-        <externalId>false</externalId>
         <label>Bugs</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Type__c</field>
@@ -202,7 +200,6 @@
     <fields>
         <fullName>copado__Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Closed</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
@@ -219,7 +216,6 @@
         <fullName>copado__Code_Smells__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Code Smell violations</description>
-        <externalId>false</externalId>
         <label>Code Smells</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Type__c</field>
@@ -240,7 +236,6 @@
     <fields>
         <fullName>copado__Confirmed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Confirmed</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
@@ -257,7 +252,6 @@
         <fullName>copado__Critical__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Critical violations</description>
-        <externalId>false</externalId>
         <label>Critical</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
@@ -279,7 +273,6 @@
         <fullName>copado__Deployment_Step__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment Step</label>
         <referenceTo>copado__Step__c</referenceTo>
         <relationshipLabel>Static Code Analysis Results</relationshipLabel>
@@ -292,7 +285,6 @@
     <fields>
         <fullName>copado__Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Details</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -303,7 +295,6 @@
     <fields>
         <fullName>copado__False_Positive__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>False Positive</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
@@ -319,7 +310,6 @@
     <fields>
         <fullName>copado__Fixed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Fixed</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
@@ -335,7 +325,6 @@
     <fields>
         <fullName>copado__Highest_Priority_Violation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Highest Priority Violation</label>
         <summarizedField>copado__Static_Code_Analysis_Violation__c.copado__Priority__c</summarizedField>
         <summaryFilterItems>
@@ -353,7 +342,6 @@
         <fullName>copado__Info__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Info violations</description>
-        <externalId>false</externalId>
         <label>Info</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
@@ -375,7 +363,6 @@
         <fullName>copado__Major__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Major violations</description>
-        <externalId>false</externalId>
         <label>Major</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
@@ -397,7 +384,6 @@
         <fullName>copado__Minor__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Minor violations</description>
-        <externalId>false</externalId>
         <label>Minor</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
@@ -419,7 +405,6 @@
         <fullName>copado__Number_of_Violations__c</fullName>
         <deprecated>false</deprecated>
         <description>Overall number of rule violations.</description>
-        <externalId>false</externalId>
         <label>Number of Violations</label>
         <summaryForeignKey>copado__Static_Code_Analysis_Violation__c.copado__Static_Code_Analysis_Result__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>
@@ -430,7 +415,6 @@
     <fields>
         <fullName>copado__Open__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Open</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
@@ -447,7 +431,6 @@
         <fullName>copado__Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
         <relationshipLabel>Static Code Analysis Results</relationshipLabel>
@@ -460,7 +443,6 @@
     <fields>
         <fullName>copado__Removed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Removed</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
@@ -476,7 +458,6 @@
     <fields>
         <fullName>copado__Reopened__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Reopened</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
@@ -492,7 +473,6 @@
     <fields>
         <fullName>copado__Resolved__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Resolved</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
@@ -509,7 +489,6 @@
         <fullName>copado__Score_v11__c</fullName>
         <deprecated>false</deprecated>
         <description>New v11 version of the Score field.</description>
-        <externalId>false</externalId>
         <label>Score</label>
         <summarizedField>copado__Static_Code_Analysis_Violation__c.copado__Score__c</summarizedField>
         <summaryFilterItems>
@@ -526,7 +505,6 @@
     <fields>
         <fullName>copado__Unresolved__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Unresolved</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
@@ -558,7 +536,6 @@
         <fullName>copado__User_Story__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>Static Code Analysis Results</relationshipLabel>
@@ -572,7 +549,6 @@
         <fullName>copado__Vulnerabilities__c</fullName>
         <deprecated>false</deprecated>
         <description>CodeScan Vulnerability violations</description>
-        <externalId>false</externalId>
         <label>Vulnerabilities</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Type__c</field>
@@ -593,7 +569,6 @@
     <fields>
         <fullName>copado__Wont_fix__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Won&apos;t fix</label>
         <summaryFilterItems>
             <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>

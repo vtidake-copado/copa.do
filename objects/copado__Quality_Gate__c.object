@@ -168,7 +168,6 @@
         <fullName>copado__Automation_Template__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Group of steps to be executed in the future.</inlineHelpText>
         <label>Automation Template</label>
         <lookupFilter>
@@ -192,7 +191,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>If &apos;Compliance Check&apos; is selected as the type, what Compliance Rule Group should be run?</description>
-        <externalId>false</externalId>
         <inlineHelpText>If &apos;Compliance Check&apos; is selected as the type, what Compliance Rule Group should be run?</inlineHelpText>
         <label>Compliance Rule Group</label>
         <referenceTo>copado__Compliance_Rule_Group__c</referenceTo>
@@ -206,7 +204,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>What Connection Behavior is this Quality Gate attached to?</description>
-        <externalId>false</externalId>
         <inlineHelpText>What Connection Behavior is this Quality Gate attached to?</inlineHelpText>
         <label>Parent Connection Behavior</label>
         <referenceTo>copado__Connection_Behavior__c</referenceTo>
@@ -219,7 +216,6 @@
         <fullName>copado__DataJSON__c</fullName>
         <deprecated>false</deprecated>
         <description>If &apos;URL Callout&apos; is selected as the type, this stores the details of that callout.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If &apos;URL Callout&apos; is selected as the type, this stores the details of that callout.</inlineHelpText>
         <label>DataJSON</label>
         <length>131072</length>
@@ -230,7 +226,6 @@
     <fields>
         <fullName>copado__Execution_Event__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The event that triggers this automation.</inlineHelpText>
         <label>Execution Event</label>
         <required>false</required>
@@ -251,7 +246,6 @@
     <fields>
         <fullName>copado__Execution_Sequence__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Defines if the automation should be executed before or after the event.</inlineHelpText>
         <label>Execution Sequence</label>
         <required>false</required>
@@ -279,7 +273,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>If &apos;Manual Approval&apos;, &apos;Manual Test&apos;, or &apos;Pull Request&apos; is selected as the type, who should this task be assigned to?</description>
-        <externalId>false</externalId>
         <inlineHelpText>If &apos;Manual Approval&apos;, &apos;Manual Test&apos;, or &apos;Pull Request&apos; is selected as the type, who should this task be assigned to?</inlineHelpText>
         <label>Manual Task Owner</label>
         <referenceTo>User</referenceTo>
@@ -293,7 +286,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>What metadata will trigger this Quality Gate to run? Quality Gates will only run on deployments where the metadata matches that the metadata in this group</description>
-        <externalId>false</externalId>
         <inlineHelpText>Automations and Quality Gates will be executed when the metadata deployed or committed matches the one specified here.</inlineHelpText>
         <label>Metadata Group</label>
         <referenceTo>copado__Metadata_Group__c</referenceTo>
@@ -322,7 +314,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>If &apos;Selenium Test&apos; is selected as the type, what Selenium Test Group should be run?</description>
-        <externalId>false</externalId>
         <inlineHelpText>If &apos;Selenium Test&apos; is selected as the type, what Selenium Test Group should be run?</inlineHelpText>
         <label>Selenium Test Group</label>
         <referenceTo>copado__Selenium_Test_Group__c</referenceTo>
@@ -336,7 +327,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>If &apos;Static Code Analysis&apos; is selected as the type, which static analysis settings should be used?</description>
-        <externalId>false</externalId>
         <inlineHelpText>If &apos;Static Code Analysis&apos; is selected as the type, which static analysis settings should be used?</inlineHelpText>
         <label>Static Code Analysis Settings</label>
         <referenceTo>copado__Static_Code_Analysis_Settings__c</referenceTo>
@@ -349,7 +339,6 @@
         <fullName>copado__Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>If &apos;Apex Test with Validation&apos; is selected as the type, what test level should be performed. &apos;Run Specified Tests&apos; will run whatever tests are included on the user stories being deployed</description>
-        <externalId>false</externalId>
         <inlineHelpText>If &apos;Apex Test with Validation&apos; is selected as the type, what test level should be performed. &apos;Run Specified Tests&apos; will run whatever tests are included on the user stories being deployed</inlineHelpText>
         <label>Apex Test Level</label>
         <required>false</required>
@@ -364,7 +353,6 @@
         <fullName>copado__Test__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test</label>
         <referenceTo>copado__Test__c</referenceTo>
         <relationshipLabel>Automations</relationshipLabel>
@@ -377,7 +365,6 @@
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
         <description>What type of verification will be performed for this quality gate</description>
-        <externalId>false</externalId>
         <inlineHelpText>What type of verification will be performed for this quality gate</inlineHelpText>
         <label>Type</label>
         <required>true</required>

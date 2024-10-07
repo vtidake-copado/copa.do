@@ -167,7 +167,6 @@
     <fields>
         <fullName>copado__AcceptanceCriteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Requirements and thresholds that must be met to pass this quality gate successfully</inlineHelpText>
         <label>Acceptance Criteria</label>
         <length>131072</length>
@@ -193,7 +192,6 @@
         <fullName>copado__Environment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Environment where this Quality Gate Condition will be evaluated. If no Pipeline is defined, this Condition will apply to all Pipelines where this Environment is connected to.</inlineHelpText>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
@@ -221,7 +219,6 @@
         <fullName>copado__Extension_Configuration__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Extension Configuration</label>
         <referenceTo>copado__ExtensionConfiguration__c</referenceTo>
         <relationshipLabel>Quality Gate Rule Conditions</relationshipLabel>
@@ -234,7 +231,6 @@
     <fields>
         <fullName>copado__Filter_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Define a filter criteria to evaluate the condition only when the specified files are present in the configured Copado Action</inlineHelpText>
         <label>Filter Criteria</label>
         <length>131072</length>
@@ -247,7 +243,6 @@
         <fullName>copado__Pipeline__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Pipeline where this Quality Gate Condition will be evaluated.</inlineHelpText>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
@@ -261,7 +256,6 @@
     <fields>
         <fullName>copado__Platform__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Platform</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -287,7 +281,6 @@
     <fields>
         <fullName>copado__Quality_Gate_Rule__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Quality Gate Rule</label>
         <referenceTo>copado__Quality_Gate_Rule__c</referenceTo>
         <relationshipLabel>Quality Gate Rule Conditions</relationshipLabel>

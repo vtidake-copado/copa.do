@@ -377,7 +377,6 @@
     <fields>
         <fullName>copado__Custom_Domain__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Eg: https://company.my.salesforce.com</inlineHelpText>
         <label>Custom Domain</label>
         <required>false</required>
@@ -389,7 +388,6 @@
         <fullName>copado__Default_Credential__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If selected, this will be the preferred credential for Promotion deployments</inlineHelpText>
         <label>Default Credential</label>
         <trackHistory>false</trackHistory>
@@ -400,7 +398,6 @@
         <fullName>copado__Default_Scratch_Org_Definition__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Will be used for Review app creation out of promotions. Otherwise every scratch org may be created by their own scratch org definition either with a template or without.</inlineHelpText>
         <label>Default Scratch Org Definition</label>
         <referenceTo>copado__Scratch_Org_Definition__c</referenceTo>
@@ -415,7 +412,6 @@
         <fullName>copado__Developer_Hub_Org__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Developer Hub Credential</label>
         <lookupFilter>
             <active>true</active>
@@ -438,7 +434,6 @@
         <fullName>copado__Disable_Validation__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Checking this checkbox will not validate the credentials when the record is saved or viewed.</inlineHelpText>
         <label>Disable Validation</label>
         <trackHistory>false</trackHistory>
@@ -450,7 +445,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Environment records are created automatically when Credentials are authenticated. The Environment may have multiple Credentials which correspond to different users of the same Environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Environment records are created automatically when Credentials are authenticated. The Environment may have multiple Credentials which correspond to different users of the same Environment.</inlineHelpText>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
@@ -476,7 +470,6 @@
     <fields>
         <fullName>copado__Last_Apex_Tests_Datetime__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Apex Tests Datetime</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -486,7 +479,6 @@
     <fields>
         <fullName>copado__Last_Apex_Tests_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Apex Tests Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -516,7 +508,6 @@
     <fields>
         <fullName>copado__Last_Compliance_Scan_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Compliance Scan Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -526,7 +517,6 @@
     <fields>
         <fullName>copado__Last_Git_Backup_Datetime__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Git Backup Datetime</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -536,7 +526,6 @@
     <fields>
         <fullName>copado__Last_Git_Backup_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Last Git Backup Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -566,7 +555,6 @@
     <fields>
         <fullName>copado__Metadata_Types__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Empty means all types. Select one or more types to limit the backup only to selected items.</inlineHelpText>
         <label>Metadata Types</label>
         <length>32768</length>
@@ -579,7 +567,6 @@
         <fullName>copado__Minimum_Apex_Test_Coverage__c</fullName>
         <deprecated>false</deprecated>
         <description>Minimum code coverage required for deploying changes from this Environment.</description>
-        <externalId>false</externalId>
         <formula>copado__Environment__r.copado__Minimum_Apex_Test_Coverage__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Minimum code coverage required for deploying changes from this Environment.</inlineHelpText>
@@ -608,7 +595,6 @@
     <fields>
         <fullName>copado__Org_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Org Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -683,7 +669,6 @@
     <fields>
         <fullName>copado__Scratch_Org_Expiration_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scratch Org Expiration Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -693,7 +678,6 @@
     <fields>
         <fullName>copado__Scratch_Org_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scratch Org Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -730,7 +714,6 @@
         <fullName>copado__Test_Frequency__c</fullName>
         <deprecated>false</deprecated>
         <description>Continuous Integration feature. Run all Apex Test methods and save the results in the Apex Test Result object to create email alerts or reports. This feature is very powerful along with Git Backups to detect recent failing changes automatically.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Continuous Integration feature. Run all Apex Test methods and save the results in the Apex Test Result object to create email alerts or reports. This feature is very powerful along with Git Backups to detect recent failing changes automatically.</inlineHelpText>
         <label>Test Frequency</label>
         <required>false</required>
@@ -822,7 +805,6 @@ IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado_
         <fullName>copado__Validated_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Latest OAuth authentication validation date.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Latest OAuth authentication validation date.</inlineHelpText>
         <label>Validated Date</label>
         <required>false</required>
@@ -851,7 +833,6 @@ IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado_
         <fullName>copado__is_Developer_Hub_Org__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Developer Hub Credential</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>

@@ -170,7 +170,6 @@
     <fields>
         <fullName>copado__Selenium_Test_Case__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Case</label>
         <referenceTo>copado__Selenium_Test_Case__c</referenceTo>
         <relationshipLabel>Selenium Test Cases per Suite</relationshipLabel>
@@ -184,7 +183,6 @@
     <fields>
         <fullName>copado__Selenium_Test_Suite__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Suite</label>
         <referenceTo>copado__Selenium_Test_Suite__c</referenceTo>
         <relationshipLabel>Test Cases</relationshipLabel>

@@ -183,7 +183,6 @@ IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Packag
     <fields>
         <fullName>copado__Actions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select the Copado Action to which this Quality Gate Rule will be applied to.</inlineHelpText>
         <label>Copado Actions</label>
         <required>true</required>
@@ -232,7 +231,6 @@ IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Packag
     <fields>
         <fullName>copado__Execution_sequence__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Define when, during runtime, a quality gate rule should be evaluated for the action selected.</inlineHelpText>
         <label>Execution Sequence</label>
         <required>true</required>
@@ -263,7 +261,6 @@ IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Packag
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -289,7 +286,6 @@ IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Packag
     <fields>
         <fullName>copado__Tool__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Tool used to execute Tests if the related conditions are met. This value will be matched against the Tool of the Test record.</inlineHelpText>
         <label>Tool</label>
         <required>true</required>
@@ -318,7 +314,6 @@ IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Packag
     <fields>
         <fullName>copado__dataJson__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>dataJson</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>

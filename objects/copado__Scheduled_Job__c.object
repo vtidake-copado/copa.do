@@ -205,7 +205,6 @@
         <fullName>copado__Run_as_User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This User must have a Copado License assigned, created an credential for his Copado user and created API Key. This API Key will be used for the webhooks.</inlineHelpText>
         <label>Run as User</label>
         <referenceTo>User</referenceTo>
@@ -217,7 +216,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -241,7 +239,6 @@
     <fields>
         <fullName>copado__Webhook_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Webhook URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

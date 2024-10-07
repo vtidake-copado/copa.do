@@ -167,7 +167,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Related Data Template record that defines related objects and their relationships for the attachments of this Data Set.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The selected Data Template will be used as a base for object relationships, related fields and filtering.</inlineHelpText>
         <label>Data Template</label>
         <referenceTo>copado__Data_Template__c</referenceTo>
@@ -182,7 +181,6 @@
         <fullName>copado__Description__c</fullName>
         <deprecated>false</deprecated>
         <description>Brief description of what data contains this Data Set.</description>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>256</length>
         <trackHistory>false</trackHistory>
@@ -194,7 +192,6 @@
         <fullName>copado__Execution_Job__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Execution Job</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Data Sets</relationshipLabel>
@@ -220,7 +217,6 @@
         <fullName>copado__Last_Generated_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and time of the last time the data set was generated (i.e. attached files were updated).</description>
-        <externalId>false</externalId>
         <inlineHelpText>This date is automatically updated by Copado when generating the data set CSV files from a source environment. Update this value when generating the CSV files from an external database or process.</inlineHelpText>
         <label>Last Generated Date</label>
         <required>false</required>
@@ -232,7 +228,6 @@
         <fullName>copado__Source_Org__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The Environment where the data was extracted from in the last generation of Data Sets.</inlineHelpText>
         <label>Data Source Environment</label>
         <referenceTo>copado__Org__c</referenceTo>

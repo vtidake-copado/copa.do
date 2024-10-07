@@ -299,7 +299,6 @@
         <fullName>copado__Hide_Copado_feedback__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The visibility of the message asking users to rate &amp; feedback Copado on the AppExchange is controlled here.</inlineHelpText>
         <label>Hide Copado feedback</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -309,7 +308,6 @@
         <fullName>copado__Show_Copado_Tips__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Show Copado Tips</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -318,7 +316,6 @@
         <fullName>copado__Work_Manager_Panels__c</fullName>
         <deprecated>false</deprecated>
         <description>JSON containing current user panels on the Backlog</description>
-        <externalId>false</externalId>
         <label>Work Manager Panels</label>
         <length>131072</length>
         <trackFeedHistory>false</trackFeedHistory>

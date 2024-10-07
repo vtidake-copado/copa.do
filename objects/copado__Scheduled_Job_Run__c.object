@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Called_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If you have turned on the Mask API Key setting you will see a placeholder {USER_API_KEY} instead of your user&apos;s API Key after the api_key parameter</inlineHelpText>
         <label>Called URL</label>
         <required>false</required>
@@ -179,7 +178,6 @@
         <fullName>copado__Run_as_User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Run as User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Scheduled_Job_Runs</relationshipName>
@@ -190,7 +188,6 @@
     <fields>
         <fullName>copado__Scheduled_Job__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled Job</label>
         <referenceTo>copado__Scheduled_Job__c</referenceTo>
         <relationshipLabel>Scheduled Job Runs</relationshipLabel>
@@ -204,7 +201,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

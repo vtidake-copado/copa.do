@@ -237,7 +237,6 @@
         <fullName>copado__isFinished__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Finished</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -248,7 +247,6 @@
         <fullName>copado__isSuccess__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Success</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -258,7 +256,6 @@
     <fields>
         <fullName>copado__status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

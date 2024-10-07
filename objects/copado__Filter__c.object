@@ -159,7 +159,6 @@
         <fullName>copado__Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Filters</relationshipName>
@@ -171,7 +170,6 @@
         <fullName>copado__Parameters__c</fullName>
         <deprecated>false</deprecated>
         <description>Filtering parameters stored in JSON format.</description>
-        <externalId>false</externalId>
         <label>Parameters</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -181,7 +179,6 @@
     <fields>
         <fullName>copado__Pipeline__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>Filters</relationshipLabel>
@@ -195,7 +192,6 @@
     <fields>
         <fullName>copado__Share_With__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Share With</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

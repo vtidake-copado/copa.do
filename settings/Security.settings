@@ -9,7 +9,33 @@
     <enableCrossOrgRedirects>false</enableCrossOrgRedirects>
     <enablePermissionsPolicy>false</enablePermissionsPolicy>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
-    <networkAccess/>
+    <networkAccess>
+        <ipRanges>
+            <end>35.234.89.246</end>
+            <start>35.234.89.246</start>
+        </ipRanges>
+        <ipRanges>
+            <end>34.141.10.40</end>
+            <start>34.141.10.40</start>
+        </ipRanges>
+        <ipRanges>
+            <end>34.107.90.223</end>
+            <start>34.107.90.223</start>
+        </ipRanges>
+        <ipRanges>
+            <end>34.91.173.111</end>
+            <start>34.91.173.111</start>
+        </ipRanges>
+        <ipRanges>
+            <end>34.91.55.187</end>
+            <start>34.91.55.187</start>
+        </ipRanges>
+        <ipRanges>
+            <description>sss</description>
+            <end>34.90.11.138</end>
+            <start>34.90.11.138</start>
+        </ipRanges>
+    </networkAccess>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <expiration>Never</expiration>
@@ -49,7 +75,6 @@
         <enablePostForSessions>true</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
         <enableU2F>false</enableU2F>
-        <enableXssProtection>true</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
@@ -61,7 +86,7 @@
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
-        <lockSessionsToIp>true</lockSessionsToIp>
+        <lockSessionsToIp>false</lockSessionsToIp>
         <lockerServiceCSP>true</lockerServiceCSP>
         <lockerServiceNext>false</lockerServiceNext>
         <lockerServiceNextControl>false</lockerServiceNextControl>
@@ -74,6 +99,7 @@
         <sessionTimeout>FifteenMinutes</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
         <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
+        <terminateUserSessionsWhenAdminResetsPassword>false</terminateUserSessionsWhenAdminResetsPassword>
         <useEAPIRateLimitForConnectAPI>false</useEAPIRateLimitForConnectAPI>
         <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
     </sessionSettings>

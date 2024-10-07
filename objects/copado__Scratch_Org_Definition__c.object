@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Developer_Hub_Org__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Developer Hub Org</label>
         <lookupFilter>
             <active>true</active>
@@ -197,7 +196,6 @@
     <fields>
         <fullName>copado__Scratch_Org_Definition_JSON__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scratch Org Definition JSON</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>

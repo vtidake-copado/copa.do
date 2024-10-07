@@ -158,7 +158,6 @@
     <fields>
         <fullName>copado__Compliance_Rule_Group__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Rule Group</label>
         <referenceTo>copado__Compliance_Rule_Group__c</referenceTo>
         <relationshipLabel>Compliance Rule Group Items</relationshipLabel>
@@ -172,7 +171,6 @@
     <fields>
         <fullName>copado__Compliance_Rule__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Compliance Rule</label>
         <referenceTo>copado__Compliance_Rule__c</referenceTo>
         <relationshipLabel>Compliance Rule Group Items</relationshipLabel>

@@ -158,7 +158,6 @@
         <fullName>copado__Default_Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This Credential will be used for Quick Runs. Each user has their own Quick Settings. Quick Settings are used when running tests using the Quick Run button.</inlineHelpText>
         <label>Default Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
@@ -171,7 +170,6 @@
     <fields>
         <fullName>copado__Desired_Capabilities__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Desired Capabilities</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -182,7 +180,6 @@
         <fullName>copado__Device_Screen_Size__c</fullName>
         <deprecated>false</deprecated>
         <description>Display Size for Windows/Mac platforms</description>
-        <externalId>false</externalId>
         <inlineHelpText>Display Size for Windows/Mac platforms. E.G. Saucelabs with Windows only supports small size ( &lt; 1280x1024 )</inlineHelpText>
         <label>Device Screen Size</label>
         <required>false</required>
@@ -212,7 +209,6 @@
     <fields>
         <fullName>copado__Provider__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Provider</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -243,7 +239,6 @@
         <fullName>copado__Selected_Platforms__c</fullName>
         <deprecated>false</deprecated>
         <description>Used by Copado to store the selected platforms to be tested in JSON format.</description>
-        <externalId>false</externalId>
         <label>Selected Platforms</label>
         <length>130000</length>
         <trackTrending>false</trackTrending>
@@ -255,7 +250,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enables Saucelabs Connect or Browserstack Local Testing</description>
-        <externalId>false</externalId>
         <inlineHelpText>Use a local proxy to access an org behind a VPN? This enables Saucelabs Connect or Browserstack Local Testing.</inlineHelpText>
         <label>Webdriver Proxy</label>
         <trackTrending>false</trackTrending>
@@ -264,7 +258,6 @@
     <fields>
         <fullName>copado__Webdriver_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Eg for Browserstack:
 http://USER:TOKEN@hub.browserstack.com:80/wd/hub
 

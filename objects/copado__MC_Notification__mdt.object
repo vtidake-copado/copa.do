@@ -6,7 +6,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>If true, notification is avaiable for use</description>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Active</label>
         <type>Checkbox</type>
@@ -39,7 +38,6 @@
         <fullName>copado__Template__c</fullName>
         <deprecated>false</deprecated>
         <description>This is the body template of the notification</description>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Template</label>
         <length>131072</length>

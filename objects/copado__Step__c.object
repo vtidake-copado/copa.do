@@ -349,7 +349,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Automation that originated this deployment step.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Automation that originated this deployment step.</inlineHelpText>
         <label>Automated Behaviour</label>
         <referenceTo>copado__Quality_Gate__c</referenceTo>
@@ -376,7 +375,6 @@
         <fullName>copado__CheckOnly__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This only Apply for Metadata Steps. None of the other Steps types are affected by this checkbox. 
 WARNING: Credits consumption will apply as a regular deployment since resource-wise is exactly the same as a real deployment.</inlineHelpText>
         <label>CheckOnly</label>
@@ -411,7 +409,6 @@ WARNING: Credits consumption will apply as a regular deployment since resource-w
     <fields>
         <fullName>copado__Completed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(copado__Org_Count__c &gt; 0, 
 copado__Count_Completed__c / copado__Org_Count__c,
 0
@@ -428,7 +425,6 @@ copado__Count_Completed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__Count_Completed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label># Completed</label>
         <summaryFilterItems>
             <field>copado__Deployment_Job__c.copado__Status__c</field>
@@ -444,7 +440,6 @@ copado__Count_Completed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(copado__Org_Count__c &gt; 0,
 copado__SUM_Deployed__c / copado__Org_Count__c,
 0
@@ -461,7 +456,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__Deployment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Steps</relationshipLabel>
@@ -477,7 +471,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <fullName>copado__Git_Repository__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Git Repository</label>
         <referenceTo>copado__Git_Repository__c</referenceTo>
         <relationshipLabel>Steps</relationshipLabel>
@@ -491,7 +484,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <fullName>copado__JsonResult__c</fullName>
         <deprecated>false</deprecated>
         <description>An Internal field to store step result</description>
-        <externalId>false</externalId>
         <label>JsonResult</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>
@@ -504,7 +496,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>To prevent sending multiple notifications to the same Manual Task owner per Task</description>
-        <externalId>false</externalId>
         <label>Manual Task Notified</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -514,7 +505,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <fullName>copado__Notify_Task_Owner__c</fullName>
         <defaultValue>&apos;None&apos;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Notify Task Owner</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -542,7 +532,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__Org_Count__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Credential Count</label>
         <summaryForeignKey>copado__Deployment_Job__c.copado__Step__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>
@@ -566,7 +555,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <fullName>copado__Read_Only__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Read Only</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -576,7 +564,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <fullName>copado__Run_all_tests__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Run all tests</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -585,7 +572,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__SUM_Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SUM Deployed</label>
         <summarizedField>copado__Deployment_Job__c.copado__Deployed__c</summarizedField>
         <summaryForeignKey>copado__Deployment_Job__c.copado__Step__c</summaryForeignKey>
@@ -614,7 +600,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -649,7 +634,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
     <fields>
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -762,7 +746,6 @@ copado__SUM_Deployed__c / copado__Org_Count__c,
         <deprecated>false</deprecated>
         <description>If the step type is &quot;data&quot;  this should contains the json defining the query. 
 In production this field should be HIDDEN</description>
-        <externalId>false</externalId>
         <label>dataJson</label>
         <length>131072</length>
         <trackHistory>false</trackHistory>

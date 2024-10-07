@@ -6,7 +6,6 @@
         <fullName>copado__Allow_All_Data__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Allow All Data</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -38,7 +37,6 @@
         <fullName>copado__Delete__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Delete</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -47,7 +45,6 @@
         <fullName>copado__Insert__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Insert</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -89,7 +86,6 @@
         <fullName>copado__Undelete__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Undelete</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -98,7 +94,6 @@
         <fullName>copado__Update__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Update</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

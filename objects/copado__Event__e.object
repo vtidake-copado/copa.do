@@ -5,7 +5,6 @@
     <fields>
         <fullName>copado__Payload__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>

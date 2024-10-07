@@ -4,7 +4,6 @@
         <fullName>copado__Active__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <label>Active</label>
         <type>Checkbox</type>
@@ -12,7 +11,6 @@
     <fields>
         <fullName>copado__Base_Page__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <label>Base Page</label>
         <required>false</required>
@@ -37,7 +35,6 @@
     <fields>
         <fullName>copado__Help_Text_Url__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <inlineHelpText>Enter a URL of a documentation page or article to help your users understand more about this tip. Please, enter the URL with full https:// format. Example https://www.copado.com/</inlineHelpText>
         <label>Help Text Url</label>
@@ -47,7 +44,6 @@
     <fields>
         <fullName>copado__Help_Text__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <inlineHelpText>This is the text that will appear in the Tip pop-up message. Try to be assertive and clear with your tip.</inlineHelpText>
         <label>Help Text</label>
@@ -58,7 +54,6 @@
     <fields>
         <fullName>copado__Triggering_Action__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <inlineHelpText>Select if you want the tip to be display immediately or only when the triggering action is met</inlineHelpText>
         <label>Triggering Action</label>
@@ -84,7 +79,6 @@
     <fields>
         <fullName>copado__Triggering_Metadata_Items__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <inlineHelpText>This is a non-mandatory field. You can use it to complement the Triggering Metadata Type in case you want specific Metadata items to trigger the tips. The Metadata items can be separated by &quot;;&quot;. Example standard-Account;standard-AppLauncher.</inlineHelpText>
         <label>Triggering Metadata Items</label>

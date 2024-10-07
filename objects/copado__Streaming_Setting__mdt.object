@@ -17,7 +17,6 @@
         <fullName>copado__Enabled__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <inlineHelpText>When enabled streaming for the given channel will be tracked for real time changes.</inlineHelpText>
         <label>Enabled</label>

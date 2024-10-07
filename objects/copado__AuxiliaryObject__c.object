@@ -159,7 +159,6 @@
         <fullName>copado__Continuous_Integration__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Continuous Integration</label>
         <referenceTo>copado__Continuous_Integration__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -173,7 +172,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Lookup to Data Set to use in StepEdition component in deployment page.</description>
-        <externalId>false</externalId>
         <label>Data Set</label>
         <referenceTo>copado__Data_Set__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -186,7 +184,6 @@
         <fullName>copado__Data_Template__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Data Template</label>
         <lookupFilter>
             <active>true</active>
@@ -207,7 +204,6 @@
     <fields>
         <fullName>copado__Date_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date Time</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -239,7 +235,6 @@
     <fields>
         <fullName>copado__Default_Text__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Default Text</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -249,7 +244,6 @@
         <fullName>copado__Deployment_Flow__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -262,7 +256,6 @@
         <fullName>copado__Deployment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -275,7 +268,6 @@
         <fullName>copado__Environment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -288,7 +280,6 @@
         <fullName>copado__Function__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Function</label>
         <referenceTo>copado__Function__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -301,7 +292,6 @@
         <fullName>copado__Git_Backup__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Git Snapshot</label>
         <lookupFilter>
             <active>true</active>
@@ -323,7 +313,6 @@
         <fullName>copado__Git_Repository__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Git Repository</label>
         <referenceTo>copado__Git_Repository__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -336,7 +325,6 @@
         <fullName>copado__Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Org Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -349,7 +337,6 @@
         <fullName>copado__Org_Difference__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Org Difference</label>
         <referenceTo>copado__OrgDiff__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -362,7 +349,6 @@
         <fullName>copado__Package_Version__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Package Version</label>
         <referenceTo>copado__Artifact_Version__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -375,7 +361,6 @@
         <fullName>copado__Promotion__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Promotion</label>
         <referenceTo>copado__Promotion__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -388,7 +373,6 @@
         <fullName>copado__Release__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>copado__Release__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -401,7 +385,6 @@
         <fullName>copado__Selenium_Test_Group__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Group</label>
         <referenceTo>copado__Selenium_Test_Group__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -414,7 +397,6 @@
         <fullName>copado__Selenium_Test_Run__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Run</label>
         <referenceTo>copado__Selenium_Test_Run__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -427,7 +409,6 @@
         <fullName>copado__Snapshot_Difference__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Snapshot Difference</label>
         <referenceTo>copado__Snapshot_Difference__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -440,7 +421,6 @@
         <fullName>copado__Static_Code_Analysis_Settings__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Static Code Analysis Settings</label>
         <referenceTo>copado__Static_Code_Analysis_Settings__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -453,7 +433,6 @@
         <fullName>copado__User_Story__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>AuxiliaryObjects</relationshipLabel>
@@ -466,7 +445,6 @@
         <fullName>copado__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>AuxiliaryObjects</relationshipName>

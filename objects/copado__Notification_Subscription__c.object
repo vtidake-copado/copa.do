@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Channels__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Channels</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -184,7 +183,6 @@
         <fullName>copado__Subscribed__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Subscribed</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -192,7 +190,6 @@
     <fields>
         <fullName>copado__User_Default_Notification__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Default Notification</label>
         <referenceTo>copado__Notification_Default_Channels__c</referenceTo>
         <relationshipLabel>Notification Subscriptions</relationshipLabel>

@@ -169,7 +169,6 @@
         <fullName>copado__Priority__c</fullName>
         <deprecated>false</deprecated>
         <description>Priority of the rule, where 1 is the highest, and 5 the lowest.</description>
-        <externalId>false</externalId>
         <label>Priority</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -209,7 +208,6 @@
     <fields>
         <fullName>copado__Rule_Name__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>For more info, please visit: http://pmd.sourceforge.net/snapshot/pmd-apex/rules/index.html</inlineHelpText>
         <label>Rule Name</label>
         <required>true</required>
@@ -455,7 +453,6 @@
     <fields>
         <fullName>copado__Static_Code_Analysis_Settings__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Static Code Analysis Settings</label>
         <referenceTo>copado__Static_Code_Analysis_Settings__c</referenceTo>
         <relationshipLabel>Static Code Analysis Rules</relationshipLabel>

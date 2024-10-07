@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Body__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Body</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -166,7 +165,6 @@
     <fields>
         <fullName>copado__Pull_Request__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pull Request</label>
         <referenceTo>copado__Pull_Request__c</referenceTo>
         <relationshipName>Pull_Request_Reviews</relationshipName>
@@ -217,7 +215,6 @@
     <fields>
         <fullName>copado__Url__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Url</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -226,7 +223,6 @@
     <fields>
         <fullName>copado__User_Avatar_Url__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Avatar Url</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

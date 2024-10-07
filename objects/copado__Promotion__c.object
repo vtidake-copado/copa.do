@@ -641,7 +641,6 @@
         <fullName>cmcSf__Apex_Test_Level__c</fullName>
         <deprecated>false</deprecated>
         <description>Test levels in order from least to most restrictive</description>
-        <externalId>false</externalId>
         <label>Apex Test Level</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -656,7 +655,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enabling this, you can see the source files deployed (as part of this promotion) to the destination org on your git repository branch named copadoDebug/&lt;PromotionNumber&gt;</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enabling this, you can see the source files deployed (as part of this promotion) to the destination org on your git repository branch named copadoDebug/&lt;PromotionNumber&gt;</inlineHelpText>
         <label>Debug Mode</label>
         <trackTrending>false</trackTrending>
@@ -667,7 +665,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Checked if the promotion is from a higher environment to a lower environment in the deployment flow.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select this checkbox if you are promoting from a higher to a lower environment in the pipeline.</inlineHelpText>
         <label>Is Back-Promotion</label>
         <trackTrending>false</trackTrending>
@@ -677,7 +674,6 @@
         <fullName>copado__Completed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This field is checked by Copado once the promotion is merged and deployed successfully for multi-cloud platform.</inlineHelpText>
         <label>Completed</label>
         <trackTrending>false</trackTrending>
@@ -698,7 +694,6 @@
         <fullName>copado__Create_Full_Permission_Sets_Step__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select this checkbox if you wish to move added profiles to a Full Profiles step. Doing this will remove the profiles from the Metadata step.</inlineHelpText>
         <label>Create Full Permission Sets Step</label>
         <trackTrending>false</trackTrending>
@@ -708,7 +703,6 @@
         <fullName>copado__Create_Full_Profiles_Step__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select this checkbox if you wish to move added permission sets to a Full Permission Sets step. Doing this will remove the permission sets from the Metadata step.</inlineHelpText>
         <label>Create Full Profiles Step</label>
         <trackTrending>false</trackTrending>
@@ -718,7 +712,6 @@
         <fullName>copado__Destination_Environment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Destination Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>Promotions (Destination Environment)</relationshipLabel>
@@ -731,7 +724,6 @@
         <fullName>copado__Destination_Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The destination credential that will be used when creating the deployment. This credential is auto-populated based on the pipeline linked to the project.</inlineHelpText>
         <label>Destination Credential</label>
         <lookupFilter>
@@ -754,7 +746,6 @@
         <fullName>copado__Exclude_From_Auto_Resolve__c</fullName>
         <deprecated>false</deprecated>
         <description>Conflicts found in the selected metadata types are not auto-resolved by Copado when merging feature branches into the promotion branch. The conflicts can be manually resolved using Copado.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select the metadata types that you want to manually resolve when a conflict occurs while merging the feature branch into the promotion branch.</inlineHelpText>
         <label>Exclude From Auto Resolve</label>
         <required>false</required>
@@ -770,7 +761,6 @@
         <fullName>copado__Is_Rolled_Back__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Rolled Back?</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -801,7 +791,6 @@
         <fullName>copado__Merge_Conflict__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Indicates that this promotion includes a manual conflict resolution.</inlineHelpText>
         <label>Merge Conflict</label>
         <trackTrending>false</trackTrending>
@@ -835,7 +824,6 @@
         <fullName>copado__Project__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select a project linked to an active pipeline.</inlineHelpText>
         <label>Project</label>
         <referenceTo>copado__Project__c</referenceTo>
@@ -850,7 +838,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This field will provide the ability to deploy User Stories within a Release.</description>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>copado__Release__c</referenceTo>
         <relationshipLabel>Promotions</relationshipLabel>
@@ -863,7 +850,6 @@
         <fullName>copado__Send_Deployment_Complete_email__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select this checkbox if you want the promotion owner to receive an email notification when the promotion is complete.</inlineHelpText>
         <label>Notify When Complete</label>
         <trackTrending>false</trackTrending>
@@ -873,7 +859,6 @@
         <fullName>copado__Source_Environment__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>Promotions</relationshipLabel>
@@ -886,7 +871,6 @@
         <fullName>copado__Source_Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The source credential that will be used when creating the deployment. This credential is auto-populated based on the pipeline linked to the project.</inlineHelpText>
         <label>Source Credential</label>
         <lookupFilter>
@@ -908,7 +892,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

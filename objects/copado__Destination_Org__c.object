@@ -158,7 +158,6 @@
     <fields>
         <fullName>copado__Completed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>if(copado__Step_Count__c &gt; 0,
 copado__Count_Completed__c / copado__Step_Count__c,
 0
@@ -175,7 +174,6 @@ copado__Count_Completed__c / copado__Step_Count__c,
     <fields>
         <fullName>copado__Count_Completed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label># Completed</label>
         <summaryFilterItems>
             <field>copado__Deployment_Job__c.copado__Status__c</field>
@@ -191,7 +189,6 @@ copado__Count_Completed__c / copado__Step_Count__c,
     <fields>
         <fullName>copado__Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(copado__Step_Count__c &gt; 0,
 copado__SUM_Deployed__c / copado__Step_Count__c,
 0
@@ -208,7 +205,6 @@ copado__SUM_Deployed__c / copado__Step_Count__c,
     <fields>
         <fullName>copado__Deployment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipName>Destination_Orgs</relationshipName>
@@ -222,7 +218,6 @@ copado__SUM_Deployed__c / copado__Step_Count__c,
     <fields>
         <fullName>copado__SUM_Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SUM Deployed</label>
         <summarizedField>copado__Deployment_Job__c.copado__Deployed__c</summarizedField>
         <summaryForeignKey>copado__Deployment_Job__c.copado__Destination_Org__c</summaryForeignKey>
@@ -251,7 +246,6 @@ copado__SUM_Deployed__c / copado__Step_Count__c,
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -286,7 +280,6 @@ copado__SUM_Deployed__c / copado__Step_Count__c,
     <fields>
         <fullName>copado__Step_Count__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Step Count</label>
         <summaryForeignKey>copado__Deployment_Job__c.copado__Destination_Org__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>
@@ -311,7 +304,6 @@ copado__SUM_Deployed__c / copado__Step_Count__c,
         <fullName>copado__To_Org__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>To Credential</label>
         <lookupFilter>
             <active>false</active>

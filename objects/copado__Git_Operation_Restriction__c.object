@@ -8,7 +8,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Restriction will be active if this checkbox is checked.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Restriction will be active if this checkbox is checked.</inlineHelpText>
         <label>Active</label>
         <trackTrending>false</trackTrending>

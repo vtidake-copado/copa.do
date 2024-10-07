@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Apply_to__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Apply to</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -183,7 +182,6 @@
         <fullName>copado__Disable_Task_for_Back_Promotions__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Task for Back-Promotions</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -192,7 +190,6 @@
         <fullName>copado__Notify_Task_Owner__c</fullName>
         <defaultValue>&apos;None&apos;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Notify Task Owner</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -218,7 +215,6 @@
     <fields>
         <fullName>copado__Perform_Manual_Task__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Perform Deployment Task</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -243,7 +239,6 @@
         <fullName>copado__Perform_in_Destination_Orgs__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Perform in Destination Credential(s)</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -252,7 +247,6 @@
         <fullName>copado__Perform_in_Source_Org__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Perform in Source Credential</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -260,7 +254,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -289,7 +282,6 @@
     <fields>
         <fullName>copado__Task_Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Task Description</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -299,7 +291,6 @@
     <fields>
         <fullName>copado__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -370,7 +361,6 @@
     <fields>
         <fullName>copado__User_Story__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>Deployment Tasks</relationshipLabel>
@@ -385,7 +375,6 @@
         <fullName>copado__dataJSON__c</fullName>
         <deprecated>false</deprecated>
         <description>Standard views (New, Edit, View, Clone) for Deployment Task object are overwritten. This field is being used by to controller extension class of the page that overwrites the standards.</description>
-        <externalId>false</externalId>
         <label>dataJSON</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>

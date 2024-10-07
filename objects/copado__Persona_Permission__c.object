@@ -168,7 +168,6 @@
     <fields>
         <fullName>copado__Persona__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Persona</label>
         <referenceTo>copado__Persona__c</referenceTo>
         <relationshipLabel>Persona Permissions</relationshipLabel>

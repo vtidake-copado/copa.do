@@ -146,11 +146,6 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>Edit</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>1</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>copado__Artifact_Version__c.copado__Lock_Bundle</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>0</sortOrder>
@@ -189,6 +184,11 @@
             <actionName>copado__Promote_Beta_to_Released</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>8</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Edit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>1</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>

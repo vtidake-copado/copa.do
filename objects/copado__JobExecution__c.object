@@ -182,7 +182,6 @@
         <fullName>copado__Commit__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Commit</label>
         <referenceTo>copado__Git_Commit__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -215,7 +214,6 @@
         <fullName>copado__DataJson__c</fullName>
         <deprecated>false</deprecated>
         <description>This field contains the test level for the Delete Metadata step.</description>
-        <externalId>false</externalId>
         <label>DataJson</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -227,7 +225,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Deployment in Copado is the process of moving one or multiple changes from one environment to another, following a designated Pipeline.</description>
-        <externalId>false</externalId>
         <label>Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -241,7 +238,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Name of the destination environment.</description>
-        <externalId>false</externalId>
         <label>Destination</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>Job Executions (Destination)</relationshipLabel>
@@ -254,7 +250,6 @@
         <fullName>copado__ErrorMessage__c</fullName>
         <deprecated>false</deprecated>
         <description>Description of the error if the job has failed.</description>
-        <externalId>false</externalId>
         <label>Error Message</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -295,7 +290,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Lookup field to the pipeline where this job execution applies.</description>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -309,7 +303,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>It is a container used to deploy one or multiple user stories from one environment to another following a designated pipeline.</description>
-        <externalId>false</externalId>
         <label>Promotion</label>
         <referenceTo>copado__Promotion__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -323,7 +316,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>It is a full backup of the selected metadata types into a repository/branch.</description>
-        <externalId>false</externalId>
         <label>Snapshot</label>
         <referenceTo>copado__Git_Backup__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -337,7 +329,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Name of the source environment.</description>
-        <externalId>false</externalId>
         <label>Source</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -350,7 +341,6 @@
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
         <description>It is the status of the job execution.</description>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -391,7 +381,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>It is a reusable template with a list of steps that can be executed as part of different processes such as a commit, a promotion or a deployment.</description>
-        <externalId>false</externalId>
         <label>Template</label>
         <referenceTo>copado__JobTemplate__c</referenceTo>
         <relationshipLabel>Job Executions</relationshipLabel>
@@ -405,7 +394,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This field refers to the parent User Story Commit record of the job execution.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This field relates to the parent User Story Commit record of the job execution</inlineHelpText>
         <label>User Story Commit</label>
         <referenceTo>copado__User_Story_Commit__c</referenceTo>
@@ -419,7 +407,6 @@
         <fullName>copado__VolumeOptions__c</fullName>
         <deprecated>false</deprecated>
         <description>In this field, you can introduce a list of JSON options with the configuration for the volumes used in every new job execution.</description>
-        <externalId>false</externalId>
         <label>VolumeOptions</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

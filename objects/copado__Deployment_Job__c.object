@@ -170,7 +170,6 @@
     <fields>
         <fullName>copado__Deployed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>% Deployed</label>
         <precision>18</precision>
         <required>false</required>
@@ -197,7 +196,6 @@
     <fields>
         <fullName>copado__Destination_Org__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Destination Credential</label>
         <referenceTo>copado__Destination_Org__c</referenceTo>
         <relationshipLabel>Deployment Jobs</relationshipLabel>
@@ -212,7 +210,6 @@
     <fields>
         <fullName>copado__Early_Completion_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Early Completion Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -288,7 +285,6 @@
         <fullName>copado__Last_Result__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Latest result with more details of the job execution.</inlineHelpText>
         <label>Last Result</label>
         <referenceTo>copado__Result__c</referenceTo>
@@ -364,7 +360,6 @@ CASESAFEID(copado__Step__r.copado__Deployment__r.copado__Promotion__r.copado__Re
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -399,7 +394,6 @@ CASESAFEID(copado__Step__r.copado__Deployment__r.copado__Promotion__r.copado__Re
     <fields>
         <fullName>copado__Step__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Step</label>
         <referenceTo>copado__Step__c</referenceTo>
         <relationshipLabel>Deployment Jobs</relationshipLabel>

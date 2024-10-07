@@ -237,7 +237,6 @@
     <fields>
         <fullName>copado__From_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If a value is entered only modification after this date (inclusive) will be added in the Diff</inlineHelpText>
         <label>From Date</label>
         <required>false</required>
@@ -248,7 +247,6 @@
         <fullName>copado__From_Org__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select the Source Credential for which you would like to compare the Metadata. This Credential will be the Credential from which you would like to migrate Metadata.</inlineHelpText>
         <label>Source Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
@@ -273,7 +271,6 @@
     <fields>
         <fullName>copado__Metadata_Types__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Empty means all types. Select one or more types to limit the Org Difference only to selected items.</inlineHelpText>
         <label>Metadata Types</label>
         <length>32000</length>
@@ -284,7 +281,6 @@
     <fields>
         <fullName>copado__To_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If a value is entered only modification before this date (inclusive) will be added in the Diff</inlineHelpText>
         <label>To Date</label>
         <required>false</required>
@@ -295,7 +291,6 @@
         <fullName>copado__To_Org__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select the Destination Credential for which you would like to compare the Metadata and would like to migrate Metadata to. The resulting grid will show a list of differences with &apos;create&apos;, &apos;update&apos; and &apos;delete&apos; which apply to this Credential.</inlineHelpText>
         <label>Destination Credential</label>
         <referenceTo>copado__Org__c</referenceTo>

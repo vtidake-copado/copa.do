@@ -99,7 +99,6 @@
     <fields>
         <fullName>copado__Platform_Configuration__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Platform Configuration</label>
         <referenceTo>copado__ExtensionPackageConfiguration__mdt</referenceTo>

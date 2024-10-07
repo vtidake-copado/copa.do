@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -181,7 +180,6 @@
         <fullName>copado__Deployment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deployment</label>
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Copado Deployment History</relationshipLabel>
@@ -194,7 +192,6 @@
     <fields>
         <fullName>copado__Event__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Event</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -248,7 +245,6 @@
     <fields>
         <fullName>copado__Object__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Object</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -291,7 +287,6 @@
         <fullName>copado__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Copado_Deployment_History</relationshipName>

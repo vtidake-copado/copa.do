@@ -167,7 +167,6 @@
         <fullName>copado__Org_Credential__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Org Credential</label>
         <referenceTo>copado__Org__c</referenceTo>
         <relationshipName>User_Story_Bundles</relationshipName>
@@ -179,7 +178,6 @@
     <fields>
         <fullName>copado__Status_Notes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status Notes</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -190,7 +188,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -234,7 +231,6 @@
         <fullName>copado__User_Story__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipName>User_Story_Bundles</relationshipName>

@@ -248,7 +248,6 @@
         <fullName>copado__Continue_on_failure__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Continue on failure</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -257,7 +256,6 @@
         <fullName>copado__Environment__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>copado__Environment__c</referenceTo>
         <relationshipLabel>External CI Jobs</relationshipLabel>
@@ -269,7 +267,6 @@
     <fields>
         <fullName>copado__External_CI_Setting__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>External CI Setting</label>
         <referenceTo>copado__External_CI_Setting__c</referenceTo>
         <relationshipLabel>External CI Jobs</relationshipLabel>
@@ -283,7 +280,6 @@
     <fields>
         <fullName>copado__Invoke_on__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Invoke on</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -344,7 +340,6 @@
         <fullName>copado__User_Story__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>External CI Jobs</relationshipLabel>
@@ -356,7 +351,6 @@
     <fields>
         <fullName>copado__dataJSON__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>dataJSON</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

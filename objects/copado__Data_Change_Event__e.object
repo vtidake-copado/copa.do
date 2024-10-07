@@ -18,7 +18,6 @@
     <fields>
         <fullName>copado__Old_Value__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>

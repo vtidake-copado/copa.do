@@ -5,7 +5,6 @@
         <fullName>copado__Enabled__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <label>Enabled</label>
         <type>Checkbox</type>

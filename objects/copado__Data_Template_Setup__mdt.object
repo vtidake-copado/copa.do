@@ -3,7 +3,6 @@
     <fields>
         <fullName>copado__API_Names__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>SubscriberControlled</fieldManageability>
         <label>API Names</label>
         <length>131072</length>

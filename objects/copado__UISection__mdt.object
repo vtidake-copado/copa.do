@@ -14,7 +14,6 @@
     <fields>
         <fullName>copado__Extension_Package_Configuration__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Extension Package Configuration</label>
         <referenceTo>copado__ExtensionPackageConfiguration__mdt</referenceTo>
@@ -38,7 +37,6 @@
     <fields>
         <fullName>copado__TestTool__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Test Tool</label>
         <referenceTo>copado__TestTool__mdt</referenceTo>
@@ -51,7 +49,6 @@
     <fields>
         <fullName>copado__WhereIsThisUsed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Where is this used?</label>
         <length>32768</length>

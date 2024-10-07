@@ -169,7 +169,6 @@
         <fullName>copado__AcceptanceCriteria__c</fullName>
         <defaultValue>&quot;{}&quot;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Acceptance Criteria</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -180,7 +179,6 @@
         <fullName>copado__Application__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Application</label>
         <referenceTo>copado__Application__c</referenceTo>
         <relationshipLabel>Tests</relationshipLabel>
@@ -204,7 +202,6 @@
     <fields>
         <fullName>copado__Configuration__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Configuration</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -215,7 +212,6 @@
         <fullName>copado__ExtensionConfiguration__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The displayed values are based on the active Extension Configuration records available in your org.</inlineHelpText>
         <label>Tool Configuration</label>
         <lookupFilter>
@@ -244,7 +240,6 @@
         <fullName>copado__Feature__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Feature</label>
         <referenceTo>copado__Application_Feature__c</referenceTo>
         <relationshipLabel>Tests</relationshipLabel>
@@ -258,7 +253,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Internally used to dynamically display the Test Definition tab, visible only if there are one or more UISection__mdt related records.</description>
-        <externalId>false</externalId>
         <label>Has Extra Configuration</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -267,7 +261,6 @@
         <fullName>copado__Integration__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Deprecated</inlineHelpText>
         <label>Tool - Deprecated</label>
         <lookupFilter>
@@ -290,7 +283,6 @@
         <fullName>copado__LatestJobExecution__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Latest Job Execution</label>
         <referenceTo>copado__JobExecution__c</referenceTo>
         <relationshipLabel>Tests</relationshipLabel>
@@ -302,7 +294,6 @@
     <fields>
         <fullName>copado__Priority__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -338,7 +329,6 @@
         <fullName>copado__ReadyToRun__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>By checking this field, you are indicating that the test is ready to be executed and the &apos;Run&apos; button will display.</inlineHelpText>
         <label>Ready to Run</label>
         <trackTrending>false</trackTrending>
@@ -356,7 +346,6 @@
     <fields>
         <fullName>copado__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -420,7 +409,6 @@
         <fullName>copado__User_Story__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>copado__User_Story__c</referenceTo>
         <relationshipLabel>Tests</relationshipLabel>

@@ -125,6 +125,7 @@
             <useReportChart>true</useReportChart>
         </components>
     </middleSection>
+    <owner>arturodxtest@copado.com</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>

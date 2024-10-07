@@ -168,7 +168,6 @@
     <fields>
         <fullName>copado__Selenium_Locator__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Locator</label>
         <referenceTo>copado__Selenium_Locator__c</referenceTo>
         <relationshipLabel>Selenium Locator References</relationshipLabel>
@@ -193,7 +192,6 @@
     <fields>
         <fullName>copado__Selenium_Test_Case__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selenium Test Case</label>
         <referenceTo>copado__Selenium_Test_Case__c</referenceTo>
         <relationshipLabel>Selenium Locator References</relationshipLabel>

@@ -157,7 +157,6 @@
     <fields>
         <fullName>copado__CI_Tool__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>CI Tool</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -187,7 +186,6 @@
         <fullName>copado__Credential_Validated__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Credential Validated</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

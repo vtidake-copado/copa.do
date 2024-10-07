@@ -167,7 +167,6 @@
         <fullName>copado__Next_Stage_Connection__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Leave this field empty if this is the last stage of your pipeline. Otherwise, select the next higher stage. You can only select stage connections that belong to this pipeline.</inlineHelpText>
         <label>Next Stage Connection</label>
         <lookupFilter>
@@ -203,7 +202,6 @@
     <fields>
         <fullName>copado__Pipeline__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>copado__Deployment_Flow__c</referenceTo>
         <relationshipName>Pipeline_Stages</relationshipName>
@@ -217,7 +215,6 @@
     <fields>
         <fullName>copado__Stage__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Stage</label>
         <referenceTo>copado__Stage__c</referenceTo>
         <relationshipName>Pipeline_Stages</relationshipName>
