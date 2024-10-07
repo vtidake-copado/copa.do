@@ -118,6 +118,9 @@
         <fullName>Description</fullName>
     </fields>
     <fields>
+        <fullName>DisconnectReason</fullName>
+    </fields>
+    <fields>
         <fullName>EndUserId</fullName>
         <type>Lookup</type>
     </fields>
@@ -197,6 +200,7 @@
         <searchResultsAdditionalFields>CallStartDateTime</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>EndUser</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CallOrigin</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QualityScore</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>

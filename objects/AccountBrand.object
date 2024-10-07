@@ -129,6 +129,38 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CompanyName</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>LogoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+    </fields>
+    <listViews>
+        <fullName>All_Account_Brands</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Account Brands</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CompanyName</customTabListAdditionalFields>
         <customTabListAdditionalFields>Account</customTabListAdditionalFields>

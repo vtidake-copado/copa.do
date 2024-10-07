@@ -41,6 +41,11 @@
             <field>LastModifiedBy</field>
             <table>Sale__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Date__c</field>
+            <table>Sale__c</table>
+        </columns>
         <masterLabel>Sales</masterLabel>
     </sections>
 </ReportType>

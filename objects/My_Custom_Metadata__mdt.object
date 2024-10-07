@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Location</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Phone</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
     <label>My Custom Metadata</label>
     <pluralLabel>My Custom Metadatas</pluralLabel>
     <visibility>Public</visibility>

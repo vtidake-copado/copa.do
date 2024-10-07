@@ -169,7 +169,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>kompalDec21s</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

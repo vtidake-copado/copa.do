@@ -375,12 +375,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Primary__c</fullName>
-        <externalId>false</externalId>
         <label>Primary</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -403,7 +407,6 @@
     </fields>
     <fields>
         <fullName>ProductInterest__c</fullName>
-        <externalId>false</externalId>
         <label>Product Interest</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

@@ -2,23 +2,24 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value></value>
+        <value><!-- Purchase --></value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value></value>
+        <value><!-- Purchase --></value>
     </caseValues>
     <fields>
-        <label></label>
+        <label><!-- Approved By --></label>
         <name>Approved_By__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Date --></label>
         <name>Date__c</name>
     </fields>
     <fields>
         <label>Signé</label>
         <name>Signed_By__c</name>
     </fields>
-    <nameFieldLabel></nameFieldLabel>
+    
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
 </CustomObjectTranslation>
