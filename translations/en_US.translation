@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>value</name>
+                        <value />
+                    </inputParameters>
+                    <name>Email</name>
+                </fields>
+                <fields>
+                    <fieldText>Email: Your email here</fieldText>
+                    <name>Email_Help</name>
+                </fields>
+                <name>Appointment</name>
+            </screens>
+        </flows>
+        <fullName>Appointment</fullName>
+    </flowDefinitions>
+</Translations>
