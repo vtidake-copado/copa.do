@@ -2,8 +2,8 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
     <environments>Default</environments>
-    <interviewLabel>My Flow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>My Flow</label>
+    <interviewLabel>My_Flow_2 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>My_Flow_2</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -24,20 +24,17 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <screens>
-        <name>Login</name>
-        <label>Login</label>
+        <name>Register</name>
+        <label>Register</label>
         <locationX>176</locationX>
         <locationY>134</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <fields>
-            <name>Title</name>
-            <dataType>String</dataType>
-            <fieldText>Title</fieldText>
-            <fieldType>InputField</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>false</isRequired>
+            <name>RegisterForm</name>
+            <fieldText>&lt;p&gt;{!RegisterForm}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -46,8 +43,8 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Login</targetReference>
+            <targetReference>Register</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Obsolete</status>
 </Flow>
