@@ -316,6 +316,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Transaction</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>WorkTypeId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

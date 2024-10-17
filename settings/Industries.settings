@@ -5,17 +5,22 @@
     <enableAnyResourceTypeOrgPref>false</enableAnyResourceTypeOrgPref>
     <enableAppFrmAnywhereOrgPref>false</enableAppFrmAnywhereOrgPref>
     <enableAppInviteOrgPref>false</enableAppInviteOrgPref>
+    <enableCapacitySchedulingPref>false</enableCapacitySchedulingPref>
     <enableDepriveSoqlAccessGuestUserOrgPref>false</enableDepriveSoqlAccessGuestUserOrgPref>
     <enableDepriveSoqlAccessOrgPref>true</enableDepriveSoqlAccessOrgPref>
+    <enableDontSharePartyprofWPortalOrgPref>false</enableDontSharePartyprofWPortalOrgPref>
     <enableDropInAppointmentsOrgPref>false</enableDropInAppointmentsOrgPref>
     <enableEventManagementOrgPref>false</enableEventManagementOrgPref>
     <enableEventWriteOrgPref>false</enableEventWriteOrgPref>
     <enableMultiResourceOrgPref>false</enableMultiResourceOrgPref>
     <enableMultipleTopicsForShiftsOrgPref>false</enableMultipleTopicsForShiftsOrgPref>
     <enableOverbookingOrgPref>false</enableOverbookingOrgPref>
+    <enablePartyProfileParentSharingOrgPref>false</enablePartyProfileParentSharingOrgPref>
+    <enablePartyprofParentMultiSharingOrgPref>false</enablePartyprofParentMultiSharingOrgPref>
     <enablePreBookedFallbackMechOrgPref>false</enablePreBookedFallbackMechOrgPref>
     <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
     <enableTopicOrTemplate>false</enableTopicOrTemplate>
     <enableTopicTimeSlot>true</enableTopicTimeSlot>
+    <partyProfMultiShrPrtnrsOrgPref>false</partyProfMultiShrPrtnrsOrgPref>
     <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
 </IndustriesSettings>

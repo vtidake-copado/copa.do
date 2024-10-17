@@ -8,6 +8,8 @@
     <enablePhoneNumberMaskingForSCV>false</enablePhoneNumberMaskingForSCV>
     <enableRZoneCloudVoiceOptIn>false</enableRZoneCloudVoiceOptIn>
     <enableSCVBYOT>false</enableSCVBYOT>
+    <enableSCVOpenVCAsNewTabHVS>false</enableSCVOpenVCAsNewTabHVS>
     <enableSCVSupportBannerDisplayed>false</enableSCVSupportBannerDisplayed>
+    <enableSCVUnifiedRouting>false</enableSCVUnifiedRouting>
     <enableServiceCloudVoice>false</enableServiceCloudVoice>
 </ServiceCloudVoiceSettings>

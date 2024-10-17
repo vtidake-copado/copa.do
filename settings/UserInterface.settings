@@ -19,4 +19,5 @@
     <enableQuickCreate>true</enableQuickCreate>
     <enableRelatedListHovers>true</enableRelatedListHovers>
     <enableTabOrganizer>true</enableTabOrganizer>
+    <multiColumnSort>false</multiColumnSort>
 </UserInterfaceSettings>

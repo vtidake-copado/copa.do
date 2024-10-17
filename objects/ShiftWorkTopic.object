@@ -142,6 +142,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ServiceAppointmentLimit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ShiftId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>

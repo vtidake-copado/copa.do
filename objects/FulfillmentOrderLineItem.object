@@ -111,6 +111,10 @@
         <fullName>OriginalQuantity</fullName>
     </fields>
     <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Quantity</fullName>
     </fields>
     <fields>

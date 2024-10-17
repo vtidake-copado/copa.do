@@ -147,6 +147,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>MessagingChannelUsageId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>

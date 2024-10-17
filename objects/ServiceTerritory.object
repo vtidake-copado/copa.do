@@ -161,6 +161,14 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>SelfCheckInUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ServiceAppointmentLimitType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TopLevelTerritoryId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

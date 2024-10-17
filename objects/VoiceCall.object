@@ -105,6 +105,9 @@
         <fullName>CallStartDateTime</fullName>
     </fields>
     <fields>
+        <fullName>CallSubtype</fullName>
+    </fields>
+    <fields>
         <fullName>CallType</fullName>
     </fields>
     <fields>

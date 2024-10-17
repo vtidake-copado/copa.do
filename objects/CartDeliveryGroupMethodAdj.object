@@ -7,6 +7,10 @@
         <fullName>AdjustmentAmount</fullName>
     </fields>
     <fields>
+        <fullName>AdjustmentBasisReferenceId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>AdjustmentType</fullName>
     </fields>
     <fields>
