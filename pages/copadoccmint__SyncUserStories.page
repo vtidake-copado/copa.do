@@ -1,0 +1,18 @@
+<apex:page controller="copadoccmint.SyncUserStoriesController" showHeader="false" sidebar="false" action="{!ScheduleFetchOperationAndReturn2Project}">
+    <script>
+        if ('{!errorMessage}') {
+            alert('Error! Sync operation schedule job failed with below error \n' + '{!errorMessage}');
+        } else {
+            alert('Sync operation schedule job has started!');
+        }
+
+        window.location.replace('/' + returnParam('pid'));
+
+        function returnParam(elem) {
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var param = url.searchParams.get(elem);
+            return param;
+        }
+    </script>
+</apex:page>
