@@ -17710,6 +17710,9 @@
     <layoutAssignments>
         <layout>copadoccmint__Record_Type_Mapping__c-copadoccmint__Record Type Mapping Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>pi__Pardot_Scoring_Category__c-Pardot Scoring Category Page Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
