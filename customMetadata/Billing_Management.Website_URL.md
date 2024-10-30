@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Site_URL__c</field>
-        <value xsi:type="xsd:string">www.vtidake.com</value>
+        <value xsi:type="xsd:string">vtidake@copado.com</value>
     </values>
 </CustomMetadata>
