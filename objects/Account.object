@@ -476,6 +476,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Signed_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Signed By</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
