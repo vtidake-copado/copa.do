@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <customMetadataTypeAccesses>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <name>CMT_1__mdt</name>
     </customMetadataTypeAccesses>
     <userLicense>Salesforce</userLicense>
