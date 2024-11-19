@@ -6,7 +6,7 @@
         <name>CMT_1__mdt</name>
     </customMetadataTypeAccesses>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Managed_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
