@@ -13,6 +13,10 @@
         <enabled>true</enabled>
         <name>CMT_3__mdt</name>
     </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>CMT_5__mdt</name>
+    </customMetadataTypeAccesses>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Managed_By__c</field>
