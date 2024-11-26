@@ -9,6 +9,10 @@
         <enabled>true</enabled>
         <name>CMT_2__mdt</name>
     </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>CMT_5__mdt</name>
+    </customMetadataTypeAccesses>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Managed_By__c</field>
