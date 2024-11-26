@@ -10,7 +10,7 @@
         <name>CMT_2__mdt</name>
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>CMT_5__mdt</name>
     </customMetadataTypeAccesses>
     <fieldPermissions>
