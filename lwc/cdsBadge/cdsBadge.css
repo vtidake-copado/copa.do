@@ -1,0 +1,95 @@
+/* for use common style from copado design system */
+@import "c/copadoDesignSystem";
+
+.cds-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    background: var(--cds-semantic-color-accent-background, #E6F2F9);
+    border: 1px solid var(--cds-semantic-color-accent-background, #E6F2F9);
+    font-weight: bold;
+}
+
+.cds-badge .cds-badge-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-accent-primary, #007CBF);
+}
+
+.cds-badge label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--cds-semantic-color-accent-primary, #007CBF);
+}
+
+/* Base badge */
+
+.cds-badge-disable {
+    background: var(--cds-semantic-color-background-light, #EEEFF2);
+    border: 1px solid var(--cds-semantic-color-background-light, #EEEFF2);
+}
+
+.cds-badge-disable label {
+    color: var(--cds-semantic-color-text-secondary, #646B89);
+}
+
+.cds-badge-disable .cds-badge-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-text-secondary, #646B89);
+}
+
+/* Success badge */
+.cds-badge-success {
+    background: var(--cds-semantic-color-success-light, #CCEFEC);
+    border: 1px solid var(--cds-semantic-color-success-light, #CCEFEC);
+}
+
+.cds-badge-success label {
+    color: var(--cds-semantic-color-success-primary, #00B1A0);
+}
+
+.cds-badge-success .cds-badge-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-success-primary, #00B1A0);
+}
+
+/* Warning badge */
+.cds-badge-warning {
+    background: var(--cds-semantic-color-alert-light, #FFF5CC);
+    border: 1px solid var(--cds-semantic-color-alert-light, #FFF5CC);
+}
+
+.cds-badge-warning label {
+    color: var(--cds-semantic-color-alert-medium, #B38F00);
+}
+
+.cds-badge-warning .cds-badge-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-alert-medium, #B38F00);
+}
+
+/* Error badge */
+.cds-badge-error {
+    background: var(--cds-semantic-color-error-lightest, #FDEEEB);
+    border: 1px solid var(--cds-semantic-color-error-lightest, #FDEEEB);
+}
+
+.cds-badge-error label {
+    color: var(--cds-semantic-color-error-primary, #EC563B);
+}
+
+.cds-badge-error .cds-badge-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-error-primary, #EC563B);
+}
+
+/* Error badge */
+.cds-badge-info {
+    background: var(--cds-semantic-color-accent-background, #E6F2F9);
+    border: 1px solid var(--cds-semantic-color-accent-background, #E6F2F9);
+}
+
+.cds-badge-info label {
+    color: var(--cds-semantic-color-accent-primary, #007CBF);
+}
+
+.cds-badge-info .cds-badge-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-accent-primary, #007CBF);
+}

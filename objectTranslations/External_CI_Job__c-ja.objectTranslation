@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>外部CIジョブ</value>
+    </caseValues>
+    <fieldSets>
+        <label>関連リストフィールド</label>
+        <name>relatedListFields</name>
+    </fieldSets>
+    <fields>
+        <label>失敗でも継続</label>
+        <name>Continue_on_failure__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>Environment__c</name>
+        <relationshipLabel>外部CIジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>外部CI設定</label>
+        <name>External_CI_Setting__c</name>
+        <relationshipLabel>外部CIジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>起動対象（Invoke on)</label>
+        <name>Invoke_on__c</name>
+        <picklistValues>
+            <masterLabel>After deployment</masterLabel>
+            <translation>デプロイメント後</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before deployment</masterLabel>
+            <translation>デプロイメント前</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ジョブAPIの名前</label>
+        <name>Job_Api_Name__c</name>
+    </fields>
+    <fields>
+        <label>順序</label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label>タイムアウト時間</label>
+        <name>Timeout_in_minutes__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>User_Story__c</name>
+        <relationshipLabel>外部CIジョブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>データJSON</label>
+        <name>dataJSON__c</name>
+    </fields>
+    <nameFieldLabel>外部CIジョブ名</nameFieldLabel>
+</CustomObjectTranslation>

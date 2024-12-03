@@ -1,0 +1,33 @@
+<!-- customCard/customCard.html -->
+<template>
+    <div class="cds-card-wrapper">
+        <!-- Header Section -->
+        <div class="cds-card-header-wrap">
+            <header class="cds-card-header" if:true={hasHeader}>
+                <!-- Custom Header Slot -->
+                <slot name="header" class="cds-card-header-content">
+                    <!-- Default Header -->
+                    <div class="cds-icon-container" if:true={hasIcon}>
+                        <slot name="icon"></slot>
+                    </div>
+                    <h2 class="cds-card-title slds-hyphenate">{title}</h2>
+                </slot>
+            </header>
+
+            <!-- Header Actions -->
+            <div class="cds-header-action slds-no-flex" if:true={hasHeaderActions}>
+                <slot name="header-actions"></slot>
+            </div>
+        </div>
+
+        <!-- Body Section -->
+        <div class="cds-card-body">
+            <slot></slot>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="cds-card-footer" if:true={hasFooter}>
+            <slot name="footer"></slot>
+        </footer>
+    </div>
+</template>

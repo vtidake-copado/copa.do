@@ -1,0 +1,26 @@
+/* for use common style from copado design sysyem */
+@import "c/copadoDesignSystem";
+.list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    max-width: 30rem;
+    margin-top: 1rem;
+}
+
+.list-item {
+    list-style: disc;
+    margin-left: 1rem;
+    color: var(--cds-semantic-color-text-secondary, #646b89);
+    font-size: 0.875rem;
+}
+
+.cds-card-body-wrap {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.description {
+    color: var(--cds-semantic-color-text-secondary, #646b89);
+    font-size: 0.875rem;
+}

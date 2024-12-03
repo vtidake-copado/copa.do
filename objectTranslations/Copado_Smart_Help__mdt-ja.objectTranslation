@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Copado Smart Help --></value>
+    </caseValues>
+    <fields>
+        <label>アクティブ</label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label>基本ページ</label>
+        <name>Base_Page__c</name>
+        <picklistValues>
+            <masterLabel>GitCommitChanges</masterLabel>
+            <translation><!-- GitCommitChanges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitCommitMain</masterLabel>
+            <translation><!-- GitCommitMain --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このヒントについてユーザーがより理解できるように、ドキュメントページや記事のURLを入力してください。URLは、完全なhttps:// 形式で入力してください。例：https://www.copado.com/</help>
+        <label>ヘルプテキストのURL</label>
+        <name>Help_Text_Url__c</name>
+    </fields>
+    <fields>
+        <help>これはヒントを表示するポップアップのテキストです。分かりやすく明快な文章を記載して下さい</help>
+        <label>ヘルプテキスト</label>
+        <name>Help_Text__c</name>
+    </fields>
+    <fields>
+        <help>ヒントをすぐに表示させるか、トリガーとなるアクションが満たされた場合にのみ表示するかを選択します。</help>
+        <label>トリガーアクション</label>
+        <name>Triggering_Action__c</name>
+        <picklistValues>
+            <masterLabel>Always show</masterLabel>
+            <translation>常に表示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado Metadata Grid selection</masterLabel>
+            <translation>Copadoメタデータグリッドセレクション</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このフィールドは必須ではありません。特定のメタデータ項目をトリガーにしたい場合、トリガーメタデータタイプを補完するために使用することができます。メタデータ項目は&quot;; &quot;で区切ることができます。例：アカウント；App launcher；その他。</help>
+        <label>トリガーとなるメタデータ項目</label>
+        <name>Triggering_Metadata_Items__c</name>
+    </fields>
+    <fields>
+        <help>ヒントを表示するきっかけとなるメタデータタイプを指定</help>
+        <label>トリガーとなるメタデータタイプ</label>
+        <name>Triggering_Value__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>トリガーメタデータ項目を入力するには、メタデータタイプを入力してください。</errorMessage>
+        <name>Validate_triggering_metadata_type</name>
+    </validationRules>
+</CustomObjectTranslation>

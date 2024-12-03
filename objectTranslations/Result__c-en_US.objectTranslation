@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Result</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Results</value>
+    </caseValues>
+    <fields>
+        <help><!-- Field automatically updated by Copado that is used to link some processes together. --></help>
+        <label><!-- Apex Callback --></label>
+        <name>ApexCallback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Sync Status --></label>
+        <name>CreditSyncStatus__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copado credits used in the execution of the function. --></help>
+        <label><!-- Copado Credits Used --></label>
+        <name>Custom_Function_Used_Credits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time taken in minutes to execute the function. --></help>
+        <label><!-- Function Used Minutes --></label>
+        <name>Custom_Function_Used_Minutes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deployment Parent object that trigger the execution. (for legacy) --></help>
+        <label><!-- Deployment --></label>
+        <name>Deployment__c</name>
+        <relationshipLabel><!-- Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Description of the result record. --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total duration in seconds of the job execution. This value can be used to track job performance. --></help>
+        <label><!-- Duration (in seconds) --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date and time when the job ended --></help>
+        <label><!-- End Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Code that helps you quickly identify the issue. --></help>
+        <label><!-- Error Code --></label>
+        <name>Error_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of the error if the job has failed. --></help>
+        <label><!-- Error Message --></label>
+        <name>Error_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Computational resources available for a function. --></help>
+        <label><!-- Function Worker Size --></label>
+        <name>Function_Worker_Size__c</name>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL</masterLabel>
+            <translation><!-- XL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Lookup field to the function that triggered the result. --></help>
+        <label><!-- Function --></label>
+        <name>Function__c</name>
+        <relationshipLabel><!-- Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- When this result is the outcome of a Job Step, that is executed as part of a Job Template, this field points to the Job Step. (note that Job Step and Function can be populated at the same time). --></help>
+        <label><!-- Job Step --></label>
+        <name>JobStep__c</name>
+        <relationshipLabel><!-- Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Record link shortcutting to Job Step&apos;s Job Execution --></help>
+        <label><!-- Job Execution --></label>
+        <name>Job_Execution__c</name>
+    </fields>
+    <fields>
+        <help><!-- For devs to map this process with any other process that happens outside Copado. --></help>
+        <label><!-- External Job ID --></label>
+        <name>Job_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- API name of the job that triggered the result. This information can be used for reporting purposes. --></help>
+        <label><!-- Job API Name --></label>
+        <name>Job_Type__c</name>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Field used to link an external result to the Result record. --></help>
+        <label><!-- External Result Link --></label>
+        <name>Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- 15-digit Id of the record that triggered the process that generated the result. --></help>
+        <label><!-- Context ID --></label>
+        <name>ParentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>Parent__c</name>
+    </fields>
+    <fields>
+        <help><!-- This status is used to track the current job activity. --></help>
+        <label><!-- Progress Status --></label>
+        <name>Progress_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup field to the promotion that triggered the result. --></help>
+        <label><!-- Promotion --></label>
+        <name>Promotion__c</name>
+        <relationshipLabel><!-- Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Includes all the returned data by the process. This can be used by other processes. --></help>
+        <label><!-- Result Data --></label>
+        <name>Result_Data__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date and time when the job started. --></help>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status of the job execution. --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Test parent object which triggered the execution. --></help>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+        <relationshipLabel><!-- Results --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If you want Copado to update the status to Failed if there is no response from the function’s job after a certain period of time (e.g., 60 minutes), you can define it here. --></help>
+        <label><!-- Timeout (minutes) --></label>
+        <name>Timeout__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup field to the user story that triggered the result. --></help>
+        <label><!-- User Story --></label>
+        <name>User_Story__c</name>
+        <relationshipLabel><!-- Result --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

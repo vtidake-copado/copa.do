@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>予定されているジョブ結果</value>
+    </caseValues>
+    <fields>
+        <help>API キーのマスク設定をオンにしている場合、api_key パラメータの後に、ユーザの API キーの代わりにプレースホルダ {USER_API_KEY} が表示されます。</help>
+        <label>コールされたURL</label>
+        <name>Called_URL__c</name>
+    </fields>
+    <fields>
+        <label>メッセージ</label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーとして実行</label>
+        <name>Run_as_User__c</name>
+        <relationshipLabel>スケジュールされたジョブの実行</relationshipLabel>
+    </fields>
+    <fields>
+        <label>スケジュールジョブ</label>
+        <name>Scheduled_Job__c</name>
+        <relationshipLabel>スケジュールされたジョブの実行</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Failure</masterLabel>
+            <translation>失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>成功</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>予定されているジョブ結果名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+/* for use common style from copado design sysyem */
+@import "c/copadoDesignSystem";
+.description-text {
+    color: var(--cds-semantic-color-text-secondary, #646b89)
+}
+
+.cds-card-footer-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+.cds-card-body-wrap {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.description-text {
+    color: var(--cds-semantic-color-text-secondary, #646b89);
+    font-size: 0.875rem;
+}

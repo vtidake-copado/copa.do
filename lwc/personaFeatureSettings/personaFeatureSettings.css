@@ -1,0 +1,64 @@
+/* for use common style from copado design sysyem */
+@import "c/copadoDesignSystem";
+
+.persona-card {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.04);
+    min-height: 62vh;
+    padding-bottom: 1rem;
+}
+
+.feature-toogle-content-header {
+    padding: 1rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    justify-content: flex-start;
+}
+
+.feature-toogle-content-header .cds-icon-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cds-semantic-color-accent-background, #E6F2F9);
+    flex-shrink: 0;
+}
+
+.cds-icon {
+    --slds-c-icon-color-foreground-default: var(--cds-semantic-color-accent-primary, #007CBF);
+    --slds-c-icon-color-background: var(--cds-semantic-color-accent-background, #E6F2F9);
+}
+
+
+.feature-toogle-title {
+    font-size: 1.15rem;
+    color: var(--cds-semantic-color-text-primary, #111219);
+    font-weight: 600;
+}
+
+.feature-toogle-subtitle {
+    font-size: 0.875rem;
+    color: var(--cds-semantic-color-text-secondary, #757C96);
+    width: 80%;
+}
+
+.feature-toogle-wrapper {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.08), 0px 0px 2px 0px rgba(0, 0, 0, 0.04);
+    background: #FAFAF9;
+}
+
+.card-detail-cta .cta-modal {
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--cds-semantic-color-accent-primary, #007CBF);
+}

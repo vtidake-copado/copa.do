@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>レコード・マッチング式</value>
+    </caseValues>
+    <fields>
+        <help>コパードが、数式を構築するために使用可能なオブジェクトとフィールドのリストを取得するためのクレデンシャルになります。</help>
+        <label>コンフィギュレーションスキーマのクレデンシャル</label>
+        <name>Configuration_Source_Org__c</name>
+        <relationshipLabel>レコード一致メソッド</relationshipLabel>
+    </fields>
+    <fields>
+        <help>式の最初のフィールド</help>
+        <label>フィールド1</label>
+        <name>Field_1__c</name>
+    </fields>
+    <fields>
+        <help>数式の2番目のフィールド</help>
+        <label>フィールド2</label>
+        <name>Field_2__c</name>
+    </fields>
+    <fields>
+        <help>数式の3番目のフィールド</help>
+        <label>フィールド3</label>
+        <name>Field_3__c</name>
+    </fields>
+    <fields>
+        <label>フィールドラベル</label>
+        <name>Field_Labels__c</name>
+    </fields>
+    <fields>
+        <help>数式をハッシュ化すると、元の値がユニークで固定サイズのランダムな文字に置き換えられます。これにより読み取り不可となり、また値が外部IDフィールドの文字数制限を超えないようにする事ができます。</help>
+        <label>外部ID値のハッシュ</label>
+        <name>Hash_Formula__c</name>
+    </fields>
+    <fields>
+        <help>ドロップダウンからオブジェクトを選択し、数式を設定します。数式で利用可能なフィールドは、選択されたオブジェクトとソース組織に基づいています。</help>
+        <label>オブジェクト</label>
+        <name>Object__c</name>
+    </fields>
+    <nameFieldLabel>レコード・マッチング式名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>値が選択されると、Configuration Schema Credentialは変更できません。</errorMessage>
+        <name>RestrictSchemaCredentialModification</name>
+    </validationRules>
+</CustomObjectTranslation>

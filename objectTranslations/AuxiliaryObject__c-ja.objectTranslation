@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AuxiliaryObject</value>
+    </caseValues>
+    <fields>
+        <label>継続的インテグレーション</label>
+        <name>Continuous_Integration__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>データセット</label>
+        <name>Data_Set__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>データテンプレート</label>
+        <name>Data_Template__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>日付時刻</label>
+        <name>Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>デフォルト番号</label>
+        <name>Default_Number__c</name>
+    </fields>
+    <fields>
+        <label>デフォルトの文字列</label>
+        <name>Default_String__c</name>
+    </fields>
+    <fields>
+        <label>デフォルトテキスト</label>
+        <name>Default_Text__c</name>
+    </fields>
+    <fields>
+        <label>パイプライン</label>
+        <name>Deployment_Flow__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>デプロイメント</label>
+        <name>Deployment__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>Environment__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>関数</label>
+        <name>Function__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gitスナップショット</label>
+        <name>Git_Backup__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gitリポジトリ</label>
+        <name>Git_Repository__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>組織クレデンシャル</label>
+        <name>Org_Credential__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>組織差分</label>
+        <name>Org_Difference__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>パッケージバージョン</label>
+        <name>Package_Version__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>プロモーション</label>
+        <name>Promotion__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>リリース</label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Seleniumテストグループ</label>
+        <name>Selenium_Test_Group__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Seleniumテストラン</label>
+        <name>Selenium_Test_Run__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>スナップショット差分</label>
+        <name>Snapshot_Difference__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>静的コード分析設定</label>
+        <name>Static_Code_Analysis_Settings__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>テスト</label>
+        <name>Test__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>User_Story__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザー</label>
+        <name>User__c</name>
+        <relationshipLabel><!-- AuxiliaryObjects --></relationshipLabel>
+    </fields>
+    <nameFieldLabel>AuxiliaryObject名</nameFieldLabel>
+</CustomObjectTranslation>

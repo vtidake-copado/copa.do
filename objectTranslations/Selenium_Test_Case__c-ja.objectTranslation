@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストケース</value>
+    </caseValues>
+    <fields>
+        <help>コパードレコーダーで開く</help>
+        <label>コパードレコーダーで開く</label>
+        <name>Open_with_Copado_Recorder__c</name>
+    </fields>
+    <fields>
+        <label>前のバージョン</label>
+        <name>Previous_Version__c</name>
+        <relationshipLabel>次のバージョン</relationshipLabel>
+    </fields>
+    <fields>
+        <label>バージョン</label>
+        <name>Version__c</name>
+    </fields>
+    <nameFieldLabel>Selenium テストケース名</nameFieldLabel>
+    <webLinks>
+        <label>新しいバージョン</label>
+        <name>New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>このバージョンにプロモート</label>
+        <name>Promote_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>クイックラン</label>
+        <name>Quick_Run</name>
+    </webLinks>
+    <webLinks>
+        <label>以前のバージョンへのロールバック</label>
+        <name>Rollback_to_Previous_Version</name>
+    </webLinks>
+</CustomObjectTranslation>

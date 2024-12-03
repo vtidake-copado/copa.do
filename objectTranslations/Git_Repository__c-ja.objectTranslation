@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gitリポジトリ</value>
+    </caseValues>
+    <fieldSets>
+        <label>コパードヘッダーフィールド</label>
+        <name>Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>カスタムフィールド</label>
+        <name>CustomFields</name>
+    </fieldSets>
+    <fields>
+        <label>Gitキャッシュの機能を有効にする</label>
+        <name>Allow_Functions_Git_Cache__c</name>
+    </fields>
+    <fields>
+        <help>リポジトリブランチのベースURL、e.g：https://github.com/「COMPANY」/「REPOSITORY」/tree/</help>
+        <label>ブランチベースのURL</label>
+        <name>Branch_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>あなたのリポジトリのベースURL、e.g .: https://github.com/「COMPANY」/「REPOSITORY」/commit/</help>
+        <label>ベースURLをコミット</label>
+        <name>Commit_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>Copado は、選択したGitプロバイダーに基づいて、Gitリポジトリ、そのブランチ、コミットへの特定のリンクを生成します。</help>
+        <label>Gitプロバイダー</label>
+        <name>Git_Provider__c</name>
+        <picklistValues>
+            <masterLabel>Bitbucket</masterLabel>
+            <translation><!-- Bitbucket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado Version Control</masterLabel>
+            <translation>Copadoバージョン管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitLab</masterLabel>
+            <translation><!-- GitLab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Github</masterLabel>
+            <translation><!-- Github --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsoft Team Service</masterLabel>
+            <translation>マイクロソフトチームサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>リポジトリは copa トンネル経由で接続されていますか？</help>
+        <label>リポジトリは copa トンネル経由で接続されていますか？</label>
+        <name>Is_repository_connected_via_copa_tunnel__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>リポジトリのベースのURL、例えば：https://github.com/「COMPANY」/「REPOSITORY」/ https://bitbucket.org/「COMPANY」/「REPOSITORY」/ https://gitlab.org/「COMPANY」/「REPOSITORY」/</help>
+        <label>プルリクエストのベースURL</label>
+        <name>Pull_Request_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>標準メタデータAPIのフォルダとファイル構造、または異なるファイルとファイル拡張子を使用するDXソースの構造から選択します。デフォルトはメタデータになっています。</help>
+        <label>ソースフォーマット</label>
+        <name>Source_Format__c</name>
+        <picklistValues>
+            <masterLabel>Metadata</masterLabel>
+            <translation>メタデータ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>あなたのリポジトリのベースURL、e.g .: https://github.com/「COMPANY」/「REPOSITORY」/releases/tag/</help>
+        <label>タグベースのURL</label>
+        <name>Tag_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help>Gitリポジトリに接続するためのHTTPSまたはSSH URL</help>
+        <label><!-- URI --></label>
+        <name>URI__c</name>
+    </fields>
+    <nameFieldLabel>Gitリポジトリ名</nameFieldLabel>
+</CustomObjectTranslation>

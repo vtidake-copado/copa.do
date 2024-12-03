@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Run_SCA_on_User_Story</name>
+        <label>Run SCA on User Story</label>
+        <locationX>553</locationX>
+        <locationY>412</locationY>
+        <actionName>RunUserStoryStaticCodeAnalysis</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>orgId</name>
+            <value>
+                <elementReference>$Record.User_Story__r.Org_Credential__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>storyId</name>
+            <value>
+                <elementReference>$Record.User_Story__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>RunUserStoryStaticCodeAnalysis</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Run SCA on userstory commit {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Run SCA on userstory commit</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>446</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Run_SCA_on_User_Story</targetReference>
+        </connector>
+        <object>User_Story_Metadata__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

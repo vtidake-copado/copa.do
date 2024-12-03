@@ -1,0 +1,57 @@
+<template>
+    <c-copadocore-modal>
+        <span slot="title">{labels.SELECT_REPOSITORY}</span>
+        <slot class="repo-selection-wrap slds-align_absolute-center">
+            <div class="slds-size_full slds-is-relative">
+                <lightning-spinner lwc:if={isLoading} variant="Brand" alternative-text="Loading..." size="medium">
+                </lightning-spinner>
+                <div class="repo-list">
+                    <div class="cds-radio-card selected" onclick={selectGitProvider} data-name={repositoryName}>
+                        <div class="cds-radio-card-left">
+                            <div class="card-selection">
+                                <span></span>
+                            </div>
+                            <div class="cds-radio-detail">
+                                <h5 class="title"><span>{labels.NEW_REPOSITORY}</span></h5>
+                                <p class="description">
+                                    {labels.COPADO_WILL_CREATE_REPOSITORY}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cds-radio-card-right">
+                            <label></label>
+                            <div class="last-update-date"></div>
+                        </div>
+                    </div>
+                    <div class="existing-repo-list-wrap" if:true={hasRepositories}>
+                        <div class="existing-repo-list-header">
+                            <h3>{labels.EXISTING_REPOSITORIES}</h3>
+                        </div>
+                        <div class="existing-repo-list" slot="body">
+                            <template for:each={repositories} for:item="repository">
+                                <div class="cds-radio-card" onclick={selectGitProvider} data-id={repository.id}
+                                    key={repository.id}>
+                                    <div class="cds-radio-card-left">
+                                        <div class="card-selection">
+                                            <span></span>
+                                        </div>
+                                        <div class="cds-radio-detail">
+                                            <h5 class="title">{repository.name}</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </slot>
+        <span slot="footer">
+            <lightning-button label={labels.CANCEL} title={labels.CANCEL} variant="neutral" onclick={hide}>
+            </lightning-button>
+            <lightning-button class="slds-var-m-left_x-small" label={labels.SAVE} title={labels.SAVE} variant="brand"
+                onclick={save} disabled={isLoading}></lightning-button>
+        </span>
+    </c-copadocore-modal>
+</template>

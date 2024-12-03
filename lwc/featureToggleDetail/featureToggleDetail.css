@@ -1,0 +1,154 @@
+/* for use common style from copado design sysyem */
+@import 'c/copadoDesignSystem';
+
+.cds-radio-card {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 5px 4px -4px rgba(0, 0, 0, 0.02);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.cds-radio-card.selected {
+    background: var(--cds-semantic-color-accent-background);
+    border-color: var(--cds-semantic-color-accent-primary);
+}
+
+.card-selection-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    cursor: pointer;
+    width: 80%;
+}
+
+.card-selection span {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+    display: inline-block;
+    background: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 100%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 5px 4px -4px rgba(0, 0, 0, 0.02);
+}
+
+.cds-radio-card.selected .card-selection span {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cds-semantic-color-accent-primary);
+    border: 1px solid var(--cds-semantic-color-accent-primary);
+    border-radius: 100%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 5px 4px -4px rgba(0, 0, 0, 0.02);
+}
+
+.cds-radio-card.selected .card-selection span::after {
+    content: '';
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    background: var(--white);
+    border-radius: 100%;
+}
+
+.card-detail .card-title {
+    font-size: 1rem;
+    color: var(--cds-semantic-color-text-primary);
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+}
+
+.card-detail .card-description {
+    font-size: 0.875rem;
+    color: var(--cds-semantic-color-text-secondary);
+}
+
+.card-detail-cta .cta-link {
+    font-size: 0.875rem;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    color: var(--cds-semantic-color-accent-primary, #007cbf);
+}
+
+.cds-switch-toggle-card {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 5px 4px -4px rgba(0, 0, 0, 0.02);
+}
+
+.cds-switch-toggle-card.selected {
+    background: var(--cds-semantic-color-accent-background);
+    border-color: var(--cds-semantic-color-accent-primary);
+}
+
+.cds-switch-toggle-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.cds-switch-card-detail {
+    width: 75%;
+}
+
+.cds-switch-card-detail .card-title {
+    font-size: 1rem;
+    color: var(--cds-semantic-color-text-primary);
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+}
+
+.cds-switch-card-detail .card-description {
+    font-size: 0.875rem;
+    color: var(--cds-semantic-color-text-secondary);
+}
+
+.cds-switch-card-actions {
+    display: flex;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.cds-switch-card-link .cds-switch-link {
+    font-size: 0.875rem;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+    color: var(--cds-semantic-color-accent-primary, #007cbf);
+}
+
+.cds-switch-dependencies {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cds-info-badge {
+    --slds-c-badge-radius-border: 6px;
+    --slds-c-badge-color-background: var(--cds-semantic-color-background-light, #eeeff2);
+    --slds-c-badge-text-color: var(--cds-semantic-color-text-secondary, #646b89);
+    --slds-c-badge-icon-color-foreground: var(--cds-semantic-color-text-secondary, #646b89);
+    --slds-c-badge-font-size: 0.625rem;
+}
+
+.cds-warning-badge {
+    --slds-c-badge-radius-border: 6px;
+    --slds-c-badge-color-background: var(--cds-semantic-color-alert-light, #fff5cc);
+    --slds-c-badge-text-color: var(--cds-semantic-color-alert-medium, #b38f00);
+    --slds-c-badge-icon-color-foreground: var(--cds-semantic-color-alert-medium, #b38f00);
+    --slds-c-badge-font-size: 0.625rem;
+}

@@ -1,0 +1,21 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_small slds-p-around_medium">
+            <p><strong style="font-size: 18px;"><u>{label.CONNECTION_BEHAVIOR_CONSIDERATION}</u></strong></p>
+        
+            </br>
+            <ul>
+                <li><strong><u>{label.AUTOMATED_DEPLOYMENT_TO_PRODUCTION} </u></strong> <lightning-formatted-rich-text value={label.AUTOMATED_DEPLOYMENT_VALUE}></lightning-formatted-rich-text></li>
+                <li><strong><u>{label.USER_STORIES_PREREQUISITES} </u></strong> <lightning-formatted-rich-text value={label.USER_STORIES_PREREQUISITES_VALUE}></lightning-formatted-rich-text></li>
+                <li><strong><u>{label.BACK_PROMOTION_TO_NONADJACENT_ENV} </u></strong> <lightning-formatted-rich-text value={label.BACK_PROMOTION_TO_NONADJACENT_ENV_VALUE}></lightning-formatted-rich-text>
+                </li>
+                <li><strong><u>{label.GROUPING_LOGIC_FOR_BACK_PROMOTIONS} </u></strong> <lightning-formatted-rich-text value={label.GROUPING_LOGIC_FOR_BACK_PROMOTIONS_VALUE}></lightning-formatted-rich-text>
+                </li>
+            </ul>
+        </br>
+            <p>{label.CONNECTION_BEHAVIOR_CONSIDERATION_DETAILS} <a
+                    href="https://docs.copado.com/smart/project-copado-ci-cd/connection-behaviors"
+                    target="_blank">{label.CONNECTION_BEHAVIOR}</a> {label.DOCUMENTATION}.</p>
+        </div>
+    </lightning-card>
+</template>

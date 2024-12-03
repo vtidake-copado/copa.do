@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Promotion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Promotions</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Custom Fields --></label>
+        <name>CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ManageBranchesDialog --></label>
+        <name>ManageBranchesDialog</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Manager --></label>
+        <name>Pipeline_Manager</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Select this checkbox if you are promoting from a higher to a lower environment in the pipeline. --></help>
+        <label><!-- Is Back-Promotion --></label>
+        <name>Back_Promotion__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is checked by Copado once the promotion is merged and deployed successfully for multi-cloud platform. --></help>
+        <label><!-- Completed --></label>
+        <name>Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Connection Behavior --></label>
+        <name>Connection_Behavior__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if you wish to move added profiles to a Full Profiles step. Doing this will remove the profiles from the Metadata step. --></help>
+        <label><!-- Create Full Permission Sets Step --></label>
+        <name>Create_Full_Permission_Sets_Step__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if you wish to move added permission sets to a Full Permission Sets step. Doing this will remove the permission sets from the Metadata step. --></help>
+        <label><!-- Create Full Profiles Step --></label>
+        <name>Create_Full_Profiles_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Environment --></label>
+        <name>Destination_Environment__c</name>
+        <relationshipLabel><!-- Promotions (Destination Environment) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The destination credential that will be used when creating the deployment. This credential is auto-populated based on the pipeline linked to the project. --></help>
+        <label><!-- Destination Credential --></label>
+        <name>Destination_Org_Credential__c</name>
+        <relationshipLabel><!-- Promotions (Destination Credential) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the metadata types that you want to manually resolve when a conflict occurs while merging the feature branch into the promotion branch.This field only affects metadata format pipelines and not source format pipelines. --></help>
+        <label><!-- Exclude From Auto Resolve --></label>
+        <name>Exclude_From_Auto_Resolve__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Rolled Back? --></label>
+        <name>Is_Rolled_Back__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Deployment Execution Id --></label>
+        <name>Last_Deployment_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Promotion Execution Id --></label>
+        <name>Last_Promotion_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates that this promotion includes a manual conflict resolution. --></help>
+        <label><!-- Merge Conflict --></label>
+        <name>Merge_Conflict__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field if you want to set an ascending or descending merge order for the selected user stories in a deployment. For example, status__c asc --></help>
+        <label><!-- Order User Stories by --></label>
+        <name>Order_by__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field auto-populates and displays the pipeline platform. --></help>
+        <label><!-- Platform --></label>
+        <name>Platform__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a project linked to an active pipeline. --></help>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if you want the promotion owner to receive an email notification when the promotion is complete. --></help>
+        <label><!-- Notify When Complete --></label>
+        <name>Send_Deployment_Complete_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Environment --></label>
+        <name>Source_Environment__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The source credential that will be used when creating the deployment. This credential is auto-populated based on the pipeline linked to the project. --></help>
+        <label><!-- Source Credential --></label>
+        <name>Source_Org_Credential__c</name>
+        <relationshipLabel><!-- Promotions (Source Credential) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with errors</masterLabel>
+            <translation><!-- Completed with errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conflicts Resolved</masterLabel>
+            <translation><!-- Conflicts Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge Conflict</masterLabel>
+            <translation><!-- Merge Conflict --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validation failed</masterLabel>
+            <translation><!-- Validation failed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Link to the User Story promotion branch in Git. The link is generated based on the Base Branch URL of the Git Repository record. --></help>
+        <label><!-- View in Git --></label>
+        <name>View_in_Git__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Back Promotions to Scratch Orgs are not allowed --></errorMessage>
+        <name>Scratch_Orgs_Disabled_for_Back_Promoting</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Check_Status_history --></label>
+        <name>Check_Status_history</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>Rollback</name>
+    </webLinks>
+</CustomObjectTranslation>

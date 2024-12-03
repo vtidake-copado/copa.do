@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Action__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Provide the name of the action. This value is case sensitive and must match one of the values in the Copado Actions global value set.</inlineHelpText>
+        <label>Action</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Job_Template__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Job Template API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Platform_Configuration__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Platform Configuration</label>
+        <referenceTo>ExtensionPackageConfiguration__mdt</referenceTo>
+        <relationshipLabel>MultiCloudAutomations</relationshipLabel>
+        <relationshipName>MultiCloudAutomations</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>MultiCloudAutomation</label>
+    <pluralLabel>MultiCloudAutomations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

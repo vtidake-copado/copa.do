@@ -1,0 +1,28 @@
+<template>
+    <c-copado-alert if:true={showBanner} message={labels.USER_STORY_BUNDLE_CONFLICTING_METADATA_OPERATION_ALERT_MESSAGE} variant="error">
+        <span slot="additionalMessage">&nbsp; <a onclick={handleSeeConflicts}>{labels.SEE_CONFLICTS}</a></span>
+    </c-copado-alert>
+    <c-copadocore-modal size="small">
+        <span slot="title">{labels.USER_STORY_BUNDLE_CONFLICTING_COMPONENTS}</span>
+        <slot>
+            <template lwc:if={isLoading}>
+                <div class="slds-is-relative modal-height">
+                    <c-spinner-with-message message={spinnerMessage} alternative-text={spinnerMessage} variant="brand"></c-spinner-with-message>
+                </div>
+            </template>
+            <template lwc:else>
+                <c-user-story-bundle-metadata-operation-conflict-dialog
+                    user-story-metadatas-with-conflict={userStoryMetadatasWithConflict}
+                    show-next="true"
+                    package-version-id={recordId}
+                    ondeletefrombundledstory={handleDeletionOfUserStoryFromBundle}
+                    onnextclick={handleNextClick}
+                    oncloseclick={closeModal}>
+                </c-user-story-bundle-metadata-operation-conflict-dialog>
+            </template>
+        </slot>
+        <span slot="footer">
+            <lightning-button label={labels.CANCEL} title={labels.CANCEL} onclick={handleCancelModal}> </lightning-button>
+        </span>
+    </c-copadocore-modal>
+</template>

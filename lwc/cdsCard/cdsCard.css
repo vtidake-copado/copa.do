@@ -1,0 +1,28 @@
+/* for use common style from copado design system */
+@import "c/copadoDesignSystem";
+
+.cds-card-wrapper {
+    border-radius: 0.5rem;
+    border: 1px solid var(--cds-semantic-color-borders-light, #DDDEE5);
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.04), 0px 2px 2px 0px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    height: 100%;
+}
+
+.cds-card-header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cds-card-header-content {
+    display: flex;
+    align-items: center;
+}
+
+.cds-card-title {
+    color: var(--cds-semantic-color-text-primary, #111219);
+    font-size: 1rem;
+    font-weight: 600;
+}

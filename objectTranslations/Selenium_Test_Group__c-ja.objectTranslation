@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストグループ</value>
+    </caseValues>
+    <fieldSets>
+        <label>Selenium結果タブ</label>
+        <name>Selenium_Results_Tab</name>
+    </fieldSets>
+    <fields>
+        <label>説明</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>Environment__c</name>
+        <relationshipLabel>Seleniumテストグループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <help>このオプションをオフにすると、コパードはスイート/クレデンシャルごとにテストランを自動的に作成/更新/削除します。このグループ内のテストランを手動で管理する場合は、チェックしてからテストランリストビューに移動し、&quot;テストグループを追加&quot; オプションを使用します。</help>
+        <label>テストを手動で管理</label>
+        <name>Manage_Test_Runs_manually__c</name>
+    </fields>
+    <fields>
+        <help>チェックされている場合、テスト実行は並行して実行されるのではなく、順番に実行されます。</help>
+        <label>順次実行する</label>
+        <name>Run_Sequentially__c</name>
+    </fields>
+    <fields>
+        <help>このテストグループに属するすべてのテストは、これらのSelenium設定を使用します。</help>
+        <label>Selenium設定</label>
+        <name>Selenium_Settings__c</name>
+        <relationshipLabel>Seleniumテストグループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス日付</label>
+        <name>Status_Date__c</name>
+    </fields>
+    <fields>
+        <label>ステータスアイコン</label>
+        <name>Status_Icon__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed Successfully</masterLabel>
+            <translation>正常に完了しました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed with Errors</masterLabel>
+            <translation>エラーありで完了しました。</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>キューイング</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>回帰テストまたはユーザストーリーテストが選択されている場合、そのテストグループに関連付けられ ているすべてのクレデンシャルを同じ環境にリンクする必要があります。</help>
+        <label>タイプ</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation>デフォルト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression Test</masterLabel>
+            <translation>回帰テスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Story Test</masterLabel>
+            <translation>ユーザーストーリーテスト</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>Seleniumテストグループ名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>タイプが「ユーザーストーリーテスト」または「回帰テスト」の場合は、環境フィールドが必要です。</errorMessage>
+        <name>Environment_Required</name>
+    </validationRules>
+    <webLinks>
+        <label>結果の更新</label>
+        <name>Refresh_Results</name>
+    </webLinks>
+    <webLinks>
+        <label>グループで実行</label>
+        <name>Run_Group</name>
+    </webLinks>
+    <webLinks>
+        <label>Hook URLの表示</label>
+        <name>Show_Hook_URL</name>
+    </webLinks>
+</CustomObjectTranslation>

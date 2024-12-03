@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Multi-Cloud Sensitive Information</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Multi-Cloud Sensitive Information</value>
+    </caseValues>
+    <fields>
+        <help><!-- Id of the parent hidden system property, if the value &gt; 255 characters (because it was divided in multiple segments) --></help>
+        <label><!-- SystemPropertyId --></label>
+        <name>SystemPropertyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

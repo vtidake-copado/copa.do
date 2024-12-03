@@ -1,0 +1,234 @@
+<template>
+    <c-cds-modal size="small" onmodalclose={handleClickCancel} hide-close={showSpinner} has-overflow>
+        <span slot="title">{title}</span>
+        <template lwc:if={userHasPermission}> <span slot="tagline">{label.SUBTITLE}</span>> </template>
+
+        <div slot="modalContent" class="wizard-modal-content">
+            <lightning-spinner lwc:if={showSpinner} variant="brand" size="large"></lightning-spinner>
+
+            <div class="pipeline-detail">
+                <template lwc:if={userHasPermission}>
+                    <lightning-layout multiple-rows>
+                        <lightning-layout-item lwc:if={showError} size="12" padding="around-small">
+                            <div class="slds-var-p-bottom_medium">
+                                <c-cds-alert message={errorMessage} variant="error" hasdetail={showErrorDetail}>
+                                    <div slot="details">
+                                        <a
+                                            href="https://docs.copado.com/articles/#!copado-ci-cd-publication/git-repository-overview"
+                                            target="_blank"
+                                            class="cds-link"
+                                            >{label.REPOSITORY_REQUIREMENTS}</a
+                                        >
+                                    </div>
+                                </c-cds-alert>
+                            </div>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="6" padding="around-small">
+                            <div class="cds-form-component">
+                                <div class="label-with-helptext">
+                                    <label class="slds-form-element__label slds-no-flex">
+                                        <abbr class="slds-required" title="required">*</abbr>{label.PIPELINE_NAME}</label
+                                    >
+                                </div>
+                                <lightning-input
+                                    class="cds-input"
+                                    name="pipelineName"
+                                    type="text"
+                                    value={pipelineName}
+                                    max-length="80"
+                                    onchange={handleChange}
+                                    variant="label-hidden"
+                                    required
+                                >
+                                </lightning-input>
+                            </div>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="6" padding="around-small">
+                            <lightning-record-edit-form object-api-name={pipelineObject}>
+                                <div class="cds-form-component">
+                                    <div class="label-with-helptext">
+                                        <label class="slds-form-element__label slds-no-flex">
+                                            <abbr class="slds-required" title="required">*</abbr>{label.PLATFORM}</label
+                                        >
+                                        <lightning-helptext content={label.PLATFORM_HELPTEXT}></lightning-helptext>
+                                    </div>
+                                    <lightning-input-field
+                                        class="cds-combobox"
+                                        field-name={platformField}
+                                        onchange={handlePlatformChange}
+                                        value={platform}
+                                        variant="label-hidden"
+                                    >
+                                    </lightning-input-field>
+                                </div>
+                            </lightning-record-edit-form>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="12" padding="around-small">
+                            <h3 class="pipeline-detail-form-heading">{label.PROJECT}</h3>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="6" padding="around-small">
+                            <div class="cds-form-component">
+                                <lightning-radio-group
+                                    class="cds-radio-group"
+                                    name="projectOption"
+                                    variant="label-hidden"
+                                    options={projectOptions}
+                                    required
+                                    type="radio"
+                                    value={projectOption}
+                                    onchange={handleChange}
+                                >
+                                </lightning-radio-group>
+                            </div>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="6" padding="around-small">
+                            <div class="cds-form-component">
+                                <template lwc:if={showProjectLookup}>
+                                    <div class="label-with-helptext">
+                                        <label class="slds-form-element__label slds-no-flex">
+                                            <abbr class="slds-required" title="required">*</abbr>{label.PROJECT_RECORD}</label
+                                        >
+                                        <lightning-helptext content={label.PROJECT_RECORD_HELPTEXT}></lightning-helptext>
+                                    </div>
+                                    <c-lookup
+                                        placeholder={label.SELECT_PROJECT_PLACEHOLDER}
+                                        variant="label-hidden"
+                                        data-projectid={projectId}
+                                        onsearch={handleLookupSearchProject}
+                                        onselectionchange={getSelectedProjectId}
+                                        scroll-after-n-items="5"
+                                    >
+                                    </c-lookup>
+                                </template>
+                                <template lwc:else>
+                                    <div class="cds-form-component">
+                                        <div class="label-with-helptext">
+                                            <label class="slds-form-element__label slds-no-flex">
+                                                <abbr class="slds-required" title="required">*</abbr>{label.PROJECT_NAME}</label
+                                            >
+                                            <lightning-helptext content={label.PROJECT_NAME_HELPTEXT}></lightning-helptext>
+                                        </div>
+                                        <lightning-input
+                                            class="cds-input"
+                                            name="projectName"
+                                            type="text"
+                                            value={projectName}
+                                            max-length="80"
+                                            onchange={handleChange}
+                                            variant="label-hidden"
+                                            required
+                                        >
+                                        </lightning-input>
+                                    </div>
+                                </template>
+                            </div>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="12" padding="around-small">
+                            <h3 class="pipeline-detail-form-heading">{label.GIT_REPOSITORY}</h3>
+                        </lightning-layout-item>
+                        <lightning-layout-item size="6" padding="around-small">
+                            <div class="cds-form-component">
+                                <lightning-radio-group
+                                    class="cds-radio-group"
+                                    name="gitRepositoryOption"
+                                    variant="label-hidden"
+                                    options={gitRepositoryOptions}
+                                    required
+                                    type="radio"
+                                    value={gitRepositoryOption}
+                                    onchange={handleChange}
+                                >
+                                </lightning-radio-group>
+                            </div>
+                        </lightning-layout-item>
+
+                        <lightning-layout-item size="6" padding="around-small">
+                            <div class="cds-form-component">
+                                <template lwc:if={showGitRepositoryLookup}>
+                                    <div class="label-with-helptext">
+                                        <label class="slds-form-element__label slds-no-flex">
+                                            <abbr class="slds-required" title="required">*</abbr>{label.GIT_REPOSITORY}</label
+                                        >
+                                        <lightning-helptext content={label.GIT_REPOSITORY_HELPTEXT}></lightning-helptext>
+                                    </div>
+                                    <c-lookup
+                                        placeholder={label.SELECT_COPADO_REPOSITORY_PLACEHOLDER}
+                                        variant="label-hidden"
+                                        data-repoid={gitRepositoryId}
+                                        onsearch={handleLookupSearch}
+                                        onselectionchange={getSelectedRepositoryId}
+                                        scroll-after-n-items="5"
+                                    >
+                                    </c-lookup>
+                                </template>
+                            </div>
+                        </lightning-layout-item>
+                    </lightning-layout>
+
+                    <lightning-layout lwc:if={showAdditionalFields} multiple-rows>
+                        <lightning-layout-item size="12" padding="around-small">
+                            <h3 class="pipeline-detail-form-heading label-with-helptext">
+                                {fieldSetInformation.label}
+                                <lightning-helptext content={fieldSetInformation.description}></lightning-helptext>
+                            </h3>
+                        </lightning-layout-item>
+
+                        <template for:each={additionalFields} for:item="field">
+                            <lightning-layout-item key={field.name} size="6" padding="around-small">
+                                <div class="cds-form-component">
+                                    <lightning-record-edit-form object-api-name={pipelineObject}>
+                                        <lightning-input-field
+                                            field-name={field.name}
+                                            onchange={handleAdditionalFieldChange}
+                                            class="cds-input"
+                                        ></lightning-input-field>
+                                    </lightning-record-edit-form>
+                                </div>
+                            </lightning-layout-item>
+                        </template>
+                    </lightning-layout>
+                </template>
+                <template lwc:else>
+                    <lightning-layout multiple-rows>
+                        <lightning-layout-item size="12" padding="around-small">
+                            <div class="slds-var-p-bottom_medium">
+                                <c-cds-alert message={label.MISSING_PERMISSIONS} variant="error"> </c-cds-alert>
+                            </div>
+                            <lightning-layout-item size="12">
+                                <p class="validation-text">
+                                    <lightning-formatted-rich-text value={label.MISSING_PERMISSION_VALIDATION_ERROR}></lightning-formatted-rich-text>
+                                </p>
+                            </lightning-layout-item>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </template>
+            </div>
+        </div>
+        <span slot="footer">
+            <lightning-button
+                class="cds-button"
+                label={cancelButtonLabel}
+                title={cancelButtonLabel}
+                variant="neutral"
+                icon-name="utility:close"
+                onclick={handleClickCancel}
+                disabled={showSpinner}
+            >
+            </lightning-button>
+            <lightning-button
+                lwc:if={userHasPermission}
+                class="slds-var-m-left_medium cds-button"
+                variant="brand"
+                label={label.NEXT}
+                onclick={handleNext}
+                disabled={nextDisabled}
+            >
+            </lightning-button>
+        </span>
+    </c-cds-modal>
+</template>

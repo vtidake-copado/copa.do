@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>フィルター</value>
+    </caseValues>
+    <fields>
+        <label>オーナー</label>
+        <name>Owner__c</name>
+        <relationshipLabel>フィルター</relationshipLabel>
+    </fields>
+    <fields>
+        <label>パラメーター</label>
+        <name>Parameters__c</name>
+    </fields>
+    <fields>
+        <label>パイプライン</label>
+        <name>Pipeline__c</name>
+        <relationshipLabel>フィルター</relationshipLabel>
+    </fields>
+    <fields>
+        <label>共有先</label>
+        <name>Share_With__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>全て</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Me</masterLabel>
+            <translation>自分</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>フィルター名</nameFieldLabel>
+</CustomObjectTranslation>

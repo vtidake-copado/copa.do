@@ -1,0 +1,25 @@
+<template>
+    <div class="feature-toggle-detail-wrap">
+        <div class="feature-intro-desc-wrap">
+            <p>{groupDescription}</p>
+        </div>
+        <template lwc:if={isTierGroup}>
+            <c-feature-toggle-tier persona-definition={personaDefinition} feature-toggle-group={featureToggleGroup}></c-feature-toggle-tier>
+        </template>
+
+        <lightning-layout lwc:else multiple-rows pull-to-boundary="small">
+            <template for:each={groupToggles} for:item="featureToggle">
+                <lightning-layout-item
+                    key={featureToggle.name}
+                    size="12"
+                    small-device-size="12"
+                    medium-device-size="6"
+                    large-device-size="6"
+                    padding="around-small"
+                >
+                    <c-feature-toggle-detail persona-definition={personaDefinition} feature-toggle={featureToggle}></c-feature-toggle-detail>
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </div>
+</template>

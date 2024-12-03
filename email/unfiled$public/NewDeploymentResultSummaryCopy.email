@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="Deployment" recipientType="User">
+    <messaging:htmlEmailBody >
+        Hellooo!!!
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

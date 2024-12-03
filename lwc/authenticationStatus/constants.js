@@ -1,0 +1,1 @@
+import RefreshLabel from '@salesforce/label/c.REFRESH';

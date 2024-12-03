@@ -1,0 +1,317 @@
+<apex:component controller="JwtController" id="jwtComponent" allowDML="true">
+    <apex:slds />
+    <apex:stylesheet value="{!URLFOR($Resource.EnableJwt,'jwt.css')}" />
+
+    <head>
+        <script>
+            function showJwtModal() {
+                document.getElementById('jwtModal').style = 'display: block;';
+                return false;
+            }
+
+            function hideModal() {
+                document.getElementById('jwtModal').style = 'display: none;';
+                return false;
+            }
+
+            function validate(cards, isEnabledNew) {
+                var cardsLength = (cards.match(/Card/g)).length;
+                if (cardsLength > 1 && isEnabledNew == 'true') {
+                    return hideModal();
+                }
+            }
+
+            function validateOnDisable(isEnabledNew) {
+                if (isEnabledNew == 'false') {
+                    return hideModal();
+                }
+            }
+        </script>
+    </head>
+
+    <!-- JWT Enabled or Disabled PB-->
+    <apex:pageBlock id="jwt">
+        <div class="cds-alert-wrapper">
+            <div class="cds-alert {!IF(isJwtEnabled == true, 'cds-alert-success', 'cds-alert-base')}">
+                <div class="cds-alert-icon-container">
+                    <span class="cds-icon-container slds-icon_container {!IF(isJwtEnabled == true, 'slds-icon-utility-success', 'slds-icon-utility-info_alt')}">
+                        <apex:outputPanel rendered="{!isJwtEnabled}" layout="block">
+                            <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#success')}"></use>
+                            </svg>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{!!isJwtEnabled}" layout="block">
+                            <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#info_alt')}"></use>
+                            </svg>
+                        </apex:outputPanel>
+                    </span>
+                </div>
+                <div class="cds-alert-content">
+                    <h4 class="cds-alert-title">
+                        {!$Label.AutomateGovCredentials}
+                    </h4>
+                    <span class="cds-alert-subtitle">
+                        <apex:outputText value="{!IF(isJwtEnabled == true, $Label.Enabled, $Label.Disabled)}" />
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="for-equal-height"></div>
+        <apex:pageBlockButtons id="pbbs" location="bottom">
+            <apex:commandButton value="{!IF(isJwtEnabled == true, $Label.Disable_It_Now, $Label.Follow_Instructions)}" action="{!init}"
+                reRender="jwtModalPanel,cardsPanel,jwt,errorPanel" oncomplete="return showJwtModal();" status="loadingStatus" />
+            <apex:actionStatus id="loadingStatus">
+                <apex:facet name="start">
+                    <apex:image url="/img/loading.gif" />
+                </apex:facet>
+            </apex:actionStatus>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+
+    <!-- START :: JWT Configuration Modal -->
+    <div id="jwtModal" class="modal slds-scope" style="display: none;">
+
+        <apex:outputPanel id="jwtModalPanel" layout="block">
+            <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_medium" aria-labelledby="modal-heading-01"
+                aria-modal="true" aria-describedby="modal-content-id-1">
+                <div class="cds-modal-container slds-modal__container">
+                    <header class="cds-modal-header">
+                        <div class="cds-modal-header-left">
+                            <h1 class="cds-modal-heading  slds-hyphenate">
+                                <apex:outputText value="{!IF(isJwtEnabled == true, $Label.Disable, $Label.Enable)}" /> {!$Label.AutomateGovCredentials}
+                            </h1>
+                            <apex:outputPanel rendered="{!!isJwtEnabled}">
+                                <p class="cds-modal-subheading">
+                                    <apex:outputLink value="{!$Label.Copado_DevOps_Connected_App_Documentation_Link}" target="_blank" rendered="{!!isJwtEnabled}">{!$Label.Copado_DevOps_Connected_App}</apex:outputLink>
+                                    &nbsp;
+                                    <apex:outputText value="{!$Label.Enable_Automate_Gov_Credentials_Description}" rendered="{!!isJwtEnabled}"/>
+                                </p>
+                            </apex:outputPanel>
+                        </div>
+                        <div class="cds-modal-header-right">
+                            <span class="cds-icon-container slds-icon_container slds-icon-utility-close" onclick="return hideModal();">
+                                <svg aria-hidden="true" class="slds-icon cds-icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#close')}"></use>
+                                </svg>
+                                <span class="slds-assistive-text">{!$Label.CLOSE}</span>
+                            </span>
+                        </div>
+                    </header>
+                    <!-- Modal Content -->
+                    <div class="slds-modal__content cds-modal-content">
+                        <apex:outputPanel rendered="{!isJwtEnabled}" layout="block">
+                            <div class="cds-alert-wrapper slds-m-bottom_medium">
+                                <div class="cds-alert cds-alert-warning">
+                                    <div class="cds-alert-icon-container">
+                                        <span class="cds-icon-container slds-icon_container slds-icon-utility-info_alt">
+                                            <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#info_alt')}"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="cds-alert-content">
+                                        <h4 class="cds-alert-title">
+                                            <apex:outputText value="{!$Label.Disable_Automate_Gov_Credentials_Warning}" />
+                                        </h4>
+                                        <span class="cds-alert-subtitle">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jwt-disable-body-text">
+                                <apex:outputText styleClass="jwt-disable-text" value="{!$Label.Disable_Automate_Gov_Credentials_Description}"></apex:outputText>
+                            </div>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{!!standardPersonasCreated}" layout="block">
+                            <div class="cds-alert-wrapper slds-m-bottom_medium">
+                                <div class="cds-alert cds-alert-error">
+                                    <div class="cds-alert-icon-container">
+                                        <span class="cds-icon-container slds-icon_container slds-icon-utility-info_alt">
+                                            <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#info_alt')}"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="cds-alert-content">
+                                        <span class="cds-alert-subtitle">
+                                            <apex:outputText value="{!$Label.Pesona_Definition_Validation_Error}" escape="false"></apex:outputText>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </apex:outputPanel>
+                        <apex:outputPanel rendered="{!showError}" layout="block" id="errorPanel">
+                            <div class="cds-alert-wrapper slds-m-bottom_medium">
+                                <div class="cds-alert cds-alert-error">
+                                    <div class="cds-alert-icon-container">
+                                        <span class="cds-icon-container slds-icon_container slds-icon-utility-info_alt">
+                                            <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#info_alt')}"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="cds-alert-content">
+                                        <span class="cds-alert-subtitle">
+                                            <apex:outputText value="{!errorMessage}"></apex:outputText>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </apex:outputPanel>
+                        <div class="record-section-wrap">
+                            <apex:outputPanel rendered="{!!standardPersonasCreated}" layout="block">
+                                <p class="modal-body-text">
+                                    <apex:outputText value="{!$Label.Persona_Management_Subtitle_Info_Part_1}" />&nbsp;
+                                    <apex:commandLink action="{!getPersonaManagementReference}" target="_blank" value="{!$Label.Persona_Management}"></apex:commandLink>&nbsp;
+                                    <apex:outputText value="{!$Label.Persona_Management_Subtitle_Info_Part_2}" />
+                                </p>
+                            </apex:outputPanel>
+                            <apex:outputPanel id="cardsPanel" rendered="{!standardPersonasCreated}" layout="block">
+
+                                <apex:outputPanel rendered="{!showError}" layout="block">
+                                    <div class="cds-alert-wrapper slds-m-bottom_medium">
+                                        <div class="cds-alert cds-alert-error">
+                                            <div class="cds-alert-icon-container">
+                                                <span class="cds-icon-container slds-icon_container slds-icon-utility-info_alt">
+                                                    <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#info_alt')}"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="cds-alert-content">
+                                                <span class="cds-alert-subtitle">
+                                                    <apex:outputText value="{!errorMessage}"></apex:outputText>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </apex:outputPanel>
+
+                                <!-- Poll to get latest status -->
+                                <apex:actionPoller action="{!checkAddPermissionStepsStatus}" reRender="jwt,cardsPanel,thePage:theForm:cmp_jwt:jwtComponent:theRepeat:1:loader,thePage:theForm:cmp_jwt:jwtComponent:theRepeat:1:cardButtonsPanel,thePage:theForm:cmp_jwt:jwtComponent:theRepeat:1:completedIcon,thePage:theForm:cmp_jwt:jwtComponent:theRepeat:1:errorIcon"
+                                    interval="10" enabled="{!isPolling}" />
+
+                                <apex:repeat value="{!cardsList}" var="card" id="theRepeat">
+                                    <div class="record-section-content">
+                                        <div class="record-section-header">
+                                            <div class="badge-title-wrap">
+
+                                                <apex:outputPanel id="completedIcon" layout="block" rendered="{!card.buttonLabel == $Label.Completed}">
+                                                    <span class="slds-badge cds-badge cds-badge-success">
+                                                        <svg aria-hidden="true" class="slds-icon cds-icon">
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#check')}"></use>
+                                                        </svg>
+                                                    </span>
+                                                </apex:outputPanel>
+                                                <apex:outputPanel id="errorIcon" layout="block" rendered="{!card.buttonLabel == $Label.ERROR}">
+                                                    <span class="slds-badge cds-badge cds-badge-error">
+                                                        <svg aria-hidden="true" class="slds-icon cds-icon">
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#close')}"></use>
+                                                        </svg>
+                                                    </span>
+                                                </apex:outputPanel>
+                                                <apex:outputPanel id="loader" layout="block" rendered="{!IF(disableAddPermissionsButton == true && card.id == 'hasPermissionSets' && card.buttonLabel != $Label.Completed && card.buttonLabel != $Label.ERROR, true, false)}">
+                                                    <span class="cds-badge cds-small-loader"></span>
+                                                </apex:outputPanel>
+                                                <apex:outputPanel layout="block" rendered="{!IF(card.buttonLabel != $Label.Completed && card.buttonLabel != $Label.ERROR, true, false)}">
+                                                    <apex:outputPanel layout="block" rendered="{!disableAddPermissionsButton == false || (disableAddPermissionsButton == true && card.id != 'hasPermissionSets')}">
+                                                        <span class="slds-badge">{!card.badgeLabel}</span>
+                                                    </apex:outputPanel>
+                                                </apex:outputPanel>
+                                                <div class="badge-title-detail">
+                                                    <h3 class="title">{!card.title}</h3>
+                                                    <apex:outputPanel rendered="{!card.Id != 'hasPolicies'}" layout="block">
+                                                        <p class="description">
+                                                            <label>{!card.description}</label>
+                                                            <apex:outputLink rendered="{!card.linkUrl != ''}" value="{!card.linkUrl}" target="_blank">{!$Label.Setup}</apex:outputLink>
+                                                        </p>
+                                                    </apex:outputPanel>
+                                                </div>
+                                            </div>
+                                            <apex:outputPanel id="cardButtonsPanel" layout="block" styleClass="cta">
+                                                <apex:commandButton disabled="{!card.buttonLabel == $Label.Completed}" styleClass="slds-button cds-button cds-button-base"
+                                                    value="{!IF(card.buttonLabel == $Label.ERROR && card.id != 'hasPermissionSets', $Label.MarkAsCompleted, card.buttonLabel)}"
+                                                    rendered="{!card.buttonLabel != '' && card.buttonLabel != $Label.Add_Permissions_Now && card.id != 'hasPermissionSets'}"
+                                                    action="{!markAsCompleted}" reRender="cardsPanel,buttonsPanel,jwt,errorPanel"
+                                                    oncomplete="validate('{!cardsList}','{!isJwtEnabled}');">
+                                                    <apex:param name="cardId" value="{!card.id}" assignTo="{!selectedCardId}" />
+                                                </apex:commandButton>
+                                                <apex:commandButton id="addPermissions" action="{!addPermissions}" status="permissionsStatus" rendered="{!card.id == 'hasPermissionSets' && (card.buttonLabel == $Label.Add_Permissions_Now || card.buttonlabel == $Label.ERROR)}"
+                                                    value="{!$Label.Add_Permissions_Now}" disabled="{!disableAddPermissionsButton}"
+                                                    reRender="cardsPanel,buttonsPanel,jwt,errorPanel" styleClass="slds-button slds-button_neutral cds-button cds-button-neutral"
+                                                />
+                                                <apex:actionStatus id="permissionsStatus">
+                                                    <apex:facet name="start">
+                                                        <apex:image url="/img/loading.gif" />
+                                                    </apex:facet>
+                                                </apex:actionStatus>
+                                            </apex:outputPanel>
+                                        </div>
+                                        <apex:outputPanel rendered="{!!isJwtEnabled && card.Id == 'hasPolicies'}" layout="block">
+                                            <div class="cds-alert-wrapper slds-m-top_medium">
+                                                <div class="cds-alert cds-alert-warning warning-alert-container">
+                                                    <div class="cds-alert-content cds-alert-content-left">
+                                                        <div class="cds-alert-icon-container">
+                                                            <span class="cds-icon-container slds-icon_container slds-icon-utility-info_alt">
+                                                                <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#info_alt')}"></use>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                        <h4 class="cds-alert-title">
+                                                            {!card.description}
+                                                        </h4>
+                                                    </div>
+                                                    <div class="cds-alert-content-right">
+                                                        <p class="setup-link">
+                                                            <apex:outputLink rendered="{!card.linkUrl != ''}" value="{!card.linkUrl}" target="_blank">{!$Label.Setup}</apex:outputLink>
+                                                        </p>
+                                                        <div class="cds-alert-icon-container">
+                                                            <span class="cds-icon-container slds-icon_container slds-icon-utility-forward">
+                                                                <svg aria-hidden="true" class="slds-icon cds-alert-icon">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, '/assets/icons/utility-sprite/svg/symbols.svg#forward')}"></use>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </apex:outputPanel>
+                                        <div class="card-image-wrap">
+                                            <apex:image url="{!URLFOR($Resource.EnableJwt,'JwtImages/' + card.imageurl)}" rendered="{!!isJwtEnabled && card.imageurl != ''}"
+                                            />
+                                            <apex:image url="{!URLFOR($Resource.DisableJwt,'DisableJwt/' + card.imageurl)}" rendered="{!isJwtEnabled && card.imageurl != ''}"
+                                            />
+
+                                        </div>
+                                    </div>
+                                </apex:repeat>
+                            </apex:outputPanel>
+                        </div>
+                    </div>
+                    <footer class="cds-modal-footer">
+                        <apex:outputPanel id="buttonsPanel" layout="block">
+                            <apex:commandButton id="cancelButton" value="{!$Label.CLOSE}" styleClass="slds-button slds-button_neutral cds-button cds-button-neutral "
+                                action="{!disablePolling}" reRender="cardsPanel" oncomplete="return hideModal();" status="loadingStatus"
+                            />
+                            <apex:commandButton value="{!$Label.Disable}" styleClass="slds-button slds-button_brand cds-button cds-button-brand " rendered="{!isJwtEnabled}"
+                                disabled="{!!jwtDisableStepCompleted}" action="{!disableJwt}" oncomplete="validateOnDisable('{!isJwtEnabled}');"
+                                reRender="cardsPanel,jwt,errorPanel" status="loadingStatus" />
+                            <apex:actionStatus id="loadingStatus">
+                                <apex:facet name="start">
+                                    <apex:image url="/img/loading.gif" />
+                                </apex:facet>
+                            </apex:actionStatus>
+                        </apex:outputPanel>
+                    </footer>
+                </div>
+            </section>
+
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </apex:outputPanel>
+    </div>
+    <!-- END :: JWT Configuration Modal -->
+
+</apex:component>

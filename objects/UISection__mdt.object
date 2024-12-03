@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Component__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Component</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Extension_Package_Configuration__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Extension Package Configuration</label>
+        <referenceTo>ExtensionPackageConfiguration__mdt</referenceTo>
+        <relationshipLabel>UISections</relationshipLabel>
+        <relationshipName>UISections</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Location__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Location</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TestTool__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Test Tool</label>
+        <referenceTo>TestTool__mdt</referenceTo>
+        <relationshipLabel>UISections</relationshipLabel>
+        <relationshipName>UISections</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WhereIsThisUsed__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Where is this used?</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>UISection</label>
+    <pluralLabel>UISections</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

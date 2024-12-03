@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Automation Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Automation Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action Name --></label>
+        <name>Action_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Result --></label>
+        <name>Action_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Status --></label>
+        <name>Action_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Environment Id --></label>
+        <name>Environment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Execution Id --></label>
+        <name>Job_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automation Log --></label>
+        <name>Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload --></label>
+        <name>Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline Id --></label>
+        <name>Pipeline_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage Id --></label>
+        <name>Stage_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Action Job Execution Ids --></label>
+        <name>Target_Action_Job_Execution_Ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Target Actions --></label>
+        <name>Target_Action_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

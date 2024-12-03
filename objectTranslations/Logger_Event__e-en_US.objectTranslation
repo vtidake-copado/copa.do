@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Logger Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Logger Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Exception Details --></label>
+        <name>Exception_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generic Id --></label>
+        <name>Generic_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limits Usage --></label>
+        <name>Limits_Usage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Level --></label>
+        <name>Log_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payload --></label>
+        <name>Payload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section --></label>
+        <name>Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id --></label>
+        <name>User_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

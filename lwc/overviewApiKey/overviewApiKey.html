@@ -1,0 +1,35 @@
+<template>
+    <c-cds-card title={label.API_KEY} has-icon="false" has-header="true" has-header-actions="true" has-footer="true">
+        <div slot="header-actions">
+            <lightning-button
+                class="cds-button"
+                variant="neutral"
+                icon-name="utility:new_window"
+                label={label.TO_ACCOUNT_SUMMARY}
+                onclick={handleClickToAccountSummary}
+                icon-position="right">
+            </lightning-button>
+        </div>
+
+        <div class="cds-card-body-wrap">
+            <lightning-spinner if:true={showSpinner} variant="brand" alternative-text="Loading" size="large"></lightning-spinner>
+
+            <p class="description">
+                {label.STATUS_API_KEY_REQUIRED}
+                <br />
+                ************
+            </p>
+        </div>
+
+        <div slot="footer">
+            <div class="cds-card-footer-wrap">
+                <c-cds-badge if:true={hasApiKey} variant="success" label={label.VALID_KEY}>
+                    <lightning-icon slot="icon" icon-name="utility:success" size="xx-small" class="cds-badge-success-icon"> </lightning-icon>
+                </c-cds-badge>
+                <c-cds-badge if:false={hasApiKey} variant="error" label={label.KEY_NOT_FOUND}>
+                    <lightning-icon slot="icon" icon-name="utility:error" size="xx-small" class="cds-badge-error-icon"> </lightning-icon>
+                </c-cds-badge>
+            </div>
+        </div>
+    </c-cds-card>
+</template>

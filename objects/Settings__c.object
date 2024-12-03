@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>AI_Companion_API_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>AI Companion API Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CAD_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>CAD Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CCH_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>CCH Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CCM_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>CCM Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CST_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>CST Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copado_Licenses__c</fullName>
+        <externalId>false</externalId>
+        <label>Copado Licenses</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Copado_Site__c</fullName>
+        <defaultValue>&quot;http://copado.sandbox.cs17.force.com&quot;</defaultValue>
+        <label>Copado_Site</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>CryptoKEY__c</fullName>
+        <description>Crypto key to use in DeployAPI class.</description>
+        <externalId>false</externalId>
+        <label>CryptoKEY</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Copado_Version__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Current Copado Deployer version that is installed in the Org. This field needs to be maintained in every single Copado version manually.</inlineHelpText>
+        <label>Current Copado Version</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disable_All_Copado_Events__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Disable All Copado Events</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Standard_Function_Edit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>Turn on this checkbox if you want to modify standard functions</inlineHelpText>
+        <label>Enable Standard Function Edit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Standard_Job_Template_Edit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Enable Standard Job Template  Edit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enabled_Multi_Licenses__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Enabled Multi-Licenses</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Functions_Named_Credential__c</fullName>
+        <externalId>false</externalId>
+        <label>Functions Named Credential</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MaximumVolumeSize__c</fullName>
+        <defaultValue>10</defaultValue>
+        <externalId>false</externalId>
+        <label>Maximum Volume Size(GB)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Namespace__c</fullName>
+        <defaultValue>&quot;copado__&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The namespace should contain two underscores &quot;__&quot; e.g. copado__</inlineHelpText>
+        <label>Namespace</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Server_URL__c</fullName>
+        <defaultValue>&quot;https://na.api.copado.com&quot;</defaultValue>
+        <label>Server_URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>copado_functions_webhook_client_key__c</fullName>
+        <externalId>false</externalId>
+        <label>copado functions webhook client key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Settings</label>
+    <visibility>Protected</visibility>
+</CustomObject>

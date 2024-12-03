@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-is-relative">
+        <header class="slds-modal__header slds-text-heading--medium">{label.USER_STORY_BUNDLE_CONFLICTING_COMPONENTS}</header>
+        <div class="slds-p-around_medium">
+            <c-user-story-bundle-metadata-operation-conflict-dialog
+                user-story-metadatas-with-conflict={userStoryMetadatasWithConflicts}
+                show-next="true"
+                package-version-id={recordId}
+                ondeletefrombundledstory={handleDeletionOfUserStoryFromBundle}
+                onnextclick={handleNextClick}
+                oncloseclick={closeModal}>
+            </c-user-story-bundle-metadata-operation-conflict-dialog>
+        </div>
+        <footer class="slds-modal__footer">
+            <lightning-button label={label.CANCEL} class="slds-m-right_small" onclick={closeModal}></lightning-button>
+            <lightning-button disabled={isNextDisabled} label={label.NEXT} variant="brand" onclick={handleNextClick}></lightning-button>
+        </footer>
+    </div>
+</template>

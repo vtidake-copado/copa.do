@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザーストーリーSeleniumテスト</value>
+    </caseValues>
+    <fields>
+        <label>外部ID</label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Seleniumテストグループ</label>
+        <name>Selenium_Test_Group__c</name>
+        <relationshipLabel>ユーザーストーリーSeleniumテスト</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>User_Story__c</name>
+        <relationshipLabel>ユーザーストーリーSeleniumテスト</relationshipLabel>
+    </fields>
+    <nameFieldLabel>ユーザーストーリー Selenium テスト名</nameFieldLabel>
+</CustomObjectTranslation>

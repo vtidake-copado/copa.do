@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Story Data Commit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Story Data Commits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Commit Date --></label>
+        <name>Commit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commit Message --></label>
+        <name>Commit_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Set --></label>
+        <name>Data_Set__c</name>
+        <relationshipLabel><!-- User Story Data Commits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Execution Job --></label>
+        <name>Execution_Job__c</name>
+        <relationshipLabel><!-- User Story Data Commits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Generate Data Set Job Execution Id --></label>
+        <name>Generate_Data_Set_Job_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>User_Story__c</name>
+        <relationshipLabel><!-- User Story Data Commits --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Commit Date once the User Story Data Commit has been created. Please create a new User Story Data Commit. --></errorMessage>
+        <name>Prevent_change_Commit_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Commit Message once the User Story Data Commit has been created. Please create a new User Story Data Commit. --></errorMessage>
+        <name>Prevent_change_Commit_Message</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Data Set once the User Story Data Commit has been created. Please create a new User Story Data Commit. --></errorMessage>
+        <name>Prevent_change_Data_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Execution Job once the User Story Data Commit has been created. Please create a new  User Story Data Commit. --></errorMessage>
+        <name>Prevent_change_Execution_Job</name>
+    </validationRules>
+</CustomObjectTranslation>

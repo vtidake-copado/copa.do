@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Custom_Permission_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Custom Permission Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Feature_Toggle_Group__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Feature Toggle Group</label>
+        <referenceTo>Feature_Toggle_Group__mdt</referenceTo>
+        <relationshipLabel>Feature Toggles</relationshipLabel>
+        <relationshipName>Feature_Toggles</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_Description__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Full Description</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Short_Description__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Short Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Feature Toggle</label>
+    <listViews>
+        <fullName>All_Feature_Toggles</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Order__c</columns>
+        <columns>Short_Description__c</columns>
+        <columns>Feature_Toggle_Group__c</columns>
+        <columns>Custom_Permission_Name__c</columns>
+        <columns>NamespacePrefix</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Feature Toggles</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Feature Toggles</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

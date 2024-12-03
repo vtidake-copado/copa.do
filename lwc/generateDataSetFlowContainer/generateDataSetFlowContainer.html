@@ -1,0 +1,7 @@
+<template>
+    <lightning-quick-action-panel header={label.GENERATE_DATA_SET}>
+        <template lwc:if={displayFlow}>
+            <lightning-flow flow-api-name={flowName} flow-input-variables={inputVariables} onstatuschange={handleStatusChange}> </lightning-flow>
+        </template>
+    </lightning-quick-action-panel>
+</template>

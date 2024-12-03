@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>環境変数</value>
+    </caseValues>
+    <fieldSets>
+        <label>関連リスト</label>
+        <name>RelatedList</name>
+    </fieldSets>
+    <fields>
+        <label>環境</label>
+        <name>Environment__c</name>
+        <relationshipLabel>環境変数</relationshipLabel>
+    </fields>
+    <fields>
+        <help>この環境変数のスコープを定義するには、このフィールドを使用します。詳細については、環境変数スコープについてのドキュメントを確認してください。</help>
+        <label>スコープ</label>
+        <name>Scope__c</name>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>Value__c</name>
+    </fields>
+    <nameFieldLabel>環境変数名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>値は必須情報です</errorMessage>
+        <name>Value_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

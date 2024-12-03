@@ -1,0 +1,14 @@
+<template>
+    <div lwc:if={showErrorBanner} class="slds-notify_container slds-is-relative z-index-auto">
+        <div class="slds-notify slds-notify_alert slds-theme_error">
+            <lightning-icon icon-name="utility:warning" size="small" variant="inverse"
+                class="slds-m-right_x-small"></lightning-icon>
+            <h2 class="slds-text-heading_small">
+                <p>
+                    <strong>{label.ACTION_REQUIRED}</strong>: {label.ENVIRONMENT_OUT_OF_SYNC}&nbsp;
+                    <a href="javascript:void(0)" onclick={handleLinkClick} class="vf-link">{label.HERE}</a>.
+                </p>
+            </h2>
+        </div>
+    </div>
+</template>

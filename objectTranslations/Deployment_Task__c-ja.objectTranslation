@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>デプロイメントタスク</value>
+    </caseValues>
+    <fields>
+        <label>適応箇所</label>
+        <name>Apply_to__c</name>
+        <picklistValues>
+            <masterLabel>All Environments in Pipeline</masterLabel>
+            <translation>パイプラインのすべての環境</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific Environments in Pipeline</masterLabel>
+            <translation>パイプラインの特定の環境</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>データテンプレート</label>
+        <name>Data_Template__c</name>
+        <relationshipLabel>デプロイメントタスク</relationshipLabel>
+    </fields>
+    <fields>
+        <label>バックプロモーションのタスクを無効</label>
+        <name>Disable_Task_for_Back_Promotions__c</name>
+    </fields>
+    <fields>
+        <label>タスクの所有者に通知</label>
+        <name>Notify_Task_Owner__c</name>
+    </fields>
+    <fields>
+        <label>順序</label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label>デプロイメントタスクを実行</label>
+        <name>Perform_Manual_Task__c</name>
+        <picklistValues>
+            <masterLabel>After Deployment</masterLabel>
+            <translation>デプロイメント後</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Before Deployment</masterLabel>
+            <translation>デプロイメント前</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>宛先クレデンシャルで実行</label>
+        <name>Perform_in_Destination_Orgs__c</name>
+    </fields>
+    <fields>
+        <label>ソースクレデンシャルで実行</label>
+        <name>Perform_in_Source_Org__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了しました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>下書き</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>タスクの説明</label>
+        <name>Task_Description__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Apex</masterLabel>
+            <translation><!-- Apex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Data</masterLabel>
+            <translation>バルクデータ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRT Automation</masterLabel>
+            <translation>CRTオートメーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Settings</masterLabel>
+            <translation>カスタム設定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data</masterLabel>
+            <translation>データ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Template</masterLabel>
+            <translation>データテンプレート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete MetaData</masterLabel>
+            <translation>メタデータを削除</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Function</masterLabel>
+            <translation>関数</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Task</masterLabel>
+            <translation>マニュアルタスク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Flow</masterLabel>
+            <translation>セールスフォースフロー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URL Callout</masterLabel>
+            <translation>URLコールアウト</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>User_Story__c</name>
+        <relationshipLabel>デプロイメントタスク</relationshipLabel>
+    </fields>
+    <fields>
+        <label>データJSON</label>
+        <name>dataJSON__c</name>
+    </fields>
+    <nameFieldLabel>デプロイメントタスク名</nameFieldLabel>
+</CustomObjectTranslation>

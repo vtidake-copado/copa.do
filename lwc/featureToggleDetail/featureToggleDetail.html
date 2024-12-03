@@ -1,0 +1,61 @@
+<template>
+    <lightning-spinner lwc:if={showSpinner} variant="brand" size="medium"></lightning-spinner>
+    <div class={toggleClass}>
+        <div class="cds-switch-toggle-area">
+            <div class="cds-switch-card-detail">
+                <h5 class="card-title">{featureToggle.label}</h5>
+                <p class="card-description">{featureToggle.shortDescription}</p>
+            </div>
+            <div class="cds-switch-card-actions">
+                <div class="cds-switch-card-link">
+                    <span class="cds-switch-link" onclick={handleOpenModal}>{label.Read_More}</span>
+                </div>
+                <div class="cds-switch-card-toggle">
+                    <lightning-input
+                        class="cds-toggle"
+                        type="toggle"
+                        message-toggle-active={label.On}
+                        message-toggle-inactive={label.Off}
+                        disabled={toggleDisabled}
+                        checked={toggleChecked}
+                        onchange={handleToggleChange}
+                    >
+                    </lightning-input>
+                </div>
+            </div>
+        </div>
+        <div class="cds-switch-dependencies">
+            <lightning-badge
+                lwc:if={showMissingLicenses}
+                label={label.Missing_Licenses}
+                class="cds-info-badge"
+                icon-name="utility:clear"
+                icon-position="left"
+            >
+            </lightning-badge>
+            <lightning-badge
+                lwc:if={showMissingPermissions}
+                label={label.Missing_Permissions}
+                class="cds-info-badge"
+                icon-name="utility:clear"
+                icon-position="left"
+            >
+            </lightning-badge>
+        </div>
+    </div>
+    <c-cds-modal size="small" onmodalclose={handleCancelModal}>
+        <span slot="title">{featureToggle.label}</span>
+        <div slot="modalContent" class="copado-plan-modal-content">
+            <lightning-formatted-rich-text value={modalContent}></lightning-formatted-rich-text>
+        </div>
+        <span slot="footer">
+            <lightning-button
+                label={label.Close}
+                title={label.Close}
+                variant="neutral"
+                onclick={handleCancelModal}
+                class="cds-button"
+            ></lightning-button>
+        </span>
+    </c-cds-modal>
+</template>

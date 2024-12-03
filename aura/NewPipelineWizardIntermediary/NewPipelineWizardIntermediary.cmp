@@ -1,0 +1,3 @@
+<aura:component implements="lightning:actionOverride">
+    <c:pipelineLaunchWizard></c:pipelineLaunchWizard>
+</aura:component>

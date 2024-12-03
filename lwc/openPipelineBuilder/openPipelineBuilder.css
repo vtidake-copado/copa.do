@@ -1,0 +1,6 @@
+/* for use common style from copado design sysyem */
+@import 'c/copadoDesignSystem';
+
+.pb-alert-section {
+    padding-bottom: 1rem;
+}

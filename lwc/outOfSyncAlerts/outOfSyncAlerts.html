@@ -1,0 +1,33 @@
+<template>
+    <lightning-spinner lwc:if={isLoading} size="medium"></lightning-spinner>
+    <div lwc:if={isAccessible} class="slds-var-m-top_small">
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_2-of-3">
+                <div class="slds-theme_default slds-p-bottom_medium">
+                    <div class="slds-text-heading_small slds-theme_shade slds-p-vertical_x-small slds-p-left_large">{label.CUSTOM_CRITERIA}</div>
+                    <div class="slds-m-top_medium">
+                        {label.CUSTOM_CRITERIA_DEFINITION} <a href=" https://docs.copado.com/articles/copado-ci-cd-publication/increase-awareness-with-out-of-sync-pipeline-alerts" target="_blank">{label.MORE_INFORMATION}</a>
+                    </div>
+                </div>
+                <c-copado-scoped-notification lwc:if={noEditPermission} variant="warning" message={label.SYSTEM_PROPERTY_PERMISSION_ALERT}></c-copado-scoped-notification>
+                <c-out-of-sync-filters no-edit-permission={noEditPermission} pipeline-id={recordId}></c-out-of-sync-filters>
+            </div>
+
+            <div class="slds-col slds-size_1-of-3">
+                <div class="slds-box slds-theme_default slds-p-around_medium">
+                    <p class="slds-form-element__legend slds-form-element__label slds-size_1-of-1">{label.OUT_OF_SYNC_ALERTS_INFO}:</p>
+                    <ul class="slds-list_dotted slds-m-top_medium">
+                        <li>{label.USER_STORY_OUT_OF_SYNC_ALERT}</li>
+                        <li>{label.BACK_PROMOTION_OUT_OF_SYNC_ALERT}</li>
+                        <li>{label.COPADO_CLI}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <lightning-card lwc:else>
+        <c-copadocore-illustration name="error:no_access" size="small" message="">
+            <p slot="body">{label.INSUFFICIENT_PERMISSION}</p>
+        </c-copadocore-illustration>
+    </lightning-card>
+</template>

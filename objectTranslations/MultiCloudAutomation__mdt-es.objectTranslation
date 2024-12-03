@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MultiCloudAutomation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MultiCloudAutomations</value>
+    </caseValues>
+    <fields>
+        <help><!-- Provide the name of the action. This value is case sensitive and must match one of the values in the Copado Actions global value set. --></help>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Template API Name --></label>
+        <name>Job_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- Platform Configuration --></label>
+        <name>Platform_Configuration__c</name>
+        <relationshipLabel><!-- MultiCloudAutomations --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

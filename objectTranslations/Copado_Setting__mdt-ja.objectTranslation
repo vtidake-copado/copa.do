@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Copado Setting --></value>
+    </caseValues>
+    <fields>
+        <label>有効</label>
+        <name>Enabled__c</name>
+    </fields>
+    <fields>
+        <label>テキスト項目</label>
+        <name>Text_Field__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MultiCloudAutomation --></value>
+    </caseValues>
+    <fields>
+        <help>アクションの名前を指定します。この値は大文字と小文字を区別し、コパードアクショングローバルバリューセットの値のいずれかと一致する必要があります。</help>
+        <label>アクション</label>
+        <name>Action__c</name>
+    </fields>
+    <fields>
+        <label>ジョブテンプレート API 名</label>
+        <name>Job_Template__c</name>
+    </fields>
+    <fields>
+        <label>プラットフォーム構成</label>
+        <name>Platform_Configuration__c</name>
+        <relationshipLabel>マルチクラウドオートメーション</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

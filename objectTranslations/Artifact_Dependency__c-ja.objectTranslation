@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パッケージの依存性</value>
+    </caseValues>
+    <fields>
+        <help>依存アーティファクトなしでインストールまたは管理できないアーティファクトレコード</help>
+        <label>依存パッケージ</label>
+        <name>Dependent_Artifact__c</name>
+        <relationshipLabel>パッケージの依存関係（依存アーティファクト）</relationshipLabel>
+    </fields>
+    <fields>
+        <help>アーティファクトに依存する下位または同一のバージョン。この特定のバージョンは、バージョンの作成とインストール操作の間に使用されます。</help>
+        <label>パッケージのバージョンに応じて</label>
+        <lookupFilter>
+            <errorMessage>値が存在しないか、フィルタリング条件に一致しません。依存するバージョンは、依存するアーティファクトのバージョンの中から選択する必要があります。</errorMessage>
+        </lookupFilter>
+        <name>Depending_Artifact_Version__c</name>
+        <relationshipLabel>パッケージの依存関係</relationshipLabel>
+    </fields>
+    <fields>
+        <help>依存パッケージのメタデータに必要な依存関係を含む依存パッケージアーティファクト</help>
+        <label>パッケージ依存</label>
+        <name>Depending_Artifact__c</name>
+        <relationshipLabel>パッケージの依存関係（依存アーティファクト）</relationshipLabel>
+    </fields>
+    <fields>
+        <help>チェックされている場合、依存アーティファクトの最新バージョンはバージョン作成とインストール操作に使用されます。</help>
+        <label>最新バージョンに依存します</label>
+        <name>Depends_on_the_latest_version__c</name>
+    </fields>
+    <nameFieldLabel>アーティファクトの依存関係</nameFieldLabel>
+</CustomObjectTranslation>

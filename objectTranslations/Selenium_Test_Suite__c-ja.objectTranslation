@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストスイート</value>
+    </caseValues>
+    <fields>
+        <help>このテストスイートを実行した後に実行するオプションのApexコードです。変数 {!NS} を使って、実行中の環境の名前空間に置き換えることができます。</help>
+        <label>テスト後のApexコード</label>
+        <name>Apex_code_after_test__c</name>
+    </fields>
+    <fields>
+        <help>このテストスイートを実行する前に実行するオプションのApexコードです。 これは、データのクリーンアップや作成に使用することができます。変数 {!NS} を使って、実行環境の名前空間に置き換えることができます。</help>
+        <label>テスト前のApexコード</label>
+        <name>Apex_code_before_test__c</name>
+    </fields>
+    <fields>
+        <label>ノート</label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <help>この検索は、コパード変更管理テストスクリプトに関連しています。</help>
+        <label>テストスクリプト</label>
+        <name>Test_Script__c</name>
+        <relationshipLabel>Seleniumテストスイート</relationshipLabel>
+    </fields>
+    <nameFieldLabel>Seleniumテスト・スイート名</nameFieldLabel>
+    <webLinks>
+        <label>テストケースを追加/削除</label>
+        <name>Add_Remove_Test_Cases</name>
+    </webLinks>
+    <webLinks>
+        <label>テストグループに選択を追加</label>
+        <name>Add_Selection_to_a_Test_Group</name>
+    </webLinks>
+    <webLinks>
+        <label>クイックラン</label>
+        <name>Quick_Run</name>
+    </webLinks>
+</CustomObjectTranslation>

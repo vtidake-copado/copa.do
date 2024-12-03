@@ -1,0 +1,15 @@
+<template>
+    <c-cds-card title={label.ASSIGNED_COPADO_LICENSES} has-icon="false" has-header="true" has-header-actions="true" has-footer="true">
+        <div class="cds-card-body-wrap">
+            <lightning-spinner if:true={showSpinner} variant="brand" alternative-text="Loading" size="large"></lightning-spinner>
+
+            <p class="description">{label.YOUR_CURRENT_LICENSES}</p>
+
+            <ul class="list-container body-item">
+                <template for:each={listLicenses} for:item="license">
+                    <li key={license} class="list-item">{license}</li>
+                </template>
+            </ul>
+        </div>
+    </c-cds-card>
+</template>

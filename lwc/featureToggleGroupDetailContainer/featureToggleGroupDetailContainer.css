@@ -1,0 +1,11 @@
+/* for use common style from copado design sysyem */
+@import 'c/copadoDesignSystem';
+
+.feature-intro-desc-wrap {
+    padding-bottom: 1rem;
+}
+
+.feature-intro-desc-wrap p {
+    font-size: 0.875rem;
+    color: var(--cds-semantic-color-text-secondary);
+}

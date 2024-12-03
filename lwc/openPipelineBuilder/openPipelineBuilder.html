@@ -1,0 +1,26 @@
+<template>
+    <div class="slds-is-relative">
+        <div class="slds-is-relative modal-height">
+            <header class="slds-modal__header">
+                <div>
+                    <h2 class="slds-text-heading_medium slds-hyphenate">{label.PIPELINE_BUILDER}</h2>
+                </div>
+            </header>
+
+            <div class="slds-modal__content slds-var-p-around_medium">
+                <div class="pb-alert-section">
+                    <template lwc:if={showError}>
+                        <c-cds-alert message={errorTitle} variant="error"> </c-cds-alert>
+                    </template>
+                    <div class="slds-var-m-around_medium">
+                        <lightning-formatted-rich-text value={errorMessage}> </lightning-formatted-rich-text>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="slds-modal__footer modal-footer">
+                <lightning-button class="cds-button" label={label.CANCEL} variant="neutral" onclick={handleCancel}> </lightning-button>
+            </footer>
+        </div>
+    </div>
+</template>

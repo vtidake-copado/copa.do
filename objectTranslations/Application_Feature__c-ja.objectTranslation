@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>機能(フィーチャー)</value>
+    </caseValues>
+    <fields>
+        <label>アプリケーション</label>
+        <name>Application__c</name>
+        <relationshipLabel>機能</relationshipLabel>
+    </fields>
+    <fields>
+        <label>アーキテクト</label>
+        <name>Architect__c</name>
+        <relationshipLabel>機能（アーキテクト）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>複雑さ</label>
+        <name>Complexity__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>エピック</label>
+        <name>Epic__c</name>
+        <relationshipLabel>機能</relationshipLabel>
+    </fields>
+    <fields>
+        <label>推定値</label>
+        <name>Estimated_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Feature --></label>
+        <name>Parent_Feature__c</name>
+        <relationshipLabel><!-- Child Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>優先度</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>プロダクトオーナー</label>
+        <name>Product_Owner__c</name>
+        <relationshipLabel>特長（所有者）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>受け入れ済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coming Soon</masterLabel>
+            <translation>近日公開</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation>デリバリー済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Refinement</masterLabel>
+            <translation>リファインメント準備完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinement in Progress</masterLabel>
+            <translation>リファインメント進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation>要求済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation>レビュー中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>機能に関する技術的な仮定または設計上の考慮事項</help>
+        <label>技術的な前提条件</label>
+        <name>Technical_Assumptions__c</name>
+    </fields>
+    <fields>
+        <label>＃ユーザー</label>
+        <name>Users__c</name>
+    </fields>
+    <fields>
+        <help>機能要件のビジネス価値</help>
+        <label>値タイプ</label>
+        <name>Value_Type__c</name>
+        <picklistValues>
+            <masterLabel>New Revenue</masterLabel>
+            <translation>新規収益</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time Savings</masterLabel>
+            <translation>時間を節約</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>機能名</nameFieldLabel>
+</CustomObjectTranslation>

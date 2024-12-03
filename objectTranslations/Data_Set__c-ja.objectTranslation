@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>データセット</value>
+    </caseValues>
+    <fields>
+        <help>選択したデータテンプレートは、オブジェクトの関係、関連フィールド、フィルタリングのベースとして使用されます。</help>
+        <label>データテンプレート</label>
+        <name>Data_Template__c</name>
+        <relationshipLabel>データセット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>ジョブ実行</label>
+        <name>Execution_Job__c</name>
+        <relationshipLabel>データセット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ファイルの実行状況</label>
+        <name>Execution_Status__c</name>
+    </fields>
+    <fields>
+        <help>この日付は、ソース環境からデータセットのCSVファイルを生成する際に、コパードによって自動的に更新されます。外部データベースまたはプロセスから CSV ファイルを生成する場合には、この値を更新してください。</help>
+        <label>最終生成日付</label>
+        <name>Last_Generated_Date__c</name>
+    </fields>
+    <fields>
+        <label>MCDD有効</label>
+        <name>MCDD_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Platform --></label>
+        <name>Platform__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDX</masterLabel>
+            <translation><!-- SFDX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce</masterLabel>
+            <translation><!-- Salesforce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>最終世代のデータ・セットからデータが抽出された環境。</help>
+        <label>データソース環境</label>
+        <name>Source_Org__c</name>
+        <relationshipLabel>データセット</relationshipLabel>
+    </fields>
+    <nameFieldLabel>データセット名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>データセットが作成されたら、データテンプレートを変更することはできません。新しいデータセットを作成してください。</errorMessage>
+        <name>Prevent_change_Data_Template</name>
+    </validationRules>
+</CustomObjectTranslation>

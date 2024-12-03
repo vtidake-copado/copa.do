@@ -1,0 +1,42 @@
+<template>
+    <div class="slds-is-relative slds-p-left_medium slds-p-right_medium modal-height">
+        <template lwc:if={showSpinner}>
+            <c-spinner-with-message message={spinnerMessage} alternative-text={spinnerMessage} variant="brand"></c-spinner-with-message>
+        </template>
+        <template lwc:else>
+            <c-copado-alert lwc:if={showInfo} message={infoMessage} variant="info"></c-copado-alert>
+            <p class="slds-p-top_medium">{labels.CONFLICTING_USER_STORIES_SUBTITLE}</p>
+            <div class="slds-p-top_medium">
+                <c-datatable-container icon-name={icons.STANDARD_ACCOUNT} has-body="true">
+                    <span slot="title">
+                        <h1>{labels.CONFLICTING_USER_STORIES}</h1>
+                    </span>
+                    <span slot="actions">
+                        <lightning-button
+                            disabled={disableRemoveSelected}
+                            label={labels.REMOVE_SELECTED_FROM_BUNDLE}
+                            variant="neutral"
+                            onclick={handleRemoveSelectedFromBundle}></lightning-button>
+                    </span>
+                    <div slot="datatable">
+                        <template lwc:if={hasConflictingUserStoryMetadatas}>
+                            <lightning-datatable
+                                data={userStoryMetadatasWithConflict}
+                                columns={columns}
+                                key-field="Id"
+                                onrowselection={handleRowSelection}
+                                onsort={handleSort}
+                                sorted-direction={sortDirection}
+                                sorted-by={sortedBy}></lightning-datatable>
+                        </template>
+                        <template lwc:else>
+                            <c-copadocore-illustration name="misc:no_content" size="small">
+                                <p slot="body">{labels.NO_CONFLICTING_US_FOR_USB}</p>
+                            </c-copadocore-illustration>
+                        </template>
+                    </div>
+                </c-datatable-container>
+            </div>
+        </template>
+    </div>
+</template>

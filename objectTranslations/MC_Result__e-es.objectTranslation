@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>MC Result</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>MC Results</value>
+    </caseValues>
+    <fields>
+        <label><!-- Error Code --></label>
+        <name>Error_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Finished --></label>
+        <name>IsFinished__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Success --></label>
+        <name>IsSuccess__c</name>
+    </fields>
+    <fields>
+        <label><!-- Progress Status --></label>
+        <name>Progress_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result Id --></label>
+        <name>ResultId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result Data --></label>
+        <name>Result_Data__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<template>
+    <lightning-spinner lwc:if={showSpinner} variant="brand" size="medium"></lightning-spinner>
+    <template for:each={groupToggles} for:item="featureToggle">
+        <c-feature-toggle-tier-option
+            key={featureToggle.name}
+            persona-definition={personaDefinition}
+            feature-toggle={featureToggle}
+            selected-tier={selectedTier}
+            ontierselected={handleSelectTier}
+        ></c-feature-toggle-tier-option>
+    </template>
+</template>

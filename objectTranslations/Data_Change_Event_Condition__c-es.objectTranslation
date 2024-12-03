@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Copado Data Change Event Conditions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Copado Data Change Event Conditions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Allow All Data --></label>
+        <name>Allow_All_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Key --></label>
+        <name>Condition_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Logic --></label>
+        <name>Condition_Logic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete --></label>
+        <name>Delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insert --></label>
+        <name>Insert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Api Name --></label>
+        <name>Object_Api_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Developer Name --></label>
+        <name>Record_Type_Developer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscriber Code --></label>
+        <name>Subscriber_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Undelete --></label>
+        <name>Undelete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update --></label>
+        <name>Update__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

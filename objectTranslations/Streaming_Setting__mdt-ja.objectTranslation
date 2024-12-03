@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Streaming Setting --></value>
+    </caseValues>
+    <fields>
+        <help>ストリーミングチャネル（PushTopic）の名前</help>
+        <label>チャネル名</label>
+        <name>Channel_Name__c</name>
+    </fields>
+    <fields>
+        <help>有効にすると、指定したチャンネルのストリーミングがリアルタイムで追跡できます。</help>
+        <label>有効</label>
+        <name>Enabled__c</name>
+    </fields>
+    <fields>
+        <help>指定されたチャンネルのストリーミングサービスは、タイムアウト（ミリ秒）に達したときに登録解除されます。</help>
+        <label>タイムアウト</label>
+        <name>Timeout__c</name>
+    </fields>
+</CustomObjectTranslation>

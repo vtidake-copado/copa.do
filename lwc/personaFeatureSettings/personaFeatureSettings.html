@@ -1,0 +1,19 @@
+<template>
+    <div class="persona-card">
+        <div class="feature-toogle-content">
+            <lightning-spinner lwc:if={showSpinner} variant="brand" size="large"></lightning-spinner>
+            <div class="feature-toogle-content-header">
+                <div class="cds-icon-container">
+                    <lightning-icon icon-name="utility:puzzle" class="cds-icon"></lightning-icon>
+                </div>
+                <div class="feature-toogle-title-container">
+                    <h2 class="feature-toogle-title">{featuresAvailableLabel}</h2>
+                    <p class="feature-toogle-subtitle">{label.Feature_Settings_Subtitle}</p>
+                </div>
+            </div>
+            <div class="feature-toogle-wrapper">
+                <c-feature-detail-container persona-definition={personaDefinition} feature-toggles={featureToggles}></c-feature-detail-container>
+            </div>
+        </div>
+    </div>
+</template>

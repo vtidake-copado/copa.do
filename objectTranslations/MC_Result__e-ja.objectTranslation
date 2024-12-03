@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- MC Result --></value>
+    </caseValues>
+    <fields>
+        <label>エラーコード</label>
+        <name>Error_Code__c</name>
+    </fields>
+    <fields>
+        <label>エラーメッセージ</label>
+        <name>Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>終了しました</label>
+        <name>IsFinished__c</name>
+    </fields>
+    <fields>
+        <label>成功しました</label>
+        <name>IsSuccess__c</name>
+    </fields>
+    <fields>
+        <label>進行状況</label>
+        <name>Progress_Status__c</name>
+    </fields>
+    <fields>
+        <label>結果ID</label>
+        <name>ResultId__c</name>
+    </fields>
+    <fields>
+        <label>結果データ</label>
+        <name>Result_Data__c</name>
+    </fields>
+</CustomObjectTranslation>

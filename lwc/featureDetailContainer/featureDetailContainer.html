@@ -1,0 +1,23 @@
+<template>
+    <div class="feature-section-container">
+        <lightning-tabset class="cds-scoped-tabs">
+            <template lwc:if={featureToggleGroups}>
+                <template for:each={featureToggleGroups} for:item="featureToggleGroup">
+                    <lightning-tab
+                        key={featureToggleGroup.name}
+                        label={featureToggleGroup.label}
+                        value={featureToggleGroup.name}
+                        icon-name={featureToggleGroup.iconName}
+                    >
+                        <div class="feature-box">
+                            <c-feature-toggle-group-detail-container
+                                persona-definition={personaDefinition}
+                                feature-toggle-group={featureToggleGroup}
+                            ></c-feature-toggle-group-detail-container>
+                        </div>
+                    </lightning-tab>
+                </template>
+            </template>
+        </lightning-tabset>
+    </div>
+</template>

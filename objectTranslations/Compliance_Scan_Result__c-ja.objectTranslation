@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コンプライアンス・スキャン結果</value>
+    </caseValues>
+    <fieldSets>
+        <label>コンプライアンス結果タブ</label>
+        <name>Compliance_Result_Tab</name>
+    </fieldSets>
+    <fields>
+        <label>デプロイメントステップ</label>
+        <name>Deployment_Step__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>デプロイメント</label>
+        <name>Deployment__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>環境</label>
+        <name>Environment__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>所見（Findings)</label>
+        <name>Findings__c</name>
+    </fields>
+    <fields>
+        <label>Gitスナップショット</label>
+        <name>Git_Snapshot__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <help>コンプライアンス調査結果の中で最も厳しい処置</help>
+        <label>最上位のルール処置</label>
+        <name>Highest_Rule_Action__c</name>
+    </fields>
+    <fields>
+        <help>コンプライアンスに関する指摘事項で最も重大なもの</help>
+        <label>深刻度(最大)</label>
+        <name>Highest_Severity__c</name>
+    </fields>
+    <fields>
+        <label>クレデンシャル</label>
+        <name>Org_Credential__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <fields>
+        <label>解決策の詳細</label>
+        <name>Resolution_Details__c</name>
+    </fields>
+    <fields>
+        <label>分単位でのスキャン間隔</label>
+        <name>Scan_Duration_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>スキャン終了</label>
+        <name>Scan_End__c</name>
+    </fields>
+    <fields>
+        <label>スキャン開始</label>
+        <name>Scan_Start__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed - Findings detected</masterLabel>
+            <translation>完了 - 検出された結果</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - No Findings</masterLabel>
+            <translation>完了 - 見つかりませんでした。</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed - Resolved</masterLabel>
+            <translation>完了しました - 解決済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>エラー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Investigation</masterLabel>
+            <translation>調査中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ユーザーストーリー</label>
+        <name>User_Story__c</name>
+        <relationshipLabel>コンプライアンススキャン結果</relationshipLabel>
+    </fields>
+    <nameFieldLabel>スキャン結果参照</nameFieldLabel>
+    <recordTypes>
+        <description>このレコードタイプは、コパードによって生成されたスキャン結果に使用されます。</description>
+        <label>コパード</label>
+        <name>Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>このレコードタイプを使用して、セールスフォース以外のスキャン結果をキャプチャします。</description>
+        <label>その他</label>
+        <name>Other</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,163 @@
+<template>
+    <c-cds-modal size="medium" onmodalclose={handleClickCancel} hide-close={finishWizardButtonDisabled}>
+        <span slot="title">{label.NEW_PIPELINE}</span>
+        <span slot="tagline" lwc:if={page2}>{label.CHOOSE_TEMPLATE_TITLE}</span>
+        <div slot="modalContent" class="wizard-modal-content">
+            <lightning-spinner lwc:if={running} variant="brand" size="large"> </lightning-spinner>
+            <div class="pipeline-template" lwc:if={page1}>
+                <c-git-repo-authentication
+                    record-id={gitRepositoryId}
+                    hide-illustrator
+                    mode="pipelineWizard"
+                    onauthenticationcompleted={handleDataFromAuthentication}
+                ></c-git-repo-authentication>
+            </div>
+            <div class="pipeline-template" lwc:else>
+                <lightning-layout multiple-rows>
+                    <lightning-layout-item lwc:if={showError} size="12">
+                        <div class="slds-var-p-bottom_medium">
+                            <c-cds-alert message={errorMessage} variant="error"></c-cds-alert>
+                        </div>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6">
+                        <div class="pipeline-template-left">
+                            <div class="pipeline-type-selection">
+                                <div class={sequentialCardClass} onclick={handleChangePipelineType} data-name={constants.PIPELINE_TYPE_SEQUENTIAL}>
+                                    <div class="card-selection">
+                                        <span></span>
+                                    </div>
+                                    <div class="cds-radio-detail">
+                                        <h5 class="title">{label.SEQUENTIAL_DEVELOPMENT_PIPELINE_TITLE}</h5>
+                                        <p class="description">{label.SEQUENTIAL_DEVELOPMENT_PIPELINE_DESCRIPTION}</p>
+                                    </div>
+                                </div>
+                                <div class={parallelCardClass} onclick={handleChangePipelineType} data-name={constants.PIPELINE_TYPE_PARALLEL}>
+                                    <div class="card-selection">
+                                        <span></span>
+                                    </div>
+                                    <div class="cds-radio-detail">
+                                        <h5 class="title">{label.PARALLEL_DEVELOPMENT_PIPELINE_TITLE}</h5>
+                                        <p class="description">
+                                            <lightning-formatted-rich-text
+                                                value={label.PARALLEL_DEVELOPMENT_PIPELINE_DESCRIPTION}
+                                            ></lightning-formatted-rich-text>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dev-environments-wrap">
+                                <template lwc:if={isParallel}>
+                                    <div class="dev-environments">
+                                        <div class="label-with-helptext">
+                                            <label class="dev-environment-label">
+                                                <span class="slds-required" title="required">*</span>
+                                                {label.DEVELOPMENT_STREAMS}</label
+                                            >
+                                            <lightning-helptext
+                                                icon-name="utility:info_alt"
+                                                content={label.DEVELOPMENT_STREAMS_HELPTEXT}
+                                            ></lightning-helptext>
+                                        </div>
+                                        <div class="environment-counter">
+                                            <div onclick={decreaseStreamsCount} class={streamsCounterInputClasses}>
+                                                <lightning-icon icon-name="utility:dash" size="x-small"> </lightning-icon>
+                                            </div>
+                                            <lightning-input
+                                                type="number"
+                                                variant="label-hidden"
+                                                value={streamsCount}
+                                                onchange={handleChangeStreamsCount}
+                                                class="cds-input input-counter"
+                                                min="2"
+                                            >
+                                            </lightning-input>
+                                            <div onclick={increaseStreamsCount} class="cds-counter-icon counter-add-icon">
+                                                <lightning-icon icon-name="utility:add" size="x-small"> </lightning-icon>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </template>
+                                <div class="dev-environments">
+                                    <div class="label-with-helptext">
+                                        <label class="dev-environment-label">
+                                            <span class="slds-required" title="required">*</span>
+                                            {developmentEnvironmentsLabel}</label
+                                        >
+                                        <lightning-helptext
+                                            icon-name="utility:info_alt"
+                                            content={developmentEnvironmentsHelptext}
+                                        ></lightning-helptext>
+                                    </div>
+                                    <div class="environment-counter">
+                                        <div onclick={decreaseEnvironmentsCount} class={environmentsCounterInputClasses}>
+                                            <lightning-icon icon-name="utility:dash" size="x-small"> </lightning-icon>
+                                        </div>
+                                        <lightning-input
+                                            type="number"
+                                            variant="label-hidden"
+                                            value={environmentsCount}
+                                            onchange={handleChangeEnvironmentsCount}
+                                            class="cds-input input-counter"
+                                            min="1"
+                                        >
+                                        </lightning-input>
+                                        <div onclick={increaseEnvironmentsCount} class="cds-counter-icon counter-add-icon">
+                                            <lightning-icon icon-name="utility:add" size="x-small"> </lightning-icon>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6">
+                        <div class="pipeline-template-right">
+                            <div class="example-box">
+                                <h5>{label.EXAMPLE}</h5>
+                                <div class="example-representation">
+                                    <template lwc:if={isSequential}>
+                                        <img src={sequentialPreview} />
+                                    </template>
+                                    <template lwc:if={isParallel}>
+                                        <img src={parallelPreview} />
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div>
+        </div>
+        <span slot="footer">
+            <lightning-button
+                class="cds-button"
+                label={label.CANCEL}
+                title={label.CANCEL}
+                variant="neutral"
+                icon-name="utility:close"
+                onclick={handleClickCancel}
+                disabled={finishWizardButtonDisabled}
+            >
+            </lightning-button>
+            <lightning-button
+                lwc:if={page1}
+                class="slds-var-m-left_medium cds-button"
+                variant="brand"
+                label={label.NEXT}
+                onclick={handleNext}
+                disabled={nextButtonDisabled}
+            >
+            </lightning-button>
+            <lightning-button
+                lwc:if={page2}
+                class="slds-var-m-left_medium cds-button"
+                variant="brand"
+                icon-position="right"
+                icon-name="utility:forward"
+                label={finishWizardLabel}
+                onclick={finishWizard}
+                disabled={finishWizardButtonDisabled}
+            >
+            </lightning-button>
+        </span>
+    </c-cds-modal>
+</template>

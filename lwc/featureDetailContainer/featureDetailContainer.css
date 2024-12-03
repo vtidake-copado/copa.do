@@ -1,0 +1,28 @@
+/* for use common style from copado design sysyem */
+@import "c/copadoDesignSystem";
+
+.cds-scoped-tabs {
+    --slds-c-tabs-item-text-color: var(--cds-semantic-color-text-secondary);
+    --slds-c-tabs-item-text-color-active: var(--cds-semantic-color-text-primary);
+    --slds-c-tabs-item-color-border-active: var(--cds-semantic-color-accent-primary);
+    --slds-c-tabs-item-color-border-hover: var(--cds-semantic-color-accent-primary);
+    --slds-c-tabs-item-spacing-inline-start: 1rem;
+    --slds-c-tabs-item-spacing-inline-end: 1rem;
+    --slds-c-tabs-item-sizing-height: 3.5rem;
+    --slds-c-tabs-item-line-height: 3.5rem;
+    --slds-c-tabs-panel-spacing-block-end: 0;
+    --slds-c-tabs-panel-spacing-block-start: 0;
+    --slds-c-tabs-panel-spacing-inline-end: 0;
+    --slds-c-tabs-panel-spacing-inline-start: 0;
+    --slds-c-tabs-list-sizing-border: 2px;
+    --slds-c-tabs-list-color-border: var(--border-color);
+}
+
+
+.feature-box {
+    min-height: 18rem;
+    padding: 1rem;
+    background: var(--white, #FFFFFF);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
