@@ -195,14 +195,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AccountOperationsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountUtilsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ApexCoverageService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -215,15 +207,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>BOT_ApexClass1Test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>BOT_ApexClass2</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BOT_ApexClass2Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -236,10 +220,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CalculatorTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CameraTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -3776,10 +3756,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>StringUtils</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>StringUtilsTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
