@@ -4,9 +4,5 @@
         <members>DuplicateName</members>
         <name>PermissionSet</name>
     </types>
-    <types>
-        <members>DuplicateName</members>
-        <name>Profile</name>
-    </types>
     <version>62.0</version>
 </Package>
