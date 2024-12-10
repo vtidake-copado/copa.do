@@ -4,5 +4,9 @@
         <members>PS_With_Profile</members>
         <name>PermissionSet</name>
     </types>
+    <types>
+        <members>Profile With PS</members>
+        <name>Profile</name>
+    </types>
     <version>62.0</version>
 </Package>
