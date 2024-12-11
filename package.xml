@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS_With_Profile</members>
-        <name>PermissionSet</name>
+        <members>site/Vijay_Digital1.sfdc_cms__appPage/mainAppPage</members>
+        <members>site/Vijay_Digital1.sfdc_cms__brandingSet/microsite_template_marketing_branding</members>
+        <members>site/Vijay_Digital1.sfdc_cms__languageSettings/languages</members>
+        <members>site/Vijay_Digital1.sfdc_cms__mobilePublisherConfig/mobilePublisherConfig</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Check_Password</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Error</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Forgot_Password</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Home</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Login</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/News_Detail__c</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Register</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Service_Not_Available</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Too_Many_Requests</members>
+        <members>site/Vijay_Digital1.sfdc_cms__site/Vijay_Digital1</members>
+        <members>site/Vijay_Digital1.sfdc_cms__theme/Marketing_Microsite</members>
+        <members>site/Vijay_Digital1.sfdc_cms__themeLayout/headerAndFooter</members>
+        <members>site/Vijay_Digital1.sfdc_cms__themeLayout/snaThemeLayout</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/checkPasswordResetEmail</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/error</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/forgotPassword</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/home</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/login</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/newsDetail</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/register</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/serviceNotAvailable</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/tooManyRequests</members>
+        <name>DigitalExperience</name>
+    </types>
+    <types>
+        <members>site/Vijay_Digital1</members>
+        <name>DigitalExperienceBundle</name>
+    </types>
+    <types>
+        <members>Vijay_Digital1</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>Vijay_Digital1</members>
+        <name>SiteDotCom</name>
     </types>
     <version>62.0</version>
 </Package>
