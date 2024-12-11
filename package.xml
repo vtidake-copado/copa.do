@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Vijay_Digital</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>site/Vijay_Digital1.sfdc_cms__appPage/mainAppPage</members>
         <members>site/Vijay_Digital1.sfdc_cms__brandingSet/microsite_template_marketing_branding</members>
         <members>site/Vijay_Digital1.sfdc_cms__languageSettings/languages</members>
