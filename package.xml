@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Vijay_Digital</members>
-        <name>CustomSite</name>
-    </types>
-    <types>
         <members>site/Vijay_Digital1.sfdc_cms__appPage/mainAppPage</members>
         <members>site/Vijay_Digital1.sfdc_cms__brandingSet/microsite_template_marketing_branding</members>
         <members>site/Vijay_Digital1.sfdc_cms__languageSettings/languages</members>
@@ -46,50 +42,8 @@
         <name>ExperienceBundle</name>
     </types>
     <types>
-        <members>Vijay Digital.Banned</members>
-        <name>KeywordList</name>
-    </types>
-    <types>
-        <members>Vijay Digital</members>
-        <name>ManagedTopics</name>
-    </types>
-    <types>
-        <members>Vijay Digital.Block_banned_keywords</members>
-        <members>Vijay Digital.Flag_banned</members>
-        <members>Vijay Digital.Freeze_for_frequent_posting</members>
-        <members>Vijay Digital.Replace_banned</members>
-        <members>Vijay Digital.Review_the_first_post</members>
-        <name>ModerationRule</name>
-    </types>
-    <types>
-        <members>SFDC_Default_Navigation_Vijay_Digital</members>
-        <name>NavigationMenu</name>
-    </types>
-    <types>
-        <members>Vijay Digital</members>
-        <name>Network</name>
-    </types>
-    <types>
-        <members>cbVijay_Digital</members>
-        <name>NetworkBranding</name>
-    </types>
-    <types>
-        <members>Vijay Digital Profile</members>
-        <name>Profile</name>
-    </types>
-    <types>
         <members>Vijay_Digital1</members>
         <name>SiteDotCom</name>
-    </types>
-    <types>
-        <members>Vijay Digital.Customer_Members</members>
-        <members>Vijay Digital.Members_without_contribution</members>
-        <members>Vijay Digital.Partner_and_Customer_members</members>
-        <name>UserCriteria</name>
-    </types>
-    <types>
-        <members>Profile With PS</members>
-        <name>Profile</name>
     </types>
     <version>62.0</version>
 </Package>
