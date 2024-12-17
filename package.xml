@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS_With_Profile</members>
-        <name>PermissionSet</name>
+        <members>Vijay_Digital</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>site/Vijay_Digital1</members>
+        <name>DigitalExperienceBundle</name>
+    </types>
+    <types>
+        <members>Vijay_Digital1</members>
+        <name>DigitalExperienceConfig</name>
+    </types>
+    <types>
+        <members>Vijay Digital</members>
+        <name>Network</name>
     </types>
     <version>62.0</version>
 </Package>
