@@ -428,6 +428,13 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Minor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Minor</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>MyList_1__c</fullName>
         <label>MyList_1</label>
         <required>false</required>
