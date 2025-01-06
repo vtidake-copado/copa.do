@@ -7,6 +7,7 @@
     </types>
     <types>
         <members>Purchase__c</members>
+        <members>SBQQ__TaxExemptionCertificate__c</members>
         <name>CustomObject</name>
     </types>
     <version>62.0</version>
