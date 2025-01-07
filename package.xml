@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS_With_Profile</members>
-        <name>PermissionSet</name>
+        <members>copado__CopadoSmartHelpController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Account.Managed_By__c</members>
+        <members>Asset.SBQQ__SubscriptionEndDate__c</members>
+        <members>SBQQ__Dimension__c.SBQQ__Taxable__c</members>
+        <members>copado__Artifact__c.copado__DefaultPath__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Billing_Management__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Document_Detail__c</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Image_Detail__c</members>
+        <name>DigitalExperience</name>
     </types>
     <version>62.0</version>
 </Package>

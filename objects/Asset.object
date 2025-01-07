@@ -244,6 +244,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SBQQ__SubscriptionEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Subscription End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>SerialNumber</fullName>
         <trackHistory>false</trackHistory>
     </fields>
