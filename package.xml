@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>PS_With_Profile</members>
-        <name>PermissionSet</name>
+        <members>Account.Managed_By__c</members>
+        <members>Purchase_Order__c.Account__c</members>
+        <members>Purchase_Order__c.Signed__c</members>
+        <members>Purchase__c.Approved_By__c</members>
+        <members>Purchase__c.Date__c</members>
+        <members>Purchase__c.Signed_By__c</members>
+        <members>SBQQ__OptionConstraint__c.SBQQ__CheckPriorPurchases__c</members>
+        <members>SBQQ__PricingGuidance__c.SBQQ__IncludePriorPurchases__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CMT_1__mdt</members>
+        <members>CMT_2__mdt</members>
+        <members>CMT_3__mdt</members>
+        <members>CMT_4__mdt</members>
+        <members>CMT_5__mdt</members>
+        <members>Purchase_Order__c</members>
+        <members>Purchase__c</members>
+        <name>CustomObject</name>
     </types>
     <version>62.0</version>
 </Package>

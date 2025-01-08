@@ -148,44 +148,35 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>true</enableReports>
+    <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Approved_By__c</fullName>
-        <externalId>false</externalId>
-        <label>Approved By</label>
-        <length>25</length>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Purchase Orders</relationshipLabel>
+        <relationshipName>Purchase_Orders</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Date__c</fullName>
-        <label>Date</label>
-        <required>false</required>
+        <fullName>Signed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Signed</label>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Checkbox</type>
     </fields>
-    <fields>
-        <fullName>Signed_By__c</fullName>
-        <externalId>false</externalId>
-        <label>Signed By</label>
-        <length>25</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Purchase</label>
+    <label>Purchase Order</label>
     <nameField>
-        <label>Name</label>
+        <label>Purchase Order Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Purchases</pluralLabel>
+    <pluralLabel>Purchase Orders</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
