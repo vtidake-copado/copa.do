@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>copado__ACCommitToRunQG</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>copado__ACADEMY</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>copado__Add_Pre_fetched_volume</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>copado__Action_Callback_Flow</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>copado__Application__c-Copa Page Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Profile With PS</members>
-        <name>Profile</name>
+        <members>NameClash</members>
+        <name>PermissionSet</name>
     </types>
     <version>62.0</version>
 </Package>
