@@ -4568,9 +4568,6 @@
         <layout>WebStore-Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
