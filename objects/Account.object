@@ -384,6 +384,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>MaintainedBy__c</fullName>
+        <externalId>false</externalId>
+        <label>MaintainedBy</label>
+        <length>32</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Managed_By__c</fullName>
         <externalId>false</externalId>
         <label>Managed By</label>
@@ -458,6 +468,13 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OpenedOn__c</fullName>
+        <label>OpenedOn</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>OperatingHoursId</fullName>
