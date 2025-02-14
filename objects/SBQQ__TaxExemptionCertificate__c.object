@@ -155,6 +155,146 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>SBQQ__Account__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tax Exemption Certificates</relationshipLabel>
+        <relationshipName>Tax_Exemption_Certificates</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>An Active Certificate will make set the ‘Tax Exempt?’ field on the Active to true</description>
+        <inlineHelpText>An Active Certificate will make set the ‘Tax Exempt?’ field on the Active to true</inlineHelpText>
+        <label>Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CertificateNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Certificate Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Country__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Optional - to track the company address associated to the certificate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ptional - to track the company address associated to the certificate</inlineHelpText>
+        <label>Country</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__County__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>County</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DateIssued__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Date Issued</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Default__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>A certificate can be marked as default only if it is active</description>
+        <inlineHelpText>A certificate can be marked as default only if it is active</inlineHelpText>
+        <label>Default</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ExemptCompanyName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The company name or DBA name associated to the certificate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The company name or DBA name associated to the certificate</inlineHelpText>
+        <label>Exempt Company Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ExpirationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__IssuingAuthority__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The authority, such as a government agency or country (for European organizations), that issued the certificate</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The authority, such as a government agency or country (for European organizations), that issued the certificate</inlineHelpText>
+        <label>Issuing Authority</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Notes__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Notes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PostalCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Postal Code</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__State__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>State</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>SBQQ__StreetAddress_2__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -165,13 +305,29 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>SBQQ__StreetAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Street Address</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>Tax Exemption Certificate</label>
+    <listViews>
+        <fullName>SBQQ__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Tax Exemption Certificate Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Tax Exemption Certificates</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

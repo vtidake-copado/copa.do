@@ -129,6 +129,46 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>SBQQ__CompactLayout</fullName>
+        <description>Used on hover of a rate to display information about the Consumption Schedule</description>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingTerm</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BillingTermUnit</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RatingMethod</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>UnitOfMeasure</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MatchingAttribute</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Compact Layout</label>
+    </fieldSets>
     <fields>
         <fullName>BillingTerm</fullName>
         <inlineHelpText>Number of billing units that this consumption schedule applies to. For example, if the selected Billing Term Unit is Month, enter 12 to apply the consumption schedules for 12 months. Apply consumption schedules to as many as 20 quarters, 60 months, or 5 years.</inlineHelpText>
@@ -164,6 +204,24 @@
         <fullName>RatingMethod</fullName>
         <inlineHelpText>Choose a specific use case to rate usage against this schedule. This is a controlling picklist for the Type field.</inlineHelpText>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Category</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rates</fullName>
+                    <default>true</default>
+                    <label>Rates</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Type</fullName>

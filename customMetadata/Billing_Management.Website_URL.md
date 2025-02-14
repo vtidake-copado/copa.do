@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Site_URL__c</field>
-        <value xsi:type="xsd:string">{!Environment.MySite}</value>
+        <value xsi:type="xsd:string">www.copado.com</value>
     </values>
 </CustomMetadata>

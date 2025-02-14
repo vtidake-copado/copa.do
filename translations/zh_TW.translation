@@ -21,6 +21,4438 @@
         <name>My_Lable_2</name>
     </customLabels>
     <customLabels>
+        <label><!-- Button text for accepting pricing guidance recommendation --></label>
+        <name>SBQQ__Accept_Recommendation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Header --></label>
+        <name>SBQQ__Active_Contract_Selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Active Contracts --></label>
+        <name>SBQQ__Active_Contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Options button label --></label>
+        <name>SBQQ__Add_Options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products button label --></label>
+        <name>SBQQ__Add_Products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Add_To_Favorite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add to Cart button --></label>
+        <name>SBQQ__Add_to_Cart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Add_to_Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog box heading --></label>
+        <name>SBQQ__Alert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Left align text, for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Align_left</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Align right, for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Align_right</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Title --></label>
+        <name>SBQQ__Asset_Selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optionless Config Attributes header --></label>
+        <name>SBQQ__Attributes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available groups column header --></label>
+        <name>SBQQ__Available_Groups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back to Quote button --></label>
+        <name>SBQQ__Back_to_Quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Background color, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Background_color</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Block quote, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Block_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bold font, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Bold</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bullet list, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Bullet_list</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error for encrypted field or failed SOQL query --></label>
+        <name>SBQQ__Can_not_perform_lookup_due_to_field_encryption_or_a_querying_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Button Label --></label>
+        <name>SBQQ__Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract inactive order item --></label>
+        <name>SBQQ__Cannot_contract_inactive_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot delete order with active products --></label>
+        <name>SBQQ__Cannot_delete_order_with_active_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t edit the quantity field. To do so, update the ordered quantity field. --></label>
+        <name>SBQQ__Cannot_update_quantity_field_on_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the order product&apos;s quantity. --></label>
+        <name>SBQQ__Cannot_update_quantity_if_effectiveQty_one_or_zero</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot update quantity on active order item --></label>
+        <name>SBQQ__Cannot_update_quantity_on_active_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the order product&apos;s quantity because it is a component of a bundle. --></label>
+        <name>SBQQ__Cannot_update_quantity_on_component_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Categories header --></label>
+        <name>SBQQ__Categories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Center text, for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Center</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal dialog box heading --></label>
+        <name>SBQQ__Choose_Price_Book</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear fields button label --></label>
+        <name>SBQQ__Clear_Fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear formatting, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Clear_formatting</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Placeholder for empty group description --></label>
+        <name>SBQQ__Click_to_edit_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog helper text --></label>
+        <name>SBQQ__Clone_To_Groups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Configuration Attribute error --></label>
+        <name>SBQQ__Configuration_Attribute_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required configuration error --></label>
+        <name>SBQQ__Configuration_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page title --></label>
+        <name>SBQQ__Configure_Products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Constrain proportions checkbox to keep the width height together --></label>
+        <name>SBQQ__Constrain_proportions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UBP sub title label --></label>
+        <name>SBQQ__Consumption_Schedule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Consumption Schedule Name (field name) --></label>
+        <name>SBQQ__Consumption_Schedule_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Header --></label>
+        <name>SBQQ__Contract_Selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contracting method must match on activation --></label>
+        <name>SBQQ__Contracting_method_must_match</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search message about current search applied to UBP table --></label>
+        <name>SBQQ__Current_search_applied</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal dialog box heading --></label>
+        <name>SBQQ__Custom_Segments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Decrease indent, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Decrease_indent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description --></label>
+        <name>SBQQ__Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line item drawer header label --></label>
+        <name>SBQQ__Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dimensions Label to input width and height --></label>
+        <name>SBQQ__Dimensions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Title --></label>
+        <name>SBQQ__Discount_Schedule_Editor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Web Quote Deprecation Message --></label>
+        <name>SBQQ__EditWebQuoteDeprecationMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal dialog box heading --></label>
+        <name>SBQQ__Edit_Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Title --></label>
+        <name>SBQQ__Edit_Quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen Contracts --></label>
+        <name>SBQQ__Evergreen_Contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Explanation Header to be shown on Pricing guidance dialog. --></label>
+        <name>SBQQ__Explanation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page title --></label>
+        <name>SBQQ__Favorite_Lookup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Label --></label>
+        <name>SBQQ__Favorite_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Feature header --></label>
+        <name>SBQQ__Features</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Fieldset Warning for the dialog --></label>
+        <name>SBQQ__FieldSetWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter button label --></label>
+        <name>SBQQ__Filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Floor Header to be shown on Pricing guidance dialog. --></label>
+        <name>SBQQ__Floor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Font family, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Font_family</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Font size, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Font_size</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Web Document Deprecation Message --></label>
+        <name>SBQQ__GenerateWebDocumentDeprecationMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go button --></label>
+        <name>SBQQ__Go</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Guided Selling --></label>
+        <name>SBQQ__Guided_Selling</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header size, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Header_size</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Increase indent, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Increase_indent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insert image text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Insert_image</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insert or edit image, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Insert_or_edit_image</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insert or edit link, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Insert_or_edit_link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Italic font, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Italic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UBP table sort message, displayed below search bar in ubp rate table --></label>
+        <name>SBQQ__Items_Sorted_by</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back to Quote confirmation title --></label>
+        <name>SBQQ__Leave_page_without_updating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum quantity exceeded error --></label>
+        <name>SBQQ__Maximum_Quantity_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Favorites --></label>
+        <name>SBQQ__My_Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stay on page button --></label>
+        <name>SBQQ__Never_Mind</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No visible options message --></label>
+        <name>SBQQ__No_visible_options_in_feature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None picklist value --></label>
+        <name>SBQQ__None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Norm Header to be shown on Pricing guidance dialog. --></label>
+        <name>SBQQ__Norm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Numbered list, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Numbered_list</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Okay button text for Custom Dialog --></label>
+        <name>SBQQ__Ok</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Options header --></label>
+        <name>SBQQ__Options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal dialog box heading --></label>
+        <name>SBQQ__Popup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price --></label>
+        <name>SBQQ__Price</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing guidance is not available. --></label>
+        <name>SBQQ__PricingGuidanceNotAvailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing Guidance Dialog Title --></label>
+        <name>SBQQ__Pricing_Guidance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Code --></label>
+        <name>SBQQ__Product_Code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Product_Filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Name --></label>
+        <name>SBQQ__Product_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Search header --></label>
+        <name>SBQQ__Product_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page title --></label>
+        <name>SBQQ__Product_Selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Quick_Save_and_Continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name of the Quote Template object --></label>
+        <name>SBQQ__Quote_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label next to Quote Total amount --></label>
+        <name>SBQQ__Quote_Total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page title --></label>
+        <name>SBQQ__Recommended_Products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Redo operation, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Redo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Remove_From_Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Renew_Subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Reset_Column_Widths</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reconfiguring missing quote line message --></label>
+        <name>SBQQ__Return_to_Quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button label --></label>
+        <name>SBQQ__Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Placeholder for search field in ubp rate table --></label>
+        <name>SBQQ__Search_Consumption_Schedule_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search bar placeholder text --></label>
+        <name>SBQQ__Search_Products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page section heading --></label>
+        <name>SBQQ__Segmented_Products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Select_AND_Add_More</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip for header select all --></label>
+        <name>SBQQ__Select_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract selection --></label>
+        <name>SBQQ__Select_Contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog group selection text --></label>
+        <name>SBQQ__Select_Groups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when saving a Quote Template with a Sub Group and null Group --></label>
+        <name>SBQQ__Select_Subgroup_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected Groups column header --></label>
+        <name>SBQQ__Selected_Groups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share button label --></label>
+        <name>SBQQ__Share</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share Favorites --></label>
+        <name>SBQQ__Share_Favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Skip button --></label>
+        <name>SBQQ__Skip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Source, Label for users to know what to input for the image --></label>
+        <name>SBQQ__Source</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page section heading --></label>
+        <name>SBQQ__Standard_Products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start Over button --></label>
+        <name>SBQQ__Start_Over</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Strikethrough font, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Strikethrough</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscript, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Subscript</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page title --></label>
+        <name>SBQQ__Subscription_Selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label shown next to Subtotal amount in Line Editor --></label>
+        <name>SBQQ__Subtotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Suggest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Superscript, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Superscript</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Target Header to be shown on Pricing guidance dialog. --></label>
+        <name>SBQQ__Target</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text color, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Text_color</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when search returned 0 rates --></label>
+        <name>SBQQ__There_are_no_rates_that_match_your_search_criteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back to Quote confirmation content --></label>
+        <name>SBQQ__There_are_unsaved_changes_in_one_or_more_of_your_categories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total label --></label>
+        <name>SBQQ__Total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Underline font, text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Underline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Undo operation text for Quill Rich Text Editor tooltip --></label>
+        <name>SBQQ__Undo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning message to alert user about HTML discrepancy between TinyMCE and Quill f --></label>
+        <name>SBQQ__Unsupported_HTML_tags_detected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button Label --></label>
+        <name>SBQQ__Update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when search term is only 1 character or all wildcard characters --></label>
+        <name>SBQQ__Your_search_term_must_have_2_or_more_characters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message --></label>
+        <name>SBQQ__emptyGroupedQuoteMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Information message for group with no lines --></label>
+        <name>SBQQ__emptyLinesMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message --></label>
+        <name>SBQQ__emptyQuoteMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message explaining to refresh when entity is deleted error occurs --></label>
+        <name>SBQQ__entity_is_deleted_refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message if user tries to renew non-Contract/ServiceContracts via API --></label>
+        <name>SBQQ__err_msg_incorrect_contract_type_when_renew_api</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The system can&apos;t process API calls currently. Please try again in a few minutes. --></label>
+        <name>SBQQ__error_msg_api_limit_reached</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Temporarily unable to process this request, please try again later. --></label>
+        <name>SBQQ__error_msg_dyno_pool_exhausted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message if the user does not have crud permission. --></label>
+        <name>SBQQ__error_no_crud_permission</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message if the user does not have crud permission on a field. --></label>
+        <name>SBQQ__error_no_crud_permission_on_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Full Screen Mode --></label>
+        <name>SBQQ__fullScreenMode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message explaining insufficient access rights for an object --></label>
+        <name>SBQQ__insufficient_access_rights</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message --></label>
+        <name>SBQQ__invalidPricebookEntry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Target Amount field label --></label>
+        <name>SBQQ__lbl_Enter_Target_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Accent Label --></label>
+        <name>SBQQ__lbl_accent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions Label --></label>
+        <name>SBQQ__lbl_actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page header of Contract selection page when renewing Assets --></label>
+        <name>SBQQ__lbl_active_contract_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label on Contract selection page when amending contracts --></label>
+        <name>SBQQ__lbl_active_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Button Label --></label>
+        <name>SBQQ__lbl_add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Group Button Label --></label>
+        <name>SBQQ__lbl_add_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Options Button Label --></label>
+        <name>SBQQ__lbl_add_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products Button Label --></label>
+        <name>SBQQ__lbl_add_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Custom Segments Button Label --></label>
+        <name>SBQQ__lbl_add_segment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Subscriptions Button Label --></label>
+        <name>SBQQ__lbl_add_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Discount Schedule Tier Button --></label>
+        <name>SBQQ__lbl_add_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add to Favorites Button Label --></label>
+        <name>SBQQ__lbl_add_to_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional cloned items --></label>
+        <name>SBQQ__lbl_additional_cloned_items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Documents Related List Label --></label>
+        <name>SBQQ__lbl_additional_docs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Settings Related List --></label>
+        <name>SBQQ__lbl_additional_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert Label - appears when as the header in a modal. --></label>
+        <name>SBQQ__lbl_alert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Label --></label>
+        <name>SBQQ__lbl_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amend Assets Button --></label>
+        <name>SBQQ__lbl_amend</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page header on Amend Contract page --></label>
+        <name>SBQQ__lbl_amend_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label name for amend re-quote --></label>
+        <name>SBQQ__lbl_amend_requote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amendment Opportunity Name --></label>
+        <name>SBQQ__lbl_amendment_opportunity_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amendment Opportunity Name --></label>
+        <name>SBQQ__lbl_amendment_opportunity_name_generic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lbl_and --></label>
+        <name>SBQQ__lbl_and</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV Files --></label>
+        <name>SBQQ__lbl_ap_download_csv_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Org Readiness Check Error message --></label>
+        <name>SBQQ__lbl_ap_org_readiness_fail_cond_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Org Readiness Check Error message --></label>
+        <name>SBQQ__lbl_ap_org_readiness_fail_cond_4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Org Readiness Check Error message --></label>
+        <name>SBQQ__lbl_ap_org_readiness_fail_cond_5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Readiness Details --></label>
+        <name>SBQQ__lbl_ap_org_readiness_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apex Application --></label>
+        <name>SBQQ__lbl_apex_application</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apply Button --></label>
+        <name>SBQQ__lbl_apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Asset Based Label --></label>
+        <name>SBQQ__lbl_asset_based</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Asset Selection Page Header Label --></label>
+        <name>SBQQ__lbl_asset_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Follows the number of Assets found on the Upgrade/Amend Asset Page --></label>
+        <name>SBQQ__lbl_assets_found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assign PSL Steps Label --></label>
+        <name>SBQQ__lbl_assignPSLsteps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Assign Permission Set Licenses --></label>
+        <name>SBQQ__lbl_assign_psl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Attachment Target --></label>
+        <name>SBQQ__lbl_attachment_target</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available Content Column Header Label --></label>
+        <name>SBQQ__lbl_available_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Badge Label --></label>
+        <name>SBQQ__lbl_badge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Browse import File Button --></label>
+        <name>SBQQ__lbl_browse_import_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bundle Layout Header Label --></label>
+        <name>SBQQ__lbl_bundle_layout_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Calculate Button Label --></label>
+        <name>SBQQ__lbl_calculate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist option for Subscription Prorate Precision on Edit Settings page --></label>
+        <name>SBQQ__lbl_calendar_monthly_daily</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Button Label --></label>
+        <name>SBQQ__lbl_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Renew Label --></label>
+        <name>SBQQ__lbl_cancel_renew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-Quote Opportunity Name --></label>
+        <name>SBQQ__lbl_change_opportunity_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Upgrade Readiness --></label>
+        <name>SBQQ__lbl_check_psl_readiness</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Readiness Check for Upgrade --></label>
+        <name>SBQQ__lbl_chkAndAssignPSLsteps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for modal window that pops up prompting user to select a Price Book --></label>
+        <name>SBQQ__lbl_choose_price_book</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Classic Label --></label>
+        <name>SBQQ__lbl_classic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear panel fields Button --></label>
+        <name>SBQQ__lbl_clear_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear Selection Button Label --></label>
+        <name>SBQQ__lbl_clear_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click to follow the product --></label>
+        <name>SBQQ__lbl_click_follow_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click to reveal --></label>
+        <name>SBQQ__lbl_click_to_reveal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click to unfollow the product --></label>
+        <name>SBQQ__lbl_click_unfollow_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Button Label --></label>
+        <name>SBQQ__lbl_clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone From Label --></label>
+        <name>SBQQ__lbl_clone_from</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Button Label --></label>
+        <name>SBQQ__lbl_clone_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Button Label In Progress --></label>
+        <name>SBQQ__lbl_clone_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Line Item Button Label --></label>
+        <name>SBQQ__lbl_clone_line_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title String for Clone Price Rule Page --></label>
+        <name>SBQQ__lbl_clone_price_rule_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Product Children Label --></label>
+        <name>SBQQ__lbl_clone_product_children</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title String for Clone Product Rule Page --></label>
+        <name>SBQQ__lbl_clone_product_rule_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Quote Template Related Button Label --></label>
+        <name>SBQQ__lbl_clone_quote_template_related</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Related Button Records --></label>
+        <name>SBQQ__lbl_clone_related</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Usage Rate Card Related Button Label --></label>
+        <name>SBQQ__lbl_clone_usage_rate_card_related</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close Button Label --></label>
+        <name>SBQQ__lbl_close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Segmented Products Collapse All Button --></label>
+        <name>SBQQ__lbl_collapse_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Collapsed Product Bundle Package Setting --></label>
+        <name>SBQQ__lbl_collapsed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Label --></label>
+        <name>SBQQ__lbl_configure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Products Label --></label>
+        <name>SBQQ__lbl_configure_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Consumption Transaction Restricted Label --></label>
+        <name>SBQQ__lbl_consumption_transaction_restricted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Continue Button Label --></label>
+        <name>SBQQ__lbl_continue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract Based Label --></label>
+        <name>SBQQ__lbl_contract_based</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contract Selector Page  Header Label --></label>
+        <name>SBQQ__lbl_contract_selector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix used for cloning items --></label>
+        <name>SBQQ__lbl_copy_of_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - -  Create New - -  --></label>
+        <name>SBQQ__lbl_create_new_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Label --></label>
+        <name>SBQQ__lbl_custom</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist option for Subscription Term Unit on Edit Settings page --></label>
+        <name>SBQQ__lbl_day</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist option for Subscription Prorate Precision on Edit Settings page --></label>
+        <name>SBQQ__lbl_day_with_calendar_month_weighted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist Value for various fields on Edit Settings Page --></label>
+        <name>SBQQ__lbl_default</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label: Default Group Name --></label>
+        <name>SBQQ__lbl_default_group_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Del Button Label --></label>
+        <name>SBQQ__lbl_del</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Button Label --></label>
+        <name>SBQQ__lbl_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Button Label --></label>
+        <name>SBQQ__lbl_delete_custom_segments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Group Button Label --></label>
+        <name>SBQQ__lbl_delete_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Lines Button Labels --></label>
+        <name>SBQQ__lbl_delete_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description Field --></label>
+        <name>SBQQ__lbl_description_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- De-segment Line Item Action Label --></label>
+        <name>SBQQ__lbl_desegment_line_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details --></label>
+        <name>SBQQ__lbl_details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialogs Label --></label>
+        <name>SBQQ__lbl_dialogs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disable Grouping Button --></label>
+        <name>SBQQ__lbl_disable_grouping</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Disabled Button --></label>
+        <name>SBQQ__lbl_disabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Discount Schedule Amount Label --></label>
+        <name>SBQQ__lbl_discount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display Order --></label>
+        <name>SBQQ__lbl_display_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist Value for several fields on Edit Settings Page --></label>
+        <name>SBQQ__lbl_do_not_display</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Folder --></label>
+        <name>SBQQ__lbl_document_folder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Language --></label>
+        <name>SBQQ__lbl_document_language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Name Label --></label>
+        <name>SBQQ__lbl_document_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist value for Attachment Target on Edit Settings Page --></label>
+        <name>SBQQ__lbl_document_only</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Options Label --></label>
+        <name>SBQQ__lbl_document_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Settings Label --></label>
+        <name>SBQQ__lbl_document_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Templates --></label>
+        <name>SBQQ__lbl_document_templates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Button Label --></label>
+        <name>SBQQ__lbl_edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Block Prices Page Label --></label>
+        <name>SBQQ__lbl_edit_block_prices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button to Open Custom Segment Editor Dialog --></label>
+        <name>SBQQ__lbl_edit_custom_segments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Discount Schedule Label --></label>
+        <name>SBQQ__lbl_edit_discount_schedule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Discount Tiers Page Label --></label>
+        <name>SBQQ__lbl_edit_discount_tiers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Segmented Line --></label>
+        <name>SBQQ__lbl_edit_line</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Quote Lines Page Name --></label>
+        <name>SBQQ__lbl_edit_quote_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Related Content Page Name --></label>
+        <name>SBQQ__lbl_edit_related_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Settings --></label>
+        <name>SBQQ__lbl_edit_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Template Content --></label>
+        <name>SBQQ__lbl_edit_template_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header on Edit Discount Tiers page --></label>
+        <name>SBQQ__lbl_edit_tiers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Editable Term --></label>
+        <name>SBQQ__lbl_editable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Effective Contracted Prices --></label>
+        <name>SBQQ__lbl_effective_contracted_prices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Me Button Label --></label>
+        <name>SBQQ__lbl_email_me</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enable Grouping Button --></label>
+        <name>SBQQ__lbl_enable_grouping</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label on Contract selection page when amending contracts --></label>
+        <name>SBQQ__lbl_evergreen_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lbl_exclude_prior_purchases --></label>
+        <name>SBQQ__lbl_exclude_prior_purchases</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lbl_excludes --></label>
+        <name>SBQQ__lbl_excludes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Execute Label --></label>
+        <name>SBQQ__lbl_execute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Existing Contracts Page Label --></label>
+        <name>SBQQ__lbl_existing_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Segmented Products Expand All Button --></label>
+        <name>SBQQ__lbl_expand_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Expanded Product Bundle Package Setting --></label>
+        <name>SBQQ__lbl_expanded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Favorite Name Label --></label>
+        <name>SBQQ__lbl_favorite_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Favorites found in manager --></label>
+        <name>SBQQ__lbl_favorites_found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Favorites Manager Page Label --></label>
+        <name>SBQQ__lbl_favorites_manager</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Feature Header Instructions Label --></label>
+        <name>SBQQ__lbl_feature_header_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field --></label>
+        <name>SBQQ__lbl_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description --></label>
+        <name>SBQQ__lbl_field_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Metadata not exist for Target Field --></label>
+        <name>SBQQ__lbl_field_metadata_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Name --></label>
+        <name>SBQQ__lbl_field_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field Value --></label>
+        <name>SBQQ__lbl_field_value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Variable Name --></label>
+        <name>SBQQ__lbl_field_variable_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter --></label>
+        <name>SBQQ__lbl_filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find Assets Label --></label>
+        <name>SBQQ__lbl_find_assets</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find Products Label --></label>
+        <name>SBQQ__lbl_find_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find Subscriptions Label --></label>
+        <name>SBQQ__lbl_find_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Forms Label --></label>
+        <name>SBQQ__lbl_forms</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Label --></label>
+        <name>SBQQ__lbl_general</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Document Button Label --></label>
+        <name>SBQQ__lbl_generate_document</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generate Integration User Permissions --></label>
+        <name>SBQQ__lbl_generate_integration_user_permissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Buttons Label --></label>
+        <name>SBQQ__lbl_group_buttons</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Quote field --></label>
+        <name>SBQQ__lbl_group_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Settings --></label>
+        <name>SBQQ__lbl_group_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Groups --></label>
+        <name>SBQQ__lbl_groups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Guided Selling Modal Label --></label>
+        <name>SBQQ__lbl_guided_selling</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header Label --></label>
+        <name>SBQQ__lbl_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hide Label --></label>
+        <name>SBQQ__lbl_hide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hyperlinks Label --></label>
+        <name>SBQQ__lbl_hyperlinks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Icons Label --></label>
+        <name>SBQQ__lbl_icons</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Button --></label>
+        <name>SBQQ__lbl_import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import Lines --></label>
+        <name>SBQQ__lbl_import_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clicked Import Button --></label>
+        <name>SBQQ__lbl_importing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inactive Users with Permission Set. --></label>
+        <name>SBQQ__lbl_inactive_usr_w_ps_lnk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Include Prior Purchases --></label>
+        <name>SBQQ__lbl_include_prior_purchases</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lbl_included --></label>
+        <name>SBQQ__lbl_included</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Included Content Column Header Label --></label>
+        <name>SBQQ__lbl_included_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The Source Field does not exist on the Quote Line Object. --></label>
+        <name>SBQQ__lbl_invalid_source_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The Source Lookup Field does not exist on the Source Lookup Object. --></label>
+        <name>SBQQ__lbl_invalid_source_lookup_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Indicates whether this Asset is the Master Asset used for renewal --></label>
+        <name>SBQQ__lbl_is_master</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- (The direction) Used in picklists on the Edit Settings page. --></label>
+        <name>SBQQ__lbl_left</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line Editor Settings --></label>
+        <name>SBQQ__lbl_line_editor_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Line Items Preview --></label>
+        <name>SBQQ__lbl_line_items_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading Mask Label --></label>
+        <name>SBQQ__lbl_loading_mask</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Locked Term --></label>
+        <name>SBQQ__lbl_locked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Discount Schedule Tier Lower Bound Label --></label>
+        <name>SBQQ__lbl_lower</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field on View Template Content Page --></label>
+        <name>SBQQ__lbl_markup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Master Asset is used to calculate Dates on Renewal Quotes --></label>
+        <name>SBQQ__lbl_master_asset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modified Label --></label>
+        <name>SBQQ__lbl_modified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modify Quote Terms page header Label --></label>
+        <name>SBQQ__lbl_modify_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monthly Price Dimension Label --></label>
+        <name>SBQQ__lbl_month</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist option for Subscription Prorate Precision on Edit Settings page --></label>
+        <name>SBQQ__lbl_monthly_daily</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multi Segment Products --></label>
+        <name>SBQQ__lbl_multi_segment_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name Field --></label>
+        <name>SBQQ__lbl_name_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Net Total --></label>
+        <name>SBQQ__lbl_net_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Group Name --></label>
+        <name>SBQQ__lbl_new_group_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subtitle of Template Content Editor page --></label>
+        <name>SBQQ__lbl_new_template_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next Button Label --></label>
+        <name>SBQQ__lbl_next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None Label --></label>
+        <name>SBQQ__lbl_none</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - -  None - -  --></label>
+        <name>SBQQ__lbl_none_in_list</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Normal Label --></label>
+        <name>SBQQ__lbl_normal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Null Template Exception --></label>
+        <name>SBQQ__lbl_null_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OAuth Admin Label --></label>
+        <name>SBQQ__lbl_oauth_admin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OAuth Refresh Token --></label>
+        <name>SBQQ__lbl_oauth_refresh_token</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Object --></label>
+        <name>SBQQ__lbl_object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Additional Document Upload --></label>
+        <name>SBQQ__lbl_opportunity_additional_document_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Content Oppty Prefix --></label>
+        <name>SBQQ__lbl_oppty_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lbl_or --></label>
+        <name>SBQQ__lbl_or</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order --></label>
+        <name>SBQQ__lbl_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity Available --></label>
+        <name>SBQQ__lbl_order_available_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Start Date --></label>
+        <name>SBQQ__lbl_order_default_start_date_quote_start_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Today --></label>
+        <name>SBQQ__lbl_order_default_start_date_today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Products --></label>
+        <name>SBQQ__lbl_order_edit_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The quantity already selected in this order. --></label>
+        <name>SBQQ__lbl_order_selected_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ordered Quantity --></label>
+        <name>SBQQ__lbl_ordered_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Original Price --></label>
+        <name>SBQQ__lbl_original_price</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Label --></label>
+        <name>SBQQ__lbl_other</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Other Options Label --></label>
+        <name>SBQQ__lbl_other_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- First Page Button Label --></label>
+        <name>SBQQ__lbl_page_first</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last Page Button Label --></label>
+        <name>SBQQ__lbl_page_last</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next Page Button Label --></label>
+        <name>SBQQ__lbl_page_next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous Page Button Label --></label>
+        <name>SBQQ__lbl_page_prev</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Percent of Total Label --></label>
+        <name>SBQQ__lbl_percent_of_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- One or more Quotes require Opportunity update permission. --></label>
+        <name>SBQQ__lbl_permission_to_sync</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please wait --></label>
+        <name>SBQQ__lbl_please_wait</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Plugin Error --></label>
+        <name>SBQQ__lbl_plugin_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Plugins --></label>
+        <name>SBQQ__lbl_plugins</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post to Feed --></label>
+        <name>SBQQ__lbl_post_to_feed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Deploy Perm Sets Label --></label>
+        <name>SBQQ__lbl_postinstallpermsets</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Install Steps Button Label --></label>
+        <name>SBQQ__lbl_postinstallscripts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Install Steps Label --></label>
+        <name>SBQQ__lbl_postinstallsteps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text Indicating action to be taken when enabling PoT Renewals settings. --></label>
+        <name>SBQQ__lbl_pot_renewal_action_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview Label --></label>
+        <name>SBQQ__lbl_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview Area Label --></label>
+        <name>SBQQ__lbl_preview_area</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preview Document Button Label --></label>
+        <name>SBQQ__lbl_preview_document</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous Button Label --></label>
+        <name>SBQQ__lbl_previous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price --></label>
+        <name>SBQQ__lbl_price</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Included Label --></label>
+        <name>SBQQ__lbl_price_included</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header for the Clone Price Rule page --></label>
+        <name>SBQQ__lbl_price_rule_clone_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pricing and Calculation Settings --></label>
+        <name>SBQQ__lbl_pricing_calc_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Primary Buttons Label --></label>
+        <name>SBQQ__lbl_primary_buttons</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Content Product Prefix --></label>
+        <name>SBQQ__lbl_product_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Selection Page Header Label --></label>
+        <name>SBQQ__lbl_product_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available Products --></label>
+        <name>SBQQ__lbl_products_available</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Products found in search and suggest --></label>
+        <name>SBQQ__lbl_products_found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist option for Subscription Prorate Precision on Edit Settings page --></label>
+        <name>SBQQ__lbl_proration_day_of_month</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Permission Set Licenses Error Message Header --></label>
+        <name>SBQQ__lbl_psl_error_msg_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Knowledge Article link for CPQ license readiness --></label>
+        <name>SBQQ__lbl_psl_ka_link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Preparation text for CPQ license readiness --></label>
+        <name>SBQQ__lbl_psl_prepare</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Label --></label>
+        <name>SBQQ__lbl_publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QLE Row Label --></label>
+        <name>SBQQ__lbl_qle_row</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Save Button Label --></label>
+        <name>SBQQ__lbl_quick_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Fields Section Title --></label>
+        <name>SBQQ__lbl_quote_fields_section_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Line Group --></label>
+        <name>SBQQ__lbl_quote_line_group_to_import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Content Quote Prefix --></label>
+        <name>SBQQ__lbl_quote_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Preview Page Header Label --></label>
+        <name>SBQQ__lbl_quote_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Upload --></label>
+        <name>SBQQ__lbl_quote_related_content_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label next to Quote Total value in the Line Editor --></label>
+        <name>SBQQ__lbl_quote_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quoted Quantity --></label>
+        <name>SBQQ__lbl_quoted_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh Prices Button --></label>
+        <name>SBQQ__lbl_refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh Quote Prices --></label>
+        <name>SBQQ__lbl_refresh_quote_prices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Refresh Status --></label>
+        <name>SBQQ__lbl_refresh_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Australia Region --></label>
+        <name>SBQQ__lbl_region_au</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Europe Region --></label>
+        <name>SBQQ__lbl_region_eu</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Japan Region --></label>
+        <name>SBQQ__lbl_region_jp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- North America Region --></label>
+        <name>SBQQ__lbl_region_na</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Additional Document Button Label --></label>
+        <name>SBQQ__lbl_related_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related Items Preview --></label>
+        <name>SBQQ__lbl_related_items_preview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Relationship --></label>
+        <name>SBQQ__lbl_relationship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove from Favorites Button Label --></label>
+        <name>SBQQ__lbl_remove_from_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renew Label --></label>
+        <name>SBQQ__lbl_renew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renew Contracts Label --></label>
+        <name>SBQQ__lbl_renew_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renew Subscriptions Button Label --></label>
+        <name>SBQQ__lbl_renew_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto-generated name for any Renewal Opportunity created by the system --></label>
+        <name>SBQQ__lbl_renewal_opportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request Authorization Label --></label>
+        <name>SBQQ__lbl_request_authorization</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lbl_requires --></label>
+        <name>SBQQ__lbl_requires</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Re-segment Line Item Button hover text --></label>
+        <name>SBQQ__lbl_resegment_line_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Discounts Button Label --></label>
+        <name>SBQQ__lbl_reset_discounts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Revert Button --></label>
+        <name>SBQQ__lbl_revert</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Revert Back To Original Discount Schedule --></label>
+        <name>SBQQ__lbl_revert_discount_schedule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Revise Button Label --></label>
+        <name>SBQQ__lbl_revise</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- (The direction) Used in picklists on the Edit Settings page --></label>
+        <name>SBQQ__lbl_right</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lets the user know that the dependent object is not populated. --></label>
+        <name>SBQQ__lbl_rule_lookup_object_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sample Text Label --></label>
+        <name>SBQQ__lbl_sample</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sample Text Label --></label>
+        <name>SBQQ__lbl_sample_text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Button Label --></label>
+        <name>SBQQ__lbl_save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save &amp; Email Label --></label>
+        <name>SBQQ__lbl_save_and_email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Button Label --></label>
+        <name>SBQQ__lbl_search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Filters Page Header Label --></label>
+        <name>SBQQ__lbl_search_filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add to Quote to see price --></label>
+        <name>SBQQ__lbl_see_price_in_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Segment --></label>
+        <name>SBQQ__lbl_segment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Button Label --></label>
+        <name>SBQQ__lbl_select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select &amp; Add More Label --></label>
+        <name>SBQQ__lbl_select_add_more</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Contract Page Header Label --></label>
+        <name>SBQQ__lbl_select_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Language picklist --></label>
+        <name>SBQQ__lbl_select_language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hover text for select Master Asset button --></label>
+        <name>SBQQ__lbl_select_master</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When manually co-terminating contracts --></label>
+        <name>SBQQ__lbl_select_master_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Products --></label>
+        <name>SBQQ__lbl_select_order_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Upgrades Label --></label>
+        <name>SBQQ__lbl_select_upgrades</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share favorites with other users - button --></label>
+        <name>SBQQ__lbl_share</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share favorites with other users --></label>
+        <name>SBQQ__lbl_share_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modal header text --></label>
+        <name>SBQQ__lbl_share_favorites_hdr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Label --></label>
+        <name>SBQQ__lbl_show</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Skip button, as in go to the next page --></label>
+        <name>SBQQ__lbl_skip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Source lookup field requires a lookup query. --></label>
+        <name>SBQQ__lbl_source_lookup_field_requires_query</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Label --></label>
+        <name>SBQQ__lbl_standard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Salesforce CPQ Integration User (Unmanaged) Permission Set --></label>
+        <name>SBQQ__lbl_standard_objects_access</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Standard Products Table Header --></label>
+        <name>SBQQ__lbl_standard_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The name of the package --></label>
+        <name>SBQQ__lbl_steelbrick_cpq</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription and Renewal Settings --></label>
+        <name>SBQQ__lbl_sub_renewal_settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription Scope --></label>
+        <name>SBQQ__lbl_subscription_scope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription Selection Label --></label>
+        <name>SBQQ__lbl_subscription_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subtotal Label --></label>
+        <name>SBQQ__lbl_subtotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggest label --></label>
+        <name>SBQQ__lbl_suggest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Table Label --></label>
+        <name>SBQQ__lbl_table</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Table Grouped Rows Label --></label>
+        <name>SBQQ__lbl_table_grouped_rows</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Table Header Label --></label>
+        <name>SBQQ__lbl_table_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Table Row Label --></label>
+        <name>SBQQ__lbl_table_row</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Target Field not exist on Target Object --></label>
+        <name>SBQQ__lbl_target_field_not_exist_on_target_object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Target Object not exist --></label>
+        <name>SBQQ__lbl_target_object_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Target Unit Price --></label>
+        <name>SBQQ__lbl_target_unit_price</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header on View Template Content page --></label>
+        <name>SBQQ__lbl_template_content_detail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header on View Template Content page --></label>
+        <name>SBQQ__lbl_template_content_view</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme badge section description label --></label>
+        <name>SBQQ__lbl_theme_badge_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme bundle layout header section description label --></label>
+        <name>SBQQ__lbl_theme_bundle_layout_header_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme configurator custom action section label --></label>
+        <name>SBQQ__lbl_theme_configurator_custom_action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme configurator custom action section description label --></label>
+        <name>SBQQ__lbl_theme_configurator_custom_action_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme contract selector section description label --></label>
+        <name>SBQQ__lbl_theme_contract_selector_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme dialogs section description label --></label>
+        <name>SBQQ__lbl_theme_dialogs_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme drawer section label --></label>
+        <name>SBQQ__lbl_theme_drawer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme drawer section description label --></label>
+        <name>SBQQ__lbl_theme_drawer_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme feature header instructions section description label --></label>
+        <name>SBQQ__lbl_theme_feature_header_instructions_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme forms section description label --></label>
+        <name>SBQQ__lbl_theme_forms_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme genernal section description label --></label>
+        <name>SBQQ__lbl_theme_general_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme brand buttons section description label --></label>
+        <name>SBQQ__lbl_theme_group_buttons_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme groups section description label --></label>
+        <name>SBQQ__lbl_theme_groups_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme header section description label --></label>
+        <name>SBQQ__lbl_theme_header_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme hyperlinks section description label --></label>
+        <name>SBQQ__lbl_theme_hyperlinks_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme icons section description label --></label>
+        <name>SBQQ__lbl_theme_icons_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme loading mask section description label --></label>
+        <name>SBQQ__lbl_theme_loading_mask_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme page header --></label>
+        <name>SBQQ__lbl_theme_page_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme qle rows section description label --></label>
+        <name>SBQQ__lbl_theme_qle_rows_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme standard buttons section description label --></label>
+        <name>SBQQ__lbl_theme_standard_buttons_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme tab section label --></label>
+        <name>SBQQ__lbl_theme_tab</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme tab description label --></label>
+        <name>SBQQ__lbl_theme_tab_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme tables section description label --></label>
+        <name>SBQQ__lbl_theme_table_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme table grouped rows section description label --></label>
+        <name>SBQQ__lbl_theme_table_grouped_rows_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme table header section description label --></label>
+        <name>SBQQ__lbl_theme_table_header_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme table rows section description label --></label>
+        <name>SBQQ__lbl_theme_table_rows_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Discount Schedule Tier Name Label --></label>
+        <name>SBQQ__lbl_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Label --></label>
+        <name>SBQQ__lbl_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Translate Button Label --></label>
+        <name>SBQQ__lbl_translate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Translated Value --></label>
+        <name>SBQQ__lbl_translated_value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Translations Page Header --></label>
+        <name>SBQQ__lbl_translations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Undo Button --></label>
+        <name>SBQQ__lbl_undo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ungroup Quote Button --></label>
+        <name>SBQQ__lbl_ungroup_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Discount Schedule And Stay Button --></label>
+        <name>SBQQ__lbl_update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Updated Price --></label>
+        <name>SBQQ__lbl_updated_price</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upgrade Assets Button Label --></label>
+        <name>SBQQ__lbl_upgrade_assets</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hide Available Upgrades Button --></label>
+        <name>SBQQ__lbl_upgrades_hide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Available Upgrades Button --></label>
+        <name>SBQQ__lbl_upgrades_show</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Quote Lines Button --></label>
+        <name>SBQQ__lbl_upload_quote_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Discount Schedule Tier Upper Bound Label --></label>
+        <name>SBQQ__lbl_upper</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Customer Discount Label --></label>
+        <name>SBQQ__lbl_uppercase_discount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Partner Discount Label --></label>
+        <name>SBQQ__lbl_uppercase_partner_discount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Picklist value for Document Folder on Edit Settings Page --></label>
+        <name>SBQQ__lbl_user_personal_documents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select theme for your user. --></label>
+        <name>SBQQ__lbl_user_theme_selector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Users with Permission Set but no Package License. --></label>
+        <name>SBQQ__lbl_usr_w_ps_no_mpl_lnk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Users Who Need a Permission Set License. --></label>
+        <name>SBQQ__lbl_usr_who_need_psl_lnk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for Virtual Assets --></label>
+        <name>SBQQ__lbl_virtual</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Visit Favorite --></label>
+        <name>SBQQ__lbl_visit_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Visit Product Search --></label>
+        <name>SBQQ__lbl_visit_product_search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wizard Label --></label>
+        <name>SBQQ__lbl_wizard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error for encrypted field or failed SOQL query --></label>
+        <name>SBQQ__lookupQueryError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Opportunity pricebook message --></label>
+        <name>SBQQ__missingOpportunityLineItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message --></label>
+        <name>SBQQ__mobileEmptyLinesMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Number of Consumption Rates queried is greater than the maximum Limit. --></label>
+        <name>SBQQ__msg_above_max_consumption_rate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Number of Consumption Schedules queried is greater than the maximum Limit. --></label>
+        <name>SBQQ__msg_above_max_consumption_schedule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Account renewal model cannot be none --></label>
+        <name>SBQQ__msg_account_renewal_model_no_none</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- After contract, the account renewal model cannot switch --></label>
+        <name>SBQQ__msg_account_renewal_model_no_switch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on INCOMPLETE server call in Aura. --></label>
+        <name>SBQQ__msg_action_not_completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Group Tip --></label>
+        <name>SBQQ__msg_add_group_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Max Options on Configure --></label>
+        <name>SBQQ__msg_add_max_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Min and Max Options on Configure --></label>
+        <name>SBQQ__msg_add_min_and_max_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Min Options on Configure --></label>
+        <name>SBQQ__msg_add_min_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products to Group Tip --></label>
+        <name>SBQQ__msg_add_products_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Products to Quote Tip --></label>
+        <name>SBQQ__msg_add_products_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced Contracting SErvice does not support reevaluate bundle logic --></label>
+        <name>SBQQ__msg_advanced_contract_services_renewal_reevaluate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- msg_all_active_orders_across_quote_must_be_single_contract --></label>
+        <name>SBQQ__msg_all_active_orders_across_quote_must_be_single_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amend re-quote cannot be created because quote is non-current or type is invalid --></label>
+        <name>SBQQ__msg_amend_requote_cannot_create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amend Re-Quote not possible if expired contract associated with the order. --></label>
+        <name>SBQQ__msg_amend_requote_not_valid_expired_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message displayed when data cleanup after a failure is impossible --></label>
+        <name>SBQQ__msg_amendrenew_cleanup_failure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message returned when an invalid backdated amendment is detected --></label>
+        <name>SBQQ__msg_amendrenew_err_backdated_amendment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while calculating amendment or renewal quote --></label>
+        <name>SBQQ__msg_amendrenew_err_calcing_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while creating an Amendment or Renewal Opportunity --></label>
+        <name>SBQQ__msg_amendrenew_err_creating_oppty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while creating amendment or renewal quote --></label>
+        <name>SBQQ__msg_amendrenew_err_creating_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while deleting outdated OppLineItems --></label>
+        <name>SBQQ__msg_amendrenew_err_deleting_olis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while deleting quotes --></label>
+        <name>SBQQ__msg_amendrenew_err_deleting_quotes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading accounts for amendments or renewals --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_accs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading contracted prices for amendments or renewals --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_contracted_prices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading contracts for amendments or renewals --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading OpportunityContactRoles for JSAR --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_ocrs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading opportunities for amendment or renewal --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_opps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading Partners for JSAR --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_partners</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading products for amendments or renewals --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while loading source assets or subs for amend renew --></label>
+        <name>SBQQ__msg_amendrenew_err_loading_source_recs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when amending a subscription that does not exist --></label>
+        <name>SBQQ__msg_amendrenew_err_missing_segment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for JSARerrors thrown by a LineItemConvertible with no records. --></label>
+        <name>SBQQ__msg_amendrenew_err_no_recs_at_all</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors thrown for a null source record in JSAR. --></label>
+        <name>SBQQ__msg_amendrenew_err_no_source_rec</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message displayed when subscription/asset references missing parent. --></label>
+        <name>SBQQ__msg_amendrenew_err_parent_record_not_found</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when sub/asset is part of a bundle but does not have a rootId --></label>
+        <name>SBQQ__msg_amendrenew_err_rootId_null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while saving contracts for amendments or renewals --></label>
+        <name>SBQQ__msg_amendrenew_err_saving_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while saving new OppLineItems --></label>
+        <name>SBQQ__msg_amendrenew_err_saving_olis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while saving opportunities --></label>
+        <name>SBQQ__msg_amendrenew_err_saving_opps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while saving new quote line groups --></label>
+        <name>SBQQ__msg_amendrenew_err_saving_quote_groups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while saving new quote lines --></label>
+        <name>SBQQ__msg_amendrenew_err_saving_quote_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for errors while saving new quotes --></label>
+        <name>SBQQ__msg_amendrenew_err_saving_quotes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when convertible has multiple parents --></label>
+        <name>SBQQ__msg_amendrenew_err_two_parent_convs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PoT cannot calculate 500+ assets --></label>
+        <name>SBQQ__msg_amendrenew_pot_total_incorrect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Must specify configuration field value in API call --></label>
+        <name>SBQQ__msg_api_configuration_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validation error when dynamicOptionSkus field array has null entry --></label>
+        <name>SBQQ__msg_api_dynamicoptionskus_null_entry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Must specify event field value in API call --></label>
+        <name>SBQQ__msg_api_event_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validation error when filters field array has null entry --></label>
+        <name>SBQQ__msg_api_filters_null_entry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- API Name is required --></label>
+        <name>SBQQ__msg_api_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- pageNumber field value must be greater than 0 --></label>
+        <name>SBQQ__msg_api_pagenumber_greater_0</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Must specify process field value in API call --></label>
+        <name>SBQQ__msg_api_process_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validation Error when product id specified on the URL is null --></label>
+        <name>SBQQ__msg_api_product_id_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Must specify quote field value in API call --></label>
+        <name>SBQQ__msg_api_quote_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- recordsPerPage field value must be greater than 0 --></label>
+        <name>SBQQ__msg_api_recordsperpage_greater_0</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The API timed out before a quote was received --></label>
+        <name>SBQQ__msg_api_timeout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error msg when asset based account does not preserve bundle structure --></label>
+        <name>SBQQ__msg_asset_based_acc_must_preserve_bundle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required to pick a contract --></label>
+        <name>SBQQ__msg_asset_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message displayed if async quote load aborts early --></label>
+        <name>SBQQ__msg_async_quote_load_job_aborted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message displayed if async quote load succeeds without creating doc --></label>
+        <name>SBQQ__msg_async_quote_load_missing_doc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When Quote Document Attachment is downloaded successfully --></label>
+        <name>SBQQ__msg_attachment_is_downloaded_successfully</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- See available upgrades in this Feature --></label>
+        <name>SBQQ__msg_available_upgrades</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Amending... --></label>
+        <name>SBQQ__msg_background_amendment_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recalculating... --></label>
+        <name>SBQQ__msg_background_calculation_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In-progress message for renewal service --></label>
+        <name>SBQQ__msg_background_contracting_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In-progress message for renewal service --></label>
+        <name>SBQQ__msg_background_renewal_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In-progress message for transpilation service --></label>
+        <name>SBQQ__msg_background_transpilation_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- In-progress message for multiple operations on opportunity page --></label>
+        <name>SBQQ__msg_background_updating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Below the minimum billing term --></label>
+        <name>SBQQ__msg_below_min_billing_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used for logs when absence of Billing leads to harmless errors. --></label>
+        <name>SBQQ__msg_billing_absence_is_harmless</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rate bound fields must be positive --></label>
+        <name>SBQQ__msg_bound_fields_must_be_positive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: Bundle cannot be imported. --></label>
+        <name>SBQQ__msg_bundle_cannot_be_imported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Calculate Quote Tip --></label>
+        <name>SBQQ__msg_calculate_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Configuration Confirmation --></label>
+        <name>SBQQ__msg_cancel_configuration_confirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel Quote Tip --></label>
+        <name>SBQQ__msg_cancel_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t activate the order on a blocked quote. --></label>
+        <name>SBQQ__msg_cannot_activate_order_on_blocked_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot include MDQ order products. --></label>
+        <name>SBQQ__msg_cannot_add_mdq_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot amend an expired Contract --></label>
+        <name>SBQQ__msg_cannot_amend_expired_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t amend the contract. To continue, create a new contract --></label>
+        <name>SBQQ__msg_cannot_amend_invalid_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract amendment with blank Master Contract --></label>
+        <name>SBQQ__msg_cannot_amend_no_master_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract amendment with blank Master Evergreen Contract --></label>
+        <name>SBQQ__msg_cannot_amend_no_master_evergreen_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message displayed when amending contract without Preserve Bundle Structure --></label>
+        <name>SBQQ__msg_cannot_amend_non_preserve_bundle_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error thrown if Sharing Settings=Private and attempting to Amend/Renew Assets --></label>
+        <name>SBQQ__msg_cannot_amend_renew_assets_with_private_product_owd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t auto-renew the contract. To continue, create the renewal manually. --></label>
+        <name>SBQQ__msg_cannot_autorenew_invalid_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Need subscription term length --></label>
+        <name>SBQQ__msg_cannot_calculate_subscription_length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot change contracting method of contracted order --></label>
+        <name>SBQQ__msg_cannot_change_contracting_method_of_contracted_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot update start date of MDQ order item. --></label>
+        <name>SBQQ__msg_cannot_change_start_date_of_mdq_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot update start date of MDQ order item. --></label>
+        <name>SBQQ__msg_cannot_change_start_date_of_mdq_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You can&apos;t change this field for evergreen contracts and subscriptions. --></label>
+        <name>SBQQ__msg_cannot_change_this_field_for_evergreen_contracts_and_subscriptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen percent of total subscriptions can&apos;t cover non-evergreen subscriptions --></label>
+        <name>SBQQ__msg_cannot_contract_evergreen_pot_nonevergreen_sub</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract a contract that is already in progress. --></label>
+        <name>SBQQ__msg_cannot_contract_in_progress_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract multi-contract amendment --></label>
+        <name>SBQQ__msg_cannot_contract_multi_amendment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot a create a contract from an opportunity with usage-based order products --></label>
+        <name>SBQQ__msg_cannot_contract_quote_having_ubp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error thrown when using manual coterm on contracts from different accounts --></label>
+        <name>SBQQ__msg_cannot_coterminate_across_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t create a contracted order --></label>
+        <name>SBQQ__msg_cannot_create_contracted_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t create an order from a blocked quote --></label>
+        <name>SBQQ__msg_cannot_create_order_from_blocked_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot delete a group with amended lines --></label>
+        <name>SBQQ__msg_cannot_delete_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when enabling JSAR with Re-evaluate Bundle Logic already active --></label>
+        <name>SBQQ__msg_cannot_enable_jsar_with_reevaluate_bundle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when enabling Re-evaluate Bundle Logic with JSAR already active --></label>
+        <name>SBQQ__msg_cannot_enable_reevaluate_bundle_with_jsar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have Consumption Schedules related to Price Dimensions --></label>
+        <name>SBQQ__msg_cannot_have_consumption_schedules_related_to_dimensions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have Consumption Schedules related to Price Dimensions --></label>
+        <name>SBQQ__msg_cannot_have_consumption_schedules_related_to_evergreen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have Price Dimensions related to Consumption Schedules --></label>
+        <name>SBQQ__msg_cannot_have_dimensions_related_to_consumption_schedules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Consumption rate&apos;s lower bound can&apos;t be greater than its upper bound. --></label>
+        <name>SBQQ__msg_cannot_have_lower_bound_higher_than_upper_bound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have multiple default Tax Exemption Certificates tied to the same Account --></label>
+        <name>SBQQ__msg_cannot_have_multiple_default_certificates_tied_to_same_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have multiple time dimensions --></label>
+        <name>SBQQ__msg_cannot_have_multiple_time_dimensions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Consumption rate&apos;s bounds cannot be less than 0. --></label>
+        <name>SBQQ__msg_cannot_have_negative_bound_value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have only one-time dimensions --></label>
+        <name>SBQQ__msg_cannot_have_only_one_time_dimensions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Consumption rate&apos;s prices must be zero or greater. --></label>
+        <name>SBQQ__msg_cannot_have_rate_price_below_zero</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have Consumption Schedules related to Product with Charge Type of Usage --></label>
+        <name>SBQQ__msg_cannot_have_usage_charge_type_related_to_consumption_schedules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error thrown if Sharing Settings=Private and &quot;Legacy Amend/Renew Service&quot;=true --></label>
+        <name>SBQQ__msg_cannot_legacy_amend_renew_with_private_product_owd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot have one-time dimensions with same name --></label>
+        <name>SBQQ__msg_cannot_one_time_dimensions_with_same_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot order multi-contract amendment --></label>
+        <name>SBQQ__msg_cannot_order_multi_amendment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot parse URL --></label>
+        <name>SBQQ__msg_cannot_parse_url</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error in QLE when a user tries to remove a Favorite they don&apos;t have access to. --></label>
+        <name>SBQQ__msg_cannot_remove_favorite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot Renew Evergreen contract --></label>
+        <name>SBQQ__msg_cannot_renew_evergreen_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the product subscription type. --></label>
+        <name>SBQQ__msg_cannot_update_product_subscription_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the subscription type. --></label>
+        <name>SBQQ__msg_cannot_update_subscription_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the subscription type on an amendment. --></label>
+        <name>SBQQ__msg_cannot_update_subscription_type_on_amendment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot use price rules with formula conditions or actions in Apex --></label>
+        <name>SBQQ__msg_cannot_use_pr_formulas_in_apex</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Order must be Single Contract to generate amend re-quote --></label>
+        <name>SBQQ__msg_change_quote_only_valid_for_single_contract_orders</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Changes were applied. --></label>
+        <name>SBQQ__msg_changes_applied</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Lines with charge type of Usage cannot have Consumption Schedules. --></label>
+        <name>SBQQ__msg_chargeType_cannot_be_usage_with_consumption_schedules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Upgrade Readiness Instruction --></label>
+        <name>SBQQ__msg_checkpslreadiness_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Max Options on Configure --></label>
+        <name>SBQQ__msg_choose_max_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Min and Max Options on Configure --></label>
+        <name>SBQQ__msg_choose_min_and_max_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Min Options on Configure --></label>
+        <name>SBQQ__msg_choose_min_options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Output Format Message --></label>
+        <name>SBQQ__msg_choose_output_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Output Language --></label>
+        <name>SBQQ__msg_choose_output_language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Text for Paper Size field --></label>
+        <name>SBQQ__msg_choose_output_size</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Quote Line Import Format --></label>
+        <name>SBQQ__msg_choose_quote_line_import</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose Template Prompt --></label>
+        <name>SBQQ__msg_choose_template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Group Tip --></label>
+        <name>SBQQ__msg_clone_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone Related Records --></label>
+        <name>SBQQ__msg_clone_related</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Completed Label --></label>
+        <name>SBQQ__msg_completed_no_errors</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when component is not supported. --></label>
+        <name>SBQQ__msg_component_not_supported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Condition index number does not exist --></label>
+        <name>SBQQ__msg_condition_number_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configuration Attribute is targeting Product Option field which does not exist --></label>
+        <name>SBQQ__msg_config_att_missing_product_option_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple Quantity Configuration Warning --></label>
+        <name>SBQQ__msg_configure_multiple_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configure Product Message --></label>
+        <name>SBQQ__msg_configure_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Delete Warning --></label>
+        <name>SBQQ__msg_confirm_group_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prompt confirmation --></label>
+        <name>SBQQ__msg_confirm_prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove from Favorites Warning in Favorites Manager --></label>
+        <name>SBQQ__msg_confirm_remove_favorite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove from Favorites Warning --></label>
+        <name>SBQQ__msg_confirm_remove_from_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Group from Favorites Warning --></label>
+        <name>SBQQ__msg_confirm_remove_group_from_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot generate amendment opportunity --></label>
+        <name>SBQQ__msg_contract_amendment_start_date_before_actual_start_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required to pick a contract --></label>
+        <name>SBQQ__msg_contract_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Require a selection for Contract Amendment --></label>
+        <name>SBQQ__msg_contract_selection_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contracting at line level Label --></label>
+        <name>SBQQ__msg_contracting_at_line_level</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Combines failed http status message and status code to inform user. --></label>
+        <name>SBQQ__msg_contracting_failed_http</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contracting for Covered Product Label --></label>
+        <name>SBQQ__msg_contracting_for_covered_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contracting for Percent of Total Label --></label>
+        <name>SBQQ__msg_contracting_for_percent_of_total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot Coterminate Contracts of separate currencies --></label>
+        <name>SBQQ__msg_coterm_currency_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error header for JSForce failing to retrieve CRUD info --></label>
+        <name>SBQQ__msg_could_not_retrieve_crud</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error header for JSForce failing to retrieve FDR for field --></label>
+        <name>SBQQ__msg_could_not_retrieve_field_describe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error header for JSForce failing to retrieve mappable fields --></label>
+        <name>SBQQ__msg_could_not_retrieve_mappable_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User is inactive but has an assigned CPQ permission set. --></label>
+        <name>SBQQ__msg_cpq_inactive_usr_with_ps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error: Admin attention required. --></label>
+        <name>SBQQ__msg_cpq_license_failure_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Managed Package Licenses Provisioned --></label>
+        <name>SBQQ__msg_cpq_managed_package_licenses</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Managed Package Licenses Assigned --></label>
+        <name>SBQQ__msg_cpq_managed_package_licenses_used</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Count not applicable for Sandbox for CPQ MPL. --></label>
+        <name>SBQQ__msg_cpq_mpl_na</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User has a Permission Set but no MPL. --></label>
+        <name>SBQQ__msg_cpq_mps_no_lic_assigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Permission Set Licenses Provisioned --></label>
+        <name>SBQQ__msg_cpq_psl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ Permission Set Licenses Assigned --></label>
+        <name>SBQQ__msg_cpq_psl_assigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An internal error occurred due to provisioned PSLs being lower than MPLs. --></label>
+        <name>SBQQ__msg_cpq_psl_internal_err</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An internal error occurred during readiness check. --></label>
+        <name>SBQQ__msg_cpq_readiness_check_internal_err</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CPQ permission set must be less or equal to Permission Set License quantity --></label>
+        <name>SBQQ__msg_cpq_users_permset_lt_psl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Users with CPQ Permission Sets Assigned --></label>
+        <name>SBQQ__msg_cpq_users_with_permset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Creating order --></label>
+        <name>SBQQ__msg_create_order_loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error: CalculatorReferenceField__c must equate to a real field --></label>
+        <name>SBQQ__msg_creating_crf_from_null_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CalculatorReferencedField__c references invalid field --></label>
+        <name>SBQQ__msg_crf_references_null_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Formula Field references can have at most one parent-type --></label>
+        <name>SBQQ__msg_crf_too_many_parents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Currency Change On Quote With Line Items --></label>
+        <name>SBQQ__msg_currency_change_quote_with_line_items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom cannot be selected initially --></label>
+        <name>SBQQ__msg_custom_not_allow_initially</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You do not have permission to save custom scripts --></label>
+        <name>SBQQ__msg_custom_script_save_not_allowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Config Attribute Default Object and Default Field are dependent --></label>
+        <name>SBQQ__msg_default_field_and_object_dependency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Lines Message --></label>
+        <name>SBQQ__msg_delete_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Deleted Quote Message --></label>
+        <name>SBQQ__msg_deleted_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV format: Selected column format difference --></label>
+        <name>SBQQ__msg_different_column_def</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prompt for unsaved changes --></label>
+        <name>SBQQ__msg_dirty_prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Usage-based subscription quantities can’t be reduced to non-zero for amendments --></label>
+        <name>SBQQ__msg_disallow_partial_reduction_for_amendment_UBP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Usage-based subscription quantities can’t be reduced for renewals --></label>
+        <name>SBQQ__msg_disallow_reduction_for_renewal_UBP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Name is required --></label>
+        <name>SBQQ__msg_document_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Duplicate Unit of Measure and Matching Attribute --></label>
+        <name>SBQQ__msg_duplicate_matching_attribute</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rates on a schedule cannot have duplicate procesing order --></label>
+        <name>SBQQ__msg_duplicate_processing_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rates have the same processing order --></label>
+        <name>SBQQ__msg_duplicate_rate_processing_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for editing quote term. --></label>
+        <name>SBQQ__msg_edit_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Group Message --></label>
+        <name>SBQQ__msg_empty_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Group Message --></label>
+        <name>SBQQ__msg_empty_group_mobile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Grouped Quote Message --></label>
+        <name>SBQQ__msg_empty_grouped_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty MS Dimension Table Message --></label>
+        <name>SBQQ__msg_empty_ms_dimension_table</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty MS Table Message --></label>
+        <name>SBQQ__msg_empty_ms_table</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Quote Message --></label>
+        <name>SBQQ__msg_empty_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty Standard Table Message --></label>
+        <name>SBQQ__msg_empty_standard_table</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To use amend in background advanced amend/renew service must be enabled --></label>
+        <name>SBQQ__msg_enable_advanced_contract_async</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To use advanced contracting service you must enable the advanced calculator --></label>
+        <name>SBQQ__msg_enable_advanced_contract_services</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for Share Favorites type-ahead text box --></label>
+        <name>SBQQ__msg_enter_user_or_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message --></label>
+        <name>SBQQ__msg_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Invalid Data Message --></label>
+        <name>SBQQ__msg_error_invalid_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if there is an error for column widths reset --></label>
+        <name>SBQQ__msg_error_on_column_reset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if there is an error for column resizing auto save --></label>
+        <name>SBQQ__msg_error_on_column_resizing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on upload attachment --></label>
+        <name>SBQQ__msg_error_on_upload_attachment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error on upload non-pdf attachment --></label>
+        <name>SBQQ__msg_error_on_upload_attachment_not_pdf</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error posting to Chatter when Feed Tracking not enabled --></label>
+        <name>SBQQ__msg_error_posting_to_feed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reason for error --></label>
+        <name>SBQQ__msg_error_reason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error type --></label>
+        <name>SBQQ__msg_error_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error creating contract --></label>
+        <name>SBQQ__msg_error_with_contract_creation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error creating contracted prices --></label>
+        <name>SBQQ__msg_error_with_contracted_prices_creation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors contracting quote x --></label>
+        <name>SBQQ__msg_errors_contracting_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors with n contracts. Account not specified. --></label>
+        <name>SBQQ__msg_errors_with_account_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors with n contracts. Duplicate products added. --></label>
+        <name>SBQQ__msg_errors_with_duplicate_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors with n contracts --></label>
+        <name>SBQQ__msg_errors_with_n_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors with n contracts. Primary quote not specified. --></label>
+        <name>SBQQ__msg_errors_with_noprimary_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error where there is no account added for a quote. --></label>
+        <name>SBQQ__msg_errors_with_primary_quote_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors with n contracts. Start date for quote not specified. --></label>
+        <name>SBQQ__msg_errors_with_startdate_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors with n contracts. Subscription product not added. --></label>
+        <name>SBQQ__msg_errors_with_subscription_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update evergreen activated order products&apos;s billing frequency. --></label>
+        <name>SBQQ__msg_evergreen_cannot_change_billing_frequency_activated_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t use evergreen and non-evergreen together for &quot;single contract&quot; --></label>
+        <name>SBQQ__msg_evergreen_contracting_method_single</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen subscription order products can&apos;t have Invoice Plan billing frequency. --></label>
+        <name>SBQQ__msg_evergreen_invalid_order_product_billing_frequency_invoice_plan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen subscription order products can&apos;t have One-Time charge types. --></label>
+        <name>SBQQ__msg_evergreen_invalid_order_product_charge_type_one_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown when saving Evergreen Subscription when the setting is not enabled. --></label>
+        <name>SBQQ__msg_evergreen_not_enabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update evergreen order item&apos;s end date. --></label>
+        <name>SBQQ__msg_evergreen_order_product_end_date_null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Exceeded the max billing term --></label>
+        <name>SBQQ__msg_exceeded_max_billing_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Exceeded the max number of UBP fields --></label>
+        <name>SBQQ__msg_exceeded_max_ubp_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Combines failed http status message and status code to inform user. --></label>
+        <name>SBQQ__msg_failed_http</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when Post to Feed is enabled on an object w/out Feed Tracking enabled. --></label>
+        <name>SBQQ__msg_feed_not_enabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Formula Field references invalid lookup --></label>
+        <name>SBQQ__msg_ffu_invalid_lookup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Formula Field references can have at most one parent-type --></label>
+        <name>SBQQ__msg_ffu_too_many_parents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field does not exist. --></label>
+        <name>SBQQ__msg_field_does_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing field set --></label>
+        <name>SBQQ__msg_field_set_does_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type mismatch between configuration attribute default fields. --></label>
+        <name>SBQQ__msg_field_type_mismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An error occurred when filtering products. --></label>
+        <name>SBQQ__msg_filter_field_not_exists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Gap between upper and lower bounds of adjacent rates --></label>
+        <name>SBQQ__msg_gaps_between_rates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rates have gaps between bounds --></label>
+        <name>SBQQ__msg_gaps_between_rates_bounds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Document Name Prompt --></label>
+        <name>SBQQ__msg_generated_document_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Generic message to show that one or more tiers are invalid. --></label>
+        <name>SBQQ__msg_generic_schedule_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Group Description Message --></label>
+        <name>SBQQ__msg_group_description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must enter a group name --></label>
+        <name>SBQQ__msg_group_name_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must enter group name --></label>
+        <name>SBQQ__msg_group_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HasConsumptionSchedule field can not be edited. --></label>
+        <name>SBQQ__msg_hasConsumptionSchedule_not_editable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HasConsumptionSchedule field can not be edited. --></label>
+        <name>SBQQ__msg_hasConsumptionSchedule_not_editable_for_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HasConsumptionSchedule cannot set to evergreen --></label>
+        <name>SBQQ__msg_hasConsumptionSchedule_restrict_evergreen_for_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote contains deleted Products. --></label>
+        <name>SBQQ__msg_has_deleted_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Available Options and Configurations --></label>
+        <name>SBQQ__msg_has_no_options_config</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- lower bound is not unique --></label>
+        <name>SBQQ__msg_identical_lower_bounds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Choose CSV File Format Label --></label>
+        <name>SBQQ__msg_import_format_select</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help Message on Import Lines Group --></label>
+        <name>SBQQ__msg_import_lines_group_help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import New Group Name Required --></label>
+        <name>SBQQ__msg_import_new_group_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required CSV Column Headers Tip --></label>
+        <name>SBQQ__msg_import_required_csv_column_tip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inactive Tax Exemption Certificates cannot be Default --></label>
+        <name>SBQQ__msg_inactive_certificates_cannot_be_default</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Incorrect Number Of Options --></label>
+        <name>SBQQ__msg_incorrect_option_count</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Index is not unique --></label>
+        <name>SBQQ__msg_index_not_unique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown when a User opens a Quote using a Pricebook without read access. --></label>
+        <name>SBQQ__msg_insufficient_pricebook_access</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid advanced condition --></label>
+        <name>SBQQ__msg_invalid_advanced_condition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid attachment ID --></label>
+        <name>SBQQ__msg_invalid_attachment_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Color code entered is invalid. --></label>
+        <name>SBQQ__msg_invalid_color_code</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Configuration Selections --></label>
+        <name>SBQQ__msg_invalid_configuration_selections</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV format: File should be saved as Windows comma separated. --></label>
+        <name>SBQQ__msg_invalid_csv_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Custom Segment Dates --></label>
+        <name>SBQQ__msg_invalid_custom_segment_dates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Custom Segment Labels --></label>
+        <name>SBQQ__msg_invalid_custom_segment_labels</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to read parameter on custom url. --></label>
+        <name>SBQQ__msg_invalid_customurl_param</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Date Format --></label>
+        <name>SBQQ__msg_invalid_date_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid doc, workspace document ID --></label>
+        <name>SBQQ__msg_invalid_document_attachment_or_workspace_document_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid document id --></label>
+        <name>SBQQ__msg_invalid_document_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Favorite Name --></label>
+        <name>SBQQ__msg_invalid_favorite_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Favorite Share Entry --></label>
+        <name>SBQQ__msg_invalid_favorite_share_entry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message when selecting a field with incorrect data type --></label>
+        <name>SBQQ__msg_invalid_field_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Master contract --></label>
+        <name>SBQQ__msg_invalid_master_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Master evergreen contract --></label>
+        <name>SBQQ__msg_invalid_master_evergreen_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid nested level on configuration rule message --></label>
+        <name>SBQQ__msg_invalid_nested_level_on_configuration_rule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV format: Invalid number of column --></label>
+        <name>SBQQ__msg_invalid_num_of_column</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Pricebook Entry --></label>
+        <name>SBQQ__msg_invalid_pricebook_entry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen subscription products can&apos;t have Invoice Plan billing frequencies. --></label>
+        <name>SBQQ__msg_invalid_product_setup_evergreen_billing_frequency_invoice_plan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen subscription products can&apos;t have One-Time charge types. --></label>
+        <name>SBQQ__msg_invalid_product_setup_evergreen_chargeType_one_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Products with charge type of Usage cannot have Consumption Schedules. --></label>
+        <name>SBQQ__msg_invalid_product_setup_usage_chargeType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Quote --></label>
+        <name>SBQQ__msg_invalid_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Duplicate Quote Line Number__c fields are invalid --></label>
+        <name>SBQQ__msg_invalid_quote_line_number_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error message displayed in doc gen pages when quote invalid --></label>
+        <name>SBQQ__msg_invalid_quote_prevents_docgen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Related object not approved in fieldset. --></label>
+        <name>SBQQ__msg_invalid_relationship_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Subscription Setup --></label>
+        <name>SBQQ__msg_invalid_subscription_setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Workspace Document ID --></label>
+        <name>SBQQ__msg_invalid_workspace_doc_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apex Job error message --></label>
+        <name>SBQQ__msg_job_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Apex Job status message --></label>
+        <name>SBQQ__msg_job_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ill-formed Advanced Condition String --></label>
+        <name>SBQQ__msg_js_err_bad_advanced_condition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ill-formed Price Condition --></label>
+        <name>SBQQ__msg_js_err_condition_target_object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ill-formed Price Condition --></label>
+        <name>SBQQ__msg_js_err_condition_targets_field_or_sv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ID Conversion Error --></label>
+        <name>SBQQ__msg_js_err_id_conversion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Date --></label>
+        <name>SBQQ__msg_js_err_invalid_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Lookup Operator --></label>
+        <name>SBQQ__msg_js_err_invalid_lookup_operator</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Operator on Price Condition --></label>
+        <name>SBQQ__msg_js_err_invalid_op_price_condition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown when quote calculator plugin does not return a promise --></label>
+        <name>SBQQ__msg_js_err_missing_promise_in_plugin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Advanced Condition String --></label>
+        <name>SBQQ__msg_js_err_no_advanced_condition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Metadata --></label>
+        <name>SBQQ__msg_js_err_no_metadata</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Custom Label --></label>
+        <name>SBQQ__msg_js_err_no_such_label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Null Discount Tier --></label>
+        <name>SBQQ__msg_js_err_null_discount_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prorate Multiplier Divide by 0 --></label>
+        <name>SBQQ__msg_js_err_prorate_divide_by_zero</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown when Quote is too large and Quick Save button is clicked --></label>
+        <name>SBQQ__msg_js_err_quote_too_large_for_qs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Circular Summary Variable Reference --></label>
+        <name>SBQQ__msg_js_err_sv_circular_reference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Summary Variable Operator --></label>
+        <name>SBQQ__msg_js_err_sv_invalid_op</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Aggregate Function --></label>
+        <name>SBQQ__msg_js_err_sv_missing_aggregate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unrecognized Composite Operator --></label>
+        <name>SBQQ__msg_js_err_sv_unrecognized_comp_op</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsupported Aggregate Function --></label>
+        <name>SBQQ__msg_js_err_sv_unsupported_aggregate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unexpected Abstract Syntax Tree --></label>
+        <name>SBQQ__msg_js_err_unexpected_ast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsupported Binary Op --></label>
+        <name>SBQQ__msg_js_err_unsupported_binary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsupported Formula --></label>
+        <name>SBQQ__msg_js_err_unsupported_formula</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsupported Global Variable --></label>
+        <name>SBQQ__msg_js_err_unsupported_global</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsupported Lookup Field --></label>
+        <name>SBQQ__msg_js_err_unsupported_lookup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsupported Unary Op --></label>
+        <name>SBQQ__msg_js_err_unsupported_unary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Metadata was fetched for Standard Field --></label>
+        <name>SBQQ__msg_js_no_metadata_for_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No read access for record during quote calculation --></label>
+        <name>SBQQ__msg_js_no_read_access_for_record</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Condition Field is undefined --></label>
+        <name>SBQQ__msg_js_warn_condition_field_undefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action Source Field has null value --></label>
+        <name>SBQQ__msg_js_warn_src_action_field_null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Operator is undefined/unsupported --></label>
+        <name>SBQQ__msg_jspr_err_invalid_operator</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Condition Field is undefined --></label>
+        <name>SBQQ__msg_jspr_err_no_tested_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tested Object is undefined/unsupported --></label>
+        <name>SBQQ__msg_jspr_err_no_tested_object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not currently supporting summary variables --></label>
+        <name>SBQQ__msg_jspr_err_summary_variable_used</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed selecting an already-cotermed contract as a Manual Master --></label>
+        <name>SBQQ__msg_jsrg_cotermed_contract_cannot_be_manual_master</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed when a renewal includes conflicting master contracts --></label>
+        <name>SBQQ__msg_jsrg_multiple_masters_forbidden</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed when renewing contracts without respecting coterms --></label>
+        <name>SBQQ__msg_jsrg_prior_cotermination_not_respected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Language is required --></label>
+        <name>SBQQ__msg_language_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message indicating that, due to its size, a quote was sent without lines --></label>
+        <name>SBQQ__msg_large_quote_sent_without_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Latest status message --></label>
+        <name>SBQQ__msg_latest_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lesser rate has null as its upper bound --></label>
+        <name>SBQQ__msg_lesser_rate_has_null_upper_bound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Localization API Name is required --></label>
+        <name>SBQQ__msg_localization_api_name_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Localization API Name must be unqiue --></label>
+        <name>SBQQ__msg_localization_api_name_should_be_unqiue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Localization Translated Value is required --></label>
+        <name>SBQQ__msg_localization_translated_value_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A logical operator cannot be used immediately after a left parenthesis. --></label>
+        <name>SBQQ__msg_logical_operator_cannot_be_used_after_left_parenthesis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Logical operators cannot appear consecutively within Advanced Condition field. --></label>
+        <name>SBQQ__msg_logical_operator_cannot_be_used_after_logical_operator</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A logic string cannot begin with a logical operator. --></label>
+        <name>SBQQ__msg_logical_operator_cannot_be_used_at_start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rates cannot have their lower bound equal to their upper bound. --></label>
+        <name>SBQQ__msg_lower_bound_equal_to_upper_bound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The lower bound is greater than the upper bound --></label>
+        <name>SBQQ__msg_lower_bound_greater_than_upper_bound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Authorization Instructions --></label>
+        <name>SBQQ__msg_mass_document_authorization_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender All Sent --></label>
+        <name>SBQQ__msg_mass_document_sender_all_sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender Errors Subject --></label>
+        <name>SBQQ__msg_mass_document_sender_errors_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender Some Sent --></label>
+        <name>SBQQ__msg_mass_document_sender_some_sent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mass Document Sender Success Subject --></label>
+        <name>SBQQ__msg_mass_document_sender_success_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum consumption quantity cannot be exceeded --></label>
+        <name>SBQQ__msg_max_consumption_quantity_cannot_be_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Option Quantity Exceeded --></label>
+        <name>SBQQ__msg_max_option_quantity_exceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: Multi-dimensional Product cannot be imported. --></label>
+        <name>SBQQ__msg_mdq_cannot_be_imported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Migration readiness check completed without errors. --></label>
+        <name>SBQQ__msg_mig_red_chk_com_without_errs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Minimum Option Quantity Unmet --></label>
+        <name>SBQQ__msg_min_option_quantity_unmet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The field Custom Condition Met is missing Advanced Condition logic. --></label>
+        <name>SBQQ__msg_missing_advanced_condition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing discount amount for specific Discount Tier --></label>
+        <name>SBQQ__msg_missing_discount_amount_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing discount amount for specific Discount Tier --></label>
+        <name>SBQQ__msg_missing_discount_amount_tier_currency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing discount for specific Discount Tier --></label>
+        <name>SBQQ__msg_missing_discount_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing discounts for guidance tier --></label>
+        <name>SBQQ__msg_missing_discounts_guidance_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Message --></label>
+        <name>SBQQ__msg_missing_error_message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown when amendment/renewal fails from lack of access to required field --></label>
+        <name>SBQQ__msg_missing_fls_on_amend_or_renew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Import Format --></label>
+        <name>SBQQ__msg_missing_import_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A left parenthesis is missing --></label>
+        <name>SBQQ__msg_missing_left_parenthesis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A logical operator is missing. --></label>
+        <name>SBQQ__msg_missing_logical_operator</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing lower bound --></label>
+        <name>SBQQ__msg_missing_lower_bound_guidance_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Lower Bound --></label>
+        <name>SBQQ__msg_missing_lower_bound_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Opportunity Line Item --></label>
+        <name>SBQQ__msg_missing_opportunity_line_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error displayed when a query failed with a Column Not Found error. --></label>
+        <name>SBQQ__msg_missing_perm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Pricebook Id --></label>
+        <name>SBQQ__msg_missing_pricebook_id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The API call completed but no quote was created --></label>
+        <name>SBQQ__msg_missing_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A rate field is missing --></label>
+        <name>SBQQ__msg_missing_rate_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A right parenthesis is missing --></label>
+        <name>SBQQ__msg_missing_right_parenthesis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: Unable to find a product --></label>
+        <name>SBQQ__msg_missing_unique_key</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Multiple Active Contracts --></label>
+        <name>SBQQ__msg_multiple_active_contracts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Rules with Lookup Object - too many results --></label>
+        <name>SBQQ__msg_multiple_lookup_results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown in Line Editor when there are more than 200 active pricebooks --></label>
+        <name>SBQQ__msg_must_choose_pricebook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing quote templates --></label>
+        <name>SBQQ__msg_need_some_templates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Calculator Authorization Editor Error --></label>
+        <name>SBQQ__msg_new_calc_authorization_editor_err</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Calculator Authorization Expired --></label>
+        <name>SBQQ__msg_new_calc_authorization_expired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Calculator Authorization Link --></label>
+        <name>SBQQ__msg_new_calc_authorization_link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Calculator Authorization Settings Error --></label>
+        <name>SBQQ__msg_new_calc_authorization_settings_err</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Calculator Authorization Setup Required --></label>
+        <name>SBQQ__msg_new_calc_authorization_setup_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Integration User Permission Setup Required --></label>
+        <name>SBQQ__msg_new_integration_user_perm_setup_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Active Contract Message --></label>
+        <name>SBQQ__msg_no_active_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CSV: No active import format available --></label>
+        <name>SBQQ__msg_no_active_import_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Active Quote --></label>
+        <name>SBQQ__msg_no_active_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Allocated Products selected --></label>
+        <name>SBQQ__msg_no_allocated_targets_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The primary quote must be approved before an order can be created. --></label>
+        <name>SBQQ__msg_no_approved_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Block Price For Quantity --></label>
+        <name>SBQQ__msg_no_block_price_for_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Configuration Attribute as a tested object can’t be evaluated against a formula. --></label>
+        <name>SBQQ__msg_no_config_attr_and_formula</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot run Calculator-scoped Price Rules with Configuration Attributes. --></label>
+        <name>SBQQ__msg_no_config_attr_calc_rule</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Configuration --></label>
+        <name>SBQQ__msg_no_configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- msg_no_field_fls --></label>
+        <name>SBQQ__msg_no_crm_content_license</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Duplicate Localization is not allowed --></label>
+        <name>SBQQ__msg_no_duplate_localization</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No favorites associated to this user --></label>
+        <name>SBQQ__msg_no_favorites_for_user</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional message when no favorites available --></label>
+        <name>SBQQ__msg_no_favorites_for_user_bot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No favorites associated to this user --></label>
+        <name>SBQQ__msg_no_favorites_for_user_top</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No favorites were selected --></label>
+        <name>SBQQ__msg_no_favorites_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- msg_no_field_fls --></label>
+        <name>SBQQ__msg_no_field_fls</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- msg_no_field_fls --></label>
+        <name>SBQQ__msg_no_field_fls_with_obj</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please select at least one line. --></label>
+        <name>SBQQ__msg_no_lines_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- msg_no_object_crud --></label>
+        <name>SBQQ__msg_no_object_crud</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There are no products available in this order. --></label>
+        <name>SBQQ__msg_no_order_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if user is trying to reset column sizes without persmissions --></label>
+        <name>SBQQ__msg_no_permission_for_column_reset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error if user is trying to save column sizes without persmissions --></label>
+        <name>SBQQ__msg_no_permission_for_column_resizing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Indicates that no price rule was selected for cloning --></label>
+        <name>SBQQ__msg_no_price_rule_specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity must have a primary quote in order to create an order. --></label>
+        <name>SBQQ__msg_no_primary_Quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Indicates that no product rule was selected for cloning --></label>
+        <name>SBQQ__msg_no_product_rule_specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Product Specified --></label>
+        <name>SBQQ__msg_no_product_specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- There are no products on the primary quote. --></label>
+        <name>SBQQ__msg_no_products_on_primary_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Products Selected --></label>
+        <name>SBQQ__msg_no_products_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Quote Specified --></label>
+        <name>SBQQ__msg_no_quote_specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No prices to refresh --></label>
+        <name>SBQQ__msg_no_refreshed_prices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No search results message --></label>
+        <name>SBQQ__msg_no_search_results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No such field exists --></label>
+        <name>SBQQ__msg_no_such_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Template Specified --></label>
+        <name>SBQQ__msg_no_template_specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Records to display as no error occurred during readiness check. --></label>
+        <name>SBQQ__msg_no_uids_to_display_psl_red_chk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All products on the primary quote have been ordered. --></label>
+        <name>SBQQ__msg_no_unordered_lines</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Usage Rate Card Specified --></label>
+        <name>SBQQ__msg_no_usage_rate_card_specified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NonSequential Custom Segment Dates --></label>
+        <name>SBQQ__msg_nonsequential_custom_segment_dates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warn Not Contract Based Renewal Model --></label>
+        <name>SBQQ__msg_not_contract_model</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Import file is not CSV format --></label>
+        <name>SBQQ__msg_not_csv_format</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not deployed --></label>
+        <name>SBQQ__msg_not_deployed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Not a PDF --></label>
+        <name>SBQQ__msg_not_pdf_id_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rates cannot have null upper bound when another has higher bounds --></label>
+        <name>SBQQ__msg_null_upper_bound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message explaining how many subscriptions are displayed --></label>
+        <name>SBQQ__msg_num_subscriptions_displayed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OAuth Redirect Message --></label>
+        <name>SBQQ__msg_oauth_redirect</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message when selecting an object that does not exist --></label>
+        <name>SBQQ__msg_object_does_not_exist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only the following logical operators are accepted: AND, OR. --></label>
+        <name>SBQQ__msg_only_accept_and_or</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Each line is covered by one subscription line child --></label>
+        <name>SBQQ__msg_only_cover_by_one_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only one target object is allowed --></label>
+        <name>SBQQ__msg_only_one_target_object</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity is required --></label>
+        <name>SBQQ__msg_opportunity_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity with primary quotes in different currency. --></label>
+        <name>SBQQ__msg_opportunity_with_wrong_quote_currencies</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Option Configuration Message --></label>
+        <name>SBQQ__msg_option_configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Option Requires Configuration Message --></label>
+        <name>SBQQ__msg_option_requires_configuration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Option Used On Quotes --></label>
+        <name>SBQQ__msg_option_used_on_quotes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Options Missing Configuration Message --></label>
+        <name>SBQQ__msg_options_missing_config</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order cannot be edited. --></label>
+        <name>SBQQ__msg_order_activated_not_editable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You can modify only the first segment&apos;s start date. --></label>
+        <name>SBQQ__msg_order_can_modify_only_first_segment_start_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t activate the order with different contracting method --></label>
+        <name>SBQQ__msg_order_cannot_activate_with_different_contracting_method</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t activate an order with partially segmented order items. --></label>
+        <name>SBQQ__msg_order_cannot_activate_with_partially_segmented_order_items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t include MDQ order items on the order. --></label>
+        <name>SBQQ__msg_order_cannot_add_mdq_when_order_start_date_not_match_quote_start_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract from order. --></label>
+        <name>SBQQ__msg_order_cannot_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract from opportunity. --></label>
+        <name>SBQQ__msg_order_cannot_contract_from_opportuity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract from reduction. --></label>
+        <name>SBQQ__msg_order_cannot_contract_from_reduction_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot Create Order --></label>
+        <name>SBQQ__msg_order_cannot_create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot deactivate order or order products that are contracted. --></label>
+        <name>SBQQ__msg_order_cannot_deactivate_contracted_order_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot Deactivate Order with contracted Order Products --></label>
+        <name>SBQQ__msg_order_cannot_deactivate_with_contracted_order_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot delete order product without its root parent. --></label>
+        <name>SBQQ__msg_order_cannot_delete_component_order_product_without_parent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot delete activated order product. --></label>
+        <name>SBQQ__msg_order_cannot_delete_contracted_order_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot Deactivate POT Order Product with subscribed order product --></label>
+        <name>SBQQ__msg_order_cannot_delete_pot_order_product_with_subscribed_order_product</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot edit order products of non-CPQ orders. --></label>
+        <name>SBQQ__msg_order_cannot_edit_order_products_without_opportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the end date on a segmented order item. --></label>
+        <name>SBQQ__msg_order_cannot_update_end_date_on_segmented_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update first segment&apos;s start date if first segment end date set on quote. --></label>
+        <name>SBQQ__msg_order_cannot_update_first_segment_start_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the order&apos;s start and end dates at the same time. --></label>
+        <name>SBQQ__msg_order_cannot_update_start_and_end_date_at_the_same_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot update start date of MDQ order item. --></label>
+        <name>SBQQ__msg_order_cannot_update_start_date_first_segment_end_date_set_on_mdq_order_item</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order&apos;s currency must match the quote&apos;s currency. --></label>
+        <name>SBQQ__msg_order_currency_mismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The Start Date and End Date cannot be changed. --></label>
+        <name>SBQQ__msg_order_dates_cannot_change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order end date must be greater than all order products&apos; end date. --></label>
+        <name>SBQQ__msg_order_end_date_smaller_than_line_end_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You don&apos;t have permission to create an order. --></label>
+        <name>SBQQ__msg_order_insufficient_access_create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You don&apos;t permission to delete an order. --></label>
+        <name>SBQQ__msg_order_insufficient_access_delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You don&apos;t have permission to update an order. --></label>
+        <name>SBQQ__msg_order_insufficient_access_update</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update order item&apos;s bookings indicator. --></label>
+        <name>SBQQ__msg_order_item_cannot_update_booking_indicator</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the percent of total order product&apos;s quantity. --></label>
+        <name>SBQQ__msg_order_item_cannot_update_pot_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update order item&apos;s quoted quantity. --></label>
+        <name>SBQQ__msg_order_item_cannot_update_quoted_quantity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update order item&apos;s start and end dates at the same time. --></label>
+        <name>SBQQ__msg_order_item_cannot_update_start_and_end_date_at_the_same_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update order item&apos;s subscription term. --></label>
+        <name>SBQQ__msg_order_item_cannot_update_subscription_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A primary quote is not specified. --></label>
+        <name>SBQQ__msg_order_no_primary_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order is not activated. --></label>
+        <name>SBQQ__msg_order_not_activated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order can only be placed on a primary quote. --></label>
+        <name>SBQQ__msg_order_not_primary_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The primary quote cannot be changed. --></label>
+        <name>SBQQ__msg_order_opportunity_cannot_change_primary_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity must be greater than 0. --></label>
+        <name>SBQQ__msg_order_product_quantity_must_be_greater_than_zero</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quantity must not be 0. --></label>
+        <name>SBQQ__msg_order_product_quantity_must_not_be_zero</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The product segment&apos;s start date or end date is not valid. --></label>
+        <name>SBQQ__msg_order_product_segment_date_error1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The product segment&apos;s start date or end date is not valid. --></label>
+        <name>SBQQ__msg_order_product_segment_date_error2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order products cannot be updated. --></label>
+        <name>SBQQ__msg_order_products_edit_not_allowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote must have an opportunity. --></label>
+        <name>SBQQ__msg_order_quote_must_have_opportunity</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The order start date must be earlier than all order products&apos; start date. --></label>
+        <name>SBQQ__msg_order_start_date_greater_than_line_start_date</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cannot contract from order. --></label>
+        <name>SBQQ__msg_order_without_quote_cannot_contract</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total ordered quantity of the product must either be 0 or the amount returned. --></label>
+        <name>SBQQ__msg_ordered_qty_exceeds_minimum</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total ordered quantity of the product must not exceed the total quoted quantity. --></label>
+        <name>SBQQ__msg_ordered_qty_exceeds_quoted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Orders affected --></label>
+        <name>SBQQ__msg_orders_affected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rates have overlap between bounds --></label>
+        <name>SBQQ__msg_overlap_between_rates_bounds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Overlapping Custom Segment Dates --></label>
+        <name>SBQQ__msg_overlapping_custom_segment_dates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upper bound of one rate cannot overlap the lower bound of the next. --></label>
+        <name>SBQQ__msg_overlaps_between_rates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HTML content has more than 35KB size --></label>
+        <name>SBQQ__msg_oversize_html_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Install Perm Sets Status --></label>
+        <name>SBQQ__msg_postinstallpermsets_complete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Install Perm Sets Instructions --></label>
+        <name>SBQQ__msg_postinstallpermsets_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Install Scripts Executed --></label>
+        <name>SBQQ__msg_postinstallscript_complete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Install Scripts Instructions --></label>
+        <name>SBQQ__msg_postinstallscript_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Limit quote lines to Large Quote Threshold or remove all consumption products. --></label>
+        <name>SBQQ__msg_prevent_quote_save_above_threshold</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh All Updated Message --></label>
+        <name>SBQQ__msg_price_refresh_all_updated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Errors Subject --></label>
+        <name>SBQQ__msg_price_refresh_errors_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Invalid Entries --></label>
+        <name>SBQQ__msg_price_refresh_invalid_entries</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Some Updated Message --></label>
+        <name>SBQQ__msg_price_refresh_some_updated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Price Refresh Success Subject --></label>
+        <name>SBQQ__msg_price_refresh_success_subject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wrong currency on primary Quote --></label>
+        <name>SBQQ__msg_primary_quote_wrong_currency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Process to assign permission set licenses --></label>
+        <name>SBQQ__msg_processpslassignments_instructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t update the product&apos;s subscription type because it is a bundle component. --></label>
+        <name>SBQQ__msg_product_cannot_update_subscription_type_part_of_bundle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t edit the subscription type to {0} because it has a dynamic feature. --></label>
+        <name>SBQQ__msg_product_cannot_update_subscription_type_to_evergreen_dynamic_feature</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t edit the subscription type to {0} because it has a price dimension. --></label>
+        <name>SBQQ__msg_product_cannot_update_subscription_type_to_evergreen_price_dimension</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown saving a Product Rule without data in required fields. --></label>
+        <name>SBQQ__msg_product_lookup_rule_selection_required_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error shown saving a Product Rule without data in required fields. --></label>
+        <name>SBQQ__msg_product_lookup_rule_validation_required_fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product is not available in this pricebook. --></label>
+        <name>SBQQ__msg_product_not_available_in_pricebook</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t have evergreen and renewable subscriptions in the same bundle. --></label>
+        <name>SBQQ__msg_product_option_cannot_have_evergreen_and_renewable_sub_in_same_bundle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Option Dependent --></label>
+        <name>SBQQ__msg_product_option_dependent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Option Excluded --></label>
+        <name>SBQQ__msg_product_option_excluded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product is required. --></label>
+        <name>SBQQ__msg_product_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Product Rule Scope field conflicts with its error conditions. --></label>
+        <name>SBQQ__msg_product_rule_scope_error_mismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prorate Multiplier is Calculated With Divided By 0 --></label>
+        <name>SBQQ__msg_prorate_multiplier_divide_by_0_when_unit_day</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prorate Multiplier is Calculated With Divided By 0 --></label>
+        <name>SBQQ__msg_prorate_multiplier_divide_by_0_when_unit_month</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PSL Assignment Status --></label>
+        <name>SBQQ__msg_psl_assign_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template text: Asset quantites cannot decrease on a renewal quote. --></label>
+        <name>SBQQ__msg_qty_cannot_decrease_on_renewal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Asset 0 quantity is not allowed in amendment quotes --></label>
+        <name>SBQQ__msg_qty_no_negative</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Asset 0 quantity is not allowed in amendment quotes --></label>
+        <name>SBQQ__msg_qty_no_negative_on_amend</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template: Source line quantity decreases without corresponding upgrades --></label>
+        <name>SBQQ__msg_qty_of_source_too_low</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message Template: Cannot upgrade more units than you own --></label>
+        <name>SBQQ__msg_qty_of_upgrade_exceeds_source_prior</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Decrease asset quantity is not allowed in renewal and amendment quotes --></label>
+        <name>SBQQ__msg_qty_only_can_increase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Require line quantity (grouped) --></label>
+        <name>SBQQ__msg_quantity_required_grouped</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Save Quote Tip --></label>
+        <name>SBQQ__msg_quick_save_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote associated with this order has been fully ordered --></label>
+        <name>SBQQ__msg_quote_already_fully_ordered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Calculation timed out. --></label>
+        <name>SBQQ__msg_quote_calculator_timed_out</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All quote lines of this quote have been fully contracted --></label>
+        <name>SBQQ__msg_quote_completely_contracted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The field cannot be edited because it&apos;s quote is non-current. --></label>
+        <name>SBQQ__msg_quote_field_noneditable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The quantity field must be set to 0 for evergreen subscriptions. --></label>
+        <name>SBQQ__msg_quote_line_amendment_quantity_of_evergreen_must_be_full_cancellation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The start date field must be on or after earliest valid amendment start date. --></label>
+        <name>SBQQ__msg_quote_line_amendment_start_date_backdated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen quote lines can&apos;t have end dates. --></label>
+        <name>SBQQ__msg_quote_line_end_date_of_evergreen_must_be_null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Quote Line Import Format Option --></label>
+        <name>SBQQ__msg_quote_line_import_format_option_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen subscription product can&apos;t have an Invoice Plan billing frequency. --></label>
+        <name>SBQQ__msg_quote_line_invalid_evergreen_billing_frequency_invoice_plan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Evergreen subscription product&apos;s quote line can&apos;t have a One-Time charge type. --></label>
+        <name>SBQQ__msg_quote_line_invalid_evergreen_chargeType_one_time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a subscription type and try again. --></label>
+        <name>SBQQ__msg_quote_line_select_a_subscription_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Set the evergreen quote line&apos;s subscription term to 1 and try again. --></label>
+        <name>SBQQ__msg_quote_line_subscription_term_of_evergreen_must_be_one</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Supplemental Document Display Order Message --></label>
+        <name>SBQQ__msg_quote_related_content_display_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote Additional Document Upload --></label>
+        <name>SBQQ__msg_quote_related_content_upload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quote is required. --></label>
+        <name>SBQQ__msg_quote_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This quote term is locked. --></label>
+        <name>SBQQ__msg_quote_term_locked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quotes affected --></label>
+        <name>SBQQ__msg_quotes_affected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The rate price must be positive --></label>
+        <name>SBQQ__msg_rate_price_is_negative</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The rate price is not a number --></label>
+        <name>SBQQ__msg_rate_price_not_a_number</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Failure evaluating an error condition. --></label>
+        <name>SBQQ__msg_recalculate_formulas_no_result</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uncalculated Quote --></label>
+        <name>SBQQ__msg_recalculated_quote_link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uncalculated Quote --></label>
+        <name>SBQQ__msg_recalculated_quote_message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recalculation in progress warning --></label>
+        <name>SBQQ__msg_recalculation_in_progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This field is only editable from the quote line editor. --></label>
+        <name>SBQQ__msg_reconfigure_dimension_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Group Tip --></label>
+        <name>SBQQ__msg_remove_group</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove Line Message --></label>
+        <name>SBQQ__msg_remove_line</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- An asset is missing a product, preventing the contract from being renewed. --></label>
+        <name>SBQQ__msg_renew_contract_asset_missing_product_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required to pick a contract --></label>
+        <name>SBQQ__msg_renew_contract_required_selection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Renewal or Amendment from a contract is not allowed with asset based model --></label>
+        <name>SBQQ__msg_renew_n_amend_contract_not_allow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors occurred please contact admin --></label>
+        <name>SBQQ__msg_report_errors</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Errors occurred please contact admin --></label>
+        <name>SBQQ__msg_report_errors_contracted_prices</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required By Message --></label>
+        <name>SBQQ__msg_required_by</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Missing Required Quote Line Import Format Selection --></label>
+        <name>SBQQ__msg_required_quote_line_import_format_missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reveal and copy the refresh token --></label>
+        <name>SBQQ__msg_reveal_and_use_refresh_token</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Revert modified quote term message --></label>
+        <name>SBQQ__msg_revert_modified_quote_term</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Review Errors in Config Form --></label>
+        <name>SBQQ__msg_review_errors_in_config_form</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prefix for error messages related to parsing rule formulas --></label>
+        <name>SBQQ__msg_rule_formula_error_prefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rule Formula references relationship or field that does not exist --></label>
+        <name>SBQQ__msg_rule_formula_reference_nonexistent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rule Formula directly references lookup to unsupported object --></label>
+        <name>SBQQ__msg_rule_formula_xobject_reference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All products have already been ordered. --></label>
+        <name>SBQQ__msg_sales_order_exists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Salesforce CPQ License Required --></label>
+        <name>SBQQ__msg_salesforce_cpq_license_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact Admin --></label>
+        <name>SBQQ__msg_salesforce_no_access_body</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insufficient Privileges --></label>
+        <name>SBQQ__msg_salesforce_no_access_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Insufficient Privileges --></label>
+        <name>SBQQ__msg_salesforce_no_access_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Quote Tip --></label>
+        <name>SBQQ__msg_save_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Script Statement Limit Warning --></label>
+        <name>SBQQ__msg_script_statement_limit_warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a subscription type and try again. --></label>
+        <name>SBQQ__msg_select_a_subscription_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Prompt shown on Renew Assets page --></label>
+        <name>SBQQ__msg_select_master_asset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Supplemental Document Prompt --></label>
+        <name>SBQQ__msg_select_related_content</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Stack Trace --></label>
+        <name>SBQQ__msg_stack_trace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Salesforce CPQ Standard Objects Access Permission Set Description --></label>
+        <name>SBQQ__msg_standard_objects_access</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Formula Field references lookup on noncalculated object --></label>
+        <name>SBQQ__msg_static_object_reference</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subscription Scope Help --></label>
+        <name>SBQQ__msg_subscription_scope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when renewing or amending subscriptions without pricing --></label>
+        <name>SBQQ__msg_subscriptions_require_subscription_pricing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary Variable Composition error --></label>
+        <name>SBQQ__msg_sumvar_composition_err</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Summary Variable Date Cannot be Multiplied or Divided --></label>
+        <name>SBQQ__msg_sv_date_op_conflict_err</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TemplateContent {0} failed data validation. --></label>
+        <name>SBQQ__msg_template_content_data_validation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template, product, quote, or Opportunity Id is required --></label>
+        <name>SBQQ__msg_template_quote_opportunity_or_product_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template or product ID is required --></label>
+        <name>SBQQ__msg_template_quote_or_product_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Template is required. --></label>
+        <name>SBQQ__msg_template_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme preview mode --></label>
+        <name>SBQQ__msg_theme_preview_mode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Theme published --></label>
+        <name>SBQQ__msg_theme_published</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too few options selected --></label>
+        <name>SBQQ__msg_too_few_feature_options_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too many components has been ordered on another order --></label>
+        <name>SBQQ__msg_too_many_components_have_been_ordered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too many favorites --></label>
+        <name>SBQQ__msg_too_many_favorites</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too many options selected --></label>
+        <name>SBQQ__msg_too_many_feature_options_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too Many Options Selected --></label>
+        <name>SBQQ__msg_too_many_options_selected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Too Many Products Message --></label>
+        <name>SBQQ__msg_too_many_products</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to change your contract type. --></label>
+        <name>SBQQ__msg_unable_to_change_contract_type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to change currency iso code on an order. --></label>
+        <name>SBQQ__msg_unable_to_change_currency_iso_code_on_order</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to find translation source --></label>
+        <name>SBQQ__msg_unable_to_find_translation_source</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unable to save the contract because evergreen contracts aren&apos;t renewable. --></label>
+        <name>SBQQ__msg_unable_to_save_contract_evergreen_cannot_renew</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uncalculated Quote --></label>
+        <name>SBQQ__msg_uncalculated_quote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uncalculated Quote --></label>
+        <name>SBQQ__msg_uncalculated_quote_link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uncalculated Quote --></label>
+        <name>SBQQ__msg_uncalculated_quote_message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirmation on Doc gen for uncalculated quote --></label>
+        <name>SBQQ__msg_uncalculated_quote_on_doc_gen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uncalculated Primary Quote For Opportunity --></label>
+        <name>SBQQ__msg_uncalculated_quote_on_opp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dirty form prompt --></label>
+        <name>SBQQ__msg_undo_action_msg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unequal lower bound with prev upper block. --></label>
+        <name>SBQQ__msg_unequal_lower_upper_bounds_block</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unequal lower bound with prev upper bound. --></label>
+        <name>SBQQ__msg_unequal_lower_upper_bounds_guidance_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unequal lower bound with prev upper bound. --></label>
+        <name>SBQQ__msg_unequal_lower_upper_bounds_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unknown Merged Field --></label>
+        <name>SBQQ__msg_unknown_merged_field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The CKEditor attribute isn&apos;t supported --></label>
+        <name>SBQQ__msg_unsupported_ckeditor_attr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error text template: Upgrade has no source --></label>
+        <name>SBQQ__msg_upgrade_requires_source</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Block upper bound greater than lower. --></label>
+        <name>SBQQ__msg_upper_greater_block</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Block upper bound greater than lower. --></label>
+        <name>SBQQ__msg_upper_greater_guidance_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Block upper bound greater than lower. --></label>
+        <name>SBQQ__msg_upper_greater_tier</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when creating Usage Rate Cards when the feature is not enabled. --></label>
+        <name>SBQQ__msg_usage_based_pricing_disabled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value Required Message --></label>
+        <name>SBQQ__msg_value_required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a web quote does not have a pricebookid or a opportunity --></label>
+        <name>SBQQ__msg_web_quote_missing_pricebookid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Displayed number of results returned --></label>
+        <name>SBQQ__numResults</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Notification message to pester users about PSL assignment --></label>
+        <name>SBQQ__pesterPSLAssignment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Placeholder text for lookup field --></label>
+        <name>SBQQ__searchText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Show Available Upgrades message --></label>
+        <name>SBQQ__showAvailableUpgrades</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Solution Group fields cannot be null --></label>
+        <name>SBQQ__solution_group_fields_null</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Object selected for solution groups does not exist --></label>
+        <name>SBQQ__solution_groups_object_does_not_exist</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Salutation --></label>
         <name>Salutation</name>
     </customLabels>

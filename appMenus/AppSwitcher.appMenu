@@ -184,4 +184,12 @@
         <name>standard__ExpressionSetConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>SBQQ__QuoteQuickly</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Vijay Digital</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>
