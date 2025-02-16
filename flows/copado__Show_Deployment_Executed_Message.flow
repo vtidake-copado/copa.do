@@ -3,10 +3,6 @@
     <apiVersion>50.0</apiVersion>
     <description>Reusable flow to show finish message for different Data Deployment flows.</description>
     <label>Show Deployment Executed Message</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>Flow</processType>
     <runInMode>DefaultMode</runInMode>
 </Flow>

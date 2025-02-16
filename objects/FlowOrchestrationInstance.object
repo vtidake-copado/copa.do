@@ -74,7 +74,13 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Duration</fullName>
+    </fields>
+    <fields>
         <fullName>OrchestrationDeveloperName</fullName>
+    </fields>
+    <fields>
+        <fullName>OrchestrationLabel</fullName>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -82,6 +88,9 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>TriggeringRecord</fullName>
     </fields>
     <listViews>
         <fullName>All_Orchestration_Instances</fullName>

@@ -23,7 +23,7 @@
                 <field>CreatedDate</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Product2Id</field>
             </layoutItems>
             <layoutItems>
@@ -31,39 +31,39 @@
                 <field>LastModifiedDate</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>ListPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Quantity</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>SalesPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Sku</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>AdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>AdjustmentTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>TotalAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>TotalAdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>TotalPriceAfterAllAdjustments</field>
             </layoutItems>
             <layoutItems>
@@ -91,7 +91,7 @@
                 <field>DistributedAdjustmentTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>TotalLineAmount</field>
             </layoutItems>
             <layoutItems>
@@ -99,64 +99,28 @@
                 <field>TotalLineTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>TotalListPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>TotalPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>TotalTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>UnitAdjustedPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>UnitAdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ParentCartItemId</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
-                <field>TotalLineNetAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>TotalLineGrossAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>TotalPriceTaxAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>NetUnitPrice</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>GrossUnitPrice</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>NetAdjustmentAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>GrossAdjustmentAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>UnitItemAdjustmentAmount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>UnitAdjustedPriceWithItemAdj</field>
+                <field>Type</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -169,16 +133,7 @@
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
-        <fields>ParentCartItemId</fields>
-        <fields>TotalLineNetAmount</fields>
-        <fields>TotalLineGrossAmount</fields>
-        <fields>TotalPriceTaxAmount</fields>
-        <fields>NetUnitPrice</fields>
-        <fields>GrossUnitPrice</fields>
-        <fields>NetAdjustmentAmount</fields>
-        <fields>GrossAdjustmentAmount</fields>
-        <fields>UnitItemAdjustmentAmount</fields>
-        <fields>UnitAdjustedPriceWithItemAdj</fields>
+        <fields>Type</fields>
     </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

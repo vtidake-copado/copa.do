@@ -3,10 +3,6 @@
     <apiVersion>50.0</apiVersion>
     <description>Given a record Id, this flow deletes all the ContentVersion records but the last one from related Files. Due to Salesforce limitation, original Files are deleted and new Files with only one version are created.</description>
     <label>Delete Old Content Versions</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>Flow</processType>
     <runInMode>DefaultMode</runInMode>
 </Flow>

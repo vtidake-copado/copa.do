@@ -115,23 +115,5 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>EndTime</fullName>
-    </fields>
-    <fields>
-        <fullName>JobStatus</fullName>
-    </fields>
-    <fields>
-        <fullName>PolicyDescription</fullName>
-    </fields>
-    <fields>
-        <fullName>PolicyName</fullName>
-    </fields>
-    <fields>
-        <fullName>PolicyType</fullName>
-    </fields>
-    <fields>
-        <fullName>StartTime</fullName>
-    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

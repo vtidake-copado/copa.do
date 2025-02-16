@@ -27,7 +27,6 @@
             </value>
         </inputParameters>
         <nameSegment>emailSimple</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <description>Launches when an automated action is completed. Use flow API name in the Automated Action Callback field of the Automation Rule record. Includes input variables with the Job Execution for the automated action and the status.</description>

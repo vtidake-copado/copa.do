@@ -3,9 +3,5 @@
     <apiVersion>49.0</apiVersion>
     <description>User Story Commit outdates latest Validation</description>
     <label>User Story Commit outdates latest Validation</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>Workflow</processType>
 </Flow>

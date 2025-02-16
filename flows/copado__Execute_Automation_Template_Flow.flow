@@ -3,10 +3,6 @@
     <apiVersion>50.0</apiVersion>
     <description>Flow to use as quick action in Automation Template page.</description>
     <label>Execute Automation Template</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>Flow</processType>
     <runInMode>DefaultMode</runInMode>
 </Flow>

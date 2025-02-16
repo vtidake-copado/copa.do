@@ -134,6 +134,9 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ReferencePrice</fullName>
+    </fields>
+    <fields>
         <fullName>SBQQ__Activated__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>

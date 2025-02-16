@@ -16,11 +16,10 @@
     <enableAutoCompleteCombo>true</enableAutoCompleteCombo>
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
     <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
-    <enableCrtSetupLightningUiPref>false</enableCrtSetupLightningUiPref>
+    <enableCrtSetupLightningUiPref>true</enableCrtSetupLightningUiPref>
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
-    <enableDateFieldMinMaxAggPref>false</enableDateFieldMinMaxAggPref>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
     <enableFirebirdEditor>false</enableFirebirdEditor>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>

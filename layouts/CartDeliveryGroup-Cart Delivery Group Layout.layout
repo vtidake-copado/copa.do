@@ -17,18 +17,6 @@
                 <behavior>Required</behavior>
                 <field>CreatedDate</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>SelectedDeliveryMethodId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>DesiredDeliveryDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>ShippingInstructions</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
@@ -44,9 +32,6 @@
         <fields>Name</fields>
         <fields>CartId</fields>
         <fields>CreatedDate</fields>
-        <fields>SelectedDeliveryMethodId</fields>
-        <fields>DesiredDeliveryDate</fields>
-        <fields>ShippingInstructions</fields>
     </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

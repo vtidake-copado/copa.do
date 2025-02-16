@@ -186,6 +186,9 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ServiceRegion</fullName>
+    </fields>
+    <fields>
         <fullName>SyncStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>

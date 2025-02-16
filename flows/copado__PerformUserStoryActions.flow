@@ -3,9 +3,5 @@
     <apiVersion>51.0</apiVersion>
     <description>To perform user story actions and callouts</description>
     <label>Perform User Story Actions</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
 </Flow>

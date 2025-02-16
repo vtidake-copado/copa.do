@@ -192,4 +192,16 @@
         <name>Vijay Digital</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__Approvals</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataGovernanceConsole</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__MSJApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

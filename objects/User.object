@@ -513,6 +513,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>EndDay</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Extension</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -684,6 +688,10 @@
     </fields>
     <fields>
         <fullName>Signature</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>StartDay</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>

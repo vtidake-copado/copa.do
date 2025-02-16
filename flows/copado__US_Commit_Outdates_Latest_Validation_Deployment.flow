@@ -4,9 +4,5 @@
     <description>After Validation of a User Story, if new Commits are added to Story, the Latest Validation Deployment gets Outdated.</description>
     <environments>Default</environments>
     <label>US_Commit_Outdates_Latest_Validation_Deployment</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
 </Flow>

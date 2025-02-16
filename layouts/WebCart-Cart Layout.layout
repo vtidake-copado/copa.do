@@ -7,18 +7,6 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalProductLineItemCount</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalLineItemsWithErrors</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalAdjustmentAmount</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
@@ -31,7 +19,7 @@
                 <field>WebStoreId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>PoNumber</field>
             </layoutItems>
             <layoutItems>
@@ -171,11 +159,6 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <miniLayout>
-        <fields>TotalProductLineItemCount</fields>
-        <fields>TotalLineItemsWithErrors</fields>
-        <fields>TotalAdjustmentAmount</fields>
-    </miniLayout>
     <relatedLists>
         <fields>Name</fields>
         <fields>Product2</fields>

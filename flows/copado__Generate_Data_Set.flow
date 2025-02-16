@@ -3,10 +3,6 @@
     <apiVersion>50.0</apiVersion>
     <description>Flow to generate Data Set attachments with the records from the Data Template and selected org as source.</description>
     <label>Generate Data Set</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>Flow</processType>
     <runInMode>DefaultMode</runInMode>
 </Flow>

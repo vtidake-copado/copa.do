@@ -18,6 +18,7 @@
     <logRedirections>false</logRedirections>
     <myDomainName>copado-1c3-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
+    <onboardCustomerSpecificSuffix>false</onboardCustomerSpecificSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>

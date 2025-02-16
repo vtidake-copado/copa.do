@@ -191,6 +191,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ProductId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>TimeFrameEndUnit</fullName>
         <trackHistory>false</trackHistory>
     </fields>

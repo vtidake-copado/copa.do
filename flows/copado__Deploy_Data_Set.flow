@@ -3,10 +3,6 @@
     <apiVersion>50.0</apiVersion>
     <description>Flow to deploy Data Set (records from attachments) to the selected destination org.</description>
     <label>Deploy Data Set</label>
-    <processMetadataValues>
-        <name>AssociatedRecord</name>
-        <value/>
-    </processMetadataValues>
     <processType>Flow</processType>
     <runInMode>DefaultMode</runInMode>
 </Flow>

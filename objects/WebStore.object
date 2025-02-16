@@ -135,6 +135,7 @@
     </fields>
     <fields>
         <fullName>ProductGrouping</fullName>
+        <inlineHelpText>Choose how product variations and parent products display in search results.</inlineHelpText>
     </fields>
     <fields>
         <fullName>SortByPricebookId</fullName>

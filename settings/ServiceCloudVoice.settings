@@ -3,6 +3,7 @@
     <disableSCVTaskCreationForHVS>false</disableSCVTaskCreationForHVS>
     <enableAmazonQueueManagement>false</enableAmazonQueueManagement>
     <enableDefaultChannelForSCV>false</enableDefaultChannelForSCV>
+    <enableDigitalVoiceWhatsapp>false</enableDigitalVoiceWhatsapp>
     <enableEndUserForSCV>false</enableEndUserForSCV>
     <enableOmniCapacityForSCV>false</enableOmniCapacityForSCV>
     <enablePhoneNumberMaskingForSCV>false</enablePhoneNumberMaskingForSCV>
@@ -10,6 +11,5 @@
     <enableSCVBYOT>false</enableSCVBYOT>
     <enableSCVOpenVCAsNewTabHVS>false</enableSCVOpenVCAsNewTabHVS>
     <enableSCVSupportBannerDisplayed>false</enableSCVSupportBannerDisplayed>
-    <enableSCVUnifiedRouting>false</enableSCVUnifiedRouting>
     <enableServiceCloudVoice>false</enableServiceCloudVoice>
 </ServiceCloudVoiceSettings>

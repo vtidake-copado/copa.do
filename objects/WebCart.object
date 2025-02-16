@@ -83,7 +83,47 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>FirstPymtGrandTotalAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FirstPymtTotalTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>GrandTotalAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>GuestCompanyName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestEmailAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestFirstName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestLastName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestPhoneNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>GuestSecondName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InitialOrderReferenceNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InventoryReservationIdentifier</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsRepricingNeeded</fullName>
@@ -156,6 +196,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>TotalChargeFirstPymtTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalChargeItemAdjAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TotalChargeTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -173,6 +221,10 @@
     </fields>
     <fields>
         <fullName>TotalProductCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductFirstPymtTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -197,6 +249,10 @@
     </fields>
     <fields>
         <fullName>TotalPromoAdjustmentTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalSubProductCount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

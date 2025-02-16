@@ -116,6 +116,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CorpCrcyCnvTotAmtWithTax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnRate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CreationMode</fullName>
         <trackHistory>false</trackHistory>
     </fields>
