@@ -25,6 +25,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Open Opportunities by Partner</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -48,6 +49,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Open Opportunities by Stage</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -71,6 +73,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Lead conversion rate</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -94,6 +97,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Revenue Closed by Quarter</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>

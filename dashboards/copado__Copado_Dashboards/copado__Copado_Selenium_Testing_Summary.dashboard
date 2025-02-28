@@ -23,6 +23,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Failed Test Runs</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -42,6 +43,7 @@
             <showTotal>true</showTotal>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Test Runs by Status</title>
             <useReportChart>false</useReportChart>
         </components>
@@ -61,6 +63,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Last Test Runs (Today)</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -80,6 +83,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Last Test Runs (Yesterday)</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -102,6 +106,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Failed Test Runs by Environment</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -121,6 +126,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>false</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Test Runs by Environment</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -144,6 +150,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>false</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Selenium Test Results Today</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -163,6 +170,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>false</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Selenium Test Results Yesterday</title>
             <useReportChart>true</useReportChart>
         </components>
@@ -182,6 +190,7 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>false</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <title>Selenium Test Results This Week</title>
             <useReportChart>true</useReportChart>
         </components>

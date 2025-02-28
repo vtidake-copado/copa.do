@@ -18,6 +18,7 @@
     <enablePartyProfileParentSharingOrgPref>false</enablePartyProfileParentSharingOrgPref>
     <enablePartyprofParentMultiSharingOrgPref>false</enablePartyprofParentMultiSharingOrgPref>
     <enablePreBookedFallbackMechOrgPref>false</enablePreBookedFallbackMechOrgPref>
+    <enableSchedulerPaymentsPref>false</enableSchedulerPaymentsPref>
     <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
     <enableTopicOrTemplate>false</enableTopicOrTemplate>
     <enableTopicTimeSlot>true</enableTopicTimeSlot>

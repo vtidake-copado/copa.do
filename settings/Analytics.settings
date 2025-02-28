@@ -17,6 +17,7 @@
     <enableAzureDLGen2OutputConnector>false</enableAzureDLGen2OutputConnector>
     <enableCreateLegacyDataflows>true</enableCreateLegacyDataflows>
     <enableCrtSetupLightningUiPref>true</enableCrtSetupLightningUiPref>
+    <enableDashboardCmpRefreshPref>false</enableDashboardCmpRefreshPref>
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableDataCloudReportingPref>true</enableDataCloudReportingPref>
@@ -50,6 +51,7 @@
     <enableSFXJoinedReportsEnable>false</enableSFXJoinedReportsEnable>
     <enableSalesforceOutputConnector>false</enableSalesforceOutputConnector>
     <enableSecureImageSharing>false</enableSecureImageSharing>
+    <enableShowHighContrastChart>false</enableShowHighContrastChart>
     <enableSnowflakeOutputConnector>false</enableSnowflakeOutputConnector>
     <enableSummaryFilterOrgPref>false</enableSummaryFilterOrgPref>
     <enableTableauHyperOutputConnector>false</enableTableauHyperOutputConnector>

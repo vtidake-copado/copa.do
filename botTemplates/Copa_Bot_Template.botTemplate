@@ -156,21 +156,25 @@
     <contextVariables>
         <dataType>Text</dataType>
         <developerName>ChatKey</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>Chat Key</label>
     </contextVariables>
     <contextVariables>
         <dataType>Id</dataType>
         <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>Contact Id</label>
     </contextVariables>
     <contextVariables>
         <dataType>Id</dataType>
         <developerName>EndUserId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>End User Id</label>
     </contextVariables>
     <contextVariables>
         <dataType>Id</dataType>
         <developerName>RoutableId</developerName>
+        <includeInPrompt>false</includeInPrompt>
         <label>Routable Id</label>
     </contextVariables>
     <conversationLanguages>en_US</conversationLanguages>

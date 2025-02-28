@@ -23,6 +23,7 @@
             <showPercentage>false</showPercentage>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <useReportChart>false</useReportChart>
         </components>
     </leftSection>
@@ -78,6 +79,7 @@
             <showPercentage>false</showPercentage>
             <showValues>true</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <useReportChart>false</useReportChart>
         </components>
         <components>

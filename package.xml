@@ -68,6 +68,7 @@
         <members>IndustriesContext</members>
         <members>IndustriesEinsteinFeature</members>
         <members>IndustriesPricing</members>
+        <members>InsuranceBrokerage</members>
         <members>InvLatePymntRiskCalc</members>
         <members>Inventory</members>
         <members>InvocableAction</members>
@@ -136,5 +137,5 @@
         <members>WorkDotCom</members>
         <name>Settings</name>
     </types>
-    <version>62.0</version>
+    <version>63.0</version>
 </Package>

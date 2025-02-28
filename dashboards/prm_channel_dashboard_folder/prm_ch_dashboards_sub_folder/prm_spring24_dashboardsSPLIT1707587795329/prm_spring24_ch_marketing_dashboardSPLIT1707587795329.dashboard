@@ -38,6 +38,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Open Partner Fund Claims</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -74,6 +75,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Open Partner Fund Requests</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -110,6 +112,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Approved Partner Fund Claims</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -183,6 +186,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Approved Partner Fund Requests</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
