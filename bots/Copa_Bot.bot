@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bot xmlns="http://soap.sforce.com/2006/04/metadata">
-    <botMlDomain>
-        <label>Copa Bot</label>
-        <name>Copa_Bot</name>
-    </botMlDomain>
     <botVersions>
         <fullName>v1</fullName>
         <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
@@ -181,34 +177,4 @@
         </nlpProviders>
         <smallTalkEnabled>false</smallTalkEnabled>
     </botVersions>
-    <contextVariables>
-        <dataType>Text</dataType>
-        <developerName>ChatKey</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Chat Key</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>ContactId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Contact Id</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>EndUserId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>End User Id</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>RoutableId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Routable Id</label>
-    </contextVariables>
-    <description>A bot from scratch.</description>
-    <label>Copa Bot</label>
-    <logPrivateConversationData>false</logPrivateConversationData>
-    <richContentEnabled>false</richContentEnabled>
-    <sessionTimeout>0</sessionTimeout>
-    <type>Bot</type>
 </Bot>
