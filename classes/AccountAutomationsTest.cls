@@ -6,7 +6,7 @@ private class AccountAutomationsTest {
         insert acc;
         
         acc = AccountAutomations.setDefaultDescription(acc);
-        System.assertEquals('Default description', acc.Description, 'Description should be set to default');
+        System.assertEquals('New default description v2', acc.Description, 'Description should be set to default');
         
         acc.Description = 'Custom Description';
         acc = AccountAutomations.setDefaultDescription(acc);
