@@ -3,13 +3,13 @@ public class AccountAutomations {
     public static Account setDefaultDescription(Account a){
         if (a.Description != null) return a;
         else {
-            a.Description = 'Default description';
+            a.Description = 'New default description v3'; // Another change
             return a;
         }
     }
     
     public static Account setDefaultPhone(Account a) {
-        a.Phone = '1234567890';
+        a.Phone = '0987654321'; // Additional change
         return a;
     }
 }
