@@ -3,7 +3,7 @@ public class AccountAutomations {
     public static Account setDefaultDescription(Account a){
         if (a.Description != null) return a;
         else {
-            a.Description = 'Default description';
+            a.Description = 'New default description v2'; // Different change
             return a;
         }
     }
