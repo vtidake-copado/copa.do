@@ -12,4 +12,7 @@ public class AccountAutomations {
         a.Phone = '1234567890';
         return a;
     }
+    
+    public void thisIsSomeReallyLongMethodNameSomeReallyLongMethodName() { //Bad: The method name is too long.
+    }
 }
