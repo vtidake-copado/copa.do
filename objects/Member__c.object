@@ -177,7 +177,6 @@
     <fields>
         <fullName>Registration_Date__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Registration Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

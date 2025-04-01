@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "cb768ba9-0157-4547-b51a-658b890f16dd",
+  "appPageId" : "064ffeed-fb45-4542-805a-ee8067a0271c",
+  "configurationTags" : [ ],
+  "devName" : "Plane_Detail__c",
+  "id" : "8439e586-eb7a-4d76-a768-a69f6a0b1868",
+  "label" : "Plane Detail",
+  "objectApiName" : "Planes__c",
+  "routeType" : "detail-a0d",
+  "type" : "route",
+  "urlPrefix" : "planes"
+}

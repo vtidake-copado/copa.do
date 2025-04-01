@@ -156,7 +156,6 @@
     <fields>
         <fullName>Bug_Field_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Bug Field 1</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -186,7 +185,6 @@
     <fields>
         <fullName>Reported_On__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Reported On</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

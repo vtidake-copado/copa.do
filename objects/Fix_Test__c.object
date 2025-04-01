@@ -27,7 +27,6 @@
     <fields>
         <fullName>Fix__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Fix</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

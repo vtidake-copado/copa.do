@@ -156,14 +156,12 @@
     <fields>
         <fullName>Electric__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Electric</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Maintainance_Cost__c</fullName>
-        <externalId>false</externalId>
         <label>Maintainance Cost</label>
         <precision>18</precision>
         <required>false</required>
@@ -174,7 +172,6 @@
     <fields>
         <fullName>Purchase_Date__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Purchase Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

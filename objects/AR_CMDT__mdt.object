@@ -4,7 +4,6 @@
         <fullName>AR_CMDT_Field__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Description</description>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>AR CMDT Field</label>
         <type>Checkbox</type>

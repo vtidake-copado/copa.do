@@ -142,6 +142,9 @@
         <fullName>RefundedAmount</fullName>
     </fields>
     <fields>
+        <fullName>ReservedBalanceTotalAmount</fullName>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
     </fields>
     <listViews>

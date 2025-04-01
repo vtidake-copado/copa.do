@@ -162,7 +162,6 @@
     <fields>
         <fullName>Auto_resolve_test_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Auto resolve test 1</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -171,7 +170,6 @@
     <fields>
         <fullName>Auto_resolve_test_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Auto resolve test 2</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -179,7 +177,6 @@
     </fields>
     <fields>
         <fullName>Dinner_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Dinner Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -222,7 +219,6 @@
     <fields>
         <fullName>FLS_Test_Dinner_PS__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>FLS Test Dinner PS</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -232,7 +228,6 @@
         <fullName>LateDinner__c</fullName>
         <defaultValue>false</defaultValue>
         <description>Description New</description>
-        <externalId>false</externalId>
         <label>LateDinner</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -241,7 +236,6 @@
     <fields>
         <fullName>Nested_Field_Test__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Nested Field Test</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -249,7 +243,6 @@
     </fields>
     <fields>
         <fullName>Picklist_Dinner_Table__c</fullName>
-        <externalId>false</externalId>
         <label>Picklist Dinner Table</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -274,7 +267,6 @@
     </fields>
     <fields>
         <fullName>Picklist_Dinner__c</fullName>
-        <externalId>false</externalId>
         <label>Picklist Dinner</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -316,7 +308,6 @@
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>This is the description of the field. 111111111</description>
-        <externalId>false</externalId>
         <label>Point of contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipName>Dinners</relationshipName>
@@ -329,7 +320,6 @@
     <fields>
         <fullName>TEST_US__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>TEST US</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -338,7 +328,6 @@
     <fields>
         <fullName>Table__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Table</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -358,7 +347,6 @@
     </fields>
     <fields>
         <fullName>Type__c</fullName>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -389,7 +377,6 @@
     <fields>
         <fullName>VS_Field1_Test_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>VS Field1 Test 2</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -422,7 +409,6 @@
     <fields>
         <fullName>VS_Field4_Test_2__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>VS Field4 Test 2</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -432,7 +418,6 @@
     <fields>
         <fullName>VS_PS_Test_D__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>VS PS Test D</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -441,7 +426,6 @@
     <fields>
         <fullName>historyRetentionPolicy__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>historyRetentionPolicy</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

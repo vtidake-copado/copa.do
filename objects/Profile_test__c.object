@@ -156,7 +156,6 @@
     <fields>
         <fullName>PT_Checkbox__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>PT Checkbox</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

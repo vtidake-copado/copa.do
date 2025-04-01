@@ -28,6 +28,9 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>BotType</fullName>
+    </fields>
+    <fields>
         <fullName>CancelDateTime</fullName>
     </fields>
     <fields>
@@ -61,10 +64,16 @@
         <fullName>HandleTime</fullName>
     </fields>
     <fields>
+        <fullName>HasNotification</fullName>
+    </fields>
+    <fields>
         <fullName>IsAutoAcceptEnabled</fullName>
     </fields>
     <fields>
         <fullName>IsConference</fullName>
+    </fields>
+    <fields>
+        <fullName>IsFallback</fullName>
     </fields>
     <fields>
         <fullName>IsFlagSupervisorOnly</fullName>
@@ -97,6 +106,12 @@
     <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PausedCapacityPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>PausedCapacityWeight</fullName>
     </fields>
     <fields>
         <fullName>PendingServiceRoutingId</fullName>
@@ -145,6 +160,10 @@
     </fields>
     <fields>
         <fullName>StatusSequence</fullName>
+    </fields>
+    <fields>
+        <fullName>TransferRequesterId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>UserId</fullName>

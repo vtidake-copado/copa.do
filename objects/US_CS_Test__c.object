@@ -27,7 +27,6 @@
     <fields>
         <fullName>Filed_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Filed 1</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

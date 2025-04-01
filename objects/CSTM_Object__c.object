@@ -156,7 +156,6 @@
     <fields>
         <fullName>cstm_field__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>cstm field</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

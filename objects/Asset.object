@@ -248,6 +248,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>SalesStoreId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>SerialNumber</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -268,7 +273,6 @@
     <fields>
         <fullName>Test_Field_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Test Field 2</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>

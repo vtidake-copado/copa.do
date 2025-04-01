@@ -32,6 +32,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -42,6 +43,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
+    <owner>ngarturodev1cpd@gmail.com</owner>
     <runningUser>ngarturodev1cpd@gmail.com</runningUser>
     <textColor>#000000</textColor>
     <title>LEX Dashboard</title>

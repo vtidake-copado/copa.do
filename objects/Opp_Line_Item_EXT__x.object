@@ -123,7 +123,6 @@
     <externalName>Table</externalName>
     <fields>
         <fullName>Date__c</fullName>
-        <externalId>false</externalId>
         <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
@@ -133,7 +132,6 @@
     </fields>
     <fields>
         <fullName>LastModifiedDate__c</fullName>
-        <externalId>false</externalId>
         <isFilteringDisabled>true</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>true</isSortingDisabled>
@@ -144,7 +142,6 @@
     <fields>
         <fullName>check__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>
@@ -154,7 +151,6 @@
     <fields>
         <fullName>www__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <isFilteringDisabled>false</isFilteringDisabled>
         <isNameField>false</isNameField>
         <isSortingDisabled>false</isSortingDisabled>

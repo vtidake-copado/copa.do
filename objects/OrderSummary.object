@@ -138,6 +138,9 @@
         <fullName>IsSuspended</fullName>
     </fields>
     <fields>
+        <fullName>OperationInProgress</fullName>
+    </fields>
+    <fields>
         <fullName>OrderLifeCycleType</fullName>
     </fields>
     <fields>

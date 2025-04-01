@@ -4,6 +4,7 @@
     <amount>false</amount>
     <dateType>0</dateType>
     <developerName>Territory_Model_16</developerName>
+    <hasCustomGroup>false</hasCustomGroup>
     <hasProductFamily>true</hasProductFamily>
     <masterLabel>Product Family Quantity by Territory</masterLabel>
     <quantity>true</quantity>

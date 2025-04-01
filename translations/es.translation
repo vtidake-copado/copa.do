@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
-        <description xsi:nil="true"/>
         <label>Consola de ventas</label>
         <name>Sales_Console</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
-        <label>Application de prueba</label>
+        <description>description translation MODIFIED</description>
         <name>Test_App</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
+        <label>label translation Dev1</label>
+        <name>Test_App</name>
+    </customApplications>
+    <customApplications>
         <label><!-- V-Test App --></label>
         <name>V_Test_App</name>
     </customApplications>
@@ -2864,11 +2865,11 @@
         <name>Toggle_User_Stories_Ahead_and_Behind</name>
     </customLabels>
     <customLabels>
-        <label><!-- Translation Test --></label>
+        <label>Traduccion español 1</label>
         <name>Translation_Test</name>
     </customLabels>
     <customLabels>
-        <label>La nueva traduccion del custom label</label>
+        <label>Traduccion español 2</label>
         <name>Translation_Test_NEW</name>
     </customLabels>
     <customLabels>

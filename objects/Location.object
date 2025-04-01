@@ -146,6 +146,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>DefaultPickupTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DefaultProcessingTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DefaultProcessingTimeUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -160,6 +172,11 @@
     <fields>
         <fullName>FoCapacity</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FulfillingBusinessHoursId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>IsInventoryLocation</fullName>

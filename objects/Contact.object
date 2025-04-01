@@ -369,8 +369,45 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>BuyerAttributes</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ContactSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Contact_Picklist__c</fullName>
+        <label>Contact Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>contact value 1</fullName>
+                    <default>false</default>
+                    <label>contact value 1</label>
+                </value>
+                <value>
+                    <fullName>contact value 2</fullName>
+                    <default>false</default>
+                    <label>contact value 2</label>
+                </value>
+                <value>
+                    <fullName>contact value 3</fullName>
+                    <default>false</default>
+                    <label>contact value 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>CurrencyIsoCode</fullName>
@@ -396,7 +433,7 @@
     </fields>
     <fields>
         <fullName>Fax</fullName>
-        <encryptionScheme>None</encryptionScheme>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -406,7 +443,6 @@
     </fields>
     <fields>
         <fullName>GoodBad__c</fullName>
-        <externalId>false</externalId>
         <label>GoodBad</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -424,6 +460,11 @@
                     <fullName>Bad</fullName>
                     <default>false</default>
                     <label>Bad</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -485,7 +526,6 @@
     </fields>
     <fields>
         <fullName>Level__c</fullName>
-        <externalId>false</externalId>
         <label>Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -543,7 +583,7 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-        <encryptionScheme>None</encryptionScheme>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -600,6 +640,39 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Test_Simple_Picklist1__c</fullName>
+        <label>Test Simple Picklist1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apple</fullName>
+                    <default>false</default>
+                    <label>Apple</label>
+                </value>
+                <value>
+                    <fullName>Orange</fullName>
+                    <default>false</default>
+                    <label>Orange</label>
+                </value>
+                <value>
+                    <fullName>Banana</fullName>
+                    <default>false</default>
+                    <label>Banana</label>
+                </value>
+                <value>
+                    <fullName>Kiwi</fullName>
+                    <default>false</default>
+                    <label>Kiwi</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Title</fullName>
@@ -672,6 +745,21 @@
         <active>true</active>
         <label>Contact RT1</label>
         <picklistValues>
+            <picklist>Contact_Picklist__c</picklist>
+            <values>
+                <fullName>contact value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>contact value 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>contact value 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>GoodBad__c</picklist>
             <values>
                 <fullName>Good</fullName>
@@ -740,6 +828,25 @@
             </values>
             <values>
                 <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Test_Simple_Picklist1__c</picklist>
+            <values>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kiwi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orange</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

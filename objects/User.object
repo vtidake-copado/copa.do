@@ -332,6 +332,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>EndDay</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Extension</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -431,6 +435,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>StartDay</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>StayInTouchNote</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -460,7 +468,6 @@
     </fields>
     <fields>
         <fullName>User__c</fullName>
-        <externalId>false</externalId>
         <label>User</label>
         <relationshipName>User</relationshipName>
         <restrictedAdminField>false</restrictedAdminField>

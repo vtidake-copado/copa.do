@@ -35,7 +35,6 @@
     <fields>
         <fullName>Body__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Body</label>
         <length>32768</length>
         <type>Html</type>

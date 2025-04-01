@@ -49,6 +49,10 @@
                 <behavior>Edit</behavior>
                 <field>Duplicate_Test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Custom_test_lead_field__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -166,7 +166,6 @@
     </fields>
     <fields>
         <fullName>Family__c</fullName>
-        <externalId>false</externalId>
         <label>Family</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

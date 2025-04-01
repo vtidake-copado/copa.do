@@ -3,5 +3,6 @@
   "title" : "ardigital",
   "contentBody" : {
     "authenticationType" : "AUTHENTICATED"
-  }
+  },
+  "urlName" : "ardigital"
 }

@@ -245,7 +245,6 @@
     <fields>
         <fullName>Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Lead</label>
         <referenceTo>Lead</referenceTo>
         <relationshipLabel>Campaigns</relationshipLabel>

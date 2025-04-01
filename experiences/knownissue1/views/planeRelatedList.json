@@ -1,0 +1,39 @@
+{
+  "appPageId" : "064ffeed-fb45-4542-805a-ee8067a0271c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "691db242-25ae-457c-b538-6b08c07f74f8",
+  "label" : "Plane Related List",
+  "regions" : [ {
+    "id" : "fdc62541-3030-47c2-a3ea-6ea08216c74d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "a73a939d-e4f6-4ef1-bff1-7d368d74ff4f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "31c0498f-97d5-41f0-a620-066d3185b167",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "da5580d9-df0d-4407-9149-079c8cad086a",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a0d"
+}

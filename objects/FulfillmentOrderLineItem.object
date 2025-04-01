@@ -104,6 +104,10 @@
         <fullName>IsReship</fullName>
     </fields>
     <fields>
+        <fullName>MainFulfillmentOrderLineItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>OrderItemId</fullName>
         <type>Lookup</type>
     </fields>
@@ -113,6 +117,10 @@
     </fields>
     <fields>
         <fullName>OriginalQuantity</fullName>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Quantity</fullName>

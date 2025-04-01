@@ -115,7 +115,6 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>AAATask__c</fullName>
-        <externalId>false</externalId>
         <label>AAATask</label>
         <required>false</required>
         <type>Picklist</type>
@@ -153,34 +152,29 @@
     <fields>
         <fullName>Activity_Custom_field_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activity Custom field 2</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Activity_Custom_field_3__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activity Custom field 3</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Activity_Custom_field_4__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activity Custom field 4</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Activity_Custom_field_5__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activity Custom field 5</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Activity_Field__c</fullName>
-        <externalId>false</externalId>
         <label>Activity Field</label>
         <required>false</required>
         <type>Picklist</type>
@@ -209,13 +203,11 @@
     <fields>
         <fullName>Activity_ZZZ__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activity ZZZ</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Field_Name__c</fullName>
-        <externalId>false</externalId>
         <label>Field Name</label>
         <required>false</required>
         <type>Picklist</type>
@@ -243,7 +235,6 @@
     </fields>
     <fields>
         <fullName>Next_Time__c</fullName>
-        <externalId>false</externalId>
         <label>Next Time</label>
         <required>false</required>
         <type>Picklist</type>
@@ -311,7 +302,6 @@
     </fields>
     <fields>
         <fullName>Time__c</fullName>
-        <externalId>false</externalId>
         <label>Time</label>
         <required>false</required>
         <type>Picklist</type>
@@ -322,7 +312,6 @@
     </fields>
     <fields>
         <fullName>Year__c</fullName>
-        <externalId>false</externalId>
         <label>Year</label>
         <required>false</required>
         <type>Picklist</type>
@@ -372,20 +361,17 @@
     <fields>
         <fullName>add_metadata_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>add metadata 1</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>add_metadata_2__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>add metadata 2</label>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>check_formula__c</fullName>
-        <externalId>false</externalId>
         <formula>true</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>check formula</label>

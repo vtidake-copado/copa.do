@@ -123,6 +123,9 @@
         <fullName>AuditEmail</fullName>
     </fields>
     <fields>
+        <fullName>BillingName</fullName>
+    </fields>
+    <fields>
         <fullName>Comments</fullName>
     </fields>
     <fields>

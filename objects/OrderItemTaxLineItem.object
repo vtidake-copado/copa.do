@@ -92,6 +92,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CalculationReferenceNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -111,6 +115,10 @@
     </fields>
     <fields>
         <fullName>Rate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ReferenceNumber</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

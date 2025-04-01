@@ -36,4 +36,9 @@
         <default>false</default>
         <label>RT test with CI</label>
     </standardValue>
+    <standardValue>
+        <fullName>value in lead</fullName>
+        <default>false</default>
+        <label>value in lead</label>
+    </standardValue>
 </StandardValueSet>

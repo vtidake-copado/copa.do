@@ -92,8 +92,14 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ActivatedDate</fullName>
+    </fields>
+    <fields>
         <fullName>BillToContactId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
     </fields>
     <fields>
         <fullName>DeliveryMethodId</fullName>

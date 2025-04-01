@@ -8,6 +8,7 @@
     <opportunityFilterSettings>
         <apexClassName xsi:nil="true"/>
         <enableFilter>false</enableFilter>
+        <runMultiThreaded>false</runMultiThreaded>
         <runOnCreate>false</runOnCreate>
     </opportunityFilterSettings>
     <showTM2EnabledBanner>false</showTM2EnabledBanner>

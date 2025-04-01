@@ -156,7 +156,6 @@
     <fields>
         <fullName>Provisioning_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Provisioning_Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Quote/Proposals</relationshipLabel>

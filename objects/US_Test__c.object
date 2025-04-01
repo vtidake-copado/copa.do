@@ -156,7 +156,6 @@
     <fields>
         <fullName>US_Test_Field__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>US Test Field</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

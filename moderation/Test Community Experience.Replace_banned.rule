@@ -4,8 +4,8 @@
     <active>false</active>
     <description>Posts and comments using banned keywords are replaced with asterisks</description>
     <entitiesAndFields>
-        <entityName>FeedComment</entityName>
-        <fieldName>RawCommentBody</fieldName>
+        <entityName>FeedItem</entityName>
+        <fieldName>Title</fieldName>
         <keywordList>Test Community Experience.Banned</keywordList>
     </entitiesAndFields>
     <entitiesAndFields>
@@ -19,13 +19,13 @@
         <keywordList>Test Community Experience.Banned</keywordList>
     </entitiesAndFields>
     <entitiesAndFields>
-        <entityName>FeedItem</entityName>
-        <fieldName>Title</fieldName>
+        <entityName>FeedPollChoice</entityName>
+        <fieldName>ChoiceBody</fieldName>
         <keywordList>Test Community Experience.Banned</keywordList>
     </entitiesAndFields>
     <entitiesAndFields>
-        <entityName>FeedPollChoice</entityName>
-        <fieldName>ChoiceBody</fieldName>
+        <entityName>FeedComment</entityName>
+        <fieldName>RawCommentBody</fieldName>
         <keywordList>Test Community Experience.Banned</keywordList>
     </entitiesAndFields>
     <masterLabel>Replace banned keywords with asterisks</masterLabel>

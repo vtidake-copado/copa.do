@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- Sales Console --></label>
         <name>Sales_Console</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- Test App --></label>
         <name>Test_App</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- V-Test App --></label>
         <name>V_Test_App</name>
     </customApplications>
@@ -2844,11 +2841,11 @@
         <name>This_test_is_already_running</name>
     </customLabels>
     <customLabels>
-        <label><!-- Thomson2 Test US1 --></label>
+        <label>Translation 1</label>
         <name>Thomson2_Test_US1</name>
     </customLabels>
     <customLabels>
-        <label><!-- Thomson3 Test US1 --></label>
+        <label>Translation 2</label>
         <name>Thomson3_Test_US1</name>
     </customLabels>
     <customLabels>

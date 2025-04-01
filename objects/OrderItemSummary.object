@@ -94,19 +94,45 @@
         <fullName>AdjustedLineAmtWithTax</fullName>
     </fields>
     <fields>
+        <fullName>AssetId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>EarliestEstimatedDeliveryDate</fullName>
+    </fields>
+    <fields>
+        <fullName>EarliestEstimatedDeliveryTime</fullName>
     </fields>
     <fields>
         <fullName>EndDate</fullName>
     </fields>
     <fields>
+        <fullName>EstimatedDeliveryReference</fullName>
+    </fields>
+    <fields>
+        <fullName>EstimatedDeliveryTimeZone</fullName>
+    </fields>
+    <fields>
         <fullName>GrossUnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>LatestEstimatedDeliveryDate</fullName>
+    </fields>
+    <fields>
+        <fullName>LatestEstimatedDeliveryTime</fullName>
     </fields>
     <fields>
         <fullName>LineNumber</fullName>
     </fields>
     <fields>
         <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>MainOrderItemSummaryId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -175,6 +201,9 @@
     </fields>
     <fields>
         <fullName>QuantityShipped</fullName>
+    </fields>
+    <fields>
+        <fullName>ReferencePrice</fullName>
     </fields>
     <fields>
         <fullName>ReservedAtLocationId</fullName>

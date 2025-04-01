@@ -140,6 +140,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>SortOrder</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Subtotal</fullName>
         <trackHistory>false</trackHistory>
     </fields>

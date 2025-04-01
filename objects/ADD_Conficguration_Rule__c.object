@@ -166,7 +166,6 @@
     </fields>
     <fields>
         <fullName>ADD_Product_Rule__c</fullName>
-        <externalId>false</externalId>
         <label>ADD Product Rule</label>
         <referenceTo>ADD_Product_Rule__c</referenceTo>
         <relationshipLabel>ADD Configuration Rule</relationshipLabel>
@@ -180,7 +179,6 @@
     <fields>
         <fullName>ADD_Product__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>ADD Product</label>
         <referenceTo>ADD_Product__c</referenceTo>
         <relationshipLabel>ADD Configuration Rule</relationshipLabel>

@@ -3,7 +3,6 @@
     <deploymentStatus>InDevelopment</deploymentStatus>
     <fields>
         <fullName>Account_Big__c</fullName>
-        <externalId>false</externalId>
         <label>Account</label>
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Big CSTM objects</relationshipLabel>
@@ -13,7 +12,6 @@
     </fields>
     <fields>
         <fullName>Contact_Big__c</fullName>
-        <externalId>false</externalId>
         <label>Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Big CSTM objects</relationshipLabel>

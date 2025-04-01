@@ -16,6 +16,10 @@
             <translation><!-- Décor --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Lee test Commit</masterLabel>
+            <translation><!-- Lee test Commit --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>New</masterLabel>
             <translation><!-- New --></translation>
         </picklistValues>
@@ -25,13 +29,29 @@
         <name>AWS_Test_Field__c</name>
     </fields>
     <fields>
-        <label><!-- Acc_Id --></label>
+        <label>Translation</label>
         <name>Acc_Id__c</name>
     </fields>
     <fields>
         <label><!-- AccountLookup --></label>
         <name>AccountLookup__c</name>
         <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Picklist --></label>
+        <name>Account_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>account value 1</masterLabel>
+            <translation><!-- account value 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>account value 2</masterLabel>
+            <translation><!-- account value 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>account value 3</masterLabel>
+            <translation><!-- account value 3 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Accoutn Field 1 --></label>
@@ -47,6 +67,10 @@
         <picklistValues>
             <masterLabel>No</masterLabel>
             <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
@@ -208,6 +232,22 @@
     <fields>
         <label><!-- Picklist field test PA fix --></label>
         <name>Picklist_field_test_PA_fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist test VT --></label>
+        <name>Picklist_test_VT__c</name>
+        <picklistValues>
+            <masterLabel>value 1</masterLabel>
+            <translation><!-- value 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>value 2</masterLabel>
+            <translation><!-- value 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>value 3</masterLabel>
+            <translation><!-- value 3 --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- SLA Expiration Date --></label>

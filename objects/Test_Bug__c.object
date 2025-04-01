@@ -157,7 +157,6 @@
     <fields>
         <fullName>Field_on_Test_Bug__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Field on Test Bug</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

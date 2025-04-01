@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom test lead field --></label>
+        <name>Custom_test_lead_field__c</name>
+    </fields>
+    <fields>
+        <label>Translation</label>
+        <name>Duplicate_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- GoodBad --></label>
+        <name>GoodBad__c</name>
+        <picklistValues>
+            <masterLabel>Bad</masterLabel>
+            <translation><!-- Bad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Really Bad</masterLabel>
+            <translation><!-- Really Bad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular</masterLabel>
+            <translation><!-- Regular --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3000 series</masterLabel>
+            <translation><!-- GC3000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>SICCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Nested RT --></label>
+        <name>Test_Nested_RT__c</name>
+        <picklistValues>
+            <masterLabel>Test1</masterLabel>
+            <translation><!-- Test1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test2</masterLabel>
+            <translation><!-- Test2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test3</masterLabel>
+            <translation><!-- Test3 --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Another Bug Test --></label>
+        <name>Another_Bug_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Bug Test --></label>
+        <name>Bug_Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CRM_Work --></label>
+        <name>CRM_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CRM_Work_SE --></label>
+        <name>CRM_Work_SE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Comercial Lead Record Type --></label>
+        <name>Comercial_Lead_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Technical_Contact --></label>
+        <name>Technical_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test Bug --></label>
+        <name>Test_Bug</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- X360_Connect_Contact --></label>
+        <name>X360_Connect_Contact</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -23,12 +23,14 @@
             <showPicturesOnCharts>false</showPicturesOnCharts>
             <showValues>false</showValues>
             <sortBy>RowLabelAscending</sortBy>
+            <sortLegendValues>false</sortLegendValues>
             <useReportChart>false</useReportChart>
         </components>
     </leftSection>
     <middleSection>
         <columnSize>Medium</columnSize>
     </middleSection>
+    <owner>ngarturodev1cpd@gmail.com</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
     </rightSection>

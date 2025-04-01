@@ -5,7 +5,6 @@
     <fields>
         <fullName>Checkbox_Field__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Checkbox Field</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

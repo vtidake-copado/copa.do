@@ -203,6 +203,10 @@
         <name>ABC__c</name>
     </fields>
     <fields>
+        <label><!-- ADD test --></label>
+        <name>ADD_test__c</name>
+    </fields>
+    <fields>
         <label><!-- AWS Test --></label>
         <name>AWS_Test__c</name>
     </fields>
@@ -881,6 +885,10 @@
         <name>Duplicate_test__c</name>
     </fields>
     <fields>
+        <label><!-- Encrypted custom field --></label>
+        <name>Encrypted_custom_field__c</name>
+    </fields>
+    <fields>
         <label><!-- Engineering Req Number --></label>
         <name>EngineeringReqNumber__c</name>
     </fields>
@@ -981,12 +989,24 @@
         <name>Mobile_phone__c</name>
     </fields>
     <fields>
+        <label><!-- Monday commit 2 --></label>
+        <name>Monday_commit_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monday commit --></label>
+        <name>Monday_commit__c</name>
+    </fields>
+    <fields>
         <label><!-- New report test field --></label>
         <name>New_report_test_field__c</name>
     </fields>
     <fields>
         <label><!-- Nitro --></label>
         <name>Nitro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overview Dev2 Field --></label>
+        <name>Overview_Dev2_Field__c</name>
     </fields>
     <fields>
         <label><!-- POC Final 2 --></label>
@@ -3755,6 +3775,14 @@
     <fields>
         <label><!-- Trimming fix --></label>
         <name>Trimming_fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tuesday commit 2 --></label>
+        <name>Tuesday_commit_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tuesday commit --></label>
+        <name>Tuesday_commit__c</name>
     </fields>
     <fields>
         <label><!-- Testxyz2 --></label>

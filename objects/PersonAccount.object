@@ -58,6 +58,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Account_Picklist__c</picklist>
+            <values>
+                <fullName>account value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>account value 2</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>account value 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Active__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -100,6 +115,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Contact_Picklist__pc</picklist>
+            <values>
+                <fullName>contact value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>contact value 2</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>contact value 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>CustomerPriority__c</picklist>
             <values>
                 <fullName>High</fullName>
@@ -137,130 +167,6 @@
             <picklist>Industry</picklist>
             <values>
                 <fullName>Agriculture</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Apparel</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Banking</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Biotechnology</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Chemicals</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Communications</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Construction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Consulting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Education</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Electronics</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Energy</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engineering</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Entertainment</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Environmental</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Finance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Food %26 Beverage</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Government</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Healthcare</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Hospitality</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Insurance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Machinery</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Manufacturing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Media</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Not For Profit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Recreation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Retail</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Shipping</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Technology</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Telecommunications</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Transportation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Utilities</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -348,6 +254,17 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Picklist_test_VT__c</picklist>
+            <values>
+                <fullName>value 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>value 2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Rating</picklist>
             <values>
                 <fullName>Cold</fullName>
@@ -412,6 +329,21 @@
             </values>
             <values>
                 <fullName>021 - Hotell</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Test_Simple_Picklist1__pc</picklist>
+            <values>
+                <fullName>Banana</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Kiwi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orange</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

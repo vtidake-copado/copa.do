@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OrderManagementSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deliveryEstimationEnabled>false</deliveryEstimationEnabled>
     <enableB2CIntegration>false</enableB2CIntegration>
     <enableDuplicateManagement>true</enableDuplicateManagement>
     <enableHighScaleOrders>false</enableHighScaleOrders>

@@ -171,7 +171,6 @@
     <fields>
         <fullName>AssetLineItemId__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>AssetLineItemId</label>
         <lookupFilter>
             <active>true</active>
@@ -192,7 +191,6 @@
     <fields>
         <fullName>ProposalId__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>ProposalId</label>
         <referenceTo>Quote_Proposal__c</referenceTo>
         <relationshipLabel>OrderLineItems</relationshipLabel>

@@ -325,6 +325,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Custom_test_lead_field__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>field for testing</description>
+        <label>Custom test lead field</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>DandbCompanyId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -344,7 +353,6 @@
     <fields>
         <fullName>Duplicate_Test__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Duplicate Test</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -370,7 +378,6 @@
     </fields>
     <fields>
         <fullName>GoodBad__c</fullName>
-        <externalId>false</externalId>
         <label>GoodBad</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -488,7 +495,6 @@
     </fields>
     <fields>
         <fullName>Primary__c</fullName>
-        <externalId>false</externalId>
         <label>Primary</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -512,7 +518,6 @@
     </fields>
     <fields>
         <fullName>ProductInterest__c</fullName>
-        <externalId>false</externalId>
         <label>Product Interest</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -571,7 +576,6 @@
     </fields>
     <fields>
         <fullName>Test_Nested_RT__c</fullName>
-        <externalId>false</externalId>
         <label>Test Nested RT</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

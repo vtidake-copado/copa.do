@@ -130,25 +130,35 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>Address</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>AddressType</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DrivingDirections</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>LocationType</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
+        <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
         <fullName>TimeZone</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
         <customTabListAdditionalFields>AddressType</customTabListAdditionalFields>

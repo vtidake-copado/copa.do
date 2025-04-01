@@ -179,7 +179,6 @@
     </fields>
     <fields>
         <fullName>Front_Back__c</fullName>
-        <externalId>false</externalId>
         <label>Front-Back</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -219,7 +218,6 @@
     </fields>
     <fields>
         <fullName>HigherLower__c</fullName>
-        <externalId>false</externalId>
         <label>HigherLower</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -245,7 +243,6 @@
     <fields>
         <fullName>Internal_ETA__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Internal ETA</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -254,7 +251,6 @@
     </fields>
     <fields>
         <fullName>Major__c</fullName>
-        <externalId>false</externalId>
         <label>Major</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -404,7 +400,6 @@
     </fields>
     <fields>
         <fullName>Minor__c</fullName>
-        <externalId>false</externalId>
         <label>Minor</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -559,7 +554,6 @@
     </fields>
     <fields>
         <fullName>Patch__c</fullName>
-        <externalId>false</externalId>
         <label>Patch</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -714,7 +708,6 @@
     </fields>
     <fields>
         <fullName>Status__c</fullName>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -760,7 +753,6 @@
     <fields>
         <fullName>Steps_to_reproduce__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Steps to reproduce</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -771,7 +763,6 @@
     <fields>
         <fullName>Summary__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Summary</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -794,7 +785,6 @@
     <fields>
         <fullName>Workaround__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Workaround</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>

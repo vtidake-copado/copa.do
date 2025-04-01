@@ -156,7 +156,6 @@
     <fields>
         <fullName>InstallerCommunity_Queue_DACH__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>InstallerCommunity Queue DACH</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

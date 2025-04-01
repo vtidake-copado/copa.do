@@ -5,11 +5,6 @@
     <description>Posts and comments using banned keywords are replaced with asterisks</description>
     <entitiesAndFields>
         <entityName>FeedItem</entityName>
-        <fieldName>RawBody</fieldName>
-        <keywordList>AR Services Test.Banned</keywordList>
-    </entitiesAndFields>
-    <entitiesAndFields>
-        <entityName>FeedItem</entityName>
         <fieldName>LinkUrl</fieldName>
         <keywordList>AR Services Test.Banned</keywordList>
     </entitiesAndFields>
@@ -26,6 +21,11 @@
     <entitiesAndFields>
         <entityName>FeedComment</entityName>
         <fieldName>RawCommentBody</fieldName>
+        <keywordList>AR Services Test.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>RawBody</fieldName>
         <keywordList>AR Services Test.Banned</keywordList>
     </entitiesAndFields>
     <masterLabel>Replace banned keywords with asterisks</masterLabel>

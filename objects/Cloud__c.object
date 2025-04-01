@@ -157,7 +157,6 @@
     <fields>
         <fullName>Bottle2__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Bottle2</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -166,7 +165,6 @@
     <fields>
         <fullName>Bottle__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Bottle</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>

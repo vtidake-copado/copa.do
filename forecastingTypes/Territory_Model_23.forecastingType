@@ -4,6 +4,7 @@
     <amount>true</amount>
     <dateType>2</dateType>
     <developerName>Territory_Model_23</developerName>
+    <hasCustomGroup>false</hasCustomGroup>
     <hasProductFamily>false</hasProductFamily>
     <masterLabel>Opportunity Revenue by Territory and Schedule Date</masterLabel>
     <quantity>false</quantity>

@@ -156,7 +156,6 @@
     <fields>
         <fullName>Validation_Date__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Validation Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

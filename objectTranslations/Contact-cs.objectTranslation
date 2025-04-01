@@ -5,6 +5,22 @@
         <name>ContactFieldSet</name>
     </fieldSets>
     <fields>
+        <label><!-- Contact Picklist --></label>
+        <name>Contact_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>contact value 1</masterLabel>
+            <translation><!-- contact value 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>contact value 2</masterLabel>
+            <translation><!-- contact value 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>contact value 3</masterLabel>
+            <translation><!-- contact value 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- GoodBad --></label>
         <name>GoodBad__c</name>
         <picklistValues>
@@ -14,6 +30,10 @@
         <picklistValues>
             <masterLabel>Good</masterLabel>
             <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -55,6 +75,26 @@
     <fields>
         <label><!-- Stop validation --></label>
         <name>Stop_validation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Simple Picklist1 --></label>
+        <name>Test_Simple_Picklist1__c</name>
+        <picklistValues>
+            <masterLabel>Apple</masterLabel>
+            <translation><!-- Apple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banana</masterLabel>
+            <translation><!-- Banana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiwi</masterLabel>
+            <translation><!-- Kiwi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange</masterLabel>
+            <translation><!-- Orange --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- xyz SGUID --></label>

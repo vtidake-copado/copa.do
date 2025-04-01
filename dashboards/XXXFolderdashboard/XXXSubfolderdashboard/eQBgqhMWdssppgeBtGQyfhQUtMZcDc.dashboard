@@ -64,6 +64,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
+    <owner>ngarturodev1cpd@gmail.com</owner>
     <runningUser>ngarturodev1cpd@gmail.com</runningUser>
     <textColor>#000000</textColor>
     <title>XXX Dashboard</title>

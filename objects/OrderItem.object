@@ -115,11 +115,35 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>EarliestEstimatedDeliveryDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EarliestEstimatedDeliveryTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>EndDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>EstimatedDeliveryReference</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EstimatedDeliveryTimeZone</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>GrossUnitPrice</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LatestEstimatedDeliveryDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LatestEstimatedDeliveryTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -142,6 +166,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>ParentOrderItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Product2Id</fullName>
         <type>Lookup</type>
     </fields>
@@ -156,6 +184,9 @@
         <fullName>QuoteLineItemId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReferencePrice</fullName>
     </fields>
     <fields>
         <fullName>RelatedOrderItemId</fullName>
@@ -176,6 +207,10 @@
     </fields>
     <fields>
         <fullName>ServiceDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SubscriptionTerm</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

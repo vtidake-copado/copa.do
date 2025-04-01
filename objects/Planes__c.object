@@ -156,7 +156,6 @@
     <fields>
         <fullName>Lookuptoplane__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Lookuptoplane</label>
         <referenceTo>Planes__c</referenceTo>
         <relationshipLabel>PlanesList</relationshipLabel>

@@ -157,7 +157,6 @@
     <fields>
         <fullName>LCRM_Event_Date__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>Event Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -176,7 +175,6 @@
     </fields>
     <fields>
         <fullName>LCRM_Event_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Event Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -260,7 +258,6 @@
     </fields>
     <fields>
         <fullName>Object_Name__c</fullName>
-        <externalId>false</externalId>
         <label>Object Name</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

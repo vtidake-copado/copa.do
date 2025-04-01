@@ -65,7 +65,7 @@
         "components" : [ {
           "componentAttributes" : {
             "height" : "485",
-            "recordId" : "01Z0Y000000tKYwUAM"
+            "recordId" : "CSA_Metrics"
           },
           "componentName" : "forceCommunity:dashboard",
           "id" : "03950d7c-9b22-476f-bced-5e1a5ad9c26c",

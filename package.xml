@@ -10,8 +10,9 @@
         <members>Test_Community_C</members>
         <members>Test_Community_Experience1</members>
         <members>ardigital1</members>
+        <members>knownissue1</members>
         <members>servicewinter1</members>
         <name>ExperienceBundle</name>
     </types>
-    <version>59.0</version>
+    <version>63.0</version>
 </Package>

@@ -156,7 +156,6 @@
     <fields>
         <fullName>scheduled_failed__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>scheduled failed</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

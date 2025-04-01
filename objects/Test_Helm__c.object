@@ -15,7 +15,6 @@
     <fields>
         <fullName>url__c</fullName>
         <encryptionScheme>None</encryptionScheme>
-        <externalId>false</externalId>
         <label>url</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

@@ -125,6 +125,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -165,6 +169,10 @@
     </fields>
     <fields>
         <fullName>IsCommercePromotion</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsQualCriteriaNotRequiredPerApplication</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

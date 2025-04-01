@@ -4,6 +4,7 @@
     <amount>true</amount>
     <dateType>0</dateType>
     <developerName>Territory_Model_2_ProductFamily</developerName>
+    <hasCustomGroup>false</hasCustomGroup>
     <hasProductFamily>true</hasProductFamily>
     <masterLabel>Product Family Revenue by Territory</masterLabel>
     <quantity>false</quantity>
