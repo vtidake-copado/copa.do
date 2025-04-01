@@ -1,4 +1,4 @@
 Initial content
-Line 1 changed by branch2
-Line 2 modified
-Line 3 updated in branch2
+Line 1 updated in branch3
+Line 2 changed
+Line 3 modified by branch3
