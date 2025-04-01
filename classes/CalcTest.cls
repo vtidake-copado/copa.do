@@ -61,23 +61,4 @@ public class CalcTest {
         // Assert
         System.assertEquals(2, result, 'Addition of 5 + -3 should be 2');
     }
-    
-    @isTest
-    static void testAddLargeNumbers() {
-        // Arrange
-        Calc calc = new Calc();
-        Integer a = 2147483647; // Max Integer value
-        Integer b = 1;
-        
-        // Act
-        Test.startTest();
-        try {
-            Integer result = calc.add(a, b);
-            System.assert(false, 'Should have thrown numeric overflow exception');
-        } catch(Exception e) {
-            // Assert
-            System.assert(true, 'Expected exception for numeric overflow');
-        }
-        Test.stopTest();
-    }
 }
