@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ARPartner1</members>
-        <members>AR_Services_Test1</members>
-        <members>NGService1</members>
-        <members>SCATest1</members>
-        <members>Tabs1</members>
-        <members>TestAura1</members>
-        <members>Test_Community_C</members>
-        <members>Test_Community_Experience1</members>
-        <members>ardigital1</members>
-        <members>knownissue1</members>
-        <members>servicewinter1</members>
-        <name>ExperienceBundle</name>
+        <members>Code</members>
+        <members>Image</members>
+        <members>SNA_AR_Services_Test1_sf_default_cdn_67ZEb</members>
+        <members>SNA_knownissue1_sf_default_cdn_msbiV</members>
+        <members>SiteSamples</members>
+        <members>Test</members>
+        <members>author</members>
+        <members>customNonCommercialPlugin</members>
+        <members>d3</members>
+        <name>StaticResource</name>
     </types>
     <version>63.0</version>
 </Package>
