@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CommonPrefix</members>
-        <members>CommonPrefix_1</members>
-        <members>CommonPrefix_2</members>
-        <name>PermissionSet</name>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Document_Detail__c</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Image_Detail__c</members>
+        <members>site/Vijay_Digital1.sfdc_cms__route/Test_page__c</members>
+        <members>site/Vijay_Digital1.sfdc_cms__view/Test_page</members>
+        <name>DigitalExperience</name>
     </types>
     <version>63.0</version>
 </Package>
