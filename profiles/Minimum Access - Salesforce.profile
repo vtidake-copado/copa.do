@@ -28241,6 +28241,9 @@
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>dlrs__LookupChild__c-dlrs__Lookup Child Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>kompalDec21__c-kompalDec21 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
