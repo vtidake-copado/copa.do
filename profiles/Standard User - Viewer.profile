@@ -29232,6 +29232,242 @@
         <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SBQQ__AttributeSet__c-SBQQ__Attribute Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__AttributeValue__c-SBQQ__Attribute Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__BlockPrice__c-SBQQ__Block Price Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ColumnMetadata__c-SBQQ__Column Metadata Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout</layout>
+        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Configuration_Attribute</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Global Attribute Layout</layout>
+        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Global_Attribute</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationRule__c-SBQQ__Configuration Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ContractedPrice__c-SBQQ__Contracted Price Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Cost__c-SBQQ__Cost Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__CustomActionCondition__c-SBQQ__Custom Action Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__CustomAction__c-SBQQ__Custom Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__CustomScript__c-SBQQ__Custom Script Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Dimension__c-SBQQ__Price Dimension Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountCategory__c-SBQQ__Discount Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountSchedule__c-SBQQ__Discount Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountTier__c-SBQQ__Discount Schedule Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ErrorCondition__c-SBQQ__Error Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__FavoriteProduct__c-SBQQ__Favorite Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__FavoriteShare__c-SBQQ__Favorite Share Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Favorite__c-SBQQ__Favorite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__FieldSetMetadata__c-SBQQ__FieldSet Metadata Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ImportColumn__c-SBQQ__Import Column Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ImportFormat__c-SBQQ__Import Format Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__InstallProcessorLog__c-SBQQ__Install Processor Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LineColumn__c-SBQQ__Line Column Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Localization__c-SBQQ__Localization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupData__c-SBQQ__Lookup Data Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__OptionConstraint__c-SBQQ__Option Constraint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__OrderItemConsumptionRate__c-SBQQ__Order Item Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__OrderItemConsumptionSchedule__c-SBQQ__Order Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceSchedule__c-SBQQ__Price Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceTier__c-SBQQ__Price Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PricingGuidanceTier__c-SBQQ__Pricing Guidance Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PricingGuidance__c-SBQQ__Pricing Guidance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInputCondition__c-SBQQ__Process Input Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInputValue__c-SBQQ__Process Input Values Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInput__c-SBQQ__Process Input Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductAction__c-SBQQ__Product Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductAttributeSet__c-SBQQ__Product Attribute Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductAttribute__c-SBQQ__Product Attribute Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductFeature__c-SBQQ__Product Feature Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductOption__c-SBQQ__Product Option Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductRule__c-SBQQ__Product Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteDocument__c-SBQQ__Quote Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLineConsumptionRate__c-SBQQ__Quote Line Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLineConsumptionSchedule__c-SBQQ__Quote Line Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLineGroup__c-SBQQ__Quote Line Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLinePricingGuidance__c-SBQQ__Quote Line Pricing Guidance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLine__c-SBQQ__Quote Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteProcess__c-SBQQ__Quote Process Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteTemplate__c-SBQQ__Quote Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteTerm__c-SBQQ__Quote Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Quote__c-SBQQ__Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__RecordJob__c-SBQQ__Record Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__RelatedContent__c-SBQQ__Related Content Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SearchFilter__c-SBQQ__Search Filter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SearchIndex__c-SBQQ__Search Index Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SolutionGroup__c-SBQQ__SolutionGroup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscribedAsset__c-SBQQ__Subscribed Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscribedQuoteLine__c-SBQQ__Subscribed Quote Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscriptionConsumptionRate__c-SBQQ__Subscription Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscriptionConsumptionSchedule__c-SBQQ__Subscription Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Subscription__c-SBQQ__Subscription Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SummaryVariable__c-SBQQ__Summary Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TaxExemptionCertificate__c-SBQQ__Tax Exemption Certificate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TemplateContent__c-SBQQ__Template Content Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TemplateSection__c-SBQQ__Template Section Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TermCondition__c-SBQQ__Term Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Theme__c-SBQQ__Theme Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TimingLog__c-SBQQ__Timing Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__UpgradeSource__c-SBQQ__Upgrade Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__WebQuoteLine__c-SBQQ__Web Quote Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__WebQuote__c-SBQQ__Web Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sale__c-Sale Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29353,6 +29589,532 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Apex_Test_Result__c-copado__Apex Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Application_Feature__c-copado__Feature Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Application__c-copado__Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact_Dependency__c-copado__Artifact Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact_Version__c-copado__Artifact Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
+        <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
+        <recordType>copado__Artifact__c.copado__Package_Artifact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
+        <recordType>copado__Artifact__c.copado__User_Story_Bundle</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Automation_Event__c-copado__MC Automation Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Automation_Rule__c-copado__Automation Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__AuxiliaryObject__c-copado__AuxiliaryObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Branch_Management_Permission__c-copado__Branch Management Permission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Build_Task__c-copado__Build Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Bundled_Story__c-copado__Bundled Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Bundled_UserStory__c-copado__Bundle User Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Burndown_Item__c-copado__Burndown Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Finding__c-copado__Compliance Finding Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Finding__c-copado__Compliance Finding Layout</layout>
+        <recordType>copado__Compliance_Finding__c.copado__Copado</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Finding__c-copado__Compliance Finding Layout</layout>
+        <recordType>copado__Compliance_Finding__c.copado__Other</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Rule_Criteria__c-copado__Compliance Rule Criteria Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Rule_Group_Item__c-copado__Compliance Rule Group Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Rule_Group__c-copado__Compliance Rule Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Rule__c-copado__Compliance Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Rule__c-copado__Compliance Rule Layout</layout>
+        <recordType>copado__Compliance_Rule__c.copado__Copado</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Rule__c-copado__Compliance Rule Layout</layout>
+        <recordType>copado__Compliance_Rule__c.copado__Other</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Scan_Result__c-copado__Compliance Scan Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Scan_Result__c-copado__Compliance Scan Result Layout</layout>
+        <recordType>copado__Compliance_Scan_Result__c.copado__Copado</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Compliance_Scan_Result__c-copado__Compliance Scan Result Layout</layout>
+        <recordType>copado__Compliance_Scan_Result__c.copado__Other</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Connection_Behavior__c-copado__Connection Behavior Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Continuous_Integration_Permission__c-copado__Continuous Integration Permission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Continuous_Integration__c-copado__Continuous Integration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Cloud_Regional_Instances__mdt-copado__Copado Cloud Regional Instances Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Feature__c-copado__Feature Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Notification__c-copado__Copado Notification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Protected_Settiing__mdt-copado__Copado key Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Setting__mdt-copado__Copado Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Copado_Smart_Help__mdt-copado__Copado Smart Help Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Custom_Connected_App_Info__c-copado__Custom Connected App Info Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Data_Set__c-copado__Data Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Data_Template_Setup__mdt-copado__Data Template Setup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Data_Template__c-copado__Data Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Flow_Step__c-copado__Deployment Flow Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Flow__c-copado__Pipeline Layout V%2E17</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_History__c-copado__Copado Deployment History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Job__c-copado__Deployment Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment_Task__c-copado__Deployment Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Advanced %28Multi Step%29</layout>
+        <recordType>copado__Deployment__c.copado__Advanced_multi_step</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Automation Template</layout>
+        <recordType>copado__Deployment__c.copado__Automation_Template</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Data Deployment</layout>
+        <recordType>copado__Deployment__c.copado__Data_Deployment</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Deployment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Deployment__c-copado__Metadata Deployment</layout>
+        <recordType>copado__Deployment__c.copado__Metadata_Deployment</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Destination_Org__c-copado__Destination Org Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Environment__c-copado__Environment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Environmental_Variable__c-copado__Environment Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Epic__c-copado__Epic Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__ExtensionConfiguration__c-copado__Extension Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__ExtensionKeyValueSetting__mdt-copado__Extension Key Value Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__ExtensionPackageConfiguration__mdt-copado__Extension Package Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__External_CI_Job_Result__c-copado__External CI Job Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__External_CI_Job__c-copado__External CI Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__External_CI_Setting__c-copado__External CI Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Filter__c-copado__Filter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Function__c-copado__Function Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Backup__c-copado__Git Backup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Commit__c-copado__Git Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Org_Commit__c-copado__Git Org Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Git_Repository__c-copado__Git Server Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Installed_Artifact_Version__c-copado__Installed Package Version Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__JobExecution__c-copado__Job Execution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__JobStep__c-copado__Job Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__JobTemplate__c-copado__Job Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Kanban_Board_View__c-copado__Kanban Board View Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Kanban_Board__c-copado__Kanban Board Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__MC_Custom_Job_Step__mdt-copado__MC Custom Job Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__MC_Notification__mdt-copado__MC Notification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Metadata_Group_Item__c-copado__Metadata Group Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Metadata_Group__c-copado__Metadata Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__MultiCloudAutomation__mdt-copado__MultiCloudAutomationMap Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Notification_Default_Channels__c-copado__Notification Default Channel Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Notification_Subscription__c-copado__Notification Subscription Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__OrgDiff__c-copado__OrgDiff Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Org__c-copado__Org Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Persona_Permission__c-copado__Persona Permission Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Persona__c-copado__Persona Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Pipeline_Action__c-copado__Pipeline Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Project__c-copado__Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Promoted_User_Story__c-copado__Promoted User Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Promotion__c-copado__Promotion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Pull_Request_Review__c-copado__Pull Request Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Pull_Request__c-copado__Pull Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Quality_Gate_Rule_Condition__c-copado__Quality Gate Rule Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Quality_Gate_Rule__c-copado__Quality Gate Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Quality_Gate__c-copado__Quality Gate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Record_Matching_Formula__c-copado__Record Matching Formula Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Release__c-copado__Release Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Result__c-copado__Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Scheduled_Job_Run__c-copado__Scheduled Job Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Scheduled_Job__c-copado__Scheduled Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Scratch_Org_Definition__c-copado__Scratch Org Definition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Scratch_Org_Project_Template__c-copado__Scratch Org Artifacts Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Group_Org_Credential__c-copado__Selenium Group Org Credential Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Group_Test_Suite__c-copado__Selenium Group Test Suite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Group_Variable__c-copado__Selenium Group Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Locator_Reference__c-copado__Selenium Locator Reference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Locator__c-copado__Selenium Locator Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Settings__c-copado__Selenium Settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Case_Per_Suite__c-copado__Selenium Test Case per Suite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Case__c-copado__Selenium Test Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Group__c-copado__Selenium Test Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Result__c-copado__Selenium Test Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
+        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Run__c-copado__Web App Selenium Test Run Layout</layout>
+        <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Selenium_Test_Suite__c-copado__Selenium Test Suite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__SensitiveProperty__mdt-copado__Sensitive Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Snapshot_Difference__c-copado__Snapshot Difference Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Sprint__c-copado__Sprint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Stage_Connection__c-copado__Stage Connection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Stage__c-copado__Stage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__StandardResources__mdt-copado__StandardResources Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Result__c-copado__Static Code Analysis Result Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Result__c-copado__Static Code Analysis Result Layout</layout>
+        <recordType>copado__Static_Code_Analysis_Result__c.copado__CodeScan</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Result__c-copado__Static Code Analysis Result Layout</layout>
+        <recordType>copado__Static_Code_Analysis_Result__c.copado__PMD</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Rule__c-copado__Static Code Analysis Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Settings__c-copado__Static Code Analysis Settings Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Settings__c-copado__Static Code Analysis Settings Layout</layout>
+        <recordType>copado__Static_Code_Analysis_Settings__c.copado__CodeScan</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Settings__c-copado__Static Code Analysis Settings Layout</layout>
+        <recordType>copado__Static_Code_Analysis_Settings__c.copado__PMD</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Violation__c-copado__Static Code Analysis Violation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Violation__c-copado__Static Code Analysis Violation Layout</layout>
+        <recordType>copado__Static_Code_Analysis_Violation__c.copado__CodeScan</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Static_Code_Analysis_Violation__c-copado__Static Code Analysis Violation Layout</layout>
+        <recordType>copado__Static_Code_Analysis_Violation__c.copado__PMD</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Step__c-copado__Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Streaming_Setting__mdt-copado__Streaming Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__SupportedObject__mdt-copado__Supported Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__System_Property__c-copado__System Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Team_Dependency__c-copado__User Story Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Team_Member__c-copado__Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Team__c-copado__Team Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__TestTool__mdt-copado__Test Tool Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__TestType__mdt-copado__Test Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Run_Step__c-copado__Test Execution Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Run__c-copado__Test Execution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Script_Step__c-copado__Script Step Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Script__c-copado__Test Script Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test_Suite_Script__c-copado__Test Suite Script Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Test__c-copado__Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__Theme__c-copado__Theme Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__UISection__mdt-copado__UISection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Persona_Assignment__c-copado__User Persona Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Bundle__c-copado__User Story Bundle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Commit__c-copado__User Story Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Data_Commit__c-copado__User Story Data Commit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Metadata__c-copado__User Story Metadata Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Selenium_Test__c-copado__User Story Selenium Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story_Task__c-copado__User Story Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+        <recordType>copado__User_Story__c.copado__Bug</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+        <recordType>copado__User_Story__c.copado__Investigation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+        <recordType>copado__User_Story__c.copado__User_Story</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>copado__User_Story__c-copado__User Story Layout</layout>
+        <recordType>copado__User_Story__c.copado__Utility</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupChild__c-dlrs__Lookup Child Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupParent__c-dlrs__Lookup Parent Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupRollupCalculateJob__c-dlrs__Lookup Rollup Calculate Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupRollupSummary2__mdt-dlrs__Lookup Rollup Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupRollupSummaryLog__c-dlrs__Lookup Rollup Summary Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupRollupSummaryScheduleItems__c-dlrs__Lookup Rollup Summary Queue Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>dlrs__LookupRollupSummary__c-dlrs__Lookup Rollup Summary Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>kompalDec21__c-kompalDec21 Layout</layout>
