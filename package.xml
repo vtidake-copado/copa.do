@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Minimum Access DLRS - Salesforce</members>
-        <members>Standard User - Viewer</members>
-        <name>Profile</name>
+        <members>MyBigObject__b.Name__c</members>
+        <members>MyBigObject__b.Url__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>MyBigObject__b</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>MyBigObject__b.NameIdx</members>
+        <name>Index</name>
     </types>
     <version>64.0</version>
 </Package>
