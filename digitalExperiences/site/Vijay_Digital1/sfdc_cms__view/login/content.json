@@ -31,7 +31,7 @@
               "type" : "component"
             }, {
               "attributes" : {
-                "forgotPasswordLabel" : "Forgot your password?",
+                "forgotPasswordLabel" : "Reset Password",
                 "forgotPasswordUrl" : "/ForgotPassword",
                 "loginButtonLabel" : "Log In",
                 "passwordLabel" : "Password",
@@ -58,6 +58,18 @@
               },
               "definition" : "community_login:employeeLoginLink",
               "id" : "31609f67-095b-4a21-8be3-7df0273f8e52",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "More Info",
+                "type" : "secondary"
+              },
+              "customCssClasses" : "class1",
+              "definition" : "dxp_base:button",
+              "id" : "3a65c3b0-b8cd-4748-a823-91f82ee07d55",
               "type" : "component"
             } ],
             "id" : "42a8e3bf-c394-4065-b79b-1e1a093c5064",
