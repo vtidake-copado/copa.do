@@ -9,5 +9,9 @@
         <members>helloWorld</members>
         <name>LightningComponentBundle</name>
     </types>
+    <types>
+        <members>Minimum Access DLRS - Salesforce</members>
+        <name>Profile</name>
+    </types>
     <version>64.0</version>
 </Package>
