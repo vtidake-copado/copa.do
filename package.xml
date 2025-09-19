@@ -5,5 +5,9 @@
         <members>AccountServiceTest1</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Standard User Clone</members>
+        <name>Profile</name>
+    </types>
     <version>64.0</version>
 </Package>
