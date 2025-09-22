@@ -4,5 +4,9 @@
         <members>CMT Test Profile</members>
         <name>Profile</name>
     </types>
+    <types>
+        <members>CMT Test Profile</members>
+        <name>Profile</name>
+    </types>
     <version>64.0</version>
 </Package>
