@@ -8,6 +8,13 @@
         <value>City</value>
     </labels>
     <labels>
+        <fullName>FancyLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FancyLabel</shortDescription>
+        <value>Picka Boo</value>
+    </labels>
+    <labels>
         <fullName>Salutation</fullName>
         <language>en_US</language>
         <protected>true</protected>
