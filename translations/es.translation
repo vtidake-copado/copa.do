@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
-        <label>Picka Boo</label>
+        <label>Picka Boo1</label>
         <name>FancyLabel</name>
     </customLabels>
     <flowDefinitions>
