@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Account.Description</members>
+        <members>Account.ParentId</members>
         <name>CustomField</name>
     </types>
     <types>
