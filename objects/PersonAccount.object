@@ -5,6 +5,13 @@
         <active>true</active>
         <label>Person Account</label>
         <picklistValues>
+            <picklist>AccountPickList_1__c</picklist>
+            <values>
+                <fullName>Account-2</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -173,6 +180,13 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>MyList_1__c</picklist>
+            <values>
+                <fullName>Item1</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Ownership</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -203,6 +217,35 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_2__c</picklist>
+            <values>
+                <fullName>West</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>East</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region__pc</picklist>
+            <values>
+                <fullName>North</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>South</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
