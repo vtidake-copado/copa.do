@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Menu_1</members>
-        <members>SFDC_Default_Navigation_Customer_Service</members>
-        <members>SFDC_Default_Navigation_Vijay_Digital</members>
-        <members>SFDC_Default_Navigation_kompalDigitalExperienceBundle</members>
-        <name>NavigationMenu</name>
+        <members>kompalAP</members>
+        <name>ApexPage</name>
     </types>
     <version>65.0</version>
 </Package>
