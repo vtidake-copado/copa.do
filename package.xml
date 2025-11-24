@@ -3,7 +3,12 @@
     <types>
         <members>AccountService</members>
         <members>AccountServiceTest1</members>
+        <members>kompal1</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>kompalAP</members>
+        <name>ApexPage</name>
     </types>
     <version>65.0</version>
 </Package>
