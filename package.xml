@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Minimum Access Profile - 1</members>
-        <name>Profile</name>
+        <members>MainFolder</members>
+        <members>MainFolder/SubFolder1</members>
+        <members>MainFolder/SubFolder2</members>
+        <members>MainFolder/SubFolder3</members>
+        <name>Report</name>
     </types>
-    <version>64.0</version>
+    <version>65.0</version>
 </Package>
