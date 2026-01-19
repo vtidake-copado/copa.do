@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ColombiaReports/BI_Terceros_completes_Cuentas_KXO</members>
+        <members>ColombiaReports/Visitas_a_pacientes_productividad_1wy</members>
+        <members>PanamaReports/BI_Terceros_completos_Cuentas_CwA</members>
+        <members>RepublicaDominicanaReports/Eventos_Adversos_Dw2</members>
+        <name>Report</name>
+    </types>
     <version>65.0</version>
 </Package>
