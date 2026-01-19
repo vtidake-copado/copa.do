@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Site_URL__c</fullName>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Site URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>Billing Management</label>
+    <pluralLabel>Billing Managements</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

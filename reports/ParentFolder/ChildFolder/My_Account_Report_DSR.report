@@ -4,10 +4,13 @@
         <field>DUE_DATE</field>
     </columns>
     <columns>
+        <field>CREATED_ALIAS</field>
+    </columns>
+    <columns>
         <field>USERS.NAME</field>
     </columns>
     <columns>
-        <field>ACCOUNT.NAME</field>
+        <field>SITE</field>
     </columns>
     <columns>
         <field>ADDRESS1_STATE</field>
@@ -16,10 +19,22 @@
         <field>TYPE</field>
     </columns>
     <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
         <field>RATING</field>
     </columns>
     <columns>
         <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>CREATED</field>
+    </columns>
+    <columns>
+        <field>ALIAS</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE_BY</field>
     </columns>
     <format>Tabular</format>
     <name>My Account Report</name>

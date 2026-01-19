@@ -154,6 +154,16 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>kf1__c</fullName>
+        <externalId>false</externalId>
+        <label>kf1</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <label>kompalDec21</label>
     <nameField>
         <label>kompalDec21 Name</label>

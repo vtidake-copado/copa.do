@@ -9,7 +9,7 @@
         <value><!-- Purchase --></value>
     </caseValues>
     <fields>
-        <label>Approuvé par</label>
+        <label><!-- Approved By --></label>
         <name>Approved_By__c</name>
     </fields>
     <fields>
@@ -17,7 +17,7 @@
         <name>Date__c</name>
     </fields>
     <fields>
-        <label>Signé par</label>
+        <label>Signé</label>
         <name>Signed_By__c</name>
     </fields>
     

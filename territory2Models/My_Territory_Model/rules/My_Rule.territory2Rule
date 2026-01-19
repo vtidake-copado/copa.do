@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <name>My Rule</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.Website</field>
+        <operation>notContain</operation>
+        <value>Vijay</value>
+    </ruleItems>
+</Territory2Rule>

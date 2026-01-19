@@ -80,6 +80,9 @@
         <fullName>AdjustmentTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>BillingFrequency</fullName>
+    </fields>
+    <fields>
         <fullName>CartDeliveryGroupId</fullName>
         <type>Lookup</type>
     </fields>
@@ -88,10 +91,19 @@
         <type>MasterDetail</type>
     </fields>
     <fields>
+        <fullName>ChildProductCount</fullName>
+    </fields>
+    <fields>
         <fullName>DistributedAdjustmentAmount</fullName>
     </fields>
     <fields>
         <fullName>DistributedAdjustmentTaxAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstPymtPriceAfterAdjustments</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstPymtTax</fullName>
     </fields>
     <fields>
         <fullName>GrossAdjustmentAmount</fullName>
@@ -118,8 +130,31 @@
         <fullName>NetUnitPrice</fullName>
     </fields>
     <fields>
+        <fullName>NetUnitPriceAfterAdjustments</fullName>
+    </fields>
+    <fields>
+        <fullName>ParentCartItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PerUnitWeight</fullName>
+    </fields>
+    <fields>
+        <fullName>PricebookEntryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PricingTermCount</fullName>
+    </fields>
+    <fields>
         <fullName>Product2Id</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductClass</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductValidationKey</fullName>
     </fields>
     <fields>
         <fullName>Quantity</fullName>
@@ -128,7 +163,16 @@
         <fullName>SalesPrice</fullName>
     </fields>
     <fields>
+        <fullName>SellingModelType</fullName>
+    </fields>
+    <fields>
         <fullName>Sku</fullName>
+    </fields>
+    <fields>
+        <fullName>StockCheckMethod</fullName>
+    </fields>
+    <fields>
+        <fullName>SubscriptionTerm</fullName>
     </fields>
     <fields>
         <fullName>TotalAdjustmentAmount</fullName>
@@ -137,7 +181,22 @@
         <fullName>TotalAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalFirstPymtAdjAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFirstPymtListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalFirstPymtPrice</fullName>
+    </fields>
+    <fields>
         <fullName>TotalLineAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineFirstPymtAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalLineFirstPymtTaxAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalLineGrossAmount</fullName>
@@ -170,10 +229,29 @@
         <fullName>TotalTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalWeight</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+    </fields>
+    <fields>
         <fullName>UnitAdjustedPrice</fullName>
     </fields>
     <fields>
+        <fullName>UnitAdjustedPriceWithItemAdj</fullName>
+    </fields>
+    <fields>
         <fullName>UnitAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>UnitItemAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>UnitPriceAfterAdjustments</fullName>
+    </fields>
+    <fields>
+        <fullName>WeightUnit</fullName>
+        <type>Picklist</type>
     </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

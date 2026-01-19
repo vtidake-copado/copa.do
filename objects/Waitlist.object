@@ -124,6 +124,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Link</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -131,6 +135,10 @@
         <fullName>ServiceTerritoryId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShouldAllowSelfCheckIn</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <listViews>
         <fullName>All_Waitlists</fullName>
@@ -145,12 +153,20 @@
     <searchLayouts>
         <customTabListAdditionalFields>ServiceTerritory</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ShouldAllowSelfCheckIn</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Link</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>ServiceTerritory</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ShouldAllowSelfCheckIn</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Link</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ServiceTerritory</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ShouldAllowSelfCheckIn</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Link</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ServiceTerritory</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ShouldAllowSelfCheckIn</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Link</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

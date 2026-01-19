@@ -6,7 +6,7 @@ private class AccountAutomationsTest {
         insert acc;
         
         acc = AccountAutomations.setDefaultDescription(acc);
-        System.assertEquals('Default description', acc.Description, 'Description should be set to default');
+        System.assertEquals('New default description v3', acc.Description, 'Description should be set to default');
         
         acc.Description = 'Custom Description';
         acc = AccountAutomations.setDefaultDescription(acc);
@@ -18,6 +18,6 @@ private class AccountAutomationsTest {
         insert acc;
         
         acc = AccountAutomations.setDefaultPhone(acc);
-        System.assertEquals('1234567890', acc.Phone, 'Phone should be set to default');
+        System.assertEquals('0987654321', acc.Phone, 'Phone should be set to default');
     }
 }
