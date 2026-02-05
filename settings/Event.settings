@@ -4,8 +4,10 @@
     <enableDeleteMonitoringData>false</enableDeleteMonitoringData>
     <enableDynamicStreamingChannel>false</enableDynamicStreamingChannel>
     <enableEventLogGeneration>false</enableEventLogGeneration>
+    <enableEventLogObjectFeature xsi:nil="true"/>
+    <enableLightningLoggerEvents>false</enableLightningLoggerEvents>
     <enableLoginForensics>false</enableLoginForensics>
     <enableStreamingApi>true</enableStreamingApi>
-    <enableTerminateOldestSession xsi:nil="true"/>
     <enableTransactionSecurityPolicies>false</enableTransactionSecurityPolicies>
+    <eventLogRetentionDuration>0</eventLogRetentionDuration>
 </EventSettings>

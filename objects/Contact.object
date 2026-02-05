@@ -344,12 +344,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>BuyerAttributes</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>ContactPickList_1__c</fullName>
-        <externalId>false</externalId>
         <label>ContactPickList_1</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -378,7 +382,6 @@
     </fields>
     <fields>
         <fullName>ContactPickList_2__c</fullName>
-        <externalId>false</externalId>
         <label>ContactPickList_2</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -404,6 +407,38 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContactPickList_3__c</fullName>
+        <label>ContactPickList_3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MyValue-1</fullName>
+                    <default>false</default>
+                    <label>MyValue-1</label>
+                </value>
+                <value>
+                    <fullName>MyValue-2</fullName>
+                    <default>false</default>
+                    <label>MyValue-2</label>
+                </value>
+                <value>
+                    <fullName>MyValue-3</fullName>
+                    <default>false</default>
+                    <label>MyValue-3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContactSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Department</fullName>
@@ -474,7 +509,6 @@
     </fields>
     <fields>
         <fullName>Level__c</fullName>
-        <externalId>false</externalId>
         <label>Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -509,6 +543,34 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>MyList_2__c</fullName>
+        <label>MyList_2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Item4</fullName>
+                    <default>true</default>
+                    <label>Item4</label>
+                </value>
+                <value>
+                    <fullName>Item5</fullName>
+                    <default>false</default>
+                    <label>Item5</label>
+                </value>
+                <value>
+                    <fullName>Item6</fullName>
+                    <default>false</default>
+                    <label>Item6</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
@@ -530,9 +592,53 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Priority__c</fullName>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Colors</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Pronouns</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Region_1__c</fullName>
+        <label>Region_1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>East</fullName>
+                    <default>true</default>
+                    <label>East</label>
+                </value>
+                <value>
+                    <fullName>West</fullName>
+                    <default>false</default>
+                    <label>West</label>
+                </value>
+                <value>
+                    <fullName>North</fullName>
+                    <default>false</default>
+                    <label>North</label>
+                </value>
+                <value>
+                    <fullName>South</fullName>
+                    <default>false</default>
+                    <label>South</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>

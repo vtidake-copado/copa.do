@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <environments>Default</environments>
     <interviewLabel>My_Flow_2 {!$Flow.CurrentDateTime}</interviewLabel>
     <label>My_Flow_2</label>
@@ -36,6 +37,11 @@
             <fieldText>&lt;p&gt;{!RegisterForm}&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
+        <fields>
+            <name>RegisterNow</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;{!RegisterNow}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -46,5 +52,5 @@
             <targetReference>Register</targetReference>
         </connector>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
 </Flow>

@@ -8,6 +8,13 @@
         <value>City</value>
     </labels>
     <labels>
+        <fullName>Country</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
         <fullName>FancyLabel</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -15,10 +22,45 @@
         <value>Picka Boo</value>
     </labels>
     <labels>
+        <fullName>My_Label_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>My Label 3</shortDescription>
+        <value>Value 3</value>
+    </labels>
+    <labels>
+        <fullName>My_Lable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>My Lable</shortDescription>
+        <value>Value 1</value>
+    </labels>
+    <labels>
+        <fullName>My_Lable_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>My Lable 2</shortDescription>
+        <value>value 2</value>
+    </labels>
+    <labels>
         <fullName>Salutation</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Salutation</shortDescription>
         <value>Salutation</value>
+    </labels>
+    <labels>
+        <fullName>label4</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label4</shortDescription>
+        <value>4</value>
+    </labels>
+    <labels>
+        <fullName>label5</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label5</shortDescription>
+        <value>5</value>
     </labels>
 </CustomLabels>

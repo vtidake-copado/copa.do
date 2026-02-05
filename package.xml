@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>MyDataModel__dlm</members>
-        <name>CustomObject</name>
+        <members>Level1</members>
+        <members>Level1/Level2</members>
+        <members>Level1/Level2/Level3</members>
+        <name>Report</name>
     </types>
     <version>65.0</version>
 </Package>
