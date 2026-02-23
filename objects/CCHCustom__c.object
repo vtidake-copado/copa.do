@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>CCHCustom Tests</description>
+    <description>CCHCustom Tests Update</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Author__c</fullName>
-        <description>Author Name</description>
+        <description>Author Name Update</description>
         <externalId>false</externalId>
         <label>Author</label>
         <length>32</length>
