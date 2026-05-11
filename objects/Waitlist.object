@@ -140,6 +140,11 @@
         <fullName>ShouldAllowSelfCheckIn</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <inlineHelpText>Specifies the appointment type.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
     <listViews>
         <fullName>All_Waitlists</fullName>
         <filterScope>Everything</filterScope>

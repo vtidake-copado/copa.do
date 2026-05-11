@@ -1,0 +1,3427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>テーマ</value>
+    </caseValues>
+    <fields>
+        <label>無効なアイコンのフォントの色</label>
+        <name>SBQQ__AccentIconDisabledFontColor__c</name>
+    </fields>
+    <fields>
+        <label>アイコンのフォントの色</label>
+        <name>SBQQ__AccentIconFontColor__c</name>
+    </fields>
+    <fields>
+        <label>アイコンのフロート表示のフォントの色</label>
+        <name>SBQQ__AccentIconHoverFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of badges --></help>
+        <label>バッジの背景色</label>
+        <name>SBQQ__BadgeBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of badges --></help>
+        <label>バッジの境界線の色</label>
+        <name>SBQQ__BadgeBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of badges (Click the icon for additional information) --></help>
+        <label>バッジの境界線のスタイル</label>
+        <name>SBQQ__BadgeBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of badges --></help>
+        <label>バッジの境界線の幅</label>
+        <name>SBQQ__BadgeBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of badges --></help>
+        <label>バッジのフォントの色</label>
+        <name>SBQQ__BadgeFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of badges --></help>
+        <label>バッジのフォントファミリー</label>
+        <name>SBQQ__BadgeFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of badges --></help>
+        <label>バッジのフォントサイズ</label>
+        <name>SBQQ__BadgeFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of brand buttons --></help>
+        <label>ブランドボタンの境界線の色</label>
+        <name>SBQQ__BrandButtonBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of disabled brand buttons --></help>
+        <label>無効なブランドボタンのフォントの色</label>
+        <name>SBQQ__BrandButtonDisabledFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family for brand buttons --></help>
+        <label>ブランドボタンのフォントファミリー</label>
+        <name>SBQQ__BrandButtonFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Hover font color of brand buttons --></help>
+        <label>ブランドボタンフロート表示のフォントの色</label>
+        <name>SBQQ__BrandButtonHoverFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of the header displaying the bundle name --></help>
+        <label>バンドルレイアウトヘッダーの色</label>
+        <name>SBQQ__BundleLayoutHeaderBgColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of the header displaying the bundle name --></help>
+        <label>バンドルレイアウトヘッダーのフォントの色</label>
+        <name>SBQQ__BundleLayoutHeaderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of the header displaying the bundle name --></help>
+        <label>バンドルレイアウトヘッダーのフォントファミリー</label>
+        <name>SBQQ__BundleLayoutHeaderFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of the header displaying the bundle name --></help>
+        <label>バンドルレイアウトヘッダーのフォントサイズ</label>
+        <name>SBQQ__BundleLayoutHeaderFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of the header displaying the bundle name (Click the icon for additional information) --></help>
+        <label>バンドルレイアウトヘッダーのフォントスタイル</label>
+        <name>SBQQ__BundleLayoutHeaderFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of the header displaying the bundle name (Click the icon for additional information) --></help>
+        <label>バンドルレイアウトヘッダーのフォントの太さ</label>
+        <name>SBQQ__BundleLayoutHeaderFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in the header displaying the bundle name (Click the icon for additional information) --></help>
+        <label>バンドルレイアウトヘッダーの文字飾り</label>
+        <name>SBQQ__BundleLayoutHeaderTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Background color of checked checkboxes --></help>
+        <label>オンにしたチェックボックスの背景色</label>
+        <name>SBQQ__CheckboxBackgroundColorChecked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of unchecked checkboxes --></help>
+        <label>オフにしたチェックボックスの背景色</label>
+        <name>SBQQ__CheckboxBackgroundColorUnchecked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of checkboxes --></help>
+        <label>チェックボックスの境界線の色</label>
+        <name>SBQQ__CheckboxBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border radius of checkboxes --></help>
+        <label>チェックボックスの境界線の半径</label>
+        <name>SBQQ__CheckboxBorderRadius__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of checkboxes --></help>
+        <label>チェックボックスの境界線のスタイル</label>
+        <name>SBQQ__CheckboxBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of checkboxes --></help>
+        <label>チェックボックスの境界線の幅</label>
+        <name>SBQQ__CheckboxBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkmark color of checkboxes --></help>
+        <label>チェックボックスのチェックマークの色</label>
+        <name>SBQQ__CheckboxCheckMarkColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Size of checkboxes --></help>
+        <label>チェックボックスのサイズ</label>
+        <name>SBQQ__CheckboxSize__c</name>
+    </fields>
+    <fields>
+        <label>非表示の値</label>
+        <name>SBQQ__CompiledCSS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of component rows in quote line editor --></help>
+        <label>コンポーネント行のフォントの色</label>
+        <name>SBQQ__ComponentRowFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of component rows in quote line editor (Click the icon for additional information) --></help>
+        <label>コンポーネント行のフォントスタイル</label>
+        <name>SBQQ__ComponentRowFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of component rows in quote line editor (Click the icon for additional information) --></help>
+        <label>コンポーネント行のフォントの太さ</label>
+        <name>SBQQ__ComponentRowFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text of component rows in quote line editor (Click the icon for additional information) --></help>
+        <label>コンポーネント行の文字飾り</label>
+        <name>SBQQ__ComponentRowTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Label color for configuration attributes --></help>
+        <label>設定属性の表示ラベルの色</label>
+        <name>SBQQ__ConfigurationAttributeLabelColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of configurator custom actions --></help>
+        <label>コンフィグレーターカスタムアクション境界線色</label>
+        <name>SBQQ__ConfiguratorCustomActionBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of configurator custom actions --></help>
+        <label>コンフィグレーターカスタムアクション背景色</label>
+        <name>SBQQ__ConfiguratorCustomActionColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of configurator custom actions --></help>
+        <label>コンフィグレーターカスタムアクションフォント色</label>
+        <name>SBQQ__ConfiguratorCustomActionFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover color of configurator custom actions --></help>
+        <label>コンフィグレーターカスタムアクションフロート表示色</label>
+        <name>SBQQ__ConfiguratorCustomActionHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover font color of configurator custom actions --></help>
+        <label>コンフィグレーターカスタムアクションフロート表示フォント色</label>
+        <name>SBQQ__ConfiguratorCustomActionHoverFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of filter side panels --></help>
+        <label>条件ドロワーの色</label>
+        <name>SBQQ__DetailColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of pop-up modals --></help>
+        <label>ダイアログの背景色</label>
+        <name>SBQQ__DialogBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border radius of pop-up modal --></help>
+        <label>ダイアログの境界線の半径</label>
+        <name>SBQQ__DialogBorderRadius__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of pop-up modals on close --></help>
+        <label>ダイアログを閉じるときの色</label>
+        <name>SBQQ__DialogCloseColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of pop-up modals --></help>
+        <label>ダイアログのフォントファミリー</label>
+        <name>SBQQ__DialogFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border color of pop-up modal footer --></help>
+        <label>ダイアログのフッターの境界線の色</label>
+        <name>SBQQ__DialogFooterBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of pop-up modal footer (Click the icon for additional information) --></help>
+        <label>ダイアログのフッターの境界線のスタイル</label>
+        <name>SBQQ__DialogFooterBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of pop-up modal footer --></help>
+        <label>ダイアログのフッターの境界線の幅</label>
+        <name>SBQQ__DialogFooterBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of pop-up modal footer --></help>
+        <label>ダイアログのフッターの色</label>
+        <name>SBQQ__DialogFooterColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of pop-up modal header --></help>
+        <label>ダイアログのヘッダーの境界線の色</label>
+        <name>SBQQ__DialogHeaderBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of pop-up modal header (Click the icon for additional information) --></help>
+        <label>ダイアログのヘッダーの境界線のスタイル</label>
+        <name>SBQQ__DialogHeaderBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of pop-up modal header --></help>
+        <label>ダイアログのヘッダーの境界線の幅</label>
+        <name>SBQQ__DialogHeaderBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of pop-up modal header --></help>
+        <label>ダイアログのヘッダーの下部パディング</label>
+        <name>SBQQ__DialogHeaderPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of pop-up modal header --></help>
+        <label>ダイアログのヘッダーの左側パディング</label>
+        <name>SBQQ__DialogHeaderPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of pop-up modal header --></help>
+        <label>ダイアログのヘッダーの右側パディング</label>
+        <name>SBQQ__DialogHeaderPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of pop-up modal header --></help>
+        <label>ダイアログのヘッダーの上部パディング</label>
+        <name>SBQQ__DialogHeaderPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of pop-up modal masks --></help>
+        <label>ダイアログのマスクの色</label>
+        <name>SBQQ__DialogMaskColor__c</name>
+    </fields>
+    <fields>
+        <label>従来のドキュメント ID</label>
+        <name>SBQQ__DocumentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of additional instructions displayed under feature name --></help>
+        <label>機能説明のフォントの色</label>
+        <name>SBQQ__FeatureInstructionsColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family additional instructions displayed under feature name --></help>
+        <label>機能説明のフォントファミリー</label>
+        <name>SBQQ__FeatureInstructionsFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of additional instructions displayed under feature name --></help>
+        <label>機能説明のフォントサイズ</label>
+        <name>SBQQ__FeatureInstructionsFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of additional instructions displayed under feature name (Click the icon for additional information) --></help>
+        <label>機能説明のフォントスタイル</label>
+        <name>SBQQ__FeatureInstructionsFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of additional instructions displayed under feature name (Click the icon for additional information) --></help>
+        <label>機能説明のフォントの太さ</label>
+        <name>SBQQ__FeatureInstructionsFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of additional instructions displayed under feature name --></help>
+        <label>機能説明の下部パディング</label>
+        <name>SBQQ__FeatureInstructionsPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of additional instructions displayed under feature name --></help>
+        <label>機能説明の左側パディング</label>
+        <name>SBQQ__FeatureInstructionsPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of additional instructions displayed under feature name --></help>
+        <label>機能説明の右側パディング</label>
+        <name>SBQQ__FeatureInstructionsPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of additional instructions displayed under feature name --></help>
+        <label>機能説明の上部パディング</label>
+        <name>SBQQ__FeatureInstructionsPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in additional instructions displayed under feature name (Click the icon for additional information) --></help>
+        <label>機能説明の文字飾り</label>
+        <name>SBQQ__FeatureInstructionsTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Color of icon displayed next to a field indicating if its editable or not --></help>
+        <label>項目編集可能アイコンの色</label>
+        <name>SBQQ__FieldEditableIconColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of icon displayed next to a field that has been edited / Font color of edited fields --></help>
+        <label>編集済み項目アイコンのフォントの色</label>
+        <name>SBQQ__FieldEditedColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of filter side panels --></help>
+        <label>条件ドロワーのフォントの色</label>
+        <name>SBQQ__FilterDrawerFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of non-admin CPQ page --></help>
+        <label>境界線の一般色</label>
+        <name>SBQQ__GeneralBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of non-admin CPQ pages --></help>
+        <label>一般色</label>
+        <name>SBQQ__GeneralColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default font color --></help>
+        <label>フォントの一般色</label>
+        <name>SBQQ__GeneralFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default font family --></help>
+        <label>一般フォントファミリー</label>
+        <name>SBQQ__GeneralFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border color of quote line groups and features --></help>
+        <label>グループ境界線の色</label>
+        <name>SBQQ__GroupBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border width of quote line groups and features --></help>
+        <label>グループ境界線の幅</label>
+        <name>SBQQ__GroupBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of standard buttons --></help>
+        <label>標準ボタンの境界線の色</label>
+        <name>SBQQ__GroupButtonBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of standard buttons --></help>
+        <label>標準ボタンの色</label>
+        <name>SBQQ__GroupButtonColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of disabled standard buttons --></help>
+        <label>無効な標準ボタンのフォントの色</label>
+        <name>SBQQ__GroupButtonDisabledFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of standard buttons --></help>
+        <label>標準ボタンのフォントの色</label>
+        <name>SBQQ__GroupButtonFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover color of standard buttons --></help>
+        <label>標準ボタンのフロート表示の色</label>
+        <name>SBQQ__GroupButtonHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover font color of standard buttons --></help>
+        <label>標準ボタンのフロート表示のフォントの色</label>
+        <name>SBQQ__GroupButtonHoverFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of quote line group and feature headers --></help>
+        <label>グループヘッダーの色</label>
+        <name>SBQQ__GroupHeaderBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border color of quote line group and feature headers --></help>
+        <label>グループヘッダーの下境界線の色</label>
+        <name>SBQQ__GroupHeaderBorderBottomColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border width of quote line group and feature headers --></help>
+        <label>グループヘッダーの下境界線の幅</label>
+        <name>SBQQ__GroupHeaderBorderBottomWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of quote line group and feature headers --></help>
+        <label>グループヘッダーのフォントの色</label>
+        <name>SBQQ__GroupHeaderFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of quote line group and feature headers --></help>
+        <label>グループヘッダーのフォントファミリー</label>
+        <name>SBQQ__GroupHeaderFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of quote line group and feature headers --></help>
+        <label>グループヘッダーのフォントサイズ</label>
+        <name>SBQQ__GroupHeaderFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of quote line group and feature headers (Click the icon for additional information) --></help>
+        <label>グループヘッダーのフォントスタイル</label>
+        <name>SBQQ__GroupHeaderFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of quote line group and feature headers (Click the icon for additional information) --></help>
+        <label>グループヘッダーのフォントの太さ</label>
+        <name>SBQQ__GroupHeaderFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in quote line group and feature headers (Click the icon for additional information) --></help>
+        <label>グループヘッダーの文字飾り</label>
+        <name>SBQQ__GroupHeaderTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border color of page header --></help>
+        <label>ヘッダーの境界線の色</label>
+        <name>SBQQ__HeaderBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of page header (Click the icon for additional information) --></help>
+        <label>ヘッダーの境界線のスタイル</label>
+        <name>SBQQ__HeaderBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of page header --></help>
+        <label>ヘッダーの境界線の幅</label>
+        <name>SBQQ__HeaderBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of page header --></help>
+        <label>ヘッダーの色</label>
+        <name>SBQQ__HeaderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of page header --></help>
+        <label>ヘッダーのフォントの色</label>
+        <name>SBQQ__HeaderFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of page header --></help>
+        <label>ヘッダーのフォントファミリー</label>
+        <name>SBQQ__HeaderFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of page header --></help>
+        <label>ヘッダーのフォントサイズ</label>
+        <name>SBQQ__HeaderFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of page header (Click the icon for additional information) --></help>
+        <label>ヘッダーのフォントスタイル</label>
+        <name>SBQQ__HeaderFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of page header text (Click the icon for additional information) --></help>
+        <label>ヘッダーのフォントの太さ</label>
+        <name>SBQQ__HeaderFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Color of page header icon --></help>
+        <label>ヘッダーのアイコンの色</label>
+        <name>SBQQ__HeaderIconColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font size of page header icon --></help>
+        <label>ヘッダーのアイコンのフォントサイズ</label>
+        <name>SBQQ__HeaderIconFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minimum height of page header --></help>
+        <label>ヘッダーの最小の高さ</label>
+        <name>SBQQ__HeaderMinHeight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of page header --></help>
+        <label>ヘッダーの下部パディング</label>
+        <name>SBQQ__HeaderPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of page header --></help>
+        <label>ヘッダーの左側パディング</label>
+        <name>SBQQ__HeaderPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of page header --></help>
+        <label>ヘッダーの右側パディング</label>
+        <name>SBQQ__HeaderPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of page header --></help>
+        <label>ヘッダーの上部パディング</label>
+        <name>SBQQ__HeaderPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of page sub-header --></help>
+        <label>ヘッダーのフォントの補色</label>
+        <name>SBQQ__HeaderSecondaryFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of page sub-header --></help>
+        <label>サブヘッダーのフォントファミリー</label>
+        <name>SBQQ__HeaderSecondaryFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of page sub-header --></help>
+        <label>サブヘッダーのフォントサイズ</label>
+        <name>SBQQ__HeaderSecondaryFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of page sub-header (Click the icon for additional information) --></help>
+        <label>サブヘッダーのフォントスタイル</label>
+        <name>SBQQ__HeaderSecondaryFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of page sub-header (Click the icon for additional information) --></help>
+        <label>サブヘッダーのフォントの太さ</label>
+        <name>SBQQ__HeaderSecondaryFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in page sub-header (Click the icon for additional information) --></help>
+        <label>サブヘッダーの文字飾り</label>
+        <name>SBQQ__HeaderSecondaryTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in page header (Click the icon for additional information) --></help>
+        <label>ヘッダーの文字飾り</label>
+        <name>SBQQ__HeaderTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If checked, will hide the icon square located on the left side of page headers --></help>
+        <label>ページヘッダーのアイコンを非表示</label>
+        <name>SBQQ__HideIcons__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of active links --></help>
+        <label>有効なハイパーリンクの色</label>
+        <name>SBQQ__HyperlinkActiveColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of links --></help>
+        <label>ハイパーリンクの色</label>
+        <name>SBQQ__HyperlinkColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of disabled links --></help>
+        <label>無効なハイパーリンクの色</label>
+        <name>SBQQ__HyperlinkDisabledColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover color of links --></help>
+        <label>ハイパーリンクのフロート表示の色</label>
+        <name>SBQQ__HyperlinkHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of disabled icons --></help>
+        <label>無効なアイコンの色</label>
+        <name>SBQQ__IconDisabledColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of icons --></help>
+        <label>アイコンのフォントの色</label>
+        <name>SBQQ__IconFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover color of icons --></help>
+        <label>アイコンのフロート表示の色</label>
+        <name>SBQQ__IconHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of copy mobile icon --></help>
+        <label>携帯コピーアイコンの背景色</label>
+        <name>SBQQ__IconMobileCopyBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of delete mobile icon --></help>
+        <label>携帯削除アイコンの背景色</label>
+        <name>SBQQ__IconMobileDeleteBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of mobile line action icons --></help>
+        <label>携帯回線アクションアイコンの色</label>
+        <name>SBQQ__IconMobileLineActionColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of star mobile icon --></help>
+        <label>携帯の星型アイコンの背景色</label>
+        <name>SBQQ__IconMobileStarBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fill color of star mobile icon --></help>
+        <label>携帯の星型アイコンの塗りつぶし色</label>
+        <name>SBQQ__IconMobileStarFillColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of wand mobile icon --></help>
+        <label>携帯の杖型アイコンの背景色</label>
+        <name>SBQQ__IconMobileWandBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of page loading icon --></help>
+        <label>ページ読み込みアイコンの色</label>
+        <name>SBQQ__IconPageLoadingColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Outline color of input forms on focus --></help>
+        <label>入力の外枠の色</label>
+        <name>SBQQ__InputOutlineColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Outline width of input forms on focus --></help>
+        <label>入力の外枠の幅</label>
+        <name>SBQQ__InputOutlineWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of loading mask when navigating to a new page --></help>
+        <label>読み込みマスクの色</label>
+        <name>SBQQ__LoadingMaskColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of navigation side panels --></help>
+        <label>ナビゲーションドロワーの色</label>
+        <name>SBQQ__NavigationDrawerColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of navigation side panels --></help>
+        <label>ナビゲーションドロワーのフォントの色</label>
+        <name>SBQQ__NavigationDrawerFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of navigation side panel headers --></help>
+        <label>ナビゲーションドロワーのヘッダーの色</label>
+        <name>SBQQ__NavigationDrawerHeaderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of navigation side panel headers --></help>
+        <label>ナビゲーションドロワーヘッダーフォント色</label>
+        <name>SBQQ__NavigationDrawerHeaderFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of rows in navigation side panels --></help>
+        <label>ナビゲーションドロワーの行の色</label>
+        <name>SBQQ__NavigationDrawerRowColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of hovered rows in navigation side panels --></help>
+        <label>ナビゲーションドロワー行のフロート表示色</label>
+        <name>SBQQ__NavigationDrawerRowHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of selected row in navigation side panels --></help>
+        <label>ナビゲーションドロワーの選択された行の色</label>
+        <name>SBQQ__NavigationDrawerRowSelectedColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of parent line rows in quote line editor --></help>
+        <label>親品目行のフォントの色</label>
+        <name>SBQQ__ParentLineRowFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of parent line rows in quote line editor (Click the icon for additional information) --></help>
+        <label>親品目行のフォントスタイル</label>
+        <name>SBQQ__ParentLineRowFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of parent line rows in quote line editor (Click the icon for additional information) --></help>
+        <label>親品目行のフォントの太さ</label>
+        <name>SBQQ__ParentLineRowFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text of parent line rows in quote line editor (Click the icon for additional information) --></help>
+        <label>親品目行の文字飾り</label>
+        <name>SBQQ__ParentLineRowTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Color of brand buttons --></help>
+        <label>ブランドボタンの色</label>
+        <name>SBQQ__PrimaryButtonColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of brand buttons --></help>
+        <label>ブランドボタンのフォントの色</label>
+        <name>SBQQ__PrimaryButtonFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hover color of brand buttons --></help>
+        <label>ブランドボタンのフロート表示の色</label>
+        <name>SBQQ__PrimaryButtonHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of selected radio button --></help>
+        <label>オンにしたラジオボタンの色</label>
+        <name>SBQQ__RadioButtonColorChecked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of unselected radio button --></help>
+        <label>オフにしたラジオボタンの色</label>
+        <name>SBQQ__RadioButtonColorUnchecked__c</name>
+    </fields>
+    <fields>
+        <label>フォントの補色</label>
+        <name>SBQQ__SecondaryFontColor__c</name>
+    </fields>
+    <fields>
+        <label>ヘッダーの補色</label>
+        <name>SBQQ__SecondaryHeaderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of drop-down menus --></help>
+        <label>選択リストの背景色</label>
+        <name>SBQQ__SelectBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of drop-down menus --></help>
+        <label>選択リストの境界線の色</label>
+        <name>SBQQ__SelectBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border radius of drop-down menus --></help>
+        <label>選択リストの境界線の半径</label>
+        <name>SBQQ__SelectBorderRadius__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of drop-down menus --></help>
+        <label>選択リストの境界線のスタイル</label>
+        <name>SBQQ__SelectBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of drop-down menus --></help>
+        <label>選択リストの境界線の幅</label>
+        <name>SBQQ__SelectBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, will hide the Skip action button on the contract selector page for add-on workflow --></help>
+        <label>スキップアクション (アドオンワークフロー) を非表示</label>
+        <name>SBQQ__SelectContractHideSkipActionOnAddOn__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, will hide the Skip action button on the contract selector page for amend workflow --></help>
+        <label>スキップアクション (修正ワークフロー) を非表示</label>
+        <name>SBQQ__SelectContractHideSkipActionOnAmend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Height of drop-down menus --></help>
+        <label>選択リストの境界線の高さ</label>
+        <name>SBQQ__SelectHeight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of drop-down menus --></help>
+        <label>選択リストの下部パディング</label>
+        <name>SBQQ__SelectPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of drop-down menus --></help>
+        <label>選択リストの左側パディング</label>
+        <name>SBQQ__SelectPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of drop-down menus --></help>
+        <label>選択リストの右側パディング</label>
+        <name>SBQQ__SelectPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of drop-down menus --></help>
+        <label>選択リストの上部パディング</label>
+        <name>SBQQ__SelectPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of standalone product rows in quote line editor --></help>
+        <label>スタンドアロン商品行のフォントの色</label>
+        <name>SBQQ__StandaloneProductRowFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of standalone product rows in quote line editor (Click the icon for additional information) --></help>
+        <label>スタンドアロン商品行のフォントスタイル</label>
+        <name>SBQQ__StandaloneProductRowFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of standalone product rows in quote line editor (Click the icon for additional information) --></help>
+        <label>スタンドアロン商品行のフォントの太さ</label>
+        <name>SBQQ__StandaloneProductRowFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in standalone product rows in quote line editor (Click the icon for additional information) --></help>
+        <label>スタンドアロン商品行の文字飾り</label>
+        <name>SBQQ__StandaloneProductRowTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border radius of standard buttons (Click the icon for additional information) --></help>
+        <label>標準ボタンの境界線の半径</label>
+        <name>SBQQ__StandardButtonBorderRadius__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of disabled standard buttons --></help>
+        <label>無効な標準ボタンの色</label>
+        <name>SBQQ__StandardButtonDisabledBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family for standard buttons --></help>
+        <label>標準ボタンのフォントファミリー</label>
+        <name>SBQQ__StandardButtonFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of standard buttons --></help>
+        <label>標準ボタンのフォントサイズ</label>
+        <name>SBQQ__StandardButtonFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font weight of standard buttons (Click the icon for additional information) --></help>
+        <label>標準ボタンのフォントの太さ</label>
+        <name>SBQQ__StandardButtonFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of standard buttons --></help>
+        <label>標準ボタンの下部パディング</label>
+        <name>SBQQ__StandardButtonPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of standard buttons --></help>
+        <label>標準ボタンの左側パディング</label>
+        <name>SBQQ__StandardButtonPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of standard buttons --></help>
+        <label>標準ボタンの右側パディング</label>
+        <name>SBQQ__StandardButtonPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of standard buttons --></help>
+        <label>標準ボタンの上部パディング</label>
+        <name>SBQQ__StandardButtonPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of tabs --></help>
+        <label>タブの色</label>
+        <name>SBQQ__TabColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of tabs --></help>
+        <label>タブのフォントファミリー</label>
+        <name>SBQQ__TabFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Hover color of tabs --></help>
+        <label>タブのフロート表示の色</label>
+        <name>SBQQ__TabHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Color of selected tabs --></help>
+        <label>選択されているタブの色</label>
+        <name>SBQQ__TabSelectedColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of table cell --></help>
+        <label>テーブルセルの下部パディング</label>
+        <name>SBQQ__TableCellPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of table cell --></help>
+        <label>テーブルセルの左側パディング</label>
+        <name>SBQQ__TableCellPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of table cell --></help>
+        <label>テーブルセルの右側パディング</label>
+        <name>SBQQ__TableCellPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of table cell --></help>
+        <label>テーブルセルの上部パディング</label>
+        <name>SBQQ__TableCellPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of collapsible rows in a table --></help>
+        <label>グループ化した行の色</label>
+        <name>SBQQ__TableGroupedRowBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border color of collapsible rows in a table --></help>
+        <label>グループ化した行の下境界線の色</label>
+        <name>SBQQ__TableGroupedRowBorderBottomColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border style of collapsible rows in a table (Click the icon for additional information) --></help>
+        <label>グループ化した行の下境界線のスタイル</label>
+        <name>SBQQ__TableGroupedRowBorderBottomStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bottom border width of collapsible rows in a table --></help>
+        <label>グループ化した行の下境界線の幅</label>
+        <name>SBQQ__TableGroupedRowBorderBottomWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Line height of collapsible rows in a table --></help>
+        <label>グループ化した行の高さ</label>
+        <name>SBQQ__TableGroupedRowLineHeight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of collapsible rows in a table --></help>
+        <label>グループ化した行のパディング下</label>
+        <name>SBQQ__TableGroupedRowPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of collapsible rows in a table --></help>
+        <label>グループ化した行のパディング上</label>
+        <name>SBQQ__TableGroupedRowPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Background color of table header --></help>
+        <label>テーブルヘッダーの色</label>
+        <name>SBQQ__TableHeaderBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border color of table header --></help>
+        <label>テーブルヘッダーの下境界線の色</label>
+        <name>SBQQ__TableHeaderBorderBottomColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border style of table header (Click the icon for additional information) --></help>
+        <label>テーブルヘッダーの下境界線のスタイル</label>
+        <name>SBQQ__TableHeaderBorderBottomStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bottom border width of table header --></help>
+        <label>テーブルヘッダーの下境界線の幅</label>
+        <name>SBQQ__TableHeaderBorderBottomWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Height of table header cell --></help>
+        <label>テーブルヘッダーのセルの高さ</label>
+        <name>SBQQ__TableHeaderCellHeight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of table header --></help>
+        <label>テーブルヘッダーのフォントの色</label>
+        <name>SBQQ__TableHeaderFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font family of table header --></help>
+        <label>テーブルヘッダーのフォントファミリー</label>
+        <name>SBQQ__TableHeaderFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of table header --></help>
+        <label>テーブルヘッダーのフォントサイズ</label>
+        <name>SBQQ__TableHeaderFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of table header (Click the icon for additional information) --></help>
+        <label>テーブルヘッダーのフォントスタイル</label>
+        <name>SBQQ__TableHeaderFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of table header --></help>
+        <label>テーブルヘッダーのフォントの太さ</label>
+        <name>SBQQ__TableHeaderFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text in table header --></help>
+        <label>テーブルヘッダーの文字飾り</label>
+        <name>SBQQ__TableHeaderTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Background color of rows in a table --></help>
+        <label>テーブル行の背景色</label>
+        <name>SBQQ__TableRowBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border color of rows in a table --></help>
+        <label>テーブル行の下境界線の色</label>
+        <name>SBQQ__TableRowBorderBottomColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom border style of rows in a table (Click the icon for additional information) --></help>
+        <label>テーブル行の下境界線のスタイル</label>
+        <name>SBQQ__TableRowBorderBottomStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bottom border width of rows in a table --></help>
+        <label>テーブル行の下境界線の幅</label>
+        <name>SBQQ__TableRowBorderBottomWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font color of rows in a table --></help>
+        <label>テーブル行のフォントの色</label>
+        <name>SBQQ__TableRowFontColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font familiy of rows in a table --></help>
+        <label>テーブル行のフォントファミリー</label>
+        <name>SBQQ__TableRowFontFamily__c</name>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dosis</masterLabel>
+            <translation><!-- Dosis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Sans</masterLabel>
+            <translation><!-- Droid Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Droid Serif</masterLabel>
+            <translation><!-- Droid Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helvetica</masterLabel>
+            <translation><!-- Helvetica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merriweather</masterLabel>
+            <translation><!-- Merriweather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation><!-- Montserrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myriad Pro</masterLabel>
+            <translation><!-- Myriad Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans JP</masterLabel>
+            <translation><!-- Noto Sans JP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans KR</masterLabel>
+            <translation><!-- Noto Sans KR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noto Sans SC</masterLabel>
+            <translation><!-- Noto Sans SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Sans</masterLabel>
+            <translation><!-- Open Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Sans</masterLabel>
+            <translation><!-- PT Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Serif</masterLabel>
+            <translation><!-- PT Serif --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto</masterLabel>
+            <translation><!-- Roboto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roboto Light</masterLabel>
+            <translation><!-- Roboto Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Sans</masterLabel>
+            <translation><!-- Salesforce Sans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soto Sans TC</masterLabel>
+            <translation><!-- Soto Sans TC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Times</masterLabel>
+            <translation><!-- Times --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titillium Web</masterLabel>
+            <translation><!-- Titillium Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font size of rows in a table --></help>
+        <label>テーブル行のフォントサイズ</label>
+        <name>SBQQ__TableRowFontSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Font style of rows in a table (Click the icon for additional information) --></help>
+        <label>テーブル行のフォントスタイル</label>
+        <name>SBQQ__TableRowFontStyle__c</name>
+        <picklistValues>
+            <masterLabel>italic</masterLabel>
+            <translation><!-- italic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>oblique</masterLabel>
+            <translation><!-- oblique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Font weight of rows in a table (Click the icon for additional information) --></help>
+        <label>テーブル行のフォントの太さ</label>
+        <name>SBQQ__TableRowFontWeight__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>600</masterLabel>
+            <translation><!-- 600 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700</masterLabel>
+            <translation><!-- 700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800</masterLabel>
+            <translation><!-- 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>900</masterLabel>
+            <translation><!-- 900 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bold</masterLabel>
+            <translation><!-- bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bolder</masterLabel>
+            <translation><!-- bolder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lighter</masterLabel>
+            <translation><!-- lighter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Hover color of rows in a table --></help>
+        <label>テーブル行のフロート表示の色</label>
+        <name>SBQQ__TableRowHoverColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Height of rows in a table (Click the icon for additional information) --></help>
+        <label>テーブル行の高さ</label>
+        <name>SBQQ__TableRowLineHeight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of rows in a table --></help>
+        <label>テーブル行のパディング下</label>
+        <name>SBQQ__TableRowPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of rows in a table --></help>
+        <label>テーブル行のパディング上</label>
+        <name>SBQQ__TableRowPaddingTop__c</name>
+    </fields>
+    <fields>
+        <help><!-- Decoration added to text of rows in a table (Click the icon for additional information) --></help>
+        <label>テーブル行の文字飾り</label>
+        <name>SBQQ__TableRowTextDecoration__c</name>
+        <picklistValues>
+            <masterLabel>line-through</masterLabel>
+            <translation><!-- line-through --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>overline</masterLabel>
+            <translation><!-- overline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>underline</masterLabel>
+            <translation><!-- underline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Background color of textboxes --></help>
+        <label>テキストボックスの背景色</label>
+        <name>SBQQ__TextboxBackgroundColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border color of textboxes --></help>
+        <label>テキストボックスの境界線の色</label>
+        <name>SBQQ__TextboxBorderColor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border radius of textboxes --></help>
+        <label>テキストボックスの境界線の半径</label>
+        <name>SBQQ__TextboxBorderRadius__c</name>
+    </fields>
+    <fields>
+        <help><!-- Border style of textboxes (Click the icon for additional information) --></help>
+        <label>テキストボックスの境界線のスタイル</label>
+        <name>SBQQ__TextboxBorderStyle__c</name>
+        <picklistValues>
+            <masterLabel>dashed</masterLabel>
+            <translation><!-- dashed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dotted</masterLabel>
+            <translation><!-- dotted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>double</masterLabel>
+            <translation><!-- double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>grove</masterLabel>
+            <translation><!-- grove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hidden</masterLabel>
+            <translation><!-- hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>inset</masterLabel>
+            <translation><!-- inset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>none</masterLabel>
+            <translation><!-- none --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>outset</masterLabel>
+            <translation><!-- outset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ridge</masterLabel>
+            <translation><!-- ridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>solid</masterLabel>
+            <translation><!-- solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Border width of textboxes --></help>
+        <label>テキストボックスの境界線の幅</label>
+        <name>SBQQ__TextboxBorderWidth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Height of textboxes --></help>
+        <label>テキストボックスの境界線の高さ</label>
+        <name>SBQQ__TextboxHeight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bottom padding of textboxes --></help>
+        <label>テキストボックスの下部パディング</label>
+        <name>SBQQ__TextboxPaddingBottom__c</name>
+    </fields>
+    <fields>
+        <help><!-- Left padding of textboxes --></help>
+        <label>テキストボックスの左側パディング</label>
+        <name>SBQQ__TextboxPaddingLeft__c</name>
+    </fields>
+    <fields>
+        <help><!-- Right padding of textboxes --></help>
+        <label>テキストボックスの右側パディング</label>
+        <name>SBQQ__TextboxPaddingRight__c</name>
+    </fields>
+    <fields>
+        <help><!-- Top padding of textboxes --></help>
+        <label>テキストボックスの上部パディング</label>
+        <name>SBQQ__TextboxPaddingTop__c</name>
+    </fields>
+    <fields>
+        <label>ドキュメント ID</label>
+        <name>SBQQ__UI2DocumentId__c</name>
+    </fields>
+    <nameFieldLabel>テーマ名</nameFieldLabel>
+</CustomObjectTranslation>

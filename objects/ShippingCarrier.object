@@ -134,7 +134,17 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ManagedShippingCarrier</fullName>
+        <inlineHelpText>Salesforce managed shipping carrier information that provides estimated transit times.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShipFromCountry</fullName>
+        <inlineHelpText>Country where the shipment originates.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>

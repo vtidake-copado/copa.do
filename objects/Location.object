@@ -162,7 +162,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>EarliestPickupTimeOffset</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ExternalReference</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -171,11 +183,19 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>IsEligibleForPickup</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>IsInventoryLocation</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsMobile</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LatestPickupTimeOffset</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -197,6 +217,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Mobile</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -213,6 +237,18 @@
         <fullName>ParentLocationId</fullName>
         <trackHistory>false</trackHistory>
         <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PickupProcessingTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PickupProcessingTimeUnit</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>PossessionDate</fullName>

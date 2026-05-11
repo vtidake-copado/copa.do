@@ -116,6 +116,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Category</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CorpCrcyCnvTotAmtWithTax</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -152,6 +156,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>FuncCrcyCnvTotAmtWithTax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FunctionalCurrencyCvsnDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FunctionalCurrencyCvsnRate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>NetCreditsApplied</fullName>
         <inlineHelpText>Net amount applied from the credit memo.</inlineHelpText>
     </fields>
@@ -159,6 +175,11 @@
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReasonCode</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ReferenceEntityId</fullName>
@@ -207,6 +228,12 @@
     </fields>
     <fields>
         <fullName>TotalTaxAmount</fullName>
+        <inlineHelpText>The rollup of taxes from all line items in the transaction.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalTaxesCapturedAtHeader</fullName>
+        <inlineHelpText>The total tax calculated at the transaction header level.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <listViews>

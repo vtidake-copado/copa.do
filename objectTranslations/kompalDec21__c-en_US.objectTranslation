@@ -9,6 +9,10 @@
         <value>kompalDec21s</value>
     </caseValues>
     <fields>
+        <label><!-- f2 --></label>
+        <name>f2__c</name>
+    </fields>
+    <fields>
         <label><!-- kf1 --></label>
         <name>kf1__c</name>
     </fields>

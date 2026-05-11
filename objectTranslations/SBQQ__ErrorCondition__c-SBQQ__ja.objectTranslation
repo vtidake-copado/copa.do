@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>エラー条件</value>
+    </caseValues>
+    <fields>
+        <help><!-- Choose Variable to evaluate this rule against a Summary Variable; otherwise, choose Value. --></help>
+        <label>条件種別</label>
+        <name>SBQQ__FilterType__c</name>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation><!-- Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the value you want the tested variable to be evaluated against. Date value must use this format: YYYY-MM-DD 00:00:00 --></help>
+        <label>条件値</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the summary variable you want this rule to evaluate. --></help>
+        <label>条件変数</label>
+        <name>SBQQ__FilterVariable__c</name>
+        <relationshipLabel>エラー条件 (条件変数)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Assign an unique number to this Condition to reference it in the Product Rule&apos;s Advanced Condition. --></help>
+        <label>インデックス</label>
+        <name>SBQQ__Index__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the operator to use when evaluating your tested selection. --></help>
+        <label>演算子</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation><!-- ends with --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation><!-- greater or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation><!-- less or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation><!-- starts with --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ParentRuleIsActive</label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <label>RuleTargetsQuote</label>
+        <name>SBQQ__RuleTargetsQuote__c</name>
+    </fields>
+    <fields>
+        <help><!-- Parent rule for this condition (that runs this condition). --></help>
+        <label>ルール</label>
+        <name>SBQQ__Rule__c</name>
+        <relationshipLabel>エラー条件</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to identify the specific attribute if the Tested Field is a global Configuration Attribute field. --></help>
+        <label>テスト済み属性</label>
+        <name>SBQQ__TestedAttribute__c</name>
+        <relationshipLabel>エラー条件</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Field on the Quote object that should be used in testing this condition. --></help>
+        <label>テスト対象項目</label>
+        <name>SBQQ__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Group Line Items</masterLabel>
+            <translation><!-- Group Line Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation><!-- Unit Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify the object that contains the tested field. --></help>
+        <label>テスト対象オブジェクト</label>
+        <name>SBQQ__TestedObject__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attributes</masterLabel>
+            <translation><!-- Configuration Attributes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Option</masterLabel>
+            <translation><!-- Product Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation><!-- Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation><!-- Quote Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line Group</masterLabel>
+            <translation><!-- Quote Line Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgraded Asset</masterLabel>
+            <translation><!-- Upgraded Asset --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the Summary Variable you want this rule to evaluate. --></help>
+        <label>テスト対象変数</label>
+        <name>SBQQ__TestedVariable__c</name>
+        <relationshipLabel>エラー条件 (テスト対象変数)</relationshipLabel>
+    </fields>
+    <nameFieldLabel>条件番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage>[変数] 条件種別には条件変数が必要です。</errorMessage>
+        <name>SBQQ__FilterCombinationValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ProductRule.Scope と ErrorCondition.TestedObject のこの組み合わせは無効です。</errorMessage>
+        <name>SBQQ__ScopeAndErrorConditionTestedObject</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>テスト対象項目がグローバルな設定属性項目であるため、テスト済み属性は必須です。</errorMessage>
+        <name>SBQQ__Tested_attr_required_if_global_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>テスト対象項目またはテスト対象変数を指定する必要があります。</errorMessage>
+        <name>SBQQ__Tested_field_or_variable_required</name>
+    </validationRules>
+</CustomObjectTranslation>

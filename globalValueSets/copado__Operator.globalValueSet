@@ -26,16 +26,16 @@
         <label>Ends with</label>
     </customValue>
     <customValue>
-        <fullName>Does not contain</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Does not contain</label>
-    </customValue>
-    <customValue>
         <fullName>Not equal to</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Not equal to</label>
+    </customValue>
+    <customValue>
+        <fullName>Does not contain</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Does not contain</label>
     </customValue>
     <masterLabel>Operator</masterLabel>
     <sorted>false</sorted>

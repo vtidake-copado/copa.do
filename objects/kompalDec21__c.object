@@ -155,6 +155,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>f2__c</fullName>
+        <externalId>false</externalId>
+        <label>f2</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>kf1__c</fullName>
         <externalId>false</externalId>
         <label>kf1</label>
@@ -170,7 +180,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>kompalDec21s</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

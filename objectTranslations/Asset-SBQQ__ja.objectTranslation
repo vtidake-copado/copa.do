@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>検索条件</label>
+        <name>SBQQ__SearchFilters</name>
+    </fieldSets>
+    <fieldSets>
+        <label>検索結果</label>
+        <name>SBQQ__SearchResults</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Additional Discount for this Asset, if expressed as an amount --></help>
+        <label>追加割引 (金額)</label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label>請求サイクル</label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets you bill your customers after the products or services are provided. --></help>
+        <label>請求種別</label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this line item represents a package; meaning, it includes other line items in this quote. --></help>
+        <label>パッケージ</label>
+        <name>SBQQ__Bundle__c</name>
+    </fields>
+    <fields>
+        <help><!-- For items with calculated quantities this field holds the original quantity entered by the user. --></help>
+        <label>元の数量</label>
+        <name>SBQQ__BundledQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the product on this line item is bundled (included) by another product in this quote. Bundled lines items have a zero price and do not allow price or quantity to be edited. --></help>
+        <label>バンドル</label>
+        <name>SBQQ__Bundled__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of the product charge.  This is a system field that is derived from the associated product. --></help>
+        <label>課金タイプ</label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <label>統合キー</label>
+        <name>SBQQ__CombineKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fixes additional discount for this component to the parent package discount. --></help>
+        <label>コンポーネントをパッケージごとに割引</label>
+        <name>SBQQ__ComponentDiscountedByPackage__c</name>
+    </fields>
+    <fields>
+        <label>クレジット商品 ID</label>
+        <name>SBQQ__CreditProductId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription that currently covers this asset. Automatically populated if one and only one subscription covers this asset. Renewals will overwrite with new subscription. --></help>
+        <label>現在のサブスクリプション</label>
+        <name>SBQQ__CurrentSubscription__c</name>
+        <relationshipLabel>対象納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Name of the Price Dimension that originated this Asset --></help>
+        <label>価格ディメンション名</label>
+        <name>SBQQ__Dimension__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule type. Copied from Type field in associated discount schedule. --></help>
+        <label>割引率表種別</label>
+        <name>SBQQ__DiscountScheduleType__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation><!-- Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation><!-- Slab --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify discounts in terms of % or Amt to be discounted off the product&apos;s price using quantity purchased or term. Set quantity/term ranges in tiers of different discount %. Discount is applied to List Price &amp; resulting total is stored in the Regular Price --></help>
+        <label>割引率表</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Additional Discount for this Asset, if expressed as a percentage --></help>
+        <label>追加割引 (%)</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount to be taken on top of the Partner Discount. --></help>
+        <label>流通業者割引</label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies feature and dynamic option for this line. --></help>
+        <label>動的オプション ID</label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines whether Service Cloud was enabled when this Asset was created. --></help>
+        <label>Service Cloud から</label>
+        <name>SBQQ__FromServiceCloud__c</name>
+    </fields>
+    <fields>
+        <label>最新の見積品目</label>
+        <name>SBQQ__LatestQuoteLine__c</name>
+        <relationshipLabel>納入商品 (最新の見積品目)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- List price for this Asset product. --></help>
+        <label>リスト価格</label>
+        <name>SBQQ__ListPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Markup for this Asset, if expressed as an amount --></help>
+        <label>マークアップ (金額)</label>
+        <name>SBQQ__MarkupAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Markup for this Asset, if expressed as a percentage --></help>
+        <label>マークアップ (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number indicating this line&apos;s position within its group or quote. --></help>
+        <label>番号</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount extended on this product because it&apos;s part of a package. --></help>
+        <label>オプション割引 (金額)</label>
+        <name>SBQQ__OptionDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this line is for an optional SKU, this field captures any discount given to the package and extended to the option. --></help>
+        <label>オプション割引 (%)</label>
+        <name>SBQQ__OptionDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates nest level of this option (only applies to lines that are generated from options). --></help>
+        <label>オプションレベル</label>
+        <name>SBQQ__OptionLevel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the Option Type, which is copied from related Product Option. Determines how quantity is calculated. --></help>
+        <label>オプション種別</label>
+        <name>SBQQ__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation><!-- Accessory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation><!-- Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation><!-- Related Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>注文商品</label>
+        <name>SBQQ__OrderProduct__c</name>
+        <relationshipLabel>納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Original unit cost of the Asset at the time of purchase before Cost Schedules were applied. --></help>
+        <label>元の単位コスト</label>
+        <name>SBQQ__OriginalUnitCost__c</name>
+    </fields>
+    <fields>
+        <help><!-- A code listing each of this package&apos;s components based on their component codes. --></help>
+        <label>パッケージ商品コード</label>
+        <name>SBQQ__PackageProductCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- A description of each component in this package. --></help>
+        <label>パッケージ商品説明</label>
+        <name>SBQQ__PackageProductDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price. --></help>
+        <label>パートナー割引</label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <label>価格ディメンション</label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel>納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates how the price for this line item is calculated. &quot;List&quot; = subtracting discount from list price. &quot;Cost&quot; = adding markup to cost. --></help>
+        <label>価格方式</label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation><!-- Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation><!-- Percent Of Total --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Product option that generated this line (if any). --></help>
+        <label>商品オプション</label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel>納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <label>見積品目</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Regular Price for this Asset. --></help>
+        <label>定価</label>
+        <name>SBQQ__RegularPrice__c</name>
+    </fields>
+    <fields>
+        <label>更新の上昇率 (%)</label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The parent Asset. If populated, this Asset is a child in a bundle. --></help>
+        <label>要求元納入商品</label>
+        <name>SBQQ__RequiredByAsset__c</name>
+        <relationshipLabel>納入商品 (要求元納入商品)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Id of the parent record that requires this record. --></help>
+        <label>要求者 ID</label>
+        <name>SBQQ__RequiredById__c</name>
+    </fields>
+    <fields>
+        <help><!-- Parent Product of this Asset. --></help>
+        <label>親商品</label>
+        <name>SBQQ__RequiredByProduct__c</name>
+        <relationshipLabel>子納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The parent Subscription. If populated, this Asset is a child in a bundle. --></help>
+        <label>要求元サブスクリプション</label>
+        <name>SBQQ__RequiredBySubscription__c</name>
+        <relationshipLabel>納入商品 (要求元サブスクリプション)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>改訂済み納入商品</label>
+        <name>SBQQ__RevisedAsset__c</name>
+        <relationshipLabel>改訂済み納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ultimate bundle parent of this Asset --></help>
+        <label>ルート納入商品 (CPQ)</label>
+        <name>SBQQ__RootAsset__c</name>
+        <relationshipLabel>納入商品 (ルート納入商品)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The ID of the subscription or asset at the root of the bundle that contains this asset --></help>
+        <label>ルート ID</label>
+        <name>SBQQ__RootId__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, Index representing this Quote Line&apos;s position in the segment table. --></help>
+        <label>セグメントインデックス</label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <label>セグメントキー</label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is the Column header label (e.g. &quot;Year 1&quot;) associated with this line. --></help>
+        <label>セグメントの表示ラベル</label>
+        <name>SBQQ__SegmentLabel__c</name>
+    </fields>
+    <fields>
+        <label>サブスクリプション終了日</label>
+        <name>SBQQ__SubscriptionEndDate__c</name>
+    </fields>
+    <fields>
+        <label>サブスクリプション見積品目</label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel>納入商品 (見積品目)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>サブスクリプション開始日</label>
+        <name>SBQQ__SubscriptionStartDate__c</name>
+    </fields>
+    <fields>
+        <label>登録済み商品</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>納入商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Schedule for discounts based on subscription term. Setting this to &quot;Group&quot; applies the discount rate for the group term, while setting it to &quot;Quote&quot; applies the discount rate for the entire quote term, regardless of the different terms in your groups. --></help>
+        <label>期間割引率表</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>納入商品 (期間割引)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unit Cost for this Asset. --></help>
+        <label>単位コスト</label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields>
+    <fields>
+        <label>仮想納入商品</label>
+        <name>SBQQ__VirtualAsset__c</name>
+        <relationshipLabel>納入商品 (仮想納入商品)</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

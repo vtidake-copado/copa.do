@@ -63,4 +63,11 @@
         <shortDescription>label5</shortDescription>
         <value>5</value>
     </labels>
+    <labels>
+        <fullName>nw_cl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>nw cl</shortDescription>
+        <value>new cl</value>
+    </labels>
 </CustomLabels>

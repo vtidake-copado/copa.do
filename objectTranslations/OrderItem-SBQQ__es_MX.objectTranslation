@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Indicates if the order product is activated. --></help>
+        <label>Activado</label>
+        <name>SBQQ__Activated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset created from this order product --></help>
+        <label>Activo</label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label>Frecuencia de facturación</label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- The billing type that defines when the billing occurs. --></help>
+        <label>Tipo de facturación</label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help><!-- The block price that is applied to this order product at order creation time. --></help>
+        <label>Precio de bloque</label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether bookings are included. --></help>
+        <label>Indicador de reservas</label>
+        <name>SBQQ__BookingsIndicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- An internally used field that points to the root of its bundle parent. --></help>
+        <label>Raíz de paquete</label>
+        <name>SBQQ__BundleRoot__c</name>
+        <relationshipLabel>Productos de pedido (Raíz de paquete)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The type of the product charge. --></help>
+        <label>Tipo de cargo</label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contract action where this order product is resulted from. --></help>
+        <label>Acción de contratos</label>
+        <name>SBQQ__ContractAction__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contract of the subscription that is created from this order product. --></help>
+        <label>Contrato</label>
+        <name>SBQQ__Contract__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the order product is contracted. --></help>
+        <label>Contratado</label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Controls the contracting behavior of an Order Product. --></help>
+        <label>Método de contratación</label>
+        <name>SBQQ__ContractingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Contract Separately</masterLabel>
+            <translation><!-- Contract Separately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contract</masterLabel>
+            <translation><!-- Do Not Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Term length of the subscription, which only applies if the product is a subscription. It is copied from the Subscription Term of the related product when the line item is first
+            generated. --></help>
+        <label>Plazo de suscripción predeterminado</label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is the type of price dimeension (e.g. &quot;YEAR&quot;, &quot;MONTH&quot;, &quot;QUARTER&quot;) of the order item. --></help>
+        <label>Tipo de segmento</label>
+        <name>SBQQ__DimensionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule applied to this order product. --></help>
+        <label>Programación de descuentos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount of the order product’s total price. --></help>
+        <label>Reservas de productos de pedido</label>
+        <name>SBQQ__OrderProductBookings__c</name>
+    </fields>
+    <fields>
+        <help><!-- The actual quantity of the product placed in the order. --></help>
+        <label>Cantidad pedida</label>
+        <name>SBQQ__OrderedQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- References the price dimension applied to this order product. --></help>
+        <label>Dimensión de precios</label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Price schedule applied to this order product. --></help>
+        <label>Programación de precios</label>
+        <name>SBQQ__PriceSchedule__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates how the price for this line item is calculated. &quot;List&quot; = subtracting discount from list price. &quot;Cost&quot; = adding markup to cost. --></help>
+        <label>Método de precios</label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation><!-- Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation><!-- Percent Of Total --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Set the order item&apos;s product subscription type. --></help>
+        <label>Tipo de suscripción de producto</label>
+        <name>SBQQ__ProductSubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated ratio used to compute Prorated Price. --></help>
+        <label>Multiplicador de prorrateo</label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quote line where this order product is created from. --></help>
+        <label>Partida de presupuesto</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- List unit price for the product quoted by this line item. List Price originates from the price book. --></help>
+        <label>Precio de lista presupuestado</label>
+        <name>SBQQ__QuotedListPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quoted quantity. --></help>
+        <label>Cantidad presupuestada</label>
+        <name>SBQQ__QuotedQuantity__c</name>
+    </fields>
+    <fields>
+        <label>Requerido por</label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- References the order product that this order product revises. --></help>
+        <label>Producto de pedido revisado</label>
+        <name>SBQQ__RevisedOrderProduct__c</name>
+        <relationshipLabel>Productos de pedido (Producto de pedido revisado)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented products, Index representing this order product&apos;s position in the segment table. --></help>
+        <label>Índice de segmento</label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is a shared key used to group multi-dimensional Quote Lines together. --></help>
+        <label>Clave de segmento</label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta de envío</label>
+        <name>SBQQ__ShippingAccount__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates the current state of the order product. It is defaulted to Draft when an order is created. --></help>
+        <label>Estado de activación</label>
+        <name>SBQQ__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Method of calculating the subscription price. A blank value indicates that the line item isn&apos;t a subscription product. --></help>
+        <label>Precio de suscripción</label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+    </fields>
+    <fields>
+        <label>Plazo de suscripción</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the subscription type to determine contract&apos;s pricing. --></help>
+        <label>Tipo de suscripción</label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription created from this order product --></help>
+        <label>Suscripción</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>Productos de pedido</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Estimated tax amount --></help>
+        <label>Impuestos estimados</label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the tax code for taxation rules. --></help>
+        <label>Código impositivo</label>
+        <name>SBQQ__TaxCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Term Discount Schedule applied to this order product. --></help>
+        <label>Programación de descuentos por plazo</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>Productos de pedido (Programación de descuentos por plazo)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date that this order product&apos;s related subscription was terminated --></help>
+        <label>Fecha de terminación</label>
+        <name>SBQQ__TerminatedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The full term net price for individual line. --></help>
+        <label>Precio unitario neto de plazo completo</label>
+        <name>SBQQ__UnproratedNetPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription being upgraded by this quote line. When the quote is contracted this subscription will have its Terminated Date field populated. --></help>
+        <label>Suscripción mejorada</label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel>Productos de pedido mejorados</relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage>No se puede modificar el estado de las reservas en un producto de pedido activado.</errorMessage>
+        <name>SBQQ__CannotChangeBookingIndicatorOnActivation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cuando el Tipo de cargo es Recurrente, debe seleccionarse un Tipo de facturación.</errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cuando el Tipo de cargo es Puntual, no puede seleccionarse un valor de Frecuencia de facturación.</errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cuando el Tipo de cargo es Puntual o Uso, no puede seleccionarse un valor de Tipo de facturación.</errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+</CustomObjectTranslation>

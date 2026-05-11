@@ -23,7 +23,19 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>ExternalProvider</fullName>
+    </fields>
+    <fields>
         <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessTime</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessTimeUnit</fullName>
     </fields>
     <fields>
         <fullName>ProductId</fullName>
@@ -37,6 +49,15 @@
     </fields>
     <fields>
         <fullName>TotalAdjustmentAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TransitTimeMax</fullName>
+    </fields>
+    <fields>
+        <fullName>TransitTimeMin</fullName>
+    </fields>
+    <fields>
+        <fullName>TransitTimeUnit</fullName>
     </fields>
     <fields>
         <fullName>WebCartId</fullName>

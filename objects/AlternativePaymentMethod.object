@@ -129,6 +129,9 @@
         <fullName>BankAccountType</fullName>
     </fields>
     <fields>
+        <fullName>BankCode</fullName>
+    </fields>
+    <fields>
         <fullName>BillingFirstName</fullName>
     </fields>
     <fields>
@@ -147,6 +150,9 @@
         <fullName>Email</fullName>
     </fields>
     <fields>
+        <fullName>ExtendedPaymentMethodType</fullName>
+    </fields>
+    <fields>
         <fullName>GatewayToken</fullName>
     </fields>
     <fields>
@@ -160,6 +166,9 @@
     </fields>
     <fields>
         <fullName>MacAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>Mandate</fullName>
     </fields>
     <fields>
         <fullName>NickName</fullName>

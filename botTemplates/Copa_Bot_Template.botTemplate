@@ -154,18 +154,6 @@
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
     <contextVariables>
-        <dataType>Text</dataType>
-        <developerName>ChatKey</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Chat Key</label>
-    </contextVariables>
-    <contextVariables>
-        <dataType>Id</dataType>
-        <developerName>ContactId</developerName>
-        <includeInPrompt>false</includeInPrompt>
-        <label>Contact Id</label>
-    </contextVariables>
-    <contextVariables>
         <dataType>Id</dataType>
         <developerName>EndUserId</developerName>
         <includeInPrompt>false</includeInPrompt>
@@ -176,6 +164,18 @@
         <developerName>RoutableId</developerName>
         <includeInPrompt>false</includeInPrompt>
         <label>Routable Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Chat Key</label>
     </contextVariables>
     <conversationLanguages>en_US</conversationLanguages>
     <conversationSystemDialogs>

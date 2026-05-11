@@ -211,6 +211,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__Shield</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Sites</application>
         <default>false</default>
         <visible>true</visible>
@@ -224,7 +229,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AccountOperations</apexClass>
+        <apexClass>AccountService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountServiceTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountServiceTest1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10771,6 +10784,14 @@
         <apexClass>dlrs__fflib_VerificationMode</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>kompal1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>kompal1Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
@@ -11941,6 +11962,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>BusinessBrand.ParentId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CCHCustom__c.Author__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13170,6 +13196,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>CreditMemo.FuncCrcyCnvTotAmtWithTax</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CreditMemo.FunctionalCurrencyCvsnDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CreditMemo.FunctionalCurrencyCvsnRate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>CreditMemoLine.CorpCurrencyCnvChargeAmt</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -13186,6 +13227,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>CreditMemoLine.CorporateCurrencyCvsnRate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CreditMemoLine.FuncCrcyCnvTotalTaxAmt</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CreditMemoLine.FuncCurrencyCnvChargeAmt</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CreditMemoLine.FunctionalCurrencyCvsnDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CreditMemoLine.FunctionalCurrencyCvsnRate</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13354,31 +13415,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>FulfillmentOrder.FulfilledFromLocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>FulfillmentOrder.FulfilledToAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>FulfillmentOrder.FulfilledToEmailAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>FulfillmentOrder.FulfilledToPhone</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>FulfillmentOrder.TotalProductAmount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
@@ -13437,6 +13473,11 @@
         <editable>true</editable>
         <field>Incident.MilestoneStatus</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Incident.MilestoneTimer</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -13630,6 +13671,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Invoice.FuncCrcyCnvTotAmtWithTax</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Invoice.FunctionalCurrencyCvsnDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Invoice.FunctionalCurrencyCvsnRate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>InvoiceLine.CorpCurrencyCnvChargeAmt</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -13646,6 +13702,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>InvoiceLine.CorporateCurrencyCvsnRate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InvoiceLine.FuncCrcyCnvTotalTaxAmt</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InvoiceLine.FuncCurrencyCnvChargeAmt</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InvoiceLine.FunctionalCurrencyCvsnDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InvoiceLine.FunctionalCurrencyCvsnRate</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13855,7 +13931,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Location.EarliestPickupTimeOffset</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Location.FulfillingBusinessHoursId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Location.IsEligibleForPickup</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Location.LatestPickupTimeOffset</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13877,6 +13968,16 @@
         <editable>true</editable>
         <field>Location.ParentLocationId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Location.PickupProcessingTime</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Location.PickupProcessingTimeUnit</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -13939,6 +14040,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>MessagingSession.CampaignId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>MessagingSession.CaseId</field>
         <readable>true</readable>
@@ -13956,6 +14062,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MessagingSession.OpportunityId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MyCustomObject__c.CustomField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -22475,11 +22586,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.SourceApp</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Solution.IsPublished</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -23026,61 +23132,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkStepTemplate.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.BlockTimeAfterAppointment</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.BlockTimeAfterUnit</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.BlockTimeBeforeAppointment</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.BlockTimeBeforeUnit</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.DefaultAppointmentType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.OperatingHoursId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>WorkType.ProductId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.TimeFrameEndUnit</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.TimeFrameStartUnit</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.TimeframeEnd</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkType.TimeframeStart</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -29085,6 +29136,9 @@
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CCHCustom__c-CCHCustom Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CMT_1__mdt-CMT 1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29274,6 +29328,9 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>MyCustomObject__c-MyCustomObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>My_Custom_Metadata__mdt-My Custom Metadata Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29380,242 +29437,6 @@
         <layout>ReturnOrderLineItem-Return Order Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SBQQ__AttributeSet__c-SBQQ__Attribute Set Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__AttributeValue__c-SBQQ__Attribute Value Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__BlockPrice__c-SBQQ__Block Price Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ColumnMetadata__c-SBQQ__Column Metadata Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout</layout>
-        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Configuration_Attribute</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Global Attribute Layout</layout>
-        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Global_Attribute</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ConfigurationRule__c-SBQQ__Configuration Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ContractedPrice__c-SBQQ__Contracted Price Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Cost__c-SBQQ__Cost Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__CustomActionCondition__c-SBQQ__Custom Action Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__CustomAction__c-SBQQ__Custom Action Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__CustomScript__c-SBQQ__Custom Script Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Dimension__c-SBQQ__Price Dimension Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__DiscountCategory__c-SBQQ__Discount Category Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__DiscountSchedule__c-SBQQ__Discount Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__DiscountTier__c-SBQQ__Discount Schedule Tier Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ErrorCondition__c-SBQQ__Error Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__FavoriteProduct__c-SBQQ__Favorite Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__FavoriteShare__c-SBQQ__Favorite Share Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Favorite__c-SBQQ__Favorite Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__FieldSetMetadata__c-SBQQ__FieldSet Metadata Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ImportColumn__c-SBQQ__Import Column Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ImportFormat__c-SBQQ__Import Format Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__InstallProcessorLog__c-SBQQ__Install Processor Log Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__LineColumn__c-SBQQ__Line Column Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Localization__c-SBQQ__Localization Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__LookupData__c-SBQQ__Lookup Data Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__OptionConstraint__c-SBQQ__Option Constraint Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__OrderItemConsumptionRate__c-SBQQ__Order Item Consumption Rate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__OrderItemConsumptionSchedule__c-SBQQ__Order Product Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceSchedule__c-SBQQ__Price Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PriceTier__c-SBQQ__Price Tier Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PricingGuidanceTier__c-SBQQ__Pricing Guidance Tier Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__PricingGuidance__c-SBQQ__Pricing Guidance Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProcessInputCondition__c-SBQQ__Process Input Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProcessInputValue__c-SBQQ__Process Input Values Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProcessInput__c-SBQQ__Process Input Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProductAction__c-SBQQ__Product Action Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProductAttributeSet__c-SBQQ__Product Attribute Set Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProductAttribute__c-SBQQ__Product Attribute Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProductFeature__c-SBQQ__Product Feature Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProductOption__c-SBQQ__Product Option Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__ProductRule__c-SBQQ__Product Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteDocument__c-SBQQ__Quote Document Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteLineConsumptionRate__c-SBQQ__Quote Line Consumption Rate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteLineConsumptionSchedule__c-SBQQ__Quote Line Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteLineGroup__c-SBQQ__Quote Line Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteLinePricingGuidance__c-SBQQ__Quote Line Pricing Guidance Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteLine__c-SBQQ__Quote Line Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteProcess__c-SBQQ__Quote Process Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteTemplate__c-SBQQ__Quote Template Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__QuoteTerm__c-SBQQ__Quote Term Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Quote__c-SBQQ__Quote Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__RecordJob__c-SBQQ__Record Job Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__RelatedContent__c-SBQQ__Related Content Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SearchFilter__c-SBQQ__Search Filter Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SearchIndex__c-SBQQ__Search Index Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SolutionGroup__c-SBQQ__SolutionGroup Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SubscribedAsset__c-SBQQ__Subscribed Asset Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SubscribedQuoteLine__c-SBQQ__Subscribed Quote Line Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SubscriptionConsumptionRate__c-SBQQ__Subscription Consumption Rate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SubscriptionConsumptionSchedule__c-SBQQ__Subscription Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Subscription__c-SBQQ__Subscription Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__SummaryVariable__c-SBQQ__Summary Variable Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__TaxExemptionCertificate__c-SBQQ__Tax Exemption Certificate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__TemplateContent__c-SBQQ__Template Content Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__TemplateSection__c-SBQQ__Template Section Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__TermCondition__c-SBQQ__Term Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__Theme__c-SBQQ__Theme Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__TimingLog__c-SBQQ__Timing Log Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__UpgradeSource__c-SBQQ__Upgrade Source Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__WebQuoteLine__c-SBQQ__Web Quote Line Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SBQQ__WebQuote__c-SBQQ__Web Quote Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Sale__c-Sale Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29682,6 +29503,9 @@
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -29739,532 +29563,6 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__Apex_Test_Result__c-copado__Apex Test Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Application_Feature__c-copado__Feature Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Application__c-copado__Application Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Artifact_Dependency__c-copado__Artifact Dependency Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Artifact_Version__c-copado__Artifact Version Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
-        <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
-        <recordType>copado__Artifact__c.copado__Package_Artifact</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Artifact__c-copado__Artifact Layout</layout>
-        <recordType>copado__Artifact__c.copado__User_Story_Bundle</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Automation_Event__c-copado__MC Automation Event Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Automation_Rule__c-copado__Automation Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__AuxiliaryObject__c-copado__AuxiliaryObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Branch_Management_Permission__c-copado__Branch Management Permission Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Build_Task__c-copado__Build Task Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Bundled_Story__c-copado__Bundled Story Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Bundled_UserStory__c-copado__Bundle User Story Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Burndown_Item__c-copado__Burndown Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Finding__c-copado__Compliance Finding Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Finding__c-copado__Compliance Finding Layout</layout>
-        <recordType>copado__Compliance_Finding__c.copado__Copado</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Finding__c-copado__Compliance Finding Layout</layout>
-        <recordType>copado__Compliance_Finding__c.copado__Other</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Rule_Criteria__c-copado__Compliance Rule Criteria Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Rule_Group_Item__c-copado__Compliance Rule Group Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Rule_Group__c-copado__Compliance Rule Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Rule__c-copado__Compliance Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Rule__c-copado__Compliance Rule Layout</layout>
-        <recordType>copado__Compliance_Rule__c.copado__Copado</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Rule__c-copado__Compliance Rule Layout</layout>
-        <recordType>copado__Compliance_Rule__c.copado__Other</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Scan_Result__c-copado__Compliance Scan Result Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Scan_Result__c-copado__Compliance Scan Result Layout</layout>
-        <recordType>copado__Compliance_Scan_Result__c.copado__Copado</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Compliance_Scan_Result__c-copado__Compliance Scan Result Layout</layout>
-        <recordType>copado__Compliance_Scan_Result__c.copado__Other</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Connection_Behavior__c-copado__Connection Behavior Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Continuous_Integration_Permission__c-copado__Continuous Integration Permission Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Continuous_Integration__c-copado__Continuous Integration Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Copado_Cloud_Regional_Instances__mdt-copado__Copado Cloud Regional Instances Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Copado_Feature__c-copado__Feature Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Copado_Notification__c-copado__Copado Notification Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Copado_Protected_Settiing__mdt-copado__Copado key Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Copado_Setting__mdt-copado__Copado Setting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Copado_Smart_Help__mdt-copado__Copado Smart Help Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Custom_Connected_App_Info__c-copado__Custom Connected App Info Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Data_Set__c-copado__Data Set Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Data_Template_Setup__mdt-copado__Data Template Setup Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Data_Template__c-copado__Data Template Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment_Flow_Step__c-copado__Deployment Flow Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment_Flow__c-copado__Pipeline Layout V%2E17</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment_History__c-copado__Copado Deployment History Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment_Job__c-copado__Deployment Job Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment_Task__c-copado__Deployment Task Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment__c-copado__Advanced %28Multi Step%29</layout>
-        <recordType>copado__Deployment__c.copado__Advanced_multi_step</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment__c-copado__Automation Template</layout>
-        <recordType>copado__Deployment__c.copado__Automation_Template</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment__c-copado__Data Deployment</layout>
-        <recordType>copado__Deployment__c.copado__Data_Deployment</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment__c-copado__Deployment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Deployment__c-copado__Metadata Deployment</layout>
-        <recordType>copado__Deployment__c.copado__Metadata_Deployment</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Destination_Org__c-copado__Destination Org Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Environment__c-copado__Environment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Environmental_Variable__c-copado__Environment Variable Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Epic__c-copado__Epic Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__ExtensionConfiguration__c-copado__Extension Configuration Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__ExtensionKeyValueSetting__mdt-copado__Extension Key Value Setting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__ExtensionPackageConfiguration__mdt-copado__Extension Package Configuration Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__External_CI_Job_Result__c-copado__External CI Job Result Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__External_CI_Job__c-copado__External CI Job Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__External_CI_Setting__c-copado__External CI Setting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Filter__c-copado__Filter Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Function__c-copado__Function Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Git_Backup__c-copado__Git Backup Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Git_Commit__c-copado__Git Commit Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Git_Org_Commit__c-copado__Git Org Commit Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Git_Repository__c-copado__Git Server Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Installed_Artifact_Version__c-copado__Installed Package Version Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__JobExecution__c-copado__Job Execution Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__JobStep__c-copado__Job Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__JobTemplate__c-copado__Job Template Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Kanban_Board_View__c-copado__Kanban Board View Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Kanban_Board__c-copado__Kanban Board Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__MC_Custom_Job_Step__mdt-copado__MC Custom Job Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__MC_Notification__mdt-copado__MC Notification Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Metadata_Group_Item__c-copado__Metadata Group Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Metadata_Group__c-copado__Metadata Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__MultiCloudAutomation__mdt-copado__MultiCloudAutomationMap Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Notification_Default_Channels__c-copado__Notification Default Channel Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Notification_Subscription__c-copado__Notification Subscription Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__OrgDiff__c-copado__OrgDiff Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Org__c-copado__Org Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Persona_Permission__c-copado__Persona Permission Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Persona__c-copado__Persona Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Pipeline_Action__c-copado__Pipeline Action Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Project__c-copado__Project Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Promoted_User_Story__c-copado__Promoted User Story Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Promotion__c-copado__Promotion Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Pull_Request_Review__c-copado__Pull Request Review Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Pull_Request__c-copado__Pull Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Quality_Gate_Rule_Condition__c-copado__Quality Gate Rule Condition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Quality_Gate_Rule__c-copado__Quality Gate Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Quality_Gate__c-copado__Quality Gate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Record_Matching_Formula__c-copado__Record Matching Formula Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Release__c-copado__Release Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Result__c-copado__Result Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Scheduled_Job_Run__c-copado__Scheduled Job Result Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Scheduled_Job__c-copado__Scheduled Job Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Scratch_Org_Definition__c-copado__Scratch Org Definition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Scratch_Org_Project_Template__c-copado__Scratch Org Artifacts Template Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Group_Org_Credential__c-copado__Selenium Group Org Credential Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Group_Test_Suite__c-copado__Selenium Group Test Suite Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Group_Variable__c-copado__Selenium Group Variable Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Locator_Reference__c-copado__Selenium Locator Reference Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Locator__c-copado__Selenium Locator Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Settings__c-copado__Selenium Settings Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Case_Per_Suite__c-copado__Selenium Test Case per Suite Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Case__c-copado__Selenium Test Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Group__c-copado__Selenium Test Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Result__c-copado__Selenium Test Result Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Run__c-copado__Salesforce Selenium Test Run Layout</layout>
-        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Run__c-copado__Web App Selenium Test Run Layout</layout>
-        <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Selenium_Test_Suite__c-copado__Selenium Test Suite Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__SensitiveProperty__mdt-copado__Sensitive Property Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Snapshot_Difference__c-copado__Snapshot Difference Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Sprint__c-copado__Sprint Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Stage_Connection__c-copado__Stage Connection Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Stage__c-copado__Stage Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__StandardResources__mdt-copado__StandardResources Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Result__c-copado__Static Code Analysis Result Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Result__c-copado__Static Code Analysis Result Layout</layout>
-        <recordType>copado__Static_Code_Analysis_Result__c.copado__CodeScan</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Result__c-copado__Static Code Analysis Result Layout</layout>
-        <recordType>copado__Static_Code_Analysis_Result__c.copado__PMD</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Rule__c-copado__Static Code Analysis Rule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Settings__c-copado__Static Code Analysis Settings Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Settings__c-copado__Static Code Analysis Settings Layout</layout>
-        <recordType>copado__Static_Code_Analysis_Settings__c.copado__CodeScan</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Settings__c-copado__Static Code Analysis Settings Layout</layout>
-        <recordType>copado__Static_Code_Analysis_Settings__c.copado__PMD</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Violation__c-copado__Static Code Analysis Violation Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Violation__c-copado__Static Code Analysis Violation Layout</layout>
-        <recordType>copado__Static_Code_Analysis_Violation__c.copado__CodeScan</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Static_Code_Analysis_Violation__c-copado__Static Code Analysis Violation Layout</layout>
-        <recordType>copado__Static_Code_Analysis_Violation__c.copado__PMD</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Step__c-copado__Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Streaming_Setting__mdt-copado__Streaming Setting Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__SupportedObject__mdt-copado__Supported Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__System_Property__c-copado__System Property Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Team_Dependency__c-copado__User Story Dependency Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Team_Member__c-copado__Team Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Team__c-copado__Team Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__TestTool__mdt-copado__Test Tool Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__TestType__mdt-copado__Test Type Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Test_Run_Step__c-copado__Test Execution Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Test_Run__c-copado__Test Execution Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Test_Script_Step__c-copado__Script Step Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Test_Script__c-copado__Test Script Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Test_Suite_Script__c-copado__Test Suite Script Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Test__c-copado__Test Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__Theme__c-copado__Theme Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__UISection__mdt-copado__UISection Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Persona_Assignment__c-copado__User Persona Assignment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story_Bundle__c-copado__User Story Bundle Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story_Commit__c-copado__User Story Commit Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story_Data_Commit__c-copado__User Story Data Commit Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story_Metadata__c-copado__User Story Metadata Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story_Selenium_Test__c-copado__User Story Selenium Test Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story_Task__c-copado__User Story Task Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
-        <recordType>copado__User_Story__c.copado__Bug</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
-        <recordType>copado__User_Story__c.copado__Investigation</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
-        <recordType>copado__User_Story__c.copado__User_Story</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>copado__User_Story__c-copado__User Story Layout</layout>
-        <recordType>copado__User_Story__c.copado__Utility</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupChild__c-dlrs__Lookup Child Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupParent__c-dlrs__Lookup Parent Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupRollupCalculateJob__c-dlrs__Lookup Rollup Calculate Job Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupRollupSummary2__mdt-dlrs__Lookup Rollup Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupRollupSummaryLog__c-dlrs__Lookup Rollup Summary Log Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupRollupSummaryScheduleItems__c-dlrs__Lookup Rollup Summary Queue Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>dlrs__LookupRollupSummary__c-dlrs__Lookup Rollup Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>kompalDec21__c-kompalDec21 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -30274,31 +29572,14 @@
         <layout>kompalJune__mdt-kompalJune Layout</layout>
     </layoutAssignments>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AIAgentStatusEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AIPredictionEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>AIRecordInsight</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30326,6 +29607,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>ActorReactiveAskRespEvent</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Address</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
@@ -30336,36 +29627,9 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>AlternativePaymentMethod</object>
+        <object>AppAnalyticsQueryRequest</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AnalyticsTaskStatusEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AnalyticsUserAttrFuncTkn</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AppAnalyticsQueryRequest</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30386,15 +29650,6 @@
         <object>AppointmentInvitation</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AppointmentInvitee</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30425,15 +29680,6 @@
         <object>ApprovalSubmission</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ApprovalSubmissionDetail</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30476,15 +29722,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AssetRelationship</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -30495,67 +29732,14 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AssetTokenEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AssignedResource</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AssociatedLocation</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AsyncOperationEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>AsyncOperationLog</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AsyncOperationStatus</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Attachment</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30598,24 +29782,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>BatchApexErrorEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Billing_Management__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -30636,49 +29802,13 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CMT_1__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CMT_2__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CMT_3__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CMT_4__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CMT_5__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CCHCustom__c</object>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30691,106 +29821,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CampaignMember</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>CardPaymentMethod</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartCheckoutSession</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartDeliveryGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartDeliveryGroupMethod</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartDeliveryGroupMethodAdj</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartItemPriceAdjustment</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartRelatedItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartTax</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CartValidationOutput</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -30801,24 +29831,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CaseComment</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CaseRelatedIssue</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -30827,24 +29839,6 @@
         <object>ChangeRequest</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ChangeRequestRelatedIssue</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ChangeRequestRelatedItem</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30875,42 +29869,6 @@
         <object>ChannelProgramMember</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ChatterActivity</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CollaborationGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CollaborationGroupMember</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CollaborationGroupRecord</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -30951,15 +29909,6 @@
         <object>CommSubscriptionTiming</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ConsumptionRate</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31042,42 +29991,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ContentDistribution</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ContentDocument</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ContentDocumentLink</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ContentVersion</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31094,6 +30007,16 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ContractLineItem</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ConvEntryRelatedRecordCopy</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -31123,18 +30046,19 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Coupon</object>
+        <object>ConversationEntryCopy</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CouponCodeRedemption</object>
-        <viewAllRecords>false</viewAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Coupon</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31155,42 +30079,6 @@
         <object>CreditMemoInvApplication</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CreditMemoLine</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CuratedExpJobEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>CuratedExpPlanEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Custom_Settings_1__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31221,15 +30109,6 @@
         <object>DataMaskCustomValueLibrary</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>DataObjectDataChgEvent</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31277,7 +30156,27 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>DigitalWallet</object>
+        <object>DevopsActivityLog</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>DevopsEnvironment</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>DevopsRequestInfo</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -31292,15 +30191,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>DuplicateRecordItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31311,24 +30201,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>EmailBounceEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>EmailMessage</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31337,15 +30209,6 @@
         <object>EngagementChannelType</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>EngagementChannelWorkType</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31368,89 +30231,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>EntityMilestone</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Event</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>EventRelayFeedback</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ExperienceDiagnosticEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FOStatusChangedEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FeedComment</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FeedItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>FinanceBalanceSnapshot</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>FinanceTransaction</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31460,76 +30240,12 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FlowOrchestration</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FlowOrchestrationVersion</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FlowRecordElement</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FlowRecordVersion</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FlowRecordVersionOccurrence</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>FulfillOrdItemQtyChgEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>FulfillmentOrder</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>FulfillmentOrderLineItem</object>
+        <object>GisPrvdCnctrJobObjRun</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -31542,15 +30258,6 @@
         <object>Idea</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>IdeaComment</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31571,15 +30278,6 @@
         <object>Incident</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>IncidentRelatedItem</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31692,78 +30390,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>LoginAnomalyEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>LoginAnomalyEventStore</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>LogoutEventStream</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MLEngagementEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MLModel</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MLModelFactor</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MLModelFactorComponent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MLModelMetric</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31772,24 +30398,6 @@
         <object>Macro</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MacroUsage</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>MessagingDeliveryError</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31812,31 +30420,22 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>My_Custom_Metadata__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MyBigObject__b</object>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>NetworkMember</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Note</object>
-        <viewAllRecords>false</viewAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>MyCustomObject__c</object>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31849,15 +30448,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OperatingHoursHoliday</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31866,33 +30456,6 @@
         <object>Opportunity</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OpportunityContactRole</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OpportunityLineItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OpportunityRelatedDeleteLog</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -31905,69 +30468,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OrderItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OrgDeleteRequest</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OrgLifecycleNotification</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OrgMetric</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OrgMetricScanResult</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>OrgMetricScanSummary</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Org_Difference_Test__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -31975,15 +30475,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>Org_Differences__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Partner</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32041,7 +30532,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Payment</object>
+        <object>PaymentCredit</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -32051,7 +30542,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>PaymentAuthAdjustment</object>
+        <object>PaymentCreditLinePayment</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -32061,7 +30552,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>PaymentAuthorization</object>
+        <object>PaymentCreditTransaction</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -32071,47 +30562,9 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>PaymentGateway</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>PaymentGroup</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>PaymentLineInvoice</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>PendingOrdSumProcEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>PlatformStatusAlertEvent</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32134,13 +30587,14 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>PrivacyObjectSession</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32153,13 +30607,14 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>PrivacySessionRecordFailure</object>
-        <viewAllRecords>false</viewAllRecords>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32172,24 +30627,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProblemIncident</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProblemRelatedItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -32200,15 +30637,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProcessExceptionEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -32217,24 +30645,6 @@
         <object>Product2</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProductAttribute</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProductAttributeSetProduct</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32265,15 +30675,6 @@
         <object>ProductCategoryProduct</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ProductConsumptionSchedule</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32326,24 +30727,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>PromotionSegmentBuyerGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>PromotionSegmentSalesStore</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -32362,24 +30745,6 @@
         <object>PromotionTier</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>PromptAction</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>PromptError</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32420,108 +30785,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>QuickTextUsage</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Recommendation</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>RecommendationResponse</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>RecordAction</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>RefreshToken__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Refund</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>RefundLinePayment</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>RemoteKeyCalloutEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ReportAnomalyEventStore</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ResourceAbsence</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ResourcePreference</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -32536,18 +30799,19 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ReturnOrder</object>
+        <object>RetentionStoreUsage</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ReturnOrderLineItem</object>
-        <viewAllRecords>false</viewAllRecords>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ReturnOrder</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -32719,15 +30983,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>SBQQ__Favorite__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>SBQQ__FieldMetadata__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33257,36 +31512,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Scorecard</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ScorecardAssociation</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ScorecardMetric</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>Seller</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
@@ -33312,15 +31537,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ServiceAppointmentEvent</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33341,15 +31557,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ServiceResourceSkill</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33358,15 +31565,6 @@
         <object>ServiceTerritory</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ServiceTerritoryMember</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33379,15 +31577,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>SetupAssistantStep</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33398,24 +31587,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ShiftEngagementChannel</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ShiftWorkTopic</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33424,15 +31595,6 @@
         <object>Shipment</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ShipmentItem</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33465,52 +31627,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ShippingRateArea</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>ShippingRateGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>SiteMarketingDataExtensionMapping</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>SkillRequirement</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>SocialPersona</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33519,24 +31635,6 @@
         <object>Solution</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>StandardShippingRate</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>StoreIntegratedService</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33549,158 +31647,14 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>TableauHostMapping</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Task</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Territory2</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>TerritoryAdminAssignment</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>TimeSlot</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Topic</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>TopicAssignment</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>User</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>UserExternalCredential</object>
+        <object>UnstructuredStorageSpace</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserPrioritizedRecord</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserProvAccount</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserProvAccountStaging</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserProvMockTarget</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserProvisioningLog</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserProvisioningRequest</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>UserTerritory2Association</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>VoiceCall</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33713,33 +31667,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WaitlistParticipant</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WaitlistServiceResource</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WaitlistWorkType</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33748,33 +31675,6 @@
         <object>WebCart</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebCartAdjustmentBasis</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebCartAdjustmentGroup</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebCartCredit</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33807,15 +31707,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebStoreConfig</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33826,15 +31717,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WebStoreNetwork</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -33843,15 +31725,6 @@
         <object>WorkOrder</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WorkOrderLineItem</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -33874,40 +31747,12 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WorkPlanTemplateEntry</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>WorkStep</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>WorkStepTemplate</object>
-        <viewAllFields>false</viewAllFields>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>WorkType</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -33994,15 +31839,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Automation_Template_For_CLI__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -34055,15 +31891,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Burndown_Item__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Change_Management_Settings__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -34147,15 +31974,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Copado_Cloud_Regional_Instances__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -34174,24 +31992,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Copado_Setting__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Copado_Smart_Help__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -34199,24 +31999,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Custom_Connected_App_Info__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Data_Change_Event_Condition_Items__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Data_Change_Event_Condition__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -34235,15 +32017,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Data_Set__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Data_Template_Setup__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -34363,24 +32136,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__ExtensionKeyValueSetting__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__ExtensionPackageConfiguration__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -34442,15 +32197,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Git_Commit__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Git_Operation_Restriction__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -34534,24 +32280,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__MC_Custom_Job_Step__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__MC_Notification__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -34577,15 +32305,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Metadata_Group__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__MultiCloudAutomation__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -34640,15 +32359,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Persona__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Personal_Settings__c</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -34939,15 +32649,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__StandardResources__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -34993,15 +32694,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__Streaming_Setting__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -35036,24 +32728,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Team__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__TestTool__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__TestType__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -35117,15 +32791,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__Theme__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>copado__UISection__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -35200,15 +32865,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>dlrs__DeclarativeLookupRollupSummaries__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -35234,15 +32890,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>dlrs__LookupRollupCalculateJob__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>dlrs__LookupRollupSummary2__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -35288,24 +32935,6 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>kompalDec21__c</object>
         <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>kompalJune13__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>kompalJune__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -36635,6 +34264,10 @@
         <apexPage>dlrs__welcometab</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <pageAccesses>
+        <apexPage>kompalAP</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
         <personAccountDefault>true</personAccountDefault>
@@ -37264,10 +34897,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ApprovalsHome</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Asset</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
@@ -37304,10 +34933,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-BackgroundOperation</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-BusinessBrand</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -37317,10 +34942,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Campaign</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-CapabilityDetail</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -37345,14 +34966,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Chatter</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-CmsAuthorHome</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-CmsContent</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -37440,10 +35053,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DataMgmtPolicy</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -37454,10 +35063,6 @@
     <tabVisibilities>
         <tab>standard-DelegatedAccount</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DeleteEvent</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DeliveryEstimationSetup</tab>
@@ -37476,16 +35081,8 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-EmailTemplate</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-EnhancedLetterhead</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
@@ -37493,10 +35090,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Event</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Feed</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -37512,23 +35105,7 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-FlowInterview</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-FlowOrchestration</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-FlowOrchestrationInstance</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-FlowOrchestrationWorkItem</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-FlowRecord</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -37572,40 +35149,12 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-JourneyHome</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-JourneyMap</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Lead</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LearningItem</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-LegalEntity</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LightningBoltHome</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LightningInstrumentation</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LightningQuickText</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LightningSchedulerSetupAssistant</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ListEmail</tab>
@@ -37633,14 +35182,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-MessagingSession</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MobileHome</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Monitor</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -37696,6 +35237,18 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-PaymentCredit</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentCreditLinePayment</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentCreditTransaction</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-PaymentGateway</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
@@ -37722,10 +35275,6 @@
     <tabVisibilities>
         <tab>standard-ProcessException</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ProcessInstanceWorkitem</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
@@ -37776,20 +35325,12 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ReportAnomalyEventStore</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-ResourceAbsence</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ReturnOrder</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-SalesforceJourney</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Scorecard</tab>
@@ -37836,10 +35377,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-SocialPersona</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Solution</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -37849,14 +35386,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Task</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Today</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-UserDefinedLabel</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -37874,10 +35403,6 @@
     <tabVisibilities>
         <tab>standard-Waitlist</tab>
         <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-WaveHomeLightning</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-WebCart</tab>
@@ -37931,6 +35456,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AIViewInsightObjects</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessOrchestrationObjects</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -38003,6 +35532,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CanAccessCE</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanApproveUninstalledApps</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -38250,6 +35783,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>IntegrationIntelligenceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>LightningConsoleAllowedForUser</name>
     </userPermissions>
     <userPermissions>
@@ -38263,6 +35800,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageAnalyticSnapshots</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageApiNamedQueries</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -38326,6 +35867,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageCustomerDataOptOut</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageDashbdsInPubFolders</name>
     </userPermissions>
     <userPermissions>
@@ -38363,6 +35908,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageHealthCheck</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageHerokuAppLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -38550,6 +36099,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>QrCodeGeneratorMobilePublisherPlayground</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -38690,6 +36243,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewApiNamedQueries</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewClientSecret</name>
     </userPermissions>
     <userPermissions>
@@ -38739,6 +36296,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewPlatformEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

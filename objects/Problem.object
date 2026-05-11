@@ -217,6 +217,25 @@
         <type>Picklist</type>
     </fields>
     <listViews>
+        <fullName>AllOpenProblems</fullName>
+        <columns>Name</columns>
+        <columns>Description</columns>
+        <columns>Urgency</columns>
+        <columns>Impact</columns>
+        <columns>Priority</columns>
+        <columns>AssignedUser</columns>
+        <columns>Category</columns>
+        <columns>SubCategory</columns>
+        <columns>Status</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status</field>
+            <operation>notEqual</operation>
+            <value>Closed,Resolved,Known Error,Risk Accepted</value>
+        </filters>
+        <label>All Open Problems</label>
+    </listViews>
+    <listViews>
         <fullName>AllProblemsDefault</fullName>
         <columns>Name</columns>
         <columns>Description</columns>

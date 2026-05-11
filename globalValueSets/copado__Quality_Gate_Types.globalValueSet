@@ -56,16 +56,16 @@
         <label>Test</label>
     </customValue>
     <customValue>
-        <fullName>Compliance</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Compliance</label>
-    </customValue>
-    <customValue>
         <fullName>Automation Template</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Automation Template</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Compliance</label>
     </customValue>
     <customValue>
         <fullName>Static Analysis</fullName>

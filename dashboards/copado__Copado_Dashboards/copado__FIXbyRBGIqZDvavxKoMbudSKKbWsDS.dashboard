@@ -144,6 +144,7 @@
                         <sortOrder>1</sortOrder>
                     </flexTableSortInfo>
                     <hideChatterPhotos>true</hideChatterPhotos>
+                    <useReportTableSetting>false</useReportTableSetting>
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>CCM - Pending Test Runs</header>
@@ -230,6 +231,7 @@
                         <sortOrder>1</sortOrder>
                     </flexTableSortInfo>
                     <hideChatterPhotos>true</hideChatterPhotos>
+                    <useReportTableSetting>false</useReportTableSetting>
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>CCM - Pull requests</header>

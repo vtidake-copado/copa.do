@@ -19,7 +19,7 @@
                 <field>WebStoreId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>PoNumber</field>
             </layoutItems>
             <layoutItems>

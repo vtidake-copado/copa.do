@@ -156,6 +156,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsApproachingDiscountApplicable</fullName>
+        <inlineHelpText>Notifies customers if their cart total is approaching a discount. To add an approaching discount alert, set a threshold value on the promotion qualifier.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>IsAutomatic</fullName>
         <trackHistory>false</trackHistory>
     </fields>

@@ -168,6 +168,9 @@
         <fullName>SubtotalChange</fullName>
     </fields>
     <fields>
+        <fullName>Subtype</fullName>
+    </fields>
+    <fields>
         <fullName>TotalAmount</fullName>
     </fields>
     <fields>
@@ -175,6 +178,9 @@
     </fields>
     <fields>
         <fullName>TotalCrossSellsAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDowngradesAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalDownsellsAmount</fullName>
@@ -195,10 +201,16 @@
         <fullName>TotalRenewalsAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalSwapsAmount</fullName>
+    </fields>
+    <fields>
         <fullName>TotalTermsAndConditionsAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalTransfersAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalUpgradesAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalUpsellsAmount</fullName>

@@ -15,7 +15,7 @@
                 <field>RelatedEntityId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>BackgroundOperationId</field>
             </layoutItems>
             <layoutItems>

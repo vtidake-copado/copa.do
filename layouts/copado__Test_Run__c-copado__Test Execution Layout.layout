@@ -151,14 +151,14 @@
             <sortOrder>4</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>copado__Create_Test_Scratch_Org</actionName>
-            <actionType>CustomButton</actionType>
-            <sortOrder>6</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>copado__Copado_DX</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>5</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>copado__Create_Test_Scratch_Org</actionName>
+            <actionType>CustomButton</actionType>
+            <sortOrder>6</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>価格ディメンション</value>
+    </caseValues>
+    <fields>
+        <help><!-- Controls whether cost for this product may be modified on individual quotes. --></help>
+        <label>コストを編集可能</label>
+        <name>SBQQ__CostEditable__c</name>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify the starting quantity of the product when added. --></help>
+        <label>デフォルト数量</label>
+        <name>SBQQ__DefaultQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule for use with this dimension --></help>
+        <label>割引率表</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>価格ディメンション</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Marks this dimension as not discountable. --></help>
+        <label>割引不可</label>
+        <name>SBQQ__NonDiscountable__c</name>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Marks this dimension as non-discountable for partners. --></help>
+        <label>パートナー割引不可</label>
+        <name>SBQQ__NonPartnerDiscountable__c</name>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Associates this dimension to a particular Price Book --></help>
+        <label>価格表</label>
+        <name>SBQQ__PriceBook__c</name>
+        <relationshipLabel>価格ディメンション</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates this dimension allows for price to be freely editable when building a quote. --></help>
+        <label>価格を編集可能</label>
+        <name>SBQQ__PriceEditable__c</name>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select a Product to associate this Price Dimension with. --></help>
+        <label>商品</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>価格ディメンション</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Allow or prevent changing the quantity for this dimension. --></help>
+        <label>数量を編集可能</label>
+        <name>SBQQ__QuantityEditable__c</name>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specifies the number of decimal places used in the Quantity field. --></help>
+        <label>数量スケール</label>
+        <name>SBQQ__QuantityScale__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this product is taxable. --></help>
+        <label>課税対象</label>
+        <name>SBQQ__Taxable__c</name>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation><!-- Inherit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is a schedule for discounts based on Subscription Term. Values entered into these fields will override the values entered at the Product level. --></help>
+        <label>期間割引率表</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>価格ディメンション (期間割引率表)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the type of Price Dimension: One-Time or Yearly. Yearly Dimensions are always treated as Subscriptions. --></help>
+        <label>種別</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-time</masterLabel>
+            <translation><!-- One-time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Unit price for this Dimension. This will override the value from the Price Book. --></help>
+        <label>単価</label>
+        <name>SBQQ__UnitPrice__c</name>
+    </fields>
+    <nameFieldLabel>ディメンション名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>エバーグリーン商品または更新可能/エバーグリーン商品の MDQ 価格ディメンションを作成できません。</errorMessage>
+        <name>SBQQ__Cannot_Create_PriceDimension_Evergreen</name>
+    </validationRules>
+    <webLinks>
+        <label>翻訳</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

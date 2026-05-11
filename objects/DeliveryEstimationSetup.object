@@ -186,6 +186,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>RoutingType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ServiceRegion</fullName>
     </fields>
     <fields>

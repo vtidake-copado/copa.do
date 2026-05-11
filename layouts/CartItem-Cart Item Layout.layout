@@ -23,7 +23,7 @@
                 <field>CreatedDate</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Product2Id</field>
             </layoutItems>
             <layoutItems>
@@ -31,27 +31,27 @@
                 <field>LastModifiedDate</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>ListPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Quantity</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>SalesPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Sku</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>AdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>AdjustmentTaxAmount</field>
             </layoutItems>
             <layoutItems>
@@ -59,11 +59,11 @@
                 <field>TotalAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>TotalAdjustmentAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>TotalPriceAfterAllAdjustments</field>
             </layoutItems>
             <layoutItems>
@@ -91,7 +91,7 @@
                 <field>DistributedAdjustmentTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>TotalLineAmount</field>
             </layoutItems>
             <layoutItems>
@@ -99,11 +99,11 @@
                 <field>TotalLineTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>TotalListPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>TotalPrice</field>
             </layoutItems>
             <layoutItems>
@@ -111,11 +111,11 @@
                 <field>TotalTaxAmount</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>UnitAdjustedPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>UnitAdjustmentAmount</field>
             </layoutItems>
             <layoutItems>

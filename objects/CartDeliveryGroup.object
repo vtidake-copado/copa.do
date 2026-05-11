@@ -93,10 +93,19 @@
         <fullName>DesiredDeliveryDate</fullName>
     </fields>
     <fields>
+        <fullName>GiftMessage</fullName>
+    </fields>
+    <fields>
+        <fullName>GiftToName</fullName>
+    </fields>
+    <fields>
         <fullName>GrandTotalAmount</fullName>
     </fields>
     <fields>
         <fullName>IsDefault</fullName>
+    </fields>
+    <fields>
+        <fullName>IsGift</fullName>
     </fields>
     <fields>
         <fullName>Name</fullName>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fonte de atualização</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fontes de atualização</value>
+    </caseValues>
+    <fields>
+        <help><!-- Specify product to upgrade from. --></help>
+        <label>Produto de origem</label>
+        <name>SBQQ__SourceProduct__c</name>
+        <relationshipLabel>Origens de atualização disponíveis</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify a ratio for quantity conversion from Upgrade Source to Upgrade Product. e.g. &quot;5:1&quot; indicates that 5 units of Upgrade Source convert to 1 unit of Upgrade Product. If blank, no Upgrade Conversion Rate is enforced. --></help>
+        <label>Taxa de conversão de atualização</label>
+        <name>SBQQ__UpgradeConversionRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the product to upgrade to. --></help>
+        <label>Produto da atualização</label>
+        <name>SBQQ__UpgradeProduct__c</name>
+        <relationshipLabel>Origens da atualização</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da origem</nameFieldLabel>
+    <validationRules>
+        <errorMessage>A taxa de conversão deve ser representada como uma proporção do formato &quot;Origem de atualização:Produto da atualização&quot;.</errorMessage>
+        <name>SBQQ__Conversion_Rate_Must_Fit_Ratio_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

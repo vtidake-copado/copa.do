@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商品機能</value>
+    </caseValues>
+    <fieldSets>
+        <label>コンフィグレーター</label>
+        <name>SBQQ__Configurator</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Assign this feature to a category such that multiple features with related options are grouped together. --></help>
+        <label>カテゴリ</label>
+        <name>SBQQ__Category__c</name>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field set that will be used for this feature during configuration. --></help>
+        <label>設定項目セット</label>
+        <name>SBQQ__ConfigurationFieldSet__c</name>
+        <picklistValues>
+            <masterLabel>OptionConfiguration</masterLabel>
+            <translation><!-- OptionConfiguration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The product bundle that includes this feature. If you created the feature from the product detail page, this should already be populated. --></help>
+        <label>設定対象 SKU</label>
+        <name>SBQQ__ConfiguredSKU__c</name>
+        <relationshipLabel>機能</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule to be applied to the product selected by all options in this feature. This overrides discount schedule selected on the product. --></help>
+        <label>割引率表</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>商品の機能</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field set that will be used when filtering dynamic options for this feature during configuration. --></help>
+        <label>動的オプション条件項目セット</label>
+        <name>SBQQ__DynamicProductFilterFieldSet__c</name>
+        <picklistValues>
+            <masterLabel>ConfiguratorFilter</masterLabel>
+            <translation><!-- ConfiguratorFilter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field set that will be used when viewing dynamic options for this feature during configuration. --></help>
+        <label>動的オプション参照項目セット</label>
+        <name>SBQQ__DynamicProductLookupFieldSet__c</name>
+        <picklistValues>
+            <masterLabel>ConfiguratorLookup</masterLabel>
+            <translation><!-- ConfiguratorLookup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Maximum number of options for this feature that can be selected as part of the product bundle. --></help>
+        <label>最大オプション数</label>
+        <name>SBQQ__MaxOptionCount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minimum number of options for this feature that must be part of the product bundle. --></help>
+        <label>最小オプション数</label>
+        <name>SBQQ__MinOptionCount__c</name>
+    </fields>
+    <fields>
+        <help><!-- A sequential number that determines how the features are sorted in the related list on the product. --></help>
+        <label>番号</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up predefined options. &quot;Dynamic&quot; renders a button which brings up all active products. --></help>
+        <label>オプション選択方法</label>
+        <name>SBQQ__OptionSelectionMethod__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation><!-- Add --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Click</masterLabel>
+            <translation><!-- Click --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic</masterLabel>
+            <translation><!-- Dynamic --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>機能名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>エバーグリーン商品または更新可能/エバーグリーン商品の動的バンドルを作成できません。</errorMessage>
+        <name>SBQQ__Dynamic_OptionSelectionMethod_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[最小オプション数] は負の数にはできません。</errorMessage>
+        <name>SBQQ__MinOptionValidation</name>
+    </validationRules>
+    <webLinks>
+        <label>翻訳</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

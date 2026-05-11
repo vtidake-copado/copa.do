@@ -16,4 +16,9 @@
         <default>false</default>
         <label>Web</label>
     </standardValue>
+    <standardValue>
+        <fullName>Office</fullName>
+        <default>false</default>
+        <label>Office</label>
+    </standardValue>
 </StandardValueSet>

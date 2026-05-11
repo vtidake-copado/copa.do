@@ -156,7 +156,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Author__c</fullName>
-        <description>Author Name Update</description>
+        <description>Author Name Update 1</description>
         <externalId>false</externalId>
         <label>Author</label>
         <length>32</length>
@@ -171,7 +171,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>CCHCustom</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

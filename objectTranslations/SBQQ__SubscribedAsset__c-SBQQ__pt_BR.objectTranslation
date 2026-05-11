@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ativo assinado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ativos assinados</value>
+    </caseValues>
+    <fields>
+        <help><!-- Indicates whether the subscribed asset record is active. --></help>
+        <label>Ativo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the subscription or asset at the root of the bundle that contains the related asset --></help>
+        <label>ID raiz de ativos</label>
+        <name>SBQQ__AssetRootId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset being covered by a subscription. --></help>
+        <label>Ativo</label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel>Assinaturas</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the contract for the subscription. --></help>
+        <label>ID do contrato</label>
+        <name>SBQQ__ContractId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription that covers the asset. --></help>
+        <label>Assinatura</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>Ativos assinados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data final de uso do ativo</label>
+        <name>SBQQ__UsageEndDate__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nº do ativo assinado</nameFieldLabel>
+</CustomObjectTranslation>

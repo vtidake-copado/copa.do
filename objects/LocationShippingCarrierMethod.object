@@ -135,6 +135,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PickupTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ShippingCarrierMethodId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

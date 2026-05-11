@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Abonnierter Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Abonnierte Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Abonnierten Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Abonnierte Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Abonnierten Angebotsbelegpostens</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Abonnierter Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Abonniertem Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Abonnierten Angebotsbelegposten</value>
+    </caseValues>
+    <fields>
+        <help><!-- Indicates whether the subscribed asset record is active. --></help>
+        <label>Aktiv</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quantity quoted on the Asset Quote Line. --></help>
+        <label>Menge Vermögenswert-Angebotsbelegposten</label>
+        <name>SBQQ__AssetQuoteLineQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset quote line being covered by a subscription quote line. --></help>
+        <label>Vermögenswert-Angebotsbelegposten</label>
+        <name>SBQQ__AssetQuoteLine__c</name>
+        <relationshipLabel>Vermögenswert-Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies the quote for the quoteLines. --></help>
+        <label>Angebot</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Angebot</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unit price used in Percent of Total calculation. --></help>
+        <label>Basispreis Abonnement</label>
+        <name>SBQQ__SubscriptionBasePrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Net total of the Subscription Quote Line. --></help>
+        <label>Nettogesamtbetrag Abonnement</label>
+        <name>SBQQ__SubscriptionNetTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription quote line that covers the asset quote line. --></help>
+        <label>Abonnement-Angebotsbelegposten</label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel>Abonnierte Angebotsbelegposten (Abonnement-Angebotsbelegposten)</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nummer des abonnierten Angebotsbelegpost</nameFieldLabel>
+</CustomObjectTranslation>

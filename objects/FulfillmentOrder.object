@@ -102,6 +102,9 @@
         <fullName>ClosedDate</fullName>
     </fields>
     <fields>
+        <fullName>DeliveryDate</fullName>
+    </fields>
+    <fields>
         <fullName>FulfilledFromLocationId</fullName>
         <type>Lookup</type>
     </fields>
@@ -129,6 +132,12 @@
     </fields>
     <fields>
         <fullName>ItemCount</fullName>
+    </fields>
+    <fields>
+        <fullName>ProcessingTimeInMinutes</fullName>
+    </fields>
+    <fields>
+        <fullName>StartFulfillmentDate</fullName>
     </fields>
     <fields>
         <fullName>Status</fullName>

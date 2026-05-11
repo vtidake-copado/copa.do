@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Valor do atributo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Valores do atributo</value>
+    </caseValues>
+    <fields>
+        <label>Ativo</label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel>Valores do atributo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Atributo</label>
+        <name>SBQQ__Attribute__c</name>
+        <relationshipLabel>Valores do atributo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produto favorito</label>
+        <name>SBQQ__FavoriteProduct__c</name>
+        <relationshipLabel>Valores do atributo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produto do pedido</label>
+        <name>SBQQ__OrderItem__c</name>
+        <relationshipLabel>Valores do atributo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Linha de cotação</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Valores do atributo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Assinatura</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>Valores do atributo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valor (Data Horário)</label>
+        <name>SBQQ__ValueDateTime__c</name>
+    </fields>
+    <fields>
+        <label>Valor (data)</label>
+        <name>SBQQ__ValueDate__c</name>
+    </fields>
+    <fields>
+        <label>Valor (número)</label>
+        <name>SBQQ__ValueNumber__c</name>
+    </fields>
+    <fields>
+        <label>Valor (texto)</label>
+        <name>SBQQ__Value__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

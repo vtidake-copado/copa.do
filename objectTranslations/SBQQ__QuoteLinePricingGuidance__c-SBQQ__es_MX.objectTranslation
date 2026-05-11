@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Orientación sobre precios de partida de presupuesto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Orientaciones sobre precios de partidas de presupuesto</value>
+    </caseValues>
+    <fields>
+        <help><!-- An explanation of this pricing guidance and recommendations for discounts to provide. Sales reps can view this explanation with the pricing guidance in the quote line editor. --></help>
+        <label>Explicación</label>
+        <name>SBQQ__Explanation__c</name>
+    </fields>
+    <fields>
+        <help><!-- High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings. --></help>
+        <label>Suelo</label>
+        <name>SBQQ__Floor__c</name>
+    </fields>
+    <fields>
+        <help><!-- A sales rep has accepted the target discount from this pricing guidance in the quote line editor. --></help>
+        <label>Orientación utilizada</label>
+        <name>SBQQ__GuidanceUsed__c</name>
+    </fields>
+    <fields>
+        <label>Visto</label>
+        <name>SBQQ__IsViewed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings. --></help>
+        <label>Norma</label>
+        <name>SBQQ__Norm__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quote line related to this pricing guidance. --></help>
+        <label>Partida de presupuesto</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>Orientación sobre precios de partida de presupuesto</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The quote containing the quote line related to this pricing guidance. --></help>
+        <label>Presupuesto</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Orientación sobre precios de partida de presupuesto</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price. --></help>
+        <label>Objetivo</label>
+        <name>SBQQ__Target__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre</nameFieldLabel>
+</CustomObjectTranslation>

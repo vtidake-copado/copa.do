@@ -701,12 +701,12 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>copado__User_Story__r.SystemModstamp</field>
+            <field>SystemModstamp</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>SystemModstamp</field>
+            <field>copado__User_Story__r.SystemModstamp</field>
             <isFieldManaged>false</isFieldManaged>
             <isRequired>false</isRequired>
         </availableFields>

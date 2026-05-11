@@ -74,6 +74,9 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AuxiliaryTriggeringRecord</fullName>
+    </fields>
+    <fields>
         <fullName>Duration</fullName>
     </fields>
     <fields>
@@ -91,6 +94,9 @@
     </fields>
     <fields>
         <fullName>TriggeringRecord</fullName>
+    </fields>
+    <fields>
+        <fullName>TriggeringRecordType</fullName>
     </fields>
     <listViews>
         <fullName>All_Orchestration_Instances</fullName>

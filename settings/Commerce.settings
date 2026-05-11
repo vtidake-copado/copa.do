@@ -3,4 +3,5 @@
     <commerceAppEnabled>false</commerceAppEnabled>
     <commerceDiscoveryExpansion>false</commerceDiscoveryExpansion>
     <commerceEnabled>false</commerceEnabled>
+    <extendCommerceContext>false</extendCommerceContext>
 </CommerceSettings>

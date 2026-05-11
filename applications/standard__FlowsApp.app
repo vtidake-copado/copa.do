@@ -10,6 +10,8 @@
     <tabs>standard-home</tabs>
     <tabs>standard-FlowRecord</tabs>
     <tabs>standard-Monitor</tabs>
+    <tabs>standard-ActionHub</tabs>
+    <tabs>standard-FlowLogs</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>

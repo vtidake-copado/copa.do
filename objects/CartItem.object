@@ -100,6 +100,9 @@
         <fullName>DistributedAdjustmentTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>EndDate</fullName>
+    </fields>
+    <fields>
         <fullName>FirstPymtPriceAfterAdjustments</fullName>
     </fields>
     <fields>
@@ -110,6 +113,9 @@
     </fields>
     <fields>
         <fullName>GrossUnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>IsShippingChargeNotApplicable</fullName>
     </fields>
     <fields>
         <fullName>ItemizedAdjustmentAmount</fullName>
@@ -169,7 +175,13 @@
         <fullName>Sku</fullName>
     </fields>
     <fields>
+        <fullName>StartDate</fullName>
+    </fields>
+    <fields>
         <fullName>StockCheckMethod</fullName>
+    </fields>
+    <fields>
+        <fullName>SubType</fullName>
     </fields>
     <fields>
         <fullName>SubscriptionTerm</fullName>

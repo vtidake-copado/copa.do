@@ -187,6 +187,9 @@
         <fullName>MilestoneStatus</fullName>
     </fields>
     <fields>
+        <fullName>MilestoneTimer</fullName>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -298,11 +301,13 @@
         <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>Category</customTabListAdditionalFields>
         <customTabListAdditionalFields>SubCategory</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MilestoneTimer</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Priority</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SubCategory</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MilestoneTimer</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

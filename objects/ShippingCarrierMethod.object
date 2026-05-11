@@ -134,6 +134,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ManagedShippingCarrierMethod</fullName>
+        <inlineHelpText>Salesforce managed shipping carrier method information that provides estimated transit times.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>MaxTransitTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -153,6 +158,11 @@
         <fullName>ShippingCarrierId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShippingScope</fullName>
+        <inlineHelpText>Type of shipping available for the shipping carrier method.</inlineHelpText>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TransitTimeUnit</fullName>

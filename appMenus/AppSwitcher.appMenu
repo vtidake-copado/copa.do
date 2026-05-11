@@ -181,7 +181,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__ExpressionSetConsole</name>
+        <name>standard__SalesCloudMobile</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -202,6 +202,22 @@
     </appMenuItems>
     <appMenuItems>
         <name>standard__MSJApp</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>kompalDigitalExperienceBundle</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>dlrs__DeclarativeLookupRollupSummaries</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>dlrs__DeclarativeLookupRollupSummaries2</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Shield</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

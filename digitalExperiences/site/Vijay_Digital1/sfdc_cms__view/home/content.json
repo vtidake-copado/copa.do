@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -37,6 +38,7 @@
                 "contentPadding" : "large",
                 "contentPosition" : "center left",
                 "contentWidth" : 25,
+                "dxpStyle" : { },
                 "height" : 450,
                 "imageFit" : "cover",
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-banner-1.png\",\"altText\":\"pulse\",\"contentKey\":\"\"}}",
@@ -52,6 +54,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "rgba(255, 255, 255, 0)",
+                    "dxpStyle" : { },
                     "isLinkable" : false,
                     "linkAssistiveText" : "",
                     "paddingHorizontal" : "none",
@@ -74,6 +77,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Learn More",
@@ -91,6 +95,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -106,7 +111,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "bcb3d43f-4e3d-4830-9cc6-e4a69c8f18a7",
                   "type" : "component"
@@ -122,6 +129,7 @@
             }, {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "isLinkable" : false,
                 "linkAssistiveText" : "",
                 "paddingHorizontal" : "x-large",
@@ -148,6 +156,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -161,6 +170,7 @@
             "children" : [ {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "isLinkable" : false,
                 "linkAssistiveText" : "",
                 "paddingHorizontal" : "large",
@@ -177,6 +187,7 @@
             }, {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "isLinkable" : false,
                 "linkAssistiveText" : "",
                 "paddingHorizontal" : "large",
@@ -192,6 +203,7 @@
             }, {
               "attributes" : {
                 "alignment" : "left",
+                "dxpStyle" : { },
                 "fit" : "contain",
                 "height" : 350,
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-4.png\",\"altText\":\"pulse\",\"contentKey\":\"\"}}",
@@ -220,6 +232,7 @@
                 "buttonGroupSpacingHorizontal" : "space-evenly",
                 "buttonGroupSpacingVertical" : "space-evenly",
                 "buttonGroupWidth" : 75,
+                "dxpStyle" : { },
                 "height" : 325,
                 "imageFit" : "contain",
                 "imageHeight" : 33,
@@ -241,6 +254,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "",
+                    "dxpStyle" : { },
                     "isLinkable" : false,
                     "linkAssistiveText" : "",
                     "paddingHorizontal" : "x-large",
@@ -262,6 +276,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Learn More",
@@ -279,6 +294,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -294,7 +310,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "f6ac0399-4907-4508-a2a8-69f3a2fc3da1",
                   "type" : "component"
@@ -325,6 +343,7 @@
                 "buttonGroupSpacingHorizontal" : "space-evenly",
                 "buttonGroupSpacingVertical" : "space-evenly",
                 "buttonGroupWidth" : 75,
+                "dxpStyle" : { },
                 "height" : 325,
                 "imageFit" : "contain",
                 "imageHeight" : 33,
@@ -346,6 +365,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "",
+                    "dxpStyle" : { },
                     "isLinkable" : false,
                     "linkAssistiveText" : "",
                     "paddingHorizontal" : "x-large",
@@ -367,6 +387,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Learn More",
@@ -384,6 +405,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -399,7 +421,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "0597face-1237-4d29-9dde-56d8eca8a9f0",
                   "type" : "component"
@@ -426,6 +450,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "layoutDirectionDesktop" : "row",
             "layoutDirectionMobile" : "column",
             "layoutDirectionTablet" : "column",
@@ -439,6 +464,7 @@
             "children" : [ {
               "attributes" : {
                 "alignment" : "center",
+                "dxpStyle" : { },
                 "fit" : "contain",
                 "height" : 350,
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-3.png\",\"altText\":\"chart\",\"contentKey\":\"\"}}",
@@ -458,6 +484,7 @@
             "children" : [ {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "isLinkable" : false,
                 "linkAssistiveText" : "",
                 "paddingHorizontal" : "large",
@@ -473,6 +500,7 @@
             }, {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "isLinkable" : false,
                 "linkAssistiveText" : "",
                 "paddingHorizontal" : "large",
@@ -508,6 +536,7 @@
                 "customFieldTwoLabel" : "Custom Field Label",
                 "customFieldTwoPlaceholder" : "Custom Field Placeholder",
                 "defaultCompanyValue" : "Company Not Available",
+                "dxpStyle" : { },
                 "emailFieldConfig" : "{\"fieldInputType\":\"Email\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Email\"}",
                 "emailLabel" : "Email",
                 "emailPlaceholder" : "Enter your email address",
@@ -570,6 +599,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Home",
             "recordId" : "{!recordId}"
           },

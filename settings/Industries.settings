@@ -22,6 +22,7 @@
     <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
     <enableTopicOrTemplate>false</enableTopicOrTemplate>
     <enableTopicTimeSlot>true</enableTopicTimeSlot>
+    <participantRecordDeactivateUser>PreventDeactivateUserWithParticipantRecords</participantRecordDeactivateUser>
     <partyProfMultiShrPrtnrsOrgPref>false</partyProfMultiShrPrtnrsOrgPref>
     <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
 </IndustriesSettings>
