@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agenda de consumo da assinatura</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agendas de consumo da assinatura</value>
+    </caseValues>
+    <fields>
+        <help><!-- The unit used with the billing term to determine the billing frequency. --></help>
+        <label>Unidade do termo de faturamento</label>
+        <name>SBQQ__BillingTermUnit__c</name>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The number used with the billing term unit to determine the billing frequency. --></help>
+        <label>Termo de faturamento</label>
+        <name>SBQQ__BillingTerm__c</name>
+    </fields>
+    <fields>
+        <label>Categoria</label>
+        <name>SBQQ__Category__c</name>
+        <picklistValues>
+            <masterLabel>Rates</masterLabel>
+            <translation><!-- Rates --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Agenda de consumo</label>
+        <name>SBQQ__ConsumptionSchedule__c</name>
+        <relationshipLabel>Agendas de consumo da assinatura</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descrição</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Usage is matched with a consumption schedule if the records share the same Matching Attribute value. --></help>
+        <label>Atributo correspondente</label>
+        <name>SBQQ__MatchingAttribute__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose a specific use case to rate usage against this schedule. This is a controlling picklist for the Type field. --></help>
+        <label>Método de classificação</label>
+        <name>SBQQ__RatingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Tier</masterLabel>
+            <translation><!-- Tier --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Assinatura</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>Agendas de consumo da assinatura</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Range: The schedule prices only using the tier that applies to the usage quantity. Slab: Usage within a given bound receives pricing equal to its tier&apos;s value --></help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation><!-- Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation><!-- Slab --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Usage quantities and rates apply to this unit of measurement. --></help>
+        <label>Unidade de medida</label>
+        <name>SBQQ__UnitOfMeasure__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome do Cronograma de consumo de assinat</nameFieldLabel>
+</CustomObjectTranslation>

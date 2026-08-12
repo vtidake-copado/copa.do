@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>インストールプロセッサーログ</value>
+    </caseValues>
+    <fields>
+        <help><!-- Name of the method run within the Install Script --></help>
+        <label>メソッド名</label>
+        <name>SBQQ__MethodName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Timestamp for running the method --></help>
+        <label>時間</label>
+        <name>SBQQ__Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Package version at the time of running the method --></help>
+        <label>バージョン</label>
+        <name>SBQQ__Version__c</name>
+    </fields>
+    <nameFieldLabel>インストールプロセッサーログ名</nameFieldLabel>
+</CustomObjectTranslation>

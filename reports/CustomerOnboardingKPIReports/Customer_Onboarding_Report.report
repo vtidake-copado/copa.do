@@ -4,6 +4,9 @@
         <field>LAST_UPDATE</field>
     </columns>
     <columns>
+        <field>SITE</field>
+    </columns>
+    <columns>
         <field>ADDRESS1_STATE</field>
     </columns>
     <columns>

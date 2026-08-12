@@ -15,20 +15,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -170,11 +156,20 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsApproachingDiscountApplicable</fullName>
+        <inlineHelpText>Notifies customers if their cart total is approaching a discount. To add an approaching discount alert, set a threshold value on the promotion qualifier.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>IsAutomatic</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>IsCommercePromotion</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsQualCriteriaNotRequiredPerApplication</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

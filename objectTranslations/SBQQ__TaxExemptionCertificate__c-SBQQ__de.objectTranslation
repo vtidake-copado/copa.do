@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Steuerbefreiungszertifikat</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Steuerbefreiungszertifikate</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Steuerbefreiungszertifikat</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Steuerbefreiungszertifikate</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Steuerbefreiungszertifikats</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Steuerbefreiungszertifikate</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Steuerbefreiungszertifikat</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Steuerbefreiungszertifikaten</value>
+    </caseValues>
+    <fields>
+        <label>Account</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Steuerbefreiungszertifikate</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- An Active Certificate will make set the ‘Tax Exempt?’ field on the Active to true --></help>
+        <label>Aktiv</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <label>Zertifikatnummer</label>
+        <name>SBQQ__CertificateNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- ptional - to track the company address associated to the certificate --></help>
+        <label>Land</label>
+        <name>SBQQ__Country__c</name>
+    </fields>
+    <fields>
+        <label>Bezirk</label>
+        <name>SBQQ__County__c</name>
+    </fields>
+    <fields>
+        <label>Ausstellungsdatum</label>
+        <name>SBQQ__DateIssued__c</name>
+    </fields>
+    <fields>
+        <help><!-- A certificate can be marked as default only if it is active --></help>
+        <label>Standard</label>
+        <name>SBQQ__Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- The company name or DBA name associated to the certificate --></help>
+        <label>Name der von der Steuer befreiten Firma</label>
+        <name>SBQQ__ExemptCompanyName__c</name>
+    </fields>
+    <fields>
+        <label>Ablaufdatum</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The authority, such as a government agency or country (for European organizations), that issued the certificate --></help>
+        <label>Ausstellende Behörde</label>
+        <name>SBQQ__IssuingAuthority__c</name>
+    </fields>
+    <fields>
+        <label>Hinweise</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <label>PLZ</label>
+        <name>SBQQ__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label>Bundesland/Kanton</label>
+        <name>SBQQ__State__c</name>
+    </fields>
+    <fields>
+        <label>Straße_2</label>
+        <name>SBQQ__StreetAddress_2__c</name>
+    </fields>
+    <fields>
+        <label>Straße</label>
+        <name>SBQQ__StreetAddress__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name des Steuerbefreiungszertifikats</nameFieldLabel>
+</CustomObjectTranslation>

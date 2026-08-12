@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Característica do produto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Características dos produtos</value>
+    </caseValues>
+    <fieldSets>
+        <label>Configurador</label>
+        <name>SBQQ__Configurator</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Assign this feature to a category such that multiple features with related options are grouped together. --></help>
+        <label>Categoria</label>
+        <name>SBQQ__Category__c</name>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field set that will be used for this feature during configuration. --></help>
+        <label>Campo de configuração definido</label>
+        <name>SBQQ__ConfigurationFieldSet__c</name>
+        <picklistValues>
+            <masterLabel>OptionConfiguration</masterLabel>
+            <translation><!-- OptionConfiguration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The product bundle that includes this feature. If you created the feature from the product detail page, this should already be populated. --></help>
+        <label>SKU configurada</label>
+        <name>SBQQ__ConfiguredSKU__c</name>
+        <relationshipLabel>Recursos</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule to be applied to the product selected by all options in this feature. This overrides discount schedule selected on the product. --></help>
+        <label>Cronograma de descontos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Recursos do produto</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field set that will be used when filtering dynamic options for this feature during configuration. --></help>
+        <label>Conj. campo de filtro da opção dinâmica</label>
+        <name>SBQQ__DynamicProductFilterFieldSet__c</name>
+        <picklistValues>
+            <masterLabel>ConfiguratorFilter</masterLabel>
+            <translation><!-- ConfiguratorFilter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The API name of the field set that will be used when viewing dynamic options for this feature during configuration. --></help>
+        <label>Conj. campo de pesq. da opção dinâmica</label>
+        <name>SBQQ__DynamicProductLookupFieldSet__c</name>
+        <picklistValues>
+            <masterLabel>ConfiguratorLookup</masterLabel>
+            <translation><!-- ConfiguratorLookup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Maximum number of options for this feature that can be selected as part of the product bundle. --></help>
+        <label>Máx. de opções</label>
+        <name>SBQQ__MaxOptionCount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minimum number of options for this feature that must be part of the product bundle. --></help>
+        <label>Mín. de opções</label>
+        <name>SBQQ__MinOptionCount__c</name>
+    </fields>
+    <fields>
+        <help><!-- A sequential number that determines how the features are sorted in the related list on the product. --></help>
+        <label>Número</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up predefined options. &quot;Dynamic&quot; renders a button which brings up all active products. --></help>
+        <label>Método de seleção de opção</label>
+        <name>SBQQ__OptionSelectionMethod__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation><!-- Add --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Click</masterLabel>
+            <translation><!-- Click --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic</masterLabel>
+            <translation><!-- Dynamic --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome do recurso</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Não foi possível criar pacotes dinâmico para produtos perenes ou renováveis/perenes</errorMessage>
+        <name>SBQQ__Dynamic_OptionSelectionMethod_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O mínimo de opções não pode ser negativo.</errorMessage>
+        <name>SBQQ__MinOptionValidation</name>
+    </validationRules>
+    <webLinks>
+        <label>Traduzir</label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

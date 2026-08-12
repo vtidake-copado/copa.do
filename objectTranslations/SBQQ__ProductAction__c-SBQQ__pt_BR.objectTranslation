@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ação do produto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ações do produto</value>
+    </caseValues>
+    <fields>
+        <help><!-- Choose the field to update when the rule is triggered. --></help>
+        <label>Campo de filtro</label>
+        <name>SBQQ__FilterField__c</name>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation><!-- Product Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation><!-- Product Family --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the value to be updated in the chosen Filter Field. --></help>
+        <label>Valor do filtro</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the operator that determines how the Filter Field will apply to the Filter Value. --></help>
+        <label>Operador</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation><!-- starts with --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ParentRuleIsActive</label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the product to be automatically selected on the quote. Note: The product rule Type must be set to &quot;Selection&quot;. --></help>
+        <label>Produto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Ações do produto</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select if you want the product in the Product Lookup field to be selected on the quote. --></help>
+        <label>Necessário</label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rule that runs this product action. --></help>
+        <label>Regra</label>
+        <name>SBQQ__Rule__c</name>
+        <relationshipLabel>Ações</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify the type of action. --></help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation><!-- Add --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default Filter</masterLabel>
+            <translation><!-- Default Filter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disable</masterLabel>
+            <translation><!-- Disable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disable &amp; Remove</masterLabel>
+            <translation><!-- Disable &amp; Remove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enable</masterLabel>
+            <translation><!-- Enable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enable &amp; Add</masterLabel>
+            <translation><!-- Enable &amp; Add --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hide</masterLabel>
+            <translation><!-- Hide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hide &amp; Remove</masterLabel>
+            <translation><!-- Hide &amp; Remove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional Filter</masterLabel>
+            <translation><!-- Optional Filter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove</masterLabel>
+            <translation><!-- Remove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show</masterLabel>
+            <translation><!-- Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show &amp; Add</masterLabel>
+            <translation><!-- Show &amp; Add --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to identify the specific attribute if the Value Field is a global Configuration Attribute field. --></help>
+        <label>Atributo do valor</label>
+        <name>SBQQ__ValueAttribute__c</name>
+        <relationshipLabel>Ações do produto</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Compares the Filter Field with this field instead of the Filter Value. --></help>
+        <label>Campo de valor</label>
+        <name>SBQQ__ValueField__c</name>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation><!-- Product Code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the Salesforce Object where the Value Field is defined. --></help>
+        <label>Objeto de valor</label>
+        <name>SBQQ__ValueObject__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attributes</masterLabel>
+            <translation><!-- Configuration Attributes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation><!-- Quote --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº de ação do produto</nameFieldLabel>
+    <validationRules>
+        <errorMessage>O Atributo de valor necessário, uma vez que o Campo de valor é um campo de Atributos de configuração global.</errorMessage>
+        <name>SBQQ__Value_attr_required_if_global_field</name>
+    </validationRules>
+</CustomObjectTranslation>

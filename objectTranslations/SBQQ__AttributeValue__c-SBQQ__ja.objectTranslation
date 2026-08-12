@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>属性値</value>
+    </caseValues>
+    <fields>
+        <label>納入商品</label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel>属性値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>属性</label>
+        <name>SBQQ__Attribute__c</name>
+        <relationshipLabel>属性値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>お気に入りの商品</label>
+        <name>SBQQ__FavoriteProduct__c</name>
+        <relationshipLabel>属性値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>注文商品</label>
+        <name>SBQQ__OrderItem__c</name>
+        <relationshipLabel>属性値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>見積品目</label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel>属性値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>サブスクリプション</label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel>属性値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>値 (日時)</label>
+        <name>SBQQ__ValueDateTime__c</name>
+    </fields>
+    <fields>
+        <label>値 (日付)</label>
+        <name>SBQQ__ValueDate__c</name>
+    </fields>
+    <fields>
+        <label>値 (数値)</label>
+        <name>SBQQ__ValueNumber__c</name>
+    </fields>
+    <fields>
+        <label>値 (テキスト)</label>
+        <name>SBQQ__Value__c</name>
+    </fields>
+    <nameFieldLabel>名前</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Optionsbeschränkung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Optionsbeschränkungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Optionsbeschränkung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Optionsbeschränkungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Optionsbeschränkung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Optionsbeschränkungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Optionsbeschränkung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Optionsbeschränkungen</value>
+    </caseValues>
+    <fields>
+        <help><!-- Marks this constraint as active or inactive. --></help>
+        <label>Aktiv</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if you want to look up prior purchases of Constraining Option within the Account. --></help>
+        <label>Vorherige Käufe prüfen</label>
+        <name>SBQQ__CheckPriorPurchases__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product SKU being constrained. --></help>
+        <label>Konfigurierte SKU</label>
+        <name>SBQQ__ConfiguredSKU__c</name>
+        <relationshipLabel>Optionsbeschränkungen</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the option in the bundle that you want applied to this constraint. --></help>
+        <label>Beschränkte Option</label>
+        <name>SBQQ__ConstrainedOption__c</name>
+        <relationshipLabel>Beschränkungen</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Choose an additional option if the Constrained Option is constraining another option. --></help>
+        <label>Beschränkende Option</label>
+        <name>SBQQ__ConstrainingOption__c</name>
+        <relationshipLabel>Beschränkend</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If multiple Option Constraints target the same Constrained Option, putting the Option Constraints in the same group will require ALL Constraining Options to be selected. --></help>
+        <label>Optionsbeschränkungsgruppe</label>
+        <name>SBQQ__OptionConstraintGroup__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the behavior of this constraint: dependency means inclusion is required while exclusion means the option constraint is not selected when the constraining option is or vice versa. --></help>
+        <label>Typ</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Dependency</masterLabel>
+            <translation><!-- Dependency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusion</masterLabel>
+            <translation><!-- Exclusion --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der Beschränkung</nameFieldLabel>
+</CustomObjectTranslation>

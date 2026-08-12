@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Image Detail",
+  "contentBody" : {
+    "activeViewId" : "imageDetail",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "managed-content-sfdc_cms__image",
+    "urlPrefix" : "image"
+  },
+  "urlName" : "image-detail"
+}

@@ -1,0 +1,5 @@
+({
+	helperMethod : function() {
+		//Update me
+	}
+})

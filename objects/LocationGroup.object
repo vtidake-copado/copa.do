@@ -154,6 +154,11 @@
         <fullName>ShouldSyncWithOci</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>LocationGroup</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ExternalReference</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsEnabled</customTabListAdditionalFields>

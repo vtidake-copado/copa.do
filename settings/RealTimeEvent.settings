@@ -10,7 +10,7 @@
     </realTimeEvents>
     <realTimeEvents>
         <entityName>ApiAnomalyEventStore</entityName>
-        <isEnabled>false</isEnabled>
+        <isEnabled>true</isEnabled>
     </realTimeEvents>
     <realTimeEvents>
         <entityName>ApiAnomalyEvent</entityName>
@@ -30,7 +30,7 @@
     </realTimeEvents>
     <realTimeEvents>
         <entityName>CredentialStuffingEventStore</entityName>
-        <isEnabled>false</isEnabled>
+        <isEnabled>true</isEnabled>
     </realTimeEvents>
     <realTimeEvents>
         <entityName>CredentialStuffingEvent</entityName>
@@ -42,6 +42,22 @@
     </realTimeEvents>
     <realTimeEvents>
         <entityName>FileEvent</entityName>
+        <isEnabled>false</isEnabled>
+    </realTimeEvents>
+    <realTimeEvents>
+        <entityName>GuestUserAnomalyEventStore</entityName>
+        <isEnabled>true</isEnabled>
+    </realTimeEvents>
+    <realTimeEvents>
+        <entityName>GuestUserAnomalyEvent</entityName>
+        <isEnabled>false</isEnabled>
+    </realTimeEvents>
+    <realTimeEvents>
+        <entityName>LoginAnomalyEventStore</entityName>
+        <isEnabled>true</isEnabled>
+    </realTimeEvents>
+    <realTimeEvents>
+        <entityName>LoginAnomalyEvent</entityName>
         <isEnabled>false</isEnabled>
     </realTimeEvents>
     <realTimeEvents>
@@ -110,7 +126,7 @@
     </realTimeEvents>
     <realTimeEvents>
         <entityName>ReportAnomalyEventStore</entityName>
-        <isEnabled>false</isEnabled>
+        <isEnabled>true</isEnabled>
     </realTimeEvents>
     <realTimeEvents>
         <entityName>ReportAnomalyEvent</entityName>
@@ -118,10 +134,18 @@
     </realTimeEvents>
     <realTimeEvents>
         <entityName>SessionHijackingEventStore</entityName>
-        <isEnabled>false</isEnabled>
+        <isEnabled>true</isEnabled>
     </realTimeEvents>
     <realTimeEvents>
         <entityName>SessionHijackingEvent</entityName>
+        <isEnabled>false</isEnabled>
+    </realTimeEvents>
+    <realTimeEvents>
+        <entityName>UniversalAnomalyEventStore</entityName>
+        <isEnabled>false</isEnabled>
+    </realTimeEvents>
+    <realTimeEvents>
+        <entityName>UniversalAnomalyEvent</entityName>
         <isEnabled>false</isEnabled>
     </realTimeEvents>
     <realTimeEvents>

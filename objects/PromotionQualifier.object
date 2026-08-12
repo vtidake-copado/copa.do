@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>ApproachingDiscountThreshold</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>MinimumAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -155,6 +159,10 @@
         <fullName>QualifierId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QualifierOperator</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>QualifierProductCategoryName</fullName>

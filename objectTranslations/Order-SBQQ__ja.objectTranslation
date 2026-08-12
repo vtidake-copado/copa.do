@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Indicates if the order is contracted. --></help>
+        <label>契約済み</label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;By Subscription End Date&quot; creates a separate Contract for each unique Subscription End Date, containing only those Subscriptions. &quot;Single Contract&quot; creates one Contract containing all Subscriptions, regardless of their End Dates. --></help>
+        <label>契約方法</label>
+        <name>SBQQ__ContractingMethod__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total amount of all order product bookings. --></help>
+        <label>注文予約</label>
+        <name>SBQQ__OrderBookings__c</name>
+    </fields>
+    <fields>
+        <help><!-- The payment term for this order. --></help>
+        <label>お支払い条件</label>
+        <name>SBQQ__PaymentTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- The price calculation status message --></help>
+        <label>価格計算状況メッセージ</label>
+        <name>SBQQ__PriceCalcStatusMessage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the order price calculation job status.  It is set by the system. --></help>
+        <label>価格計算状況</label>
+        <name>SBQQ__PriceCalcStatus__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quote where the order is created from. --></help>
+        <label>見積</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>注文</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify the term of the renewal. By default, it matches the original contract term. --></help>
+        <label>更新期間</label>
+        <name>SBQQ__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rate of renewal price increases. --></help>
+        <label>更新の上昇率 (%)</label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The estimated tax amount --></help>
+        <label>予想税額</label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage>注文を契約できません。注文を有効化してからもう一度やり直してください。</errorMessage>
+        <name>SBQQ__Cannot_Contract_New_Order</name>
+    </validationRules>
+    <webLinks>
+        <label>注文商品を編集</label>
+        <name>SBQQ__EditOrderProducts</name>
+    </webLinks>
+</CustomObjectTranslation>

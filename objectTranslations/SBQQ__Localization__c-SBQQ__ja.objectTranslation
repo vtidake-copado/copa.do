@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ローカライズ</value>
+    </caseValues>
+    <fields>
+        <help><!-- The API Name of this content. --></help>
+        <label>API 参照名</label>
+        <name>SBQQ__APIName__c</name>
+    </fields>
+    <fields>
+        <help><!-- To describe where the text is located --></help>
+        <label>説明</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This action’s label in the UI. --></help>
+        <label>表示ラベル</label>
+        <name>SBQQ__Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- The language code for this translation. --></help>
+        <label>言語</label>
+        <name>SBQQ__Language__c</name>
+    </fields>
+    <fields>
+        <help><!-- The line column related to this content. --></help>
+        <label>品目列</label>
+        <name>SBQQ__LineColumn__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field stores translations for Long Text fields. --></help>
+        <label>ロングテキストエリア</label>
+        <name>SBQQ__LongTextArea__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Dimension related to this content. --></help>
+        <label>価格ディメンション</label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The product feature related to this content. --></help>
+        <label>商品機能</label>
+        <name>SBQQ__ProductFeature__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The product option that generated this line. --></help>
+        <label>商品オプション</label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The product related to this content. --></help>
+        <label>商品</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The template to use for this content. --></help>
+        <label>見積テンプレート</label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The parent term for this term. --></help>
+        <label>見積規約</label>
+        <name>SBQQ__QuoteTerm__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field stores translations for Rich Text fields. --></help>
+        <label>リッチテキストエリア</label>
+        <name>SBQQ__RichTextArea__c</name>
+    </fields>
+    <fields>
+        <help><!-- The template content to use for this content. --></help>
+        <label>テンプレートコンテンツ</label>
+        <name>SBQQ__TemplateContent__c</name>
+        <relationshipLabel>ローカライズ</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field stores translations for Text Area fields. --></help>
+        <label>テキストエリア</label>
+        <name>SBQQ__TextArea__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field stores translations for Text fields. --></help>
+        <label>テキスト</label>
+        <name>SBQQ__Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- To indicate whether this field is user-defined or not. --></help>
+        <label>ユーザー定義</label>
+        <name>SBQQ__UserDefined__c</name>
+    </fields>
+    <nameFieldLabel>ローカライズ番号</nameFieldLabel>
+</CustomObjectTranslation>

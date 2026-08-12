@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento adicional</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos adicionais</value>
+    </caseValues>
+    <fields>
+        <help><!-- Set the order in which this item will appear to a sales user in the Related Content menu. If blank, the content will be sorted last. --></help>
+        <label>Ordem de exibição</label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a file name for the related content. --></help>
+        <label>Nome do documento</label>
+        <name>SBQQ__DocumentName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID that contains the content, such as document or Salesforce content. --></help>
+        <label>ID externo</label>
+        <name>SBQQ__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity related to this content. --></help>
+        <label>Oportunidade</label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel>Documentos adicionais</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Product related to this content. --></help>
+        <label>Produto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Documentos adicionais</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Template related to this content. --></help>
+        <label>Modelo de cotação</label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel>Documentos adicionais</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Quote related to this content. --></help>
+        <label>Cotação</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Additional Documents --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox if this content is required for the product. Users must include it when generating a quote document. --></help>
+        <label>Necessário</label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Template Section related to this content. --></help>
+        <label>Seção do modelo</label>
+        <name>SBQQ__TemplateSection__c</name>
+        <relationshipLabel>Documentos adicionais</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Documento adicional</nameFieldLabel>
+    <webLinks>
+        <label>Documento adicional de nova cotação</label>
+        <name>SBQQ__NewQuoteRelatedContent</name>
+    </webLinks>
+</CustomObjectTranslation>

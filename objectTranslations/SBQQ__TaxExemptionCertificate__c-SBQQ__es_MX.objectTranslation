@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Certificado de exención fiscal</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Certificados de exención fiscal</value>
+    </caseValues>
+    <fields>
+        <label>Cuenta</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Certificados de exención fiscal</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- An Active Certificate will make set the ‘Tax Exempt?’ field on the Active to true --></help>
+        <label>Activo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <label>Número de certificado</label>
+        <name>SBQQ__CertificateNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- ptional - to track the company address associated to the certificate --></help>
+        <label>País</label>
+        <name>SBQQ__Country__c</name>
+    </fields>
+    <fields>
+        <label>Distrito</label>
+        <name>SBQQ__County__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de emisión</label>
+        <name>SBQQ__DateIssued__c</name>
+    </fields>
+    <fields>
+        <help><!-- A certificate can be marked as default only if it is active --></help>
+        <label>Predeterminado</label>
+        <name>SBQQ__Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- The company name or DBA name associated to the certificate --></help>
+        <label>Nombre de compañía exenta</label>
+        <name>SBQQ__ExemptCompanyName__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de caducidad</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The authority, such as a government agency or country (for European organizations), that issued the certificate --></help>
+        <label>Autoridad emisora</label>
+        <name>SBQQ__IssuingAuthority__c</name>
+    </fields>
+    <fields>
+        <label>Notas</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <label>Código postal</label>
+        <name>SBQQ__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>SBQQ__State__c</name>
+    </fields>
+    <fields>
+        <label>Dirección postal_2</label>
+        <name>SBQQ__StreetAddress_2__c</name>
+    </fields>
+    <fields>
+        <label>Dirección postal</label>
+        <name>SBQQ__StreetAddress__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de certificado de exención fiscal</nameFieldLabel>
+</CustomObjectTranslation>

@@ -80,7 +80,39 @@
         <fullName>ChargeTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>CorpCurrencyCnvChargeAmt</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorpCurrencyCnvTotalTaxAmt</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CorporateCurrencyCvsnRate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FuncCrcyCnvTotalTaxAmt</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FuncCurrencyCnvChargeAmt</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FunctionalCurrencyCvsnDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FunctionalCurrencyCvsnRate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -143,6 +175,10 @@
     </fields>
     <fields>
         <fullName>TaxName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxProcessingStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
