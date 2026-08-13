@@ -480,6 +480,8 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <businessStatus>Active</businessStatus>
+        <securityClassification>Confidential</securityClassification>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
