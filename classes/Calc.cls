@@ -1,8 +1,8 @@
 public class Calc {
     public Integer add(Integer a, Integer b) {
-        //Branch3 implementation
+        //Branchx implementation
         Integer total = a + b;
-        System.debug('Branch3 calculation');
+        System.debug('Branchx calculation');
         return total;
     }
 }
