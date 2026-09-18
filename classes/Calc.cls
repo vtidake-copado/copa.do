@@ -1,6 +1,6 @@
 public class Calc {
     public Integer add(Integer a, Integer b) {
-        //Dev-1 changes #2
+        //Dev-1 changes #1
         Integer result = a + b;
         System.debug('Dev-1 calculation');
         // Dev-1 changes ends
