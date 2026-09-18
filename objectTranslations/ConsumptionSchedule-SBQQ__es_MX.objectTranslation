@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Formato compacto</label>
+        <name>SBQQ__CompactLayout</name>
+    </fieldSets>
+    <fields>
+        <label>Categoría</label>
+        <name>SBQQ__Category__c</name>
+        <picklistValues>
+            <masterLabel>Rates</masterLabel>
+            <translation><!-- Rates --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

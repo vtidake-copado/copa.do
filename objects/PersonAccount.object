@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayoutAssignment>SYSTEMPersonAccount</compactLayoutAssignment>
+    <enableHistory>false</enableHistory>
+    <externalSharingModel>Private</externalSharingModel>
     <recordTypes>
         <fullName>PersonAccount</fullName>
         <active>true</active>
         <label>Person Account</label>
+        <picklistValues>
+            <picklist>AccountPickList_1__c</picklist>
+            <values>
+                <fullName>Account-2</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
@@ -28,6 +38,44 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Account_Picklist__c</picklist>
+            <values>
+                <fullName>Value1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Active__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>ContactPickList_1__pc</picklist>
             <values>
                 <fullName>Contact-2</fullName>
@@ -38,6 +86,36 @@
             <picklist>ContactPickList_2__pc</picklist>
             <values>
                 <fullName>Value-1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ContactPickList_3__pc</picklist>
+            <values>
+                <fullName>MyValue-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MyValue-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MyValue-3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>CustomerPriority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -173,6 +251,35 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Level__pc</picklist>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tertiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MyList_1__c</picklist>
+            <values>
+                <fullName>Item1</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MyList_2__pc</picklist>
+            <values>
+                <fullName>Item4</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Ownership</picklist>
             <values>
                 <fullName>Other</fullName>
@@ -192,6 +299,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Picklist_2__c</picklist>
+            <values>
+                <fullName>Value11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value13</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Rating</picklist>
             <values>
                 <fullName>Cold</fullName>
@@ -203,6 +325,102 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_1__pc</picklist>
+            <values>
+                <fullName>East</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region_2__c</picklist>
+            <values>
+                <fullName>West</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__CoTerminationEvent__c</picklist>
+            <values>
+                <fullName>Add-on</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__ContractCoTermination__c</picklist>
+            <values>
+                <fullName>Always</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Prompt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__RenewalModel__c</picklist>
+            <values>
+                <fullName>Asset Based</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Based</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+            <values>
+                <fullName>List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Same</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uplift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SBQQ__TaxExempt__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLA__c</picklist>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -237,5 +455,21 @@
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>UpsellOpportunity__c</picklist>
+            <values>
+                <fullName>Maybe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

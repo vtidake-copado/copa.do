@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Test page",
+  "contentBody" : {
+    "activeViewId" : "Test_page",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-test-page",
+    "urlPrefix" : "test-page"
+  },
+  "urlName" : "test-page"
+}

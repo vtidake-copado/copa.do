@@ -142,6 +142,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>DefaultPickupTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DefaultProcessingTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DefaultProcessingTimeUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -150,7 +162,28 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>EarliestPickupTimeOffset</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ExternalReference</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FulfillingBusinessHoursId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsEligibleForPickup</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -159,6 +192,10 @@
     </fields>
     <fields>
         <fullName>IsMobile</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LatestPickupTimeOffset</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -180,6 +217,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Mobile</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -196,6 +237,18 @@
         <fullName>ParentLocationId</fullName>
         <trackHistory>false</trackHistory>
         <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PickupProcessingTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PickupProcessingTimeUnit</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>PossessionDate</fullName>
@@ -222,11 +275,25 @@
         <fullName>TimeZone</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>VisitorAddressId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>all_locations</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Locations</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>VisitorAddress</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>VisitorAddress</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>VisitorAddress</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VisitorAddress</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

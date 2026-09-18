@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>インポート列</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter a numeric index value that represents the location of the column. Column index must start from 1. --></help>
+        <label>列インデックス</label>
+        <name>SBQQ__ColumnIndex__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API Name. --></help>
+        <label>項目名</label>
+        <name>SBQQ__FieldName__c</name>
+        <picklistValues>
+            <masterLabel>Discount (%)</masterLabel>
+            <translation><!-- Discount (%) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (Amt)</masterLabel>
+            <translation><!-- Discount (Amt) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Price</masterLabel>
+            <translation><!-- List Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Discount</masterLabel>
+            <translation><!-- Partner Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation><!-- Product Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity</masterLabel>
+            <translation><!-- Quantity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the format in which your records will be imported. --></help>
+        <label>インポート形式</label>
+        <name>SBQQ__ImportFormat__c</name>
+        <relationshipLabel>インポート列</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select if this column should be a unique key column. --></help>
+        <label>キー</label>
+        <name>SBQQ__Key__c</name>
+    </fields>
+    <nameFieldLabel>列の名前</nameFieldLabel>
+    <validationRules>
+        <errorMessage>列インデックスは 1 から開始する必要があります。</errorMessage>
+        <name>SBQQ__Column_index_must_start_from_1</name>
+    </validationRules>
+</CustomObjectTranslation>

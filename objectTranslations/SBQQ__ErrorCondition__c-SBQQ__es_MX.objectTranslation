@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condición de error</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condiciones de error</value>
+    </caseValues>
+    <fields>
+        <help><!-- Choose Variable to evaluate this rule against a Summary Variable; otherwise, choose Value. --></help>
+        <label>Tipo de filtro</label>
+        <name>SBQQ__FilterType__c</name>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation><!-- Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the value you want the tested variable to be evaluated against. Date value must use this format: YYYY-MM-DD 00:00:00 --></help>
+        <label>Valor de filtro</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the summary variable you want this rule to evaluate. --></help>
+        <label>Variable de filtro</label>
+        <name>SBQQ__FilterVariable__c</name>
+        <relationshipLabel>Condiciones de error (Variable de filtro)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Assign an unique number to this Condition to reference it in the Product Rule&apos;s Advanced Condition. --></help>
+        <label>Índice</label>
+        <name>SBQQ__Index__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the operator to use when evaluating your tested selection. --></help>
+        <label>Operador</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation><!-- ends with --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation><!-- greater or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation><!-- less or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation><!-- starts with --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ParentRuleIsActive</label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <label>RuleTargetsQuote</label>
+        <name>SBQQ__RuleTargetsQuote__c</name>
+    </fields>
+    <fields>
+        <help><!-- Parent rule for this condition (that runs this condition). --></help>
+        <label>Regla</label>
+        <name>SBQQ__Rule__c</name>
+        <relationshipLabel>Condiciones de error</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Used to identify the specific attribute if the Tested Field is a global Configuration Attribute field. --></help>
+        <label>Atributo probado</label>
+        <name>SBQQ__TestedAttribute__c</name>
+        <relationshipLabel>Condiciones de error</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Field on the Quote object that should be used in testing this condition. --></help>
+        <label>Campo probado</label>
+        <name>SBQQ__TestedField__c</name>
+        <picklistValues>
+            <masterLabel>Group Line Items</masterLabel>
+            <translation><!-- Group Line Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation><!-- Unit Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify the object that contains the tested field. --></help>
+        <label>Objeto probado</label>
+        <name>SBQQ__TestedObject__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attributes</masterLabel>
+            <translation><!-- Configuration Attributes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Option</masterLabel>
+            <translation><!-- Product Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation><!-- Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation><!-- Quote Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line Group</masterLabel>
+            <translation><!-- Quote Line Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgraded Asset</masterLabel>
+            <translation><!-- Upgraded Asset --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the Summary Variable you want this rule to evaluate. --></help>
+        <label>Variable probada</label>
+        <name>SBQQ__TestedVariable__c</name>
+        <relationshipLabel>Condiciones de error (Variable probada)</relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº de condición</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un tipo de filtro &quot;Variable&quot; debe tener una Variable de filtro.</errorMessage>
+        <name>SBQQ__FilterCombinationValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Esta combinación de ProductRule.Scope y ErrorCondition.TestedObject no es válida.</errorMessage>
+        <name>SBQQ__ScopeAndErrorConditionTestedObject</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se requiere Atributo probado ya que Campo probado es un campo de Atributo de configuración global.</errorMessage>
+        <name>SBQQ__Tested_attr_required_if_global_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debe especificar Campo probado o Variable probada.</errorMessage>
+        <name>SBQQ__Tested_field_or_variable_required</name>
+    </validationRules>
+</CustomObjectTranslation>

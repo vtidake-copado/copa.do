@@ -183,6 +183,9 @@
         <fullName>NetApplied</fullName>
     </fields>
     <fields>
+        <fullName>NetPaymentCreditApplied</fullName>
+    </fields>
+    <fields>
         <fullName>NetRefundApplied</fullName>
     </fields>
     <fields>
@@ -215,6 +218,12 @@
     </fields>
     <fields>
         <fullName>TotalApplied</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPaymentCreditApplied</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPaymentCreditUnapplied</fullName>
     </fields>
     <fields>
         <fullName>TotalRefundApplied</fullName>

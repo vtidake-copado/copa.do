@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Linha de cotação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Linhas de cotação</value>
+    </caseValues>
+    <fieldSets>
+        <label>ConsumptionSchedule</label>
+        <name>SBQQ__ConsumptionSchedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Editor de linha</label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Campos bloqueados de linha de cotação não atual</label>
+        <name>SBQQ__NonCurrentQuoteLineLockedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Editor de linha segmentado</label>
+        <name>SBQQ__SegmentedLineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Resumo do editor de linha segmentado</label>
+        <name>SBQQ__SegmentedLineEditorSummary</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gaveta de item de linha padrão</label>
+        <name>SBQQ__StandardLineItemDrawer</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Campos de resumo</label>
+        <name>SBQQ__SummaryFields</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Additional customer discount extended on this line item in the form of an absolute amount. --></help>
+        <label>Desc. adicional (Valor)</label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total additional discounts extended to this line item. Additional discount is defined as discount extended on top of volume discount or negotiated prices. --></help>
+        <label>Desc. adicional</label>
+        <name>SBQQ__AdditionalDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional quantity for this product that contributes to volume discount calculations --></help>
+        <label>Quantidade adicional</label>
+        <name>SBQQ__AdditionalQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the asset represented by this line may be refunded. --></help>
+        <label>Permitir reembolsos de ativo</label>
+        <name>SBQQ__AllowAssetRefund__c</name>
+    </fields>
+    <fields>
+        <help><!-- If products are sold in batches, this stores the quantity in each batch, defaulted from the product. --></help>
+        <label>Quantidade do lote</label>
+        <name>SBQQ__BatchQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label>Frequência de faturamento</label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets you bill your customers after the products or services are provided. --></help>
+        <label>Tipo de faturamento</label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Assign a fixed price to a product based on quantity and quantity range. This overrides the automatic calculation of quantity * unit price. --></help>
+        <label>Preço de bloco</label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this line item represents a package; meaning, it includes other line items in this quote. --></help>
+        <label>Pacote</label>
+        <name>SBQQ__Bundle__c</name>
+    </fields>
+    <fields>
+        <help><!-- For items with calculated quantities this field holds the original quantity entered by the user. --></help>
+        <label>Quantidade original</label>
+        <name>SBQQ__BundledQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the product on this line item is bundled (included) by another product in this quote. Bundled lines items have a zero price and do not allow price or quantity to be edited. --></help>
+        <label>Empacotado</label>
+        <name>SBQQ__Bundled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes this line as an auto-selected option of an upgrade bundle. --></help>
+        <label>Linha de transferência</label>
+        <name>SBQQ__CarryoverLine__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of the product charge.  This is a system field that is derived from the associated product. --></help>
+        <label>Tipo de encargo</label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total cost of components in this package. --></help>
+        <label>Custo do componente</label>
+        <name>SBQQ__ComponentCost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fixes additional discount for this component to the parent package discount. --></help>
+        <label>Componente descontado por pacote</label>
+        <name>SBQQ__ComponentDiscountedByPackage__c</name>
+    </fields>
+    <fields>
+        <help><!-- List total of components in this configuration. This field is only populated if this line item references a configurable product. --></help>
+        <label>Total da lista do componente</label>
+        <name>SBQQ__ComponentListTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percent of Total scope set at the component level. This field overrides the Percent of Total scope copied from the Product Option. --></help>
+        <label>Escopo do percentual do total componente</label>
+        <name>SBQQ__ComponentSubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Components</masterLabel>
+            <translation><!-- Components --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entire Hierarchy</masterLabel>
+            <translation><!-- Entire Hierarchy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package</masterLabel>
+            <translation><!-- Package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Package &amp; Components</masterLabel>
+            <translation><!-- Package &amp; Components --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Sum total of components in this configuration. This field is only populated if this line item references a configurable product. --></help>
+        <label>Total líquido do componente</label>
+        <name>SBQQ__ComponentTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fixes uplift for this component to the parent package uplift. Uplift only applies to multi-segmented products. --></help>
+        <label>Componente com aumento por pacote</label>
+        <name>SBQQ__ComponentUpliftedByPackage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the visibility of the component line item. --></help>
+        <label>Visibilidade do componente</label>
+        <name>SBQQ__ComponentVisibility__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount rate compounded by quantity (historic). --></help>
+        <label>Desconto composto (%)</label>
+        <name>SBQQ__CompoundDiscountRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag that marks this quote line as requiring configuration. Can be used by custom code to request this product be re-configured. --></help>
+        <label>Configuração necessária</label>
+        <name>SBQQ__ConfigurationRequired__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contracted price if the product has negotiated pricing for the opportunity&apos;s account. Contracted Prices are available on the Account and can be applied to any product in any price book. --></help>
+        <label>Preço contratado</label>
+        <name>SBQQ__ContractedPrice__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specifies whether cost can be edited on this line item. --></help>
+        <label>Custo editável</label>
+        <name>SBQQ__CostEditable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost record for this line item. --></help>
+        <label>Custo</label>
+        <name>SBQQ__Cost__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Customer unit price for the product quoted by this line item. This is the Net Unit Price excluding any partner discounts. --></help>
+        <label>Preço unitário do cliente</label>
+        <name>SBQQ__CustomerPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer total price for this quote line item. This is the Net Total excluding any partner discounts. --></help>
+        <label>Total do cliente</label>
+        <name>SBQQ__CustomerTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Term length of the subscription, which only applies if the product is a subscription. It is copied from the Subscription Term of the related product when the line item is first generated. --></help>
+        <label>Termo da assinatura padrão</label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description for this line item. --></help>
+        <label>Descrição</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dimensions within an MDQ Product that all each segment to be priced independently. Each Product may contain several Price Dimensions. Yearly Price Dimensions are treated as Subscriptions. --></help>
+        <label>Dimensão de preço</label>
+        <name>SBQQ__Dimension__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount schedule type. Copied from Type field in associated discount schedule. --></help>
+        <label>Tipo de cronograma de descontos</label>
+        <name>SBQQ__DiscountScheduleType__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation><!-- Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation><!-- Slab --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specify discounts in terms of % or Amt to be discounted off the product&apos;s price using quantity purchased or term. Set quantity/term ranges in tiers of different discount %. Discount is applied to List Price &amp; resulting total is stored in the Regular Price --></help>
+        <label>Cronograma de descontos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount tier used by this line item. This field is only populated if a volume discount was applied and the discount schedule is of type &quot;Range&quot;. --></help>
+        <label>Nível de desconto</label>
+        <name>SBQQ__DiscountTier__c</name>
+        <relationshipLabel>Linhas de cotação (com desconto por volume)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Additional customer discount extended to this line item expressed in form of a percentage. --></help>
+        <label>Desc. adicional (%)</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a discount that is applied to partner price and reflected in the net price. --></help>
+        <label>Desconto de distribuidor</label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies feature and dynamic option for this line. --></help>
+        <label>ID de opção dinâmica</label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The earliest valid start date for this amendment quote line. --></help>
+        <label>Primeira data inicial válida da alteraç.</label>
+        <name>SBQQ__EarliestValidAmendmentStartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Effective end date for this subscription. --></help>
+        <label>Data final efetiva</label>
+        <name>SBQQ__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Effective quantity used in computing totals. Same as quantity unless the product is block priced, covered by &quot;Slab&quot; discount schedule, or an existing subscription. --></help>
+        <label>Quantidade efetiva</label>
+        <name>SBQQ__EffectiveQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Effective start date for this subscription. --></help>
+        <label>Data inicial efetiva</label>
+        <name>SBQQ__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Effective term for this subscription. --></help>
+        <label>Termo de assinatura efetivo</label>
+        <name>SBQQ__EffectiveSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the service represented by this line item will end (only applies if product is a subscription). --></help>
+        <label>Data final</label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the customer already owns this product. This is typically used for products with options during add-on quoting. The product is on the quote solely to drive the Configurator. --></help>
+        <label>Existente</label>
+        <name>SBQQ__Existing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Favorite to which this Quote Line belongs. --></help>
+        <label>Favorito</label>
+        <name>SBQQ__Favorite__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Will generate a contracted price based on the adjusted quote line if flagged. --></help>
+        <label>Gerar preço contratado</label>
+        <name>SBQQ__GenerateContractedPrice__c</name>
+        <picklistValues>
+            <masterLabel>Discount Schedule</masterLabel>
+            <translation><!-- Discount Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Generate</masterLabel>
+            <translation><!-- Do Not Generate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Gross profit amount on this line item. --></help>
+        <label>Lucro bruto</label>
+        <name>SBQQ__GrossProfit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Group to which this line belongs, if any. --></help>
+        <label>Grupo</label>
+        <name>SBQQ__Group__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price. --></help>
+        <label>Guia</label>
+        <name>SBQQ__Guidance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if this line has at least one consumption schedule --></help>
+        <label>Tem Agendas de consumo</label>
+        <name>SBQQ__HasConsumptionSchedule__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes whether this line item is hidden in generated PDF documents. --></help>
+        <label>Oculto</label>
+        <name>SBQQ__Hidden__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag set internally by application logic when a line is saved to an incomplete database. This may happen when price rules are evaluated. Test this field in validation rules to avoid them firing prematurely. Do NOT add to page layout or otherwise update. --></help>
+        <label>Incompleto</label>
+        <name>SBQQ__Incomplete__c</name>
+    </fields>
+    <fields>
+        <help><!-- List unit price for the product quoted by this line item. List Price originates from the price book. --></help>
+        <label>Preço unitário de lista</label>
+        <name>SBQQ__ListPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- List total price for this quote line item. --></help>
+        <label>Total de lista</label>
+        <name>SBQQ__ListTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Markup amount for this line item. --></help>
+        <label>Aumento (Valor)</label>
+        <name>SBQQ__MarkupAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Markup on this line item expressed as a percentage. --></help>
+        <label>Aumento (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Markup amount on this item. This value is automatically calculated by applying markup rate or absolute amount to the product cost. --></help>
+        <label>Aumento</label>
+        <name>SBQQ__Markup__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maximum list unit price for this product. Used to enforce list price ceiling for products with dynamically calculated list prices. --></help>
+        <label>Preço unitário de lista máximo</label>
+        <name>SBQQ__MaximumPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Minimum list unit price for this product. Used to enforce list price floor for products with dynamically calculated list prices. --></help>
+        <label>Preço unitário de lista mínimo</label>
+        <name>SBQQ__MinimumPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Net unit price for the product quoted by this line item. --></help>
+        <label>Preço unitário líquido</label>
+        <name>SBQQ__NetPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Net total price for this quote line item. --></help>
+        <label>Total líquido</label>
+        <name>SBQQ__NetTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks this line item as non-discountable. --></help>
+        <label>Não descontável</label>
+        <name>SBQQ__NonDiscountable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to make this line item non discountable for partners. --></help>
+        <label>Não descontável para parceiro</label>
+        <name>SBQQ__NonPartnerDiscountable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number indicating this line&apos;s position within its group or quote. --></help>
+        <label>Número</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount extended on this product because it&apos;s part of a package. --></help>
+        <label>Desconto de opção (Valor)</label>
+        <name>SBQQ__OptionDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this line is for an optional SKU, this field captures any discount given to the package and extended to the option. --></help>
+        <label>Desconto de opção (%)</label>
+        <name>SBQQ__OptionDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates nest level of this option (only applies to lines that are generated from options). --></help>
+        <label>Nível de opção</label>
+        <name>SBQQ__OptionLevel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the Option Type, which is copied from related Product Option. Determines how quantity is calculated. --></help>
+        <label>Tipo de opção</label>
+        <name>SBQQ__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation><!-- Accessory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation><!-- Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation><!-- Related Product --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Marks this line as optional. Optional line items don&apos;t contribute to quote totals and are not transferred to the Opportunity. --></help>
+        <label>Opcional</label>
+        <name>SBQQ__Optional__c</name>
+    </fields>
+    <fields>
+        <help><!-- The original unit price for the product quoted by this line item.  Original Price originates from the price book. --></help>
+        <label>Preço original</label>
+        <name>SBQQ__OriginalPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- The id of the original quote line which this line was derived from. --></help>
+        <label>ID da linha de cotação original</label>
+        <name>SBQQ__OriginalQuoteLineId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost for one unit of product quoted on this line item if Cost Schedules were not applied. --></help>
+        <label>Custo unitário original</label>
+        <name>SBQQ__OriginalUnitCost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total cost for this package including the cost of its components. --></help>
+        <label>Custo do pacote</label>
+        <name>SBQQ__PackageCost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total list price of this package including its components. --></help>
+        <label>Total da lista do pacote</label>
+        <name>SBQQ__PackageListTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- A code listing each of this package&apos;s components based on their component codes. --></help>
+        <label>Código do produto do pacote</label>
+        <name>SBQQ__PackageProductCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- A description of each component in this package. --></help>
+        <label>Descrição do produto do pacote</label>
+        <name>SBQQ__PackageProductDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total price of this package including its components. --></help>
+        <label>Total do pacote</label>
+        <name>SBQQ__PackageTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- If your organization sells through a channel/VARI, a Partner Discount on a quote or individual product line item can be given. Partner discounts are applied after all automatic and discretionary discounts. --></help>
+        <label>Desconto de parceiro</label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Partner unit price. Price after partner discount but before distributor discount. --></help>
+        <label>Preço unitário do parceiro</label>
+        <name>SBQQ__PartnerPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total of the Partner Discount. --></help>
+        <label>Total do parceiro</label>
+        <name>SBQQ__PartnerTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- When set, this value takes the place of the previous segment&apos;s regular price when calculating Uplift for this segment. --></help>
+        <label>Preço regular do segmento anterior</label>
+        <name>SBQQ__PreviousSegmentPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- When set, this value takes the place of the previous segment&apos;s uplift amount when calculating Uplift for this segment. --></help>
+        <label>Aumento do segmento anterior</label>
+        <name>SBQQ__PreviousSegmentUplift__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag that indicates if price is editable for this line item. --></help>
+        <label>Preço editável</label>
+        <name>SBQQ__PriceEditable__c</name>
+    </fields>
+    <fields>
+        <label>ID da entrada do catálogo de preços</label>
+        <name>SBQQ__PricebookEntryId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag indicating if this line item&apos;s price is editable. --></help>
+        <label>Método de precificação editável</label>
+        <name>SBQQ__PricingMethodEditable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates how the price for this line item is calculated. &quot;List&quot; = subtracting discount from list price. &quot;Cost&quot; = adding markup to cost. --></help>
+        <label>Método de precificação</label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation><!-- Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation><!-- Percent Of Total --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Combined quantity of this product from prior purchases. --></help>
+        <label>Quantidade anterior</label>
+        <name>SBQQ__PriorQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Code for the product referenced by this line. --></help>
+        <label>Código do produto</label>
+        <name>SBQQ__ProductCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- How you would categorize/group/organize this within Salesforce (whether it&apos;s a new or existing Product Family). Additionally, this field can be used during product selection to filter to the correct product or product SKU. --></help>
+        <label>Família de produtos</label>
+        <name>SBQQ__ProductFamily__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name for the product referenced by this line item. --></help>
+        <label>Nome do produto</label>
+        <name>SBQQ__ProductName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product option that generated this line (if any). --></help>
+        <label>Opção de produto</label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Set the quote line&apos;s product subscription type. --></help>
+        <label>Tipo de assinatura do produto</label>
+        <name>SBQQ__ProductSubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product quoted by this line item. --></help>
+        <label>Produto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Calculated ratio used to compute Prorated Price. --></help>
+        <label>Multiplicador proporcional</label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prorated list unit price. --></help>
+        <label>Preço de lista proporcional</label>
+        <name>SBQQ__ProratedListPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prorated price for the product quoted by this line item. This price will only differ from Special Price if the product is a subscription and the line item is being prorated. --></help>
+        <label>Preço unitário proporcional</label>
+        <name>SBQQ__ProratedPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quantity being quoted. --></help>
+        <label>Quantidade</label>
+        <name>SBQQ__Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote to which this line item belongs. --></help>
+        <label>Cotação</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unit price before additional discount. --></help>
+        <label>Preço unitário regular</label>
+        <name>SBQQ__RegularPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unit price before additional discount multiplied by quantity. --></help>
+        <label>Total regular</label>
+        <name>SBQQ__RegularTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates this line item represents a product being renewed. This field should not be modified. --></help>
+        <label>Renovação</label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset being renewed if this line item represents product renewal. --></help>
+        <label>Ativo renovado</label>
+        <name>SBQQ__RenewedAsset__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Subscription being renewed by this quote line. --></help>
+        <label>Assinatura renovada</label>
+        <name>SBQQ__RenewedSubscription__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates which other product on this quote requires it. --></help>
+        <label>Exigido por</label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel>Linhas de cotação</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, Index representing this Quote Line&apos;s position in the segment table. --></help>
+        <label>Índice do segmento</label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is a shared key used to group multi-dimensional Quote Lines together. --></help>
+        <label>Chave do segmento</label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- For multi-segmented Products, this is the Column header label (e.g. &quot;Year 1&quot;) associated with this line. --></help>
+        <label>Rótulo do segmento</label>
+        <name>SBQQ__SegmentLabel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Source of cloned quote line. --></help>
+        <label>Origem</label>
+        <name>SBQQ__Source__c</name>
+        <relationshipLabel>Linhas de cotação (Origem)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Name of the Discount Tier or Contacted Price applied to achieve the special price for this line item. --></help>
+        <label>Descrição de preço especial</label>
+        <name>SBQQ__SpecialPriceDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores the type of special price offered on this line item. Null value indicates there is no special pricing. --></help>
+        <label>Tipo de preço especial</label>
+        <name>SBQQ__SpecialPriceType__c</name>
+        <picklistValues>
+            <masterLabel>Contracted Price</masterLabel>
+            <translation><!-- Contracted Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Special unit price for this line item, such as volume discount or contracted price. --></help>
+        <label>Preço especial</label>
+        <name>SBQQ__SpecialPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the subscription for this product begins. --></help>
+        <label>Data inicial</label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of assets covered by this subscription line item. Do not update unless instructed. --></help>
+        <label>IDs do ativo assinado</label>
+        <name>SBQQ__SubscribedAssetIds__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determines whether Percent of Total is calculated off List or Net product prices. --></help>
+        <label>Base de percentual do total</label>
+        <name>SBQQ__SubscriptionBase__c</name>
+    </fields>
+    <fields>
+        <help><!-- Category defined on the product to limit percent-of-total calculations to certain products. Copied from the product record. --></help>
+        <label>Categoria de percentual do total</label>
+        <name>SBQQ__SubscriptionCategory__c</name>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Percent of Total to be used when calculating this line item price. --></help>
+        <label>Percentual do total (%)</label>
+        <name>SBQQ__SubscriptionPercent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Method of calculating the subscription price. A blank value indicates that the line item isn&apos;t a subscription product. --></help>
+        <label>Precificação de assinatura</label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Price</masterLabel>
+            <translation><!-- Fixed Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation><!-- Percent Of Total --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates how percent of total prices are calculated: Quote uses all the non-subscription and include in percent of total products in the quote while Group uses only non-subscription products and include in percent of total products in the same group. --></help>
+        <label>Escopo do percentual do total</label>
+        <name>SBQQ__SubscriptionScope__c</name>
+        <picklistValues>
+            <masterLabel>Group</masterLabel>
+            <translation><!-- Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation><!-- Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Price of the target product on which percent of total should calculate. --></help>
+        <label>Preço de destino do percentual do total</label>
+        <name>SBQQ__SubscriptionTargetPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Term for this subscription. If this product is not a subscription this value has no effect. --></help>
+        <label>Termo da assinatura</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates the subscription type to determine contract&apos;s pricing. --></help>
+        <label>Tipo de assinatura</label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the tax code for taxation rules. --></help>
+        <label>Código tributário</label>
+        <name>SBQQ__TaxCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the line item is taxable --></help>
+        <label>Tributável</label>
+        <name>SBQQ__Taxable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Schedule for discounts based on subscription term. Setting this to &quot;Group&quot; applies the discount rate for the group term, while setting it to &quot;Quote&quot; applies the discount rate for the entire quote term, regardless of the different terms in your groups. --></help>
+        <label>Cronograma de descontos do termo</label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel>Linhas de cotação (Termo com desconto)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Tier within the term discount schedule used to discount this line item. --></help>
+        <label>Nível de desconto do termo</label>
+        <name>SBQQ__TermDiscountTier__c</name>
+        <relationshipLabel>Linhas de cotação (Termo com desconto)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount calculated by applying subscription term against term discount schedule. --></help>
+        <label>Desconto do termo</label>
+        <name>SBQQ__TermDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total discount amount for this line item including volume discount, contracted discount, and additional discount. --></help>
+        <label>Desconto total (Valor)</label>
+        <name>SBQQ__TotalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total discount for this line item including volume discount, contracted discount, and additional discount. --></help>
+        <label>Desconto total (%)</label>
+        <name>SBQQ__TotalDiscountRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost for one unit of product quoted on this line item. --></help>
+        <label>Custo unitário</label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields>
+    <fields>
+        <help><!-- The full term net price for individual line. --></help>
+        <label>Preço líquido não proporcional</label>
+        <name>SBQQ__UnproratedNetPrice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Asset being upgraded by this quote line. When the quote is contracted this asset will have its Usage End Date populated to indicate it&apos;s retired. --></help>
+        <label>Ativo atualizado</label>
+        <name>SBQQ__UpgradedAsset__c</name>
+        <relationshipLabel>Linhas de cotação (Atualização)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Portion of this line&apos;s Prior Quantity being upgraded to another product. --></help>
+        <label>Quantidade com atualização</label>
+        <name>SBQQ__UpgradedQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription being upgraded by this quote line. When the quote is contracted this subscription will have its Terminated Date field populated. --></help>
+        <label>Assinatura com atualização</label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel>Linhas de cotação (Atualização)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Uplift (Amt) is measured as a currency amount. This is a system-calculated field, as Uplift can only be applied to MDQ segments in percent. --></help>
+        <label>Aumento (Valor)</label>
+        <name>SBQQ__UpliftAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Uplift is applied as a % against the previous year&apos;s price; the resulting price is entered into the Regular Price field on top of Special or Contracted Prices. Uplifts compound year after year. Uplift cannot be applied to the 1st Year of any Subscription. --></help>
+        <label>Aumento</label>
+        <name>SBQQ__Uplift__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify volume discounts based on a % of the product&apos;s price to be discounted using the quantity purchased or term. You can set the quantity or term ranges in tiers of different discount %. You can also apply discount schedules to Subscription Term. --></help>
+        <label>Desconto por volume</label>
+        <name>SBQQ__VolumeDiscount__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da linha</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Você não pode especificar desconto adicional tanto como percentual quanto como valor absoluto.</errorMessage>
+        <name>SBQQ__Additional_discount_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O termo da assinatura deve ser um número positivo.</errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Você não pode especificar aumento tanto como percentual quanto como valor absoluto.</errorMessage>
+        <name>SBQQ__Markup_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Tipo de encargo é Recorrente, um Tipo de faturamento deve ser selecionado.</errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Tipo de encargo é Ocorrência única, não é possível selecionar um valor de Frequência de faturamento.</errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Quando o Tipo de encargo é Ocorrência única ou Uso, não é possível selecionar um valor de Tipo de faturamento.</errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <webLinks>
+        <label>Cálculo de cotação</label>
+        <name>SBQQ__CalculateQuoteFromQuoteLine</name>
+    </webLinks>
+</CustomObjectTranslation>

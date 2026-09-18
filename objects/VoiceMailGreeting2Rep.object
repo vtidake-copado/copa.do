@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>IsDefault</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OwnerType</fullName>
+    </fields>
+    <fields>
+        <fullName>RepId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sequence</fullName>
+    </fields>
+    <fields>
+        <fullName>VoiceMailGreeting2Id</fullName>
+        <type>Lookup</type>
+    </fields>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

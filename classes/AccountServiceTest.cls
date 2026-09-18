@@ -13,6 +13,7 @@ private class AccountServiceTest {
         List<Account> techAccounts = AccountService.getAccountsByIndustry('Technology');
         Test.stopTest();
 
+        // Assets
         System.assertEquals(1, techAccounts.size(), 'Should return only Technology accounts');
         System.assertEquals('Tech Corp', techAccounts[0].Name, 'Account name should match');
         

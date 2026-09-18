@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Document de devis</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documents de devis</value>
+    </caseValues>
+    <fields>
+        <help><!-- ID of attachment record generated for this document. --></help>
+        <label>ID de la pièce jointe</label>
+        <name>SBQQ__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer amount on the quote at the time this document was generated. --></help>
+        <label>Montant du client</label>
+        <name>SBQQ__CustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- ID of the Document record which contains its generated PDF. --></help>
+        <label>ID du document</label>
+        <name>SBQQ__DocumentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field for the document to be signed electronically. --></help>
+        <label>Signature électronique</label>
+        <name>SBQQ__ElectronicSignature__c</name>
+    </fields>
+    <fields>
+        <help><!-- Key used to ensure unique combination of quote ID and version number. --></help>
+        <label>Clé</label>
+        <name>SBQQ__Key__c</name>
+    </fields>
+    <fields>
+        <help><!-- List amount of the quote at the time this document was generated. --></help>
+        <label>Montant catalogue</label>
+        <name>SBQQ__ListAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Net amount on the quote at the time this document was generated. --></help>
+        <label>Montant net</label>
+        <name>SBQQ__NetAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the Opportunity that parents the Quote for this document. --></help>
+        <label>Opportunité</label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel>Documents de devis</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Choose the output format for this document. --></help>
+        <label>Format de sortie</label>
+        <name>SBQQ__OutputFormat__c</name>
+        <picklistValues>
+            <masterLabel>MS Word</masterLabel>
+            <translation><!-- MS Word --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation><!-- PDF --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Choose the paper size for this document. --></help>
+        <label>Format de papier</label>
+        <name>SBQQ__PaperSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- References the primary contact for the quote to be used on the Email button, which defaults the To field. --></help>
+        <label>ID du contact principal</label>
+        <name>SBQQ__PrimaryContactId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote Template that generated this document. --></help>
+        <label>Modèle de devis</label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel>Documents de devis</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Quote to which this Quote Document belongs. --></help>
+        <label>Devis</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Documents de devis</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Status of electronic signature. --></help>
+        <label>Statut de signature</label>
+        <name>SBQQ__SignatureStatus__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revoked</masterLabel>
+            <translation><!-- Revoked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation><!-- Signed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Name of the template used to generate this document. --></help>
+        <label>Modèle</label>
+        <name>SBQQ__Template__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sequentially incremented version number. --></help>
+        <label>Version</label>
+        <name>SBQQ__Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allows user to view the Quote Document Record Id. --></help>
+        <label>Afficher l&apos;ID de l&apos;enregistrement</label>
+        <name>SBQQ__ViewRecordId__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du document</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label>Envoyer par e-mail</label>
+        <name>SBQQ__Email</name>
+    </webLinks>
+    <webLinks>
+        <label>Afficher</label>
+        <name>SBQQ__View</name>
+    </webLinks>
+</CustomObjectTranslation>

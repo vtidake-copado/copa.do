@@ -87,6 +87,9 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>AutomationType</fullName>
+    </fields>
+    <fields>
         <fullName>BccAddress</fullName>
     </fields>
     <fields>
@@ -135,6 +138,9 @@
     <fields>
         <fullName>RelatedToId</fullName>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Source</fullName>
     </fields>
     <fields>
         <fullName>Status</fullName>

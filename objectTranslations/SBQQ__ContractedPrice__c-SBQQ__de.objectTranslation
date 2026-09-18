@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Vertragspreis</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Vertragspreise</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Vertragspreis</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Vertragspreise</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Vertragspreises</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Vertragspreise</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Vertragspreis</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Vertragspreisen</value>
+    </caseValues>
+    <fields>
+        <help><!-- Account for which this price was negotiated. --></help>
+        <label>Account</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Vertragspreise</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sales contract that governs this price. --></help>
+        <label>Vertrag</label>
+        <name>SBQQ__Contract__c</name>
+        <relationshipLabel>Vertragspreise</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Description for this Contracted Price. This will be copied into &quot;Special Price Description&quot; of Quote line items using this price. --></help>
+        <label>Beschreibung</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volume discount schedule to use for this product with this customer. --></help>
+        <label>Rabattregelung</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Vertragspreise</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount off the Price Book price (percent) represented by this Contracted Price. Either this field or Price should be set but not both. --></help>
+        <label>Rabatt</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date this contracted price becomes effective. --></help>
+        <label>Datum des Inkrafttretens</label>
+        <name>SBQQ__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date this contracted price expires. --></help>
+        <label>Ablaufdatum</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a field to use in a filter, such as Product Family, if you want to apply this price to a set of products. If you are using a custom field, add the API name to the Filter Field as a picklist value. --></help>
+        <label>Filterfeld</label>
+        <name>SBQQ__FilterField__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation><!-- Product Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation><!-- Product Family --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Value the filter field is tested against to determine if this contracted price should apply. --></help>
+        <label>Filterwert</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to disallow further discounting of this product. --></help>
+        <label>Nicht rabattfähig</label>
+        <name>SBQQ__NonDiscountable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the operate to use when matching the contents of the Filter Field with the Filter Value. --></help>
+        <label>Operator</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation><!-- ends with --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation><!-- greater or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation><!-- less or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Quote Line that originated this Contracted Price. --></help>
+        <label>Ursprünglicher Angebotsbelegposten</label>
+        <name>SBQQ__OriginalQuoteLine__c</name>
+        <relationshipLabel>Vertragspreise</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the price that has been negotiated with the customer. This value will override any other price such as the one from a price book or a volume-discounted price. --></help>
+        <label>Preis</label>
+        <name>SBQQ__Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a product from any price book that you want to apply to this discount. --></help>
+        <label>Produkt</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Vertragspreise</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Vertragspreisnummer</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Sie müssen entweder für &quot;Rabatt&quot;, &quot;Preis&quot; oder &quot;Rabattregelung&quot; eine Angabe machen.</errorMessage>
+        <name>SBQQ__Discount_or_price_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie dürfen nicht sowohl ein Produkt als auch einen Filter festlegen.</errorMessage>
+        <name>SBQQ__Either_product_or_filter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wenn &quot;Filterfeld&quot; festgelegt wird, muss ein Operator angegeben werden.</errorMessage>
+        <name>SBQQ__Filter_requires_operators</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie müssen entweder ein Produkt oder ein Filterfeld angeben.</errorMessage>
+        <name>SBQQ__Product_or_filter_required</name>
+    </validationRules>
+</CustomObjectTranslation>

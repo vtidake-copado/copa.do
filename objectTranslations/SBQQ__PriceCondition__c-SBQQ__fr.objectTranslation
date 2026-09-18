@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condition de prix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Conditions de prix</value>
+    </caseValues>
+    <fields>
+        <help><!-- Choose a field on the target object. --></help>
+        <label>Champ</label>
+        <name>SBQQ__Field__c</name>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation><!-- Product Code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a formula with operators, functions, and available fields on quote and target object. Not supported on legacy calculator. --></help>
+        <label>Formule de filtrage</label>
+        <name>SBQQ__FilterFormula__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose Variable to evaluate this condition against a Summary Variable; otherwise, choose Value. --></help>
+        <label>Type de filtre</label>
+        <name>SBQQ__FilterType__c</name>
+        <picklistValues>
+            <masterLabel>Formula</masterLabel>
+            <translation><!-- Formula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation><!-- Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation><!-- Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the Summary Variable you want this condition to use as a filter. --></help>
+        <label>Variable de filtrage</label>
+        <name>SBQQ__FilterVariable__c</name>
+        <relationshipLabel>Conditions de prix filtrées</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Assign an unique number to this Condition to reference it in the Price Rule&apos;s Advanced Condition. --></help>
+        <label>Index</label>
+        <name>SBQQ__Index__c</name>
+    </fields>
+    <fields>
+        <help><!-- Object against which the condition is evaluated. --></help>
+        <label>Objet</label>
+        <name>SBQQ__Object__c</name>
+        <picklistValues>
+            <masterLabel>Configuration Attribute</masterLabel>
+            <translation><!-- Configuration Attribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Option</masterLabel>
+            <translation><!-- Product Option --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation><!-- Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line</masterLabel>
+            <translation><!-- Quote Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary Variable</masterLabel>
+            <translation><!-- Summary Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the operator to apply when comparing the Field with the Value. --></help>
+        <label>Opérateur</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation><!-- ends with --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation><!-- greater or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation><!-- less or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>starts with</masterLabel>
+            <translation><!-- starts with --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ParentRuleIsActive</label>
+        <name>SBQQ__ParentRuleIsActive__c</name>
+    </fields>
+    <fields>
+        <label>RuleTargetsCalculator</label>
+        <name>SBQQ__RuleTargetsCalculator__c</name>
+    </fields>
+    <fields>
+        <help><!-- Price rule running this condition. --></help>
+        <label>Règle de prix</label>
+        <name>SBQQ__Rule__c</name>
+        <relationshipLabel>Conditions de prix</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter a formula with operators, functions, and available fields on quote and target object. Not supported on legacy calculator. --></help>
+        <label>Formule testée</label>
+        <name>SBQQ__TestedFormula__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summary variable tested by this price condition. --></help>
+        <label>Variable testée</label>
+        <name>SBQQ__TestedVariable__c</name>
+        <relationshipLabel>Conditions de prix (Variable testée)</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the value you want to match in the field you selected using the operator chosen. --></help>
+        <label>Valeur de filtrage</label>
+        <name>SBQQ__Value__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>N° de condition</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>L’attribut de configuration en tant qu’objet testé est autorisé uniquement dans les règles de prix du configurateur.</errorMessage>
+        <name>SBQQ__Config_attr_config_scoped_price_rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’attribut de configuration en tant qu’objet testé ne peut pas être évalué par rapport à une formule.</errorMessage>
+        <name>SBQQ__Config_attr_tested_object_with_formula</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Si Type de filtre est Formule, la formule de filtrage ne peut pas être vide.</errorMessage>
+        <name>SBQQ__Filter_formula_field_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vous devez spécifier un champ testé ou une variable testée.</errorMessage>
+        <name>SBQQ__Tested_field_or_variable</name>
+    </validationRules>
+</CustomObjectTranslation>

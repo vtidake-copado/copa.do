@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Producto favorito</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Producto favorito</value>
+    </caseValues>
+    <fields>
+        <label>Atributos de configuración</label>
+        <name>SBQQ__ConfigurationAttributes__c</name>
+    </fields>
+    <fields>
+        <label>Programación de descuentos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Producto favorito</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Identifies feature and dynamic option for this line. --></help>
+        <label>Id. de Opción dinámica</label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields>
+    <fields>
+        <label>Favorito</label>
+        <name>SBQQ__Favorite__c</name>
+        <relationshipLabel>Producto favorito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Opción de producto</label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel>Producto favorito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Producto favorito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cantidad</label>
+        <name>SBQQ__Quantity__c</name>
+    </fields>
+    <fields>
+        <label>Requerido por</label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel>Producto favorito</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de producto favorito</nameFieldLabel>
+</CustomObjectTranslation>

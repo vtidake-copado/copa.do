@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Precio contratado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Precios contratados</value>
+    </caseValues>
+    <fields>
+        <help><!-- Account for which this price was negotiated. --></help>
+        <label>Cuenta</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Precios contratados</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sales contract that governs this price. --></help>
+        <label>Contrato</label>
+        <name>SBQQ__Contract__c</name>
+        <relationshipLabel>Precios contratados</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Description for this Contracted Price. This will be copied into &quot;Special Price Description&quot; of Quote line items using this price. --></help>
+        <label>Descripción</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Volume discount schedule to use for this product with this customer. --></help>
+        <label>Programación de descuentos</label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel>Precios contratados</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount off the Price Book price (percent) represented by this Contracted Price. Either this field or Price should be set but not both. --></help>
+        <label>Descuento</label>
+        <name>SBQQ__Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date this contracted price becomes effective. --></help>
+        <label>Fecha efectiva</label>
+        <name>SBQQ__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date this contracted price expires. --></help>
+        <label>Fecha de caducidad</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a field to use in a filter, such as Product Family, if you want to apply this price to a set of products. If you are using a custom field, add the API name to the Filter Field as a picklist value. --></help>
+        <label>Campo de filtro</label>
+        <name>SBQQ__FilterField__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Code</masterLabel>
+            <translation><!-- Product Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Family</masterLabel>
+            <translation><!-- Product Family --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Value the filter field is tested against to determine if this contracted price should apply. --></help>
+        <label>Valor de filtro</label>
+        <name>SBQQ__FilterValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to disallow further discounting of this product. --></help>
+        <label>Sin descuento</label>
+        <name>SBQQ__NonDiscountable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the operate to use when matching the contents of the Filter Field with the Filter Value. --></help>
+        <label>Operador</label>
+        <name>SBQQ__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ends with</masterLabel>
+            <translation><!-- ends with --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equals</masterLabel>
+            <translation><!-- greater or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equals</masterLabel>
+            <translation><!-- less or equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Quote Line that originated this Contracted Price. --></help>
+        <label>Partida de presupuesto original</label>
+        <name>SBQQ__OriginalQuoteLine__c</name>
+        <relationshipLabel>Precios contratados</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the price that has been negotiated with the customer. This value will override any other price such as the one from a price book or a volume-discounted price. --></help>
+        <label>Precio</label>
+        <name>SBQQ__Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a product from any price book that you want to apply to this discount. --></help>
+        <label>Producto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Precios contratados</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número de precio contratado</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Deberá ingresar Descuento, Precio o Programación de descuentos.</errorMessage>
+        <name>SBQQ__Discount_or_price_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No podrá especificar un producto y un filtro.</errorMessage>
+        <name>SBQQ__Either_product_or_filter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se requiere un operador cuando se especifica Campo de filtro.</errorMessage>
+        <name>SBQQ__Filter_requires_operators</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debe especificar un producto o un campo de filtro</errorMessage>
+        <name>SBQQ__Product_or_filter_required</name>
+    </validationRules>
+</CustomObjectTranslation>

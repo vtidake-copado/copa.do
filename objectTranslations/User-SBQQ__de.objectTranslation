@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado License Manager --></label>
+        <name>copado__License_Manager</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Activated/Deactivated By --></label>
+        <name>Activated_Deactivated_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activation/Deactivation Date --></label>
+        <name>Activation_Deactivation_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customize default tab in Product Lookup page. --></help>
+        <label>Stand. Produktnachschlage-Registerkarte</label>
+        <name>SBQQ__DefaultProductLookupTab__c</name>
+        <picklistValues>
+            <masterLabel>Guided Selling</masterLabel>
+            <translation><!-- Guided Selling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Filters</masterLabel>
+            <translation><!-- Search Filters --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use to enable CPQ Diagnostic Tool, only available if org setting is enabled. Contact support to enable this capability. --></help>
+        <label>Diagnose-Tool aktivieren</label>
+        <name>SBQQ__DiagnosticToolEnabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to allow this user to change output format of quote documents. --></help>
+        <label>Ausgabeformatänderung zulassen</label>
+        <name>SBQQ__OutputFormatChangeAllowed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select &quot;Followed&quot; to display products you follow in Chatter before others when adding to quote. --></help>
+        <label>Bevorzugte Produktsortierung</label>
+        <name>SBQQ__ProductSortPreference__c</name>
+        <picklistValues>
+            <masterLabel>Followed</masterLabel>
+            <translation><!-- Followed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check to clear search filters and results every time you add products to your quotes. Otherwise, your previous selections are kept. --></help>
+        <label>&quot;Produkt nachschlagen&quot; zurücksetzen</label>
+        <name>SBQQ__ResetProductLookup__c</name>
+    </fields>
+    <fields>
+        <label>Thema</label>
+        <name>SBQQ__Theme__c</name>
+    </fields>
+    <fields>
+        <label><!-- API_URL --></label>
+        <name>copado__API_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- The visibility of the message asking users to rate &amp; feedback Copado on the AppExchange is controlled here. --></help>
+        <label><!-- Hide Copado feedback --></label>
+        <name>copado__Hide_Copado_feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Copado Tips --></label>
+        <name>copado__Show_Copado_Tips__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Manager Panels --></label>
+        <name>copado__Work_Manager_Panels__c</name>
+    </fields>
+    <webLinks>
+        <label>Thema auswählen</label>
+        <name>SBQQ__Select_Theme</name>
+    </webLinks>
+</CustomObjectTranslation>

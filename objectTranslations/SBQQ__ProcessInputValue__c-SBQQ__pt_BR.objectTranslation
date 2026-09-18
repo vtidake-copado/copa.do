@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Valor de entrada do processo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Valores de entrada do processo</value>
+    </caseValues>
+    <fields>
+        <help><!-- Choose the Process Input that the object belongs to. --></help>
+        <label>ID da entrada do processo</label>
+        <name>SBQQ__ProcessInputID__c</name>
+        <relationshipLabel>Valores de entrada do processo</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Id of the Quote that this Process Input Value belongs to. --></help>
+        <label>ID da cotação</label>
+        <name>SBQQ__QuoteId__c</name>
+        <relationshipLabel><!-- Process Input Values --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This Process Input value belongs to the user. --></help>
+        <label>UserID</label>
+        <name>SBQQ__UserID__c</name>
+        <relationshipLabel><!-- Process Input Values --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is the answer to the input process value. --></help>
+        <label>Valor</label>
+        <name>SBQQ__Value__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome do valor do processo de cotação</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Origen de mejora</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Orígenes de mejora</value>
+    </caseValues>
+    <fields>
+        <help><!-- Specify product to upgrade from. --></help>
+        <label>Producto de origen</label>
+        <name>SBQQ__SourceProduct__c</name>
+        <relationshipLabel>Orígenes de mejoras disponibles</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify a ratio for quantity conversion from Upgrade Source to Upgrade Product. e.g. &quot;5:1&quot; indicates that 5 units of Upgrade Source convert to 1 unit of Upgrade Product. If blank, no Upgrade Conversion Rate is enforced. --></help>
+        <label>Índice de conversión de mejoras</label>
+        <name>SBQQ__UpgradeConversionRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the product to upgrade to. --></help>
+        <label>Producto de mejora</label>
+        <name>SBQQ__UpgradeProduct__c</name>
+        <relationshipLabel>Orígenes de mejora</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de origen</nameFieldLabel>
+    <validationRules>
+        <errorMessage>El índice de conversión debe representarse como una relación con el formato &quot;Origen de mejora:Producto de mejora&quot;.</errorMessage>
+        <name>SBQQ__Conversion_Rate_Must_Fit_Ratio_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

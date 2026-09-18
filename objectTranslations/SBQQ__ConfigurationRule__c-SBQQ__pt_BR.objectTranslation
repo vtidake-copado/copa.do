@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regra de configuração</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regras de configuração</value>
+    </caseValues>
+    <fields>
+        <help><!-- Indicates whether this rule should be used in validating configurations. --></help>
+        <label>Ativo</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include parent bundle configuration with the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules. --></help>
+        <label>Nível de condição do pacote pai</label>
+        <name>SBQQ__AscendingNestedLevel__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Allow child bundle configurations up to the specified level to be targeted by this rule&apos;s actions when executing in the configurator for selection rules only. --></help>
+        <label>Nível de ação do pacote filho</label>
+        <name>SBQQ__DescendingActionNesting__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Include child bundle configurations to the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules. --></help>
+        <label>Nível de condição do pacote filho</label>
+        <name>SBQQ__DescendingNestedLevel__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the product feature you want this rule to validate. --></help>
+        <label>Recurso do produto</label>
+        <name>SBQQ__ProductFeature__c</name>
+        <relationshipLabel>Regras de configuração</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the product rule that contains the logic to validate your product configurations. --></help>
+        <label>Regra do produto</label>
+        <name>SBQQ__ProductRule__c</name>
+        <relationshipLabel>Regras de configuração</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the configured product you want this rule to validate. --></help>
+        <label>Produto</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Regras de configuração</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify when this rule should be evaluated. --></help>
+        <label>Evento de avaliação de regra</label>
+        <name>SBQQ__RuleEvaluationEvent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of product rule referenced by this configuration rule. --></help>
+        <label>Tipo de regra</label>
+        <name>SBQQ__RuleType__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da regra</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Há suporte para o nível de Condição apenas para as regras do produto de Validação, Alerta e Seleção.</errorMessage>
+        <name>SBQQ__Ensure_rule_type_nested_level</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Há suporte para o nível de Ação apenas para as regras do produto de Seleção.</errorMessage>
+        <name>SBQQ__Ensure_rule_type_nested_level_actions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O Nível de pacote máximo com suporte é 1.</errorMessage>
+        <name>SBQQ__Ensure_supported_nested_level</name>
+    </validationRules>
+</CustomObjectTranslation>

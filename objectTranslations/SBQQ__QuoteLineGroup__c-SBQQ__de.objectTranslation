@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Gruppe von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Gruppen von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Gruppe von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Gruppen von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Gruppe von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Gruppen von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Gruppe von Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Gruppen von Angebotsbelegposten</value>
+    </caseValues>
+    <fieldSets>
+        <label>Belegposten-Editor</label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Account to which this Quote Line Group references. --></help>
+        <label>Account</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Gruppen von Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Default additional discount rate applied to line items in this group. --></help>
+        <label>Zusätzlicher Rabatt (%)</label>
+        <name>SBQQ__AdditionalDiscountRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label>Abrechnungshäufigkeit</label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total for this group&apos;s line items before any partner discounts are applied. --></help>
+        <label>Kundengesamtpreis</label>
+        <name>SBQQ__CustomerTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description for this group. --></help>
+        <label>Beschreibung</label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- End date for subscriptions in this group. --></help>
+        <label>Enddatum</label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Favorite to which this Quote Line Group belongs. --></help>
+        <label>Favorit</label>
+        <name>SBQQ__Favorite__c</name>
+        <relationshipLabel>Gruppen von Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Total for this group&apos;s line items before any discounts are applied. --></help>
+        <label>Listengesamtpreis</label>
+        <name>SBQQ__ListTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default markup rate applied to line items in this group. This will override the line item level. --></help>
+        <label>Aufschlag (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total for this group&apos;s line items after all discounts are applied. --></help>
+        <label>Netto gesamt</label>
+        <name>SBQQ__NetTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sort order of this group within its quote. --></help>
+        <label>Nummer</label>
+        <name>SBQQ__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marks the entire group as optional. --></help>
+        <label>Optional</label>
+        <name>SBQQ__Optional__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote process used with this group. Overrides the quote level field. --></help>
+        <label>Angebotsprozess</label>
+        <name>SBQQ__QuoteProcess__c</name>
+        <relationshipLabel>Gruppen von Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Quote to which this group belongs. --></help>
+        <label>Angebot</label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel>Gruppen von Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to generate a separate contract for subscriptions in this group. --></help>
+        <label>Separater Vertrag</label>
+        <name>SBQQ__SeparateContract__c</name>
+    </fields>
+    <fields>
+        <help><!-- Solution group from which this quote group was generated (if any). --></help>
+        <label>Lösungsgruppe</label>
+        <name>SBQQ__SolutionGroup__c</name>
+        <relationshipLabel>Gruppen von Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Source of cloned quote line group. --></help>
+        <label>Quelle</label>
+        <name>SBQQ__Source__c</name>
+        <relationshipLabel>Gruppen von Angebotsbelegposten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Start date for subscriptions in this group. --></help>
+        <label>Startdatum</label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription term used to prorate eligible products in this group. --></help>
+        <label>Abonnementlaufzeit</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter desired customer amount to automatically calculate additional discount on discountable line items. --></help>
+        <label>Zielkundenbetrag</label>
+        <name>SBQQ__TargetCustomerAmount__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Gruppenname</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Als Abonnementlaufzeit muss eine positive Zahl angegeben werden.</errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <webLinks>
+        <label>Angebot berechnen</label>
+        <name>SBQQ__CalculateQuoteFromQuoteLineGroup</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Konfigurationsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Konfigurationsregeln</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Konfigurationsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Konfigurationsregeln</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Konfigurationsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Konfigurationsregeln</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Konfigurationsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Konfigurationsregeln</value>
+    </caseValues>
+    <fields>
+        <help><!-- Indicates whether this rule should be used in validating configurations. --></help>
+        <label>Aktiv</label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include parent bundle configuration with the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules. --></help>
+        <label>Bedingungsebene Übergeordnetes Paket</label>
+        <name>SBQQ__AscendingNestedLevel__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Allow child bundle configurations up to the specified level to be targeted by this rule&apos;s actions when executing in the configurator for selection rules only. --></help>
+        <label>Aktionsebene Untergeordnetes Paket</label>
+        <name>SBQQ__DescendingActionNesting__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Include child bundle configurations to the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules. --></help>
+        <label>Bedingungsebene Untergeordnetes Paket</label>
+        <name>SBQQ__DescendingNestedLevel__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the product feature you want this rule to validate. --></help>
+        <label>Produktfunktion</label>
+        <name>SBQQ__ProductFeature__c</name>
+        <relationshipLabel>Konfigurationsregeln</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the product rule that contains the logic to validate your product configurations. --></help>
+        <label>Produktregel</label>
+        <name>SBQQ__ProductRule__c</name>
+        <relationshipLabel>Konfigurationsregeln</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the configured product you want this rule to validate. --></help>
+        <label>Produkt</label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel>Konfigurationsregeln</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify when this rule should be evaluated. --></help>
+        <label>Regelevaluierungsereignis</label>
+        <name>SBQQ__RuleEvaluationEvent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of product rule referenced by this configuration rule. --></help>
+        <label>Regeltyp</label>
+        <name>SBQQ__RuleType__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Regelnummer</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Die Bedingungsebene wird nur bei Validierungs-, Warn- und Auswahl-Produktregeln unterstützt.</errorMessage>
+        <name>SBQQ__Ensure_rule_type_nested_level</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die Aktionsebene wird nur bei Auswahl-Produktregeln unterstützt.</errorMessage>
+        <name>SBQQ__Ensure_rule_type_nested_level_actions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die maximal unterstützte Paketebene ist 1.</errorMessage>
+        <name>SBQQ__Ensure_supported_nested_level</name>
+    </validationRules>
+</CustomObjectTranslation>

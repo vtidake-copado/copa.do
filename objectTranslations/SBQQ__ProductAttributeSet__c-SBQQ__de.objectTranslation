@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Produktattributsatz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Produktattributsätze</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Produktattributsatz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Produktattributsätze</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Produktattributsatzes</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Produktattributsätze</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Produktattributsatz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Produktattributsätzen</value>
+    </caseValues>
+    <fields>
+        <label>Attributsätze</label>
+        <name>SBQQ__AttributeSet__c</name>
+        <relationshipLabel><!-- Product Attribute Sets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Konfigurierte SKU</label>
+        <name>SBQQ__ConfiguredSKU__c</name>
+    </fields>
+    <fields>
+        <label>Übergeordneter Produktname</label>
+        <name>SBQQ__ProductName__c</name>
+    </fields>
+    <fields>
+        <label>Name der Produktoption</label>
+        <name>SBQQ__ProductOptionName__c</name>
+    </fields>
+    <fields>
+        <label>Produktoption</label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel><!-- Product Attribute Sets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Abfolge</label>
+        <name>SBQQ__Sequence__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Produktattributsatz</nameFieldLabel>
+</CustomObjectTranslation>

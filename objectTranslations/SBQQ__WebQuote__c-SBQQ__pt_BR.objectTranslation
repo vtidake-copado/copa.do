@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cotação da Web</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cotações da Web</value>
+    </caseValues>
+    <fields>
+        <help><!-- Customer account for this quote. Defaults to the account for the opportunity when creating a quote. --></help>
+        <label>Conta</label>
+        <name>SBQQ__Account__c</name>
+        <relationshipLabel>Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Amount additionally discounted on this quote manually. --></help>
+        <label>Valor do desc. adic.</label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average customer discount (in percent) for this quote. --></help>
+        <label>Desc. médio do cliente (%)</label>
+        <name>SBQQ__AverageCustomerDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Average partner discount (in percent) for this quote. --></help>
+        <label>Desc. médio do parceiro (%)</label>
+        <name>SBQQ__AveragePartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates quantity in each batch if products are sold in batches. --></help>
+        <label>Quantidade do lote</label>
+        <name>SBQQ__BatchQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- City of the Bill To address for this quote. --></help>
+        <label>Cidade à qual faturar</label>
+        <name>SBQQ__BillingCity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country of the Bill To address for this quote. --></help>
+        <label>País ao qual faturar</label>
+        <name>SBQQ__BillingCountry__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name for the Bill To address. --></help>
+        <label>Nome ao qual faturar</label>
+        <name>SBQQ__BillingName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal Code of the Bill To address for this quote. --></help>
+        <label>Código postal ao qual faturar</label>
+        <name>SBQQ__BillingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- State/Province of the Bill To address for this quote. --></help>
+        <label>Estado ao qual faturar</label>
+        <name>SBQQ__BillingState__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street portion of the billing address for this quote. --></help>
+        <label>Rua à qual faturar</label>
+        <name>SBQQ__BillingStreet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Roll up summary of the Customer Amount. --></help>
+        <label>Valor do cliente</label>
+        <name>SBQQ__CustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional discount extended to the customer on this quote. You&apos;ll be able to override this value at individual line item level. Any line items that don&apos;t have additional discount explicitly specified will default to this value. --></help>
+        <label>Desc. adicional (%)</label>
+        <name>SBQQ__CustomerDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days the quote has been open. --></help>
+        <label>Dias de cotação aberta</label>
+        <name>SBQQ__DaysQuoteOpen__c</name>
+    </fields>
+    <fields>
+        <help><!-- Template that should be used with this quote. Salesforce CPQ will use this value to default template selection on &quot;Generate Document&quot; screen. --></help>
+        <label>Modelo padrão</label>
+        <name>SBQQ__DefaultTemplate__c</name>
+        <relationshipLabel>Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Method used to deliver products in this quote. --></help>
+        <label>Método de entrega</label>
+        <name>SBQQ__DeliveryMethod__c</name>
+        <picklistValues>
+            <masterLabel>Download</masterLabel>
+            <translation><!-- Download --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship</masterLabel>
+            <translation><!-- Ship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Distributor discount that applies to this quote unless overridden on line item level. --></help>
+        <label>Desconto de distribuidor</label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- ID of the Document record which contains the generated document. --></help>
+        <label>ID do documento</label>
+        <name>SBQQ__DocumentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you have a specific email template to use for documents generated and emailed from this quote, enter the email template ID here. --></help>
+        <label>ID do modelo de email</label>
+        <name>SBQQ__EmailTemplateId__c</name>
+    </fields>
+    <fields>
+        <help><!-- End date for subscriptions in this group. --></help>
+        <label>Data final</label>
+        <name>SBQQ__EndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date after which the Quote is no longer valid. --></help>
+        <label>Expira em</label>
+        <name>SBQQ__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used with multi-segment Products to prorate first segment. --></help>
+        <label>Data final do termo do primeiro segmento</label>
+        <name>SBQQ__FirstSegmentTermEndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Introduction that can be printed on the generated PDF document. --></help>
+        <label>Introdução</label>
+        <name>SBQQ__Introduction__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of line items in this quote. --></help>
+        <label>Contagem de itens de linha</label>
+        <name>SBQQ__LineItemCount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total List Amount of each non-optional line item in this quote. --></help>
+        <label>Valor de lista</label>
+        <name>SBQQ__ListAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default markup rate applied to line items on this quote. You&apos;ll be able to override this value on group and line item level. --></help>
+        <label>Aumento (%)</label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Master contract with which subscription products in this quote are to be co-terminated. --></help>
+        <label>Contrato mestre</label>
+        <name>SBQQ__MasterContract__c</name>
+        <relationshipLabel>Cotações encerradas de modo combinado</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Total Net Amount of each non-optional line item in this quote. --></help>
+        <label>Valor líquido</label>
+        <name>SBQQ__NetAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Notes printed on the generated PDF document. --></help>
+        <label>Observações</label>
+        <name>SBQQ__Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity being quoted. --></help>
+        <label>Oportunidade</label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel>Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this Quote record represents an Amend Re-Quote, use this field to link back to the original quote. --></help>
+        <label>Cotação original</label>
+        <name>SBQQ__OriginalQuote__c</name>
+        <relationshipLabel>WebAmend: novas cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Discount extended to partner on this opportunity. --></help>
+        <label>Desconto de parceiro</label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Terms that govern payment of the items in this quote. --></help>
+        <label>Condições de pagamento</label>
+        <name>SBQQ__PaymentTerms__c</name>
+        <picklistValues>
+            <masterLabel>Due on receipt</masterLabel>
+            <translation><!-- Due on receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 15</masterLabel>
+            <translation><!-- Net 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30</masterLabel>
+            <translation><!-- Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45</masterLabel>
+            <translation><!-- Net 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60</masterLabel>
+            <translation><!-- Net 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90</masterLabel>
+            <translation><!-- Net 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Price Book associated with this web quote. --></help>
+        <label>Catálogo de preços</label>
+        <name>SBQQ__PriceBook__c</name>
+        <relationshipLabel>Cotações da Web</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If this quote is not tied to an opportunity with a price book, this stores the price book ID for the quote. --></help>
+        <label>ID do catálogo de preços</label>
+        <name>SBQQ__PricebookId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary contact for the quote. This person&apos;s name will appear on the generated quote document. --></help>
+        <label>Contato primário</label>
+        <name>SBQQ__PrimaryContact__c</name>
+        <relationshipLabel>Cotações</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Guided selling process ID to use with this quote, if any. --></help>
+        <label>ID do processo de cotação</label>
+        <name>SBQQ__QuoteProcessId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores a quote template ID if one is specified to use when generating quote PDF documents. --></help>
+        <label>ID do modelo de cotação</label>
+        <name>SBQQ__QuoteTemplateId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total amount of non-optional line times before additional discounts are applied. --></help>
+        <label>Valor regular</label>
+        <name>SBQQ__RegularAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales rep responsible for this quote if different from the user who owns the Quote record. --></help>
+        <label>Rep. de vendas</label>
+        <name>SBQQ__SalesRep__c</name>
+        <relationshipLabel><!-- Web Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this web quote is self service. --></help>
+        <label>Autoatendido</label>
+        <name>SBQQ__SelfServiced__c</name>
+    </fields>
+    <fields>
+        <help><!-- City on the Ship To address for this quote. --></help>
+        <label>Cidade à qual enviar</label>
+        <name>SBQQ__ShippingCity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country on the Ship To address for this quote. --></help>
+        <label>País ao qual enviar</label>
+        <name>SBQQ__ShippingCountry__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name on the Ship To address for this quote. --></help>
+        <label>Nome ao qual enviar</label>
+        <name>SBQQ__ShippingName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Postal Code on the Ship To address for this quote. --></help>
+        <label>Código postal ao qual enviar</label>
+        <name>SBQQ__ShippingPostalCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- State/Province on the Ship To address for this quote. --></help>
+        <label>Estado ao qual enviar</label>
+        <name>SBQQ__ShippingState__c</name>
+    </fields>
+    <fields>
+        <help><!-- Street on the Ship To address for this quote. --></help>
+        <label>Rua à qual enviar</label>
+        <name>SBQQ__ShippingStreet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status of electronic signature. --></help>
+        <label>Status da assinatura</label>
+        <name>SBQQ__SignatureStatus__c</name>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revoked</masterLabel>
+            <translation><!-- Revoked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signed</masterLabel>
+            <translation><!-- Signed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Start date for subscriptions in this quote. --></help>
+        <label>Data inicial</label>
+        <name>SBQQ__StartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status indicating where quote is in its lifecycle. --></help>
+        <label>Status</label>
+        <name>SBQQ__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presented</masterLabel>
+            <translation><!-- Presented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Subscription term used to prorate eligible products. --></help>
+        <label>Termo da assinatura</label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter desired customer amount to automatically calculate additional discount on discountable line items. --></help>
+        <label>Valor do cliente de destino</label>
+        <name>SBQQ__TargetCustomerAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total amount of customer discount. This includes any contracted, volume, compound rate and additional discounts. --></help>
+        <label>Valor total do desc. do cliente</label>
+        <name>SBQQ__TotalCustomerDiscountAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of quote. --></help>
+        <label>Tipo</label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Amendment</masterLabel>
+            <translation><!-- Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation><!-- Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Quote</masterLabel>
+            <translation><!-- Re-Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to display watermark in the Quote Document. --></help>
+        <label>Marca d&apos;água mostrada</label>
+        <name>SBQQ__WatermarkShown__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da cotação</nameFieldLabel>
+    <validationRules>
+        <errorMessage>A Data final do termo do primeiro segmento deve ficar entre a Data inicial da cotação e a Data final da cotação</errorMessage>
+        <name>SBQQ__Invalid_First_Segment_Term_End_Date_WQ</name>
+    </validationRules>
+    <webLinks>
+        <label>Editar linhas</label>
+        <name>SBQQ__Edit_Lines</name>
+    </webLinks>
+    <webLinks>
+        <label>Gerar documento</label>
+        <name>SBQQ__GenerateDocument</name>
+    </webLinks>
+    <webLinks>
+        <label>Atualizar preços</label>
+        <name>SBQQ__RefreshMultiplePrices</name>
+    </webLinks>
+    <webLinks>
+        <label>Atualizar preços</label>
+        <name>SBQQ__RefreshPrices</name>
+    </webLinks>
+</CustomObjectTranslation>

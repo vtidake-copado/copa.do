@@ -15,6 +15,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -154,6 +168,9 @@
         <fullName>SubtotalChange</fullName>
     </fields>
     <fields>
+        <fullName>Subtype</fullName>
+    </fields>
+    <fields>
         <fullName>TotalAmount</fullName>
     </fields>
     <fields>
@@ -161,6 +178,9 @@
     </fields>
     <fields>
         <fullName>TotalCrossSellsAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDowngradesAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalDownsellsAmount</fullName>
@@ -181,10 +201,16 @@
         <fullName>TotalRenewalsAmount</fullName>
     </fields>
     <fields>
+        <fullName>TotalSwapsAmount</fullName>
+    </fields>
+    <fields>
         <fullName>TotalTermsAndConditionsAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalTransfersAmount</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalUpgradesAmount</fullName>
     </fields>
     <fields>
         <fullName>TotalUpsellsAmount</fullName>
@@ -200,11 +226,9 @@
     <searchLayouts>
         <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
         <customTabListAdditionalFields>Type</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Category</customTabListAdditionalFields>
         <customTabListAdditionalFields>CategoryEnum</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Category</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CategoryEnum</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
