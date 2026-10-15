@@ -1,8 +1,15 @@
 public class Calc {
     public Integer add(Integer a, Integer b) {
-        //Branch3 implementation
-        Integer total = a + b;
-        System.debug('Branch3 calculation');
-        return total;
+        //Dev-1 changes
+        Integer result = a + b;
+        System.debug('Dev-1 calculation');
+        // Dev-1 changes ends
+
+        // Dev-2 changes start
+        result = a + b;
+        System.debug('Dev-2 calculation');
+        // Dev-2 changes end
+
+        return result;
     }
 }
