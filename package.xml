@@ -5,7 +5,6 @@
         <name>AiAgentDefinition</name>
     </types>
     <types>
-        <members>CopaEmployee#1</members>
         <members>CopaEmployee#2</members>
         <name>AiAgentDefinitionVersion</name>
     </types>
