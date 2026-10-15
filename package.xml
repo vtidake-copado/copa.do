@@ -9,5 +9,9 @@
         <members>CopaEmployee#2</members>
         <name>AiAgentDefinitionVersion</name>
     </types>
+    <types>
+        <members>CopaEmployee</members>
+        <name>AiAuthoringBundle</name>
+    </types>
     <version>68.0</version>
 </Package>
