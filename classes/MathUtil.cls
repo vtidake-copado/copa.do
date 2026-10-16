@@ -15,4 +15,8 @@ public class MathUtil {
     public static Integer subtract(Integer a, Integer b) {
         return a - b;
     }
+    // US-0633180 test 2
+    public static Integer divide(Integer a, Integer b) {
+        return a / b;
+    }
 }
